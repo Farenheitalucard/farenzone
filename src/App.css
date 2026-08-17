@@ -1326,8 +1326,13 @@
     gap: 20px;
   }
 
+  .game-detail-info {
+    order: 1;
+  }
+
   .game-detail-cover {
     position: static;
+    order: 2;
   }
 
   .game-detail-cover .cover {
