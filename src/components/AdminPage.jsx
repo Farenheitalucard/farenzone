@@ -120,11 +120,17 @@ export function AdminPage() {
         },
         body: JSON.stringify({ games: next }),
       })
-      if (!res.ok) throw new Error('put failed')
+      if (!res.ok) {
+        let detail = ''
+        try { detail = await res.text() } catch {}
+        console.error('PUT /api/games failed:', res.status, detail)
+        throw new Error(`put failed: ${res.status}`)
+      }
       const data = await res.json()
       setGames(data.games)
       setMsg(t.admin.saved)
-    } catch {
+    } catch (e) {
+      console.error('saveAll error:', e)
       setMsg(t.admin.error)
     } finally {
       setSaving(false)
@@ -143,7 +149,7 @@ export function AdminPage() {
   }
 
   function slugify(str) {
-    return str
+    return (str || '')
       .toLowerCase()
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
@@ -158,8 +164,8 @@ export function AdminPage() {
       .map((s) => (typeof s === 'string' ? s.trim() : ''))
       .filter(Boolean)
     const links = (d.download?.links || [])
-      .filter((l) => l.label.trim() && l.url.trim())
-      .map((l) => ({ label: l.label.trim(), url: l.url.trim(), color: l.color }))
+      .filter((l) => l.label?.trim() && l.url?.trim())
+      .map((l) => ({ label: l.label.trim(), url: l.url.trim(), color: l.color || 'blue' }))
     const dl = d.download || {}
     const hasDownload =
       links.length > 0 ||
@@ -170,29 +176,30 @@ export function AdminPage() {
       dl.fw ||
       dl.languages ||
       dl.thanks
+    const desc = d.description || {}
     const game = {
-      id: ensureUniqueId(slugify(d.id) || slugify(d.title), d._origId),
-      console: d.console,
-      title: d.title.trim(),
-      genre: d.genre.trim(),
-      developer: d.developer.trim(),
-      publisher: d.publisher.trim(),
+      id: ensureUniqueId(slugify(d.id || '') || slugify(d.title || ''), d._origId),
+      console: d.console || 'switch',
+      title: (d.title || '').trim(),
+      genre: (d.genre || '').trim(),
+      developer: (d.developer || '').trim(),
+      publisher: (d.publisher || '').trim(),
       year: d.year === '' || d.year == null ? null : Number(d.year),
       rating: d.rating === '' || d.rating == null ? null : Number(d.rating),
       players: (d.players || '').trim(),
-      color: d.color.trim() || '#7c5cff',
-      cover: d.cover.trim(),
-      trailer: d.trailer.trim(),
+      color: (d.color || '').trim() || '#7c5cff',
+      cover: (d.cover || '').trim(),
+      trailer: (d.trailer || '').trim(),
       screenshots,
-      description: { es: d.description.es.trim(), en: d.description.en.trim() },
+      description: { es: (desc.es || '').trim(), en: (desc.en || '').trim() },
       download: hasDownload
         ? {
-            region: dl.region.trim(),
-            size: dl.size.trim(),
-            format: dl.format.trim(),
-            update: dl.update.trim(),
-            fw: dl.fw.trim(),
-            languages: dl.languages.trim(),
+            region: (dl.region || '').trim(),
+            size: (dl.size || '').trim(),
+            format: (dl.format || '').trim(),
+            update: (dl.update || '').trim(),
+            fw: (dl.fw || '').trim(),
+            languages: (dl.languages || '').trim(),
             thanks: (dl.thanks || '').trim(),
             links,
           }
@@ -204,7 +211,7 @@ export function AdminPage() {
   function onSave(e) {
     e.preventDefault()
     try {
-      if (!draft || !draft.title.trim()) return
+      if (!draft || !draft.title?.trim()) return
       const game = buildFromDraft()
       const next = draft._origId
         ? games.map((g) => (g.id === draft._origId ? game : g))
@@ -212,11 +219,9 @@ export function AdminPage() {
       saveAll(next).then(() => {
         setDraft(null)
         if (editParam) setSearchParams({}, { replace: true })
-      }).catch(() => {
-        setMsg(t.admin.error)
       })
     } catch (err) {
-      console.error('buildFromDraft failed:', err)
+      console.error('onSave failed:', err)
       setMsg(t.admin.error)
     }
   }
@@ -233,7 +238,7 @@ export function AdminPage() {
       ...g,
       id: g.id,
       screenshots: [...(g.screenshots || [])],
-      description: { ...g.description },
+      description: { es: g.description?.es || '', en: g.description?.en || '' },
       download: g.download
         ? {
             ...g.download,
@@ -251,7 +256,7 @@ export function AdminPage() {
 
   function setField(path, value) {
     setDraft((d) => {
-      const next = { ...d }
+      const next = JSON.parse(JSON.stringify(d))
       const parts = path.split('.')
       let obj = next
       for (let i = 0; i < parts.length - 1; i += 1) {
@@ -700,7 +705,7 @@ export function AdminPage() {
                   {t.admin.descriptionEs}
                   <textarea
                     rows="4"
-                    value={draft.description.es}
+                    value={draft.description?.es || ''}
                     onChange={(e) => setField('description.es', e.target.value)}
                   />
                 </label>
@@ -708,7 +713,7 @@ export function AdminPage() {
                   {t.admin.descriptionEn}
                   <textarea
                     rows="4"
-                    value={draft.description.en}
+                    value={draft.description?.en || ''}
                     onChange={(e) => setField('description.en', e.target.value)}
                   />
                 </label>
