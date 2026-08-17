@@ -2007,10 +2007,6 @@
 /* ---- Responsive navbar ---- */
 
 @media (max-width: 1024px) {
-  .navbar-brand .telegram-link {
-    display: none;
-  }
-
   .search-box {
     width: 170px;
   }
