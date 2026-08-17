@@ -8,7 +8,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2017,
     rating: 97,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2b8a3e',
     cover: 'https://art.gametdb.com/switch/box/US/AAAAA.png',
     screenshots: [
@@ -44,7 +45,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2017,
     rating: 97,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#d02a3f',
     cover: 'https://art.gametdb.com/switch/box/US/AAACA.png',
     screenshots: [
@@ -67,7 +69,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2017,
     rating: 92,
-    players: '1-4 jugadores local, 1-12 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#e6a000',
     cover: 'https://art.gametdb.com/switch/box/US/AABPA.png',
     screenshots: [
@@ -90,7 +93,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2020,
     rating: 90,
-    players: '1-4 local, 1-8 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#2f8f5b',
     cover: 'https://art.gametdb.com/switch/box/US/ACBAA.png',
     screenshots: [
@@ -113,7 +117,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2018,
     rating: 93,
-    players: '1-8 local, 1-8 online',
+    players: '1-8',
+    cooperativo: 'Local y online',
     color: '#7b5ea7',
     cover: 'https://art.gametdb.com/switch/box/US/AAABA.png',
     screenshots: [
@@ -136,7 +141,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2023,
     rating: 96,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f7d8a',
     cover: 'https://art.gametdb.com/switch/box/US/AXN7A.png',
     screenshots: [
@@ -159,7 +165,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2019,
     rating: 80,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#c0404d',
     cover: 'https://art.gametdb.com/switch/box/US/ALZ21.png',
     screenshots: [
@@ -182,7 +189,8 @@ export const games = [
     publisher: 'Nintendo / The Pokémon Company',
     year: 2022,
     rating: 72,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#c4553a',
     cover: 'https://art.gametdb.com/switch/box/US/ALZXA.png',
     screenshots: [
@@ -205,7 +213,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2018,
     rating: 76,
-    players: '1-4 local',
+    players: '1-4',
+    cooperativo: 'Local',
     color: '#d98a1f',
     cover: 'https://art.gametdb.com/switch/box/US/A7HLA.png',
     screenshots: [
@@ -228,7 +237,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2023,
     rating: 92,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#c2407a',
     cover: 'https://art.gametdb.com/switch/box/US/AQMXA.png',
     screenshots: [
@@ -251,7 +261,8 @@ export const games = [
     publisher: 'Nintendo / The Pokémon Company',
     year: 2022,
     rating: 83,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#4a7a9e',
     cover: 'https://art.gametdb.com/switch/box/US/AW7KA.png',
     screenshots: [
@@ -274,7 +285,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2022,
     rating: 83,
-    players: '1-4 local, 1-8 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#e6457c',
     cover: 'https://art.gametdb.com/switch/box/US/AV5JA.png',
     screenshots: [
@@ -297,7 +309,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2020,
     rating: 82,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#c9203a',
     cover: 'https://art.gametdb.com/switch/box/US/AVP3A.png',
     screenshots: [
@@ -320,7 +333,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2019,
     rating: 86,
-    players: '1-2 local, 1-8 online',
+    players: '1-2',
+    cooperativo: 'Local y online',
     color: '#5a6e8f',
     cover: 'https://art.gametdb.com/switch/box/US/AG3JA.png',
     screenshots: [
@@ -343,7 +357,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2019,
     rating: 88,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#e07b1f',
     cover: 'https://art.gametdb.com/switch/box/US/BAAQA.png',
     screenshots: [
@@ -366,7 +381,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2017,
     rating: 83,
-    players: '1-4 local, 1-8 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#d84a5c',
     cover: 'https://art.gametdb.com/switch/box/US/AAB62.png',
     screenshots: [
@@ -389,7 +405,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2022,
     rating: 85,
-    players: '1-2 local',
+    players: '1-2',
+    cooperativo: 'Local',
     color: '#d95aa0',
     cover: 'https://art.gametdb.com/switch/box/US/ARZGA.png',
     screenshots: [
@@ -412,7 +429,8 @@ export const games = [
     publisher: 'Nintendo / The Pokémon Company',
     year: 2021,
     rating: 73,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#3a6fd8',
     cover: 'https://art.gametdb.com/switch/box/US/AX7QA.png',
     screenshots: [
@@ -435,7 +453,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2021,
     rating: 80,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#e0a11f',
     cover: 'https://art.gametdb.com/switch/box/US/AZ82A.png',
     screenshots: [
@@ -458,7 +477,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2019,
     rating: 80,
-    players: '1-4 local',
+    players: '1-4',
+    cooperativo: 'Local',
     color: '#2f9e77',
     cover: 'https://art.gametdb.com/switch/box/US/ADALA.png',
     screenshots: [
@@ -481,7 +501,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2021,
     rating: 89,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#d8323a',
     cover: 'https://art.gametdb.com/switch/box/US/AUZPA.png',
     screenshots: [
@@ -504,7 +525,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2022,
     rating: 71,
-    players: '1-4 local, 1-4 online',
+    players: '1-4',
+    cooperativo: 'Local y online',
     color: '#e04a2f',
     cover: 'https://art.gametdb.com/switch/box/US/AS8SA.png',
     screenshots: [
@@ -527,7 +549,8 @@ export const games = [
     publisher: 'Nintendo',
     year: 2019,
     rating: 87,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3f9e4a',
     cover: 'https://art.gametdb.com/switch/box/US/AR3N1.png',
     screenshots: [
@@ -574,7 +597,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2018,
     rating: 94,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3f6fa5',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/52805-1.jpg',
     screenshots: [
@@ -597,7 +621,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2018,
     rating: 87,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#c1121f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/54488-1.jpg',
     screenshots: [
@@ -620,7 +645,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2017,
     rating: 89,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#c96f1f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/29523-1.jpg',
     screenshots: [
@@ -643,7 +669,8 @@ export const games = [
     publisher: 'Rockstar Games',
     year: 2018,
     rating: 97,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#7a3b2e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/55247-1.jpg',
     description: {
@@ -660,7 +687,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2020,
     rating: 93,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5c3e2a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/55731-1.jpg',
     description: {
@@ -677,7 +705,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2016,
     rating: 93,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2c6e9e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/21416-1.jpg',
     description: {
@@ -694,7 +723,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2015,
     rating: 92,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f4a5c',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/20960-1.jpg',
     description: {
@@ -711,7 +741,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2020,
     rating: 83,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5a4a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/55760-1.jpg',
     description: {
@@ -728,7 +759,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2019,
     rating: 71,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#6e5c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/38442-1.jpg',
     description: {
@@ -745,7 +777,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2018,
     rating: 78,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a5a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/48142-1.jpg',
     description: {
@@ -762,7 +795,8 @@ export const games = [
     publisher: 'CD Projekt',
     year: 2015,
     rating: 92,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f3a2e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/16489-1.jpg',
     description: {
@@ -779,7 +813,8 @@ export const games = [
     publisher: 'Atlus USA',
     year: 2020,
     rating: 95,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#c02a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/64814-1.jpg',
     description: {
@@ -796,7 +831,8 @@ export const games = [
     publisher: 'Square Enix',
     year: 2020,
     rating: 89,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f6e5c',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/29221-1.jpg',
     description: {
@@ -813,7 +849,8 @@ export const games = [
     publisher: 'Activision',
     year: 2017,
     rating: 80,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#c98f1f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/43904-1.jpg',
     description: {
@@ -830,7 +867,8 @@ export const games = [
     publisher: 'Capcom',
     year: 2018,
     rating: 90,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f6e2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/52679-1.jpg',
     description: {
@@ -847,7 +885,8 @@ export const games = [
     publisher: 'Activision',
     year: 2019,
     rating: 90,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a3a5a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/60138-1.jpg',
     description: {
@@ -864,7 +903,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2019,
     rating: 82,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5a5a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/38113-1.jpg',
     description: {
@@ -881,7 +921,8 @@ export const games = [
     publisher: 'CD Projekt',
     year: 2020,
     rating: 57,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#d8a01f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/22722-1.jpg',
     description: {
@@ -898,7 +939,8 @@ export const games = [
     publisher: 'Rockstar Games',
     year: 2014,
     rating: 97,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#a67c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/20954-1.jpg',
     description: {
@@ -915,7 +957,8 @@ export const games = [
     publisher: 'Mojang',
     year: 2014,
     rating: 89,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#4a8f3e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/23313-1.jpg',
     description: {
@@ -932,7 +975,8 @@ export const games = [
     publisher: 'Ubisoft',
     year: 2018,
     rating: 83,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#4a6e9e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/60145-1.jpg',
     description: {
@@ -949,7 +993,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2016,
     rating: 85,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#c05a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/29275-1.jpg',
     description: {
@@ -966,7 +1011,8 @@ export const games = [
     publisher: 'Sony Interactive Entertainment',
     year: 2017,
     rating: 75,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f5c8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/50108-1.jpg',
     description: {
@@ -983,7 +1029,8 @@ export const games = [
     publisher: 'Square Enix',
     year: 2025,
     rating: 89,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#c8a04a',
     cover: 'https://image.api.playstation.com/vulcan/ap/rnd/202505/2109/6eb9221ab73f97643997949976e2e13f374ed79e4e244060.png',
     screenshots: [
@@ -1030,7 +1077,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2013,
     rating: 95,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#7a5c3e',
     cover: 'https://art.gametdb.com/ps3/cover/EN/BCES01584.jpg',
     screenshots: [
@@ -1053,7 +1101,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2009,
     rating: 96,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2c4f8a',
     cover: 'https://art.gametdb.com/ps3/cover/EN/BCES00509.jpg',
     screenshots: [
@@ -1075,7 +1124,8 @@ export const games = [
     publisher: 'Rockstar Games',
     year: 2013,
     rating: 97,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#a67c00',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS31156.jpg',
     screenshots: [
@@ -1098,7 +1148,8 @@ export const games = [
     publisher: 'Activision',
     year: 2010,
     rating: 87,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f3a4a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30591.jpg',
     description: {
@@ -1115,7 +1166,8 @@ export const games = [
     publisher: 'Activision',
     year: 2011,
     rating: 88,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a5a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30887.jpg',
     description: {
@@ -1132,7 +1184,8 @@ export const games = [
     publisher: 'Activision',
     year: 2012,
     rating: 83,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#4a3a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS31140.jpg',
     description: {
@@ -1149,7 +1202,8 @@ export const games = [
     publisher: 'Activision',
     year: 2009,
     rating: 94,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a4a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30377.jpg',
     description: {
@@ -1166,7 +1220,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2010,
     rating: 92,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f2f2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98111.jpg',
     description: {
@@ -1183,7 +1238,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2010,
     rating: 84,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a6e8f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98114.jpg',
     description: {
@@ -1200,7 +1256,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2013,
     rating: 82,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f5a7a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98296.jpg',
     description: {
@@ -1217,7 +1274,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2011,
     rating: 92,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#6e5c3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS90675.jpg',
     description: {
@@ -1234,7 +1292,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2007,
     rating: 88,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5c4a3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98103.jpg',
     description: {
@@ -1251,7 +1310,8 @@ export const games = [
     publisher: 'Konami',
     year: 2008,
     rating: 94,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f2f3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30109.jpg',
     description: {
@@ -1268,7 +1328,8 @@ export const games = [
     publisher: 'Rockstar Games',
     year: 2010,
     rating: 95,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#6e4a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30418.jpg',
     description: {
@@ -1285,7 +1346,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2010,
     rating: 87,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5c5c8f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98280.jpg',
     description: {
@@ -1302,7 +1364,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2008,
     rating: 95,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#a85c2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98148.jpg',
     description: {
@@ -1319,7 +1382,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2011,
     rating: 83,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#4a5c8f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98125.jpg',
     description: {
@@ -1336,7 +1400,8 @@ export const games = [
     publisher: 'Sony Computer Entertainment',
     year: 2011,
     rating: 84,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a3a5c',
     cover: 'https://art.gametdb.com/ps3/cover/EN/BCES01007.jpg',
     description: {
@@ -1353,7 +1418,8 @@ export const games = [
     publisher: 'Electronic Arts',
     year: 2011,
     rating: 84,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f4a3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30762.jpg',
     description: {
@@ -1370,7 +1436,8 @@ export const games = [
     publisher: 'Ubisoft',
     year: 2012,
     rating: 91,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f8f5c',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30687.jpg',
     description: {
@@ -1387,7 +1454,8 @@ export const games = [
     publisher: 'Namco Bandai Games',
     year: 2011,
     rating: 89,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f2f3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30782.jpg',
     description: {
@@ -1404,7 +1472,8 @@ export const games = [
     publisher: 'Capcom',
     year: 2009,
     rating: 84,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5c3a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30270.jpg',
     description: {
@@ -1421,7 +1490,8 @@ export const games = [
     publisher: 'Ubisoft',
     year: 2009,
     rating: 91,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#7a2f3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30364.jpg',
     description: {
@@ -1438,7 +1508,8 @@ export const games = [
     publisher: 'Microsoft Game Studios',
     year: 2007,
     rating: 94,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a7d44',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/90-1.jpg',
     screenshots: [
@@ -1459,7 +1530,8 @@ export const games = [
     publisher: 'Microsoft Game Studios',
     year: 2008,
     rating: 93,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8a3a2b',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/24-1.jpg',
     screenshots: [
@@ -1482,7 +1554,8 @@ export const games = [
     publisher: 'Rockstar Games',
     year: 2010,
     rating: 95,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#7a4a2b',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/191-1.jpg',
     screenshots: [
@@ -1505,7 +1578,8 @@ export const games = [
     publisher: 'Microsoft Game Studios',
     year: 2010,
     rating: 91,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f5c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/638-1.jpg',
     description: {
@@ -1522,7 +1596,8 @@ export const games = [
     publisher: 'Microsoft Studios',
     year: 2012,
     rating: 87,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f8f7a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/3597-1.jpg',
     description: {
@@ -1539,7 +1614,8 @@ export const games = [
     publisher: 'Microsoft Game Studios',
     year: 2011,
     rating: 91,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#6e2f2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/935-1.jpg',
     description: {
@@ -1556,7 +1632,8 @@ export const games = [
     publisher: 'Microsoft Game Studios',
     year: 2006,
     rating: 94,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5c3a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/7481-1.jpg',
     description: {
@@ -1573,7 +1650,8 @@ export const games = [
     publisher: 'Activision',
     year: 2010,
     rating: 87,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a3a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/11740-1.jpg',
     description: {
@@ -1590,7 +1668,8 @@ export const games = [
     publisher: 'Activision',
     year: 2009,
     rating: 94,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f3a4a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/10914-1.jpg',
     description: {
@@ -1607,7 +1686,8 @@ export const games = [
     publisher: 'Activision',
     year: 2011,
     rating: 88,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a5a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8154-1.jpg',
     description: {
@@ -1624,7 +1704,8 @@ export const games = [
     publisher: 'Activision',
     year: 2012,
     rating: 83,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#4a3a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/9937-2.jpg',
     description: {
@@ -1641,7 +1722,8 @@ export const games = [
     publisher: 'Rockstar Games',
     year: 2013,
     rating: 97,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#a67c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/13353-1.jpg',
     description: {
@@ -1658,7 +1740,8 @@ export const games = [
     publisher: 'Bethesda Softworks',
     year: 2011,
     rating: 96,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3a5c8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8256-1.jpg',
     description: {
@@ -1675,7 +1758,8 @@ export const games = [
     publisher: 'Bethesda Softworks',
     year: 2008,
     rating: 93,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#5a6e2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8183-1.jpg',
     description: {
@@ -1692,7 +1776,8 @@ export const games = [
     publisher: 'Electronic Arts',
     year: 2010,
     rating: 96,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f6e8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/7536-1.jpg',
     description: {
@@ -1709,7 +1794,8 @@ export const games = [
     publisher: '2K Games',
     year: 2012,
     rating: 89,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f8f2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/9959-1.jpg',
     description: {
@@ -1726,7 +1812,8 @@ export const games = [
     publisher: '2K Games',
     year: 2013,
     rating: 94,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f8f5c',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/14409-1.jpg',
     description: {
@@ -1743,7 +1830,8 @@ export const games = [
     publisher: 'Microsoft Game Studios',
     year: 2009,
     rating: 92,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f4a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/838-1.jpg',
     description: {
@@ -1760,7 +1848,8 @@ export const games = [
     publisher: 'Microsoft Studios',
     year: 2012,
     rating: 91,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#8f4a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/11977-1.jpg',
     description: {
@@ -1777,7 +1866,8 @@ export const games = [
     publisher: 'Microsoft Studios',
     year: 2012,
     rating: 82,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#3e8f2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/17158-1.jpg',
     description: {
@@ -1794,7 +1884,8 @@ export const games = [
     publisher: 'Electronic Arts',
     year: 2011,
     rating: 84,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f4a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8856-1.jpg',
     description: {
@@ -1811,7 +1902,8 @@ export const games = [
     publisher: 'Ubisoft',
     year: 2009,
     rating: 90,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#7a2f3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/2762-1.jpg',
     description: {
@@ -1828,7 +1920,8 @@ export const games = [
     publisher: 'Microsoft Game Studios',
     year: 2009,
     rating: 83,
-    players: '1 Jugador',
+    players: '1',
+    cooperativo: 'No',
     color: '#2f3a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/193-1.jpg',
     description: {
