@@ -26,9 +26,7 @@ function blankGame() {
     publisher: '',
     year: null,
     rating: null,
-    playersTotal: '1',
-    playersLocal: '',
-    playersOnline: '',
+    players: '',
     color: '#7c5cff',
     cover: '',
     trailer: '',
@@ -45,22 +43,6 @@ function blankGame() {
       links: blankLinks(),
     },
   }
-}
-
-function parsePlayers(str) {
-  if (!str) return { total: '1', local: '', online: '' }
-  const s = str.trim()
-  const m = s.match(/^(\d+)\s*-\s*(?:(\d+)\s*local)?(?:,\s*)?(?:(\d+)\s*online)?$/i)
-  if (m) return { total: m[1], local: m[2] || '', online: m[3] || '' }
-  return { total: s, local: '', online: '' }
-}
-
-function buildPlayers(total, local, online) {
-  if (!total) return ''
-  const parts = []
-  if (local) parts.push(`${local} local`)
-  if (online) parts.push(`${online} online`)
-  return parts.length ? `${total} - ${parts.join(', ')}` : total
 }
 
 export function AdminPage() {
@@ -197,7 +179,7 @@ export function AdminPage() {
       publisher: d.publisher.trim(),
       year: d.year === '' || d.year == null ? null : Number(d.year),
       rating: d.rating === '' || d.rating == null ? null : Number(d.rating),
-      players: buildPlayers(d.playersTotal, d.playersLocal, d.playersOnline),
+      players: (d.players || '').trim(),
       color: d.color.trim() || '#7c5cff',
       cover: d.cover.trim(),
       trailer: d.trailer.trim(),
@@ -221,15 +203,22 @@ export function AdminPage() {
 
   function onSave(e) {
     e.preventDefault()
-    if (!draft.title.trim()) return
-    const game = buildFromDraft()
-    const next = draft._origId
-      ? games.map((g) => (g.id === draft._origId ? game : g))
-      : [...games, game]
-    saveAll(next).then(() => {
-      setDraft(null)
-      if (editParam) setSearchParams({}, { replace: true })
-    })
+    try {
+      if (!draft || !draft.title.trim()) return
+      const game = buildFromDraft()
+      const next = draft._origId
+        ? games.map((g) => (g.id === draft._origId ? game : g))
+        : [...games, game]
+      saveAll(next).then(() => {
+        setDraft(null)
+        if (editParam) setSearchParams({}, { replace: true })
+      }).catch(() => {
+        setMsg(t.admin.error)
+      })
+    } catch (err) {
+      console.error('buildFromDraft failed:', err)
+      setMsg(t.admin.error)
+    }
   }
 
   function onDelete(game) {
@@ -240,13 +229,9 @@ export function AdminPage() {
 
   function startEdit(g) {
     setMsg('')
-    const p = parsePlayers(g.players)
     setDraft({
       ...g,
       id: g.id,
-      playersTotal: p.total,
-      playersLocal: p.local,
-      playersOnline: p.online,
       screenshots: [...(g.screenshots || [])],
       description: { ...g.description },
       download: g.download
@@ -534,40 +519,12 @@ export function AdminPage() {
                 </label>
                 <label>
                   {t.admin.players}
-                  <div className="players-inputs">
-                    <select
-                      value={draft.playersTotal ?? '1'}
-                      onChange={(e) => setField('playersTotal', e.target.value)}
-                    >
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="6">6</option>
-                      <option value="7">7</option>
-                      <option value="8">8</option>
-                    </select>
-                    <span className="players-sep">—</span>
-                    <input
-                      type="number"
-                      min="0"
-                      max="8"
-                      placeholder={t.admin.playersLocal}
-                      value={draft.playersLocal ?? ''}
-                      onChange={(e) => setField('playersLocal', e.target.value)}
-                    />
-                    <span className="players-sep">local</span>
-                    <input
-                      type="number"
-                      min="0"
-                      max="8"
-                      placeholder={t.admin.playersOnline}
-                      value={draft.playersOnline ?? ''}
-                      onChange={(e) => setField('playersOnline', e.target.value)}
-                    />
-                    <span className="players-sep">online</span>
-                  </div>
+                  <input
+                    type="text"
+                    value={draft.players ?? ''}
+                    onChange={(e) => setField('players', e.target.value)}
+                    placeholder={t.admin.playersPlaceholder}
+                  />
                 </label>
                 <label>
                   {t.admin.color}

@@ -1621,40 +1621,6 @@
   cursor: pointer;
 }
 
-.players-inputs {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.players-inputs select,
-.players-inputs input {
-  width: auto;
-  min-width: 0;
-  padding: 9px 10px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg);
-  color: var(--text-strong);
-  font: inherit;
-  font-size: 14px;
-}
-
-.players-inputs select {
-  width: 60px;
-}
-
-.players-inputs input[type="number"] {
-  width: 56px;
-  text-align: center;
-}
-
-.players-sep {
-  font-size: 13px;
-  color: var(--text);
-  white-space: nowrap;
-}
-
 .admin-subtitle {
   margin: 14px 0 8px;
   font-size: 14px;
