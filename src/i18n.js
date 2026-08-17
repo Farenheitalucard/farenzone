@@ -47,6 +47,7 @@ export const translations = {
       players: 'Jugadores',
       cooperative: 'Cooperativo',
       screenshots: 'Capturas del juego',
+      related: 'También te puede interesar',
       backToConsole: 'Volver a',
       cover: 'Portada',
       download: 'Descarga',

@@ -7,6 +7,7 @@ import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
 import { ScreenshotGallery } from './ScreenshotGallery'
 import { DownloadInfo } from './DownloadInfo'
+import { RecommendedGames } from './RecommendedGames'
 
 export function GameDetail() {
   const { id } = useParams()
@@ -61,6 +62,7 @@ export function GameDetail() {
       <div className="game-detail">
         <div className="game-detail-cover">
           <DownloadInfo download={game.download} t={t} game={game} />
+          <RecommendedGames currentGame={game} />
         </div>
         <div className="game-detail-info">
           <Link

@@ -1165,6 +1165,38 @@
   }
 }
 
+.recommended-section {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.recommended-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.recommended-card .cover {
+  width: 100%;
+  max-width: none;
+}
+
+.recommended-card .game-title {
+  font-size: 11px;
+}
+
+.recommended-card .game-meta {
+  font-size: 10px;
+}
+
+@media (max-width: 640px) {
+  .recommended-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
 @media (max-width: 640px) {
   .navbar-inner {
     flex-wrap: wrap;
