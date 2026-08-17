@@ -1,0 +1,781 @@
+import { useEffect, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
+import { consoles, getConsole } from '../data/consoles'
+import { setGames, sortByTitle } from '../data/store'
+import { useGames } from '../hooks/useGames'
+import { useLanguage } from '../language-context'
+import { useAdmin } from '../admin-context'
+
+const linkColors = ['blue', 'green', 'brown']
+
+function blankLinks() {
+  return [
+    { label: 'Mediafire', url: '', color: 'blue' },
+    { label: 'Gdrive', url: '', color: 'green' },
+    { label: 'gofile', url: '', color: 'brown' },
+  ]
+}
+
+function blankGame() {
+  return {
+    id: '',
+    console: 'switch',
+    title: '',
+    genre: '',
+    developer: '',
+    publisher: '',
+    year: null,
+    rating: null,
+    color: '#7c5cff',
+    cover: '',
+    trailer: '',
+    screenshots: [],
+    description: { es: '', en: '' },
+    download: {
+      region: '',
+      size: '',
+      format: '',
+      update: '',
+      fw: '',
+      languages: '',
+      thanks: '',
+      links: blankLinks(),
+    },
+  }
+}
+
+export function AdminPage() {
+  const { t } = useLanguage()
+  const { token, isAdmin, checking, login, logout } = useAdmin()
+  const [searchParams, setSearchParams] = useSearchParams()
+  const games = useGames()
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [showPass, setShowPass] = useState(false)
+  const [logging, setLogging] = useState(false)
+  const [loginError, setLoginError] = useState(false)
+  const [query, setQuery] = useState('')
+  const [draft, setDraft] = useState(null)
+  const [saving, setSaving] = useState(false)
+  const [msg, setMsg] = useState('')
+  const autoEditRef = useRef(false)
+
+  const editParam = searchParams.get('edit')
+
+  useEffect(() => {
+    if (isAdmin && editParam && !autoEditRef.current) {
+      const g = games.find((x) => x.id === editParam)
+      if (g) {
+        startEdit(g)
+        autoEditRef.current = true
+      }
+    }
+  })
+
+  async function submitLogin(e) {
+    e.preventDefault()
+    setLoginError(false)
+    setLogging(true)
+    try {
+      const res = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email.trim(), password }),
+      })
+      if (res.ok) {
+        const data = await res.json()
+        login(data.token)
+      } else {
+        setLoginError(true)
+      }
+    } catch {
+      setLoginError(true)
+    } finally {
+      setLogging(false)
+    }
+  }
+
+  async function handleLogout() {
+    try {
+      await fetch('/api/admin/logout', {
+        method: 'POST',
+        headers: { 'x-admin-token': token },
+      })
+    } catch {
+      /* ignore */
+    }
+    logout()
+  }
+
+  async function saveAll(next) {
+    setSaving(true)
+    setMsg('')
+    try {
+      const res = await fetch('/api/games', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-admin-token': token,
+        },
+        body: JSON.stringify({ games: next }),
+      })
+      if (!res.ok) throw new Error('put failed')
+      const data = await res.json()
+      setGames(data.games)
+      setMsg(t.admin.saved)
+    } catch {
+      setMsg(t.admin.error)
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  function ensureUniqueId(id, originalId) {
+    let base = id || 'juego'
+    let candidate = base
+    let i = 2
+    while (games.some((g) => g.id === candidate && g.id !== originalId)) {
+      candidate = `${base}-${i}`
+      i += 1
+    }
+    return candidate
+  }
+
+  function slugify(str) {
+    return str
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .slice(0, 80)
+  }
+
+  function buildFromDraft() {
+    const d = draft
+    const screenshots = (d.screenshots || [])
+      .map((s) => (typeof s === 'string' ? s.trim() : ''))
+      .filter(Boolean)
+    const links = (d.download?.links || [])
+      .filter((l) => l.label.trim() && l.url.trim())
+      .map((l) => ({ label: l.label.trim(), url: l.url.trim(), color: l.color }))
+    const dl = d.download || {}
+    const hasDownload =
+      links.length > 0 ||
+      dl.region ||
+      dl.size ||
+      dl.format ||
+      dl.update ||
+      dl.fw ||
+      dl.languages ||
+      dl.thanks
+    const game = {
+      id: ensureUniqueId(slugify(d.id) || slugify(d.title), d._origId),
+      console: d.console,
+      title: d.title.trim(),
+      genre: d.genre.trim(),
+      developer: d.developer.trim(),
+      publisher: d.publisher.trim(),
+      year: d.year === '' || d.year == null ? null : Number(d.year),
+      rating: d.rating === '' || d.rating == null ? null : Number(d.rating),
+      players: (d.players || '').trim(),
+      color: d.color.trim() || '#7c5cff',
+      cover: d.cover.trim(),
+      trailer: d.trailer.trim(),
+      screenshots,
+      description: { es: d.description.es.trim(), en: d.description.en.trim() },
+      download: hasDownload
+        ? {
+            region: dl.region.trim(),
+            size: dl.size.trim(),
+            format: dl.format.trim(),
+            update: dl.update.trim(),
+            fw: dl.fw.trim(),
+            languages: dl.languages.trim(),
+            thanks: (dl.thanks || '').trim(),
+            links,
+          }
+        : null,
+    }
+    return game
+  }
+
+  function onSave(e) {
+    e.preventDefault()
+    if (!draft.title.trim()) return
+    const game = buildFromDraft()
+    const next = draft._origId
+      ? games.map((g) => (g.id === draft._origId ? game : g))
+      : [...games, game]
+    saveAll(next).then(() => {
+      setDraft(null)
+      if (editParam) setSearchParams({}, { replace: true })
+    })
+  }
+
+  function onDelete(game) {
+    if (!window.confirm(t.admin.confirmDelete)) return
+    const next = games.filter((g) => g.id !== game.id)
+    saveAll(next)
+  }
+
+  function startEdit(g) {
+    setMsg('')
+    setDraft({
+      ...g,
+      id: g.id,
+      screenshots: [...(g.screenshots || [])],
+      description: { ...g.description },
+      download: g.download
+        ? {
+            ...g.download,
+            links: (g.download.links || []).map((l) => ({ ...l })),
+          }
+        : blankGame().download,
+      _origId: g.id,
+    })
+  }
+
+  function startNew() {
+    setMsg('')
+    setDraft(blankGame())
+  }
+
+  function setField(path, value) {
+    setDraft((d) => {
+      const next = { ...d }
+      const parts = path.split('.')
+      let obj = next
+      for (let i = 0; i < parts.length - 1; i += 1) {
+        obj = obj[parts[i]]
+      }
+      obj[parts[parts.length - 1]] = value
+      return next
+    })
+  }
+
+  if (checking) {
+    return (
+      <main className="page">
+        <p className="not-found">…</p>
+      </main>
+    )
+  }
+
+  if (!isAdmin) {
+    return (
+      <main className="page">
+        <div className="admin-login-card">
+          <div className="admin-login-head">
+            <div className="admin-lock-icon">
+              <svg
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="3" y="11" width="18" height="11" rx="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+            </div>
+            <h1 className="admin-title">{t.admin.title}</h1>
+            <p className="admin-login-sub">{t.admin.loginSub}</p>
+          </div>
+
+          <form className="admin-login" onSubmit={submitLogin}>
+            <div className="admin-field">
+              <label htmlFor="admin-email">{t.admin.email}</label>
+              <div className="admin-input-wrap">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+                <input
+                  id="admin-email"
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  autoComplete="email"
+                  autoFocus
+                  required
+                />
+              </div>
+            </div>
+
+            <div className="admin-field">
+              <label htmlFor="admin-pass">{t.admin.password}</label>
+              <div className="admin-input-wrap">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="17"
+                  height="17"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4" />
+                </svg>
+                <input
+                  id="admin-pass"
+                  type={showPass ? 'text' : 'password'}
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  autoComplete="current-password"
+                  required
+                />
+                <button
+                  type="button"
+                  className="admin-eye"
+                  onClick={() => setShowPass((v) => !v)}
+                  tabIndex={-1}
+                  aria-label={t.admin.showPass}
+                >
+                  {showPass ? (
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="18"
+                      height="18"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94" />
+                      <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19" />
+                      <line x1="1" y1="1" x2="23" y2="23" />
+                    </svg>
+                  ) : (
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="18"
+                      height="18"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                      <circle cx="12" cy="12" r="3" />
+                    </svg>
+                  )}
+                </button>
+              </div>
+            </div>
+
+            {loginError && (
+              <div className="admin-error-banner" role="alert">
+                {t.admin.wrong}
+              </div>
+            )}
+
+            <button
+              type="submit"
+              className="admin-btn-primary admin-btn-block"
+              disabled={logging}
+            >
+              {logging ? t.admin.loading : t.admin.enter}
+            </button>
+          </form>
+        </div>
+      </main>
+    )
+  }
+
+  const q = query.trim().toLowerCase()
+  const filtered = sortByTitle(
+    q
+      ? games.filter((g) =>
+          `${g.title} ${g.genre} ${g.console} ${g.id}`.toLowerCase().includes(q),
+        )
+      : games,
+  )
+
+  return (
+    <main className="page">
+      <div className="admin">
+        <div className="admin-head">
+          <h1 className="admin-title">{t.admin.title}</h1>
+          <div className="admin-head-actions">
+            <button type="button" onClick={handleLogout}>
+              {t.admin.logout}
+            </button>
+          </div>
+        </div>
+
+        {msg && <p className="admin-msg">{msg}</p>}
+
+        {draft ? (
+          <form className="admin-form" onSubmit={onSave}>
+            <div className="admin-form-head">
+              <h2>{draft._origId ? t.admin.edit : t.admin.newGame}</h2>
+              <div>
+                <button type="button" onClick={() => setDraft(null)}>
+                  {t.admin.cancel}
+                </button>
+                <button type="submit" className="admin-btn-primary" disabled={saving}>
+                  {saving ? '…' : t.admin.save}
+                </button>
+              </div>
+            </div>
+
+            <fieldset className="admin-fs">
+              <legend>{t.admin.basicInfo}</legend>
+              <div className="admin-grid">
+                <label>
+                  {t.admin.console}
+                  <select
+                    value={draft.console}
+                    onChange={(e) => setField('console', e.target.value)}
+                  >
+                    {consoles.map((c) => (
+                      <option key={c.id} value={c.id}>
+                        {c.name}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label>
+                  {t.admin.id}
+                  <input
+                    value={draft.id}
+                    onChange={(e) => setField('id', e.target.value)}
+                    placeholder={slugify(draft.title)}
+                  />
+                </label>
+                <label className="admin-span2">
+                  {t.admin.fieldTitle}
+                  <input
+                    value={draft.title}
+                    onChange={(e) => setField('title', e.target.value)}
+                    required
+                  />
+                </label>
+                <label>
+                  {t.admin.genre}
+                  <input
+                    value={draft.genre}
+                    onChange={(e) => setField('genre', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.developer}
+                  <input
+                    value={draft.developer}
+                    onChange={(e) => setField('developer', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.publisher}
+                  <input
+                    value={draft.publisher}
+                    onChange={(e) => setField('publisher', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.year}
+                  <input
+                    type="number"
+                    value={draft.year ?? ''}
+                    onChange={(e) => setField('year', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.rating}
+                  <input
+                    type="number"
+                    value={draft.rating ?? ''}
+                    onChange={(e) => setField('rating', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.players}
+                  <select
+                    value={draft.players ?? ''}
+                    onChange={(e) => setField('players', e.target.value)}
+                  >
+                    <option value="">—</option>
+                    <option value="1">1</option>
+                    <option value="1-2">1-2</option>
+                    <option value="1-4">1-4</option>
+                    <option value="1-8">1-8</option>
+                    <option value="2-4">2-4</option>
+                    <option value="2-8">2-8</option>
+                    <option value="4-8">4-8</option>
+                    <option value="Online">Online</option>
+                    <option value="Co-op">Co-op</option>
+                    <option value="Single Player">Single Player</option>
+                  </select>
+                </label>
+                <label>
+                  {t.admin.color}
+                  <input
+                    type="color"
+                    value={draft.color}
+                    onChange={(e) => setField('color', e.target.value)}
+                  />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset className="admin-fs">
+              <legend>{t.admin.media}</legend>
+              <div className="admin-grid">
+                <label className="admin-span2">
+                  {t.admin.cover}
+                  <input
+                    value={draft.cover}
+                    onChange={(e) => setField('cover', e.target.value)}
+                  />
+                </label>
+                <label className="admin-span2">
+                  {t.admin.trailer}
+                  <input
+                    value={draft.trailer}
+                    onChange={(e) => setField('trailer', e.target.value)}
+                  />
+                </label>
+                <label className="admin-span2">
+                  {t.admin.screenshots}
+                  <textarea
+                    rows="4"
+                    value={draft.screenshots.join('\n')}
+                    onChange={(e) =>
+                      setField('screenshots', e.target.value.split('\n'))
+                    }
+                  />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset className="admin-fs">
+              <legend>{t.admin.download}</legend>
+              <div className="admin-grid">
+                <label>
+                  {t.admin.region}
+                  <input
+                    value={draft.download.region}
+                    onChange={(e) => setField('download.region', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.size}
+                  <input
+                    value={draft.download.size}
+                    onChange={(e) => setField('download.size', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.format}
+                  <input
+                    value={draft.download.format}
+                    onChange={(e) => setField('download.format', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.update}
+                  <input
+                    value={draft.download.update}
+                    onChange={(e) => setField('download.update', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.fw}
+                  <input
+                    value={draft.download.fw}
+                    onChange={(e) => setField('download.fw', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.languages}
+                  <input
+                    value={draft.download.languages}
+                    onChange={(e) =>
+                      setField('download.languages', e.target.value)
+                    }
+                  />
+                </label>
+                <label>
+                  {t.admin.thanks}
+                  <input
+                    value={draft.download.thanks}
+                    onChange={(e) =>
+                      setField('download.thanks', e.target.value)
+                    }
+                  />
+                </label>
+              </div>
+
+              <h3 className="admin-subtitle">{t.admin.links}</h3>
+              <div className="admin-links">
+                {draft.download.links.map((link, i) => (
+                  <div key={i} className="admin-link-row">
+                    <label>
+                      {t.admin.linkLabel}
+                      <input
+                        value={link.label}
+                        onChange={(e) =>
+                          setField(`download.links.${i}.label`, e.target.value)
+                        }
+                      />
+                    </label>
+                    <label>
+                      {t.admin.linkUrl}
+                      <input
+                        value={link.url}
+                        onChange={(e) =>
+                          setField(`download.links.${i}.url`, e.target.value)
+                        }
+                      />
+                    </label>
+                    <label>
+                      {t.admin.linkColor}
+                      <select
+                        value={link.color}
+                        onChange={(e) =>
+                          setField(`download.links.${i}.color`, e.target.value)
+                        }
+                      >
+                        {linkColors.map((c) => (
+                          <option key={c} value={c}>
+                            {c}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <button
+                      type="button"
+                      className="admin-link-remove"
+                      aria-label={t.admin.removeLink}
+                      title={t.admin.removeLink}
+                      onClick={() =>
+                        setField(
+                          'download.links',
+                          draft.download.links.filter((_, idx) => idx !== i),
+                        )
+                      }
+                    >
+                      ×
+                    </button>
+                  </div>
+                ))}
+              </div>
+              <button
+                type="button"
+                className="admin-btn-secondary"
+                onClick={() =>
+                  setField('download.links', [
+                    ...draft.download.links,
+                    { label: '', url: '', color: 'blue' },
+                  ])
+                }
+              >
+                + {t.admin.addLink}
+              </button>
+            </fieldset>
+
+            <fieldset className="admin-fs">
+              <legend>{t.admin.description}</legend>
+              <div className="admin-grid">
+                <label>
+                  {t.admin.descriptionEs}
+                  <textarea
+                    rows="4"
+                    value={draft.description.es}
+                    onChange={(e) => setField('description.es', e.target.value)}
+                  />
+                </label>
+                <label>
+                  {t.admin.descriptionEn}
+                  <textarea
+                    rows="4"
+                    value={draft.description.en}
+                    onChange={(e) => setField('description.en', e.target.value)}
+                  />
+                </label>
+              </div>
+            </fieldset>
+          </form>
+        ) : (
+          <>
+            <div className="admin-toolbar">
+              <input
+                className="admin-search"
+                type="search"
+                placeholder={t.admin.search}
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+              />
+              <button
+                type="button"
+                className="admin-btn-primary"
+                onClick={startNew}
+              >
+                {t.admin.newGame}
+              </button>
+            </div>
+
+            {filtered.length === 0 ? (
+              <p className="admin-empty">{t.admin.emptyList}</p>
+            ) : (
+              <ul className="admin-list">
+                {filtered.map((g) => {
+                  const c = getConsole(g.console)
+                  return (
+                    <li key={g.id} className="admin-row">
+                      <div className="admin-row-info">
+                        <span
+                          className="admin-tag"
+                          style={{ background: c?.color || '#666' }}
+                        >
+                          {g.console}
+                        </span>
+                        <div>
+                          <strong>{g.title}</strong>
+                          <span className="admin-row-id">{g.id}</span>
+                        </div>
+                      </div>
+                      <div className="admin-row-actions">
+                        <button type="button" onClick={() => startEdit(g)}>
+                          {t.admin.edit}
+                        </button>
+                        <button
+                          type="button"
+                          className="admin-btn-danger"
+                          onClick={() => onDelete(g)}
+                        >
+                          {t.admin.delete}
+                        </button>
+                      </div>
+                    </li>
+                  )
+                })}
+              </ul>
+            )}
+          </>
+        )}
+      </div>
+    </main>
+  )
+}
