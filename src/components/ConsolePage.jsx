@@ -26,7 +26,7 @@ export function ConsolePage() {
   const visible = games.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'instant' })
   }, [safePage])
 
   if (!consoleInfo) {

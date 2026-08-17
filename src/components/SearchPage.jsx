@@ -25,7 +25,7 @@ export function SearchPage() {
   const visible = results.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'instant' })
   }, [safePage])
 
   function goTo(p) {
