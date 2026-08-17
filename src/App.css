@@ -1382,16 +1382,61 @@
     padding: 5px 12px;
   }
 
-  .screenshot-gallery img {
-    max-height: 180px;
+  .screenshot-thumb {
+    width: 80px;
   }
 
-  .recommended-card .game-title {
-    font-size: 10px;
+  .screenshots-thumbs {
+    gap: 6px;
   }
 
-  .recommended-card .game-meta {
-    font-size: 9px;
+  .screenshots-main {
+    border-radius: 8px;
+  }
+
+  .download-links {
+    flex-direction: column;
+  }
+
+  .download-btn {
+    min-width: 100%;
+  }
+
+  .game-admin-bar {
+    flex-wrap: wrap;
+  }
+
+  .game-admin-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .game-description {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .game-fields {
+    gap: 0;
+  }
+
+  .game-field {
+    padding: 5px 0;
+  }
+
+  .recommended-section {
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+
+  .recommended-card {
+    padding: 8px 8px 10px;
+    gap: 4px;
+  }
+
+  .footer {
+    padding: 24px 0;
+    font-size: 12px;
   }
 }
 
