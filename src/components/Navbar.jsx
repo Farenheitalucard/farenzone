@@ -125,7 +125,7 @@ export function Navbar() {
                 <p className="search-empty">{t.nav.noResults}</p>
               ) : (
                 results.map((game) => {
-                  const consoleInfo = getConsole(game.console)
+                  const consoleInfo = getConsole(game.console) || { name: game.console || '?', color: '#888' }
                   return (
                     <Link
                       key={game.id}

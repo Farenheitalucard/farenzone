@@ -28,7 +28,7 @@ export function GameDetail() {
     )
   }
 
-  const consoleInfo = getConsole(game.console)
+  const consoleInfo = getConsole(game.console) || { name: game.console, color: '#888' }
 
   async function handleDelete() {
     if (!window.confirm(t.admin.confirmDelete)) return
@@ -84,7 +84,7 @@ export function GameDetail() {
             </div>
           )}
           <h1 className="game-detail-title">{game.title}</h1>
-          <p className="game-description">{game.description[lang]}</p>
+          <p className="game-description">{game.description?.[lang] || ''}</p>
 
           {game.screenshots && game.screenshots.length > 0 && (
             <>

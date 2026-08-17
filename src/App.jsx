@@ -11,6 +11,7 @@ import { SearchPage } from './components/SearchPage'
 import { GameDetail } from './components/GameDetail'
 import { AdminPage } from './components/AdminPage'
 import { loadGamesFromApi } from './data/store'
+import { ErrorBoundary } from './components/ErrorBoundary'
 import './App.css'
 
 function Footer() {
@@ -32,18 +33,20 @@ function App() {
       <AdminProvider>
         <LanguageProvider>
           <BrowserRouter>
-            <Navbar />
-            <div className="layout">
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/consola/:id" element={<ConsolePage />} />
-                <Route path="/buscar" element={<SearchPage />} />
-                <Route path="/juego/:id" element={<GameDetail />} />
-                <Route path="/admin" element={<AdminPage />} />
-                <Route path="*" element={<Home />} />
-              </Routes>
-              <Footer />
-            </div>
+            <ErrorBoundary>
+              <Navbar />
+              <div className="layout">
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/consola/:id" element={<ConsolePage />} />
+                  <Route path="/buscar" element={<SearchPage />} />
+                  <Route path="/juego/:id" element={<GameDetail />} />
+                  <Route path="/admin" element={<AdminPage />} />
+                  <Route path="*" element={<Home />} />
+                </Routes>
+                <Footer />
+              </div>
+            </ErrorBoundary>
           </BrowserRouter>
         </LanguageProvider>
       </AdminProvider>

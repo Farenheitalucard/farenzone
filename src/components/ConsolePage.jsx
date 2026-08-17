@@ -12,7 +12,7 @@ const PAGE_SIZE = 12
 export function ConsolePage() {
   const { id } = useParams()
   const { t } = useLanguage()
-  const consoleInfo = getConsole(id)
+  const consoleInfo = getConsole(id) || { name: id, fullName: id, color: '#888', gradient: 'linear-gradient(135deg, #888 0%, #444 100%)' }
   const allGames = useGames()
   const games = sortByTitle(allGames.filter((g) => g.console === id))
   const [pagination, setPagination] = useState({ id, page: 1 })
