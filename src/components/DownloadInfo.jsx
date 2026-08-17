@@ -28,7 +28,7 @@ export function DownloadInfo({ download, t, game }) {
           {rows.map((r) => (
             <div className="download-field" key={r.label}>
               <dt>{r.label}</dt>
-              <dd>{r.value}</dd>
+              <dd style={{ whiteSpace: 'pre-line' }}>{r.value}</dd>
             </div>
           ))}
         </dl>
