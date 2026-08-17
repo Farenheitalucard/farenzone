@@ -1,4 +1,4 @@
-﻿export const games = [
+export const games = [
   {
     id: 'zelda-botw',
     console: 'switch',
@@ -8,7 +8,7 @@
     publisher: 'Nintendo',
     year: 2017,
     rating: 97,
-    players: '1',
+    players: '1 Jugador',
     color: '#2b8a3e',
     cover: 'https://art.gametdb.com/switch/box/US/AAAAA.png',
     screenshots: [
@@ -44,7 +44,7 @@
     publisher: 'Nintendo',
     year: 2017,
     rating: 97,
-    players: '1',
+    players: '1 Jugador',
     color: '#d02a3f',
     cover: 'https://art.gametdb.com/switch/box/US/AAACA.png',
     screenshots: [
@@ -67,7 +67,7 @@
     publisher: 'Nintendo',
     year: 2017,
     rating: 92,
-    players: '1',
+    players: '1-4 jugadores local, 1-12 online',
     color: '#e6a000',
     cover: 'https://art.gametdb.com/switch/box/US/AABPA.png',
     screenshots: [
@@ -90,9 +90,15 @@
     publisher: 'Nintendo',
     year: 2020,
     rating: 90,
-    players: '1',
+    players: '1-4 local, 1-8 online',
     color: '#2f8f5b',
     cover: 'https://art.gametdb.com/switch/box/US/ACBAA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/0f7818c241ac1eadc1429bde3bf28ca51c91ebec22ac77aace94c27dac1befdb',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/340f6c4bc1d5d62bc1077bd1242c04d8b7be1d225aa23ed5ded865c480ccb07a',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/39be0e9b4315ba4f412924c3ec4021ad918af2b3f702d8cacc13e199bd4627f2',
+    ],
+    trailer: '_3YNL0OWio0',
     description: {
       es: 'Crea tu propia isla paradisíaca, decórala a tu gusto y convive con tus vecinos animales.',
       en: 'Build your own paradise island, decorate it to your liking and live with your animal neighbors.',
@@ -107,9 +113,15 @@
     publisher: 'Nintendo',
     year: 2018,
     rating: 93,
-    players: '1',
+    players: '1-8 local, 1-8 online',
     color: '#7b5ea7',
     cover: 'https://art.gametdb.com/switch/box/US/AAABA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/8b42e00012633320624f3894179b5d6bec44c255998a58ceb54e07bd352df171',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/245420c78ce40337bdca7ce9c2dd819bd4ae33b022da9b922c0710b8420b59dd',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/0a381c9a157deda7997e47a40ebedf5d6357daa54eadb8747c85535247b5966a',
+    ],
+    trailer: 'L93H7YC-83o',
     description: {
       es: 'Reúne a todos los personajes de Nintendo en el crossover de lucha definitivo.',
       en: 'Bring together every Nintendo character in the ultimate crossover fighting game.',
@@ -124,9 +136,15 @@
     publisher: 'Nintendo',
     year: 2023,
     rating: 96,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f7d8a',
     cover: 'https://art.gametdb.com/switch/box/US/AXN7A.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/ca80e4d9f7ddc2971daea8d9b9144c42dbdf2245c3546f41b94a740067bd42a0',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/05b3d8e8c74beaa43a7714c275a7ad06018ed069bd6bd3f923442b9ac16fdc49',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/490ccb15d914eabada74b34de895e9061c7917d7f75782bc934a528fb77ea4be',
+    ],
+    trailer: 'uHGShqcAHlQ',
     description: {
       es: 'Link explora Hyrule y sus cielos con nuevas habilidades para detener una amenaza ancestral.',
       en: 'Link explores Hyrule and the skies above with new abilities to stop an ancient threat.',
@@ -141,9 +159,15 @@
     publisher: 'Nintendo',
     year: 2019,
     rating: 80,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#c0404d',
     cover: 'https://art.gametdb.com/switch/box/US/ALZ21.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/31ee74fe5360c4e76f72a6a4747c0771a4d6cd1a88d00690ea2f97caa9b16009',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/7efd9a639826a4cd4eb655ad489a882e9ab9c2f2cd28fad2e9b589c9630a730b',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/ed2ec03e6aa1f54c7d1c809dfd345b18cc2bd35f5726080689d4eb818ddf0b06',
+    ],
+    trailer: 'fPO2ouGn0lA',
     description: {
       es: 'Explora la región de Galar y conviértete en el Campeón del desafío de gimnasios.',
       en: 'Explore the Galar region and become the Champion of the Gym Challenge.',
@@ -158,9 +182,15 @@
     publisher: 'Nintendo / The Pokémon Company',
     year: 2022,
     rating: 72,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#c4553a',
     cover: 'https://art.gametdb.com/switch/box/US/ALZXA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/9e78551e9143c33808225efd398d378b3f73dcd8b812cd07aee9e496a66bcf9b',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/f8ddaa6cfe5d9551504d99e3fc9387c9d8daa6a03fb0d86058dfeb143b566383',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/f7ca9c4e9dd303234d74488fdf350ceca6255b534d71a45fe6f08d4d290416d2',
+    ],
+    trailer: '9ruBLEEqw_c',
     description: {
       es: 'Descubre la región de Paldea en una aventura de mundo abierto con nuevos Pokémon.',
       en: 'Discover the Paldea region in an open-world adventure with new Pokémon.',
@@ -175,9 +205,15 @@
     publisher: 'Nintendo',
     year: 2018,
     rating: 76,
-    players: '1',
+    players: '1-4 local',
     color: '#d98a1f',
     cover: 'https://art.gametdb.com/switch/box/US/A7HLA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/d71c8c45b08ce91bf8aee85525a1dd452e04682bdd2f1e547341e05baea97ec0',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/2ff569ab045a4ff91e29902f74bbca021246569b538c4a1f61fb475c211d7c43',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/cd7ff3e86a6590c56fc4d4ca5df94212aadecf20bb5b2ae82e5cd70bd7dc0e2f',
+    ],
+    trailer: 'by_XTria-mQ',
     description: {
       es: 'Disfruta de minijuegos y tableros frenéticos con hasta cuatro jugadores.',
       en: 'Enjoy frantic minigames and boards with up to four players.',
@@ -192,9 +228,15 @@
     publisher: 'Nintendo',
     year: 2023,
     rating: 92,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#c2407a',
     cover: 'https://art.gametdb.com/switch/box/US/AQMXA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/7f1845a5e8d8ec895ad188a6b0f46b59036a363db1b2d9b79d23b913b0b9ab8a',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e3024df668cdead60e62865924652c811323b0e7c46f51567fe80907f2637cc4',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e1ee4f690cec788fc2a75e85ddc12f6d7ef69501bbb362ad918e1ffcbc14936f',
+    ],
+    trailer: 'XvQNlGKNC6o',
     description: {
       es: 'Un clásico plataformas reinventado con las sorprendentes flores Maravilla.',
       en: 'The classic platformer reinvented with the surprising Wonder Flowers.',
@@ -209,9 +251,15 @@
     publisher: 'Nintendo / The Pokémon Company',
     year: 2022,
     rating: 83,
-    players: '1',
+    players: '1 Jugador',
     color: '#4a7a9e',
     cover: 'https://art.gametdb.com/switch/box/US/AW7KA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/745cb0a8097d1b3465dd31147bbe05fc5ce39ed37807c2b0c3961e909dc0bf1d',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/310bf3c0e943beec2347da726a2a006c84072753206ef856e4c514a14f207af4',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/320ffb4e290966aca9416e78008ff1798cc47c8fccae54443becae37c43ecb30',
+    ],
+    trailer: 'I4RynqpahT8',
     description: {
       es: 'Embárcate en una aventura en la antigua región de Sinnoh para completar la primera Pokédex.',
       en: 'Set out across the ancient Sinnoh region to complete the very first Pokédex.',
@@ -226,9 +274,15 @@
     publisher: 'Nintendo',
     year: 2022,
     rating: 83,
-    players: '1',
+    players: '1-4 local, 1-8 online',
     color: '#e6457c',
     cover: 'https://art.gametdb.com/switch/box/US/AV5JA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/4022d66a8752ca2e585d34c049ae5b959e2a92551964bd7d701b123fc0c51d94',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/1506aeb7252b39ec25c8f29973c2018c441cf73aadebc0799b008cd40db0cfa4',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/395397c1ae4980cdebaf8fd748d3cf0db8147c0ed6a2a832ab029ac1a5966e84',
+    ],
+    trailer: 'GUYDXVDLmns',
     description: {
       es: 'Lucha por la tinta en la ciudad de Chromópolis con modos multijugador y campaña.',
       en: 'Fight for turf in Splatsville with multiplayer modes and a full campaign.',
@@ -243,9 +297,15 @@
     publisher: 'Nintendo',
     year: 2020,
     rating: 82,
-    players: '1',
+    players: '1 Jugador',
     color: '#c9203a',
     cover: 'https://art.gametdb.com/switch/box/US/AVP3A.png',
+    screenshots: [
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_MusicPlayer_screen_01.jpg',
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_SMS_screen_01.jpg',
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_SMS_screen_02.jpg',
+    ],
+    trailer: 'N5wSl88EO3Y',
     description: {
       es: 'Tres clásicos 3D de Mario reunidos en una colección definitiva.',
       en: 'Three classic 3D Mario games together in one definitive collection.',
@@ -260,9 +320,15 @@
     publisher: 'Nintendo',
     year: 2019,
     rating: 86,
-    players: '1',
+    players: '1-2 local, 1-8 online',
     color: '#5a6e8f',
     cover: 'https://art.gametdb.com/switch/box/US/AG3JA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013360/4d5437c859c0b77d140eb8e4dadc9a2e9db37fdaf2f26779c38828c2da6e60cf',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013360/699b744e3e94cf49d336f5e7d96be966f8f4eb329a5a8277bf940e6271046ea3',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013360/95314d2808b22d90b87a55d369d950d5043ab64bcf666dbca72968551fa91009',
+    ],
+    trailer: 'jRlK9Dz3Eqs',
     description: {
       es: 'Luigi deberá enfrentar fantasmas en un hotel encantado para rescatar a sus amigos.',
       en: 'Luigi must face ghosts in a haunted hotel to rescue his friends.',
@@ -277,9 +343,15 @@
     publisher: 'Nintendo',
     year: 2019,
     rating: 88,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#e07b1f',
     cover: 'https://art.gametdb.com/switch/box/US/BAAQA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/ae7e1c2764074f1b5af56454cd5c75f150474aa9a4a87b73aeff2996ffad0bee',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/1500395a0a6e241f071e902759525e7442434babd3726f25d5ae1d5d232e38b7',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/b4373e8d3b216aaaf30fb58409df7dbf27d0d8b6541ff9ac266b70d0624126e5',
+    ],
+    trailer: 'CYx9v7Mo94M',
     description: {
       es: 'Crea, comparte y juega niveles infinitos de Mario diseñados por la comunidad.',
       en: 'Create, share and play endless Mario levels designed by the community.',
@@ -294,9 +366,15 @@
     publisher: 'Nintendo',
     year: 2017,
     rating: 83,
-    players: '1',
+    players: '1-4 local, 1-8 online',
     color: '#d84a5c',
     cover: 'https://art.gametdb.com/switch/box/US/AAB62.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/9cf33306052926c7d4b990905290784c9eab4932c767ab44f289ffca0e2f0187',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/5cf2ca13b6ff175a1bc77e2bd8e771554511b0469c4628c36c5ef79f57c9597d',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/49570a053c08fcafad89fc7109ebd91384bab4b0b19f63bcb85f8d04d74481f1',
+    ],
+    trailer: '_brdPvSQ3gE',
     description: {
       es: 'Los Inklings regresan con nuevas armas, modos y festivales de tinta.',
       en: 'The Inklings return with new weapons, modes and Splatfests.',
@@ -311,9 +389,15 @@
     publisher: 'Nintendo',
     year: 2022,
     rating: 85,
-    players: '1',
+    players: '1-2 local',
     color: '#d95aa0',
     cover: 'https://art.gametdb.com/switch/box/US/ARZGA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043655/d896573a4358e20d0fd563effe3b08c7bf6f1c0918bfe704c10a6b075a0bc63d',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043655/bc93ec24c8451184ac23ae3cf96f03e630feaf289aa388bc2de572e309b3e012',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043655/872b02dfeffc4d118fa8dbff369929a224215374372c618651b48e78eb245d0f',
+    ],
+    trailer: '2O2HOgq_H_s',
     description: {
       es: 'Kirby descubre un mundo desconocido en su primera aventura en 3D.',
       en: 'Kirby discovers an unknown world in his first full 3D adventure.',
@@ -328,9 +412,15 @@
     publisher: 'Nintendo / The Pokémon Company',
     year: 2021,
     rating: 73,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#3a6fd8',
     cover: 'https://art.gametdb.com/switch/box/US/AX7QA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043310/98f268a8e539178302827e8bd770a3d273d1dd18890f68f87f93589f8deb4be5',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043310/080d47d081a28d427e2cb3f4fe420a22c548caba89a169b1b68df38eedff9431',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043310/59fa405e0614bf4a1c78336ed4bb5c318e5f57501d51d227803531461f5326f8',
+    ],
+    trailer: 'TUOlZBxdrTA',
     description: {
       es: 'Revive la aventura de Sinnoh en este remake fiel y brillante.',
       en: 'Relive the Sinnoh adventure in this faithful and brilliant remake.',
@@ -345,9 +435,15 @@
     publisher: 'Nintendo',
     year: 2021,
     rating: 80,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#e0a11f',
     cover: 'https://art.gametdb.com/switch/box/US/AZ82A.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/7a5794b6e6ba1d583e0c90e5fc503103dfb321db553de7160f39c13d8b6a26d3',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/76731e0af708c9bb61ffda82d4488e815696dc0ea78b35a200e381826b01654f',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/70e487d188c282a02eeafd629ece49d1a4fdf94e5aacf3acb9edfee6a6189daf',
+    ],
+    trailer: '2jEq0F656aY',
     description: {
       es: 'Los mejores tableros y minijuegos de la saga reunidos para jugar en línea.',
       en: 'The best boards and minigames from the series, together for online play.',
@@ -362,9 +458,15 @@
     publisher: 'Nintendo',
     year: 2019,
     rating: 80,
-    players: '1',
+    players: '1-4 local',
     color: '#2f9e77',
     cover: 'https://art.gametdb.com/switch/box/US/ADALA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/f7eab80bf81dace25f1372f2b0ac5a63e3653af74468f73f37c6bb27df638a93',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/5e1ca57f22a388d696dd0883ea3b5453c7c9e59ff0fea05dd912a2fcb88d1985',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/5d7c325d4bac7e8af8da21d05376a007e4701421cec4a9a8791677162817eed9',
+    ],
+    trailer: '0LbHBMtHUw0',
     description: {
       es: 'La aventura 2D de Mario con todos los niveles y sus expansiones.',
       en: 'The classic 2D Mario adventure with all levels and expansions.',
@@ -379,9 +481,15 @@
     publisher: 'Nintendo',
     year: 2021,
     rating: 89,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#d8323a',
     cover: 'https://art.gametdb.com/switch/box/US/AUZPA.png',
+    screenshots: [
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_001.jpg',
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_002.jpg',
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_003.jpg',
+    ],
+    trailer: '5nW9o6M5zFo',
     description: {
       es: 'El clásico de Wii U mejorado con el nuevo mundo abierto de Bowser\'s Fury.',
       en: 'The Wii U classic enhanced with the new open-world Bowser\'s Fury.',
@@ -396,9 +504,15 @@
     publisher: 'Nintendo',
     year: 2022,
     rating: 71,
-    players: '1',
+    players: '1-4 local, 1-4 online',
     color: '#e04a2f',
     cover: 'https://art.gametdb.com/switch/box/US/AS8SA.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/ee756f617f2e59e7cb4e09fccda40dfebfed6aaa94f1164f4fed8f6d38253f28',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/08357e380f643e3f73773aef78ab8aa364fff62cc3794e6a3082d7ec48b38aa5',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/d008f8312312fff3dcb3cf726ded0195f91b5d8b3946ba32d7ef0ac16c515fb3',
+    ],
+    trailer: 'tiwjvBSS_Wk',
     description: {
       es: 'Juega al tenis, al fútbol, al boliche y más moviéndote con los Joy-Con.',
       en: 'Play tennis, football, bowling and more by moving with your Joy-Con.',
@@ -413,9 +527,15 @@
     publisher: 'Nintendo',
     year: 2019,
     rating: 87,
-    players: '1',
+    players: '1 Jugador',
     color: '#3f9e4a',
     cover: 'https://art.gametdb.com/switch/box/US/AR3N1.png',
+    screenshots: [
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013293/90a52983d8edc9971cda75e544b0e386bcd13f6660c0f15e98aec169a2ebda2d',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013293/e1b9dea18517d21f8ab3fcb0c1aa5a28331ca33da11c354e681d79a013fadfb4',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013293/959ad067a4c7699e8f1980d5ca47d97bc674c6038d1323fa023ea6e596928e09',
+    ],
+    trailer: 'PtC6U8hOZTk',
     description: {
       es: 'Link despierta en la misteriosa isla Koholint en un remake encantador.',
       en: 'Link wakes up on the mysterious Koholint Island in this charming remake.',
@@ -430,7 +550,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2018,
     rating: 94,
-    players: '1',
+    players: '1 Jugador',
     color: '#3f6fa5',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/52805-1.jpg',
     screenshots: [
@@ -453,7 +573,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2018,
     rating: 87,
-    players: '1',
+    players: '1 Jugador',
     color: '#c1121f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/54488-1.jpg',
     screenshots: [
@@ -476,7 +596,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2017,
     rating: 89,
-    players: '1',
+    players: '1 Jugador',
     color: '#c96f1f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/29523-1.jpg',
     screenshots: [
@@ -499,7 +619,7 @@
     publisher: 'Rockstar Games',
     year: 2018,
     rating: 97,
-    players: '1',
+    players: '1 Jugador',
     color: '#7a3b2e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/55247-1.jpg',
     description: {
@@ -516,7 +636,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2020,
     rating: 93,
-    players: '1',
+    players: '1 Jugador',
     color: '#5c3e2a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/55731-1.jpg',
     description: {
@@ -533,7 +653,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2016,
     rating: 93,
-    players: '1',
+    players: '1 Jugador',
     color: '#2c6e9e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/21416-1.jpg',
     description: {
@@ -550,7 +670,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2015,
     rating: 92,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f4a5c',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/20960-1.jpg',
     description: {
@@ -567,7 +687,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2020,
     rating: 83,
-    players: '1',
+    players: '1 Jugador',
     color: '#5a4a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/55760-1.jpg',
     description: {
@@ -584,7 +704,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2019,
     rating: 71,
-    players: '1',
+    players: '1 Jugador',
     color: '#6e5c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/38442-1.jpg',
     description: {
@@ -601,7 +721,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2018,
     rating: 78,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a5a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/48142-1.jpg',
     description: {
@@ -618,7 +738,7 @@
     publisher: 'CD Projekt',
     year: 2015,
     rating: 92,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f3a2e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/16489-1.jpg',
     description: {
@@ -635,7 +755,7 @@
     publisher: 'Atlus USA',
     year: 2020,
     rating: 95,
-    players: '1',
+    players: '1 Jugador',
     color: '#c02a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/64814-1.jpg',
     description: {
@@ -652,7 +772,7 @@
     publisher: 'Square Enix',
     year: 2020,
     rating: 89,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f6e5c',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/29221-1.jpg',
     description: {
@@ -669,7 +789,7 @@
     publisher: 'Activision',
     year: 2017,
     rating: 80,
-    players: '1',
+    players: '1 Jugador',
     color: '#c98f1f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/43904-1.jpg',
     description: {
@@ -686,7 +806,7 @@
     publisher: 'Capcom',
     year: 2018,
     rating: 90,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f6e2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/52679-1.jpg',
     description: {
@@ -703,7 +823,7 @@
     publisher: 'Activision',
     year: 2019,
     rating: 90,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a3a5a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/60138-1.jpg',
     description: {
@@ -720,7 +840,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2019,
     rating: 82,
-    players: '1',
+    players: '1 Jugador',
     color: '#5a5a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/38113-1.jpg',
     description: {
@@ -737,7 +857,7 @@
     publisher: 'CD Projekt',
     year: 2020,
     rating: 57,
-    players: '1',
+    players: '1 Jugador',
     color: '#d8a01f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/22722-1.jpg',
     description: {
@@ -754,7 +874,7 @@
     publisher: 'Rockstar Games',
     year: 2014,
     rating: 97,
-    players: '1',
+    players: '1 Jugador',
     color: '#a67c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/20954-1.jpg',
     description: {
@@ -771,7 +891,7 @@
     publisher: 'Mojang',
     year: 2014,
     rating: 89,
-    players: '1',
+    players: '1 Jugador',
     color: '#4a8f3e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/23313-1.jpg',
     description: {
@@ -788,7 +908,7 @@
     publisher: 'Ubisoft',
     year: 2018,
     rating: 83,
-    players: '1',
+    players: '1 Jugador',
     color: '#4a6e9e',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/60145-1.jpg',
     description: {
@@ -805,7 +925,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2016,
     rating: 85,
-    players: '1',
+    players: '1 Jugador',
     color: '#c05a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/29275-1.jpg',
     description: {
@@ -822,7 +942,7 @@
     publisher: 'Sony Interactive Entertainment',
     year: 2017,
     rating: 75,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f5c8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/50108-1.jpg',
     description: {
@@ -839,7 +959,7 @@
     publisher: 'Square Enix',
     year: 2025,
     rating: 89,
-    players: '1',
+    players: '1 Jugador',
     color: '#c8a04a',
     cover: 'https://image.api.playstation.com/vulcan/ap/rnd/202505/2109/6eb9221ab73f97643997949976e2e13f374ed79e4e244060.png',
     screenshots: [
@@ -862,7 +982,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2013,
     rating: 95,
-    players: '1',
+    players: '1 Jugador',
     color: '#7a5c3e',
     cover: 'https://art.gametdb.com/ps3/cover/EN/BCES01584.jpg',
     screenshots: [
@@ -885,7 +1005,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2009,
     rating: 96,
-    players: '1',
+    players: '1 Jugador',
     color: '#2c4f8a',
     cover: 'https://art.gametdb.com/ps3/cover/EN/BCES00509.jpg',
     screenshots: [
@@ -907,7 +1027,7 @@
     publisher: 'Rockstar Games',
     year: 2013,
     rating: 97,
-    players: '1',
+    players: '1 Jugador',
     color: '#a67c00',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS31156.jpg',
     screenshots: [
@@ -930,7 +1050,7 @@
     publisher: 'Activision',
     year: 2010,
     rating: 87,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f3a4a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30591.jpg',
     description: {
@@ -947,7 +1067,7 @@
     publisher: 'Activision',
     year: 2011,
     rating: 88,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a5a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30887.jpg',
     description: {
@@ -964,7 +1084,7 @@
     publisher: 'Activision',
     year: 2012,
     rating: 83,
-    players: '1',
+    players: '1 Jugador',
     color: '#4a3a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS31140.jpg',
     description: {
@@ -981,7 +1101,7 @@
     publisher: 'Activision',
     year: 2009,
     rating: 94,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a4a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30377.jpg',
     description: {
@@ -998,7 +1118,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2010,
     rating: 92,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f2f2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98111.jpg',
     description: {
@@ -1015,7 +1135,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2010,
     rating: 84,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a6e8f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98114.jpg',
     description: {
@@ -1032,7 +1152,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2013,
     rating: 82,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f5a7a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98296.jpg',
     description: {
@@ -1049,7 +1169,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2011,
     rating: 92,
-    players: '1',
+    players: '1 Jugador',
     color: '#6e5c3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS90675.jpg',
     description: {
@@ -1066,7 +1186,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2007,
     rating: 88,
-    players: '1',
+    players: '1 Jugador',
     color: '#5c4a3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98103.jpg',
     description: {
@@ -1083,7 +1203,7 @@
     publisher: 'Konami',
     year: 2008,
     rating: 94,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f2f3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30109.jpg',
     description: {
@@ -1100,7 +1220,7 @@
     publisher: 'Rockstar Games',
     year: 2010,
     rating: 95,
-    players: '1',
+    players: '1 Jugador',
     color: '#6e4a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30418.jpg',
     description: {
@@ -1117,7 +1237,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2010,
     rating: 87,
-    players: '1',
+    players: '1 Jugador',
     color: '#5c5c8f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98280.jpg',
     description: {
@@ -1134,7 +1254,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2008,
     rating: 95,
-    players: '1',
+    players: '1 Jugador',
     color: '#a85c2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98148.jpg',
     description: {
@@ -1151,7 +1271,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2011,
     rating: 83,
-    players: '1',
+    players: '1 Jugador',
     color: '#4a5c8f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BCUS98125.jpg',
     description: {
@@ -1168,7 +1288,7 @@
     publisher: 'Sony Computer Entertainment',
     year: 2011,
     rating: 84,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a3a5c',
     cover: 'https://art.gametdb.com/ps3/cover/EN/BCES01007.jpg',
     description: {
@@ -1185,7 +1305,7 @@
     publisher: 'Electronic Arts',
     year: 2011,
     rating: 84,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f4a3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30762.jpg',
     description: {
@@ -1202,7 +1322,7 @@
     publisher: 'Ubisoft',
     year: 2012,
     rating: 91,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f8f5c',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30687.jpg',
     description: {
@@ -1219,7 +1339,7 @@
     publisher: 'Namco Bandai Games',
     year: 2011,
     rating: 89,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f2f3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30782.jpg',
     description: {
@@ -1236,7 +1356,7 @@
     publisher: 'Capcom',
     year: 2009,
     rating: 84,
-    players: '1',
+    players: '1 Jugador',
     color: '#5c3a2f',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30270.jpg',
     description: {
@@ -1253,7 +1373,7 @@
     publisher: 'Ubisoft',
     year: 2009,
     rating: 91,
-    players: '1',
+    players: '1 Jugador',
     color: '#7a2f3a',
     cover: 'https://art.gametdb.com/ps3/cover/US/BLUS30364.jpg',
     description: {
@@ -1270,7 +1390,7 @@
     publisher: 'Microsoft Game Studios',
     year: 2007,
     rating: 94,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a7d44',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/90-1.jpg',
     screenshots: [
@@ -1291,7 +1411,7 @@
     publisher: 'Microsoft Game Studios',
     year: 2008,
     rating: 93,
-    players: '1',
+    players: '1 Jugador',
     color: '#8a3a2b',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/24-1.jpg',
     screenshots: [
@@ -1314,7 +1434,7 @@
     publisher: 'Rockstar Games',
     year: 2010,
     rating: 95,
-    players: '1',
+    players: '1 Jugador',
     color: '#7a4a2b',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/191-1.jpg',
     screenshots: [
@@ -1337,7 +1457,7 @@
     publisher: 'Microsoft Game Studios',
     year: 2010,
     rating: 91,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f5c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/638-1.jpg',
     description: {
@@ -1354,7 +1474,7 @@
     publisher: 'Microsoft Studios',
     year: 2012,
     rating: 87,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f8f7a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/3597-1.jpg',
     description: {
@@ -1371,7 +1491,7 @@
     publisher: 'Microsoft Game Studios',
     year: 2011,
     rating: 91,
-    players: '1',
+    players: '1 Jugador',
     color: '#6e2f2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/935-1.jpg',
     description: {
@@ -1388,7 +1508,7 @@
     publisher: 'Microsoft Game Studios',
     year: 2006,
     rating: 94,
-    players: '1',
+    players: '1 Jugador',
     color: '#5c3a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/7481-1.jpg',
     description: {
@@ -1405,7 +1525,7 @@
     publisher: 'Activision',
     year: 2010,
     rating: 87,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a3a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/11740-1.jpg',
     description: {
@@ -1422,7 +1542,7 @@
     publisher: 'Activision',
     year: 2009,
     rating: 94,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f3a4a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/10914-1.jpg',
     description: {
@@ -1439,7 +1559,7 @@
     publisher: 'Activision',
     year: 2011,
     rating: 88,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a5a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8154-1.jpg',
     description: {
@@ -1456,7 +1576,7 @@
     publisher: 'Activision',
     year: 2012,
     rating: 83,
-    players: '1',
+    players: '1 Jugador',
     color: '#4a3a2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/9937-2.jpg',
     description: {
@@ -1473,7 +1593,7 @@
     publisher: 'Rockstar Games',
     year: 2013,
     rating: 97,
-    players: '1',
+    players: '1 Jugador',
     color: '#a67c2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/13353-1.jpg',
     description: {
@@ -1490,7 +1610,7 @@
     publisher: 'Bethesda Softworks',
     year: 2011,
     rating: 96,
-    players: '1',
+    players: '1 Jugador',
     color: '#3a5c8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8256-1.jpg',
     description: {
@@ -1507,7 +1627,7 @@
     publisher: 'Bethesda Softworks',
     year: 2008,
     rating: 93,
-    players: '1',
+    players: '1 Jugador',
     color: '#5a6e2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8183-1.jpg',
     description: {
@@ -1524,7 +1644,7 @@
     publisher: 'Electronic Arts',
     year: 2010,
     rating: 96,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f6e8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/7536-1.jpg',
     description: {
@@ -1541,7 +1661,7 @@
     publisher: '2K Games',
     year: 2012,
     rating: 89,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f8f2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/9959-1.jpg',
     description: {
@@ -1558,7 +1678,7 @@
     publisher: '2K Games',
     year: 2013,
     rating: 94,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f8f5c',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/14409-1.jpg',
     description: {
@@ -1575,7 +1695,7 @@
     publisher: 'Microsoft Game Studios',
     year: 2009,
     rating: 92,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f4a8f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/838-1.jpg',
     description: {
@@ -1592,7 +1712,7 @@
     publisher: 'Microsoft Studios',
     year: 2012,
     rating: 91,
-    players: '1',
+    players: '1 Jugador',
     color: '#8f4a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/11977-1.jpg',
     description: {
@@ -1609,7 +1729,7 @@
     publisher: 'Microsoft Studios',
     year: 2012,
     rating: 82,
-    players: '1',
+    players: '1 Jugador',
     color: '#3e8f2f',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/17158-1.jpg',
     description: {
@@ -1626,7 +1746,7 @@
     publisher: 'Electronic Arts',
     year: 2011,
     rating: 84,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f4a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/8856-1.jpg',
     description: {
@@ -1643,7 +1763,7 @@
     publisher: 'Ubisoft',
     year: 2009,
     rating: 90,
-    players: '1',
+    players: '1 Jugador',
     color: '#7a2f3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/2762-1.jpg',
     description: {
@@ -1660,7 +1780,7 @@
     publisher: 'Microsoft Game Studios',
     year: 2009,
     rating: 83,
-    players: '1',
+    players: '1 Jugador',
     color: '#2f3a3a',
     cover: 'https://cdn.thegamesdb.net/images/original/boxart/front/193-1.jpg',
     description: {
