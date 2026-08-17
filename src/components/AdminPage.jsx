@@ -522,6 +522,7 @@ export function AdminPage() {
                     type="number"
                     value={draft.rating ?? ''}
                     onChange={(e) => setField('rating', e.target.value)}
+                    placeholder="0"
                   />
                 </label>
                 <label>
