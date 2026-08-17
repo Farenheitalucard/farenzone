@@ -26,6 +26,9 @@ function blankGame() {
     publisher: '',
     year: null,
     rating: null,
+    playersTotal: '1',
+    playersLocal: '',
+    playersOnline: '',
     color: '#7c5cff',
     cover: '',
     trailer: '',
@@ -42,6 +45,22 @@ function blankGame() {
       links: blankLinks(),
     },
   }
+}
+
+function parsePlayers(str) {
+  if (!str) return { total: '1', local: '', online: '' }
+  const s = str.trim()
+  const m = s.match(/^(\d+)\s*-\s*(?:(\d+)\s*local)?(?:,\s*)?(?:(\d+)\s*online)?$/i)
+  if (m) return { total: m[1], local: m[2] || '', online: m[3] || '' }
+  return { total: s, local: '', online: '' }
+}
+
+function buildPlayers(total, local, online) {
+  if (!total) return ''
+  const parts = []
+  if (local) parts.push(`${local} local`)
+  if (online) parts.push(`${online} online`)
+  return parts.length ? `${total} - ${parts.join(', ')}` : total
 }
 
 export function AdminPage() {
@@ -178,7 +197,7 @@ export function AdminPage() {
       publisher: d.publisher.trim(),
       year: d.year === '' || d.year == null ? null : Number(d.year),
       rating: d.rating === '' || d.rating == null ? null : Number(d.rating),
-      players: (d.players || '').trim(),
+      players: buildPlayers(d.playersTotal, d.playersLocal, d.playersOnline),
       color: d.color.trim() || '#7c5cff',
       cover: d.cover.trim(),
       trailer: d.trailer.trim(),
@@ -221,9 +240,13 @@ export function AdminPage() {
 
   function startEdit(g) {
     setMsg('')
+    const p = parsePlayers(g.players)
     setDraft({
       ...g,
       id: g.id,
+      playersTotal: p.total,
+      playersLocal: p.local,
+      playersOnline: p.online,
       screenshots: [...(g.screenshots || [])],
       description: { ...g.description },
       download: g.download
@@ -511,22 +534,40 @@ export function AdminPage() {
                 </label>
                 <label>
                   {t.admin.players}
-                  <select
-                    value={draft.players ?? ''}
-                    onChange={(e) => setField('players', e.target.value)}
-                  >
-                    <option value="">—</option>
-                    <option value="1">1</option>
-                    <option value="1-2">1-2</option>
-                    <option value="1-4">1-4</option>
-                    <option value="1-8">1-8</option>
-                    <option value="2-4">2-4</option>
-                    <option value="2-8">2-8</option>
-                    <option value="4-8">4-8</option>
-                    <option value="Online">Online</option>
-                    <option value="Co-op">Co-op</option>
-                    <option value="Single Player">Single Player</option>
-                  </select>
+                  <div className="players-inputs">
+                    <select
+                      value={draft.playersTotal ?? '1'}
+                      onChange={(e) => setField('playersTotal', e.target.value)}
+                    >
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                    </select>
+                    <span className="players-sep">—</span>
+                    <input
+                      type="number"
+                      min="0"
+                      max="8"
+                      placeholder={t.admin.playersLocal}
+                      value={draft.playersLocal ?? ''}
+                      onChange={(e) => setField('playersLocal', e.target.value)}
+                    />
+                    <span className="players-sep">local</span>
+                    <input
+                      type="number"
+                      min="0"
+                      max="8"
+                      placeholder={t.admin.playersOnline}
+                      value={draft.playersOnline ?? ''}
+                      onChange={(e) => setField('playersOnline', e.target.value)}
+                    />
+                    <span className="players-sep">online</span>
+                  </div>
                 </label>
                 <label>
                   {t.admin.color}
