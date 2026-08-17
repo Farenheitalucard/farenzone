@@ -589,7 +589,8 @@ export function AdminPage() {
               <div className="admin-grid">
                 <label>
                   {t.admin.region}
-                  <input
+                  <textarea
+                    rows={3}
                     value={draft.download.region}
                     onChange={(e) => setField('download.region', e.target.value)}
                   />
