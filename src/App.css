@@ -1238,6 +1238,11 @@
     gap: 12px;
   }
 
+  .game-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
   .game-card {
     padding: 10px 10px 14px;
     gap: 6px;
