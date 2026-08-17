@@ -1375,8 +1375,8 @@
   }
 
   .game-fields {
-    grid-template-columns: 1fr;
-    gap: 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 16px;
   }
 
   .btn-back {
