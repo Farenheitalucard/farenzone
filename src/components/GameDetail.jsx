@@ -53,6 +53,7 @@ export function GameDetail() {
     { label: t.game.year, value: game.year },
     { label: t.game.rating, value: game.rating },
     { label: t.game.players, value: game.players },
+    { label: t.game.cooperative, value: game.cooperativo },
   ].filter((f) => f.value)
 
   return (
