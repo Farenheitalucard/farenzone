@@ -27,6 +27,7 @@ function blankGame() {
     year: null,
     rating: null,
     players: '',
+    cooperativo: '',
     color: '#7c5cff',
     cover: '',
     trailer: '',
@@ -187,6 +188,7 @@ export function AdminPage() {
       year: d.year === '' || d.year == null ? null : Number(d.year),
       rating: d.rating === '' || d.rating == null ? null : Number(d.rating),
       players: (d.players || '').trim(),
+      cooperativo: (d.cooperativo || '').trim(),
       color: (d.color || '').trim() || '#7c5cff',
       cover: (d.cover || '').trim(),
       trailer: (d.trailer || '').trim(),
@@ -529,6 +531,15 @@ export function AdminPage() {
                     value={draft.players ?? ''}
                     onChange={(e) => setField('players', e.target.value)}
                     placeholder={t.admin.playersPlaceholder}
+                  />
+                </label>
+                <label>
+                  {t.game.cooperative}
+                  <input
+                    type="text"
+                    value={draft.cooperativo ?? ''}
+                    onChange={(e) => setField('cooperativo', e.target.value)}
+                    placeholder="No, Local, Online, Local y online"
                   />
                 </label>
                 <label>

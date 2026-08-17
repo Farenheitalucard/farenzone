@@ -37,6 +37,7 @@ function sanitizeGame(g) {
     year: cleanNumber(g.year),
     rating: cleanNumber(g.rating),
     players: cleanText(g.players, 40),
+    cooperativo: cleanText(g.cooperativo, 40),
     color: cleanText(g.color, 30),
     cover: cleanText(g.cover, 500),
     trailer: cleanText(g.trailer, 40),
