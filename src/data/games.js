@@ -841,12 +841,11 @@
     rating: 89,
     players: '1',
     color: '#c8a04a',
-    cover: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/64e57769c968124451e35898eae64217f99bd9c4/header.jpg?t=1779854659',
+    cover: 'https://image.api.playstation.com/vulcan/ap/rnd/202505/2109/6eb9221ab73f97643997949976e2e13f374ed79e4e244060.png',
     screenshots: [
       'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/b09372df2c53ca10574bdd3f0e04b8dacb4472b5/ss_b09372df2c53ca10574bdd3f0e04b8dacb4472b5.1920x1080.jpg?t=1779854659',
       'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/ee821bbdd8209b68d20c625f8c6d7b46edf2f4d6/ss_ee821bbdd8209b68d20c625f8c6d7b46edf2f4d6.1920x1080.jpg?t=1779854659',
       'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/de17bfbb3ef959e635cfe30a38e9372e78695f4d/ss_de17bfbb3ef959e635cfe30a38e9372e78695f4d.1920x1080.jpg?t=1779854659',
-      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/b80341755a2e70c08f14c76366f2fc642c6c50f8/ss_b80341755a2e70c08f14c76366f2fc642c6c50f8.1920x1080.jpg?t=1779854659',
     ],
     trailer: 'FBzEhPDvYlY',
     description: {
