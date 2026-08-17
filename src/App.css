@@ -1234,11 +1234,103 @@
   }
 
   .console-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .game-card {
+    padding: 10px 10px 14px;
+    gap: 6px;
+  }
+
+  .game-card .cover {
+    width: 100%;
+    max-width: none;
+  }
+
+  .cover-title {
+    font-size: 11px;
+  }
+
+  .game-title {
+    font-size: 11px;
+  }
+
+  .game-meta {
+    font-size: 10px;
+  }
+
+  .game-detail {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .game-detail-cover {
+    position: static;
+  }
+
+  .game-detail-cover .cover {
+    max-width: 200px;
+  }
+
+  .cover-large {
+    width: 180px;
+  }
+
+  .cover-large .cover-title {
+    font-size: 16px;
+  }
+
+  .game-detail-title {
+    font-size: 22px;
+    letter-spacing: -0.5px;
+  }
+
+  .game-description {
+    font-size: 13px;
+  }
+
+  .details-title {
+    font-size: 16px;
+  }
+
+  .game-field dt,
+  .game-field dd {
+    font-size: 12px;
+  }
+
+  .download-card {
+    padding: 12px;
+  }
+
+  .download-field dt,
+  .download-field dd {
+    font-size: 12px;
   }
 
   .game-fields {
     grid-template-columns: 1fr;
+  }
+
+  .btn-back {
+    font-size: 13px;
+  }
+
+  .game-console-link {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+
+  .screenshot-gallery img {
+    max-height: 180px;
+  }
+
+  .recommended-card .game-title {
+    font-size: 10px;
+  }
+
+  .recommended-card .game-meta {
+    font-size: 9px;
   }
 }
 
