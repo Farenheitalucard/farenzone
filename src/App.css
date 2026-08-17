@@ -1233,9 +1233,65 @@
     padding: 48px 0 32px;
   }
 
+  .hero {
+    min-height: 70vh;
+    padding: 0 16px 40px;
+  }
+
+  .hero-title {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .hero-subtitle {
+    font-size: 15px;
+    margin-top: 14px;
+  }
+
+  .badge {
+    font-size: 11px;
+    padding: 5px 12px;
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .section-subtitle {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .home-row-title {
+    font-size: 17px;
+  }
+
+  .home-row-all {
+    font-size: 12px;
+  }
+
+  .home-row-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
   .console-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+  }
+
+  .console-card {
+    padding: 16px 14px;
+    gap: 10px;
+  }
+
+  .console-card-title {
+    font-size: 14px;
+  }
+
+  .console-card-count {
+    font-size: 11px;
   }
 
   .game-grid {
