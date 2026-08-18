@@ -2692,6 +2692,33 @@ export const games = [
         'thanks': '',
         'links': [],
       },
+  },
+  {
+    'id': 'dragon-ball-sparking-zero',
+    'console': 'switch',
+    'title': 'DRAGON BALL: Sparking! ZERO',
+    'genre': 'Lucha - Acción',
+    'developer': 'Spike Chunsoft',
+    'publisher': 'BANDAI NAMCO Entertainment',
+    'year': 2025,
+    'rating': 78,
+    'players': '1-6',
+    'cooperativo': 'Local y online',
+    'color': '#ff6600',
+    'cover': 'https://art.gametdb.com/switch/box/US/BNFLA.png',
+    'trailer': 'JehVBRB_tiI',
+    'screenshots': [
+        'https://images.launchbox-app.com/r2_84d7d7ec-a6ca-4842-8f56-2336473f92b5.jpg',
+        'https://images.launchbox-app.com/r2_eabec77b-4586-40bc-9df5-b4371044991f.jpg',
+        'https://images.launchbox-app.com/r2_a3a14ad7-5f1e-4445-b4b2-57709e63199f.jpg',
+      ],
+    'description': {
+        'es': 'DRAGON BALL: Sparking! ZERO lleva el legendario juego de la serie Budokai Tenkaichi a niveles totalmente nuevos. Conviértete en un super guerrero y experimenta el poder sacudidor de las batallas de Dragon Ball.',
+        'en': 'DRAGON BALL: Sparking! ZERO takes the legendary gameplay of the Budokai Tenkaichi series and raises it to whole new levels. Become a super warrior and experience the earth-shaking, limit-breaking power of Dragon Ball battles!',
+      },
+    'download': {
+        'languages': 'Inglés, francés, alemán, español, italiano, portugués, árabe, japonés, coreano, tailandés, chino tradicional, chino simplificado, ruso, polaco',
+      },
   }
 ]
 
