@@ -2719,6 +2719,33 @@ export const games = [
     'download': {
         'languages': 'Inglés, francés, alemán, español, italiano, portugués, árabe, japonés, coreano, tailandés, chino tradicional, chino simplificado, ruso, polaco',
       },
+  },
+  {
+    'id': 'mortal-kombat-1',
+    'console': 'switch',
+    'title': 'Mortal Kombat 1',
+    'genre': 'Lucha',
+    'developer': 'NetherRealm Studios',
+    'publisher': 'Warner Bros. Interactive Entertainment',
+    'year': 2023,
+    'rating': 52,
+    'players': '1-2',
+    'cooperativo': 'Local y online',
+    'color': '#ff0000',
+    'cover': 'https://art.gametdb.com/switch/box/US/A8WRA.png',
+    'trailer': 'jnMo1SUTal8',
+    'screenshots': [
+        'https://images.launchbox-app.com/31c3835b-359f-4a7b-b9bf-8359471ec117.jpg',
+        'https://images.launchbox-app.com/25170cba-061d-4095-98fa-d511c7897c56.jpg',
+        'https://images.launchbox-app.com/4ab36ed7-8901-43c0-a9eb-fdfdb8b29063.jpg',
+      ],
+    'description': {
+        'es': 'Descubre un universo de Mortal Kombat renacido creado por el Dios del Fuego Liu Kang. Mortal Kombat 1 inaugura una nueva era de la icónica franquicia con un nuevo sistema de pelea, modos de juego y fatalities.',
+        'en': 'Discover a reborn Mortal Kombat Universe created by the Fire God Liu Kang. Mortal Kombat 1 ushers in a new era of the iconic franchise with a new fighting system, game modes, and fatalities!',
+      },
+    'download': {
+        'languages': 'Inglés, francés, alemán, español, italiano, portugués, árabe, chino tradicional, chino simplificado, ruso, polaco',
+      },
   }
 ]
 
