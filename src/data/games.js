@@ -2746,6 +2746,60 @@ export const games = [
     'download': {
         'languages': 'Inglés, francés, alemán, español, italiano, portugués, árabe, chino tradicional, chino simplificado, ruso, polaco',
       },
+  },
+  {
+    'id': 'dragon-ball-z-kakarot',
+    'console': 'switch',
+    'title': 'DRAGON BALL Z: KAKAROT + A New Power Awakens Set',
+    'genre': 'Acción - Aventura - RPG',
+    'developer': 'CyberConnect2',
+    'publisher': 'BANDAI NAMCO Entertainment',
+    'year': 2021,
+    'rating': 69,
+    'players': '1',
+    'cooperativo': 'No',
+    'color': '#ff9900',
+    'cover': 'https://art.gametdb.com/switch/box/US/A2APB.png',
+    'trailer': 'lZYAaWvAXhg',
+    'screenshots': [
+        'https://images.launchbox-app.com/308b4ed2-d88b-44a8-bfe2-4f5adc3b7282.jpg',
+        'https://images.launchbox-app.com/6b125b92-f67b-418a-94c9-1971662a97a4.jpg',
+        'https://images.launchbox-app.com/d941336e-e10c-400a-a8e8-7c0ab53d1287.jpg',
+      ],
+    'description': {
+        'es': 'Revive la historia de Goku y los demás Guerreros Z en DRAGON BALL Z: KAKAROT. Más allá de las épicas batallas, experimenta la vida en el mundo de DRAGON BALL Z mientras luchas, pescas, comes y entrenas con Goku, Gohan, Vegeta y otros.',
+        'en': 'Relive the story of Goku and other Z Fighters in DRAGON BALL Z: KAKAROT. Beyond the epic battles, experience life in the DRAGON BALL Z world as you fight, fish, eat, and train with Goku, Gohan, Vegeta and others.',
+      },
+    'download': {
+        'languages': 'Inglés, francés, alemán, español, italiano, portugués, árabe, ruso, polaco',
+      },
+  },
+  {
+    'id': 'super-dragon-ball-heroes-world-mission',
+    'console': 'switch',
+    'title': 'Super Dragon Ball Heroes: World Mission',
+    'genre': 'Estrategia - Cartas',
+    'developer': 'Dimps',
+    'publisher': 'Bandai Namco',
+    'year': 2019,
+    'rating': 72,
+    'players': '1-6',
+    'cooperativo': 'Local y online',
+    'color': '#ff3300',
+    'cover': 'https://art.gametdb.com/switch/box/EN/ANR6B.png',
+    'trailer': 'Tw01a9qgmSk',
+    'screenshots': [
+        'https://images.launchbox-app.com/7e841f44-d33f-451f-83a9-57f466d00341.jpg',
+        'https://images.launchbox-app.com/8dbeb24c-130d-4c45-acee-97741408f307.jpg',
+        'https://images.launchbox-app.com/dfab1dbe-b278-409c-b165-7654d7c97ad4.jpg',
+      ],
+    'description': {
+        'es': '¡SUPER DRAGON BALL HEROES WORLD MISSION es un juego de cartas táctico lleno de confrontación electrizante, estrategia profunda de juego de cartas y una emocionante historia que se desarrolla en el amplio universo de Dragon Ball Heroes!',
+        'en': 'SUPER DRAGON BALL HEROES WORLD MISSION is a Tactical-Card game packed with exhilarating confrontation, deep card game strategy and a thrilling storyline taking place in the wide Dragon Ball Heroes universe!',
+      },
+    'download': {
+        'languages': 'Inglés, francés, alemán, español, italiano',
+      },
   }
 ]
 
