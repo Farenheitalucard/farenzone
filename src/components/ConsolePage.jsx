@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { getConsole } from '../data/consoles'
 import { useGames } from '../hooks/useGames'
 import { useLanguage } from '../language-context'
@@ -11,18 +11,15 @@ const PAGE_SIZE = 12
 
 export function ConsolePage() {
   const { id } = useParams()
+  const [searchParams, setSearchParams] = useSearchParams()
   const { t } = useLanguage()
   const consoleInfo = getConsole(id) || { name: id, fullName: id, color: '#888', gradient: 'linear-gradient(135deg, #888 0%, #444 100%)' }
   const allGames = useGames()
   const games = sortByTitle(allGames.filter((g) => g.console === id))
-  const [pagination, setPagination] = useState({ id, page: 1 })
-  if (pagination.id !== id) {
-    setPagination({ id, page: 1 })
-  }
-  const page = pagination.page
 
   const totalPages = Math.max(1, Math.ceil(games.length / PAGE_SIZE))
-  const safePage = Math.min(page, totalPages)
+  const page = Math.max(1, Math.min(parseInt(searchParams.get('page')) || 1, totalPages))
+  const safePage = page
   const visible = games.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
 
   useEffect(() => {
@@ -38,7 +35,8 @@ export function ConsolePage() {
   }
 
   function goTo(p) {
-    setPagination({ id, page: Math.max(1, Math.min(totalPages, p)) })
+    const newPage = Math.max(1, Math.min(totalPages, p))
+    setSearchParams({ page: newPage })
   }
 
   return (
