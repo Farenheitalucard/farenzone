@@ -364,15 +364,17 @@ export const games = [
     'cover': 'https://art.gametdb.com/switch/box/US/AG3JA.png',
     'trailer': 'jRlK9Dz3Eqs',
     'screenshots': [
-        'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013360/4d5437c859c0b77d140eb8e4dadc9a2e9db37fdaf2f26779c38828c2da6e60cf',
-        'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013360/699b744e3e94cf49d336f5e7d96be966f8f4eb329a5a8277bf940e6271046ea3',
-        'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013360/95314d2808b22d90b87a55d369d950d5043ab64bcf666dbca72968551fa91009',
+        'https://images.launchbox-app.com/eec4841c-0447-400d-9f99-8ee3bfbcfdf3.jpg',
+        'https://images.launchbox-app.com/313a7c15-d9b6-4da1-92a5-412d54922b4a.jpg',
+        'https://images.launchbox-app.com/d4a42e99-826d-453c-a0d9-e15bfd7bc40e.jpg',
       ],
     'description': {
         'es': 'Luigi deberá enfrentar fantasmas en un hotel encantado para rescatar a sus amigos.',
         'en': 'Luigi must face ghosts in a haunted hotel to rescue his friends.',
       },
-    'download': null,
+    'download': {
+        'languages': 'Inglés, francés, alemán, español, italiano, japonés, coreano, neerlandés, chino simplificado, chino tradicional',
+      },
   },
   {
     'id': 'mario-maker-2',
