@@ -3474,6 +3474,42 @@ export const games = [
       ],
     },
   },
+  {
+    'id': 'call-of-duty-wwii',
+    'console': 'ps4',
+    'title': 'Call of Duty: WWII',
+    'genre': 'Shooter - Acci\u00f3n',
+    'developer': 'Sledgehammer Games',
+    'publisher': 'Activision',
+    'year': 2017,
+    'rating': 79,
+    'players': '1-18',
+    'cooperativo': 'No',
+    'color': '#4a4a2a',
+    'cover': 'https://images.launchbox-app.com/ab339379-df8f-409c-9f67-d6aa7d381e6b.jpg',
+    'trailer': 'oDVrOyT7ImQ',
+    'screenshots': [],
+    'description': {
+      'es': 'Vuelve a la Segunda Guerra Mundial en la experiencia multijugador y campa\u00f1a m\u00e1s intensa de Call of Duty.',
+      'en': 'Return to World War II in the most intense multiplayer and campaign experience in Call of Duty.',
+    },
+    'download': {
+      'region': 'CUSA08602 - USA',
+      'size': '99.6GB',
+      'format': 'pkg',
+      'update': 'v1.25 -5DLC',
+      'fw': '5.00+',
+      'languages': 'Multi idioma (Latino)',
+      'thanks': '',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/eCuLf2k',
+          'color': 'blue',
+        },
+      ],
+    },
+  },
 ]
 
 export const getGame = (id) => games.find((g) => g.id === id)
