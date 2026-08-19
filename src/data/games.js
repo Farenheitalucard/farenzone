@@ -2991,6 +2991,33 @@ export const games = [
     'download': {
         'languages': 'Inglés',
       },
+  },
+  {
+    'id': 'nfs-heat-ps4',
+    'console': 'ps4',
+    'title': 'Need for Speed Heat Deluxe Edition',
+    'genre': 'Carreras',
+    'developer': 'Ghost Games',
+    'publisher': 'Electronic Arts',
+    'year': 2019,
+    'rating': 81,
+    'players': '1',
+    'cooperativo': 'No',
+    'color': '#ff6600',
+    'cover': 'https://images.launchbox-app.com/a36b4881-9ec5-49f4-879b-6b4f36299792.jpg',
+    'trailer': '04KPiGmC7Lc',
+    'screenshots': [
+      'https://images.launchbox-app.com/7493de5a-3ebc-4679-bbbf-9bfb4f72b830.jpg',
+      'https://images.launchbox-app.com/772536f8-a5ca-4dd2-bf73-849b78f8c8df.jpg',
+      'https://images.launchbox-app.com/e5cf294c-abb9-4c63-9d5b-65fec2ceee82.jpg',
+    ],
+    'description': {
+      'es': 'Corre por las calles de Palm City en carreras legales de día y callejeras de noche. personaliza tu coque y escapa de la policía.',
+      'en': 'Race through the streets of Palm City in legal daytime showdowns and illegal nighttime street races. Customize your ride and outrun the cops.',
+    },
+    'download': {
+      'languages': 'Inglés, francés, alemán, italiano, español, portugués, etc.',
+    },
   }
 ]
 
