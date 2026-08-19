@@ -1,4 +1,4 @@
-const games = [
+export const games = [
   {
     'id': 'zelda-botw',
     'console': 'switch',
@@ -4156,4 +4156,3 @@ const games = [
 export const getGame = (id) => games.find((g) => g.id === id)
 export const getGamesByConsole = (consoleId) =>
   games.filter((g) => g.console === consoleId)
-export { games }
