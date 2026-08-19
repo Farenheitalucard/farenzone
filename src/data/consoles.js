@@ -12,7 +12,7 @@ export const consoles = [
     name: 'PS4',
     color: '#2e6de0',
     gradient: 'linear-gradient(135deg, #5a9dff 0%, #1e4fb4 100%)',
-    video: '/videos/ps4-trailer.mp4?v=1',
+    image: 'https://assets.gamingdeals.com/storage/uploads/2019/09/Only-on-PlayStation-header.jpg',
   },
   {
     id: 'ps3',

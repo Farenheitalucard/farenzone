@@ -50,6 +50,11 @@ export function ConsolePage() {
             <video src={consoleInfo.video} muted playsInline loop autoPlay preload="auto" />
           </div>
         )}
+        {consoleInfo.image && (
+          <div className="console-hero-image" aria-hidden="true">
+            <img src={consoleInfo.image} alt="" />
+          </div>
+        )}
         <span className="console-badge">{t.nav.home} / {consoleInfo.fullName || consoleInfo.name}</span>
         <h1 className="console-title">{consoleInfo.fullName || consoleInfo.name}</h1>
         <p className="console-count">
