@@ -4194,9 +4194,90 @@ export const games = [
       ],
     },
   },
+  {
+    'id': 'ride-4',
+    'console': 'ps4',
+    'title': 'Ride 4',
+    'genre': 'Carreras - Motociclismo',
+    'developer': 'Milestone',
+    'publisher': 'Milestone',
+    'year': 2020,
+    'rating': 75,
+    'players': '1',
+    'cooperativo': 'No',
+    'multijugador': 'Local y online',
+    'color': '#e74c3c',
+    'cover': 'https://images.launchbox-app.com/c40b8fbd-ed7c-4152-ad94-6f541b8cda20.png',
+    'trailer': 'nvSJBHffY_M',
+    'screenshots': [
+      'https://images.launchbox-app.com/fc075c06-7b30-4b3b-9a6d-0cb0ac13d944.png',
+      'https://images.launchbox-app.com/b912981d-796f-4fa6-9b8d-bfac0e879f4f.png',
+      'https://gmedia.playstation.com/is/image/SIEPDC/ride-4-hero-desktop-mobile-01-ps4-en-26sep20',
+    ],
+    'description': {
+      'es': 'El simulador de motociclismo definitivo con más de 200 bicicletas, 30 circuitos y modo carrera completo. Compite en ligas y demuestra tu habilidad.',
+      'en': 'The ultimate motorcycle simulator with over 200 bikes, 30 circuits and full career mode. Compete in leagues and prove your skill.',
+    },
+    'download': {
+      'region': 'CUSA18184 - EUR',
+      'size': '20.5GB',
+      'format': 'pkg',
+      'update': '1.05',
+      'fw': '5.05+',
+      'languages': 'Multi idioma',
+      'thanks': 'Opoisso893/Golemnight',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/ASd0pr',
+          'color': 'blue',
+        },
+      ],
+    },
+  },
+  {
+    'id': 'ea-sports-ufc-4',
+    'console': 'ps4',
+    'title': 'EA Sports UFC 4',
+    'genre': 'Deportes - Lucha',
+    'developer': 'EA Vancouver',
+    'publisher': 'Electronic Arts',
+    'year': 2020,
+    'rating': 82,
+    'players': '1',
+    'cooperativo': 'No',
+    'multijugador': 'Local y online',
+    'color': '#2c3e50',
+    'cover': 'https://platform.mmafighting.com/wp-content/uploads/sites/109/chorus/uploads/chorus_asset/file/20076029/UFC4ps4PFT3Dfront.png',
+    'trailer': '5epQZVC6F3Y',
+    'screenshots': [
+      'https://platform.mmafighting.com/wp-content/uploads/sites/109/chorus/uploads/chorus_asset/file/20076013/UFC4_1P_STOREFRONT_STOIC_IZZY_3840x2160_FINAL_wOverlay.jpg',
+      'https://platform.mmafighting.com/wp-content/uploads/sites/109/chorus/uploads/chorus_asset/file/20076062/UFC4_1P_STOREFRONT_KHABIB_SINGLE_LEG_SLAM_3840x2160_FINAL_wOverlay.jpg',
+      'https://platform.mmafighting.com/wp-content/uploads/sites/109/chorus/uploads/chorus_asset/file/20076011/UFC4_1P_STOREFRONT_USMAN_COLBY_RIPPLE_EFFECT_3840x2160_FINAL_wOverlay.jpg',
+    ],
+    'description': {
+      'es': 'El juego de artes marciales mixtas definitivo. Crea tu luchador, sube de categoría y enfrenta a los mejores del mundo en el octágono.',
+      'en': 'The ultimate mixed martial arts game. Create your fighter, climb the ranks and face the best in the world in the octagon.',
+    },
+    'download': {
+      'region': 'CUSA14204 - USA',
+      'size': '31.5GB',
+      'format': 'pkg',
+      'update': '28.00 - 21DLC',
+      'fw': '5.05+',
+      'languages': 'Multi idioma',
+      'thanks': 'DUPLEX & Opoisso893',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/XDJ8f8S',
+          'color': 'blue',
+        },
+      ],
+    },
+  },
 ]
 
 export const getGame = (id) => games.find((g) => g.id === id)
 export const getGamesByConsole = (consoleId) =>
   games.filter((g) => g.console === consoleId)
-export { games }
