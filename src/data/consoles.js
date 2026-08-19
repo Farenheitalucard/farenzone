@@ -5,7 +5,7 @@ export const consoles = [
     fullName: 'Nintendo Switch',
     color: '#e60012',
     gradient: 'linear-gradient(135deg, #ff5a5f 0%, #c4001e 100%)',
-    image: 'https://gameinformer.com/sites/default/files/styles/og_image/public/2018/11/16/790848e6/switch_supersmashbrosultimate_illustration_01.jpg.webp',
+    image: 'http://imgfz.com/i/2hok93e.png',
   },
   {
     id: 'ps4',
@@ -19,12 +19,14 @@ export const consoles = [
     name: 'PS3',
     color: '#4a90d9',
     gradient: 'linear-gradient(135deg, #8fb9ff 0%, #2c5696 100%)',
+    image: 'http://imgfz.com/i/m9R4lBG.png',
   },
   {
     id: 'xbox360',
     name: 'Xbox 360',
     color: '#107c10',
     gradient: 'linear-gradient(135deg, #3ecf3e 0%, #0a5a0a 100%)',
+    image: 'http://imgfz.com/i/Cmvay9N.png',
   },
 ]
 
