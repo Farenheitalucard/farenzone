@@ -3510,6 +3510,52 @@ export const games = [
       ],
     },
   },
+  {
+    'id': 'call-of-duty-black-ops-3',
+    'console': 'ps4',
+    'title': 'Call of Duty: Black Ops III',
+    'genre': 'Shooter - Acci\u00f3n',
+    'developer': 'Treyarch',
+    'publisher': 'Activision',
+    'year': 2015,
+    'rating': 81,
+    'players': '1-4',
+    'cooperativo': 'No',
+    'color': '#2a2a4a',
+    'cover': 'https://images.launchbox-app.com//fa59dd06-9a0f-408e-b574-7da7e07fdde6.jpg',
+    'trailer': 'qAUYNIDEJ6o',
+    'screenshots': [],
+    'description': {
+      'es': 'La guerra futur\u00edstica llega a su m\u00e1xima expresi\u00f3n con combate en Cooperativa, Multijugador y Zombies.',
+      'en': 'Futuristic warfare reaches its peak with Combat in Co-op, Multiplayer, and Zombies.',
+    },
+    'download': {
+      'region': 'CUSA03004 - USA',
+      'size': '116GB',
+      'format': 'pkg',
+      'update': '1.33',
+      'fw': '',
+      'languages': 'Multi idioma (Latino)',
+      'thanks': 'CyB1K - Vickmindfreak',
+      'links': [
+        {
+          'label': 'Mediafire (Game)',
+          'url': 'https://ouo.io/vALA78b',
+          'color': 'blue',
+        },
+        {
+          'label': 'Mediafire (Update)',
+          'url': 'https://ouo.io/NHuPJ0',
+          'color': 'green',
+        },
+        {
+          'label': 'Mediafire (6DLC)',
+          'url': 'https://ouo.io/3aur23',
+          'color': 'orange',
+        },
+      ],
+    },
+  },
 ]
 
 export const getGame = (id) => games.find((g) => g.id === id)
