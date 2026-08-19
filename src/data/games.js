@@ -3018,6 +3018,46 @@ export const games = [
     'download': {
       'languages': 'Inglés, francés, alemán, italiano, español, portugués, etc.',
     },
+  },
+  {
+    'id': 'the-callisto-protocol',
+    'console': 'ps4',
+    'title': 'The Callisto Protocol',
+    'genre': 'Terror - Acción',
+    'developer': 'Striking Distance Studios',
+    'publisher': 'Krafton',
+    'year': 2022,
+    'rating': 68,
+    'players': '1',
+    'cooperativo': 'No',
+    'color': '#1a1a2e',
+    'cover': 'https://ogdb.eu/imageview.php?image_id=280927&limit=0',
+    'trailer': 'gghRJv_tdb0',
+    'screenshots': [
+      'https://static.wikia.nocookie.net/thecallistoprotocol/images/1/1e/Screenshot-01.jpg/revision/latest',
+      'https://static.wikia.nocookie.net/thecallistoprotocol/images/5/5f/Screenshot-02.jpg/revision/latest',
+      'https://static.wikia.nocookie.net/thecallistoprotocol/images/6/66/Screenshot-04.jpg/revision/latest',
+    ],
+    'description': {
+      'es': 'Jacob Lee es encarcelado en Black Iron Prison, una prisión en la luna de Júpiter. Cuando los presos se transforman en criaturas monstruosas, deberá luchar para escapar y descubrir los oscuros secretos de Callisto.',
+      'en': 'Jacob Lee is imprisoned in Black Iron Prison, a penitentiary on Jupiter\'s moon. When inmates transform into monstrous creatures, he must fight to escape and uncover the dark secrets of Callisto.',
+    },
+    'download': {
+      'region': 'CUSA27372 - USA',
+      'size': '32.9GB',
+      'format': 'pkg',
+      'update': '1.28 - 12DLC',
+      'fw': '5.05+',
+      'languages': 'Multi idioma (Castellano)',
+      'thanks': 'Droby25 - Pout',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/tjxktI',
+          'color': 'blue',
+        },
+      ],
+    },
   }
 ]
 
