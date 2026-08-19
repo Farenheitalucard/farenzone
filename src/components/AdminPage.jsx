@@ -28,6 +28,7 @@ function blankGame() {
     rating: null,
     players: '',
     cooperativo: '',
+    multijugador: '',
     color: '#7c5cff',
     cover: '',
     trailer: '',
@@ -189,6 +190,7 @@ export function AdminPage() {
       rating: d.rating === '' || d.rating == null ? null : Number(d.rating),
       players: (d.players || '').trim(),
       cooperativo: (d.cooperativo || '').trim(),
+      multijugador: (d.multijugador || '').trim(),
       color: (d.color || '').trim() || '#7c5cff',
       cover: (d.cover || '').trim(),
       trailer: (d.trailer || '').trim(),
@@ -542,6 +544,19 @@ export function AdminPage() {
                     onChange={(e) => setField('cooperativo', e.target.value)}
                     placeholder="No, Local, Online, Local y online"
                   />
+                </label>
+                <label>
+                  {t.admin.multiplayer}
+                  <select
+                    value={draft.multijugador ?? ''}
+                    onChange={(e) => setField('multijugador', e.target.value)}
+                  >
+                    <option value="">Sin especificar</option>
+                    <option value="No">No</option>
+                    <option value="Local">Local</option>
+                    <option value="Online">Online</option>
+                    <option value="Local y online">Local y online</option>
+                  </select>
                 </label>
                 <label>
                   {t.admin.color}
