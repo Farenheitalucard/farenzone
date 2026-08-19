@@ -1,4 +1,4 @@
-export const games = [
+const games = [
   {
     'id': 'zelda-botw',
     'console': 'switch',
@@ -16,7 +16,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/42293-2.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/42293-3.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/42293-4.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/42293-4.jpg'
     ],
     'description': {
       'es': 'Explora el vasto reino de Hyrule, derrota a Ganon y descubre los secretos de un mundo abierto revolucionario.',
@@ -45,7 +45,7 @@ export const games = [
           'label': 'gofile',
           'url': '#',
           'color': 'brown',
-        },
+        }
       ],
     },
   },
@@ -66,7 +66,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/42320-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/42320-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/42320-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/42320-3.jpg'
     ],
     'description': {
       'es': 'Acompaña a Mario en un viaje por increíbles reinos con su nueva gorra mágica, Cappy.',
@@ -91,7 +91,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com//c212daa2-03e9-4cc3-9064-2e5a0e0e99a8.jpg',
       'https://images.launchbox-app.com//f1c662f8-79f9-45f9-ad21-c57a93938e19.jpg',
-      'https://images.launchbox-app.com//66318b67-4ccf-4d22-b211-6e9bbd62b344.jpg',
+      'https://images.launchbox-app.com//66318b67-4ccf-4d22-b211-6e9bbd62b344.jpg'
     ],
     'description': {
       'es': 'La mejor experiencia de carreras de Mario con todos los circuitos, personajes y una nueva vuelta de tuerca.',
@@ -115,7 +115,7 @@ export const games = [
           'label': '3.05',
           'url': 'https://ouo.io/DltVJ2',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -136,7 +136,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/0f7818c241ac1eadc1429bde3bf28ca51c91ebec22ac77aace94c27dac1befdb',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/340f6c4bc1d5d62bc1077bd1242c04d8b7be1d225aa23ed5ded865c480ccb07a',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/39be0e9b4315ba4f412924c3ec4021ad918af2b3f702d8cacc13e199bd4627f2',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/39be0e9b4315ba4f412924c3ec4021ad918af2b3f702d8cacc13e199bd4627f2'
     ],
     'description': {
       'es': 'Crea tu propia isla paradisíaca, decórala a tu gusto y convive con tus vecinos animales.',
@@ -155,7 +155,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/bbC07Z',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -176,7 +176,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/8b42e00012633320624f3894179b5d6bec44c255998a58ceb54e07bd352df171',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/245420c78ce40337bdca7ce9c2dd819bd4ae33b022da9b922c0710b8420b59dd',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/0a381c9a157deda7997e47a40ebedf5d6357daa54eadb8747c85535247b5966a',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/0a381c9a157deda7997e47a40ebedf5d6357daa54eadb8747c85535247b5966a'
     ],
     'description': {
       'es': 'Reúne a todos los personajes de Nintendo en el crossover de lucha definitivo.',
@@ -201,7 +201,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/ca80e4d9f7ddc2971daea8d9b9144c42dbdf2245c3546f41b94a740067bd42a0',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/05b3d8e8c74beaa43a7714c275a7ad06018ed069bd6bd3f923442b9ac16fdc49',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/490ccb15d914eabada74b34de895e9061c7917d7f75782bc934a528fb77ea4be',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/490ccb15d914eabada74b34de895e9061c7917d7f75782bc934a528fb77ea4be'
     ],
     'description': {
       'es': 'Link explora Hyrule y sus cielos con nuevas habilidades para detener una amenaza ancestral.',
@@ -226,7 +226,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/31ee74fe5360c4e76f72a6a4747c0771a4d6cd1a88d00690ea2f97caa9b16009',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/7efd9a639826a4cd4eb655ad489a882e9ab9c2f2cd28fad2e9b589c9630a730b',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/ed2ec03e6aa1f54c7d1c809dfd345b18cc2bd35f5726080689d4eb818ddf0b06',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/ed2ec03e6aa1f54c7d1c809dfd345b18cc2bd35f5726080689d4eb818ddf0b06'
     ],
     'description': {
       'es': 'Explora la región de Galar y conviértete en el Campeón del desafío de gimnasios.',
@@ -251,7 +251,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/9e78551e9143c33808225efd398d378b3f73dcd8b812cd07aee9e496a66bcf9b',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/f8ddaa6cfe5d9551504d99e3fc9387c9d8daa6a03fb0d86058dfeb143b566383',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/f7ca9c4e9dd303234d74488fdf350ceca6255b534d71a45fe6f08d4d290416d2',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/f7ca9c4e9dd303234d74488fdf350ceca6255b534d71a45fe6f08d4d290416d2'
     ],
     'description': {
       'es': 'Descubre la región de Paldea en una aventura de mundo abierto con nuevos Pokémon.',
@@ -276,7 +276,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/d71c8c45b08ce91bf8aee85525a1dd452e04682bdd2f1e547341e05baea97ec0',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/2ff569ab045a4ff91e29902f74bbca021246569b538c4a1f61fb475c211d7c43',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/cd7ff3e86a6590c56fc4d4ca5df94212aadecf20bb5b2ae82e5cd70bd7dc0e2f',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/cd7ff3e86a6590c56fc4d4ca5df94212aadecf20bb5b2ae82e5cd70bd7dc0e2f'
     ],
     'description': {
       'es': 'Disfruta de minijuegos y tableros frenéticos con hasta cuatro jugadores.',
@@ -301,7 +301,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/7f1845a5e8d8ec895ad188a6b0f46b59036a363db1b2d9b79d23b913b0b9ab8a',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e3024df668cdead60e62865924652c811323b0e7c46f51567fe80907f2637cc4',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e1ee4f690cec788fc2a75e85ddc12f6d7ef69501bbb362ad918e1ffcbc14936f',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e1ee4f690cec788fc2a75e85ddc12f6d7ef69501bbb362ad918e1ffcbc14936f'
     ],
     'description': {
       'es': 'Un clásico plataformas reinventado con las sorprendentes flores Maravilla.',
@@ -326,7 +326,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/745cb0a8097d1b3465dd31147bbe05fc5ce39ed37807c2b0c3961e909dc0bf1d',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/310bf3c0e943beec2347da726a2a006c84072753206ef856e4c514a14f207af4',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/320ffb4e290966aca9416e78008ff1798cc47c8fccae54443becae37c43ecb30',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/320ffb4e290966aca9416e78008ff1798cc47c8fccae54443becae37c43ecb30'
     ],
     'description': {
       'es': 'Embárcate en una aventura en la antigua región de Sinnoh para completar la primera Pokédex.',
@@ -351,7 +351,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/4022d66a8752ca2e585d34c049ae5b959e2a92551964bd7d701b123fc0c51d94',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/1506aeb7252b39ec25c8f29973c2018c441cf73aadebc0799b008cd40db0cfa4',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/395397c1ae4980cdebaf8fd748d3cf0db8147c0ed6a2a832ab029ac1a5966e84',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/395397c1ae4980cdebaf8fd748d3cf0db8147c0ed6a2a832ab029ac1a5966e84'
     ],
     'description': {
       'es': 'Lucha por la tinta en la ciudad de Chromópolis con modos multijugador y campaña.',
@@ -376,7 +376,7 @@ export const games = [
     'screenshots': [
       'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_MusicPlayer_screen_01.jpg',
       'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_SMS_screen_01.jpg',
-      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_SMS_screen_02.jpg',
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_SMS_screen_02.jpg'
     ],
     'description': {
       'es': 'Tres clásicos 3D de Mario reunidos en una colección definitiva.',
@@ -401,7 +401,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/eec4841c-0447-400d-9f99-8ee3bfbcfdf3.jpg',
       'https://images.launchbox-app.com/313a7c15-d9b6-4da1-92a5-412d54922b4a.jpg',
-      'https://images.launchbox-app.com/d4a42e99-826d-453c-a0d9-e15bfd7bc40e.jpg',
+      'https://images.launchbox-app.com/d4a42e99-826d-453c-a0d9-e15bfd7bc40e.jpg'
     ],
     'description': {
       'es': 'Luigi deberá enfrentar fantasmas en un hotel encantado para rescatar a sus amigos.',
@@ -420,7 +420,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/1dk3hXV',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -441,7 +441,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/ae7e1c2764074f1b5af56454cd5c75f150474aa9a4a87b73aeff2996ffad0bee',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/1500395a0a6e241f071e902759525e7442434babd3726f25d5ae1d5d232e38b7',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/b4373e8d3b216aaaf30fb58409df7dbf27d0d8b6541ff9ac266b70d0624126e5',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/b4373e8d3b216aaaf30fb58409df7dbf27d0d8b6541ff9ac266b70d0624126e5'
     ],
     'description': {
       'es': 'Crea, comparte y juega niveles infinitos de Mario diseñados por la comunidad.',
@@ -466,7 +466,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/9cf33306052926c7d4b990905290784c9eab4932c767ab44f289ffca0e2f0187',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/5cf2ca13b6ff175a1bc77e2bd8e771554511b0469c4628c36c5ef79f57c9597d',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/49570a053c08fcafad89fc7109ebd91384bab4b0b19f63bcb85f8d04d74481f1',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/49570a053c08fcafad89fc7109ebd91384bab4b0b19f63bcb85f8d04d74481f1'
     ],
     'description': {
       'es': 'Los Inklings regresan con nuevas armas, modos y festivales de tinta.',
@@ -491,7 +491,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/93188-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/93188-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/93188-4.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/93188-4.jpg'
     ],
     'description': {
       'es': 'Kirby descubre un mundo desconocido en su primera aventura en 3D.',
@@ -510,7 +510,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/3ODUG0',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -531,7 +531,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043310/98f268a8e539178302827e8bd770a3d273d1dd18890f68f87f93589f8deb4be5',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043310/080d47d081a28d427e2cb3f4fe420a22c548caba89a169b1b68df38eedff9431',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043310/59fa405e0614bf4a1c78336ed4bb5c318e5f57501d51d227803531461f5326f8',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043310/59fa405e0614bf4a1c78336ed4bb5c318e5f57501d51d227803531461f5326f8'
     ],
     'description': {
       'es': 'Revive la aventura de Sinnoh en este remake fiel y brillante.',
@@ -556,7 +556,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/7a5794b6e6ba1d583e0c90e5fc503103dfb321db553de7160f39c13d8b6a26d3',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/76731e0af708c9bb61ffda82d4488e815696dc0ea78b35a200e381826b01654f',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/70e487d188c282a02eeafd629ece49d1a4fdf94e5aacf3acb9edfee6a6189daf',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/70e487d188c282a02eeafd629ece49d1a4fdf94e5aacf3acb9edfee6a6189daf'
     ],
     'description': {
       'es': 'Los mejores tableros y minijuegos de la saga reunidos para jugar en línea.',
@@ -581,7 +581,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/f7eab80bf81dace25f1372f2b0ac5a63e3653af74468f73f37c6bb27df638a93',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/5e1ca57f22a388d696dd0883ea3b5453c7c9e59ff0fea05dd912a2fcb88d1985',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/5d7c325d4bac7e8af8da21d05376a007e4701421cec4a9a8791677162817eed9',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/5d7c325d4bac7e8af8da21d05376a007e4701421cec4a9a8791677162817eed9'
     ],
     'description': {
       'es': 'La aventura 2D de Mario con todos los niveles y sus expansiones.',
@@ -606,7 +606,7 @@ export const games = [
     'screenshots': [
       'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_001.jpg',
       'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_002.jpg',
-      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_003.jpg',
+      'https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_003.jpg'
     ],
     'description': {
       'es': 'El clásico de Wii U mejorado con el nuevo mundo abierto de Bowser\'s Fury.',
@@ -631,7 +631,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/ee756f617f2e59e7cb4e09fccda40dfebfed6aaa94f1164f4fed8f6d38253f28',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/08357e380f643e3f73773aef78ab8aa364fff62cc3794e6a3082d7ec48b38aa5',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/d008f8312312fff3dcb3cf726ded0195f91b5d8b3946ba32d7ef0ac16c515fb3',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/d008f8312312fff3dcb3cf726ded0195f91b5d8b3946ba32d7ef0ac16c515fb3'
     ],
     'description': {
       'es': 'Juega al tenis, al fútbol, al boliche y más moviéndote con los Joy-Con.',
@@ -656,7 +656,7 @@ export const games = [
     'screenshots': [
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013293/90a52983d8edc9971cda75e544b0e386bcd13f6660c0f15e98aec169a2ebda2d',
       'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013293/e1b9dea18517d21f8ab3fcb0c1aa5a28331ca33da11c354e681d79a013fadfb4',
-      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013293/959ad067a4c7699e8f1980d5ca47d97bc674c6038d1323fa023ea6e596928e09',
+      'https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013293/959ad067a4c7699e8f1980d5ca47d97bc674c6038d1323fa023ea6e596928e09'
     ],
     'description': {
       'es': 'Link despierta en la misteriosa isla Koholint en un remake encantador.',
@@ -681,7 +681,7 @@ export const games = [
     'screenshots': [
       'https://media.contentapi.ea.com/content/dam/eacom/it-takes-two/images/2022/10/shed-nails-fix-v01.png',
       'https://media.contentapi.ea.com/content/dam/eacom/it-takes-two/images/2022/10/circus-trapeeze-alt-fix-v01.png',
-      'https://media.contentapi.ea.com/content/dam/eacom/it-takes-two/images/2022/10/space-wheel-fix-v01.png',
+      'https://media.contentapi.ea.com/content/dam/eacom/it-takes-two/images/2022/10/space-wheel-fix-v01.png'
     ],
     'description': {
       'es': 'Aventura cooperativa donde una pareja convertida en muñecos debe trabajar junto para salvar su relación y volver a ser humanos.',
@@ -706,7 +706,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/52805-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/52805-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/52805-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/52805-3.jpg'
     ],
     'description': {
       'es': 'Kratos y Atreus viajan a los reinos nórdicos en un viaje épico que redefine la saga.',
@@ -731,7 +731,7 @@ export const games = [
     'screenshots': [
       'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfe778bf6d66e952e4acd4e1f926f7615b609ddf.1920x1080.jpg',
       'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_427677cf78195df94702f0a963cd9eaeb9d8935a.1920x1080.jpg',
-      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfba6f2477bfa42be69ddfdffbd421d3943d20bf.1920x1080.jpg',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfba6f2477bfa42be69ddfdffbd421d3943d20bf.1920x1080.jpg'
     ],
     'description': {
       'es': 'Balanceate por la ciudad de Nueva York y combate el crimen como el icónico superhéroe.',
@@ -756,7 +756,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/29523-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/29523-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/29523-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/29523-3.jpg'
     ],
     'description': {
       'es': 'En un mundo dominado por máquinas, Aloy descubre el origen de la civilización.',
@@ -778,7 +778,8 @@ export const games = [
     'color': '#7a3b2e',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/55247-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Arthur Morgan y la banda de Van der Linde luchan por sobrevivir en el ocaso del Lejano Oeste.',
       'en': 'Arthur Morgan and the Van der Linde gang fight to survive the dying days of the Wild West.',
@@ -799,7 +800,8 @@ export const games = [
     'color': '#5c3e2a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/55731-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Ellie persigue la venganza en un Seattle devastado por la guerra de facciones.',
       'en': 'Ellie hunts for revenge across a Seattle torn apart by faction warfare.',
@@ -820,7 +822,8 @@ export const games = [
     'color': '#2c6e9e',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/21416-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Nathan Drake regresa a la caza del tesoro de los piratas Henry Avery.',
       'en': 'Nathan Drake returns to hunt the lost treasure of pirate Henry Avery.',
@@ -841,7 +844,8 @@ export const games = [
     'color': '#8f4a5c',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/20960-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'En la ciudad gótica de Yharnam, los cazadores se enfrentan a horrores imposibles.',
       'en': 'In the gothic city of Yharnam, hunters face unspeakable horrors.',
@@ -862,7 +866,8 @@ export const games = [
     'color': '#5a4a8f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/55760-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Jin Sakai debe elegir entre el honor samurái y el camino del fantasma para liberar Tsushima.',
       'en': 'Jin Sakai must choose between the samurai code and the Ghost path to free Tsushima.',
@@ -883,7 +888,8 @@ export const games = [
     'color': '#6e5c2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/38442-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Deacon St. John sobrevive en un noroeste del Pacífico invadido por infectados.',
       'en': 'Deacon St. John survives a Pacific Northwest overrun by the infected.',
@@ -904,7 +910,8 @@ export const games = [
     'color': '#3a5a8f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/48142-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Tres androides deciden el destino de la humanidad en un Detroit futurista.',
       'en': 'Three androids decide the fate of humanity in a futuristic Detroit.',
@@ -925,7 +932,8 @@ export const games = [
     'color': '#8f3a2e',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/16489-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la Cacería Salvaje.',
       'en': 'Geralt of Rivia searches for his adopted daughter Ciri, hunted by the Wild Hunt.',
@@ -946,7 +954,8 @@ export const games = [
     'color': '#c02a3a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/64814-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Los Phantom Thieves roban los corazones corruptos en Tokio mientras despiertan sus Personas.',
       'en': 'The Phantom Thieves steal corrupt hearts across Tokyo while awakening their Personas.',
@@ -967,7 +976,8 @@ export const games = [
     'color': '#2f6e5c',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/29221-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Cloud Strife y AVALANCHE luchan contra Shinra en la ciudad de Midgar.',
       'en': 'Cloud Strife and AVALANCHE fight against Shinra in the city of Midgar.',
@@ -988,7 +998,8 @@ export const games = [
     'color': '#c98f1f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/43904-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Las tres primeras aventuras de Crash Bandicoot remasterizadas desde cero.',
       'en': 'The first three Crash Bandicoot adventures fully remastered from scratch.',
@@ -1009,7 +1020,8 @@ export const games = [
     'color': '#8f6e2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/52679-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Caza monstruos colosales en un mundo vivo y conectado en el Nuevo Mundo.',
       'en': 'Hunt colossal monsters in a living, connected world in the New World.',
@@ -1030,7 +1042,8 @@ export const games = [
     'color': '#3a3a5a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/60138-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'El Lobo busca venganza en el Japón Sengoku con su espada y su prótesis shinobi.',
       'en': 'Sekiro pursues revenge across Sengoku Japan with his blade and shinobi prosthetic.',
@@ -1051,7 +1064,8 @@ export const games = [
     'color': '#5a5a8f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/38113-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Sam Bridges conecta una América fragmentada tras el Death Stranding.',
       'en': 'Sam Bridges reconnects a shattered America in the wake of the Death Stranding.',
@@ -1072,7 +1086,8 @@ export const games = [
     'color': '#d8a01f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/22722-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'V forja su leyenda en Night City, la megaciudad de la obsesión y el poder.',
       'en': 'V forges a legend in Night City, a megalopolis of obsession and power.',
@@ -1090,7 +1105,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/7Kg3CF',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -1108,7 +1123,8 @@ export const games = [
     'color': '#a67c2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/20954-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Tres criminales y el ambicioso mundo de Los Santos en su edición para PS4.',
       'en': 'Three criminals and the ambitious world of Los Santos in the PS4 edition.',
@@ -1129,7 +1145,8 @@ export const games = [
     'color': '#4a8f3e',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/23313-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Construye, explora y sobrevive en mundos infinitos hechos de bloques.',
       'en': 'Build, explore and survive in infinite block-based worlds.',
@@ -1150,7 +1167,8 @@ export const games = [
     'color': '#c05a2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/29275-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Ratchet y Clank regresan en un remake cinematográfico de su primera aventura.',
       'en': 'Ratchet and Clank return in a cinematic reimagining of their first adventure.',
@@ -1171,7 +1189,8 @@ export const games = [
     'color': '#2f5c8f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/50108-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Competición online de alto nivel con los coches y circuitos más emblemáticos.',
       'en': 'High-level online competition with the most iconic cars and tracks.',
@@ -1195,7 +1214,7 @@ export const games = [
     'screenshots': [
       'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/b09372df2c53ca10574bdd3f0e04b8dacb4472b5/ss_b09372df2c53ca10574bdd3f0e04b8dacb4472b5.1920x1080.jpg?t=1779854659',
       'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/ee821bbdd8209b68d20c625f8c6d7b46edf2f4d6/ss_ee821bbdd8209b68d20c625f8c6d7b46edf2f4d6.1920x1080.jpg?t=1779854659',
-      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/de17bfbb3ef959e635cfe30a38e9372e78695f4d/ss_de17bfbb3ef959e635cfe30a38e9372e78695f4d.1920x1080.jpg?t=1779854659',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/de17bfbb3ef959e635cfe30a38e9372e78695f4d/ss_de17bfbb3ef959e635cfe30a38e9372e78695f4d.1920x1080.jpg?t=1779854659'
     ],
     'description': {
       'es': 'Precuela del clásico RPG HD-2D donde creas tu propio personaje y reconstruyes tu pueblo natal en la tierra de Orsterra.',
@@ -1206,6 +1225,7 @@ export const games = [
       'size': '8.09GB',
       'format': 'pkg',
       'update': '1.03',
+      'fw': '',
       'languages': 'Japonés, Inglés',
       'thanks': 'Opoisso893/Golemnight',
       'links': [
@@ -1213,7 +1233,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/Fzm66ge',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -1234,7 +1254,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/49458-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/49458-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/49458-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/49458-3.jpg'
     ],
     'description': {
       'es': 'RPG HD-2D con ocho viajeros, cada uno con su propia historia. Explora Orsterra combatiendo con el sistema Break & Boost.',
@@ -1245,6 +1265,7 @@ export const games = [
       'size': '5.61GB',
       'format': 'pkg',
       'update': '1.01',
+      'fw': '',
       'languages': 'Multi idioma',
       'thanks': 'Opoisso893/Golemnight',
       'links': [
@@ -1252,7 +1273,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/KTKE9u',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -1272,7 +1293,7 @@ export const games = [
     'trailer': '7LyOXR1tO0M',
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/134531-1.jpg',
-      'https://images.rpgsite.net/image/da49c9a1/161633/original/Octopath-Traveler-0_20251124_07.png',
+      'https://images.rpgsite.net/image/da49c9a1/161633/original/Octopath-Traveler-0_20251124_07.png'
     ],
     'description': {
       'es': 'Continuación del RPG HD-2D. Ocho nuevos viajeros en Solistia, un mundo de este a oeste con culturas diversas y una nueva era.',
@@ -1283,6 +1304,7 @@ export const games = [
       'size': '10.4GB',
       'format': 'pkg',
       'update': '1.11',
+      'fw': '',
       'languages': 'Multi idioma',
       'thanks': 'Opoisso893/Golemnight',
       'links': [
@@ -1290,7 +1312,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/irrtr4',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -1311,7 +1333,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/21182-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/21182-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/21182-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/21182-3.jpg'
     ],
     'description': {
       'es': 'Joel y Ellie atraviesan una América postapocalíptica en una de las historias más aclamadas del medio.',
@@ -1335,7 +1357,7 @@ export const games = [
     'trailer': 'K6dL9j_PiN0',
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/201-1.jpg',
-      'https://upload.wikimedia.org/wikipedia/en/7/73/Uncharted-2-hotel-climb-screenshot.jpg',
+      'https://upload.wikimedia.org/wikipedia/en/7/73/Uncharted-2-hotel-climb-screenshot.jpg'
     ],
     'description': {
       'es': 'Nathan Drake busca la legendaria ciudad de Shambhala mientras escapa de cazarrecompensas.',
@@ -1360,7 +1382,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/20954-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/20954-3.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/20954-4.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/20954-4.jpg'
     ],
     'description': {
       'es': 'Tres criminales persiguen sus propios objetivos en el soleado estado de San Andreas.',
@@ -1382,7 +1404,8 @@ export const games = [
     'color': '#2f3a4a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30591.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Misiones encubiertas de la Guerra Fría que pondrán a prueba tu mente y tus reflejos.',
       'en': 'Covert Cold War missions that will test both your mind and your reflexes.',
@@ -1403,7 +1426,8 @@ export const games = [
     'color': '#3a5a2f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30887.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'La guerra total estalla cuando las fuerzas de Makarov invaden Estados Unidos.',
       'en': 'Total war erupts as Makarov\'s forces invade the United States.',
@@ -1424,7 +1448,8 @@ export const games = [
     'color': '#4a3a2f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS31140.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Una guerra futura contra la inteligencia artificial cambia el destino del mundo.',
       'en': 'A future war against artificial intelligence changes the fate of the world.',
@@ -1445,7 +1470,8 @@ export const games = [
     'color': '#3a4a2f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30377.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Task Force 141 responde a la invasión de una nueva Rusia nacionalista.',
       'en': 'Task Force 141 responds to the invasion of a resurgent nationalist Russia.',
@@ -1466,7 +1492,8 @@ export const games = [
     'color': '#8f2f2f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS98111.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Kratos asalta el Monte Olimpo para vengarse de los dioses que lo traicionaron.',
       'en': 'Kratos storms Mount Olympus to take revenge on the gods who betrayed him.',
@@ -1487,7 +1514,8 @@ export const games = [
     'color': '#3a6e8f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS98114.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Más de mil coches y circuitos del mundo real en el simulador de conducción por excelencia.',
       'en': 'Over a thousand cars and real-world tracks in the ultimate driving simulator.',
@@ -1508,7 +1536,8 @@ export const games = [
     'color': '#2f5a7a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS98296.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'La última entrega para PS3 amplía el catálogo con nuevas pistas y coches.',
       'en': 'The final PS3 entry expands the roster with new tracks and cars.',
@@ -1529,7 +1558,8 @@ export const games = [
     'color': '#6e5c3a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS90675.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Nathan Drake persigue la legendaria ciudad perdida en el desierto de Rub\' al-Jali.',
       'en': 'Nathan Drake hunts the legendary lost city across the Rub\' al-Khali desert.',
@@ -1550,7 +1580,8 @@ export const games = [
     'color': '#5c4a3a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS98103.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'El cazatesoros Nathan Drake busca el El Dorado en una isla tropical.',
       'en': 'Treasure hunter Nathan Drake searches for El Dorado on a tropical island.',
@@ -1571,7 +1602,8 @@ export const games = [
     'color': '#2f2f3a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30109.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Old Snake regresa para detener la guerra dirigida por los Patriots.',
       'en': 'Old Snake returns to end the war waged by the Patriots.',
@@ -1592,7 +1624,8 @@ export const games = [
     'color': '#6e4a2f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30418.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'John Marston caza a los hombres de su antigua banda en el Lejano Oeste.',
       'en': 'John Marston hunts down the men of his old gang in the Wild West.',
@@ -1613,7 +1646,8 @@ export const games = [
     'color': '#5c5c8f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS98280.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Cuatro personajes luchan por atrapar al Asesino del Origami y salvar a un niño.',
       'en': 'Four characters race to catch the Origami Killer and save a child.',
@@ -1634,7 +1668,8 @@ export const games = [
     'color': '#a85c2f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS98148.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Sackboy recorre mundos creativos creados por y para la comunidad.',
       'en': 'Sackboy explores creative worlds made by and for the community.',
@@ -1655,7 +1690,8 @@ export const games = [
     'color': '#4a5c8f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BCUS98125.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Cole MacGrath elige entre héroe o villano en la ciudad de New Marais.',
       'en': 'Cole MacGrath chooses between hero and villain in the city of New Marais.',
@@ -1676,7 +1712,8 @@ export const games = [
     'color': '#3a3a5c',
     'cover': 'https://art.gametdb.com/ps3/cover/EN/BCES01007.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'La guerra contra los Helghast alcanza su punto culminante en una Helghan asediada.',
       'en': 'The war against the Helghast reaches its climax on a besieged Helghan.',
@@ -1697,7 +1734,8 @@ export const games = [
     'color': '#2f4a3a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30762.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Combate moderno a gran escala con entornos totalmente destructibles.',
       'en': 'Large-scale modern combat with fully destructible environments.',
@@ -1718,7 +1756,8 @@ export const games = [
     'color': '#2f8f5c',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30687.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Jason Brody debe sobrevivir y liberar una isla controlada por un tirano.',
       'en': 'Jason Brody must survive and liberate an island ruled by a tyrant.',
@@ -1739,7 +1778,8 @@ export const games = [
     'color': '#2f2f3a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30782.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Explora el reino de Lordran y enfréntate a uno de los desafíos más legendarios.',
       'en': 'Explore the realm of Lordran and face one of the most legendary challenges in gaming.',
@@ -1760,7 +1800,8 @@ export const games = [
     'color': '#5c3a2f',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30270.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Chris Redfield investiga una nueva amenaza biológica en Kijuju, África.',
       'en': 'Chris Redfield investigates a new biological threat in Kijuju, Africa.',
@@ -1781,7 +1822,8 @@ export const games = [
     'color': '#7a2f3a',
     'cover': 'https://art.gametdb.com/ps3/cover/US/BLUS30364.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Ezio Auditore se convierte en asesino en el Renacimiento italiano.',
       'en': 'Ezio Auditore rises as an assassin during the Italian Renaissance.',
@@ -1803,7 +1845,7 @@ export const games = [
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/90-1.jpg',
     'trailer': 'T9Ezd2FqxAU',
     'screenshots': [
-      'https://upload.wikimedia.org/wikipedia/en/9/9e/Halo3-gameplay.png',
+      'https://upload.wikimedia.org/wikipedia/en/9/9e/Halo3-gameplay.png'
     ],
     'description': {
       'es': 'El Jefe Maestro lidera la batalla final contra el Covenant y el Flood.',
@@ -1828,7 +1870,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/24-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/24-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/24-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/24-3.jpg'
     ],
     'description': {
       'es': 'Marcus Fenix lidera a su escuadrón contra la horda Locust en su guarida subterránea.',
@@ -1853,7 +1895,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/191-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/191-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/191-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/191-3.jpg'
     ],
     'description': {
       'es': 'John Marston busca a los miembros de su antigua banda en el lejano oeste.',
@@ -1875,7 +1917,8 @@ export const games = [
     'color': '#8f5c2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/638-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Noble Team se sacrifica para retrasar el asalto Covenant al planeta Reach.',
       'en': 'Noble Team sacrifices everything to slow the Covenant assault on Reach.',
@@ -1896,7 +1939,8 @@ export const games = [
     'color': '#2f8f7a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/3597-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'El Jefe Maestro despierta en el planeta Forerunner Requiem y se enfrenta al Didact.',
       'en': 'Master Chief awakens on the Forerunner world of Requiem and faces the Didact.',
@@ -1917,7 +1961,8 @@ export const games = [
     'color': '#6e2f2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/935-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Marcus Fenix y su equipo luchan por la supervivencia final de la humanidad.',
       'en': 'Marcus Fenix and his team fight for humanity\'s final survival.',
@@ -1938,7 +1983,8 @@ export const games = [
     'color': '#3a3a2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/11740-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Desclasifica los secretos ocultos de la Guerra Fría en primera persona.',
       'en': 'Uncover the hidden secrets of the Cold War in first person.',
@@ -1959,7 +2005,8 @@ export const games = [
     'color': '#2f3a4a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/10914-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'El conflicto global estalla y el mundo queda al borde del colapso.',
       'en': 'Global conflict erupts and the world teeters on the edge of collapse.',
@@ -1980,7 +2027,8 @@ export const games = [
     'color': '#3a5a2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/8154-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'La Tercera Guerra Mundial arrasa Europa en el cierre de la saga Modern Warfare.',
       'en': 'World War III engulfs Europe in the conclusion of the Modern Warfare saga.',
@@ -2001,7 +2049,8 @@ export const games = [
     'color': '#4a3a2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/9937-2.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Conflictos de la Guerra Fría y una guerra futura se entrelazan en 2025.',
       'en': 'Cold War conflicts and a future war intertwine in 2025.',
@@ -2022,7 +2071,8 @@ export const games = [
     'color': '#a67c2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/13353-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Tres criminales con tres vidas distintas se cruzan en Los Santos.',
       'en': 'Three criminals with three very different lives collide in Los Santos.',
@@ -2043,7 +2093,8 @@ export const games = [
     'color': '#3a5c8f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/8256-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'El Dovahkiin debe enfrentarse a Alduin, el devorador de mundos, en Skyrim.',
       'en': 'The Dragonborn must face Alduin the World-Eater across Skyrim.',
@@ -2064,7 +2115,8 @@ export const games = [
     'color': '#5a6e2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/8183-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Abandona el Refugio 101 y explora las ruinas radiactivas de la capital.',
       'en': 'Leave Vault 101 and explore the irradiated ruins of the Capital Wasteland.',
@@ -2085,7 +2137,8 @@ export const games = [
     'color': '#2f6e8f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/7536-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Shepard reúne un escuadrón de élite para una misión suicida contra los Recolectores.',
       'en': 'Shepard assembles an elite squad for a suicide mission against the Collectors.',
@@ -2106,7 +2159,8 @@ export const games = [
     'color': '#8f8f2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/9959-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Cazadores de bóvedas se enfrentan al malvado Handsome Jack en Pandora.',
       'en': 'Vault Hunters battle the villainous Handsome Jack across Pandora.',
@@ -2127,7 +2181,8 @@ export const games = [
     'color': '#8f8f5c',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/14409-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Booker DeWitt rescata a Elizabeth en la ciudad flotante de Columbia.',
       'en': 'Booker DeWitt rescues Elizabeth in the floating city of Columbia.',
@@ -2148,7 +2203,8 @@ export const games = [
     'color': '#2f4a8f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/838-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'El simulador de conducción de referencia con más de 400 coches.',
       'en': 'The benchmark racing simulator with over 400 cars.',
@@ -2169,7 +2225,8 @@ export const games = [
     'color': '#8f4a3a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/11977-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Carreras en mundo abierto en el festival Horizon de Colorado.',
       'en': 'Open-world racing at the Horizon festival in Colorado.',
@@ -2190,7 +2247,8 @@ export const games = [
     'color': '#3e8f2f',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/17158-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Crea y explora mundos infinitos con amigos desde el sofá de tu casa.',
       'en': 'Create and explore infinite worlds with friends from your living room.',
@@ -2211,7 +2269,8 @@ export const games = [
     'color': '#2f4a3a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/8856-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Combate moderno a gran escala con entornos totalmente destructibles.',
       'en': 'Large-scale modern combat with fully destructible environments.',
@@ -2232,7 +2291,8 @@ export const games = [
     'color': '#7a2f3a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/2762-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Ezio Auditore se convierte en asesino durante el Renacimiento italiano.',
       'en': 'Ezio Auditore rises as an assassin during the Italian Renaissance.',
@@ -2253,7 +2313,8 @@ export const games = [
     'color': '#2f3a3a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/193-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Los Orbital Drop Shock Troopers luchan en las calles de New Mombasa.',
       'en': 'Orbital Drop Shock Troopers fight through the streets of New Mombasa.',
@@ -2277,7 +2338,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/20777-8.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/20777-5.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/20777-4.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/20777-4.jpg'
     ],
     'description': {
       'es': 'Un detective queda atrapado en un mundo aterrador lleno de criaturas y pesadillas, donde deberá luchar por sobrevivir y descubrir la verdad.',
@@ -2296,7 +2357,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/GRUs4aR',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2308,7 +2369,7 @@ export const games = [
     'developer': 'Black Tower Basement',
     'publisher': 'Nordcurrent Labs',
     'year': 2026,
-    'rating': 0,
+    'rating': null,
     'players': '1',
     'cooperativo': 'No',
     'color': '#7c5cff',
@@ -2317,7 +2378,7 @@ export const games = [
     'screenshots': [
       'https://stash.icopartners.com/public/uploads/mediakits/91/DOTC_ClassicMode.png',
       'https://stash.icopartners.com/public/uploads/mediakits/91/Screenshot_2026-08-04_164448.png',
-      'https://stash.icopartners.com/public/uploads/mediakits/91/DOTC_ClassicMode(1).jpg',
+      'https://stash.icopartners.com/public/uploads/mediakits/91/DOTC_ClassicMode(1).jpg'
     ],
     'description': {
       'es': 'Revive la leyenda medieval en una aventura de estrategia donde deberás conquistar territorios, administrar tu reino y enfrentarte a tus rivales para convertirte en el verdadero rey de Inglaterra.',
@@ -2336,7 +2397,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/PCA5wpG',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2357,7 +2418,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/114572-2.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/114572-6.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/114572-4.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/114572-4.jpg'
     ],
     'description': {
       'es': 'Una aventura narrativa oscura donde tus decisiones determinarán el destino de Sir Brante en un mundo marcado por la desigualdad y la opresión.',
@@ -2376,7 +2437,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/KWmPX8',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2388,7 +2449,7 @@ export const games = [
     'developer': 'VRCFORGE STUDIOS',
     'publisher': 'VRCFORGE STUDIOS',
     'year': 2026,
-    'rating': 0,
+    'rating': null,
     'players': '1',
     'cooperativo': 'No',
     'color': '#7c5cff',
@@ -2397,7 +2458,7 @@ export const games = [
     'screenshots': [
       'http://imgfz.com/i/5FT91dA.jpeg',
       'http://imgfz.com/i/Gklyu6g.jpeg',
-      'http://imgfz.com/i/Vaj4niX.jpeg',
+      'http://imgfz.com/i/Vaj4niX.jpeg'
     ],
     'description': {
       'es': 'Vive la historia de Jesucristo a través de una aventura narrativa basada en los Evangelios, presenciando sermones, milagros y momentos importantes de su vida.',
@@ -2416,7 +2477,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/sp8ea7',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2428,7 +2489,7 @@ export const games = [
     'developer': 'Aspyr',
     'publisher': 'Aspyr',
     'year': 2026,
-    'rating': 0,
+    'rating': null,
     'players': '1-3',
     'cooperativo': 'Local y online',
     'color': '#7c5cff',
@@ -2437,7 +2498,7 @@ export const games = [
     'screenshots': [
       'https://cdn.mobygames.com/promos/39583146-the-lord-of-the-rings-war-in-the-north-legacy-edition-screenshot.jpg',
       'https://cdn.mobygames.com/promos/39583151-the-lord-of-the-rings-war-in-the-north-legacy-edition-screenshot.jpg',
-      'https://cdn.mobygames.com/promos/39583161-the-lord-of-the-rings-war-in-the-north-legacy-edition-screenshot.jpg',
+      'https://cdn.mobygames.com/promos/39583161-the-lord-of-the-rings-war-in-the-north-legacy-edition-screenshot.jpg'
     ],
     'description': {
       'es': 'Únete a una nueva Comunidad del Anillo y lucha contra las fuerzas de Sauron en una aventura de acción ambientada en el norte de la Tierra Media.',
@@ -2456,7 +2517,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/g35y4p',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2477,7 +2538,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/60145-2.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/60145-3.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/60145-8.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/60145-8.jpg'
     ],
     'description': {
       'es': 'Recorre la Grecia clásica como un mercenario en la épica era del Peloponeso.',
@@ -2511,7 +2572,7 @@ export const games = [
           'label': 'Lenguaje Pack',
           'url': 'https://ouo.io/dmceAn',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2532,7 +2593,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/7481-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/7481-4.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/7481-10.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/7481-10.jpg'
     ],
     'description': {
       'es': 'El juego que definió la generación: la guerra contra los Locust comienza.',
@@ -2556,7 +2617,7 @@ export const games = [
           'label': 'Formato God',
           'url': 'https://ouo.io/DhT8cvj',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2577,7 +2638,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/53611-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/53611-9.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/53611-8.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/53611-8.jpg'
     ],
     'description': {
       'es': 'Construye y administra tu propio cementerio medieval, recolecta recursos, crea objetos, explora mazmorras y toma decisiones cuestionables para hacer crecer tu negocio.',
@@ -2596,7 +2657,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/LuM5go',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2617,7 +2678,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/115644-2.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/115644-5.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/115644-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/115644-3.jpg'
     ],
     'description': {
       'es': 'Sargon, un joven guerrero perteneciente a los Inmortales, viaja al misterioso Monte Qaf para rescatar al príncipe Ghassan, que ha sido secuestrado. Allí deberá enfrentarse a criaturas mitológicas, explorar un mundo lleno de secretos y dominar poderes relacionados con el tiempo.',
@@ -2636,7 +2697,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/RmBweqJ',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2657,7 +2718,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com//e27c6b9d-c826-49da-84a1-b1a000dd545f.jpg',
       'https://images.launchbox-app.com//f5c77f2c-b707-4de3-aede-b6c52d1415d3.jpg',
-      'http://imgfz.com/i/dI2qaNW.jpeg',
+      'http://imgfz.com/i/dI2qaNW.jpeg'
     ],
     'description': {
       'es': 'Luigi regresa en una misión para eliminar fantasmas de varias mansiones embrujadas. Armado con su confiable Poltergust 5000, el hermano de Mario debe capturar a estos molestos fantasmas mientras explora múltiples mansiones para recuperar los fragmentos de la Luna Oscura.',
@@ -2676,7 +2737,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/7PM9qw',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2697,7 +2758,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/2998a785-8828-4a5e-997c-1e80fa451c0b.png',
       'https://images.launchbox-app.com/r2_01b837ec-bf99-43e3-bcbd-ae97596bf701.png',
-      'https://images.launchbox-app.com/r2_7978ff8a-5903-4a33-a4e5-599a6d716e75.png',
+      'https://images.launchbox-app.com/r2_7978ff8a-5903-4a33-a4e5-599a6d716e75.png'
     ],
     'description': {
       'es': 'Compite en pistas llenas de baba con personajes icónicos de Nickelodeon como SpongeBob, TMNT, Hey Arnold! y Rugrats. Corre con hasta 4 jugadores en multijugador local o compite en la Arena de Batalla.',
@@ -2711,7 +2772,8 @@ export const games = [
       'fw': '6.2.0+',
       'languages': 'Inglés, francés, alemán, español, italiano, neerlandés',
       'thanks': '',
-      'links': [],
+      'links': [
+      ],
     },
   },
   {
@@ -2731,7 +2793,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/134531-1.jpg',
       'https://images.rpgsite.net/image/da49c9a1/161633/original/Octopath-Traveler-0_20251124_07.png',
-      'https://images.rpgsite.net/image/da49c9a1/161634/original/Octopath-Traveler-0_20251124_08.png',
+      'https://images.rpgsite.net/image/da49c9a1/161634/original/Octopath-Traveler-0_20251124_08.png'
     ],
     'description': {
       'es': 'Precuela del clásico RPG HD-2D donde creas tu propio personaje y reconstruyes tu pueblo natal en la tierra de Orsterra.',
@@ -2756,7 +2818,7 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshots/52801-5.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshots/52801-3.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshots/52801-2.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshots/52801-2.jpg'
     ],
     'description': {
       'es': 'Sebastian Castellanos regresa a una pesadilla aterradora para salvar a su hija, enfrentándose a criaturas monstruosas y un mundo lleno de peligros.',
@@ -2775,7 +2837,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/X3wK195',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2796,7 +2858,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/d26f0aee-0eff-4cad-9414-5ed5484e36e5.jpg',
       'https://images.launchbox-app.com/bf357445-aa9a-4b25-b5fb-628aa8f64298.jpg',
-      'https://images.launchbox-app.com/0d425a83-1b7b-4e01-95e5-e62d56f345e1.jpg',
+      'https://images.launchbox-app.com/0d425a83-1b7b-4e01-95e5-e62d56f345e1.jpg'
     ],
     'description': {
       'es': 'Nickelodeon Kart Racers esta de vuelta y mas grande que nunca. Selecciona de 30 corredores y 70 miembros de equipo para armar tu tripulacion definitiva con favoritos como SpongeBob, TMNT, Rugrats y Hey Arnold!',
@@ -2810,7 +2872,8 @@ export const games = [
       'fw': '10.0.0+',
       'languages': 'Inglés, francés, alemán, español, italiano, japonés',
       'thanks': '',
-      'links': [],
+      'links': [
+      ],
     },
   },
   {
@@ -2830,7 +2893,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/164f6ba5-3aaf-4855-8afd-5081b5f235fc.jpg',
       'https://images.launchbox-app.com/0ba8efff-6fc2-456d-8e49-ae50e1d77d33.jpg',
-      'https://images.launchbox-app.com/830b1a79-03c0-4431-91df-72f37637ee5a.jpg',
+      'https://images.launchbox-app.com/830b1a79-03c0-4431-91df-72f37637ee5a.jpg'
     ],
     'description': {
       'es': 'Reconstruido y reimaginado desde cero, Nickelodeon Kart Racers regresa mas grande y mejor. Con mas de 40 personajes iconicos completamente doblados, desliza, derrapa y acelera en pistas inspiradas en shows legendarios de Nickelodeon.',
@@ -2844,7 +2907,8 @@ export const games = [
       'fw': '14.0.0+',
       'languages': 'Inglés, francés, alemán, español, italiano, neerlandés',
       'thanks': '',
-      'links': [],
+      'links': [
+      ],
     },
   },
   {
@@ -2864,7 +2928,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/31c3835b-359f-4a7b-b9bf-8359471ec117.jpg',
       'https://images.launchbox-app.com/25170cba-061d-4095-98fa-d511c7897c56.jpg',
-      'https://images.launchbox-app.com/4ab36ed7-8901-43c0-a9eb-fdfdb8b29063.jpg',
+      'https://images.launchbox-app.com/4ab36ed7-8901-43c0-a9eb-fdfdb8b29063.jpg'
     ],
     'description': {
       'es': 'Descubre un universo de Mortal Kombat renacido creado por el Dios del Fuego Liu Kang. Mortal Kombat 1 inaugura una nueva era de la icónica franquicia con un nuevo sistema de pelea, modos de juego y fatalities.',
@@ -2888,7 +2952,7 @@ export const games = [
           'label': 'Gofile',
           'url': 'https://ouo.io/sTzMas',
           'color': 'brown',
-        },
+        }
       ],
     },
   },
@@ -2909,7 +2973,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/r2_84d7d7ec-a6ca-4842-8f56-2336473f92b5.jpg',
       'https://images.launchbox-app.com/r2_eabec77b-4586-40bc-9df5-b4371044991f.jpg',
-      'https://images.launchbox-app.com//4a2c8ee3-24d6-49c2-99f9-b8b2b83077df.jpg',
+      'https://images.launchbox-app.com//4a2c8ee3-24d6-49c2-99f9-b8b2b83077df.jpg'
     ],
     'description': {
       'es': 'DRAGON BALL: Sparking! ZERO lleva el legendario juego de la serie Budokai Tenkaichi a niveles totalmente nuevos. Conviértete en un super guerrero y experimenta el poder sacudidor de las batallas de Dragon Ball.',
@@ -2933,7 +2997,7 @@ export const games = [
           'label': 'Save Data',
           'url': 'https://ouo.io/yUUgLA',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -2954,7 +3018,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/308b4ed2-d88b-44a8-bfe2-4f5adc3b7282.jpg',
       'https://images.launchbox-app.com/6b125b92-f67b-418a-94c9-1971662a97a4.jpg',
-      'https://images.launchbox-app.com/d941336e-e10c-400a-a8e8-7c0ab53d1287.jpg',
+      'https://images.launchbox-app.com/d941336e-e10c-400a-a8e8-7c0ab53d1287.jpg'
     ],
     'description': {
       'es': 'Revive la historia de Goku y los demás Guerreros Z en DRAGON BALL Z: KAKAROT. Más allá de las épicas batallas, experimenta la vida en el mundo de DRAGON BALL Z mientras luchas, pescas, comes y entrenas con Goku, Gohan, Vegeta y otros.',
@@ -2968,7 +3032,8 @@ export const games = [
       'fw': '',
       'languages': 'Inglés, francés, alemán, español, italiano, portugués, árabe, ruso, polaco',
       'thanks': '',
-      'links': [],
+      'links': [
+      ],
     },
   },
   {
@@ -2988,7 +3053,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/7e841f44-d33f-451f-83a9-57f466d00341.jpg',
       'https://images.launchbox-app.com/8dbeb24c-130d-4c45-acee-97741408f307.jpg',
-      'https://images.launchbox-app.com/dfab1dbe-b278-409c-b165-7654d7c97ad4.jpg',
+      'https://images.launchbox-app.com/dfab1dbe-b278-409c-b165-7654d7c97ad4.jpg'
     ],
     'description': {
       'es': 'Â¡SUPER DRAGON BALL HEROES WORLD MISSION es un juego de cartas táctico lleno de confrontación electrizante, estrategia profunda de juego de cartas y una emocionante historia que se desarrolla en el amplio universo de Dragon Ball Heroes!',
@@ -3002,7 +3067,8 @@ export const games = [
       'fw': '',
       'languages': 'Inglés, francés, alemán, español, italiano',
       'thanks': '',
-      'links': [],
+      'links': [
+      ],
     },
   },
   {
@@ -3022,20 +3088,27 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/862b182b-a10f-4352-b44c-be0d730308a2.jpg',
       'https://images.launchbox-app.com/7270cc9a-df99-4908-b99d-c83b917b26a2.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/74879-1.jpg'
     ],
     'description': {
       'es': 'BUTCHER es un shooter 2D rápido y una carta de amor empapada en sangre a los clásicos de culto del género. Como un cyborg programado para erradicar los últimos restos de humanidad, tu único propósito es... bueno... aniquilar todo lo que se mueva.',
       'en': 'BUTCHER is a fast-paced 2D shooter and a blood-soaked love letter to the cult classics of the genre. As a cyborg programmed to eradicate the last remnants of humanity, your sole purpose is to annihilate anything that moves.',
     },
     'download': {
-      'region': '',
-      'size': '',
-      'format': '',
-      'update': '',
-      'fw': '',
+      'region': '0100177005C8A000',
+      'size': '143MB',
+      'format': 'xci',
+      'update': '1.0.2',
+      'fw': '13.0.0',
       'languages': 'Inglés',
       'thanks': '',
-      'links': [],
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/7sGPy6',
+          'color': 'blue',
+        }
+      ],
     },
   },
   {
@@ -3055,21 +3128,27 @@ export const games = [
     'screenshots': [
       'https://img.gamecompanies.com/games/images/c97f53b3-b473-44ce-bda2-982858a4350a.jpg',
       'https://img.gamecompanies.com/games/images/04c4fec7-7cac-4369-a73d-fff831a1e86a.jpg',
-      'https://img.gamecompanies.com/games/images/b9865266-050b-43f0-83e9-ef4c3325b228.jpg',
+      'https://img.gamecompanies.com/games/images/b9865266-050b-43f0-83e9-ef4c3325b228.jpg'
     ],
     'description': {
       'es': 'Â¡Salta, vuela y corre a toda velocidad en Wunderling DX, un rompecabezas de plataformas sin parar y el primer simulador de Goomba del mundo! Corre contra el reloj, resuelve acertijos complicados para descubrir objetos brillantes y demuestra que incluso el enemigo más débil puede hacer una gran diferencia.',
       'en': 'Dash, jump, and fly at full speed through Wunderling DX: a non-stop puzzle platformer and the world\'s first "goomba simulator"! Race against the clock, beat tricky puzzles to uncover shiny secrets, and stomp the odds to please your evil overlord!',
     },
     'download': {
-      'region': '',
-      'size': '',
-      'format': '',
-      'update': '',
-      'fw': '',
+      'region': '01001C400482C000',
+      'size': '1.0.2GB',
+      'format': 'xci',
+      'update': '1.4_8961',
+      'fw': '13.2.1',
       'languages': 'Inglés, francés, alemán, italiano, español, ruso',
       'thanks': '',
-      'links': [],
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/gBG7pN',
+          'color': 'blue',
+        }
+      ],
     },
   },
   {
@@ -3080,23 +3159,37 @@ export const games = [
     'developer': 'SmashGames',
     'publisher': 'SmashGames',
     'year': 2023,
-    'rating': 0,
+    'rating': null,
     'players': '1',
     'cooperativo': 'No',
     'color': '#7c5cff',
-    'cover': 'https://art.gametdb.com/switch/box/US/BA3JA.png',
-    'trailer': '',
+    'cover': 'http://imgfz.com/i/ZiBFLjk.png',
+    'trailer': 'SdRf-neRQ7w',
     'screenshots': [
-        'https://www.ziperto.com/wp-content/uploads/2023/02/Kindergarten-Buddy-Edition-Switch-shot1.jpg',
-        'https://www.ziperto.com/wp-content/uploads/2023/02/Kindergarten-Buddy-Edition-Switch-shot2.jpg',
-      ],
+      'https://cdn.thegamesdb.net/images/original/screenshot/115934-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/115934-1.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/115934-4.jpg'
+    ],
     'description': {
-        'es': 'Kindergarten Buddy Edition reune toda la diversión de Kindergarten y Kindergarten 2 en un solo paquete. Aprende a compartir, ayuda a intimidar, esconde contrabando, juega dodgeball y descubre cómo funcionan los imanes en este extraño mundo escolar.',
-        'en': 'Kindergarten Buddy Edition brings all the fun of both Kindergarten and Kindergarten 2 into one unholy package! Learn to share, bully kids, hide contraband, play dodgeball, and discover how magnets work in this weird school world.',
-      },
+      'es': 'Kindergarten Buddy Edition reune toda la diversión de Kindergarten y Kindergarten 2 en un solo paquete. Aprende a compartir, ayuda a intimidar, esconde contrabando, juega dodgeball y descubre cómo funcionan los imanes en este extraño mundo escolar.',
+      'en': 'Kindergarten Buddy Edition brings all the fun of both Kindergarten and Kindergarten 2 into one unholy package! Learn to share, bully kids, hide contraband, play dodgeball, and discover how magnets work in this weird school world.',
+    },
     'download': {
-        'languages': 'Inglés',
-      },
+      'region': '010055F00EEC0000',
+      'size': '277MB',
+      'format': 'xci',
+      'update': '1.0.1',
+      'fw': '15.0.1',
+      'languages': 'Inglés',
+      'thanks': '',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/e2YzDR',
+          'color': 'blue',
+        }
+      ],
+    },
   },
   {
     'id': 'the-callisto-protocol',
@@ -3115,7 +3208,7 @@ export const games = [
     'screenshots': [
       'https://static.wikia.nocookie.net/thecallistoprotocol/images/1/1e/Screenshot-01.jpg/revision/latest',
       'https://static.wikia.nocookie.net/thecallistoprotocol/images/5/5f/Screenshot-02.jpg/revision/latest',
-      'https://static.wikia.nocookie.net/thecallistoprotocol/images/6/66/Screenshot-04.jpg/revision/latest',
+      'https://static.wikia.nocookie.net/thecallistoprotocol/images/6/66/Screenshot-04.jpg/revision/latest'
     ],
     'description': {
       'es': 'Jacob Lee es encarcelado en Black Iron Prison, una prisión en la luna de Júpiter. Cuando los presos se transforman en criaturas monstruosas, deberá luchar para escapar y descubrir los oscuros secretos de Callisto.',
@@ -3134,7 +3227,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/tjxktI',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3155,7 +3248,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/565a6092-b666-4fa9-8f32-01a4228cafdc.jpg',
       'https://images.launchbox-app.com/804bb700-f5f6-4c0c-820c-e60a85b5776f.jpg',
-      'https://images.launchbox-app.com/4bc1378c-f723-40fd-aa2f-36f53633763f.jpg',
+      'https://images.launchbox-app.com/4bc1378c-f723-40fd-aa2f-36f53633763f.jpg'
     ],
     'description': {
       'es': 'La saga de lucha 2D basada en Tsukihime renace con gráficos HD y nuevo sistema de combate. Incluye contenido descargable deluxe.',
@@ -3174,7 +3267,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/shNhcN',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3196,7 +3289,7 @@ export const games = [
       'https://images.launchbox-app.com/1bf77b24-4b69-401b-b507-35e62db7a17c.jpg',
       'https://images.launchbox-app.com/d971a821-2c9a-4381-ab2f-f0bd541aa8da.jpg',
       'https://images.launchbox-app.com/6ecc6084-2ece-413f-8ab9-43bd55f16646.jpg',
-      'https://images.launchbox-app.com/e58ebfc2-1df7-4fb0-8592-239a0b15ea02.jpg',
+      'https://images.launchbox-app.com/e58ebfc2-1df7-4fb0-8592-239a0b15ea02.jpg'
     ],
     'description': {
       'es': 'Rico Rodriguez llega a Solís, un enorme mundo sudamericano de conflicto, opresión y clima extremo. Con gancho, ala delta y arsenal completo.',
@@ -3215,7 +3308,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/6a7m9G',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3223,7 +3316,7 @@ export const games = [
     'id': 'bioshock-infinite-ce',
     'console': 'ps4',
     'title': 'BioShock Infinite: The Complete Edition',
-    'genre': 'Disparos en Primera Persona - Acci\u00f3n',
+    'genre': 'Disparos en Primera Persona - Acción',
     'developer': 'Irrational Games',
     'publisher': '2K Games',
     'year': 2016,
@@ -3233,9 +3326,10 @@ export const games = [
     'color': '#3a5f8a',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/78283-1.jpg',
     'trailer': '',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
-      'es': 'La edici\u00f3n definitiva de BioShock Infinite incluye el juego base y todo el contenido descargable en la ciudad flotante de Columbia.',
+      'es': 'La edición definitiva de BioShock Infinite incluye el juego base y todo el contenido descargable en la ciudad flotante de Columbia.',
       'en': 'The complete edition of BioShock Infinite including base game and all DLC in the floating city of Columbia.',
     },
     'download': {
@@ -3251,7 +3345,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/8fndHC',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3259,7 +3353,7 @@ export const games = [
     'id': 'bioshock-the-collection',
     'console': 'ps4',
     'title': 'BioShock: The Collection',
-    'genre': 'Disparos en Primera Persona - Acci\u00f3n',
+    'genre': 'Disparos en Primera Persona - Acción',
     'developer': 'Blind Squirrel Games',
     'publisher': '2K Games',
     'year': 2016,
@@ -3272,10 +3366,10 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/39433-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/39433-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/39433-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/39433-3.jpg'
     ],
     'description': {
-      'es': 'La colecci\u00f3n completa de BioShock incluye BioShock, BioShock 2 y BioShock Infinite con todo el contenido descargable.',
+      'es': 'La colección completa de BioShock incluye BioShock, BioShock 2 y BioShock Infinite con todo el contenido descargable.',
       'en': 'The complete BioShock collection includes BioShock, BioShock 2, and BioShock Infinite with all DLC.',
     },
     'download': {
@@ -3291,7 +3385,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/HD3n8z',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3299,7 +3393,7 @@ export const games = [
     'id': 'just-cause-3',
     'console': 'ps4',
     'title': 'Just Cause 3',
-    'genre': 'Acci\u00f3n - Mundo Abierto',
+    'genre': 'Acción - Mundo Abierto',
     'developer': 'Avalanche Studios',
     'publisher': 'Square Enix',
     'year': 2015,
@@ -3310,10 +3404,10 @@ export const games = [
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/32951-1.jpg',
     'trailer': '-x1q7wY0koE',
     'screenshots': [
-      'https://images.launchbox-app.com//7cf49200-f894-4cc6-b682-21837d7e6f23.jpg',
+      'https://images.launchbox-app.com//7cf49200-f894-4cc6-b682-21837d7e6f23.jpg'
     ],
     'description': {
-      'es': 'Rico Rodriguez destruye la dictadura de Medici en un mundo abierto lleno de acci\u00f3n y explosiones.',
+      'es': 'Rico Rodriguez destruye la dictadura de Medici en un mundo abierto lleno de acción y explosiones.',
       'en': 'Rico Rodriguez tears down the dictatorship of Medici in an open world full of action and explosions.',
     },
     'download': {
@@ -3329,7 +3423,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/oMNnH7E',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3337,7 +3431,7 @@ export const games = [
     'id': 'just-dance-2018',
     'console': 'ps4',
     'title': 'Just Dance 2018',
-    'genre': 'M\u00fasica - Ritmo',
+    'genre': 'Música - Ritmo',
     'developer': 'Ubisoft Paris',
     'publisher': 'Ubisoft',
     'year': 2017,
@@ -3350,10 +3444,10 @@ export const games = [
     'screenshots': [
       'https://cdn.thegamesdb.net/images/original/screenshot/53859-1.jpg',
       'https://cdn.thegamesdb.net/images/original/screenshot/53859-2.jpg',
-      'https://cdn.thegamesdb.net/images/original/screenshot/53859-3.jpg',
+      'https://cdn.thegamesdb.net/images/original/screenshot/53859-3.jpg'
     ],
     'description': {
-      'es': 'Baila con los \u00e9xitos m\u00e1s populares del momento en la nueva edici\u00f3n de Just Dance.',
+      'es': 'Baila con los éxitos más populares del momento en la nueva edición de Just Dance.',
       'en': 'Dance to the hottest hits of the moment in the latest edition of Just Dance.',
     },
     'download': {
@@ -3369,7 +3463,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/Msjlb5',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3377,7 +3471,7 @@ export const games = [
     'id': 'just-dance-2017',
     'console': 'ps4',
     'title': 'Just Dance 2017',
-    'genre': 'M\u00fasica - Ritmo',
+    'genre': 'Música - Ritmo',
     'developer': 'Ubisoft Paris',
     'publisher': 'Ubisoft',
     'year': 2016,
@@ -3388,10 +3482,10 @@ export const games = [
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/44379-1.jpg',
     'trailer': '6wKLntsLVwY',
     'screenshots': [
-      'https://images.launchbox-app.com//c1b31f51-0e22-494c-9b86-4ac4132f7779.jpg',
+      'https://images.launchbox-app.com//c1b31f51-0e22-494c-9b86-4ac4132f7779.jpg'
     ],
     'description': {
-      'es': 'La fiesta de baile definitiva con 40 canciones nuevas incluyendo los \u00e9xitos m\u00e1s candentes.',
+      'es': 'La fiesta de baile definitiva con 40 canciones nuevas incluyendo los éxitos más candentes.',
       'en': 'The ultimate dance party with 40 new songs including the hottest hits.',
     },
     'download': {
@@ -3407,7 +3501,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/ozHNAyX',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3415,7 +3509,7 @@ export const games = [
     'id': 'just-dance-2022',
     'console': 'ps4',
     'title': 'Just Dance 2022',
-    'genre': 'M\u00fasica - Ritmo',
+    'genre': 'Música - Ritmo',
     'developer': 'Ubisoft',
     'publisher': 'Ubisoft',
     'year': 2021,
@@ -3425,9 +3519,10 @@ export const games = [
     'color': '#e84393',
     'cover': 'https://cdn.thegamesdb.net/images/original/boxart/front/94043-1.jpg',
     'trailer': '92Ec96lzkWM',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
-      'es': 'La edici\u00f3n m\u00e1s reciente de Just Dance con los \u00e9xitos mundiales m\u00e1s populares.',
+      'es': 'La edición más reciente de Just Dance con los éxitos mundiales más populares.',
       'en': 'The latest edition of Just Dance featuring the most popular worldwide hits.',
     },
     'download': {
@@ -3443,7 +3538,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/3suaR4',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3451,7 +3546,7 @@ export const games = [
     'id': 'call-of-duty-wwii',
     'console': 'ps4',
     'title': 'Call of Duty: WWII',
-    'genre': 'Shooter - Acci\u00f3n',
+    'genre': 'Shooter - Acción',
     'developer': 'Sledgehammer Games',
     'publisher': 'Activision',
     'year': 2017,
@@ -3461,9 +3556,10 @@ export const games = [
     'color': '#4a4a2a',
     'cover': 'https://images.launchbox-app.com/ab339379-df8f-409c-9f67-d6aa7d381e6b.jpg',
     'trailer': 'oDVrOyT7ImQ',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
-      'es': 'Vuelve a la Segunda Guerra Mundial en la experiencia multijugador y campa\u00f1a m\u00e1s intensa de Call of Duty.',
+      'es': 'Vuelve a la Segunda Guerra Mundial en la experiencia multijugador y campaña más intensa de Call of Duty.',
       'en': 'Return to World War II in the most intense multiplayer and campaign experience in Call of Duty.',
     },
     'download': {
@@ -3479,7 +3575,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/eCuLf2k',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3487,7 +3583,7 @@ export const games = [
     'id': 'call-of-duty-black-ops-3',
     'console': 'ps4',
     'title': 'Call of Duty: Black Ops III',
-    'genre': 'Shooter - Acci\u00f3n',
+    'genre': 'Shooter - Acción',
     'developer': 'Treyarch',
     'publisher': 'Activision',
     'year': 2015,
@@ -3497,9 +3593,10 @@ export const games = [
     'color': '#2a2a4a',
     'cover': 'https://images.launchbox-app.com//fa59dd06-9a0f-408e-b574-7da7e07fdde6.jpg',
     'trailer': 'qAUYNIDEJ6o',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
-      'es': 'La guerra futur\u00edstica llega a su m\u00e1xima expresi\u00f3n con combate en Cooperativa, Multijugador y Zombies.',
+      'es': 'La guerra futurística llega a su máxima expresión con combate en Cooperativa, Multijugador y Zombies.',
       'en': 'Futuristic warfare reaches its peak with Combat in Co-op, Multiplayer, and Zombies.',
     },
     'download': {
@@ -3525,7 +3622,7 @@ export const games = [
           'label': '6DLC',
           'url': 'https://ouo.io/3aur23',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3533,7 +3630,7 @@ export const games = [
     'id': 'watch-dogs-2-gold',
     'console': 'ps4',
     'title': 'Watch Dogs 2 Gold Edition',
-    'genre': 'Acci\u00f3n - Mundo Abierto',
+    'genre': 'Acción - Mundo Abierto',
     'developer': 'Ubisoft Montreal',
     'publisher': 'Ubisoft',
     'year': 2016,
@@ -3543,7 +3640,8 @@ export const games = [
     'color': '#1a8a4a',
     'cover': 'https://images.launchbox-app.com/8934a4a8-4808-4177-8a5a-b29d6293f6f5.jpg',
     'trailer': '2GIVVsTKTLg',
-    'screenshots': [],
+    'screenshots': [
+    ],
     'description': {
       'es': 'Marcus Holloway usa sus habilidades de hacking para luchar contra la corrupta empresa ctOS 2.0 en el San Francisco del futuro.',
       'en': 'Marcus Holloway uses his hacking skills to fight the corrupt ctOS 2.0 corporation in a near-future San Francisco.',
@@ -3571,7 +3669,7 @@ export const games = [
           'label': '41DLC',
           'url': 'https://ouo.io/NqttSbk',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3579,7 +3677,7 @@ export const games = [
     'id': 'saint-seiya-soldiers-soul',
     'console': 'ps4',
     'title': 'Saint Seiya Soldiers Soul',
-    'genre': 'Lucha - Acci\u00f3n',
+    'genre': 'Lucha - Acción',
     'developer': 'Dimps',
     'publisher': 'Bandai Namco Entertainment',
     'year': 2015,
@@ -3592,10 +3690,10 @@ export const games = [
     'screenshots': [
       'https://media.moddb.com/images/games/1/59/58311/ss_701fa8a22646cc854d6c02a74f3c8ccb9.jpg',
       'https://media.moddb.com/images/games/1/59/58311/ss_77778cce35a56c4824ea46853f76014bb.jpg',
-      'https://media.moddb.com/images/games/1/59/58311/ss_a04a477d3a60fb62f50a8d6ac3fc09736.jpg',
+      'https://media.moddb.com/images/games/1/59/58311/ss_a04a477d3a60fb62f50a8d6ac3fc09736.jpg'
     ],
     'description': {
-      'es': 'Los guerreros de la constelaci\u00f3n luchan en intensos combates 3D con los personajes cl\u00e1sicos de Saint Seiya.',
+      'es': 'Los guerreros de la constelación luchan en intensos combates 3D con los personajes clásicos de Saint Seiya.',
       'en': 'Constellation warriors fight in intense 3D battles with classic Saint Seiya characters.',
     },
     'download': {
@@ -3611,7 +3709,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/2Ulc4Rb',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3632,10 +3730,10 @@ export const games = [
     'screenshots': [
       'https://media.moddb.com/images/games/1/73/72165/original_1.jpg',
       'https://media.moddb.com/images/games/1/73/72165/original_2.jpg',
-      'https://media.moddb.com/images/games/1/73/72165/original_3.jpg',
+      'https://media.moddb.com/images/games/1/73/72165/original_3.jpg'
     ],
     'description': {
-      'es': 'Carreras callejeras de alta velocidad en Palm City con dualidad d\u00eda/noche y persecuciones policiales intensas.',
+      'es': 'Carreras callejeras de alta velocidad en Palm City con dualidad día/noche y persecuciones policiales intensas.',
       'en': 'High-speed street racing in Palm City with day/night duality and intense police pursuits.',
     },
     'download': {
@@ -3651,7 +3749,7 @@ export const games = [
           'label': 'Game',
           'url': 'https://ouo.io/7vKi4C',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3672,10 +3770,10 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/bd0d155c-6018-4965-b733-28ad9e086de6.jpg',
       'https://images.launchbox-app.com/04087477-0e05-4f55-ac08-51bc8779a331.jpg',
-      'https://images.launchbox-app.com/9a2ffd56-35fd-4b1e-bce5-794f93794116.jpg',
+      'https://images.launchbox-app.com/9a2ffd56-35fd-4b1e-bce5-794f93794116.jpg'
     ],
     'description': {
-      'es': 'Explora un mundo de cuentos escandinavos lleno de criaturas m\u00edticas y peligrosas en una aventura de plataformas atmosf\u00e9rica.',
+      'es': 'Explora un mundo de cuentos escandinavos lleno de criaturas míticas y peligrosas en una aventura de plataformas atmosférica.',
       'en': 'Explore a world of Scandinavian tales filled with mythical and dangerous creatures in an atmospheric platforming adventure.',
     },
     'download': {
@@ -3691,7 +3789,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/NQj3K6Z',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3712,7 +3810,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/r2_53d57201-ed1c-4aea-b939-667715d502c9.jpg',
       'https://images.launchbox-app.com/e98b7901-2ad3-4de5-8f45-33bdd68ad48c.png',
-      'https://images.launchbox-app.com/2189875c-e56c-477c-9e21-0cea17b770b1.jpg',
+      'https://images.launchbox-app.com/2189875c-e56c-477c-9e21-0cea17b770b1.jpg'
     ],
     'description': {
       'es': 'Lucha contra una dictadura en la isla caribeña de Yara. Explora un mundo abierto lleno de peligros, guerrillas y armas improvisadas.',
@@ -3731,7 +3829,7 @@ export const games = [
           'label': 'Game',
           'url': 'https://ouo.io/Aw853o',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3752,7 +3850,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/76f968d0-e1b4-4c40-b09a-b02d919e1c81.jpg',
       'https://images.launchbox-app.com/dbd3f31e-a357-4289-833d-f049ccaf54a0.jpg',
-      'https://images.launchbox-app.com/bb4718f2-2d37-4f05-b992-4c45f732ff0d.jpg',
+      'https://images.launchbox-app.com/bb4718f2-2d37-4f05-b992-4c45f732ff0d.jpg'
     ],
     'description': {
       'es': 'Jill Valentine escapa de Raccoon City perseguida por el implacable Nemesis. Clásico de terror supervivencia de PS1 remasterizado para PS4.',
@@ -3771,7 +3869,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/hPG1R3',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3792,7 +3890,7 @@ export const games = [
     'screenshots': [
       'https://apollo2.dl.playstation.net/cdn/UP2292/CUSA12801_00/FREE_CONTENTpq8srHj42LUJz9l00x6G/PREVIEW_SCREENSHOT1_168369.jpg?w=1440&h=810&format=jpg',
       'https://apollo2.dl.playstation.net/cdn/UP2292/CUSA12801_00/FREE_CONTENT1RKEdWDMvuOYDGUNzxaQ/PREVIEW_SCREENSHOT2_168369.jpg?w=1440&h=810&format=jpg',
-      'https://apollo2.dl.playstation.net/cdn/UP2292/CUSA12801_00/FREE_CONTENTTtXk783pHPAtMO9NVNIE/PREVIEW_SCREENSHOT3_168369.jpg?w=1440&h=810&format=jpg',
+      'https://apollo2.dl.playstation.net/cdn/UP2292/CUSA12801_00/FREE_CONTENTTtXk783pHPAtMO9NVNIE/PREVIEW_SCREENSHOT3_168369.jpg?w=1440&h=810&format=jpg'
     ],
     'description': {
       'es': 'Boxeo inmersivo en realidad virtual. Vive la historia de Adonis Creed con combates físicos que simulan el esfuerzo del ring.',
@@ -3811,7 +3909,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/bRCWVx',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3832,7 +3930,7 @@ export const games = [
     'screenshots': [
       'https://images.launchbox-app.com/8b496c38-99e1-416e-b54a-33830f79ebe4.jpg',
       'https://images.launchbox-app.com/446bb33b-fa37-4bdf-b5a9-4ee779106b55.jpg',
-      'https://images.launchbox-app.com/bce671b8-f181-4e7d-9ad5-9206d392c1e4.png',
+      'https://images.launchbox-app.com/bce671b8-f181-4e7d-9ad5-9206d392c1e4.png'
     ],
     'description': {
       'es': 'Evoluciona tu criatura para sobrevivir en un mundo alienígena amenazado por un cilindro implacable que lo destruye todo.',
@@ -3851,7 +3949,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/n45T8T',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3872,7 +3970,7 @@ export const games = [
     'screenshots': [
       'https://images.igdb.com/igdb/image/upload/t_1080p/sc6wdo.jpg',
       'https://images.igdb.com/igdb/image/upload/t_1080p/sc6wdp.jpg',
-      'https://images.igdb.com/igdb/image/upload/t_1080p/sc6wdt.jpg',
+      'https://images.igdb.com/igdb/image/upload/t_1080p/sc6wdt.jpg'
     ],
     'description': {
       'es': 'Combate asimétrico 4v1 donde un equipo de soldados se enfrenta al depredador. Caza o sé cazado en la selva.',
@@ -3891,7 +3989,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/1TSAtN',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3912,7 +4010,7 @@ export const games = [
     'screenshots': [
       'https://www.gamerstemple.net/vg/games93/009559/009559s001.jpg',
       'https://www.gamerstemple.net/vg/games93/009559/009559s002.jpg',
-      'https://www.gamerstemple.net/vg/games93/009559/009559s003.jpg',
+      'https://www.gamerstemple.net/vg/games93/009559/009559s003.jpg'
     ],
     'description': {
       'es': 'Borderlands 2 y The Pre-Sequel en un solo paquete. Miles de armas, cooperativo por pantalla dividida y todo el contenido DLC incluido.',
@@ -3931,7 +4029,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/GW9G4R',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3952,7 +4050,7 @@ export const games = [
     'screenshots': [
       'https://image.api.playstation.com/cdn/UP0700/CUSA01341_00/FREE_CONTENTRJPcDgyRkOdkQTxBFFzQ/PREVIEW_SCREENSHOT1_73367.jpg',
       'https://image.api.playstation.com/cdn/UP0700/CUSA01341_00/FREE_CONTENTnz4G2HKLN1VkHl3S0fWa/PREVIEW_SCREENSHOT2_73367.jpg',
-      'https://image.api.playstation.com/cdn/UP0700/CUSA01341_00/FREE_CONTENTUS7IyupSpGjHGGzp8Atn/PREVIEW_SCREENSHOT3_73367.jpg',
+      'https://image.api.playstation.com/cdn/UP0700/CUSA01341_00/FREE_CONTENTUS7IyupSpGjHGGzp8Atn/PREVIEW_SCREENSHOT3_73367.jpg'
     ],
     'description': {
       'es': 'Crea tu personaje y viaja por el tiempo para reescribir la historia de Dragon Ball. Combate en 3D con personajes clásicos de la saga.',
@@ -3971,7 +4069,7 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/kK8lii',
           'color': 'blue',
-        },
+        }
       ],
     },
   },
@@ -3987,12 +4085,10 @@ export const games = [
     'players': '1-2',
     'cooperativo': 'Si',
     'color': '#2c3e50',
-    'cover': 'https://images.launchbox-app.com/r2_eef23b57-ca71-4cea-b7df-d406a4123c75.jpg',
+    'cover': 'https://images.launchbox-app.com/105509e3-cba3-4fbd-b873-818489d4dc55.jpg',
     'trailer': 'hmRYHF-VSZw',
     'screenshots': [
-      'https://images.launchbox-app.com/c3a205ad-8643-41a2-8746-7cba2298a84e.jpg',
-      'https://images.launchbox-app.com/105509e3-cba3-4fbd-b873-818489d4dc55.jpg',
-      'https://images.launchbox-app.com/a4b3180e-0ad9-4080-bce0-075e68423d38.jpg',
+      'https://images.launchbox-app.com/a4b3180e-0ad9-4080-bce0-075e68423d38.jpg'
     ],
     'description': {
       'es': 'Combate 3v3 con personajes de toda la saga Final Fantasy. Edición Deluxe con contenido adicional y todos los DLC incluidos.',
@@ -4011,6 +4107,46 @@ export const games = [
           'label': 'Mediafire',
           'url': 'https://ouo.io/5O0y1F',
           'color': 'blue',
+        }
+      ],
+    },
+  },
+  {
+    'id': 'assassins-creed-origins',
+    'console': 'ps4',
+    'title': 'Assassin\'s Creed Origins',
+    'genre': 'Accion - Mundo Abierto',
+    'developer': 'Ubisoft Montreal',
+    'publisher': 'Ubisoft',
+    'year': 2017,
+    'rating': 81,
+    'players': '1',
+    'cooperativo': 'No',
+    'color': '#1a5276',
+    'cover': 'https://cdn.mobygames.com/covers/2787820-assassins-creed-origins-playstation-4-front-cover.jpg',
+    'trailer': '9fZTbPZuRJU',
+    'screenshots': [
+      'https://gamefabrique.com/storage/screenshots/ps4/assassins-creed-origins-02.png',
+      'https://gamefabrique.com/storage/screenshots/ps4/assassins-creed-origins-10.png',
+      'https://gamefabrique.com/storage/screenshots/ps4/assassins-creed-origins-06.png',
+    ],
+    'description': {
+      'es': 'Explora el antiguo Egipto en los orígenes de la Hermandad de Asesinos. Un mundo abierto vasto lleno de secretos y peligros.',
+      'en': 'Explore ancient Egypt in the origins of the Assassin Brotherhood. A vast open world full of secrets and dangers.',
+    },
+    'download': {
+      'region': 'CUSA05625 - EUR',
+      'size': '73.2GB',
+      'format': 'pkg',
+      'update': '1.61',
+      'fw': '5.05+',
+      'languages': 'Multi idioma (Castellano)',
+      'thanks': 'Opoisso893/Golemnight',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/fwN4H6',
+          'color': 'blue',
         },
       ],
     },
@@ -4020,3 +4156,4 @@ export const games = [
 export const getGame = (id) => games.find((g) => g.id === id)
 export const getGamesByConsole = (consoleId) =>
   games.filter((g) => g.console === consoleId)
+export { games }
