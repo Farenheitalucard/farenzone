@@ -538,12 +538,16 @@ export function AdminPage() {
                 </label>
                 <label>
                   {t.game.cooperative}
-                  <input
-                    type="text"
+                  <select
                     value={draft.cooperativo ?? ''}
                     onChange={(e) => setField('cooperativo', e.target.value)}
-                    placeholder="No, Local, Online, Local y online"
-                  />
+                  >
+                    <option value="">Sin especificar</option>
+                    <option value="No">No</option>
+                    <option value="Local">Local</option>
+                    <option value="Online">Online</option>
+                    <option value="Local y online">Local y online</option>
+                  </select>
                 </label>
                 <label>
                   {t.admin.multiplayer}
