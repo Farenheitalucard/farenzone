@@ -55,6 +55,7 @@ export function GameDetail() {
     { label: t.game.rating, value: game.rating ? `${game.rating}/100` : null },
     { label: t.game.players, value: game.players },
     { label: t.game.cooperative, value: game.cooperativo },
+    { label: t.game.multiplayer, value: game.multijugador },
   ].filter((f) => f.value)
 
   return (
