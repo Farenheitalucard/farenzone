@@ -1,4 +1,4 @@
-const games = [
+export const games = [
   {
     'id': 'zelda-botw',
     'console': 'switch',
