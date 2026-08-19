@@ -1186,7 +1186,21 @@ export const games = [
       'es': 'Precuela del clÃ¡sico RPG HD-2D donde creas tu propio personaje y reconstruyes tu pueblo natal en la tierra de Orsterra.',
       'en': 'Prequel to the classic HD-2D RPG where you create your own character and rebuild your hometown in the land of Orsterra.',
     },
-    'download': null,
+    'download': {
+      'region': 'CUSA53477 - JPN',
+      'size': '8.09GB',
+      'format': 'pkg',
+      'update': '1.03',
+      'languages': 'Japonés, Inglés',
+      'thanks': 'Opoisso893/Golemnight',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/Fzm66ge',
+          'color': 'blue',
+        },
+      ],
+    },
   },
   {
     'id': 'tlou-ps3',
