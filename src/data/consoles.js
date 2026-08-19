@@ -5,7 +5,7 @@ export const consoles = [
     fullName: 'Nintendo Switch',
     color: '#e60012',
     gradient: 'linear-gradient(135deg, #ff5a5f 0%, #c4001e 100%)',
-    video: '/videos/switch-trailer.mp4?v=1',
+    image: 'https://gameinformer.com/sites/default/files/styles/og_image/public/2018/11/16/790848e6/switch_supersmashbrosultimate_illustration_01.jpg.webp',
   },
   {
     id: 'ps4',
