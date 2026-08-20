@@ -3,7 +3,7 @@
         "id":  "zelda-botw",
         "console":  "switch",
         "title":  "The Legend of Zelda: Breath of the Wild",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Nintendo EPD",
         "publisher":  "Nintendo",
         "year":  2017,
@@ -29,7 +29,7 @@
                          "format":  "NSP",
                          "update":  "v1.6.0",
                          "fw":  "v8.0.0+",
-                         "languages":  "EspaÃÂÃÂ±ol, InglÃÂÃÂ©s, FrancÃÂÃÂ©s, AlemÃÂÃÂ¡n, Italiano, JaponÃÂÃÂ©s, Coreano, Chino, etc.",
+                         "languages":  "Espanol, Ingles, Frances, Aleman, Italiano, Japones, Coreano, Chino, etc.",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -71,7 +71,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshots/42320-3.jpg"
                         ],
         "description":  {
-                            "es":  "AcompaÃÂÃÂ±a a Mario en un viaje por increÃÂÃÂ­bles reinos con su nueva gorra mÃÂÃÂ¡gica, Cappy.",
+                            "es":  "AcompaÃÂÃÂÃÂÃÂ±a a Mario en un viaje por increÃÂÃÂÃÂÃÂ­bles reinos con su nueva gorra mÃÂÃÂÃÂÃÂ¡gica, Cappy.",
                             "en":  "Join Mario on a journey across incredible kingdoms with his new magic hat, Cappy."
                         },
         "download":  null
@@ -80,7 +80,7 @@
         "id":  "mario-kart-8",
         "console":  "switch",
         "title":  "Mario Kart 8 Deluxe",
-        "genre":  "Carreras - SimulaciÃÂÃÂ³n",
+        "genre":  "Carreras - SimulaciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Nintendo EPD",
         "publisher":  "Nintendo",
         "year":  2017,
@@ -106,7 +106,7 @@
                          "format":  "xci",
                          "update":  "3.0.5+DLC  - 3.03+DLC",
                          "fw":  "20.0.1",
-                         "languages":  "JaponÃÂÃÂ©s, InglÃÂÃÂ©s britÃÂÃÂ¡nico , FrancÃÂÃÂ©s, AlemÃÂÃÂ¡n, Italiano, EspaÃÂÃÂ±ol, Coreano, HolandÃÂÃÂ©s, PortuguÃÂÃÂ©s, Ruso, Chino simplificado, EspaÃÂÃÂ±ol AmÃÂÃÂ©rica Latina, FrancÃÂÃÂ©s CanadÃÂÃÂ¡, Chin",
+                         "languages":  "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Portugues, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional, Ingles EE. UU.",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -126,7 +126,7 @@
         "id":  "animal-crossing-nh",
         "console":  "switch",
         "title":  "Animal Crossing: New Horizons",
-        "genre":  "SimulaciÃÂÃÂ³n - Vida",
+        "genre":  "SimulaciÃÂÃÂÃÂÃÂ³n - Vida",
         "developer":  "Nintendo EPD",
         "publisher":  "Nintendo",
         "year":  2020,
@@ -143,7 +143,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000027619/39be0e9b4315ba4f412924c3ec4021ad918af2b3f702d8cacc13e199bd4627f2"
                         ],
         "description":  {
-                            "es":  "Crea tu propia isla paradisÃÂÃÂ­aca, decÃÂÃÂ³rala a tu gusto y convive con tus vecinos animales.",
+                            "es":  "Crea tu propia isla paradisÃÂÃÂÃÂÃÂ­aca, decÃÂÃÂÃÂÃÂ³rala a tu gusto y convive con tus vecinos animales.",
                             "en":  "Build your own paradise island, decorate it to your liking and live with your animal neighbors."
                         },
         "download":  {
@@ -152,7 +152,7 @@
                          "format":  "xci",
                          "update":  "3.0.3+3DLC",
                          "fw":  "22.1.0",
-                         "languages":  "JaponÃÂÃÂ©s, InglÃÂÃÂ©s britÃÂÃÂ¡nico, FrancÃÂÃÂ©s, AlemÃÂÃÂ¡n, Italiano, EspaÃÂÃÂ±ol, Coreano, HolandÃÂÃÂ©s, Ruso, Chino simplificado, EspaÃÂÃÂ±ol AmÃÂÃÂ©rica Latina, FrancÃÂÃÂ©s CanadÃÂÃÂ¡, Chino tradicional",
+                         "languages":  "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -167,7 +167,7 @@
         "id":  "smash-ultimate",
         "console":  "switch",
         "title":  "Super Smash Bros. Ultimate",
-        "genre":  "Lucha - AcciÃÂÃÂ³n",
+        "genre":  "Lucha - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Bandai Namco Studios / Sora Ltd.",
         "publisher":  "Nintendo",
         "year":  2018,
@@ -184,7 +184,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012332/0a381c9a157deda7997e47a40ebedf5d6357daa54eadb8747c85535247b5966a"
                         ],
         "description":  {
-                            "es":  "ReÃÂÃÂºne a todos los personajes de Nintendo en el crossover de lucha definitivo.",
+                            "es":  "ReÃÂÃÂÃÂÃÂºne a todos los personajes de Nintendo en el crossover de lucha definitivo.",
                             "en":  "Bring together every Nintendo character in the ultimate crossover fighting game."
                         },
         "download":  null
@@ -193,7 +193,7 @@
         "id":  "totk",
         "console":  "switch",
         "title":  "The Legend of Zelda: Tears of the Kingdom",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Nintendo EPD",
         "publisher":  "Nintendo",
         "year":  2023,
@@ -218,7 +218,7 @@
     {
         "id":  "pokemon-sword",
         "console":  "switch",
-        "title":  "PokÃÂÃÂ©mon Sword",
+        "title":  "PokÃÂÃÂÃÂÃÂ©mon Sword",
         "genre":  "RPG - Aventura",
         "developer":  "Game Freak",
         "publisher":  "Nintendo",
@@ -236,7 +236,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000012387/ed2ec03e6aa1f54c7d1c809dfd345b18cc2bd35f5726080689d4eb818ddf0b06"
                         ],
         "description":  {
-                            "es":  "Explora la regiÃÂÃÂ³n de Galar y conviÃÂÃÂ©rtete en el CampeÃÂÃÂ³n del desafÃÂÃÂ­o de gimnasios.",
+                            "es":  "Explora la regiÃÂÃÂÃÂÃÂ³n de Galar y conviÃÂÃÂÃÂÃÂ©rtete en el CampeÃÂÃÂÃÂÃÂ³n del desafÃÂÃÂÃÂÃÂ­o de gimnasios.",
                             "en":  "Explore the Galar region and become the Champion of the Gym Challenge."
                         },
         "download":  null
@@ -244,10 +244,10 @@
     {
         "id":  "pokemon-scarlet",
         "console":  "switch",
-        "title":  "PokÃÂÃÂ©mon Scarlet",
+        "title":  "PokÃÂÃÂÃÂÃÂ©mon Scarlet",
         "genre":  "RPG - Aventura",
         "developer":  "Game Freak",
-        "publisher":  "Nintendo / The PokÃÂÃÂ©mon Company",
+        "publisher":  "Nintendo / The PokÃÂÃÂÃÂÃÂ©mon Company",
         "year":  2022,
         "rating":  72,
         "players":  "1-4",
@@ -262,8 +262,8 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000061959/f7ca9c4e9dd303234d74488fdf350ceca6255b534d71a45fe6f08d4d290416d2"
                         ],
         "description":  {
-                            "es":  "Descubre la regiÃÂ¯ÃÂ¿ÃÂ½ÃÂ¯ÃÂ¿ÃÂ½ÃÂ¯ÃÂ¿ÃÂ½n de Paldea en una aventura de mundo abierto con nuevos PokÃÂÃÂ©mon.",
-                            "en":  "Discover the Paldea region in an open-world adventure with new PokÃÂÃÂ©mon."
+                            "es":  "Descubre la regiÃÂÃÂ¯ÃÂÃÂ¿ÃÂÃÂ½ÃÂÃÂ¯ÃÂÃÂ¿ÃÂÃÂ½ÃÂÃÂ¯ÃÂÃÂ¿ÃÂÃÂ½n de Paldea en una aventura de mundo abierto con nuevos PokÃÂÃÂÃÂÃÂ©mon.",
+                            "en":  "Discover the Paldea region in an open-world adventure with new PokÃÂÃÂÃÂÃÂ©mon."
                         },
         "download":  null
     },
@@ -288,7 +288,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/cd7ff3e86a6590c56fc4d4ca5df94212aadecf20bb5b2ae82e5cd70bd7dc0e2f"
                         ],
         "description":  {
-                            "es":  "Disfruta de minijuegos y tableros frenÃÂÃÂ©ticos con hasta cuatro jugadores.",
+                            "es":  "Disfruta de minijuegos y tableros frenÃÂÃÂÃÂÃÂ©ticos con hasta cuatro jugadores.",
                             "en":  "Enjoy frantic minigames and boards with up to four players."
                         },
         "download":  null
@@ -314,7 +314,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e1ee4f690cec788fc2a75e85ddc12f6d7ef69501bbb362ad918e1ffcbc14936f"
                         ],
         "description":  {
-                            "es":  "Un clÃÂÃÂ¡sico plataformas reinventado con las sorprendentes flores Maravilla.",
+                            "es":  "Un clÃÂÃÂÃÂÃÂ¡sico plataformas reinventado con las sorprendentes flores Maravilla.",
                             "en":  "The classic platformer reinvented with the surprising Wonder Flowers."
                         },
         "download":  null
@@ -322,10 +322,10 @@
     {
         "id":  "pokemon-arceus",
         "console":  "switch",
-        "title":  "PokÃÂÃÂ©mon Legends: Arceus",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "title":  "PokÃÂÃÂÃÂÃÂ©mon Legends: Arceus",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Game Freak",
-        "publisher":  "Nintendo / The PokÃÂÃÂ©mon Company",
+        "publisher":  "Nintendo / The PokÃÂÃÂÃÂÃÂ©mon Company",
         "year":  2022,
         "rating":  83,
         "players":  "1",
@@ -340,8 +340,8 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043680/320ffb4e290966aca9416e78008ff1798cc47c8fccae54443becae37c43ecb30"
                         ],
         "description":  {
-                            "es":  "EmbÃÂÃÂ¡rcate en una aventura en la antigua regiÃÂÃÂ³n de Sinnoh para completar la primera PokÃÂÃÂ©dex.",
-                            "en":  "Set out across the ancient Sinnoh region to complete the very first PokÃÂÃÂ©dex."
+                            "es":  "EmbÃÂÃÂÃÂÃÂ¡rcate en una aventura en la antigua regiÃÂÃÂÃÂÃÂ³n de Sinnoh para completar la primera PokÃÂÃÂÃÂÃÂ©dex.",
+                            "en":  "Set out across the ancient Sinnoh region to complete the very first PokÃÂÃÂÃÂÃÂ©dex."
                         },
         "download":  null
     },
@@ -349,7 +349,7 @@
         "id":  "splatoon-3",
         "console":  "switch",
         "title":  "Splatoon 3",
-        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Nintendo EPD",
         "publisher":  "Nintendo",
         "year":  2022,
@@ -366,7 +366,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/395397c1ae4980cdebaf8fd748d3cf0db8147c0ed6a2a832ab029ac1a5966e84"
                         ],
         "description":  {
-                            "es":  "Lucha por la tinta en la ciudad de ChromÃÂÃÂ³polis con modos multijugador y campaÃÂÃÂ±a.",
+                            "es":  "Lucha por la tinta en la ciudad de ChromÃÂÃÂÃÂÃÂ³polis con modos multijugador y campaÃÂÃÂÃÂÃÂ±a.",
                             "en":  "Fight for turf in Splatsville with multiplayer modes and a full campaign."
                         },
         "download":  null
@@ -392,7 +392,7 @@
                             "https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-all-stars/Switch_SuperMario3DAllStars_SMS_screen_02.jpg"
                         ],
         "description":  {
-                            "es":  "Tres clÃÂÃÂ¡sicos 3D de Mario reunidos en una colecciÃÂÃÂ³n definitiva.",
+                            "es":  "Tres clÃÂÃÂÃÂÃÂ¡sicos 3D de Mario reunidos en una colecciÃÂÃÂÃÂÃÂ³n definitiva.",
                             "en":  "Three classic 3D Mario games together in one definitive collection."
                         },
         "download":  null
@@ -401,7 +401,7 @@
         "id":  "luigis-mansion-3",
         "console":  "switch",
         "title":  "Luigi\u0027s Mansion 3",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Next Level Games",
         "publisher":  "Nintendo",
         "year":  2019,
@@ -418,7 +418,7 @@
                             "https://images.launchbox-app.com/d4a42e99-826d-453c-a0d9-e15bfd7bc40e.jpg"
                         ],
         "description":  {
-                            "es":  "Luigi deberÃÂÃÂ¡ enfrentar fantasmas en un hotel encantado para rescatar a sus amigos.",
+                            "es":  "Luigi deberÃÂÃÂÃÂÃÂ¡ enfrentar fantasmas en un hotel encantado para rescatar a sus amigos.",
                             "en":  "Luigi must face ghosts in a haunted hotel to rescue his friends."
                         },
         "download":  {
@@ -427,7 +427,7 @@
                          "format":  "xci",
                          "update":  "1.4.0+2DLC",
                          "fw":  "9.2.0",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, japonÃÂÃÂ©s, coreano, neerlandÃÂÃÂ©s, chino simplificado, chino tradicional",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, chino simplificado, chino tradicional",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -459,7 +459,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/b4373e8d3b216aaaf30fb58409df7dbf27d0d8b6541ff9ac266b70d0624126e5"
                         ],
         "description":  {
-                            "es":  "Crea, comparte y juega niveles infinitos de Mario diseÃÂÃÂ±ados por la comunidad.",
+                            "es":  "Crea, comparte y juega niveles infinitos de Mario diseÃÂÃÂÃÂÃÂ±ados por la comunidad.",
                             "en":  "Create, share and play endless Mario levels designed by the community."
                         },
         "download":  null
@@ -468,7 +468,7 @@
         "id":  "splatoon-2",
         "console":  "switch",
         "title":  "Splatoon 2",
-        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Nintendo EPD",
         "publisher":  "Nintendo",
         "year":  2017,
@@ -520,7 +520,7 @@
                          "format":  "xci",
                          "update":  "1.1.0",
                          "fw":  "19.0.1",
-                         "languages":  "JaponÃÂÃÂ©s, InglÃÂÃÂ©s britÃÂÃÂ¡nico, FrancÃÂÃÂ©s, AlemÃÂÃÂ¡n, Italiano, EspaÃÂÃÂ±ol, Coreano, HolandÃÂÃÂ©s, Chino simplificado, EspaÃÂÃÂ±ol AmÃÂÃÂ©rica Latina, FrancÃÂÃÂ©s CanadÃÂÃÂ¡, Chino tradicional",
+                         "languages":  "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -534,10 +534,10 @@
     {
         "id":  "pokemon-bdsp",
         "console":  "switch",
-        "title":  "PokÃÂÃÂ©mon Brilliant Diamond",
+        "title":  "PokÃÂÃÂÃÂÃÂ©mon Brilliant Diamond",
         "genre":  "RPG - Aventura",
         "developer":  "ILCA",
-        "publisher":  "Nintendo / The PokÃÂÃÂ©mon Company",
+        "publisher":  "Nintendo / The PokÃÂÃÂÃÂÃÂ©mon Company",
         "year":  2021,
         "rating":  73,
         "players":  "1-4",
@@ -578,7 +578,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/70e487d188c282a02eeafd629ece49d1a4fdf94e5aacf3acb9edfee6a6189daf"
                         ],
         "description":  {
-                            "es":  "Los mejores tableros y minijuegos de la saga reunidos para jugar en lÃÂÃÂ­nea.",
+                            "es":  "Los mejores tableros y minijuegos de la saga reunidos para jugar en lÃÂÃÂÃÂÃÂ­nea.",
                             "en":  "The best boards and minigames from the series, together for online play."
                         },
         "download":  null
@@ -630,7 +630,7 @@
                             "https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/super-mario-3d-world-bowsers-fury-jan-12/HACP_AUZP_scrn_BowserFury_003.jpg"
                         ],
         "description":  {
-                            "es":  "El clÃÂÃÂ¡sico de Wii U mejorado con el nuevo mundo abierto de Bowser\u0027s Fury.",
+                            "es":  "El clÃÂÃÂÃÂÃÂ¡sico de Wii U mejorado con el nuevo mundo abierto de Bowser\u0027s Fury.",
                             "en":  "The Wii U classic enhanced with the new open-world Bowser\u0027s Fury."
                         },
         "download":  null
@@ -639,7 +639,7 @@
         "id":  "nintendo-switch-sports",
         "console":  "switch",
         "title":  "Nintendo Switch Sports",
-        "genre":  "Deportes - SimulaciÃÂÃÂ³n",
+        "genre":  "Deportes - SimulaciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Nintendo EPD",
         "publisher":  "Nintendo",
         "year":  2022,
@@ -656,7 +656,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/d008f8312312fff3dcb3cf726ded0195f91b5d8b3946ba32d7ef0ac16c515fb3"
                         ],
         "description":  {
-                            "es":  "Juega al tenis, al fÃÂÃÂºtbol, al boliche y mÃÂÃÂ¡s moviÃÂÃÂ©ndote con los Joy-Con.",
+                            "es":  "Juega al tenis, al fÃÂÃÂÃÂÃÂºtbol, al boliche y mÃÂÃÂÃÂÃÂ¡s moviÃÂÃÂÃÂÃÂ©ndote con los Joy-Con.",
                             "en":  "Play tennis, football, bowling and more by moving with your Joy-Con."
                         },
         "download":  null
@@ -665,7 +665,7 @@
         "id":  "links-awakening",
         "console":  "switch",
         "title":  "The Legend of Zelda: Link\u0027s Awakening",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Grezzo",
         "publisher":  "Nintendo",
         "year":  2019,
@@ -691,7 +691,7 @@
         "id":  "it-takes-two",
         "console":  "switch",
         "title":  "It Takes Two",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Hazelight Studios",
         "publisher":  "Electronic Arts",
         "year":  2022,
@@ -708,7 +708,7 @@
                             "https://media.contentapi.ea.com/content/dam/eacom/it-takes-two/images/2022/10/space-wheel-fix-v01.png"
                         ],
         "description":  {
-                            "es":  "Aventura cooperativa donde una pareja convertida en muÃÂÃÂ±ecos debe trabajar junto para salvar su relaciÃÂÃÂ³n y volver a ser humanos.",
+                            "es":  "Aventura cooperativa donde una pareja convertida en muÃÂÃÂÃÂÃÂ±ecos debe trabajar junto para salvar su relaciÃÂÃÂÃÂÃÂ³n y volver a ser humanos.",
                             "en":  "Co-op adventure where a couple turned into dolls must work together to save their relationship and become human again."
                         },
         "download":  null
@@ -717,7 +717,7 @@
         "id":  "god-of-war",
         "console":  "ps4",
         "title":  "God of War",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Santa Monica Studio",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2018,
@@ -734,7 +734,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshots/52805-3.jpg"
                         ],
         "description":  {
-                            "es":  "Kratos y Atreus viajan a los reinos nÃÂÃÂ³rdicos en un viaje ÃÂÃÂ©pico que redefine la saga.",
+                            "es":  "Kratos y Atreus viajan a los reinos nÃÂÃÂÃÂÃÂ³rdicos en un viaje ÃÂÃÂÃÂÃÂ©pico que redefine la saga.",
                             "en":  "Kratos and Atreus journey through the Norse realms in an epic adventure that redefines the saga."
                         },
         "download":  {
@@ -754,7 +754,7 @@
         "id":  "spiderman",
         "console":  "ps4",
         "title":  "Marvel\u0027s Spider-Man",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Insomniac Games",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2018,
@@ -771,7 +771,7 @@
                             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfba6f2477bfa42be69ddfdffbd421d3943d20bf.1920x1080.jpg"
                         ],
         "description":  {
-                            "es":  "Balanceate por la ciudad de Nueva York y combate el crimen como el icÃÂÃÂ³nico superhÃÂÃÂ©roe.",
+                            "es":  "Balanceate por la ciudad de Nueva York y combate el crimen como el icÃÂÃÂÃÂÃÂ³nico superhÃÂÃÂÃÂÃÂ©roe.",
                             "en":  "Swing through New York City and fight crime as the iconic web-slinger."
                         },
         "download":  {
@@ -791,7 +791,7 @@
         "id":  "horizon-zd",
         "console":  "ps4",
         "title":  "Horizon Zero Dawn - Complete Edition",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Guerrilla Games",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2017,
@@ -828,7 +828,7 @@
         "id":  "rdr2",
         "console":  "ps4",
         "title":  "Red Dead Redemption 2",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Rockstar Studios",
         "publisher":  "Rockstar Games",
         "year":  2018,
@@ -863,7 +863,7 @@
         "id":  "tlou2",
         "console":  "ps4",
         "title":  "The Last of Us Part II",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Naughty Dog",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2020,
@@ -887,7 +887,7 @@
         "id":  "uncharted-4",
         "console":  "ps4",
         "title":  "Uncharted 4: A Thief\u0027s End",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Naughty Dog",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2016,
@@ -911,7 +911,7 @@
         "id":  "ghost-of-tsushima",
         "console":  "ps4",
         "title":  "Ghost of Tsushima Director\u0027s Cut",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Sucker Punch Productions",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2020,
@@ -928,7 +928,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/55760-3.jpg"
                         ],
         "description":  {
-                            "es":  "Jin Sakai debe elegir entre el honor samurÃÂÃÂ¡i y el camino del fantasma para liberar Tsushima.",
+                            "es":  "Jin Sakai debe elegir entre el honor samurÃÂÃÂÃÂÃÂ¡i y el camino del fantasma para liberar Tsushima.",
                             "en":  "Jin Sakai must choose between the samurai code and the Ghost path to free Tsushima."
                         },
         "download":  {
@@ -948,7 +948,7 @@
         "id":  "days-gone",
         "console":  "ps4",
         "title":  "Days Gone",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Bend Studio",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2019,
@@ -965,7 +965,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/38442-2.jpg"
                         ],
         "description":  {
-                            "es":  "Deacon St. John sobrevive en un noroeste del PacÃÂÃÂ­fico invadido por infectados.",
+                            "es":  "Deacon St. John sobrevive en un noroeste del PacÃÂÃÂÃÂÃÂ­fico invadido por infectados.",
                             "en":  "Deacon St. John survives a Pacific Northwest overrun by the infected."
                         },
         "download":  {
@@ -1022,7 +1022,7 @@
         "id":  "witcher-3",
         "console":  "ps4",
         "title":  "The Witcher 3: Wild Hunt",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "CD Projekt Red",
         "publisher":  "CD Projekt",
         "year":  2015,
@@ -1037,7 +1037,7 @@
 
                         ],
         "description":  {
-                            "es":  "Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la CacerÃÂÃÂ­a Salvaje.",
+                            "es":  "Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la CacerÃÂÃÂÃÂÃÂ­a Salvaje.",
                             "en":  "Geralt of Rivia searches for his adopted daughter Ciri, hunted by the Wild Hunt."
                         },
         "download":  null
@@ -1070,7 +1070,7 @@
         "id":  "ff7-remake",
         "console":  "ps4",
         "title":  "Final Fantasy VII Remake",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Square Enix",
         "publisher":  "Square Enix",
         "year":  2020,
@@ -1131,7 +1131,7 @@
         "id":  "monster-hunter-world",
         "console":  "ps4",
         "title":  "Monster Hunter: World",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Capcom",
         "publisher":  "Capcom",
         "year":  2018,
@@ -1155,7 +1155,7 @@
         "id":  "sekiro",
         "console":  "ps4",
         "title":  "Sekiro: Shadows Die Twice",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "FromSoftware",
         "publisher":  "Activision",
         "year":  2019,
@@ -1170,7 +1170,7 @@
 
                         ],
         "description":  {
-                            "es":  "El Lobo busca venganza en el JapÃÂÃÂ³n Sengoku con su espada y su prÃÂÃÂ³tesis shinobi.",
+                            "es":  "El Lobo busca venganza en el JapÃÂÃÂÃÂÃÂ³n Sengoku con su espada y su prÃÂÃÂÃÂÃÂ³tesis shinobi.",
                             "en":  "Sekiro pursues revenge across Sengoku Japan with his blade and shinobi prosthetic."
                         },
         "download":  {
@@ -1190,7 +1190,7 @@
         "id":  "death-stranding",
         "console":  "ps4",
         "title":  "Death Stranding",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Kojima Productions",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2019,
@@ -1205,7 +1205,7 @@
 
                         ],
         "description":  {
-                            "es":  "Sam Bridges conecta una AmÃÂÃÂ©rica fragmentada tras el Death Stranding.",
+                            "es":  "Sam Bridges conecta una AmÃÂÃÂÃÂÃÂ©rica fragmentada tras el Death Stranding.",
                             "en":  "Sam Bridges reconnects a shattered America in the wake of the Death Stranding."
                         },
         "download":  null
@@ -1214,7 +1214,7 @@
         "id":  "cyberpunk-2077",
         "console":  "ps4",
         "title":  "Cyberpunk 2077",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "CD Projekt Red",
         "publisher":  "CD Projekt",
         "year":  2020,
@@ -1229,7 +1229,7 @@
 
                         ],
         "description":  {
-                            "es":  "V forja su leyenda en Night City, la megaciudad de la obsesiÃÂÃÂ³n y el poder.",
+                            "es":  "V forja su leyenda en Night City, la megaciudad de la obsesiÃÂÃÂÃÂÃÂ³n y el poder.",
                             "en":  "V forges a legend in Night City, a megalopolis of obsession and power."
                         },
         "download":  {
@@ -1268,7 +1268,7 @@
 
                         ],
         "description":  {
-                            "es":  "Tres criminales y el ambicioso mundo de Los Santos en su ediciÃÂÃÂ³n para PS4.",
+                            "es":  "Tres criminales y el ambicioso mundo de Los Santos en su ediciÃÂÃÂÃÂÃÂ³n para PS4.",
                             "en":  "Three criminals and the ambitious world of Los Santos in the PS4 edition."
                         },
         "download":  null
@@ -1316,7 +1316,7 @@
 
                         ],
         "description":  {
-                            "es":  "Ratchet y Clank regresan en un remake cinematogrÃÂÃÂ¡fico de su primera aventura.",
+                            "es":  "Ratchet y Clank regresan en un remake cinematogrÃÂÃÂÃÂÃÂ¡fico de su primera aventura.",
                             "en":  "Ratchet and Clank return in a cinematic reimagining of their first adventure."
                         },
         "download":  null
@@ -1325,7 +1325,7 @@
         "id":  "gt-sport",
         "console":  "ps4",
         "title":  "Gran Turismo Sport",
-        "genre":  "Carreras - SimulaciÃÂÃÂ³n",
+        "genre":  "Carreras - SimulaciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Polyphony Digital",
         "publisher":  "Sony Interactive Entertainment",
         "year":  2017,
@@ -1340,7 +1340,7 @@
 
                         ],
         "description":  {
-                            "es":  "CompeticiÃÂÃÂ³n online de alto nivel con los coches y circuitos mÃÂÃÂ¡s emblemÃÂÃÂ¡ticos.",
+                            "es":  "CompeticiÃÂÃÂÃÂÃÂ³n online de alto nivel con los coches y circuitos mÃÂÃÂÃÂÃÂ¡s emblemÃÂÃÂÃÂÃÂ¡ticos.",
                             "en":  "High-level online competition with the most iconic cars and tracks."
                         },
         "download":  null
@@ -1366,7 +1366,7 @@
                             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/de17bfbb3ef959e635cfe30a38e9372e78695f4d/ss_de17bfbb3ef959e635cfe30a38e9372e78695f4d.1920x1080.jpg?t=1779854659"
                         ],
         "description":  {
-                            "es":  "Precuela del clÃÂÃÂ¡sico RPG HD-2D donde creas tu propio personaje y reconstruyes tu pueblo natal en la tierra de Orsterra.",
+                            "es":  "Precuela del clÃÂÃÂÃÂÃÂ¡sico RPG HD-2D donde creas tu propio personaje y reconstruyes tu pueblo natal en la tierra de Orsterra.",
                             "en":  "Prequel to the classic HD-2D RPG where you create your own character and rebuild your hometown in the land of Orsterra."
                         },
         "download":  {
@@ -1375,7 +1375,7 @@
                          "format":  "pkg",
                          "update":  "1.03",
                          "fw":  "",
-                         "languages":  "JaponÃÂÃÂ©s, InglÃÂÃÂ©s",
+                         "languages":  "Japones, Ingles",
                          "thanks":  "Opoisso893/Golemnight",
                          "links":  [
                                        {
@@ -1447,7 +1447,7 @@
                             "https://images.rpgsite.net/image/da49c9a1/161633/original/Octopath-Traveler-0_20251124_07.png"
                         ],
         "description":  {
-                            "es":  "ContinuaciÃÂÃÂ³n del RPG HD-2D. Ocho nuevos viajeros en Solistia, un mundo de este a oeste con culturas diversas y una nueva era.",
+                            "es":  "ContinuaciÃÂÃÂÃÂÃÂ³n del RPG HD-2D. Ocho nuevos viajeros en Solistia, un mundo de este a oeste con culturas diversas y una nueva era.",
                             "en":  "Sequel to the HD-2D RPG. Eight new travelers in Solistia, a world of diverse cultures from east to west in a new era."
                         },
         "download":  {
@@ -1471,7 +1471,7 @@
         "id":  "tlou-ps3",
         "console":  "ps3",
         "title":  "The Last of Us",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Naughty Dog",
         "publisher":  "Sony Computer Entertainment",
         "year":  2013,
@@ -1488,7 +1488,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshots/21182-3.jpg"
                         ],
         "description":  {
-                            "es":  "Joel y Ellie atraviesan una AmÃÂÃÂ©rica postapocalÃÂÃÂ­ptica en una de las historias mÃÂÃÂ¡s aclamadas del medio.",
+                            "es":  "Joel y Ellie atraviesan una AmÃÂÃÂÃÂÃÂ©rica postapocalÃÂÃÂÃÂÃÂ­ptica en una de las historias mÃÂÃÂÃÂÃÂ¡s aclamadas del medio.",
                             "en":  "Joel and Ellie cross a post-apocalyptic America in one of the most acclaimed stories in gaming."
                         },
         "download":  null
@@ -1497,7 +1497,7 @@
         "id":  "uncharted-2",
         "console":  "ps3",
         "title":  "Uncharted 2: Among Thieves",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Naughty Dog",
         "publisher":  "Sony Computer Entertainment",
         "year":  2009,
@@ -1548,7 +1548,7 @@
         "id":  "cod-bo-ps3",
         "console":  "ps3",
         "title":  "Call of Duty: Black Ops",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Treyarch",
         "publisher":  "Activision",
         "year":  2010,
@@ -1563,7 +1563,7 @@
 
                         ],
         "description":  {
-                            "es":  "Misiones encubiertas de la Guerra FrÃÂÃÂ­a que pondrÃÂÃÂ¡n a prueba tu mente y tus reflejos.",
+                            "es":  "Misiones encubiertas de la Guerra FrÃÂÃÂÃÂÃÂ­a que pondrÃÂÃÂÃÂÃÂ¡n a prueba tu mente y tus reflejos.",
                             "en":  "Covert Cold War missions that will test both your mind and your reflexes."
                         },
         "download":  null
@@ -1572,7 +1572,7 @@
         "id":  "cod-mw3-ps3",
         "console":  "ps3",
         "title":  "Call of Duty: Modern Warfare 3",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Infinity Ward / Sledgehammer Games",
         "publisher":  "Activision",
         "year":  2011,
@@ -1596,7 +1596,7 @@
         "id":  "cod-bo2-ps3",
         "console":  "ps3",
         "title":  "Call of Duty: Black Ops II",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Treyarch",
         "publisher":  "Activision",
         "year":  2012,
@@ -1620,7 +1620,7 @@
         "id":  "cod-mw2-ps3",
         "console":  "ps3",
         "title":  "Call of Duty: Modern Warfare 2",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Infinity Ward",
         "publisher":  "Activision",
         "year":  2009,
@@ -1635,7 +1635,7 @@
 
                         ],
         "description":  {
-                            "es":  "Task Force 141 responde a la invasiÃÂÃÂ³n de una nueva Rusia nacionalista.",
+                            "es":  "Task Force 141 responde a la invasiÃÂÃÂÃÂÃÂ³n de una nueva Rusia nacionalista.",
                             "en":  "Task Force 141 responds to the invasion of a resurgent nationalist Russia."
                         },
         "download":  null
@@ -1644,7 +1644,7 @@
         "id":  "god-of-war-3",
         "console":  "ps4",
         "title":  "God of War III Remastered",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Santa Monica Studio",
         "publisher":  "Sony Computer Entertainment",
         "year":  2015,
@@ -1679,7 +1679,7 @@
         "id":  "gt5",
         "console":  "ps3",
         "title":  "Gran Turismo 5",
-        "genre":  "Carreras - SimulaciÃÂÃÂ³n",
+        "genre":  "Carreras - SimulaciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Polyphony Digital",
         "publisher":  "Sony Computer Entertainment",
         "year":  2010,
@@ -1694,7 +1694,7 @@
 
                         ],
         "description":  {
-                            "es":  "MÃÂÃÂ¡s de mil coches y circuitos del mundo real en el simulador de conducciÃÂÃÂ³n por excelencia.",
+                            "es":  "MÃÂÃÂÃÂÃÂ¡s de mil coches y circuitos del mundo real en el simulador de conducciÃÂÃÂÃÂÃÂ³n por excelencia.",
                             "en":  "Over a thousand cars and real-world tracks in the ultimate driving simulator."
                         },
         "download":  null
@@ -1703,7 +1703,7 @@
         "id":  "gt6",
         "console":  "ps3",
         "title":  "Gran Turismo 6",
-        "genre":  "Carreras - SimulaciÃÂÃÂ³n",
+        "genre":  "Carreras - SimulaciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Polyphony Digital",
         "publisher":  "Sony Computer Entertainment",
         "year":  2013,
@@ -1718,7 +1718,7 @@
 
                         ],
         "description":  {
-                            "es":  "La ÃÂÃÂºltima entrega para PS3 amplÃÂÃÂ­a el catÃÂÃÂ¡logo con nuevas pistas y coches.",
+                            "es":  "La ÃÂÃÂÃÂÃÂºltima entrega para PS3 amplÃÂÃÂÃÂÃÂ­a el catÃÂÃÂÃÂÃÂ¡logo con nuevas pistas y coches.",
                             "en":  "The final PS3 entry expands the roster with new tracks and cars."
                         },
         "download":  null
@@ -1727,7 +1727,7 @@
         "id":  "uncharted-3",
         "console":  "ps3",
         "title":  "Uncharted 3: Drake\u0027s Deception",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Naughty Dog",
         "publisher":  "Sony Computer Entertainment",
         "year":  2011,
@@ -1751,7 +1751,7 @@
         "id":  "uncharted-1",
         "console":  "ps3",
         "title":  "Uncharted: Drake\u0027s Fortune",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Naughty Dog",
         "publisher":  "Sony Computer Entertainment",
         "year":  2007,
@@ -1775,7 +1775,7 @@
         "id":  "mgs4",
         "console":  "ps3",
         "title":  "Metal Gear Solid 4: Guns of the Patriots",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Kojima Productions",
         "publisher":  "Konami",
         "year":  2008,
@@ -1799,7 +1799,7 @@
         "id":  "rdr-ps3",
         "console":  "ps3",
         "title":  "Red Dead Redemption",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Rockstar San Diego",
         "publisher":  "Rockstar Games",
         "year":  2010,
@@ -1838,7 +1838,7 @@
 
                         ],
         "description":  {
-                            "es":  "Cuatro personajes luchan por atrapar al Asesino del Origami y salvar a un niÃÂÃÂ±o.",
+                            "es":  "Cuatro personajes luchan por atrapar al Asesino del Origami y salvar a un niÃÂÃÂÃÂÃÂ±o.",
                             "en":  "Four characters race to catch the Origami Killer and save a child."
                         },
         "download":  null
@@ -1871,7 +1871,7 @@
         "id":  "infamous-2",
         "console":  "ps3",
         "title":  "inFamous 2",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Sucker Punch Productions",
         "publisher":  "Sony Computer Entertainment",
         "year":  2011,
@@ -1886,7 +1886,7 @@
 
                         ],
         "description":  {
-                            "es":  "Cole MacGrath elige entre hÃÂÃÂ©roe o villano en la ciudad de New Marais.",
+                            "es":  "Cole MacGrath elige entre hÃÂÃÂÃÂÃÂ©roe o villano en la ciudad de New Marais.",
                             "en":  "Cole MacGrath chooses between hero and villain in the city of New Marais."
                         },
         "download":  null
@@ -1895,7 +1895,7 @@
         "id":  "killzone-3",
         "console":  "ps3",
         "title":  "Killzone 3",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Guerrilla Games",
         "publisher":  "Sony Computer Entertainment",
         "year":  2011,
@@ -1919,7 +1919,7 @@
         "id":  "bf3-ps3",
         "console":  "ps3",
         "title":  "Battlefield 3",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "DICE",
         "publisher":  "Electronic Arts",
         "year":  2011,
@@ -1943,7 +1943,7 @@
         "id":  "farcry-3",
         "console":  "ps3",
         "title":  "Far Cry 3",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Ubisoft Montreal",
         "publisher":  "Ubisoft",
         "year":  2012,
@@ -1967,7 +1967,7 @@
         "id":  "dark-souls",
         "console":  "ps3",
         "title":  "Dark Souls",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "FromSoftware",
         "publisher":  "Namco Bandai Games",
         "year":  2011,
@@ -1982,7 +1982,7 @@
 
                         ],
         "description":  {
-                            "es":  "Explora el reino de Lordran y enfrÃÂÃÂ©ntate a uno de los desafÃÂÃÂ­os mÃÂÃÂ¡s legendarios.",
+                            "es":  "Explora el reino de Lordran y enfrÃÂÃÂÃÂÃÂ©ntate a uno de los desafÃÂÃÂÃÂÃÂ­os mÃÂÃÂÃÂÃÂ¡s legendarios.",
                             "en":  "Explore the realm of Lordran and face one of the most legendary challenges in gaming."
                         },
         "download":  null
@@ -1991,7 +1991,7 @@
         "id":  "re5",
         "console":  "ps3",
         "title":  "Resident Evil 5",
-        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Capcom",
         "publisher":  "Capcom",
         "year":  2009,
@@ -2006,7 +2006,7 @@
 
                         ],
         "description":  {
-                            "es":  "Chris Redfield investiga una nueva amenaza biolÃÂÃÂ³gica en Kijuju, ÃÂÃÂfrica.",
+                            "es":  "Chris Redfield investiga una nueva amenaza biolÃÂÃÂÃÂÃÂ³gica en Kijuju, ÃÂÃÂÃÂÃÂfrica.",
                             "en":  "Chris Redfield investigates a new biological threat in Kijuju, Africa."
                         },
         "download":  null
@@ -2015,7 +2015,7 @@
         "id":  "ac2-ps3",
         "console":  "ps3",
         "title":  "Assassin\u0027s Creed II",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Ubisoft Montreal",
         "publisher":  "Ubisoft",
         "year":  2009,
@@ -2039,7 +2039,7 @@
         "id":  "halo-3",
         "console":  "xbox360",
         "title":  "Halo 3",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Bungie",
         "publisher":  "Microsoft Game Studios",
         "year":  2007,
@@ -2063,7 +2063,7 @@
         "id":  "gears-2",
         "console":  "xbox360",
         "title":  "Gears of War 2",
-        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Epic Games",
         "publisher":  "Microsoft Game Studios",
         "year":  2008,
@@ -2080,7 +2080,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshots/24-3.jpg"
                         ],
         "description":  {
-                            "es":  "Marcus Fenix lidera a su escuadrÃÂÃÂ³n contra la horda Locust en su guarida subterrÃÂÃÂ¡nea.",
+                            "es":  "Marcus Fenix lidera a su escuadrÃÂÃÂÃÂÃÂ³n contra la horda Locust en su guarida subterrÃÂÃÂÃÂÃÂ¡nea.",
                             "en":  "Marcus Fenix leads his squad against the Locust Horde deep in their underground lair."
                         },
         "download":  null
@@ -2089,7 +2089,7 @@
         "id":  "rdr",
         "console":  "xbox360",
         "title":  "Red Dead Redemption",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Rockstar San Diego",
         "publisher":  "Rockstar Games",
         "year":  2010,
@@ -2115,7 +2115,7 @@
         "id":  "halo-reach",
         "console":  "xbox360",
         "title":  "Halo: Reach",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Bungie",
         "publisher":  "Microsoft Game Studios",
         "year":  2010,
@@ -2139,7 +2139,7 @@
         "id":  "halo-4",
         "console":  "xbox360",
         "title":  "Halo 4",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "343 Industries",
         "publisher":  "Microsoft Studios",
         "year":  2012,
@@ -2163,7 +2163,7 @@
         "id":  "gears-3",
         "console":  "xbox360",
         "title":  "Gears of War 3",
-        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Epic Games",
         "publisher":  "Microsoft Game Studios",
         "year":  2011,
@@ -2187,7 +2187,7 @@
         "id":  "cod-bo-x360",
         "console":  "xbox360",
         "title":  "Call of Duty: Black Ops",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Treyarch",
         "publisher":  "Activision",
         "year":  2010,
@@ -2202,7 +2202,7 @@
 
                         ],
         "description":  {
-                            "es":  "Desclasifica los secretos ocultos de la Guerra FrÃÂÃÂ­a en primera persona.",
+                            "es":  "Desclasifica los secretos ocultos de la Guerra FrÃÂÃÂÃÂÃÂ­a en primera persona.",
                             "en":  "Uncover the hidden secrets of the Cold War in first person."
                         },
         "download":  null
@@ -2211,7 +2211,7 @@
         "id":  "cod-mw2-x360",
         "console":  "xbox360",
         "title":  "Call of Duty: Modern Warfare 2",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Infinity Ward",
         "publisher":  "Activision",
         "year":  2009,
@@ -2235,7 +2235,7 @@
         "id":  "cod-mw3-x360",
         "console":  "xbox360",
         "title":  "Call of Duty: Modern Warfare 3",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Infinity Ward / Sledgehammer Games",
         "publisher":  "Activision",
         "year":  2011,
@@ -2259,7 +2259,7 @@
         "id":  "cod-bo2-x360",
         "console":  "xbox360",
         "title":  "Call of Duty: Black Ops II",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Treyarch",
         "publisher":  "Activision",
         "year":  2012,
@@ -2274,7 +2274,7 @@
 
                         ],
         "description":  {
-                            "es":  "Conflictos de la Guerra FrÃÂÃÂ­a y una guerra futura se entrelazan en 2025.",
+                            "es":  "Conflictos de la Guerra FrÃÂÃÂÃÂÃÂ­a y una guerra futura se entrelazan en 2025.",
                             "en":  "Cold War conflicts and a future war intertwine in 2025."
                         },
         "download":  null
@@ -2307,7 +2307,7 @@
         "id":  "skyrim",
         "console":  "xbox360",
         "title":  "The Elder Scrolls V: Skyrim",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Bethesda Game Studios",
         "publisher":  "Bethesda Softworks",
         "year":  2011,
@@ -2331,7 +2331,7 @@
         "id":  "fallout-3",
         "console":  "xbox360",
         "title":  "Fallout 3",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Bethesda Game Studios",
         "publisher":  "Bethesda Softworks",
         "year":  2008,
@@ -2355,7 +2355,7 @@
         "id":  "mass-effect-2",
         "console":  "xbox360",
         "title":  "Mass Effect 2",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "BioWare",
         "publisher":  "Electronic Arts",
         "year":  2010,
@@ -2370,7 +2370,7 @@
 
                         ],
         "description":  {
-                            "es":  "Shepard reÃÂÃÂºne un escuadrÃÂÃÂ³n de ÃÂÃÂ©lite para una misiÃÂÃÂ³n suicida contra los Recolectores.",
+                            "es":  "Shepard reÃÂÃÂÃÂÃÂºne un escuadrÃÂÃÂÃÂÃÂ³n de ÃÂÃÂÃÂÃÂ©lite para una misiÃÂÃÂÃÂÃÂ³n suicida contra los Recolectores.",
                             "en":  "Shepard assembles an elite squad for a suicide mission against the Collectors."
                         },
         "download":  null
@@ -2379,7 +2379,7 @@
         "id":  "borderlands-2",
         "console":  "xbox360",
         "title":  "Borderlands 2",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Gearbox Software",
         "publisher":  "2K Games",
         "year":  2012,
@@ -2394,7 +2394,7 @@
 
                         ],
         "description":  {
-                            "es":  "Cazadores de bÃÂÃÂ³vedas se enfrentan al malvado Handsome Jack en Pandora.",
+                            "es":  "Cazadores de bÃÂÃÂÃÂÃÂ³vedas se enfrentan al malvado Handsome Jack en Pandora.",
                             "en":  "Vault Hunters battle the villainous Handsome Jack across Pandora."
                         },
         "download":  null
@@ -2403,7 +2403,7 @@
         "id":  "bioshock-infinite",
         "console":  "xbox360",
         "title":  "BioShock Infinite",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Irrational Games",
         "publisher":  "2K Games",
         "year":  2013,
@@ -2427,7 +2427,7 @@
         "id":  "forza-3",
         "console":  "xbox360",
         "title":  "Forza Motorsport 3",
-        "genre":  "Carreras - SimulaciÃÂÃÂ³n",
+        "genre":  "Carreras - SimulaciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Turn 10 Studios",
         "publisher":  "Microsoft Game Studios",
         "year":  2009,
@@ -2442,7 +2442,7 @@
 
                         ],
         "description":  {
-                            "es":  "El simulador de conducciÃÂÃÂ³n de referencia con mÃÂÃÂ¡s de 400 coches.",
+                            "es":  "El simulador de conducciÃÂÃÂÃÂÃÂ³n de referencia con mÃÂÃÂÃÂÃÂ¡s de 400 coches.",
                             "en":  "The benchmark racing simulator with over 400 cars."
                         },
         "download":  null
@@ -2451,7 +2451,7 @@
         "id":  "forza-horizon",
         "console":  "xbox360",
         "title":  "Forza Horizon",
-        "genre":  "Carreras - SimulaciÃÂÃÂ³n",
+        "genre":  "Carreras - SimulaciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Playground Games",
         "publisher":  "Microsoft Studios",
         "year":  2012,
@@ -2490,7 +2490,7 @@
 
                         ],
         "description":  {
-                            "es":  "Crea y explora mundos infinitos con amigos desde el sofÃÂÃÂ¡ de tu casa.",
+                            "es":  "Crea y explora mundos infinitos con amigos desde el sofÃÂÃÂÃÂÃÂ¡ de tu casa.",
                             "en":  "Create and explore infinite worlds with friends from your living room."
                         },
         "download":  null
@@ -2499,7 +2499,7 @@
         "id":  "bf3-x360",
         "console":  "xbox360",
         "title":  "Battlefield 3",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "DICE",
         "publisher":  "Electronic Arts",
         "year":  2011,
@@ -2523,7 +2523,7 @@
         "id":  "ac2-x360",
         "console":  "xbox360",
         "title":  "Assassin\u0027s Creed II",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Ubisoft Montreal",
         "publisher":  "Ubisoft",
         "year":  2009,
@@ -2547,7 +2547,7 @@
         "id":  "halo-odst",
         "console":  "xbox360",
         "title":  "Halo 3: ODST",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Bungie",
         "publisher":  "Microsoft Game Studios",
         "year":  2009,
@@ -2571,7 +2571,7 @@
         "id":  "the-evil-within",
         "console":  "ps4",
         "title":  "The Evil Within",
-        "genre":  "Terror - AcciÃÂÃÂ³n",
+        "genre":  "Terror - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Tango Gameworks",
         "publisher":  "Bethesda Softworks",
         "year":  2014,
@@ -2588,7 +2588,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/20777-4.jpg"
                         ],
         "description":  {
-                            "es":  "Un detective queda atrapado en un mundo aterrador lleno de criaturas y pesadillas, donde deberÃÂÃÂ¡ luchar por sobrevivir y descubrir la verdad.",
+                            "es":  "Un detective queda atrapado en un mundo aterrador lleno de criaturas y pesadillas, donde deberÃÂÃÂÃÂÃÂ¡ luchar por sobrevivir y descubrir la verdad.",
                             "en":  "A detective becomes trapped in a terrifying world filled with creatures and nightmares, where he must fight to survive and uncover the truth."
                         },
         "download":  {
@@ -2629,7 +2629,7 @@
                             "https://stash.icopartners.com/public/uploads/mediakits/91/DOTC_ClassicMode(1).jpg"
                         ],
         "description":  {
-                            "es":  "Revive la leyenda medieval en una aventura de estrategia donde deberÃÂÃÂ¡s conquistar territorios, administrar tu reino y enfrentarte a tus rivales para convertirte en el verdadero rey de Inglaterra.",
+                            "es":  "Revive la leyenda medieval en una aventura de estrategia donde deberÃÂÃÂÃÂÃÂ¡s conquistar territorios, administrar tu reino y enfrentarte a tus rivales para convertirte en el verdadero rey de Inglaterra.",
                             "en":  "Relive the medieval legend in a strategy adventure where you must conquer territories, manage your kingdom, and face your rivals to become the true King of England."
                         },
         "download":  {
@@ -2638,7 +2638,7 @@
                          "format":  "nsp",
                          "update":  "",
                          "fw":  "22.5.0",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, italiano, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol (EspaÃÂÃÂ±a), polaco, portuguÃÂÃÂ©s (Brasil), ruso, chino",
+                         "languages":  "Ingles, frances, italiano, aleman, espanol (Espana), polaco, portugues (Brasil), ruso, chino",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -2670,7 +2670,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/114572-4.jpg"
                         ],
         "description":  {
-                            "es":  "Una aventura narrativa oscura donde tus decisiones determinarÃÂÃÂ¡n el destino de Sir Brante en un mundo marcado por la desigualdad y la opresiÃÂÃÂ³n.",
+                            "es":  "Una aventura narrativa oscura donde tus decisiones determinarÃÂÃÂÃÂÃÂ¡n el destino de Sir Brante en un mundo marcado por la desigualdad y la opresiÃÂÃÂÃÂÃÂ³n.",
                             "en":  "A dark narrative adventure where your choices shape Sir Brante\u0027s fate in a world ruled by inequality and oppression."
                         },
         "download":  {
@@ -2679,7 +2679,7 @@
                          "format":  "xci",
                          "update":  "1.5.6",
                          "fw":  "22.1.0",
-                         "languages":  "InglÃÂÃÂ©s, japonÃÂÃÂ©s, ruso, coreano, chino, portuguÃÂÃÂ©s",
+                         "languages":  "Ingles, japones, ruso, coreano, chino, portugues",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -2694,7 +2694,7 @@
         "id":  "jesus-simulator",
         "console":  "switch",
         "title":  "Jesus Simulator",
-        "genre":  "SimulaciÃÂÃÂ³n - Aventura",
+        "genre":  "SimulaciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "VRCFORGE STUDIOS",
         "publisher":  "VRCFORGE STUDIOS",
         "year":  2026,
@@ -2711,7 +2711,7 @@
                             "http://imgfz.com/i/Vaj4niX.jpeg"
                         ],
         "description":  {
-                            "es":  "Vive la historia de Jesucristo a travÃÂÃÂ©s de una aventura narrativa basada en los Evangelios, presenciando sermones, milagros y momentos importantes de su vida.",
+                            "es":  "Vive la historia de Jesucristo a travÃÂÃÂÃÂÃÂ©s de una aventura narrativa basada en los Evangelios, presenciando sermones, milagros y momentos importantes de su vida.",
                             "en":  "Experience the life of Jesus Christ through a narrative adventure based on the Gospels, witnessing sermons, miracles, and key moments from his life."
                         },
         "download":  {
@@ -2720,7 +2720,7 @@
                          "format":  "nsp",
                          "update":  "",
                          "fw":  "22.1.0",
-                         "languages":  "InglÃÂÃÂ©s",
+                         "languages":  "Ingles",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -2735,7 +2735,7 @@
         "id":  "the-lord-of-the-rings-war-in-the-north-legacy-edition",
         "console":  "switch",
         "title":  "The Lord of the Rings War in the North Legacy Edition",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Hack and slash",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Hack and slash",
         "developer":  "Aspyr",
         "publisher":  "Aspyr",
         "year":  2026,
@@ -2752,7 +2752,7 @@
                             "https://cdn.mobygames.com/promos/39583161-the-lord-of-the-rings-war-in-the-north-legacy-edition-screenshot.jpg"
                         ],
         "description":  {
-                            "es":  "ÃÂÃÂnete a una nueva Comunidad del Anillo y lucha contra las fuerzas de Sauron en una aventura de acciÃÂÃÂ³n ambientada en el norte de la Tierra Media.",
+                            "es":  "ÃÂÃÂÃÂÃÂnete a una nueva Comunidad del Anillo y lucha contra las fuerzas de Sauron en una aventura de acciÃÂÃÂÃÂÃÂ³n ambientada en el norte de la Tierra Media.",
                             "en":  "Join a new Fellowship and battle Sauron\u0027s forces in an action-packed adventure set in the northern lands of Middle-earth."
                         },
         "download":  {
@@ -2761,7 +2761,7 @@
                          "format":  "xci",
                          "update":  "1.0.1",
                          "fw":  "22.5.0",
-                         "languages":  "FrancÃÂÃÂ©s, alemÃÂÃÂ¡n, italiano, espaÃÂÃÂ±ol, ruso, chino, portuguÃÂÃÂ©s, inglÃÂÃÂ©s americano, polaco",
+                         "languages":  "Frances, aleman, italiano, espanol, ruso, chino, portugues, ingles americano, polaco",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -2776,7 +2776,7 @@
         "id":  "assassin-s-creed-odyssey",
         "console":  "ps4",
         "title":  "Assassin\u0027s Creed Odyssey",
-        "genre":  "RPG de AcciÃÂÃÂ³n - Aventura",
+        "genre":  "RPG de AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Ubisoft Quebec",
         "publisher":  "Ubisoft",
         "year":  2018,
@@ -2793,7 +2793,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/60145-8.jpg"
                         ],
         "description":  {
-                            "es":  "Recorre la Grecia clÃÂÃÂ¡sica como un mercenario en la ÃÂÃÂ©pica era del Peloponeso.",
+                            "es":  "Recorre la Grecia clÃÂÃÂÃÂÃÂ¡sica como un mercenario en la ÃÂÃÂÃÂÃÂ©pica era del Peloponeso.",
                             "en":  "Roam classical Greece as a mercenary during the epic Peloponnesian era."
                         },
         "download":  {
@@ -2832,7 +2832,7 @@
         "id":  "gears-of-war",
         "console":  "xbox360",
         "title":  "Gears of War",
-        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Tercera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Epic Games",
         "publisher":  "Microsoft Game Studios",
         "year":  2006,
@@ -2849,7 +2849,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/7481-10.jpg"
                         ],
         "description":  {
-                            "es":  "El juego que definiÃÂÃÂ³ la generaciÃÂÃÂ³n: la guerra contra los Locust comienza.",
+                            "es":  "El juego que definiÃÂÃÂÃÂÃÂ³ la generaciÃÂÃÂÃÂÃÂ³n: la guerra contra los Locust comienza.",
                             "en":  "The game that defined a generation: the war against the Locust begins."
                         },
         "download":  {
@@ -2858,7 +2858,7 @@
                          "format":  "iso - god",
                          "update":  "Update+DLC",
                          "fw":  "",
-                         "languages":  "EspaÃÂÃÂ±ol Latino",
+                         "languages":  "Espanol Latino",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -2936,7 +2936,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/115644-3.jpg"
                         ],
         "description":  {
-                            "es":  "Sargon, un joven guerrero perteneciente a los Inmortales, viaja al misterioso Monte Qaf para rescatar al prÃÂÃÂ­ncipe Ghassan, que ha sido secuestrado. AllÃÂÃÂ­ deberÃÂÃÂ¡ enfrentarse a criaturas mitolÃÂÃÂ³gicas, explorar un mundo lleno de secretos y dominar poderes relacionados con el tiempo.",
+                            "es":  "Sargon, un joven guerrero perteneciente a los Inmortales, viaja al misterioso Monte Qaf para rescatar al prÃÂÃÂÃÂÃÂ­ncipe Ghassan, que ha sido secuestrado. AllÃÂÃÂÃÂÃÂ­ deberÃÂÃÂÃÂÃÂ¡ enfrentarse a criaturas mitolÃÂÃÂÃÂÃÂ³gicas, explorar un mundo lleno de secretos y dominar poderes relacionados con el tiempo.",
                             "en":  "Sargon, a young warrior and member of the Immortals, travels to the mysterious Mount Qaf to rescue the kidnapped Prince Ghassan. Along the way, he must battle mythological creatures, explore a cursed world and master powerful abilities connected to time."
                         },
         "download":  {
@@ -2960,7 +2960,7 @@
         "id":  "luigis-mansion-2-hd",
         "console":  "switch",
         "title":  "Luigi\u0027s Mansion 2 HD",
-        "genre":  "AcciÃÂÃÂ³n - Aventura",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura",
         "developer":  "Next Level Games / Tantalus Media",
         "publisher":  "Nintendo",
         "year":  2024,
@@ -2977,7 +2977,7 @@
                             "http://imgfz.com/i/dI2qaNW.jpeg"
                         ],
         "description":  {
-                            "es":  "Luigi regresa en una misiÃÂÃÂ³n para eliminar fantasmas de varias mansiones embrujadas. Armado con su confiable Poltergust 5000, el hermano de Mario debe capturar a estos molestos fantasmas mientras explora mÃÂÃÂºltiples mansiones para recuperar los fragmentos de la Luna Oscura.",
+                            "es":  "Luigi regresa en una misiÃÂÃÂÃÂÃÂ³n para eliminar fantasmas de varias mansiones embrujadas. Armado con su confiable Poltergust 5000, el hermano de Mario debe capturar a estos molestos fantasmas mientras explora mÃÂÃÂÃÂÃÂºltiples mansiones para recuperar los fragmentos de la Luna Oscura.",
                             "en":  "Luigi is back on a mission to remove stubborn ghosts from several spooky mansions. Armed with his trusty Poltergust 5000 vacuum cleaner, Mario\u0027s brother takes center stage to capture pesky phantoms while exploring multiple haunted mansions to recover the shards of the Dark Moon."
                         },
         "download":  {
@@ -2986,7 +2986,7 @@
                          "format":  "nsp",
                          "update":  "1.0.0",
                          "fw":  "17.0.1",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, japonÃÂÃÂ©s, coreano, neerlandÃÂÃÂ©s, portuguÃÂÃÂ©s, ruso, chino simplificado, chino tradicional",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, portugues, ruso, chino simplificado, chino tradicional",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -3018,7 +3018,7 @@
                             "https://images.launchbox-app.com/r2_7978ff8a-5903-4a33-a4e5-599a6d716e75.png"
                         ],
         "description":  {
-                            "es":  "Compite en pistas llenas de baba con personajes icÃÂÃÂ³nicos de Nickelodeon como SpongeBob, TMNT, Hey Arnold! y Rugrats. Corre con hasta 4 jugadores en multijugador local o compite en la Arena de Batalla.",
+                            "es":  "Compite en pistas llenas de baba con personajes icÃÂÃÂÃÂÃÂ³nicos de Nickelodeon como SpongeBob, TMNT, Hey Arnold! y Rugrats. Corre con hasta 4 jugadores en multijugador local o compite en la Arena de Batalla.",
                             "en":  "Hit the Slime-filled race tracks with Nickelodeon characters from SpongeBob SquarePants, TMNT, Hey Arnold!, and Rugrats. Race your friends in up to 4-player local multiplayer or check out the Battle Arena for a variety of challenges."
                         },
         "download":  {
@@ -3027,7 +3027,7 @@
                          "format":  "nsp",
                          "update":  "1.0.4",
                          "fw":  "6.2.0+",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, neerlandÃÂÃÂ©s",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, neerlandes",
                          "thanks":  "",
                          "links":  [
 
@@ -3055,7 +3055,7 @@
                             "https://images.rpgsite.net/image/da49c9a1/161634/original/Octopath-Traveler-0_20251124_08.png"
                         ],
         "description":  {
-                            "es":  "Precuela del clÃÂÃÂ¡sico RPG HD-2D donde creas tu propio personaje y reconstruyes tu pueblo natal en la tierra de Orsterra.",
+                            "es":  "Precuela del clÃÂÃÂÃÂÃÂ¡sico RPG HD-2D donde creas tu propio personaje y reconstruyes tu pueblo natal en la tierra de Orsterra.",
                             "en":  "Prequel to the classic HD-2D RPG where you create your own character and rebuild your hometown in the land of Orsterra."
                         },
         "download":  null
@@ -3064,7 +3064,7 @@
         "id":  "the-evil-within-2",
         "console":  "ps4",
         "title":  "The Evil Within 2",
-        "genre":  "Terror - AcciÃÂÃÂ³n",
+        "genre":  "Terror - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Tango Gameworks",
         "publisher":  "Bethesda Softworks",
         "year":  2017,
@@ -3081,7 +3081,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshots/52801-2.jpg"
                         ],
         "description":  {
-                            "es":  "Sebastian Castellanos regresa a una pesadilla aterradora para salvar a su hija, enfrentÃÂÃÂ¡ndose a criaturas monstruosas y un mundo lleno de peligros.",
+                            "es":  "Sebastian Castellanos regresa a una pesadilla aterradora para salvar a su hija, enfrentÃÂÃÂÃÂÃÂ¡ndose a criaturas monstruosas y un mundo lleno de peligros.",
                             "en":  "Sebastian Castellanos returns to a terrifying nightmare to save his daughter, facing monstrous creatures and a world filled with danger."
                         },
         "download":  {
@@ -3131,7 +3131,7 @@
                          "format":  "nsp",
                          "update":  "1.0.3",
                          "fw":  "10.0.0+",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, japonÃÂÃÂ©s",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, japones",
                          "thanks":  "",
                          "links":  [
 
@@ -3168,7 +3168,7 @@
                          "format":  "nsp",
                          "update":  "1.0.0",
                          "fw":  "14.0.0+",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, neerlandÃÂÃÂ©s",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, neerlandes",
                          "thanks":  "",
                          "links":  [
 
@@ -3196,7 +3196,7 @@
                             "https://images.launchbox-app.com/4ab36ed7-8901-43c0-a9eb-fdfdb8b29063.jpg"
                         ],
         "description":  {
-                            "es":  "Descubre un universo de Mortal Kombat renacido creado por el Dios del Fuego Liu Kang. Mortal Kombat 1 inaugura una nueva era de la icÃÂÃÂ³nica franquicia con un nuevo sistema de pelea, modos de juego y fatalities.",
+                            "es":  "Descubre un universo de Mortal Kombat renacido creado por el Dios del Fuego Liu Kang. Mortal Kombat 1 inaugura una nueva era de la icÃÂÃÂÃÂÃÂ³nica franquicia con un nuevo sistema de pelea, modos de juego y fatalities.",
                             "en":  "Discover a reborn Mortal Kombat Universe created by the Fire God Liu Kang. Mortal Kombat 1 ushers in a new era of the iconic franchise with a new fighting system, game modes, and fatalities!"
                         },
         "download":  {
@@ -3205,8 +3205,8 @@
                          "format":  "xci",
                          "update":  "1.29.0+DLC",
                          "fw":  "",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, portuguÃÂÃÂ©s, ÃÂÃÂ¡rabe, chino tradicional, chino simplificado, ruso, polaco",
-                         "thanks":  "ContraseÃÂÃÂ±a:  zonagamerfa",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, portugues, arabe, chino tradicional, chino simplificado, ruso, polaco",
+                         "thanks":  "ContraseÃÂÃÂÃÂÃÂ±a:  zonagamerfa",
                          "links":  [
                                        {
                                            "label":  "Mediafire",
@@ -3225,7 +3225,7 @@
         "id":  "dragon-ball-sparking-zero",
         "console":  "switch",
         "title":  "DRAGON BALL: Sparking! ZERO",
-        "genre":  "Lucha - AcciÃÂÃÂ³n",
+        "genre":  "Lucha - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Spike Chunsoft",
         "publisher":  "BANDAI NAMCO Entertainment",
         "year":  2025,
@@ -3242,7 +3242,7 @@
                             "https://images.launchbox-app.com//4a2c8ee3-24d6-49c2-99f9-b8b2b83077df.jpg"
                         ],
         "description":  {
-                            "es":  "DRAGON BALL: Sparking! ZERO lleva el legendario juego de la serie Budokai Tenkaichi a niveles totalmente nuevos. ConviÃÂÃÂ©rtete en un super guerrero y experimenta el poder sacudidor de las batallas de Dragon Ball.",
+                            "es":  "DRAGON BALL: Sparking! ZERO lleva el legendario juego de la serie Budokai Tenkaichi a niveles totalmente nuevos. ConviÃÂÃÂÃÂÃÂ©rtete en un super guerrero y experimenta el poder sacudidor de las batallas de Dragon Ball.",
                             "en":  "DRAGON BALL: Sparking! ZERO takes the legendary gameplay of the Budokai Tenkaichi series and raises it to whole new levels. Become a super warrior and experience the earth-shaking, limit-breaking power of Dragon Ball battles!"
                         },
         "download":  {
@@ -3251,7 +3251,7 @@
                          "format":  "xci",
                          "update":  "2.0.76+13dlc",
                          "fw":  "22.1.0",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, portuguÃÂÃÂ©s, ÃÂÃÂ¡rabe, japonÃÂÃÂ©s, coreano, tailandÃÂÃÂ©s, chino tradicional, chino simplificado, ruso, polaco",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, portugues, arabe, japones, coreano, tailandes, chino tradicional, chino simplificado, ruso, polaco",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -3271,7 +3271,7 @@
         "id":  "dragon-ball-z-kakarot",
         "console":  "switch",
         "title":  "DRAGON BALL Z: KAKAROT + A New Power Awakens Set",
-        "genre":  "AcciÃÂÃÂ³n - Aventura - RPG",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Aventura - RPG",
         "developer":  "CyberConnect2",
         "publisher":  "BANDAI NAMCO Entertainment",
         "year":  2021,
@@ -3288,7 +3288,7 @@
                             "https://images.launchbox-app.com/d941336e-e10c-400a-a8e8-7c0ab53d1287.jpg"
                         ],
         "description":  {
-                            "es":  "Revive la historia de Goku y los demÃÂÃÂ¡s Guerreros Z en DRAGON BALL Z: KAKAROT. MÃÂÃÂ¡s allÃÂÃÂ¡ de las ÃÂÃÂ©picas batallas, experimenta la vida en el mundo de DRAGON BALL Z mientras luchas, pescas, comes y entrenas con Goku, Gohan, Vegeta y otros.",
+                            "es":  "Revive la historia de Goku y los demÃÂÃÂÃÂÃÂ¡s Guerreros Z en DRAGON BALL Z: KAKAROT. MÃÂÃÂÃÂÃÂ¡s allÃÂÃÂÃÂÃÂ¡ de las ÃÂÃÂÃÂÃÂ©picas batallas, experimenta la vida en el mundo de DRAGON BALL Z mientras luchas, pescas, comes y entrenas con Goku, Gohan, Vegeta y otros.",
                             "en":  "Relive the story of Goku and other Z Fighters in DRAGON BALL Z: KAKAROT. Beyond the epic battles, experience life in the DRAGON BALL Z world as you fight, fish, eat, and train with Goku, Gohan, Vegeta and others."
                         },
         "download":  {
@@ -3297,7 +3297,7 @@
                          "format":  "",
                          "update":  "",
                          "fw":  "",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano, portuguÃÂÃÂ©s, ÃÂÃÂ¡rabe, ruso, polaco",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano, portugues, arabe, ruso, polaco",
                          "thanks":  "",
                          "links":  [
 
@@ -3325,7 +3325,7 @@
                             "https://images.launchbox-app.com/dfab1dbe-b278-409c-b165-7654d7c97ad4.jpg"
                         ],
         "description":  {
-                            "es":  "ÃÂÃÂÃÂÃÂ¡SUPER DRAGON BALL HEROES WORLD MISSION es un juego de cartas tÃÂÃÂ¡ctico lleno de confrontaciÃÂÃÂ³n electrizante, estrategia profunda de juego de cartas y una emocionante historia que se desarrolla en el amplio universo de Dragon Ball Heroes!",
+                            "es":  "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡SUPER DRAGON BALL HEROES WORLD MISSION es un juego de cartas tÃÂÃÂÃÂÃÂ¡ctico lleno de confrontaciÃÂÃÂÃÂÃÂ³n electrizante, estrategia profunda de juego de cartas y una emocionante historia que se desarrolla en el amplio universo de Dragon Ball Heroes!",
                             "en":  "SUPER DRAGON BALL HEROES WORLD MISSION is a Tactical-Card game packed with exhilarating confrontation, deep card game strategy and a thrilling storyline taking place in the wide Dragon Ball Heroes universe!"
                         },
         "download":  {
@@ -3334,7 +3334,7 @@
                          "format":  "",
                          "update":  "",
                          "fw":  "",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, espaÃÂÃÂ±ol, italiano",
+                         "languages":  "Ingles, frances, aleman, espanol, italiano",
                          "thanks":  "",
                          "links":  [
 
@@ -3345,7 +3345,7 @@
         "id":  "butcher",
         "console":  "switch",
         "title":  "BUTCHER",
-        "genre":  "AcciÃÂÃÂ³n - Plataformas",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Plataformas",
         "developer":  "Transhuman Design",
         "publisher":  "Crunching Koalas",
         "year":  2017,
@@ -3362,7 +3362,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/74879-1.jpg"
                         ],
         "description":  {
-                            "es":  "BUTCHER es un shooter 2D rÃÂÃÂ¡pido y una carta de amor empapada en sangre a los clÃÂÃÂ¡sicos de culto del gÃÂÃÂ©nero. Como un cyborg programado para erradicar los ÃÂÃÂºltimos restos de humanidad, tu ÃÂÃÂºnico propÃÂÃÂ³sito es... bueno... aniquilar todo lo que se mueva.",
+                            "es":  "BUTCHER es un shooter 2D rÃÂÃÂÃÂÃÂ¡pido y una carta de amor empapada en sangre a los clÃÂÃÂÃÂÃÂ¡sicos de culto del gÃÂÃÂÃÂÃÂ©nero. Como un cyborg programado para erradicar los ÃÂÃÂÃÂÃÂºltimos restos de humanidad, tu ÃÂÃÂÃÂÃÂºnico propÃÂÃÂÃÂÃÂ³sito es... bueno... aniquilar todo lo que se mueva.",
                             "en":  "BUTCHER is a fast-paced 2D shooter and a blood-soaked love letter to the cult classics of the genre. As a cyborg programmed to eradicate the last remnants of humanity, your sole purpose is to annihilate anything that moves."
                         },
         "download":  {
@@ -3371,7 +3371,7 @@
                          "format":  "xci",
                          "update":  "1.0.2",
                          "fw":  "13.0.0",
-                         "languages":  "InglÃÂÃÂ©s",
+                         "languages":  "Ingles",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -3403,7 +3403,7 @@
                             "https://img.gamecompanies.com/games/images/b9865266-050b-43f0-83e9-ef4c3325b228.jpg"
                         ],
         "description":  {
-                            "es":  "ÃÂÃÂÃÂÃÂ¡Salta, vuela y corre a toda velocidad en Wunderling DX, un rompecabezas de plataformas sin parar y el primer simulador de Goomba del mundo! Corre contra el reloj, resuelve acertijos complicados para descubrir objetos brillantes y demuestra que incluso el enemigo mÃÂÃÂ¡s dÃÂÃÂ©bil puede hacer una gran diferencia.",
+                            "es":  "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡Salta, vuela y corre a toda velocidad en Wunderling DX, un rompecabezas de plataformas sin parar y el primer simulador de Goomba del mundo! Corre contra el reloj, resuelve acertijos complicados para descubrir objetos brillantes y demuestra que incluso el enemigo mÃÂÃÂÃÂÃÂ¡s dÃÂÃÂÃÂÃÂ©bil puede hacer una gran diferencia.",
                             "en":  "Dash, jump, and fly at full speed through Wunderling DX: a non-stop puzzle platformer and the world\u0027s first \"goomba simulator\"! Race against the clock, beat tricky puzzles to uncover shiny secrets, and stomp the odds to please your evil overlord!"
                         },
         "download":  {
@@ -3412,7 +3412,7 @@
                          "format":  "xci",
                          "update":  "1.4_8961",
                          "fw":  "13.2.1",
-                         "languages":  "InglÃÂÃÂ©s, francÃÂÃÂ©s, alemÃÂÃÂ¡n, italiano, espaÃÂÃÂ±ol, ruso",
+                         "languages":  "Ingles, frances, aleman, italiano, espanol, ruso",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -3444,7 +3444,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/115934-4.jpg"
                         ],
         "description":  {
-                            "es":  "Kindergarten Buddy Edition reune toda la diversiÃÂÃÂ³n de Kindergarten y Kindergarten 2 en un solo paquete. Aprende a compartir, ayuda a intimidar, esconde contrabando, juega dodgeball y descubre cÃÂÃÂ³mo funcionan los imanes en este extraÃÂÃÂ±o mundo escolar.",
+                            "es":  "Kindergarten Buddy Edition reune toda la diversiÃÂÃÂÃÂÃÂ³n de Kindergarten y Kindergarten 2 en un solo paquete. Aprende a compartir, ayuda a intimidar, esconde contrabando, juega dodgeball y descubre cÃÂÃÂÃÂÃÂ³mo funcionan los imanes en este extraÃÂÃÂÃÂÃÂ±o mundo escolar.",
                             "en":  "Kindergarten Buddy Edition brings all the fun of both Kindergarten and Kindergarten 2 into one unholy package! Learn to share, bully kids, hide contraband, play dodgeball, and discover how magnets work in this weird school world."
                         },
         "download":  {
@@ -3453,7 +3453,7 @@
                          "format":  "xci",
                          "update":  "1.0.1",
                          "fw":  "15.0.1",
-                         "languages":  "InglÃÂÃÂ©s",
+                         "languages":  "Ingles",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -3468,7 +3468,7 @@
         "id":  "the-callisto-protocol",
         "console":  "ps4",
         "title":  "The Callisto Protocol",
-        "genre":  "Terror - AcciÃÂÃÂ³n",
+        "genre":  "Terror - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Striking Distance Studios",
         "publisher":  "Krafton",
         "year":  2022,
@@ -3485,7 +3485,7 @@
                             "https://static.wikia.nocookie.net/thecallistoprotocol/images/6/66/Screenshot-04.jpg/revision/latest"
                         ],
         "description":  {
-                            "es":  "Jacob Lee es encarcelado en Black Iron Prison, una prisiÃÂÃÂ³n en la luna de JÃÂÃÂºpiter. Cuando los presos se transforman en criaturas monstruosas, deberÃÂÃÂ¡ luchar para escapar y descubrir los oscuros secretos de Callisto.",
+                            "es":  "Jacob Lee es encarcelado en Black Iron Prison, una prisiÃÂÃÂÃÂÃÂ³n en la luna de JÃÂÃÂÃÂÃÂºpiter. Cuando los presos se transforman en criaturas monstruosas, deberÃÂÃÂÃÂÃÂ¡ luchar para escapar y descubrir los oscuros secretos de Callisto.",
                             "en":  "Jacob Lee is imprisoned in Black Iron Prison, a penitentiary on Jupiter\u0027s moon. When inmates transform into monstrous creatures, he must fight to escape and uncover the dark secrets of Callisto."
                         },
         "download":  {
@@ -3526,7 +3526,7 @@
                             "https://images.launchbox-app.com/4bc1378c-f723-40fd-aa2f-36f53633763f.jpg"
                         ],
         "description":  {
-                            "es":  "La saga de lucha 2D basada en Tsukihime renace con grÃÂÃÂ¡ficos HD y nuevo sistema de combate. Incluye contenido descargable deluxe.",
+                            "es":  "La saga de lucha 2D basada en Tsukihime renace con grÃÂÃÂÃÂÃÂ¡ficos HD y nuevo sistema de combate. Incluye contenido descargable deluxe.",
                             "en":  "The 2D fighting franchise based on Tsukihime is reborn with HD graphics and a new combat system. Includes deluxe downloadable content."
                         },
         "download":  {
@@ -3550,7 +3550,7 @@
         "id":  "just-cause-4-ps4",
         "console":  "ps4",
         "title":  "Just Cause 4",
-        "genre":  "AcciÃÂÃÂ³n - Mundo Abierto",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Mundo Abierto",
         "developer":  "Avalanche Studios",
         "publisher":  "Square Enix",
         "year":  2018,
@@ -3567,7 +3567,7 @@
                             "https://images.launchbox-app.com/6ecc6084-2ece-413f-8ab9-43bd55f16646.jpg"
                         ],
         "description":  {
-                            "es":  "Rico Rodriguez llega a SolÃÂÃÂ­s, un enorme mundo sudamericano de conflicto, opresiÃÂÃÂ³n y clima extremo. Con gancho, ala delta y arsenal completo.",
+                            "es":  "Rico Rodriguez llega a SolÃÂÃÂÃÂÃÂ­s, un enorme mundo sudamericano de conflicto, opresiÃÂÃÂÃÂÃÂ³n y clima extremo. Con gancho, ala delta y arsenal completo.",
                             "en":  "Rico Rodriguez arrives in Solis, a huge South American world of conflict, oppression and extreme weather. With grapple, wingsuit and full arsenal."
                         },
         "download":  {
@@ -3591,7 +3591,7 @@
         "id":  "bioshock-infinite-ce",
         "console":  "ps4",
         "title":  "BioShock Infinite: The Complete Edition",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Irrational Games",
         "publisher":  "2K Games",
         "year":  2016,
@@ -3608,7 +3608,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/936-4.jpg"
                         ],
         "description":  {
-                            "es":  "La ediciÃÂÃÂ³n definitiva de BioShock Infinite incluye el juego base y todo el contenido descargable en la ciudad flotante de Columbia.",
+                            "es":  "La ediciÃÂÃÂÃÂÃÂ³n definitiva de BioShock Infinite incluye el juego base y todo el contenido descargable en la ciudad flotante de Columbia.",
                             "en":  "The complete edition of BioShock Infinite including base game and all DLC in the floating city of Columbia."
                         },
         "download":  {
@@ -3632,7 +3632,7 @@
         "id":  "bioshock-the-collection",
         "console":  "ps4",
         "title":  "BioShock: The Collection",
-        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂ³n",
+        "genre":  "Disparos en Primera Persona - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Blind Squirrel Games",
         "publisher":  "2K Games",
         "year":  2016,
@@ -3649,7 +3649,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/39433-8.jpg"
                         ],
         "description":  {
-                            "es":  "La colecciÃÂÃÂ³n completa de BioShock incluye BioShock, BioShock 2 y BioShock Infinite con todo el contenido descargable.",
+                            "es":  "La colecciÃÂÃÂÃÂÃÂ³n completa de BioShock incluye BioShock, BioShock 2 y BioShock Infinite con todo el contenido descargable.",
                             "en":  "The complete BioShock collection includes BioShock, BioShock 2, and BioShock Infinite with all DLC."
                         },
         "download":  {
@@ -3673,7 +3673,7 @@
         "id":  "just-cause-3",
         "console":  "ps4",
         "title":  "Just Cause 3",
-        "genre":  "AcciÃÂÃÂ³n - Mundo Abierto",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Mundo Abierto",
         "developer":  "Avalanche Studios",
         "publisher":  "Square Enix",
         "year":  2015,
@@ -3688,7 +3688,7 @@
                             "https://images.launchbox-app.com//7cf49200-f894-4cc6-b682-21837d7e6f23.jpg"
                         ],
         "description":  {
-                            "es":  "Rico Rodriguez destruye la dictadura de Medici en un mundo abierto lleno de acciÃÂÃÂ³n y explosiones.",
+                            "es":  "Rico Rodriguez destruye la dictadura de Medici en un mundo abierto lleno de acciÃÂÃÂÃÂÃÂ³n y explosiones.",
                             "en":  "Rico Rodriguez tears down the dictatorship of Medici in an open world full of action and explosions."
                         },
         "download":  {
@@ -3712,7 +3712,7 @@
         "id":  "just-dance-2018",
         "console":  "ps4",
         "title":  "Just Dance 2018",
-        "genre":  "MÃÂÃÂºsica - Ritmo",
+        "genre":  "MÃÂÃÂÃÂÃÂºsica - Ritmo",
         "developer":  "Ubisoft Paris",
         "publisher":  "Ubisoft",
         "year":  2017,
@@ -3729,7 +3729,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/53859-3.jpg"
                         ],
         "description":  {
-                            "es":  "Baila con los ÃÂÃÂ©xitos mÃÂÃÂ¡s populares del momento en la nueva ediciÃÂÃÂ³n de Just Dance.",
+                            "es":  "Baila con los ÃÂÃÂÃÂÃÂ©xitos mÃÂÃÂÃÂÃÂ¡s populares del momento en la nueva ediciÃÂÃÂÃÂÃÂ³n de Just Dance.",
                             "en":  "Dance to the hottest hits of the moment in the latest edition of Just Dance."
                         },
         "download":  {
@@ -3753,7 +3753,7 @@
         "id":  "just-dance-2017",
         "console":  "ps4",
         "title":  "Just Dance 2017",
-        "genre":  "MÃÂÃÂºsica - Ritmo",
+        "genre":  "MÃÂÃÂÃÂÃÂºsica - Ritmo",
         "developer":  "Ubisoft Paris",
         "publisher":  "Ubisoft",
         "year":  2016,
@@ -3768,7 +3768,7 @@
                             "https://images.launchbox-app.com//c1b31f51-0e22-494c-9b86-4ac4132f7779.jpg"
                         ],
         "description":  {
-                            "es":  "La fiesta de baile definitiva con 40 canciones nuevas incluyendo los ÃÂÃÂ©xitos mÃÂÃÂ¡s candentes.",
+                            "es":  "La fiesta de baile definitiva con 40 canciones nuevas incluyendo los ÃÂÃÂÃÂÃÂ©xitos mÃÂÃÂÃÂÃÂ¡s candentes.",
                             "en":  "The ultimate dance party with 40 new songs including the hottest hits."
                         },
         "download":  {
@@ -3792,7 +3792,7 @@
         "id":  "just-dance-2022",
         "console":  "ps4",
         "title":  "Just Dance 2022",
-        "genre":  "MÃÂÃÂºsica - Ritmo",
+        "genre":  "MÃÂÃÂÃÂÃÂºsica - Ritmo",
         "developer":  "Ubisoft",
         "publisher":  "Ubisoft",
         "year":  2021,
@@ -3807,7 +3807,7 @@
 
                         ],
         "description":  {
-                            "es":  "La ediciÃÂÃÂ³n mÃÂÃÂ¡s reciente de Just Dance con los ÃÂÃÂ©xitos mundiales mÃÂÃÂ¡s populares.",
+                            "es":  "La ediciÃÂÃÂÃÂÃÂ³n mÃÂÃÂÃÂÃÂ¡s reciente de Just Dance con los ÃÂÃÂÃÂÃÂ©xitos mundiales mÃÂÃÂÃÂÃÂ¡s populares.",
                             "en":  "The latest edition of Just Dance featuring the most popular worldwide hits."
                         },
         "download":  {
@@ -3831,7 +3831,7 @@
         "id":  "call-of-duty-wwii",
         "console":  "ps4",
         "title":  "Call of Duty: WWII",
-        "genre":  "Shooter - AcciÃÂÃÂ³n",
+        "genre":  "Shooter - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Sledgehammer Games",
         "publisher":  "Activision",
         "year":  2017,
@@ -3846,7 +3846,7 @@
 
                         ],
         "description":  {
-                            "es":  "Vuelve a la Segunda Guerra Mundial en la experiencia multijugador y campaÃÂÃÂ±a mÃÂÃÂ¡s intensa de Call of Duty.",
+                            "es":  "Vuelve a la Segunda Guerra Mundial en la experiencia multijugador y campaÃÂÃÂÃÂÃÂ±a mÃÂÃÂÃÂÃÂ¡s intensa de Call of Duty.",
                             "en":  "Return to World War II in the most intense multiplayer and campaign experience in Call of Duty."
                         },
         "download":  {
@@ -3870,7 +3870,7 @@
         "id":  "call-of-duty-black-ops-3",
         "console":  "ps4",
         "title":  "Call of Duty: Black Ops III",
-        "genre":  "Shooter - AcciÃÂÃÂ³n",
+        "genre":  "Shooter - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Treyarch",
         "publisher":  "Activision",
         "year":  2015,
@@ -3885,7 +3885,7 @@
 
                         ],
         "description":  {
-                            "es":  "La guerra futurÃÂÃÂ­stica llega a su mÃÂÃÂ¡xima expresiÃÂÃÂ³n con combate en Cooperativa, Multijugador y Zombies.",
+                            "es":  "La guerra futurÃÂÃÂÃÂÃÂ­stica llega a su mÃÂÃÂÃÂÃÂ¡xima expresiÃÂÃÂÃÂÃÂ³n con combate en Cooperativa, Multijugador y Zombies.",
                             "en":  "Futuristic warfare reaches its peak with Combat in Co-op, Multiplayer, and Zombies."
                         },
         "download":  {
@@ -3919,7 +3919,7 @@
         "id":  "watch-dogs-2-gold",
         "console":  "ps4",
         "title":  "Watch Dogs 2 Gold Edition",
-        "genre":  "AcciÃÂÃÂ³n - Mundo Abierto",
+        "genre":  "AcciÃÂÃÂÃÂÃÂ³n - Mundo Abierto",
         "developer":  "Ubisoft Montreal",
         "publisher":  "Ubisoft",
         "year":  2016,
@@ -3968,7 +3968,7 @@
         "id":  "saint-seiya-soldiers-soul",
         "console":  "ps4",
         "title":  "Saint Seiya Soldiers Soul",
-        "genre":  "Lucha - AcciÃÂÃÂ³n",
+        "genre":  "Lucha - AcciÃÂÃÂÃÂÃÂ³n",
         "developer":  "Dimps",
         "publisher":  "Bandai Namco Entertainment",
         "year":  2015,
@@ -3985,7 +3985,7 @@
                             "https://media.moddb.com/images/games/1/59/58311/ss_a04a477d3a60fb62f50a8d6ac3fc09736.jpg"
                         ],
         "description":  {
-                            "es":  "Los guerreros de la constelaciÃÂÃÂ³n luchan en intensos combates 3D con los personajes clÃÂÃÂ¡sicos de Saint Seiya.",
+                            "es":  "Los guerreros de la constelaciÃÂÃÂÃÂÃÂ³n luchan en intensos combates 3D con los personajes clÃÂÃÂÃÂÃÂ¡sicos de Saint Seiya.",
                             "en":  "Constellation warriors fight in intense 3D battles with classic Saint Seiya characters."
                         },
         "download":  {
@@ -4026,7 +4026,7 @@
                             "https://images.launchbox-app.com//557d0573-7a2e-4811-b752-b2420852e544.jpg"
                         ],
         "description":  {
-                            "es":  "Carreras callejeras de alta velocidad en Palm City con dualidad dÃÂÃÂ­a/noche y persecuciones policiales intensas.",
+                            "es":  "Carreras callejeras de alta velocidad en Palm City con dualidad dÃÂÃÂÃÂÃÂ­a/noche y persecuciones policiales intensas.",
                             "en":  "High-speed street racing in Palm City with day/night duality and intense police pursuits."
                         },
         "download":  {
@@ -4067,7 +4067,7 @@
                             "https://images.launchbox-app.com/9a2ffd56-35fd-4b1e-bce5-794f93794116.jpg"
                         ],
         "description":  {
-                            "es":  "Explora un mundo de cuentos escandinavos lleno de criaturas mÃÂÃÂ­ticas y peligrosas en una aventura de plataformas atmosfÃÂÃÂ©rica.",
+                            "es":  "Explora un mundo de cuentos escandinavos lleno de criaturas mÃÂÃÂÃÂÃÂ­ticas y peligrosas en una aventura de plataformas atmosfÃÂÃÂÃÂÃÂ©rica.",
                             "en":  "Explore a world of Scandinavian tales filled with mythical and dangerous creatures in an atmospheric platforming adventure."
                         },
         "download":  {
@@ -4108,7 +4108,7 @@
                             "https://images.launchbox-app.com/2189875c-e56c-477c-9e21-0cea17b770b1.jpg"
                         ],
         "description":  {
-                            "es":  "Lucha contra una dictadura en la isla caribeÃÂÃÂ±a de Yara. Explora un mundo abierto lleno de peligros, guerrillas y armas improvisadas.",
+                            "es":  "Lucha contra una dictadura en la isla caribeÃÂÃÂÃÂÃÂ±a de Yara. Explora un mundo abierto lleno de peligros, guerrillas y armas improvisadas.",
                             "en":  "Fight against a dictatorship on the Caribbean island of Yara. Explore an open world full of dangers, guerrillas, and improvised weapons."
                         },
         "download":  {
@@ -4149,7 +4149,7 @@
                             "https://images.launchbox-app.com/bb4718f2-2d37-4f05-b992-4c45f732ff0d.jpg"
                         ],
         "description":  {
-                            "es":  "Jill Valentine escapa de Raccoon City perseguida por el implacable Nemesis. ClÃÂÃÂ¡sico de terror supervivencia de PS1 remasterizado para PS4.",
+                            "es":  "Jill Valentine escapa de Raccoon City perseguida por el implacable Nemesis. ClÃÂÃÂÃÂÃÂ¡sico de terror supervivencia de PS1 remasterizado para PS4.",
                             "en":  "Jill Valentine escapes Raccoon City pursued by the relentless Nemesis. Classic PS1 survival horror remastered for PS4."
                         },
         "download":  {
@@ -4158,7 +4158,7 @@
                          "format":  "pkg",
                          "update":  "-",
                          "fw":  "5.05+",
-                         "languages":  "EspaÃÂÃÂ±ol Castellano",
+                         "languages":  "Espanol Castellano",
                          "thanks":  "Farenheit",
                          "links":  [
                                        {
@@ -4190,7 +4190,7 @@
                             "https://apollo2.dl.playstation.net/cdn/UP2292/CUSA12801_00/FREE_CONTENTTtXk783pHPAtMO9NVNIE/PREVIEW_SCREENSHOT3_168369.jpg?w=1440\u0026h=810\u0026format=jpg"
                         ],
         "description":  {
-                            "es":  "Boxeo inmersivo en realidad virtual. Vive la historia de Adonis Creed con combates fÃÂÃÂ­sicos que simulan el esfuerzo del ring.",
+                            "es":  "Boxeo inmersivo en realidad virtual. Vive la historia de Adonis Creed con combates fÃÂÃÂÃÂÃÂ­sicos que simulan el esfuerzo del ring.",
                             "en":  "Immersive VR boxing. Live Adonis Creed\u0027s story with physical fights that simulate ring effort."
                         },
         "download":  {
@@ -4231,7 +4231,7 @@
                             "https://images.launchbox-app.com/bce671b8-f181-4e7d-9ad5-9206d392c1e4.png"
                         ],
         "description":  {
-                            "es":  "Evoluciona tu criatura para sobrevivir en un mundo alienÃÂÃÂ­gena amenazado por un cilindro implacable que lo destruye todo.",
+                            "es":  "Evoluciona tu criatura para sobrevivir en un mundo alienÃÂÃÂÃÂÃÂ­gena amenazado por un cilindro implacable que lo destruye todo.",
                             "en":  "Evolve your creature to survive in an alien world threatened by a relentless cylinder that destroys everything."
                         },
         "download":  {
@@ -4272,7 +4272,7 @@
                             "https://images.igdb.com/igdb/image/upload/t_1080p/sc6wdt.jpg"
                         ],
         "description":  {
-                            "es":  "Combate asimÃÂÃÂ©trico 4v1 donde un equipo de soldados se enfrenta al depredador. Caza o sÃÂÃÂ© cazado en la selva.",
+                            "es":  "Combate asimÃÂÃÂÃÂÃÂ©trico 4v1 donde un equipo de soldados se enfrenta al depredador. Caza o sÃÂÃÂÃÂÃÂ© cazado en la selva.",
                             "en":  "Asymmetric 4v1 combat where a team of soldiers faces the predator. Hunt or be hunted in the jungle."
                         },
         "download":  {
@@ -4354,7 +4354,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshots/25642-5.jpg"
                         ],
         "description":  {
-                            "es":  "Crea tu personaje y viaja por el tiempo para reescribir la historia de Dragon Ball. Combate en 3D con personajes clÃÂÃÂ¡sicos de la saga.",
+                            "es":  "Crea tu personaje y viaja por el tiempo para reescribir la historia de Dragon Ball. Combate en 3D con personajes clÃÂÃÂÃÂÃÂ¡sicos de la saga.",
                             "en":  "Create your character and travel through time to rewrite Dragon Ball history. 3D combat with classic saga characters."
                         },
         "download":  {
@@ -4395,7 +4395,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/53368-1.jpg"
                         ],
         "description":  {
-                            "es":  "Combate 3v3 con personajes de toda la saga Final Fantasy. EdiciÃÂÃÂ³n Deluxe con contenido adicional y todos los DLC incluidos.",
+                            "es":  "Combate 3v3 con personajes de toda la saga Final Fantasy. EdiciÃÂÃÂÃÂÃÂ³n Deluxe con contenido adicional y todos los DLC incluidos.",
                             "en":  "3v3 combat with characters from the entire Final Fantasy saga. Deluxe Edition with additional content and all DLC included."
                         },
         "download":  {
@@ -4436,7 +4436,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/50681-4.jpg"
                         ],
         "description":  {
-                            "es":  "Explora el antiguo Egipto en los orÃÂÃÂ­genes de la Hermandad de Asesinos. Un mundo abierto vasto lleno de secretos y peligros.",
+                            "es":  "Explora el antiguo Egipto en los orÃÂÃÂÃÂÃÂ­genes de la Hermandad de Asesinos. Un mundo abierto vasto lleno de secretos y peligros.",
                             "en":  "Explore ancient Egypt in the origins of the Assassin Brotherhood. A vast open world full of secrets and dangers."
                         },
         "download":  {
@@ -4477,7 +4477,7 @@
                             "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000085683/8c47ecaa7019173f2e0c5dfdabbf8cc9f596aa6caed96b77003d1879d4020d2f"
                         ],
         "description":  {
-                            "es":  "Una aventura encantadora donde Mika usa una escoba mÃÂÃÂ¡gica para volar sobre una isla misteriosa. Explora, descubre secretos y ayuda a los habitantes.",
+                            "es":  "Una aventura encantadora donde Mika usa una escoba mÃÂÃÂÃÂÃÂ¡gica para volar sobre una isla misteriosa. Explora, descubre secretos y ayuda a los habitantes.",
                             "en":  "A charming adventure where Mika uses a magic broom to fly over a mysterious island. Explore, discover secrets and help the inhabitants."
                         },
         "download":  {
@@ -4486,7 +4486,7 @@
                          "format":  "xci",
                          "update":  "1.2.3",
                          "fw":  "20.0.1+",
-                         "languages":  "EspaÃÂÃÂ±ol, InglÃÂÃÂ©s, FrancÃÂÃÂ©s, AlemÃÂÃÂ¡n, Italiano, JaponÃÂÃÂ©s, Chino, Coreano, Ruso, NeerlandÃÂÃÂ©s, PortuguÃÂÃÂ©s",
+                         "languages":  "Espanol, Ingles, Frances, Aleman, Italiano, Japones, Chino, Coreano, Ruso, Neerlandes, Portugues",
                          "thanks":  "",
                          "links":  [
                                        {
@@ -4518,7 +4518,7 @@
                             "https://cdn.thegamesdb.net/images/original/screenshot/82943-3.jpg"
                         ],
         "description":  {
-                            "es":  "El simulador de motociclismo definitivo con mÃÂÃÂ¡s de 200 bicicletas, 30 circuitos y modo carrera completo. Compite en ligas y demuestra tu habilidad.",
+                            "es":  "El simulador de motociclismo definitivo con mÃÂÃÂÃÂÃÂ¡s de 200 bicicletas, 30 circuitos y modo carrera completo. Compite en ligas y demuestra tu habilidad.",
                             "en":  "The ultimate motorcycle simulator with over 200 bikes, 30 circuits and full career mode. Compete in leagues and prove your skill."
                         },
         "download":  {
@@ -4559,7 +4559,7 @@
                             "https://platform.mmafighting.com/wp-content/uploads/sites/109/chorus/uploads/chorus_asset/file/20076011/UFC4_1P_STOREFRONT_USMAN_COLBY_RIPPLE_EFFECT_3840x2160_FINAL_wOverlay.jpg"
                         ],
         "description":  {
-                            "es":  "El juego de artes marciales mixtas definitivo. Crea tu luchador, sube de categorÃÂÃÂ­a y enfrenta a los mejores del mundo en el octÃÂÃÂ¡gono.",
+                            "es":  "El juego de artes marciales mixtas definitivo. Crea tu luchador, sube de categorÃÂÃÂÃÂÃÂ­a y enfrenta a los mejores del mundo en el octÃÂÃÂÃÂÃÂ¡gono.",
                             "en":  "The ultimate mixed martial arts game. Create your fighter, climb the ranks and face the best in the world in the octagon."
                         },
         "download":  {
