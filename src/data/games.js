@@ -5471,6 +5471,41 @@ export const games = [
       'thanks': '',
       'links': []
     }
+  },
+  {
+    'id': 'pretty-princess-magical-garden-island-switch',
+    'console': 'switch',
+    'title': 'Pretty Princess Magical Garden Island',
+    'genre': 'Simulacion - Granja',
+    'developer': 'Nippon Columbia',
+    'publisher': 'Aksys Games',
+    'year': 2023,
+    'rating': 66,
+    'players': '1',
+    'cooperativo': 'No',
+    'multijugador': 'No',
+    'color': '#f8bbd0',
+    'cover': 'https://art.gametdb.com/switch/box/US/A9WQA.png',
+    'trailer': 'g4Z9dUlI9yc',
+    'screenshots': [
+    'https://cdn.thegamesdb.net/images/original/screenshots/231789-1.jpg',
+    'https://cdn.thegamesdb.net/images/original/screenshots/231789-2.jpg',
+    'https://cdn.thegamesdb.net/images/original/screenshots/231789-3.jpg'
+  ],
+    'description': {
+    'es': 'Un juego de simulacion de granja en un mundo de fantasia europeo. Cultiva cosechas, cria animales y explora la isla para recolectar recursos y crear productos. Usa el dinero ganado para decorar la isla y convertirla en tu hogar de ensueno principezco.',
+    'en': 'A farming simulation game set in a cute European fantasy world. Cultivate crops, raise livestock and explore the island to collect resources and create goods. Use the money you earn to decorate the island and make it your perfectly royal fantasy home.'
+  },
+    'download': {
+      'region': 'US',
+      'size': '1.3 GB',
+      'format': 'NSP',
+      'update': '',
+      'fw': '',
+      'languages': 'Ingles, Japones',
+      'thanks': '',
+      'links': []
+    }
   }
 ];
 
