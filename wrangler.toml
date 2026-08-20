@@ -4,5 +4,5 @@ pages_build_output_dir = "dist"
 compatibility_date = "2026-08-15"
 
 [[env.production.kv_namespaces]]
-id = "a4d390f119ec4ab58bac89272fb5e1ec"
+id = "c8ab541aac974885a9094c8b5a352e8e"
 binding = "GAMES_KV"
