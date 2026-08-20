@@ -4,9 +4,7 @@ import { getSessionEmail } from './admin/_lib'
 async function readGames(env) {
   const raw = await env.GAMES_KV.get('games')
   if (raw) return JSON.parse(raw)
-  const seed = JSON.parse(JSON.stringify(seedGames))
-  await env.GAMES_KV.put('games', JSON.stringify(seed))
-  return seed
+  return JSON.parse(JSON.stringify(seedGames))
 }
 
 async function authorized(request, env) {
