@@ -4689,6 +4689,46 @@ export const games = [
     },
     'download': { 'languages': 'Ingles, Frances, Aleman, Italiano, Espanol, Portugues, Japones, Coreano, Chino Simplificado' },
   },
+  {
+    'id': 're5-switch',
+    'console': 'switch',
+    'title': 'Resident Evil 5',
+    'genre': 'Disparos en Tercera Persona - Accion',
+    'developer': 'Capcom',
+    'publisher': 'Capcom',
+    'year': 2019,
+    'rating': 84,
+    'players': '4',
+    'cooperativo': 'Local y online',
+    'multijugador': 'Local y online',
+    'color': '#5c3a2f',
+    'cover': 'https://art.gametdb.com/switch/box/US/ASLPA.png',
+    'trailer': 'gfYo6UlWI_c',
+    'screenshots': [
+      'https://img.youtube.com/vi/gfYo6UlWI_c/mqdefault.jpg',
+      'https://img.youtube.com/vi/sxFSeUGgAfQ/mqdefault.jpg',
+    ],
+    'description': {
+      'es': 'Chris Redfield y Sheva Alomar investigan una amenaza bioterrorista en Kijuju, Africa. Incluye todo el DLC y modos adicionales.',
+      'en': 'Chris Redfield and Sheva Alomar investigate a bioterrorist threat in Kijuju, Africa. Includes all DLC and additional modes.',
+    },
+    'download': {
+      'region': '010018100CD46000 - USA',
+      'size': '18.7GB',
+      'format': 'XCI',
+      'update': 'v1.0.3',
+      'fw': 'v15.0.1',
+      'languages': 'Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado',
+      'thanks': '',
+      'links': [
+        {
+          'label': 'Mediafire',
+          'url': 'https://ouo.io/002Pamd',
+          'color': 'blue',
+        },
+      ],
+    },
+  },
 ];
 
 export const getGame = (id) => games.find((g) => g.id === id)
