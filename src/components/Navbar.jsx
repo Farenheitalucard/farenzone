@@ -10,6 +10,8 @@ import { searchGames } from '../data/store'
 import { PAYPAL_URL } from '../data/config'
 import { ConsoleIcon } from './ConsoleIcon'
 
+const MAIN_CONSOLE_IDS = ['switch', 'ps4', 'ps3', 'xbox360']
+
 export function Navbar() {
   const { lang, setLang, t } = useLanguage()
   const { isAdmin } = useAdmin()
@@ -19,12 +21,20 @@ export function Navbar() {
   const navigate = useNavigate()
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   const boxRef = useRef(null)
+  const menuRef = useRef(null)
+
+  const mainConsoles = consoles.filter((c) => MAIN_CONSOLE_IDS.includes(c.id))
+  const menuConsoles = consoles
 
   useEffect(() => {
     function onDocClick(e) {
       if (boxRef.current && !boxRef.current.contains(e.target)) {
         setOpen(false)
+      }
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setMenuOpen(false)
       }
     }
     document.addEventListener('mousedown', onDocClick)
@@ -155,15 +165,42 @@ export function Navbar() {
         </div>
 
           <nav className="nav-links">
-            <NavLink to="/" end>
-              {t.nav.home}
-            </NavLink>
-            {consoles.map((c) => (
-              <NavLink key={c.id} to={`/consola/${c.id}`}>
-                <ConsoleIcon id={c.id} />
-                {t.nav[c.id] || c.name}
+            <div className="nav-links-scroll">
+              <NavLink to="/" end>
+                {t.nav.home}
               </NavLink>
-            ))}
+              {mainConsoles.map((c) => (
+                <NavLink key={c.id} to={`/consola/${c.id}`}>
+                  <ConsoleIcon id={c.id} />
+                  {t.nav[c.id] || c.name}
+                </NavLink>
+              ))}
+            </div>
+            <div className="nav-menu-wrap" ref={menuRef}>
+              <button
+                type="button"
+                className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`}
+                onClick={() => setMenuOpen((v) => !v)}
+                aria-label="Más consolas"
+              >
+                ☰
+              </button>
+              {menuOpen && (
+                <div className="nav-menu-dropdown">
+                  {menuConsoles.map((c) => (
+                    <NavLink
+                      key={c.id}
+                      to={`/consola/${c.id}`}
+                      className="nav-menu-item"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      <ConsoleIcon id={c.id} size={18} />
+                      {t.nav[c.id] || c.name}
+                    </NavLink>
+                  ))}
+                </div>
+              )}
+            </div>
           </nav>
 
         {isAdmin ? (
