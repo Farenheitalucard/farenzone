@@ -120,6 +120,7 @@
 .nav-menu-wrap {
   position: relative;
   flex-shrink: 0;
+  overflow: visible;
 }
 
 .nav-menu-btn {
@@ -1311,8 +1312,8 @@
     gap: 2px;
   }
 
-  .nav-links > :not(.nav-links-scroll) {
-    order: 3;
+  .nav-menu-wrap {
+    order: 2;
   }
 
   .nav-links a {

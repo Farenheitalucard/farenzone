@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { createPortal } from 'react-dom'
 import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
 import { useTheme } from '../theme-context'
@@ -37,7 +36,7 @@ export function Navbar() {
   useEffect(() => {
     function onDocClick(e) {
       if (boxRef.current && !boxRef.current.contains(e.target)) setOpen(false)
-      if (menuRef.current && !menuRef.current.contains(e.target) && !e.target.closest('.nav-menu-dropdown')) setMenuOpen(false)
+      if (menuRef.current && !menuRef.current.contains(e.target)) setMenuOpen(false)
     }
     document.addEventListener('mousedown', onDocClick)
     return () => document.removeEventListener('mousedown', onDocClick)
@@ -130,7 +129,7 @@ export function Navbar() {
             <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
               ☰
             </button>
-            {menuOpen && createPortal(
+            {menuOpen && (
               <div className="nav-menu-dropdown">
                 {consoles.map((c) => (
                   <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
@@ -138,8 +137,7 @@ export function Navbar() {
                     {t.nav[c.id] || c.name}
                   </NavLink>
                 ))}
-              </div>,
-              document.body
+              </div>
             )}
           </div>
         )
@@ -197,8 +195,9 @@ export function Navbar() {
 
         <nav className="nav-links">
           <div className="nav-links-scroll">
-            {elements.filter((e) => e.type !== 'social' && e.visible !== false && (e.type === 'nav' || e.type === 'consoles' || e.type === 'menu')).map(renderElement)}
+            {elements.filter((e) => e.type !== 'social' && e.visible !== false && (e.type === 'nav' || e.type === 'consoles')).map(renderElement)}
           </div>
+          {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type === 'menu').map(renderElement)}
           {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type !== 'nav' && e.type !== 'consoles' && e.type !== 'menu').map(renderElement)}
         </nav>
       </div>
