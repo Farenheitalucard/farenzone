@@ -12,25 +12,11 @@ import { ConsoleIcon } from './ConsoleIcon'
 import { getBuiltinIcon } from '../data/headerIcons'
 import { PAYPAL_URL } from '../data/config'
 
-function SocialIcon({ el, size }) {
+function SocialIcon({ el }) {
   if (el.icon && el.icon.startsWith('/')) {
-    return <img src={el.icon} alt="" style={{ width: size, height: size, objectFit: 'contain' }} />
+    return <img src={el.icon} alt="" style={{ width: 18, height: 18, objectFit: 'contain' }} />
   }
   return getBuiltinIcon(el.icon) || null
-}
-
-function useDevice(headerConfig) {
-  const [width, setWidth] = useState(() => window.innerWidth)
-  useEffect(() => {
-    let raf
-    function onResize() { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => setWidth(window.innerWidth)) }
-    window.addEventListener('resize', onResize)
-    return () => { window.removeEventListener('resize', onResize); cancelAnimationFrame(raf) }
-  }, [])
-  const devices = headerConfig.devices || {}
-  if (width <= 640) return devices.mobile || devices.pc || {}
-  if (width <= 1024) return devices.tablet || devices.pc || {}
-  return devices.pc || {}
 }
 
 export function Navbar() {
@@ -46,8 +32,6 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const boxRef = useRef(null)
   const menuRef = useRef(null)
-
-  const device = useDevice(headerConfig)
 
   useEffect(() => {
     function onDocClick(e) {
@@ -74,26 +58,6 @@ export function Navbar() {
 
   const donateUrl = elements.find((e) => e.id === 'donate')?.url || PAYPAL_URL || ''
 
-  const h = device.height || undefined
-  const mw = device.maxWidth || undefined
-  const px = device.paddingX || undefined
-  const gp = device.gap || undefined
-  const iSz = device.iconSize || undefined
-  const tSz = device.textSize || undefined
-
-  const navbarStyle = {}
-  if (h) navbarStyle.height = h
-  if (mw) navbarStyle.maxWidth = mw
-
-  const innerStyle = {}
-  if (px) innerStyle.paddingLeft = px
-  if (px) innerStyle.paddingRight = px
-  if (gp) innerStyle.gap = gp
-
-  const linkStyle = {}
-  if (tSz) linkStyle.fontSize = tSz
-  if (gp) linkStyle.gap = Math.max(2, Math.round(gp * 0.5))
-
   function renderElement(el) {
     if (el.visible === false) return null
 
@@ -102,8 +66,8 @@ export function Navbar() {
         const url = el.url || (el.id === 'donate' ? donateUrl : '')
         if (!url) return null
         return (
-          <a key={el.id} href={url} className="telegram-link" style={linkStyle} target="_blank" rel="noopener noreferrer" aria-label={el.name} title={el.name}>
-            <SocialIcon el={el} size={iSz || 18} />
+          <a key={el.id} href={url} className="telegram-link" target="_blank" rel="noopener noreferrer" aria-label={el.name} title={el.name}>
+            <SocialIcon el={el} />
           </a>
         )
       }
@@ -144,48 +108,47 @@ export function Navbar() {
         )
       case 'nav':
         return (
-          <NavLink key={el.id} to={el.url || '/'} end={el.url === '/'} style={linkStyle}>
+          <NavLink key={el.id} to={el.url || '/'} end={el.url === '/'}>
             {el.name || t.nav.home}
           </NavLink>
         )
       case 'consoles':
         return (
-          <div key="consoles-group" className="nav-links-scroll" style={gp ? { gap: gp } : undefined}>
+          <div key="consoles-group" className="nav-links-scroll">
             {mainConsoles.map((c) => (
-              <NavLink key={c.id} to={`/consola/${c.id}`} style={linkStyle}>
-                <ConsoleIcon id={c.id} size={iSz || 16} />
+              <NavLink key={c.id} to={`/consola/${c.id}`}>
+                <ConsoleIcon id={c.id} />
                 {t.nav[c.id] || c.name}
               </NavLink>
-            ))}
-            {elements.filter((e) => e.type === 'menu' && e.visible !== false).map((el) => (
-              <div key="menu" className="nav-menu-wrap" ref={menuRef}>
-                <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} style={iSz ? { fontSize: iSz + 4 } : undefined} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
-                  ☰
-                </button>
-                {menuOpen && (
-                  <div className="nav-menu-dropdown">
-                    {consoles.map((c) => (
-                      <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
-                        <ConsoleIcon id={c.id} size={iSz || 18} />
-                        {t.nav[c.id] || c.name}
-                      </NavLink>
-                    ))}
-                  </div>
-                )}
-              </div>
             ))}
           </div>
         )
       case 'menu':
-        return null
+        return (
+          <div key="menu" className="nav-menu-wrap" ref={menuRef}>
+            <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
+              ☰
+            </button>
+            {menuOpen && (
+              <div className="nav-menu-dropdown">
+                {consoles.map((c) => (
+                  <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
+                    <ConsoleIcon id={c.id} size={18} />
+                    {t.nav[c.id] || c.name}
+                  </NavLink>
+                ))}
+              </div>
+            )}
+          </div>
+        )
       case 'admin':
         return isAdmin ? (
-          <Link key={el.id} to="/admin" className="panel-link" style={linkStyle}>
-            <SocialIcon el={{ ...el, icon: 'adminPanel' }} size={iSz || 18} />
+          <Link key={el.id} to="/admin" className="panel-link">
+            <SocialIcon el={{ ...el, icon: 'adminPanel' }} />
             {el.name || t.nav.panel}
           </Link>
         ) : (
-          <Link key={el.id} to="/admin" className="admin-link" style={iSz ? { width: iSz + 12, height: iSz + 12 } : undefined} aria-label={t.admin.title}>
+          <Link key={el.id} to="/admin" className="admin-link" aria-label={t.admin.title}>
             {getBuiltinIcon('admin')}
           </Link>
         )
@@ -195,7 +158,6 @@ export function Navbar() {
             key={el.id}
             type="button"
             className="theme-toggle"
-            style={iSz ? { width: iSz + 12, height: iSz + 12 } : undefined}
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             aria-label="Cambiar tema"
             title="Cambiar tema"
@@ -205,15 +167,15 @@ export function Navbar() {
         )
       case 'language':
         return (
-          <button key={el.id} type="button" className="lang-toggle" style={tSz ? { fontSize: tSz } : undefined} onClick={() => setLang(lang === 'es' ? 'en' : 'es')} aria-label="Cambiar idioma">
+          <button key={el.id} type="button" className="lang-toggle" onClick={() => setLang(lang === 'es' ? 'en' : 'es')} aria-label="Cambiar idioma">
             {lang === 'es' ? 'EN' : 'ES'}
           </button>
         )
       default:
         if (el.url) {
           return (
-            <a key={el.id} href={el.url} className="telegram-link" style={linkStyle} target="_blank" rel="noopener noreferrer" aria-label={el.name} title={el.name}>
-              {el.icon ? <SocialIcon el={el} size={iSz || 18} /> : <span>{el.name}</span>}
+            <a key={el.id} href={el.url} className="telegram-link" target="_blank" rel="noopener noreferrer" aria-label={el.name} title={el.name}>
+              {el.icon ? <SocialIcon el={el} /> : <span>{el.name}</span>}
             </a>
           )
         }
@@ -222,8 +184,8 @@ export function Navbar() {
   }
 
   return (
-    <header className="navbar" style={navbarStyle}>
-      <div className="navbar-inner" style={innerStyle}>
+    <header className="navbar">
+      <div className="navbar-inner">
         <div className="navbar-brand">
           <Link to={brand.url || '/'} className="brand">
             {brand.name}<span>{brand.nameAccent}</span>
