@@ -1,4 +1,4 @@
-import { getAdmins, verifyPassword, createSession, json } from './_lib'
+import { getAdmins, verifyPassword, createSession, sanitizeAdminForClient, ensureMainAdminRole, json } from './_lib'
 
 export async function onRequestPost(context) {
   let body
@@ -17,6 +17,14 @@ export async function onRequestPost(context) {
     return json({ error: 'invalid credentials' }, 401)
   }
 
+  if (admin.active === false) {
+    return json({ error: 'account deactivated' }, 403)
+  }
+
+  await ensureMainAdminRole(context.env, admin.email)
+
+  const freshAdmin = (await getAdmins(context.env)).find((a) => a.email === email) || admin
+
   const token = await createSession(context.env, admin.email)
-  return json({ ok: true, token })
+  return json({ ok: true, token, user: sanitizeAdminForClient(freshAdmin) })
 }

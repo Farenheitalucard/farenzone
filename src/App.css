@@ -2268,6 +2268,168 @@
   margin: 0 0 8px;
 }
 
+/* ---- Admin user badge + avatar ---- */
+
+.admin-user-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  transition: border-color 0.15s;
+}
+
+.admin-user-badge:hover {
+  border-color: var(--accent);
+}
+
+.admin-avatar-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.admin-avatar-empty {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), #9a6bff);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.admin-user-name {
+  font-size: 13px;
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+/* ---- Profile section ---- */
+
+.admin-profile-section {
+  max-width: 520px;
+}
+
+.admin-avatar-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-avatar-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--border);
+}
+
+.admin-avatar-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.admin-avatar-empty-large {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.admin-avatar-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* ---- Users list avatar ---- */
+
+.admin-user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.admin-user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.admin-avatar-empty-small {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--accent), #9a6bff);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ---- Role badges ---- */
+
+.admin-role-badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.admin-role-superadmin {
+  background: rgba(124, 92, 255, 0.15);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.admin-role-admin {
+  background: rgba(255, 152, 0, 0.15);
+  color: #ff9800;
+  border: 1px solid rgba(255, 152, 0, 0.4);
+}
+
+.admin-role-editor {
+  background: rgba(46, 125, 50, 0.15);
+  color: #7bd88a;
+  border: 1px solid #2e7d32;
+}
+
+.admin-inactive-badge {
+  color: #ff8a80;
+  font-weight: 700;
+}
+
+/* ---- Permissions grid ---- */
+
+.admin-perms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+/* ---- Disabled tabs ---- */
+
+.admin-tab:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 /* ---- Responsive navbar ---- */
 
 @media (max-width: 1024px) {

@@ -9,6 +9,7 @@ import { useAdmin } from '../admin-context'
 import { HeaderEditor } from './HeaderEditor'
 
 const linkColors = ['blue', 'green', 'brown']
+const ALL_PERMISSIONS = ['games', 'consoles', 'header', 'settings', 'users']
 
 function blankLinks() {
   return [
@@ -63,9 +64,21 @@ function blankConsole() {
   }
 }
 
+function blankUser() {
+  return { email: '', name: '', password: '', role: 'editor', permissions: [], active: true }
+}
+
+const permLabels = {
+  games: 'Juegos',
+  consoles: 'Consolas',
+  header: 'Encabezado',
+  settings: 'Configuración',
+  users: 'Usuarios',
+}
+
 export function AdminPage() {
   const { t } = useLanguage()
-  const { token, isAdmin, checking, login, logout } = useAdmin()
+  const { token, user, isAdmin, checking, login, logout, updateUser, hasPerm, isSuperadmin } = useAdmin()
   const [searchParams, setSearchParams] = useSearchParams()
   const games = useGames()
   const allConsoles = useConsoles()
@@ -84,6 +97,18 @@ export function AdminPage() {
   const [consoleDraft, setConsoleDraft] = useState(null)
   const [savingConsole, setSavingConsole] = useState(false)
 
+  const [showProfile, setShowProfile] = useState(false)
+  const [profileName, setProfileName] = useState('')
+  const [profileCurrentPass, setProfileCurrentPass] = useState('')
+  const [profileNewPass, setProfileNewPass] = useState('')
+  const [profileAvatar, setProfileAvatar] = useState('')
+  const [savingProfile, setSavingProfile] = useState(false)
+
+  const [users, setUsers] = useState([])
+  const [loadingUsers, setLoadingUsers] = useState(false)
+  const [userDraft, setUserDraft] = useState(null)
+  const [savingUser, setSavingUser] = useState(false)
+
   const editParam = searchParams.get('edit')
 
   useEffect(() => {
@@ -95,6 +120,13 @@ export function AdminPage() {
       }
     }
   })
+
+  useEffect(() => {
+    if (user) {
+      setProfileName(user.name || '')
+      setProfileAvatar(user.avatar || '')
+    }
+  }, [user])
 
   async function submitLogin(e) {
     e.preventDefault()
@@ -108,7 +140,7 @@ export function AdminPage() {
       })
       if (res.ok) {
         const data = await res.json()
-        login(data.token)
+        login(data.token, data.user)
       } else {
         setLoginError(true)
       }
@@ -125,9 +157,7 @@ export function AdminPage() {
         method: 'POST',
         headers: { 'x-admin-token': token },
       })
-    } catch {
-      /* ignore */
-    }
+    } catch { /* ignore */ }
     logout()
   }
 
@@ -137,18 +167,10 @@ export function AdminPage() {
     try {
       const res = await fetch('/api/games', {
         method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-admin-token': token,
-        },
+        headers: { 'Content-Type': 'application/json', 'x-admin-token': token },
         body: JSON.stringify({ games: next }),
       })
-      if (!res.ok) {
-        let detail = ''
-        try { detail = await res.text() } catch {}
-        console.error('PUT /api/games failed:', res.status, detail)
-        throw new Error(`put failed: ${res.status}`)
-      }
+      if (!res.ok) throw new Error(`put failed: ${res.status}`)
       const data = await res.json()
       setGames(data.games)
       setMsg(t.admin.saved)
@@ -166,10 +188,7 @@ export function AdminPage() {
     try {
       const res = await fetch('/api/admin/consoles', {
         method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-admin-token': token,
-        },
+        headers: { 'Content-Type': 'application/json', 'x-admin-token': token },
         body: JSON.stringify({ consoles: next }),
       })
       if (!res.ok) throw new Error(`put failed: ${res.status}`)
@@ -207,35 +226,17 @@ export function AdminPage() {
   }
 
   function slugify(str) {
-    return (str || '')
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '')
-      .slice(0, 80)
+    return (str || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80)
   }
 
   function buildFromDraft() {
     const d = draft
-    const screenshots = (d.screenshots || [])
-      .map((s) => (typeof s === 'string' ? s.trim() : ''))
-      .filter(Boolean)
-    const links = (d.download?.links || [])
-      .filter((l) => l.label?.trim() && l.url?.trim())
-      .map((l) => ({ label: l.label.trim(), url: l.url.trim(), color: l.color || 'blue' }))
+    const screenshots = (d.screenshots || []).map((s) => (typeof s === 'string' ? s.trim() : '')).filter(Boolean)
+    const links = (d.download?.links || []).filter((l) => l.label?.trim() && l.url?.trim()).map((l) => ({ label: l.label.trim(), url: l.url.trim(), color: l.color || 'blue' }))
     const dl = d.download || {}
-    const hasDownload =
-      links.length > 0 ||
-      dl.region ||
-      dl.size ||
-      dl.format ||
-      dl.update ||
-      dl.fw ||
-      dl.languages ||
-      dl.thanks
+    const hasDownload = links.length > 0 || dl.region || dl.size || dl.format || dl.update || dl.fw || dl.languages || dl.thanks
     const desc = d.description || {}
-    const game = {
+    return {
       id: ensureUniqueId(slugify(d.id || '') || slugify(d.title || ''), d._origId),
       console: d.console || allConsoles.find((c) => c.active !== false)?.id || 'switch',
       title: (d.title || '').trim(),
@@ -253,19 +254,9 @@ export function AdminPage() {
       screenshots,
       description: { es: (desc.es || '').trim(), en: (desc.en || '').trim() },
       download: hasDownload
-        ? {
-            region: (dl.region || '').trim(),
-            size: (dl.size || '').trim(),
-            format: (dl.format || '').trim(),
-            update: (dl.update || '').trim(),
-            fw: (dl.fw || '').trim(),
-            languages: (dl.languages || '').trim(),
-            thanks: (dl.thanks || '').trim(),
-            links,
-          }
+        ? { region: (dl.region || '').trim(), size: (dl.size || '').trim(), format: (dl.format || '').trim(), update: (dl.update || '').trim(), fw: (dl.fw || '').trim(), languages: (dl.languages || '').trim(), thanks: (dl.thanks || '').trim(), links }
         : null,
     }
-    return game
   }
 
   function onSave(e) {
@@ -273,9 +264,7 @@ export function AdminPage() {
     try {
       if (!draft || !draft.title?.trim()) return
       const game = buildFromDraft()
-      const next = draft._origId
-        ? games.map((g) => (g.id === draft._origId ? game : g))
-        : [...games, game]
+      const next = draft._origId ? games.map((g) => (g.id === draft._origId ? game : g)) : [...games, game]
       saveAll(next).then(() => {
         setDraft(null)
         if (editParam) setSearchParams({}, { replace: true })
@@ -288,31 +277,17 @@ export function AdminPage() {
 
   function onDelete(game) {
     if (!window.confirm(t.admin.confirmDelete)) return
-    const next = games.filter((g) => g.id !== game.id)
-    saveAll(next)
+    saveAll(games.filter((g) => g.id !== game.id))
   }
 
   function startEdit(g) {
     setMsg('')
-    setDraft({
-      ...g,
-      id: g.id,
-      screenshots: [...(g.screenshots || [])],
-      description: { es: g.description?.es || '', en: g.description?.en || '' },
-      download: g.download
-        ? {
-            ...g.download,
-            links: (g.download.links || []).map((l) => ({ ...l })),
-          }
-        : blankGame().download,
-      _origId: g.id,
-    })
+    setDraft({ ...g, id: g.id, screenshots: [...(g.screenshots || [])], description: { es: g.description?.es || '', en: g.description?.en || '' }, download: g.download ? { ...g.download, links: (g.download.links || []).map((l) => ({ ...l })) } : blankGame().download, _origId: g.id })
   }
 
   function startNew() {
     setMsg('')
-    const firstActive = allConsoles.find((c) => c.active !== false)
-    setDraft(blankGame(firstActive?.id))
+    setDraft(blankGame(allConsoles.find((c) => c.active !== false)?.id))
   }
 
   function setField(path, value) {
@@ -320,35 +295,22 @@ export function AdminPage() {
       const next = JSON.parse(JSON.stringify(d))
       const parts = path.split('.')
       let obj = next
-      for (let i = 0; i < parts.length - 1; i += 1) {
-        obj = obj[parts[i]]
-      }
+      for (let i = 0; i < parts.length - 1; i += 1) obj = obj[parts[i]]
       obj[parts[parts.length - 1]] = value
       return next
     })
   }
 
-  function startNewConsole() {
-    setMsg('')
-    setConsoleDraft(blankConsole())
-  }
+  function startNewConsole() { setMsg(''); setConsoleDraft(blankConsole()) }
 
-  function startEditConsole(c) {
-    setMsg('')
-    setConsoleDraft({
-      ...c,
-      _origId: c.id,
-    })
-  }
+  function startEditConsole(c) { setMsg(''); setConsoleDraft({ ...c, _origId: c.id }) }
 
   function setConsoleField(path, value) {
     setConsoleDraft((d) => {
       const next = JSON.parse(JSON.stringify(d))
       const parts = path.split('.')
       let obj = next
-      for (let i = 0; i < parts.length - 1; i += 1) {
-        obj = obj[parts[i]]
-      }
+      for (let i = 0; i < parts.length - 1; i += 1) obj = obj[parts[i]]
       obj[parts[parts.length - 1]] = value
       return next
     })
@@ -357,24 +319,9 @@ export function AdminPage() {
   function onSaveConsole(e) {
     e.preventDefault()
     if (!consoleDraft || !consoleDraft.name?.trim()) return
-    const clean = {
-      ...consoleDraft,
-      id: ensureUniqueConsoleId(
-        slugify(consoleDraft.id || '') || slugify(consoleDraft.name || ''),
-        consoleDraft._origId,
-      ),
-      name: consoleDraft.name.trim(),
-      fullName: (consoleDraft.fullName || '').trim() || consoleDraft.name.trim(),
-      color: (consoleDraft.color || '#888').trim(),
-      gradient: (consoleDraft.gradient || '').trim(),
-      image: (consoleDraft.image || '').trim(),
-      icon: (consoleDraft.icon || '').trim(),
-      active: consoleDraft.active,
-    }
+    const clean = { ...consoleDraft, id: ensureUniqueConsoleId(slugify(consoleDraft.id || '') || slugify(consoleDraft.name || ''), consoleDraft._origId), name: consoleDraft.name.trim(), fullName: (consoleDraft.fullName || '').trim() || consoleDraft.name.trim(), color: (consoleDraft.color || '#888').trim(), gradient: (consoleDraft.gradient || '').trim(), image: (consoleDraft.image || '').trim(), icon: (consoleDraft.icon || '').trim(), active: consoleDraft.active }
     delete clean._origId
-    const next = consoleDraft._origId
-      ? allConsoles.map((c) => (c.id === consoleDraft._origId ? clean : c))
-      : [...allConsoles, clean]
+    const next = consoleDraft._origId ? allConsoles.map((c) => (c.id === consoleDraft._origId ? clean : c)) : [...allConsoles, clean]
     saveConsoles(next).then(() => setConsoleDraft(null))
   }
 
@@ -382,38 +329,141 @@ export function AdminPage() {
     const gameCount = games.filter((g) => g.console === c.id).length
     const label = c.fullName || c.name
     if (gameCount > 0) {
-      if (
-        !window.confirm(
-          `"${label}" tiene ${gameCount} juego${gameCount > 1 ? 's' : ''} asociado${gameCount > 1 ? 's' : ''}.\n\n¿Estás seguro de eliminar esta consola?\n\nLos juegos NO se eliminarán.`,
-        )
-      )
-        return
-      if (
-        !window.confirm(
-          `Segunda confirmación: ¿Eliminar "${label}" definitivamente?\n\nLos ${gameCount} juegos seguirán existiendo pero no tendrán consola asignada.`,
-        )
-      )
-        return
+      if (!window.confirm(`"${label}" tiene ${gameCount} juego${gameCount > 1 ? 's' : ''} asociado${gameCount > 1 ? 's' : ''}.\n\n¿Estás seguro de eliminar esta consola?\n\nLos juegos NO se eliminarán.`)) return
+      if (!window.confirm(`Segunda confirmación: ¿Eliminar "${label}" definitivamente?\n\nLos ${gameCount} juegos seguirán existiendo pero no tendrán consola asignada.`)) return
     } else {
       if (!window.confirm(`¿Eliminar la consola "${label}"?`)) return
     }
-    const next = allConsoles.filter((x) => x.id !== c.id)
-    saveConsoles(next)
+    saveConsoles(allConsoles.filter((x) => x.id !== c.id))
   }
 
   function onToggleConsole(c) {
-    const next = allConsoles.map((x) =>
-      x.id === c.id ? { ...x, active: !x.active } : x,
-    )
-    saveConsoles(next)
+    saveConsoles(allConsoles.map((x) => x.id === c.id ? { ...x, active: !x.active } : x))
+  }
+
+  async function saveProfile(e) {
+    e.preventDefault()
+    setSavingProfile(true)
+    setMsg('')
+    try {
+      const body = { name: profileName }
+      if (profileCurrentPass && profileNewPass) {
+        body.currentPassword = profileCurrentPass
+        body.newPassword = profileNewPass
+      }
+      if (profileAvatar !== (user?.avatar || '')) body.avatar = profileAvatar
+      const res = await fetch('/api/admin/profile', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', 'x-admin-token': token },
+        body: JSON.stringify(body),
+      })
+      if (res.ok) {
+        const data = await res.json()
+        updateUser(data.user)
+        setProfileCurrentPass('')
+        setProfileNewPass('')
+        setMsg(t.admin.saved)
+      } else {
+        const data = await res.json()
+        setMsg(data.error || t.admin.error)
+      }
+    } catch {
+      setMsg(t.admin.error)
+    } finally {
+      setSavingProfile(false)
+    }
+  }
+
+  function handleAvatarUpload(e) {
+    const file = e.target.files?.[0]
+    if (!file) return
+    if (file.size > 500 * 1024) { setMsg('La imagen no puede superar 500KB'); return }
+    const reader = new FileReader()
+    reader.onload = () => setProfileAvatar(reader.result)
+    reader.readAsDataURL(file)
+  }
+
+  async function loadUsers() {
+    setLoadingUsers(true)
+    try {
+      const res = await fetch('/api/admin/users', { headers: { 'x-admin-token': token } })
+      if (res.ok) {
+        const data = await res.json()
+        setUsers(data.users || [])
+      }
+    } catch { /* ignore */ }
+    setLoadingUsers(false)
+  }
+
+  useEffect(() => {
+    if (isAdmin && (isSuperadmin || hasPerm('users')) && adminTab === 'users') loadUsers()
+  }, [isAdmin, adminTab])
+
+  async function saveUser(e) {
+    e.preventDefault()
+    if (!userDraft) return
+    setSavingUser(true)
+    setMsg('')
+    try {
+      const action = userDraft._isNew ? 'create' : 'update'
+      const body = { action, email: userDraft.email, name: userDraft.name, role: userDraft.role, permissions: userDraft.permissions, active: userDraft.active }
+      if (userDraft._isNew && userDraft.password) body.password = userDraft.password
+      if (!userDraft._isNew && userDraft.password) body.password = userDraft.password
+      const res = await fetch('/api/admin/users', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', 'x-admin-token': token },
+        body: JSON.stringify(body),
+      })
+      if (res.ok) {
+        setMsg(t.admin.saved)
+        setUserDraft(null)
+        loadUsers()
+      } else {
+        const data = await res.json()
+        setMsg(data.error || t.admin.error)
+      }
+    } catch {
+      setMsg(t.admin.error)
+    } finally {
+      setSavingUser(false)
+    }
+  }
+
+  async function deleteUser(u) {
+    if (!window.confirm(`¿Eliminar al usuario "${u.name || u.email}"?`)) return
+    setMsg('')
+    try {
+      const res = await fetch('/api/admin/users', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', 'x-admin-token': token },
+        body: JSON.stringify({ action: 'delete', email: u.email }),
+      })
+      if (res.ok) {
+        setMsg('Usuario eliminado')
+        loadUsers()
+      } else {
+        const data = await res.json()
+        setMsg(data.error || t.admin.error)
+      }
+    } catch {
+      setMsg(t.admin.error)
+    }
+  }
+
+  async function toggleUserActive(u) {
+    setMsg('')
+    try {
+      const res = await fetch('/api/admin/users', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', 'x-admin-token': token },
+        body: JSON.stringify({ action: 'update', email: u.email, active: !u.active }),
+      })
+      if (res.ok) loadUsers()
+    } catch { /* ignore */ }
   }
 
   if (checking) {
-    return (
-      <main className="page">
-        <p className="not-found">…</p>
-      </main>
-    )
+    return <main className="page"><p className="not-found">…</p></main>
   }
 
   if (!isAdmin) {
@@ -430,7 +480,6 @@ export function AdminPage() {
             <h1 className="admin-title">{t.admin.title}</h1>
             <p className="admin-login-sub">{t.admin.loginSub}</p>
           </div>
-
           <form className="admin-login" onSubmit={submitLogin}>
             <div className="admin-field">
               <label htmlFor="admin-email">{t.admin.email}</label>
@@ -442,7 +491,6 @@ export function AdminPage() {
                 <input id="admin-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" autoFocus required />
               </div>
             </div>
-
             <div className="admin-field">
               <label htmlFor="admin-pass">{t.admin.password}</label>
               <div className="admin-input-wrap">
@@ -451,29 +499,14 @@ export function AdminPage() {
                 </svg>
                 <input id="admin-pass" type={showPass ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password" required />
                 <button type="button" className="admin-eye" onClick={() => setShowPass((v) => !v)} tabIndex={-1} aria-label={t.admin.showPass}>
-                  {showPass ? (
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                      <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94" />
-                      <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19" />
-                      <line x1="1" y1="1" x2="23" y2="23" />
-                    </svg>
-                  ) : (
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                      <circle cx="12" cy="12" r="3" />
-                    </svg>
-                  )}
+                  {showPass
+                    ? <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94" /><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19" /><line x1="1" y1="1" x2="23" y2="23" /></svg>
+                    : <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>}
                 </button>
               </div>
             </div>
-
-            {loginError && (
-              <div className="admin-error-banner" role="alert">{t.admin.wrong}</div>
-            )}
-
-            <button type="submit" className="admin-btn-primary admin-btn-block" disabled={logging}>
-              {logging ? t.admin.loading : t.admin.enter}
-            </button>
+            {loginError && <div className="admin-error-banner" role="alert">{t.admin.wrong}</div>}
+            <button type="submit" className="admin-btn-primary admin-btn-block" disabled={logging}>{logging ? t.admin.loading : t.admin.enter}</button>
           </form>
         </div>
       </main>
@@ -481,13 +514,7 @@ export function AdminPage() {
   }
 
   const q = query.trim().toLowerCase()
-  const filtered = sortByTitle(
-    q
-      ? games.filter((g) =>
-          `${g.title} ${g.genre} ${g.console} ${g.id}`.toLowerCase().includes(q),
-        )
-      : games,
-  )
+  const filtered = sortByTitle(q ? games.filter((g) => `${g.title} ${g.genre} ${g.console} ${g.id}`.toLowerCase().includes(q)) : games)
 
   return (
     <main className="page">
@@ -495,37 +522,75 @@ export function AdminPage() {
         <div className="admin-head">
           <h1 className="admin-title">{t.admin.title}</h1>
           <div className="admin-head-actions">
-            <button type="button" onClick={handleLogout}>
-              {t.admin.logout}
-            </button>
+            <div className="admin-user-badge" onClick={() => { setShowProfile(true); setAdminTab('profile') }}>
+              {user?.avatar ? <img src={user.avatar} alt="" className="admin-avatar-thumb" /> : <div className="admin-avatar-empty">{(user?.name || user?.email || '?')[0].toUpperCase()}</div>}
+              <span className="admin-user-name">{user?.name || user?.email}</span>
+            </div>
+            <button type="button" onClick={handleLogout}>{t.admin.logout}</button>
           </div>
         </div>
 
         {msg && <p className="admin-msg">{msg}</p>}
 
-        {!draft && !consoleDraft && (
+        {showProfile && !draft && !consoleDraft && !userDraft ? (
+          <div className="admin-profile-section">
+            <div className="admin-form-head">
+              <h2>Mi perfil</h2>
+              <button type="button" onClick={() => setShowProfile(false)}>← Volver</button>
+            </div>
+            <form className="admin-form" onSubmit={saveProfile}>
+              <fieldset className="admin-fs">
+                <legend>Información</legend>
+                <div className="admin-grid">
+                  <label>
+                    Correo
+                    <input value={user?.email || ''} disabled />
+                  </label>
+                  <label>
+                    Nombre
+                    <input value={profileName} onChange={(e) => setProfileName(e.target.value)} placeholder="Tu nombre" />
+                  </label>
+                  <div className="admin-span2">
+                    <label className="admin-avatar-upload">
+                      Foto de perfil
+                      <div className="admin-avatar-preview">
+                        {profileAvatar ? <img src={profileAvatar} alt="Avatar" /> : <div className="admin-avatar-empty-large">Sin foto</div>}
+                      </div>
+                      <input type="file" accept="image/*" onChange={handleAvatarUpload} style={{ display: 'none' }} />
+                      <div className="admin-avatar-actions">
+                        <button type="button" className="admin-btn-secondary" onClick={() => document.querySelector('.admin-avatar-upload input[type=file]')?.click()}>Subir imagen</button>
+                        {profileAvatar && <button type="button" className="admin-btn-danger" onClick={() => setProfileAvatar('')}>Eliminar</button>}
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset className="admin-fs">
+                <legend>Cambiar contraseña</legend>
+                <div className="admin-grid">
+                  <label className="admin-span2">
+                    Contraseña actual
+                    <input type="password" value={profileCurrentPass} onChange={(e) => setProfileCurrentPass(e.target.value)} placeholder="Dejar vacío para no cambiar" />
+                  </label>
+                  <label className="admin-span2">
+                    Nueva contraseña (mínimo 8 caracteres)
+                    <input type="password" value={profileNewPass} onChange={(e) => setProfileNewPass(e.target.value)} minLength={8} />
+                  </label>
+                </div>
+              </fieldset>
+              <div><button type="submit" className="admin-btn-primary" disabled={savingProfile}>{savingProfile ? '…' : t.admin.save}</button></div>
+            </form>
+          </div>
+        ) : null}
+
+        {!showProfile && !draft && !consoleDraft && !userDraft && (
           <div className="admin-tabs">
-            <button
-              type="button"
-              className={`admin-tab${adminTab === 'games' ? ' admin-tab-active' : ''}`}
-              onClick={() => setAdminTab('games')}
-            >
-              Juegos ({games.length})
-            </button>
-            <button
-              type="button"
-              className={`admin-tab${adminTab === 'consoles' ? ' admin-tab-active' : ''}`}
-              onClick={() => setAdminTab('consoles')}
-            >
-              Consolas ({allConsoles.length})
-            </button>
-            <button
-              type="button"
-              className={`admin-tab${adminTab === 'header' ? ' admin-tab-active' : ''}`}
-              onClick={() => setAdminTab('header')}
-            >
-              Encabezado
-            </button>
+            <button type="button" className={`admin-tab${adminTab === 'games' ? ' admin-tab-active' : ''}`} onClick={() => setAdminTab('games')} disabled={!hasPerm('games')}>Juegos ({games.length})</button>
+            <button type="button" className={`admin-tab${adminTab === 'consoles' ? ' admin-tab-active' : ''}`} onClick={() => setAdminTab('consoles')} disabled={!hasPerm('consoles')}>Consolas ({allConsoles.length})</button>
+            <button type="button" className={`admin-tab${adminTab === 'header' ? ' admin-tab-active' : ''}`} onClick={() => setAdminTab('header')} disabled={!hasPerm('header')}>Encabezado</button>
+            {(isSuperadmin || hasPerm('users')) && (
+              <button type="button" className={`admin-tab${adminTab === 'users' ? ' admin-tab-active' : ''}`} onClick={() => setAdminTab('users')}>Usuarios</button>
+            )}
           </div>
         )}
 
@@ -534,178 +599,64 @@ export function AdminPage() {
             <div className="admin-form-head">
               <h2>{draft._origId ? t.admin.edit : t.admin.newGame}</h2>
               <div>
-                <button type="button" onClick={() => setDraft(null)}>
-                  {t.admin.cancel}
-                </button>
-                <button type="submit" className="admin-btn-primary" disabled={saving}>
-                  {saving ? '…' : t.admin.save}
-                </button>
+                <button type="button" onClick={() => setDraft(null)}>{t.admin.cancel}</button>
+                <button type="submit" className="admin-btn-primary" disabled={saving}>{saving ? '…' : t.admin.save}</button>
               </div>
             </div>
-
             <fieldset className="admin-fs">
               <legend>{t.admin.basicInfo}</legend>
               <div className="admin-grid">
-                <label>
-                  {t.admin.console}
-                  <select value={draft.console} onChange={(e) => setField('console', e.target.value)}>
-                    {allConsoles.filter((c) => c.active !== false).map((c) => (
-                      <option key={c.id} value={c.id}>{c.name}</option>
-                    ))}
-                  </select>
-                </label>
-                <label>
-                  {t.admin.id}
-                  <input value={draft.id} onChange={(e) => setField('id', e.target.value)} placeholder={slugify(draft.title)} />
-                </label>
-                <label className="admin-span2">
-                  {t.admin.fieldTitle}
-                  <input value={draft.title} onChange={(e) => setField('title', e.target.value)} required />
-                </label>
-                <label>
-                  {t.admin.genre}
-                  <input value={draft.genre} onChange={(e) => setField('genre', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.developer}
-                  <input value={draft.developer} onChange={(e) => setField('developer', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.publisher}
-                  <input value={draft.publisher} onChange={(e) => setField('publisher', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.year}
-                  <input type="number" value={draft.year ?? ''} onChange={(e) => setField('year', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.rating}
-                  <input type="number" value={draft.rating ?? ''} onChange={(e) => setField('rating', e.target.value)} placeholder="0" />
-                </label>
-                <label>
-                  {t.admin.players}
-                  <input type="text" value={draft.players ?? ''} onChange={(e) => setField('players', e.target.value)} placeholder={t.admin.playersPlaceholder} />
-                </label>
-                <label>
-                  {t.game.cooperative}
-                  <select value={draft.cooperativo ?? ''} onChange={(e) => setField('cooperativo', e.target.value)}>
-                    <option value="">Sin especificar</option>
-                    <option value="No">No</option>
-                    <option value="Local">Local</option>
-                    <option value="Online">Online</option>
-                    <option value="Local y online">Local y online</option>
-                  </select>
-                </label>
-                <label>
-                  {t.admin.multiplayer}
-                  <select value={draft.multijugador ?? ''} onChange={(e) => setField('multijugador', e.target.value)}>
-                    <option value="">Sin especificar</option>
-                    <option value="No">No</option>
-                    <option value="Local">Local</option>
-                    <option value="Online">Online</option>
-                    <option value="Local y online">Local y online</option>
-                  </select>
-                </label>
-                <label>
-                  {t.admin.color}
-                  <input type="color" value={draft.color} onChange={(e) => setField('color', e.target.value)} />
-                </label>
+                <label>{t.admin.console}<select value={draft.console} onChange={(e) => setField('console', e.target.value)}>{allConsoles.filter((c) => c.active !== false).map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}</select></label>
+                <label>{t.admin.id}<input value={draft.id} onChange={(e) => setField('id', e.target.value)} placeholder={slugify(draft.title)} /></label>
+                <label className="admin-span2">{t.admin.fieldTitle}<input value={draft.title} onChange={(e) => setField('title', e.target.value)} required /></label>
+                <label>{t.admin.genre}<input value={draft.genre} onChange={(e) => setField('genre', e.target.value)} /></label>
+                <label>{t.admin.developer}<input value={draft.developer} onChange={(e) => setField('developer', e.target.value)} /></label>
+                <label>{t.admin.publisher}<input value={draft.publisher} onChange={(e) => setField('publisher', e.target.value)} /></label>
+                <label>{t.admin.year}<input type="number" value={draft.year ?? ''} onChange={(e) => setField('year', e.target.value)} /></label>
+                <label>{t.admin.rating}<input type="number" value={draft.rating ?? ''} onChange={(e) => setField('rating', e.target.value)} placeholder="0" /></label>
+                <label>{t.admin.players}<input type="text" value={draft.players ?? ''} onChange={(e) => setField('players', e.target.value)} placeholder={t.admin.playersPlaceholder} /></label>
+                <label>{t.game.cooperative}<select value={draft.cooperativo ?? ''} onChange={(e) => setField('cooperativo', e.target.value)}><option value="">Sin especificar</option><option value="No">No</option><option value="Local">Local</option><option value="Online">Online</option><option value="Local y online">Local y online</option></select></label>
+                <label>{t.admin.multiplayer}<select value={draft.multijugador ?? ''} onChange={(e) => setField('multijugador', e.target.value)}><option value="">Sin especificar</option><option value="No">No</option><option value="Local">Local</option><option value="Online">Online</option><option value="Local y online">Local y online</option></select></label>
+                <label>{t.admin.color}<input type="color" value={draft.color} onChange={(e) => setField('color', e.target.value)} /></label>
               </div>
             </fieldset>
-
             <fieldset className="admin-fs">
               <legend>{t.admin.media}</legend>
               <div className="admin-grid">
-                <label className="admin-span2">
-                  {t.admin.cover}
-                  <input value={draft.cover} onChange={(e) => setField('cover', e.target.value)} />
-                </label>
-                <label className="admin-span2">
-                  {t.admin.trailer}
-                  <input value={draft.trailer} onChange={(e) => setField('trailer', e.target.value)} />
-                </label>
-                <label className="admin-span2">
-                  {t.admin.screenshots}
-                  <textarea rows="4" value={draft.screenshots.join('\n')} onChange={(e) => setField('screenshots', e.target.value.split('\n'))} />
-                </label>
+                <label className="admin-span2">{t.admin.cover}<input value={draft.cover} onChange={(e) => setField('cover', e.target.value)} /></label>
+                <label className="admin-span2">{t.admin.trailer}<input value={draft.trailer} onChange={(e) => setField('trailer', e.target.value)} /></label>
+                <label className="admin-span2">{t.admin.screenshots}<textarea rows="4" value={draft.screenshots.join('\n')} onChange={(e) => setField('screenshots', e.target.value.split('\n'))} /></label>
               </div>
             </fieldset>
-
             <fieldset className="admin-fs">
               <legend>{t.admin.download}</legend>
               <div className="admin-grid">
-                <label>
-                  {t.admin.region}
-                  <textarea rows={3} value={draft.download.region} onChange={(e) => setField('download.region', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.size}
-                  <input value={draft.download.size} onChange={(e) => setField('download.size', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.format}
-                  <input value={draft.download.format} onChange={(e) => setField('download.format', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.update}
-                  <input value={draft.download.update} onChange={(e) => setField('download.update', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.fw}
-                  <input value={draft.download.fw} onChange={(e) => setField('download.fw', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.languages}
-                  <input value={draft.download.languages} onChange={(e) => setField('download.languages', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.thanks}
-                  <input value={draft.download.thanks} onChange={(e) => setField('download.thanks', e.target.value)} />
-                </label>
+                <label>{t.admin.region}<textarea rows={3} value={draft.download.region} onChange={(e) => setField('download.region', e.target.value)} /></label>
+                <label>{t.admin.size}<input value={draft.download.size} onChange={(e) => setField('download.size', e.target.value)} /></label>
+                <label>{t.admin.format}<input value={draft.download.format} onChange={(e) => setField('download.format', e.target.value)} /></label>
+                <label>{t.admin.update}<input value={draft.download.update} onChange={(e) => setField('download.update', e.target.value)} /></label>
+                <label>{t.admin.fw}<input value={draft.download.fw} onChange={(e) => setField('download.fw', e.target.value)} /></label>
+                <label>{t.admin.languages}<input value={draft.download.languages} onChange={(e) => setField('download.languages', e.target.value)} /></label>
+                <label>{t.admin.thanks}<input value={draft.download.thanks} onChange={(e) => setField('download.thanks', e.target.value)} /></label>
               </div>
-
               <h3 className="admin-subtitle">{t.admin.links}</h3>
               <div className="admin-links">
                 {draft.download.links.map((link, i) => (
                   <div key={i} className="admin-link-row">
-                    <label>
-                      {t.admin.linkLabel}
-                      <input value={link.label} onChange={(e) => setField(`download.links.${i}.label`, e.target.value)} />
-                    </label>
-                    <label>
-                      {t.admin.linkUrl}
-                      <input value={link.url} onChange={(e) => setField(`download.links.${i}.url`, e.target.value)} />
-                    </label>
-                    <label>
-                      {t.admin.linkColor}
-                      <select value={link.color} onChange={(e) => setField(`download.links.${i}.color`, e.target.value)}>
-                        {linkColors.map((c) => (
-                          <option key={c} value={c}>{c}</option>
-                        ))}
-                      </select>
-                    </label>
-                    <button type="button" className="admin-link-remove" aria-label={t.admin.removeLink} title={t.admin.removeLink} onClick={() => setField('download.links', draft.download.links.filter((_, idx) => idx !== i))}>
-                      ×
-                    </button>
+                    <label>{t.admin.linkLabel}<input value={link.label} onChange={(e) => setField(`download.links.${i}.label`, e.target.value)} /></label>
+                    <label>{t.admin.linkUrl}<input value={link.url} onChange={(e) => setField(`download.links.${i}.url`, e.target.value)} /></label>
+                    <label>{t.admin.linkColor}<select value={link.color} onChange={(e) => setField(`download.links.${i}.color`, e.target.value)}>{linkColors.map((c) => <option key={c} value={c}>{c}</option>)}</select></label>
+                    <button type="button" className="admin-link-remove" aria-label={t.admin.removeLink} title={t.admin.removeLink} onClick={() => setField('download.links', draft.download.links.filter((_, idx) => idx !== i))}>×</button>
                   </div>
                 ))}
               </div>
-              <button type="button" className="admin-btn-secondary" onClick={() => setField('download.links', [...draft.download.links, { label: '', url: '', color: 'blue' }])}>
-                + {t.admin.addLink}
-              </button>
+              <button type="button" className="admin-btn-secondary" onClick={() => setField('download.links', [...draft.download.links, { label: '', url: '', color: 'blue' }])}>+ {t.admin.addLink}</button>
             </fieldset>
-
             <fieldset className="admin-fs">
               <legend>{t.admin.description}</legend>
               <div className="admin-grid">
-                <label>
-                  {t.admin.descriptionEs}
-                  <textarea rows="4" value={draft.description?.es || ''} onChange={(e) => setField('description.es', e.target.value)} />
-                </label>
-                <label>
-                  {t.admin.descriptionEn}
-                  <textarea rows="4" value={draft.description?.en || ''} onChange={(e) => setField('description.en', e.target.value)} />
-                </label>
+                <label>{t.admin.descriptionEs}<textarea rows="4" value={draft.description?.es || ''} onChange={(e) => setField('description.es', e.target.value)} /></label>
+                <label>{t.admin.descriptionEn}<textarea rows="4" value={draft.description?.en || ''} onChange={(e) => setField('description.en', e.target.value)} /></label>
               </div>
             </fieldset>
           </form>
@@ -714,66 +665,65 @@ export function AdminPage() {
             <div className="admin-form-head">
               <h2>{consoleDraft._origId ? 'Editar consola' : 'Nueva consola'}</h2>
               <div>
-                <button type="button" onClick={() => setConsoleDraft(null)}>
-                  {t.admin.cancel}
-                </button>
-                <button type="submit" className="admin-btn-primary" disabled={savingConsole}>
-                  {savingConsole ? '…' : t.admin.save}
-                </button>
+                <button type="button" onClick={() => setConsoleDraft(null)}>{t.admin.cancel}</button>
+                <button type="submit" className="admin-btn-primary" disabled={savingConsole}>{savingConsole ? '…' : t.admin.save}</button>
               </div>
             </div>
-
             <fieldset className="admin-fs">
               <legend>Datos de la consola</legend>
               <div className="admin-grid">
-                <label>
-                  Nombre corto
-                  <input value={consoleDraft.name} onChange={(e) => setConsoleField('name', e.target.value)} required placeholder="ej: Switch" />
-                </label>
-                <label>
-                  Nombre completo
-                  <input value={consoleDraft.fullName} onChange={(e) => setConsoleField('fullName', e.target.value)} placeholder="ej: Nintendo Switch" />
-                </label>
-                <label>
-                  ID
-                  <input value={consoleDraft.id} onChange={(e) => setConsoleField('id', e.target.value)} placeholder={slugify(consoleDraft.name)} />
-                </label>
-                <label>
-                  Color
-                  <input type="color" value={consoleDraft.color} onChange={(e) => setConsoleField('color', e.target.value)} />
-                </label>
-                <label className="admin-span2">
-                  Gradiente CSS
-                  <input value={consoleDraft.gradient} onChange={(e) => setConsoleField('gradient', e.target.value)} placeholder="linear-gradient(135deg, #ff5a5f 0%, #c4001e 100%)" />
-                </label>
-                <label className="admin-span2">
-                  Imagen de portada (URL)
-                  <input value={consoleDraft.image} onChange={(e) => setConsoleField('image', e.target.value)} placeholder="https://..." />
-                </label>
-                <label className="admin-span2">
-                  Icono (URL — imagen o SVG)
-                  <input value={consoleDraft.icon} onChange={(e) => setConsoleField('icon', e.target.value)} placeholder="/logos/switch.svg o https://..." />
-                </label>
-                <label className="admin-check-label">
-                  <input type="checkbox" checked={consoleDraft.active} onChange={(e) => setConsoleField('active', e.target.checked)} />
-                  Activa (visible en selección de nuevos juegos)
-                </label>
+                <label>Nombre corto<input value={consoleDraft.name} onChange={(e) => setConsoleField('name', e.target.value)} required placeholder="ej: Switch" /></label>
+                <label>Nombre completo<input value={consoleDraft.fullName} onChange={(e) => setConsoleField('fullName', e.target.value)} placeholder="ej: Nintendo Switch" /></label>
+                <label>ID<input value={consoleDraft.id} onChange={(e) => setConsoleField('id', e.target.value)} placeholder={slugify(consoleDraft.name)} /></label>
+                <label>Color<input type="color" value={consoleDraft.color} onChange={(e) => setConsoleField('color', e.target.value)} /></label>
+                <label className="admin-span2">Gradiente CSS<input value={consoleDraft.gradient} onChange={(e) => setConsoleField('gradient', e.target.value)} placeholder="linear-gradient(135deg, #ff5a5f 0%, #c4001e 100%)" /></label>
+                <label className="admin-span2">Imagen de portada (URL)<input value={consoleDraft.image} onChange={(e) => setConsoleField('image', e.target.value)} placeholder="https://..." /></label>
+                <label className="admin-span2">Icono (URL — imagen o SVG)<input value={consoleDraft.icon} onChange={(e) => setConsoleField('icon', e.target.value)} placeholder="/logos/switch.svg o https://..." /></label>
+                <label className="admin-check-label"><input type="checkbox" checked={consoleDraft.active} onChange={(e) => setConsoleField('active', e.target.checked)} />Activa (visible en selección de nuevos juegos)</label>
               </div>
-              {consoleDraft.icon && (
-                <div className="console-preview">
-                  <span className="console-preview-label">Vista previa icono:</span>
-                  <img src={consoleDraft.icon} alt="" style={{ width: 24, height: 24, objectFit: 'contain' }} />
-                  <span>{consoleDraft.name}</span>
-                </div>
-              )}
+              {consoleDraft.icon && <div className="console-preview"><span className="console-preview-label">Vista previa icono:</span><img src={consoleDraft.icon} alt="" style={{ width: 24, height: 24, objectFit: 'contain' }} /><span>{consoleDraft.name}</span></div>}
             </fieldset>
+          </form>
+        ) : userDraft ? (
+          <form className="admin-form" onSubmit={saveUser}>
+            <div className="admin-form-head">
+              <h2>{userDraft._isNew ? 'Nuevo usuario' : 'Editar usuario'}</h2>
+              <div>
+                <button type="button" onClick={() => setUserDraft(null)}>{t.admin.cancel}</button>
+                <button type="submit" className="admin-btn-primary" disabled={savingUser}>{savingUser ? '…' : t.admin.save}</button>
+              </div>
+            </div>
+            <fieldset className="admin-fs">
+              <legend>Datos del usuario</legend>
+              <div className="admin-grid">
+                <label className="admin-span2">Correo electrónico<input type="email" value={userDraft.email} onChange={(e) => setUserDraft({ ...userDraft, email: e.target.value })} required disabled={!userDraft._isNew} /></label>
+                <label className="admin-span2">Nombre<input value={userDraft.name} onChange={(e) => setUserDraft({ ...userDraft, name: e.target.value })} placeholder="Nombre para mostrar" /></label>
+                <label className="admin-span2">{userDraft._isNew ? 'Contraseña (mínimo 8 caracteres)' : 'Nueva contraseña (dejar vacío para no cambiar)'}<input type="password" value={userDraft.password || ''} onChange={(e) => setUserDraft({ ...userDraft, password: e.target.value })} minLength={userDraft._isNew ? 8 : 0} required={userDraft._isNew} /></label>
+                <label>Rol<select value={userDraft.role} onChange={(e) => setUserDraft({ ...userDraft, role: e.target.value })} disabled={userDraft.email === user?.email}><option value="editor">Editor</option><option value="admin">Admin</option></select></label>
+                <label className="admin-check-label"><input type="checkbox" checked={userDraft.active} onChange={(e) => setUserDraft({ ...userDraft, active: e.target.checked })} />Activo</label>
+              </div>
+            </fieldset>
+            {userDraft.role !== 'superadmin' && (
+              <fieldset className="admin-fs">
+                <legend>Permisos</legend>
+                <div className="admin-perms-grid">
+                  {ALL_PERMISSIONS.map((p) => (
+                    <label key={p} className="admin-check-label">
+                      <input type="checkbox" checked={userDraft.permissions.includes(p)} onChange={(e) => {
+                        const next = e.target.checked ? [...userDraft.permissions, p] : userDraft.permissions.filter((x) => x !== p)
+                        setUserDraft({ ...userDraft, permissions: next })
+                      }} />
+                      {permLabels[p] || p}
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+            )}
           </form>
         ) : adminTab === 'consoles' ? (
           <>
             <div className="admin-toolbar">
-              <button type="button" className="admin-btn-primary" onClick={startNewConsole}>
-                + Nueva consola
-              </button>
+              <button type="button" className="admin-btn-primary" onClick={startNewConsole}>+ Nueva consola</button>
             </div>
             <ul className="admin-list">
               {allConsoles.map((c) => {
@@ -781,27 +731,13 @@ export function AdminPage() {
                 return (
                   <li key={c.id} className="admin-row">
                     <div className="admin-row-info">
-                      <span className="admin-tag" style={{ background: c.color }}>
-                        {c.icon ? (
-                          <img src={c.icon} alt="" style={{ width: 14, height: 14, objectFit: 'contain', marginRight: 4, verticalAlign: 'middle' }} />
-                        ) : null}
-                        {c.name}
-                      </span>
-                      <div>
-                        <strong>{c.fullName || c.name}</strong>
-                        <span className="admin-row-id">{c.id} · {gameCount} juego{gameCount !== 1 ? 's' : ''}</span>
-                      </div>
+                      <span className="admin-tag" style={{ background: c.color }}>{c.icon ? <img src={c.icon} alt="" style={{ width: 14, height: 14, objectFit: 'contain', marginRight: 4, verticalAlign: 'middle' }} /> : null}{c.name}</span>
+                      <div><strong>{c.fullName || c.name}</strong><span className="admin-row-id">{c.id} · {gameCount} juego{gameCount !== 1 ? 's' : ''}</span></div>
                     </div>
                     <div className="admin-row-actions">
-                      <button type="button" className={c.active !== false ? 'admin-btn-toggle-on' : 'admin-btn-toggle-off'} onClick={() => onToggleConsole(c)}>
-                        {c.active !== false ? 'Activa' : 'Inactiva'}
-                      </button>
-                      <button type="button" onClick={() => startEditConsole(c)}>
-                        {t.admin.edit}
-                      </button>
-                      <button type="button" className="admin-btn-danger" onClick={() => onDeleteConsole(c)}>
-                        {t.admin.delete}
-                      </button>
+                      <button type="button" className={c.active !== false ? 'admin-btn-toggle-on' : 'admin-btn-toggle-off'} onClick={() => onToggleConsole(c)}>{c.active !== false ? 'Activa' : 'Inactiva'}</button>
+                      <button type="button" onClick={() => startEditConsole(c)}>{t.admin.edit}</button>
+                      <button type="button" className="admin-btn-danger" onClick={() => onDeleteConsole(c)}>{t.admin.delete}</button>
                     </div>
                   </li>
                 )
@@ -810,42 +746,53 @@ export function AdminPage() {
           </>
         ) : adminTab === 'header' ? (
           <HeaderEditor token={token} />
+        ) : adminTab === 'users' ? (
+          <>
+            <div className="admin-toolbar">
+              <button type="button" className="admin-btn-primary" onClick={() => setUserDraft({ ...blankUser(), _isNew: true })}>+ Nuevo usuario</button>
+            </div>
+            {loadingUsers ? <p className="admin-empty">Cargando…</p> : (
+              <ul className="admin-list">
+                {users.map((u) => (
+                  <li key={u.email} className="admin-row">
+                    <div className="admin-row-info">
+                      <div className="admin-user-avatar">
+                        {u.avatar ? <img src={u.avatar} alt="" /> : <div className="admin-avatar-empty-small">{(u.name || u.email)[0].toUpperCase()}</div>}
+                      </div>
+                      <div>
+                        <strong>{u.name || u.email}</strong>
+                        <span className="admin-row-id">{u.email} · <span className={`admin-role-badge admin-role-${u.role}`}>{u.role}</span>{u.active === false ? ' · <span class="admin-inactive-badge">Inactivo</span>' : ''}</span>
+                      </div>
+                    </div>
+                    <div className="admin-row-actions">
+                      <button type="button" className={u.active !== false ? 'admin-btn-toggle-on' : 'admin-btn-toggle-off'} onClick={() => toggleUserActive(u)}>{u.active !== false ? 'Activo' : 'Inactivo'}</button>
+                      <button type="button" onClick={() => setUserDraft({ ...u, password: '', _isNew: false })}>{t.admin.edit}</button>
+                      {u.email !== user?.email && <button type="button" className="admin-btn-danger" onClick={() => deleteUser(u)}>{t.admin.delete}</button>}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </>
         ) : (
           <>
             <div className="admin-toolbar">
               <input className="admin-search" type="search" placeholder={t.admin.search} value={query} onChange={(e) => setQuery(e.target.value)} />
-              <button type="button" className="admin-btn-primary" onClick={startNew}>
-                {t.admin.newGame}
-              </button>
+              <button type="button" className="admin-btn-primary" onClick={startNew}>{t.admin.newGame}</button>
             </div>
-
-            {filtered.length === 0 ? (
-              <p className="admin-empty">{t.admin.emptyList}</p>
-            ) : (
+            {filtered.length === 0 ? <p className="admin-empty">{t.admin.emptyList}</p> : (
               <ul className="admin-list">
                 {filtered.map((g) => {
                   const c = getConsole(g.console)
                   return (
                     <li key={g.id} className="admin-row">
                       <div className="admin-row-info">
-                        <span className="admin-tag" style={{ background: c?.color || '#666' }}>
-                          {c?.icon ? (
-                            <img src={c.icon} alt="" style={{ width: 14, height: 14, objectFit: 'contain', marginRight: 4, verticalAlign: 'middle' }} />
-                          ) : null}
-                          {g.console}
-                        </span>
-                        <div>
-                          <strong>{g.title}</strong>
-                          <span className="admin-row-id">{g.id}</span>
-                        </div>
+                        <span className="admin-tag" style={{ background: c?.color || '#666' }}>{c?.icon ? <img src={c.icon} alt="" style={{ width: 14, height: 14, objectFit: 'contain', marginRight: 4, verticalAlign: 'middle' }} /> : null}{g.console}</span>
+                        <div><strong>{g.title}</strong><span className="admin-row-id">{g.id}</span></div>
                       </div>
                       <div className="admin-row-actions">
-                        <button type="button" onClick={() => startEdit(g)}>
-                          {t.admin.edit}
-                        </button>
-                        <button type="button" className="admin-btn-danger" onClick={() => onDelete(g)}>
-                          {t.admin.delete}
-                        </button>
+                        <button type="button" onClick={() => startEdit(g)}>{t.admin.edit}</button>
+                        <button type="button" className="admin-btn-danger" onClick={() => onDelete(g)}>{t.admin.delete}</button>
                       </div>
                     </li>
                   )

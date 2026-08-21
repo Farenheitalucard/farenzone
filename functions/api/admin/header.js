@@ -1,5 +1,4 @@
-import { getSessionEmail } from './_lib'
-import { json } from '../_apikey'
+import { getSessionAdmin, hasPermission, PERMISSIONS, json } from './_lib'
 
 const HEADER_KEY = 'header_config'
 
@@ -47,8 +46,9 @@ export async function onRequestGet(context) {
 
 export async function onRequestPut(context) {
   const token = (context.request.headers.get('x-admin-token') || '').trim()
-  const email = await getSessionEmail(context.env, token)
-  if (!email) return json({ error: 'unauthorized' }, 401)
+  const admin = await getSessionAdmin(context.env, token)
+  if (!admin) return json({ error: 'unauthorized' }, 401)
+  if (!hasPermission(admin, PERMISSIONS.header)) return json({ error: 'forbidden' }, 403)
 
   let body
   try { body = await context.request.json() } catch { return json({ error: 'invalid json' }, 400) }

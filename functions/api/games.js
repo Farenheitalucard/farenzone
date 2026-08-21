@@ -1,4 +1,4 @@
-import { getSessionEmail } from './admin/_lib'
+import { getSessionAdmin, hasPermission, PERMISSIONS } from './admin/_lib'
 import { sanitizeGame, readGames, writeGames } from './_shared'
 
 function dedupeIds(games) {
@@ -23,9 +23,17 @@ export async function onRequestGet(context) {
 }
 
 export async function onRequestPut(context) {
-  if (!(await getSessionEmail(context.env, context.request.headers.get('x-admin-token') || ''))) {
+  const token = (context.request.headers.get('x-admin-token') || '').trim()
+  const admin = await getSessionAdmin(context.env, token)
+  if (!admin) {
     return new Response(JSON.stringify({ error: 'unauthorized' }), {
       status: 401,
+      headers: { 'Content-Type': 'application/json' },
+    })
+  }
+  if (!hasPermission(admin, PERMISSIONS.games)) {
+    return new Response(JSON.stringify({ error: 'forbidden' }), {
+      status: 403,
       headers: { 'Content-Type': 'application/json' },
     })
   }
