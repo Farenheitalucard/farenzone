@@ -5885,6 +5885,90 @@ export const games = [
       ]
 }
   }
+,
+  {
+    'id': "catto-s-post-office",
+    'console': "switch",
+    'title': "Catto's Post Office",
+    'genre': "Aventura",
+    'developer': "In Shambles Studio",
+    'publisher': "In Shambles Studio",
+    'year': 2026,
+    'rating': 75,
+    'players': "1",
+    'cooperativo': "No",
+    'multijugador': "No",
+    'color': "#ff9800",
+    'cover': "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000121383/18b718ef562ec66cf861d4e77bd263818dde51820696048a1607da9aba80e21b",
+    'trailer': "WqOM1loUnq8",
+    'screenshots': [
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000121383/8e60e6d26fdff5936f8d87e7e7b62eb9abbbc1d9b545fc4ea8c3ea10b1ebf273",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000121383/53f38ba583ea47f8dd08af96ec6a70ae0ed0e181c7bb2025ab1cd3a3d9cb5b1f",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000121383/3c81c32c43bb4f26a788a90ed31d906e228c830a4e85a4c1db75d8f0d30f081f",
+  ],
+    'description': {
+    'es': "Entrega el correo como Catto, el dedicado Gato Postal de la ciudad, mientras conoces amigos unicos en una vibrante y acogedora ciudad llena de residentes felinos. Explora la colorida ciudad, encuentra adorables residentes y alegra su dia ayudandolas con pequenas tareas.",
+    'en': "Deliver mail as Catto, the town's dedicated Postcat, while meeting unique friends in a vibrant cozy town filled with kitty residents. As you explore the colorful town, encounter adorable residents and brighten up their day by helping them with silly little tasks."
+  },
+    'download': {
+      "region": "01009C201DBCA000 - USA",
+      "size": "1.2GB",
+      "format": "NSP",
+      "update": "v1.0.0",
+      "fw": "16.0.0+",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "thanks": "",
+      "links": [
+            {
+                  "label": "Mediafire",
+                  "url": "#",
+                  "color": "blue"
+            }
+      ]
+}
+  }
+,
+  {
+    'id': "grimoire-groves",
+    'console': "switch",
+    'title': "Grimoire Groves",
+    'genre': "Acción - Aventura - RPG",
+    'developer': "Stardust LLC",
+    'publisher': "Stardust LLC",
+    'year': 2026,
+    'rating': 82,
+    'players': "1",
+    'cooperativo': "No",
+    'multijugador': "No",
+    'color': "#9c27b0",
+    'cover': "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000097679/47bf6bd525d2896fa58ffc22700c21399b6a9fae51047c2669a85aa56d924b22",
+    'trailer': "9QY-IcoR89s",
+    'screenshots': [
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000097679/11a3f1e310d91c6d8c3b7f6a2c47b1e84810d7c9b5549c51f2a5a43c3a359982",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000097679/6c283e6a5dd9e5f59c3d0ec085b98f7c0f4e4e0a7b1c50f0a9e3e1a5b5c8d3f4",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000097679/5e5a4b2c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3",
+  ],
+    'description': {
+    'es': "Unungeon roguelite acogedor donde te unes a las brujas para restaurar los Grimoire Groves. Domina la magia, haz crecer adorables criaturas vegetales y descubre el misterio de los Calcetines Arcoiris. Explora bosques generados proceduralmente, forja hechizos y equípate para enfrentar desafíos.",
+    'en': "A cozy rogue-lite dungeon crawler where you join the witches to restore the Grimoire Groves. Master magic, grow cute plant creatures and discover the mystery of the Rainbow Socks. Explore procedurally generated forests, craft spells and gear up to take on challenges."
+  },
+    'download': {
+      "region": "010069601D4E8000 - USA",
+      "size": "850MB",
+      "format": "NSP",
+      "update": "v1.0.0",
+      "fw": "16.0.0+",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "thanks": "",
+      "links": [
+            {
+                  "label": "Mediafire",
+                  "url": "#",
+                  "color": "blue"
+            }
+      ]
+}
+  }
 
 ];
 
