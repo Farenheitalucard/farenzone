@@ -1286,39 +1286,83 @@
 
 @media (max-width: 640px) {
   .navbar-inner {
-    flex-wrap: wrap;
-    padding: 12px 16px;
-    height: auto;
-    row-gap: 10px;
+    padding: 0 12px;
+    height: 52px;
+    gap: 4px;
+  }
+
+  .brand {
+    font-size: 15px;
+  }
+
+  .navbar-brand {
+    gap: 4px;
+  }
+
+  .telegram-link {
+    width: 26px;
+    height: 26px;
+  }
+
+  .telegram-link svg,
+  .telegram-link img {
+    width: 15px;
+    height: 15px;
   }
 
   .search-box {
-    order: 3;
-    flex-basis: 100%;
-    max-width: 100%;
-    margin-left: 0;
+    width: 110px;
+    margin-left: 2px;
+  }
+
+  .search-input {
+    padding: 6px 8px 6px 28px;
+    font-size: 12px;
   }
 
   .nav-links {
-    gap: 2px;
-    overflow: visible;
-    flex: 1;
-    min-width: 0;
-  }
-
-  .nav-links-scroll {
-    overflow-x: auto;
-    flex: 1;
-    min-width: 0;
+    gap: 1px;
   }
 
   .nav-links a {
-    padding: 8px 8px;
-    font-size: 13px;
+    padding: 6px 6px;
+    font-size: 12px;
+    gap: 3px;
+  }
+
+  .nav-links a .console-logo {
+    height: 12px;
+  }
+
+  .nav-menu-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
   }
 
   .lang-toggle {
-    padding: 6px 8px;
+    padding: 5px 6px;
+    font-size: 11px;
+  }
+
+  .theme-toggle {
+    width: 28px;
+    height: 28px;
+  }
+
+  .theme-toggle svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .admin-link {
+    width: 28px;
+    height: 28px;
+  }
+
+  .admin-link svg {
+    width: 16px;
+    height: 16px;
   }
 
   .layout {
@@ -2451,11 +2495,6 @@
   .navbar-inner {
     gap: 6px;
     padding: 0 14px;
-  }
-
-  .search-box {
-    width: 140px;
-    margin-left: 2px;
   }
 
   .nav-links a {
