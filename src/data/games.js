@@ -5801,6 +5801,90 @@ export const games = [
       ]
 }
   }
+,
+  {
+    'id': "avatar-quest-for-balance",
+    'console': "switch",
+    'title': "Avatar: The Last Airbender - Quest for Balance",
+    'genre': "Accion - Aventura",
+    'developer': "Bamtang Games",
+    'publisher': "GameMill Entertainment",
+    'year': 2023,
+    'rating': 48,
+    'players': "1-2",
+    'cooperativo': "Local",
+    'multijugador': "Local",
+    'color': "#1565c0",
+    'cover': "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000043029/4ff8a1e4c87575f265e51de4b90de45040aa6e5350b30fab13894bf493f2ea68",
+    'trailer': "UjdAbxOaOHs",
+    'screenshots': [
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/8f09724a189104437ca7e19d36dc93820b82fee39402b91f8e537e2496ea5ee5",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/ee542dd1d9cb044106a97fe71d5ffc31230a957be6cd21127dfcbda6fd291b25",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/63a114446626fbe59863ef055a55c8fc8b8665ed8293349d6d0a4d2bb967d38d",
+  ],
+    'description': {
+    'es': "Revive la epica aventura de la serie original Avatar: The Last Airbender, jugando como Aang y sus amigos. Domina los elementos, explora ubicaciones unicas, resuelve acertijos y experimenta los momentos mas emotivos de la historia de Aang. Juega en solitario o con un amigo en modo cooperativo.",
+    'en': "Relive the epic adventure of the original Avatar: The Last Airbender series, playing as Aang and his friends. Master the elements, explore unique locations, solve puzzles and experience the most heart-touching moments of Aang's story. Play solo or with a friend in co-op mode."
+  },
+    'download': {
+      "region": "0100F8B018E82000 - USA",
+      "size": "4.7GB",
+      "format": "NSP",
+      "update": "v1.0.0",
+      "fw": "16.0.0+",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "thanks": "",
+      "links": [
+            {
+                  "label": "Mediafire",
+                  "url": "#",
+                  "color": "blue"
+            }
+      ]
+}
+  }
+,
+  {
+    'id': "avatar-legends-fighting-game",
+    'console': "switch",
+    'title': "Avatar Legends: The Fighting Game",
+    'genre': "Accion - Pelea",
+    'developer': "Gameplay Group International",
+    'publisher': "PM Studios",
+    'year': 2026,
+    'rating': 78,
+    'players': "1-2",
+    'cooperativo': "No",
+    'multijugador': "Local y online",
+    'color': "#e65100",
+    'cover': "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000124322/9ececef2d8606f8aef67554fb23afc72dd5a505dd341eb1bc4d54011769e39be",
+    'trailer': "x3PfjQ9BnNw",
+    'screenshots': [
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/01a8f6ca5ff1128d55312b8b8eb91b69196086729458322dcda354fa6e2f1c85",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/e1b297a0d41f4cc294e9bdcc1ebdac31e8ca9cde6425da7e47122df422550bec",
+    "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/e8bd75644410eaaa6d6e0790c8d254ac84c38f8e477c8520bd6a86c67f28a5d3",
+  ],
+    'description': {
+    'es': "Un juego de pelea 1v1 de ritmo rapido que trae el mundo de Avatar a la vida con animacion 2D dibujada a mano. Elige entre 12 personajes jugables y enfrentate en multiples modos incluyendo Versus, Historia, Arcade, Entrenamiento y Galeria de Arte. Cuenta con netcode rollback y crossplay completo.",
+    'en': "A fast-paced 1v1 fighter that brings the world of Avatar to life with hand-drawn 2D animation. Choose from 12 playable characters and go head-to-head across multiple modes including Versus, Story, Arcade, Training, and Art Gallery. Features rollback netcode and full crossplay."
+  },
+    'download': {
+      "region": "0100CBB027BA4000 - USA",
+      "size": "8.1GB",
+      "format": "NSP",
+      "update": "v1.0.0",
+      "fw": "16.0.0+",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "thanks": "",
+      "links": [
+            {
+                  "label": "Mediafire",
+                  "url": "#",
+                  "color": "blue"
+            }
+      ]
+}
+  }
 
 ];
 
