@@ -5815,7 +5815,7 @@ export const games = [
     'cooperativo': "Local",
     'multijugador': "Local",
     'color': "#1565c0",
-    'cover': "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000043029/4ff8a1e4c87575f265e51de4b90de45040aa6e5350b30fab13894bf493f2ea68",
+    'cover': "https://art.gametdb.com/switch/box/US/A493A.png",
     'trailer': "UjdAbxOaOHs",
     'screenshots': [
     "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/8f09724a189104437ca7e19d36dc93820b82fee39402b91f8e537e2496ea5ee5",
