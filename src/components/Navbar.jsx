@@ -157,26 +157,27 @@ export function Navbar() {
                 {t.nav[c.id] || c.name}
               </NavLink>
             ))}
+            {elements.filter((e) => e.type === 'menu' && e.visible !== false).map((el) => (
+              <div key="menu" className="nav-menu-wrap" ref={menuRef}>
+                <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} style={iSz ? { fontSize: iSz + 4 } : undefined} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
+                  ☰
+                </button>
+                {menuOpen && (
+                  <div className="nav-menu-dropdown">
+                    {consoles.map((c) => (
+                      <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
+                        <ConsoleIcon id={c.id} size={iSz || 18} />
+                        {t.nav[c.id] || c.name}
+                      </NavLink>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         )
       case 'menu':
-        return (
-          <div key="menu" className="nav-menu-wrap" ref={menuRef}>
-            <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} style={iSz ? { fontSize: iSz + 4 } : undefined} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
-              ☰
-            </button>
-            {menuOpen && (
-              <div className="nav-menu-dropdown">
-                {consoles.map((c) => (
-                  <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
-                    <ConsoleIcon id={c.id} size={iSz || 18} />
-                    {t.nav[c.id] || c.name}
-                  </NavLink>
-                ))}
-              </div>
-            )}
-          </div>
-        )
+        return null
       case 'admin':
         return isAdmin ? (
           <Link key={el.id} to="/admin" className="panel-link" style={linkStyle}>
