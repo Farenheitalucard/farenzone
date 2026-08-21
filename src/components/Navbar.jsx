@@ -183,6 +183,11 @@ export function Navbar() {
     }
   }
 
+  const nonSocial = elements.filter((e) => e.type !== 'social' && e.visible !== false)
+  const scrollTypes = new Set(['nav', 'consoles'])
+  const scrollEls = nonSocial.filter((e) => scrollTypes.has(e.type))
+  const fixedEls = nonSocial.filter((e) => !scrollTypes.has(e.type))
+
   return (
     <header className="navbar">
       <div className="navbar-inner">
@@ -194,7 +199,10 @@ export function Navbar() {
         </div>
 
         <nav className="nav-links">
-          {elements.filter((e) => e.type !== 'social' && e.visible !== false).map(renderElement)}
+          <div className="nav-links-scroll">
+            {scrollEls.map(renderElement)}
+          </div>
+          {fixedEls.map(renderElement)}
         </nav>
       </div>
     </header>
