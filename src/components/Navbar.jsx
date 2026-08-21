@@ -6,6 +6,7 @@ import { useTheme } from '../theme-context'
 import { getConsole } from '../data/consoles'
 import { useConsoles } from '../hooks/useConsoles'
 import { useHeaderConfig } from '../hooks/useHeaderConfig'
+import { useDevice } from '../hooks/useDevice'
 import { useGames } from '../hooks/useGames'
 import { searchGames } from '../data/store'
 import { ConsoleIcon } from './ConsoleIcon'
@@ -26,6 +27,7 @@ export function Navbar() {
   const games = useGames()
   const consoles = useConsoles()
   const headerConfig = useHeaderConfig()
+  const device = useDevice()
   const navigate = useNavigate()
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
@@ -46,9 +48,13 @@ export function Navbar() {
   const results = q ? searchGames(games, query).slice(0, 8) : []
 
   const brand = headerConfig.brand || { name: 'Faren', nameAccent: 'Zone', url: '/' }
-  const elements = (headerConfig.elements || [])
-    .slice()
-    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+
+  const deviceCfg = headerConfig.devices?.[device]
+  const elements = (
+    (deviceCfg && Array.isArray(deviceCfg.elements) && deviceCfg.elements.length > 0 ? deviceCfg.elements
+      : Array.isArray(headerConfig.elements) && headerConfig.elements.length > 0 ? headerConfig.elements
+        : [])
+  ).slice().sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
 
   const mainConsoles = consoles.filter((c) => {
     const consolesEl = elements.find((e) => e.type === 'consoles')

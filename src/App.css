@@ -1922,6 +1922,70 @@
   margin-top: 12px;
 }
 
+.header-editor-subtitle {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin: -8px 0 20px;
+}
+
+.header-device-selector {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.header-device-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 28px 20px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  background: var(--bg-soft);
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.header-device-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 20px rgba(124, 92, 255, 0.15);
+}
+
+.header-device-card-icon {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.header-device-card-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.header-device-card-desc {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.header-back-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.header-back-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .admin-toolbar {
   display: flex;
   gap: 12px;
@@ -2224,6 +2288,14 @@
   .admin-row {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .header-device-selector {
+    grid-template-columns: 1fr;
+  }
+
+  .header-device-card {
+    padding: 20px 16px;
   }
 }
 
