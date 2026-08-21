@@ -12,6 +12,7 @@ import { GameDetail } from './components/GameDetail'
 import { AdminPage } from './components/AdminPage'
 import { loadGamesFromApi } from './data/store'
 import { loadConsolesFromApi } from './data/consoles'
+import { loadHeaderConfig } from './data/headerConfig'
 import { ErrorBoundary } from './components/ErrorBoundary'
 import './App.css'
 
@@ -29,6 +30,7 @@ function App() {
   useEffect(() => {
     loadGamesFromApi()
     loadConsolesFromApi()
+    loadHeaderConfig()
   }, [])
   return (
     <ThemeProvider>

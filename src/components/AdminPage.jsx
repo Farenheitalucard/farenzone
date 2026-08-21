@@ -6,6 +6,7 @@ import { useGames } from '../hooks/useGames'
 import { useConsoles } from '../hooks/useConsoles'
 import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
+import { HeaderEditor } from './HeaderEditor'
 
 const linkColors = ['blue', 'green', 'brown']
 
@@ -518,6 +519,13 @@ export function AdminPage() {
             >
               Consolas ({allConsoles.length})
             </button>
+            <button
+              type="button"
+              className={`admin-tab${adminTab === 'header' ? ' admin-tab-active' : ''}`}
+              onClick={() => setAdminTab('header')}
+            >
+              Encabezado
+            </button>
           </div>
         )}
 
@@ -800,6 +808,8 @@ export function AdminPage() {
               })}
             </ul>
           </>
+        ) : adminTab === 'header' ? (
+          <HeaderEditor token={token} />
         ) : (
           <>
             <div className="admin-toolbar">
