@@ -1,4 +1,4 @@
-.navbar {
+﻿.navbar {
   position: sticky;
   top: 0;
   z-index: 10;
@@ -1293,25 +1293,26 @@
   }
 
   .search-box {
-    order: 3;
+    order: 4;
     flex-basis: 100%;
     max-width: 100%;
     margin-left: 0;
   }
 
   .nav-links {
+    flex-wrap: wrap;
     gap: 2px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .nav-links::-webkit-scrollbar {
-    display: none;
+    order: 2;
   }
 
   .nav-links-scroll {
-    overflow: visible;
+    flex: 0 1 auto;
+    overflow-x: auto;
+    gap: 2px;
+  }
+
+  .nav-links > :not(.nav-links-scroll) {
+    order: 3;
   }
 
   .nav-links a {

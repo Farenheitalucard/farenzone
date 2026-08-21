@@ -33,8 +33,6 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const boxRef = useRef(null)
   const menuRef = useRef(null)
-  const menuBtnRef = useRef(null)
-  const [menuPos, setMenuPos] = useState(null)
 
   useEffect(() => {
     function onDocClick(e) {
@@ -129,17 +127,11 @@ export function Navbar() {
       case 'menu':
         return (
           <div key="menu" className="nav-menu-wrap" ref={menuRef}>
-            <button type="button" ref={menuBtnRef} className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} onClick={() => {
-              if (!menuOpen && menuBtnRef.current) {
-                const r = menuBtnRef.current.getBoundingClientRect()
-                setMenuPos({ top: r.bottom + 4, right: window.innerWidth - r.right })
-              }
-              setMenuOpen((v) => !v)
-            }} aria-label="Más consolas">
+            <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
               ☰
             </button>
             {menuOpen && createPortal(
-              <div className="nav-menu-dropdown" style={menuPos ? { position: 'fixed', top: menuPos.top, right: menuPos.right } : undefined}>
+              <div className="nav-menu-dropdown">
                 {consoles.map((c) => (
                   <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
                     <ConsoleIcon id={c.id} size={18} />
@@ -193,8 +185,6 @@ export function Navbar() {
     }
   }
 
-  const nonSocial = elements.filter((e) => e.type !== 'social' && e.visible !== false)
-
   return (
     <header className="navbar">
       <div className="navbar-inner">
@@ -207,9 +197,9 @@ export function Navbar() {
 
         <nav className="nav-links">
           <div className="nav-links-scroll">
-            {nonSocial.filter((e) => e.type === 'nav' || e.type === 'consoles').map(renderElement)}
+            {elements.filter((e) => e.type !== 'social' && e.visible !== false && (e.type === 'nav' || e.type === 'consoles' || e.type === 'menu')).map(renderElement)}
           </div>
-          {nonSocial.filter((e) => e.type !== 'nav' && e.type !== 'consoles').map(renderElement)}
+          {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type !== 'nav' && e.type !== 'consoles' && e.type !== 'menu').map(renderElement)}
         </nav>
       </div>
     </header>
