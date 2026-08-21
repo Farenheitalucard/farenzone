@@ -3,7 +3,8 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
 import { useTheme } from '../theme-context'
-import { consoles, getConsole } from '../data/consoles'
+import { getConsole } from '../data/consoles'
+import { useConsoles } from '../hooks/useConsoles'
 import { useGames } from '../hooks/useGames'
 import { searchGames } from '../data/store'
 import { PAYPAL_URL } from '../data/config'
@@ -14,6 +15,7 @@ export function Navbar() {
   const { isAdmin } = useAdmin()
   const { theme, setTheme } = useTheme()
   const games = useGames()
+  const consoles = useConsoles()
   const navigate = useNavigate()
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)

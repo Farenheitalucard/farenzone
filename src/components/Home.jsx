@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { consoles } from '../data/consoles'
+import { useConsoles } from '../hooks/useConsoles'
 import { useGames } from '../hooks/useGames'
 import { useLanguage } from '../language-context'
 import { Cover } from './Cover'
@@ -79,6 +79,7 @@ function HeroVideos() {
 export function Home() {
   const { t } = useLanguage()
   const games = useGames()
+  const consoles = useConsoles()
 
   return (
     <main className="page">

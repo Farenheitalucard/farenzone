@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { consoles, getConsole } from '../data/consoles'
+import { getConsole, setConsoles, loadConsolesFromApi } from '../data/consoles'
 import { setGames, sortByTitle } from '../data/store'
 import { useGames } from '../hooks/useGames'
+import { useConsoles } from '../hooks/useConsoles'
 import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
 
@@ -47,11 +48,26 @@ function blankGame() {
   }
 }
 
+function blankConsole() {
+  return {
+    id: '',
+    name: '',
+    fullName: '',
+    color: '#888888',
+    gradient: 'linear-gradient(135deg, #888 0%, #444 100%)',
+    image: '',
+    icon: '',
+    active: true,
+    _origId: null,
+  }
+}
+
 export function AdminPage() {
   const { t } = useLanguage()
   const { token, isAdmin, checking, login, logout } = useAdmin()
   const [searchParams, setSearchParams] = useSearchParams()
   const games = useGames()
+  const allConsoles = useConsoles()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [showPass, setShowPass] = useState(false)
@@ -62,6 +78,10 @@ export function AdminPage() {
   const [saving, setSaving] = useState(false)
   const [msg, setMsg] = useState('')
   const autoEditRef = useRef(false)
+
+  const [adminTab, setAdminTab] = useState('games')
+  const [consoleDraft, setConsoleDraft] = useState(null)
+  const [savingConsole, setSavingConsole] = useState(false)
 
   const editParam = searchParams.get('edit')
 
@@ -139,11 +159,46 @@ export function AdminPage() {
     }
   }
 
+  async function saveConsoles(next) {
+    setSavingConsole(true)
+    setMsg('')
+    try {
+      const res = await fetch('/api/admin/consoles', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-admin-token': token,
+        },
+        body: JSON.stringify({ consoles: next }),
+      })
+      if (!res.ok) throw new Error(`put failed: ${res.status}`)
+      const data = await res.json()
+      setConsoles(data.consoles)
+      setMsg(t.admin.saved)
+    } catch (e) {
+      console.error('saveConsoles error:', e)
+      setMsg(t.admin.error)
+    } finally {
+      setSavingConsole(false)
+    }
+  }
+
   function ensureUniqueId(id, originalId) {
     let base = id || 'juego'
     let candidate = base
     let i = 2
     while (games.some((g) => g.id === candidate && g.id !== originalId)) {
+      candidate = `${base}-${i}`
+      i += 1
+    }
+    return candidate
+  }
+
+  function ensureUniqueConsoleId(id, originalId) {
+    let base = id || 'consola'
+    let candidate = base
+    let i = 2
+    while (allConsoles.some((c) => c.id === candidate && c.id !== originalId)) {
       candidate = `${base}-${i}`
       i += 1
     }
@@ -271,6 +326,86 @@ export function AdminPage() {
     })
   }
 
+  function startNewConsole() {
+    setMsg('')
+    setConsoleDraft(blankConsole())
+  }
+
+  function startEditConsole(c) {
+    setMsg('')
+    setConsoleDraft({
+      ...c,
+      _origId: c.id,
+    })
+  }
+
+  function setConsoleField(path, value) {
+    setConsoleDraft((d) => {
+      const next = JSON.parse(JSON.stringify(d))
+      const parts = path.split('.')
+      let obj = next
+      for (let i = 0; i < parts.length - 1; i += 1) {
+        obj = obj[parts[i]]
+      }
+      obj[parts[parts.length - 1]] = value
+      return next
+    })
+  }
+
+  function onSaveConsole(e) {
+    e.preventDefault()
+    if (!consoleDraft || !consoleDraft.name?.trim()) return
+    const clean = {
+      ...consoleDraft,
+      id: ensureUniqueConsoleId(
+        slugify(consoleDraft.id || '') || slugify(consoleDraft.name || ''),
+        consoleDraft._origId,
+      ),
+      name: consoleDraft.name.trim(),
+      fullName: (consoleDraft.fullName || '').trim() || consoleDraft.name.trim(),
+      color: (consoleDraft.color || '#888').trim(),
+      gradient: (consoleDraft.gradient || '').trim(),
+      image: (consoleDraft.image || '').trim(),
+      icon: (consoleDraft.icon || '').trim(),
+      active: consoleDraft.active,
+    }
+    delete clean._origId
+    const next = consoleDraft._origId
+      ? allConsoles.map((c) => (c.id === consoleDraft._origId ? clean : c))
+      : [...allConsoles, clean]
+    saveConsoles(next).then(() => setConsoleDraft(null))
+  }
+
+  function onDeleteConsole(c) {
+    const gameCount = games.filter((g) => g.console === c.id).length
+    const label = c.fullName || c.name
+    if (gameCount > 0) {
+      if (
+        !window.confirm(
+          `"${label}" tiene ${gameCount} juego${gameCount > 1 ? 's' : ''} asociado${gameCount > 1 ? 's' : ''}.\n\n¿Estás seguro de eliminar esta consola?\n\nLos juegos NO se eliminarán.`,
+        )
+      )
+        return
+      if (
+        !window.confirm(
+          `Segunda confirmación: ¿Eliminar "${label}" definitivamente?\n\nLos ${gameCount} juegos seguirán existiendo pero no tendrán consola asignada.`,
+        )
+      )
+        return
+    } else {
+      if (!window.confirm(`¿Eliminar la consola "${label}"?`)) return
+    }
+    const next = allConsoles.filter((x) => x.id !== c.id)
+    saveConsoles(next)
+  }
+
+  function onToggleConsole(c) {
+    const next = allConsoles.map((x) =>
+      x.id === c.id ? { ...x, active: !x.active } : x,
+    )
+    saveConsoles(next)
+  }
+
   if (checking) {
     return (
       <main className="page">
@@ -285,17 +420,7 @@ export function AdminPage() {
         <div className="admin-login-card">
           <div className="admin-login-head">
             <div className="admin-lock-icon">
-              <svg
-                viewBox="0 0 24 24"
-                width="22"
-                height="22"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-              >
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <rect x="3" y="11" width="18" height="11" rx="2" />
                 <path d="M7 11V7a5 5 0 0 1 10 0v4" />
               </svg>
@@ -308,91 +433,30 @@ export function AdminPage() {
             <div className="admin-field">
               <label htmlFor="admin-email">{t.admin.email}</label>
               <div className="admin-input-wrap">
-                <svg
-                  viewBox="0 0 24 24"
-                  width="17"
-                  height="17"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  aria-hidden="true"
-                >
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
                   <circle cx="12" cy="7" r="4" />
                 </svg>
-                <input
-                  id="admin-email"
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  autoComplete="email"
-                  autoFocus
-                  required
-                />
+                <input id="admin-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" autoFocus required />
               </div>
             </div>
 
             <div className="admin-field">
               <label htmlFor="admin-pass">{t.admin.password}</label>
               <div className="admin-input-wrap">
-                <svg
-                  viewBox="0 0 24 24"
-                  width="17"
-                  height="17"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  aria-hidden="true"
-                >
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4" />
                 </svg>
-                <input
-                  id="admin-pass"
-                  type={showPass ? 'text' : 'password'}
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  autoComplete="current-password"
-                  required
-                />
-                <button
-                  type="button"
-                  className="admin-eye"
-                  onClick={() => setShowPass((v) => !v)}
-                  tabIndex={-1}
-                  aria-label={t.admin.showPass}
-                >
+                <input id="admin-pass" type={showPass ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password" required />
+                <button type="button" className="admin-eye" onClick={() => setShowPass((v) => !v)} tabIndex={-1} aria-label={t.admin.showPass}>
                   {showPass ? (
-                    <svg
-                      viewBox="0 0 24 24"
-                      width="18"
-                      height="18"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      aria-hidden="true"
-                    >
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                       <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94" />
                       <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19" />
                       <line x1="1" y1="1" x2="23" y2="23" />
                     </svg>
                   ) : (
-                    <svg
-                      viewBox="0 0 24 24"
-                      width="18"
-                      height="18"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      aria-hidden="true"
-                    >
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                       <circle cx="12" cy="12" r="3" />
                     </svg>
@@ -402,16 +466,10 @@ export function AdminPage() {
             </div>
 
             {loginError && (
-              <div className="admin-error-banner" role="alert">
-                {t.admin.wrong}
-              </div>
+              <div className="admin-error-banner" role="alert">{t.admin.wrong}</div>
             )}
 
-            <button
-              type="submit"
-              className="admin-btn-primary admin-btn-block"
-              disabled={logging}
-            >
+            <button type="submit" className="admin-btn-primary admin-btn-block" disabled={logging}>
               {logging ? t.admin.loading : t.admin.enter}
             </button>
           </form>
@@ -443,6 +501,25 @@ export function AdminPage() {
 
         {msg && <p className="admin-msg">{msg}</p>}
 
+        {!draft && !consoleDraft && (
+          <div className="admin-tabs">
+            <button
+              type="button"
+              className={`admin-tab${adminTab === 'games' ? ' admin-tab-active' : ''}`}
+              onClick={() => setAdminTab('games')}
+            >
+              Juegos ({games.length})
+            </button>
+            <button
+              type="button"
+              className={`admin-tab${adminTab === 'consoles' ? ' admin-tab-active' : ''}`}
+              onClick={() => setAdminTab('consoles')}
+            >
+              Consolas ({allConsoles.length})
+            </button>
+          </div>
+        )}
+
         {draft ? (
           <form className="admin-form" onSubmit={onSave}>
             <div className="admin-form-head">
@@ -462,86 +539,47 @@ export function AdminPage() {
               <div className="admin-grid">
                 <label>
                   {t.admin.console}
-                  <select
-                    value={draft.console}
-                    onChange={(e) => setField('console', e.target.value)}
-                  >
-                    {consoles.map((c) => (
-                      <option key={c.id} value={c.id}>
-                        {c.name}
-                      </option>
+                  <select value={draft.console} onChange={(e) => setField('console', e.target.value)}>
+                    {allConsoles.filter((c) => c.active !== false).map((c) => (
+                      <option key={c.id} value={c.id}>{c.name}</option>
                     ))}
                   </select>
                 </label>
                 <label>
                   {t.admin.id}
-                  <input
-                    value={draft.id}
-                    onChange={(e) => setField('id', e.target.value)}
-                    placeholder={slugify(draft.title)}
-                  />
+                  <input value={draft.id} onChange={(e) => setField('id', e.target.value)} placeholder={slugify(draft.title)} />
                 </label>
                 <label className="admin-span2">
                   {t.admin.fieldTitle}
-                  <input
-                    value={draft.title}
-                    onChange={(e) => setField('title', e.target.value)}
-                    required
-                  />
+                  <input value={draft.title} onChange={(e) => setField('title', e.target.value)} required />
                 </label>
                 <label>
                   {t.admin.genre}
-                  <input
-                    value={draft.genre}
-                    onChange={(e) => setField('genre', e.target.value)}
-                  />
+                  <input value={draft.genre} onChange={(e) => setField('genre', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.developer}
-                  <input
-                    value={draft.developer}
-                    onChange={(e) => setField('developer', e.target.value)}
-                  />
+                  <input value={draft.developer} onChange={(e) => setField('developer', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.publisher}
-                  <input
-                    value={draft.publisher}
-                    onChange={(e) => setField('publisher', e.target.value)}
-                  />
+                  <input value={draft.publisher} onChange={(e) => setField('publisher', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.year}
-                  <input
-                    type="number"
-                    value={draft.year ?? ''}
-                    onChange={(e) => setField('year', e.target.value)}
-                  />
+                  <input type="number" value={draft.year ?? ''} onChange={(e) => setField('year', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.rating}
-                  <input
-                    type="number"
-                    value={draft.rating ?? ''}
-                    onChange={(e) => setField('rating', e.target.value)}
-                    placeholder="0"
-                  />
+                  <input type="number" value={draft.rating ?? ''} onChange={(e) => setField('rating', e.target.value)} placeholder="0" />
                 </label>
                 <label>
                   {t.admin.players}
-                  <input
-                    type="text"
-                    value={draft.players ?? ''}
-                    onChange={(e) => setField('players', e.target.value)}
-                    placeholder={t.admin.playersPlaceholder}
-                  />
+                  <input type="text" value={draft.players ?? ''} onChange={(e) => setField('players', e.target.value)} placeholder={t.admin.playersPlaceholder} />
                 </label>
                 <label>
                   {t.game.cooperative}
-                  <select
-                    value={draft.cooperativo ?? ''}
-                    onChange={(e) => setField('cooperativo', e.target.value)}
-                  >
+                  <select value={draft.cooperativo ?? ''} onChange={(e) => setField('cooperativo', e.target.value)}>
                     <option value="">Sin especificar</option>
                     <option value="No">No</option>
                     <option value="Local">Local</option>
@@ -551,10 +589,7 @@ export function AdminPage() {
                 </label>
                 <label>
                   {t.admin.multiplayer}
-                  <select
-                    value={draft.multijugador ?? ''}
-                    onChange={(e) => setField('multijugador', e.target.value)}
-                  >
+                  <select value={draft.multijugador ?? ''} onChange={(e) => setField('multijugador', e.target.value)}>
                     <option value="">Sin especificar</option>
                     <option value="No">No</option>
                     <option value="Local">Local</option>
@@ -564,11 +599,7 @@ export function AdminPage() {
                 </label>
                 <label>
                   {t.admin.color}
-                  <input
-                    type="color"
-                    value={draft.color}
-                    onChange={(e) => setField('color', e.target.value)}
-                  />
+                  <input type="color" value={draft.color} onChange={(e) => setField('color', e.target.value)} />
                 </label>
               </div>
             </fieldset>
@@ -578,27 +609,15 @@ export function AdminPage() {
               <div className="admin-grid">
                 <label className="admin-span2">
                   {t.admin.cover}
-                  <input
-                    value={draft.cover}
-                    onChange={(e) => setField('cover', e.target.value)}
-                  />
+                  <input value={draft.cover} onChange={(e) => setField('cover', e.target.value)} />
                 </label>
                 <label className="admin-span2">
                   {t.admin.trailer}
-                  <input
-                    value={draft.trailer}
-                    onChange={(e) => setField('trailer', e.target.value)}
-                  />
+                  <input value={draft.trailer} onChange={(e) => setField('trailer', e.target.value)} />
                 </label>
                 <label className="admin-span2">
                   {t.admin.screenshots}
-                  <textarea
-                    rows="4"
-                    value={draft.screenshots.join('\n')}
-                    onChange={(e) =>
-                      setField('screenshots', e.target.value.split('\n'))
-                    }
-                  />
+                  <textarea rows="4" value={draft.screenshots.join('\n')} onChange={(e) => setField('screenshots', e.target.value.split('\n'))} />
                 </label>
               </div>
             </fieldset>
@@ -608,57 +627,31 @@ export function AdminPage() {
               <div className="admin-grid">
                 <label>
                   {t.admin.region}
-                  <textarea
-                    rows={3}
-                    value={draft.download.region}
-                    onChange={(e) => setField('download.region', e.target.value)}
-                  />
+                  <textarea rows={3} value={draft.download.region} onChange={(e) => setField('download.region', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.size}
-                  <input
-                    value={draft.download.size}
-                    onChange={(e) => setField('download.size', e.target.value)}
-                  />
+                  <input value={draft.download.size} onChange={(e) => setField('download.size', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.format}
-                  <input
-                    value={draft.download.format}
-                    onChange={(e) => setField('download.format', e.target.value)}
-                  />
+                  <input value={draft.download.format} onChange={(e) => setField('download.format', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.update}
-                  <input
-                    value={draft.download.update}
-                    onChange={(e) => setField('download.update', e.target.value)}
-                  />
+                  <input value={draft.download.update} onChange={(e) => setField('download.update', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.fw}
-                  <input
-                    value={draft.download.fw}
-                    onChange={(e) => setField('download.fw', e.target.value)}
-                  />
+                  <input value={draft.download.fw} onChange={(e) => setField('download.fw', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.languages}
-                  <input
-                    value={draft.download.languages}
-                    onChange={(e) =>
-                      setField('download.languages', e.target.value)
-                    }
-                  />
+                  <input value={draft.download.languages} onChange={(e) => setField('download.languages', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.thanks}
-                  <input
-                    value={draft.download.thanks}
-                    onChange={(e) =>
-                      setField('download.thanks', e.target.value)
-                    }
-                  />
+                  <input value={draft.download.thanks} onChange={(e) => setField('download.thanks', e.target.value)} />
                 </label>
               </div>
 
@@ -668,64 +661,27 @@ export function AdminPage() {
                   <div key={i} className="admin-link-row">
                     <label>
                       {t.admin.linkLabel}
-                      <input
-                        value={link.label}
-                        onChange={(e) =>
-                          setField(`download.links.${i}.label`, e.target.value)
-                        }
-                      />
+                      <input value={link.label} onChange={(e) => setField(`download.links.${i}.label`, e.target.value)} />
                     </label>
                     <label>
                       {t.admin.linkUrl}
-                      <input
-                        value={link.url}
-                        onChange={(e) =>
-                          setField(`download.links.${i}.url`, e.target.value)
-                        }
-                      />
+                      <input value={link.url} onChange={(e) => setField(`download.links.${i}.url`, e.target.value)} />
                     </label>
                     <label>
                       {t.admin.linkColor}
-                      <select
-                        value={link.color}
-                        onChange={(e) =>
-                          setField(`download.links.${i}.color`, e.target.value)
-                        }
-                      >
+                      <select value={link.color} onChange={(e) => setField(`download.links.${i}.color`, e.target.value)}>
                         {linkColors.map((c) => (
-                          <option key={c} value={c}>
-                            {c}
-                          </option>
+                          <option key={c} value={c}>{c}</option>
                         ))}
                       </select>
                     </label>
-                    <button
-                      type="button"
-                      className="admin-link-remove"
-                      aria-label={t.admin.removeLink}
-                      title={t.admin.removeLink}
-                      onClick={() =>
-                        setField(
-                          'download.links',
-                          draft.download.links.filter((_, idx) => idx !== i),
-                        )
-                      }
-                    >
+                    <button type="button" className="admin-link-remove" aria-label={t.admin.removeLink} title={t.admin.removeLink} onClick={() => setField('download.links', draft.download.links.filter((_, idx) => idx !== i))}>
                       ×
                     </button>
                   </div>
                 ))}
               </div>
-              <button
-                type="button"
-                className="admin-btn-secondary"
-                onClick={() =>
-                  setField('download.links', [
-                    ...draft.download.links,
-                    { label: '', url: '', color: 'blue' },
-                  ])
-                }
-              >
+              <button type="button" className="admin-btn-secondary" onClick={() => setField('download.links', [...draft.download.links, { label: '', url: '', color: 'blue' }])}>
                 + {t.admin.addLink}
               </button>
             </fieldset>
@@ -735,38 +691,119 @@ export function AdminPage() {
               <div className="admin-grid">
                 <label>
                   {t.admin.descriptionEs}
-                  <textarea
-                    rows="4"
-                    value={draft.description?.es || ''}
-                    onChange={(e) => setField('description.es', e.target.value)}
-                  />
+                  <textarea rows="4" value={draft.description?.es || ''} onChange={(e) => setField('description.es', e.target.value)} />
                 </label>
                 <label>
                   {t.admin.descriptionEn}
-                  <textarea
-                    rows="4"
-                    value={draft.description?.en || ''}
-                    onChange={(e) => setField('description.en', e.target.value)}
-                  />
+                  <textarea rows="4" value={draft.description?.en || ''} onChange={(e) => setField('description.en', e.target.value)} />
                 </label>
               </div>
             </fieldset>
           </form>
+        ) : consoleDraft ? (
+          <form className="admin-form" onSubmit={onSaveConsole}>
+            <div className="admin-form-head">
+              <h2>{consoleDraft._origId ? 'Editar consola' : 'Nueva consola'}</h2>
+              <div>
+                <button type="button" onClick={() => setConsoleDraft(null)}>
+                  {t.admin.cancel}
+                </button>
+                <button type="submit" className="admin-btn-primary" disabled={savingConsole}>
+                  {savingConsole ? '…' : t.admin.save}
+                </button>
+              </div>
+            </div>
+
+            <fieldset className="admin-fs">
+              <legend>Datos de la consola</legend>
+              <div className="admin-grid">
+                <label>
+                  Nombre corto
+                  <input value={consoleDraft.name} onChange={(e) => setConsoleField('name', e.target.value)} required placeholder="ej: Switch" />
+                </label>
+                <label>
+                  Nombre completo
+                  <input value={consoleDraft.fullName} onChange={(e) => setConsoleField('fullName', e.target.value)} placeholder="ej: Nintendo Switch" />
+                </label>
+                <label>
+                  ID
+                  <input value={consoleDraft.id} onChange={(e) => setConsoleField('id', e.target.value)} placeholder={slugify(consoleDraft.name)} />
+                </label>
+                <label>
+                  Color
+                  <input type="color" value={consoleDraft.color} onChange={(e) => setConsoleField('color', e.target.value)} />
+                </label>
+                <label className="admin-span2">
+                  Gradiente CSS
+                  <input value={consoleDraft.gradient} onChange={(e) => setConsoleField('gradient', e.target.value)} placeholder="linear-gradient(135deg, #ff5a5f 0%, #c4001e 100%)" />
+                </label>
+                <label className="admin-span2">
+                  Imagen de portada (URL)
+                  <input value={consoleDraft.image} onChange={(e) => setConsoleField('image', e.target.value)} placeholder="https://..." />
+                </label>
+                <label className="admin-span2">
+                  Icono (URL — imagen o SVG)
+                  <input value={consoleDraft.icon} onChange={(e) => setConsoleField('icon', e.target.value)} placeholder="/logos/switch.svg o https://..." />
+                </label>
+                <label className="admin-check-label">
+                  <input type="checkbox" checked={consoleDraft.active} onChange={(e) => setConsoleField('active', e.target.checked)} />
+                  Activa (visible en selección de nuevos juegos)
+                </label>
+              </div>
+              {consoleDraft.icon && (
+                <div className="console-preview">
+                  <span className="console-preview-label">Vista previa icono:</span>
+                  <img src={consoleDraft.icon} alt="" style={{ width: 24, height: 24, objectFit: 'contain' }} />
+                  <span>{consoleDraft.name}</span>
+                </div>
+              )}
+            </fieldset>
+          </form>
+        ) : adminTab === 'consoles' ? (
+          <>
+            <div className="admin-toolbar">
+              <button type="button" className="admin-btn-primary" onClick={startNewConsole}>
+                + Nueva consola
+              </button>
+            </div>
+            <ul className="admin-list">
+              {allConsoles.map((c) => {
+                const gameCount = games.filter((g) => g.console === c.id).length
+                return (
+                  <li key={c.id} className="admin-row">
+                    <div className="admin-row-info">
+                      <span className="admin-tag" style={{ background: c.color }}>
+                        {c.icon ? (
+                          <img src={c.icon} alt="" style={{ width: 14, height: 14, objectFit: 'contain', marginRight: 4, verticalAlign: 'middle' }} />
+                        ) : null}
+                        {c.name}
+                      </span>
+                      <div>
+                        <strong>{c.fullName || c.name}</strong>
+                        <span className="admin-row-id">{c.id} · {gameCount} juego{gameCount !== 1 ? 's' : ''}</span>
+                      </div>
+                    </div>
+                    <div className="admin-row-actions">
+                      <button type="button" className={c.active !== false ? 'admin-btn-toggle-on' : 'admin-btn-toggle-off'} onClick={() => onToggleConsole(c)}>
+                        {c.active !== false ? 'Activa' : 'Inactiva'}
+                      </button>
+                      <button type="button" onClick={() => startEditConsole(c)}>
+                        {t.admin.edit}
+                      </button>
+                      <button type="button" className="admin-btn-danger" onClick={() => onDeleteConsole(c)}>
+                        {t.admin.delete}
+                      </button>
+                    </div>
+                  </li>
+                )
+              })}
+            </ul>
+          </>
         ) : (
           <>
             <div className="admin-toolbar">
-              <input
-                className="admin-search"
-                type="search"
-                placeholder={t.admin.search}
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-              />
-              <button
-                type="button"
-                className="admin-btn-primary"
-                onClick={startNew}
-              >
+              <input className="admin-search" type="search" placeholder={t.admin.search} value={query} onChange={(e) => setQuery(e.target.value)} />
+              <button type="button" className="admin-btn-primary" onClick={startNew}>
                 {t.admin.newGame}
               </button>
             </div>
@@ -780,10 +817,10 @@ export function AdminPage() {
                   return (
                     <li key={g.id} className="admin-row">
                       <div className="admin-row-info">
-                        <span
-                          className="admin-tag"
-                          style={{ background: c?.color || '#666' }}
-                        >
+                        <span className="admin-tag" style={{ background: c?.color || '#666' }}>
+                          {c?.icon ? (
+                            <img src={c.icon} alt="" style={{ width: 14, height: 14, objectFit: 'contain', marginRight: 4, verticalAlign: 'middle' }} />
+                          ) : null}
                           {g.console}
                         </span>
                         <div>
@@ -795,11 +832,7 @@ export function AdminPage() {
                         <button type="button" onClick={() => startEdit(g)}>
                           {t.admin.edit}
                         </button>
-                        <button
-                          type="button"
-                          className="admin-btn-danger"
-                          onClick={() => onDelete(g)}
-                        >
+                        <button type="button" className="admin-btn-danger" onClick={() => onDelete(g)}>
                           {t.admin.delete}
                         </button>
                       </div>

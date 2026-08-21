@@ -11,6 +11,7 @@ import { SearchPage } from './components/SearchPage'
 import { GameDetail } from './components/GameDetail'
 import { AdminPage } from './components/AdminPage'
 import { loadGamesFromApi } from './data/store'
+import { loadConsolesFromApi } from './data/consoles'
 import { ErrorBoundary } from './components/ErrorBoundary'
 import './App.css'
 
@@ -27,6 +28,7 @@ function Footer() {
 function App() {
   useEffect(() => {
     loadGamesFromApi()
+    loadConsolesFromApi()
   }, [])
   return (
     <ThemeProvider>

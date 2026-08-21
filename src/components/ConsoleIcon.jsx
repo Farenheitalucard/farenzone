@@ -4,46 +4,23 @@ export function ConsoleIcon({ id, size = 16 }) {
   const consoleInfo = getConsole(id)
   if (!consoleInfo) return null
 
-  if (id === 'switch') {
+  const icon = consoleInfo.icon
+  if (icon) {
     return (
       <img
-        src="/logos/switch.svg"
+        src={icon}
         alt={consoleInfo.name}
-        className="console-logo console-logo-invert"
+        className="console-logo"
+        style={{ width: size, height: size, objectFit: 'contain' }}
       />
     )
   }
 
-  if (id === 'xbox360') {
-    return (
-      <svg
-        viewBox="196 0 322 322"
-        width={size}
-        height={size}
-        fill="currentColor"
-        aria-hidden="true"
-      >
-        <path d="M356.8 128.8s.4 0 0 0c48.4 36.8 130.4 127.2 105.6 152.8-28.4 24.8-65.2 39.6-105.6 39.6s-77.6-14.8-105.6-39.6c-25.2-25.6 57.2-116 105.2-152.4 0-.4.4-.4.4-.4z" />
-        <path d="M440.4 23.6C416 8.8 389.2 0 356.8 0s-59.2 8.8-83.6 23.6c-.4 0-.4.4-.4.8s.4.4.8.4c31.2-6.8 78.4 20 82.8 22.8h.8c4.4-2.8 51.6-29.6 82.8-22.8.4 0 .8 0 .8-.4s0-.8-.4-.8z" />
-        <path d="M244.4 46c-.4 0-.4.4-.8.4-29.2 29.2-47.2 69.6-47.2 114 0 36.4 12.4 70.4 32.8 97.2 0 .4.4.4.8.4s.4-.4 0-.8c-12.4-38 50.4-129.6 82.8-168l.4-.4c0-.4 0-.4-.4-.4-49.2-48.8-65.6-43.6-68.4-42.4z" />
-        <path d="M400.8 88l-.4.4s0 .4.4.4c32.4 38.4 94.8 130 82.8 168v.8c.4 0 .8 0 .8-.4 20.4-26.8 32.8-60.8 32.8-97.2 0-44.4-18-84.8-47.6-114-.4-.4-.4-.4-.8-.4-2.4-.8-18.8-6-68 42.4z" />
-      </svg>
-    )
-  }
-
-  if (id === 'ps4' || id === 'ps3') {
-    return (
-      <svg
-        viewBox="0 0 24 24"
-        width={size}
-        height={size}
-        fill="currentColor"
-        aria-hidden="true"
-      >
-        <path d="M8.984 2.596v17.547l3.915 1.261V6.688c0-.69.304-1.151.794-.991.636.18.76.814.76 1.505v5.875c2.441 1.193 4.362-.002 4.362-3.152 0-3.237-1.126-4.675-4.438-5.827-1.307-.448-3.728-1.186-5.39-1.502zm4.656 16.241l6.296-2.275c.715-.258.826-.625.246-.818-.586-.192-1.637-.139-2.357.123l-4.205 1.5V14.98l.24-.085s1.201-.42 2.913-.615c1.696-.18 3.785.03 5.437.661 1.848.601 2.04 1.472 1.576 2.072-.465.6-1.622 1.036-1.622 1.036l-8.544 3.107V18.86zM1.807 18.6c-1.9-.545-2.214-1.668-1.352-2.32.801-.586 2.16-1.052 2.16-1.052l5.615-2.013v2.313L4.205 17c-.705.271-.825.632-.239.826.586.195 1.637.15 2.343-.12L8.247 17v2.074c-.12.03-.256.044-.39.073-1.939.331-3.996.196-6.038-.479z" />
-      </svg>
-    )
-  }
-
-  return null
+  return (
+    <span
+      className="console-tag-dot"
+      style={{ width: size, height: size, background: consoleInfo.color, borderRadius: '50%', display: 'inline-block' }}
+      aria-hidden="true"
+    />
+  )
 }

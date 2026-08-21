@@ -11,6 +11,7 @@ const DEFAULT_CONSOLES = [
     color: '#e60012',
     gradient: 'linear-gradient(135deg, #ff5a5f 0%, #c4001e 100%)',
     image: 'http://imgfz.com/i/2hok93e.png',
+    icon: '/logos/switch.svg',
     active: true,
   },
   {
@@ -20,6 +21,7 @@ const DEFAULT_CONSOLES = [
     color: '#2e6de0',
     gradient: 'linear-gradient(135deg, #5a9dff 0%, #1e4fb4 100%)',
     image: 'https://assets.gamingdeals.com/storage/uploads/2019/09/Only-on-PlayStation-header.jpg',
+    icon: '/logos/playstation.svg',
     active: true,
   },
   {
@@ -29,6 +31,7 @@ const DEFAULT_CONSOLES = [
     color: '#4a90d9',
     gradient: 'linear-gradient(135deg, #8fb9ff 0%, #2c5696 100%)',
     image: 'http://imgfz.com/i/m9R4lBG.png',
+    icon: '/logos/playstation.svg',
     active: true,
   },
   {
@@ -38,6 +41,7 @@ const DEFAULT_CONSOLES = [
     color: '#107c10',
     gradient: 'linear-gradient(135deg, #3ecf3e 0%, #0a5a0a 100%)',
     image: 'http://imgfz.com/i/Cmvay9N.png',
+    icon: '/logos/xbox.svg',
     active: true,
   },
 ]
@@ -85,6 +89,7 @@ export async function onRequestPut(context) {
     color: String(c.color || '#888').trim().slice(0, 20),
     gradient: String(c.gradient || '').trim().slice(0, 200),
     image: String(c.image || '').trim().slice(0, 500),
+    icon: String(c.icon || '').trim().slice(0, 500),
     active: c.active !== false,
   })).filter((c) => c.id && c.name)
 
