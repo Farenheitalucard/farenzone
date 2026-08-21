@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { createPortal } from 'react-dom'
 import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
 import { useTheme } from '../theme-context'
@@ -32,11 +33,13 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const boxRef = useRef(null)
   const menuRef = useRef(null)
+  const menuBtnRef = useRef(null)
+  const [menuPos, setMenuPos] = useState(null)
 
   useEffect(() => {
     function onDocClick(e) {
       if (boxRef.current && !boxRef.current.contains(e.target)) setOpen(false)
-      if (menuRef.current && !menuRef.current.contains(e.target)) setMenuOpen(false)
+      if (menuRef.current && !menuRef.current.contains(e.target) && !e.target.closest('.nav-menu-dropdown')) setMenuOpen(false)
     }
     document.addEventListener('mousedown', onDocClick)
     return () => document.removeEventListener('mousedown', onDocClick)
@@ -126,18 +129,25 @@ export function Navbar() {
       case 'menu':
         return (
           <div key="menu" className="nav-menu-wrap" ref={menuRef}>
-            <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
+            <button type="button" ref={menuBtnRef} className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} onClick={() => {
+              if (!menuOpen && menuBtnRef.current) {
+                const r = menuBtnRef.current.getBoundingClientRect()
+                setMenuPos({ top: r.bottom + 4, right: window.innerWidth - r.right })
+              }
+              setMenuOpen((v) => !v)
+            }} aria-label="Más consolas">
               ☰
             </button>
-            {menuOpen && (
-              <div className="nav-menu-dropdown">
+            {menuOpen && createPortal(
+              <div className="nav-menu-dropdown" style={menuPos ? { position: 'fixed', top: menuPos.top, right: menuPos.right } : undefined}>
                 {consoles.map((c) => (
                   <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
                     <ConsoleIcon id={c.id} size={18} />
                     {t.nav[c.id] || c.name}
                   </NavLink>
                 ))}
-              </div>
+              </div>,
+              document.body
             )}
           </div>
         )
@@ -184,9 +194,6 @@ export function Navbar() {
   }
 
   const nonSocial = elements.filter((e) => e.type !== 'social' && e.visible !== false)
-  const scrollTypes = new Set(['nav', 'consoles'])
-  const scrollEls = nonSocial.filter((e) => scrollTypes.has(e.type))
-  const fixedEls = nonSocial.filter((e) => !scrollTypes.has(e.type))
 
   return (
     <header className="navbar">
@@ -200,9 +207,9 @@ export function Navbar() {
 
         <nav className="nav-links">
           <div className="nav-links-scroll">
-            {scrollEls.map(renderElement)}
+            {nonSocial.filter((e) => e.type === 'nav' || e.type === 'consoles').map(renderElement)}
           </div>
-          {fixedEls.map(renderElement)}
+          {nonSocial.filter((e) => e.type !== 'nav' && e.type !== 'consoles').map(renderElement)}
         </nav>
       </div>
     </header>

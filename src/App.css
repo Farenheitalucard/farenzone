@@ -1301,6 +1301,17 @@
 
   .nav-links {
     gap: 2px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links-scroll {
+    overflow: visible;
   }
 
   .nav-links a {
