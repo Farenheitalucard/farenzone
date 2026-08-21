@@ -96,8 +96,7 @@
   display: block;
 }
 
-[data-theme='dark'] .nav-links a .console-logo-invert,
-[data-theme='dark'] .home-row-title-wrap .console-logo-invert {
+[data-theme='dark'] .console-logo {
   filter: brightness(0) invert(1);
 }
 
