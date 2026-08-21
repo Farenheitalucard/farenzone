@@ -1100,28 +1100,6 @@
     }
   },
   {
-    "id": "monster-hunter-world",
-    "console": "ps4",
-    "title": "Monster Hunter: World",
-    "genre": "RPG de Acción - Aventura",
-    "developer": "Capcom",
-    "publisher": "Capcom",
-    "year": 2018,
-    "rating": 90,
-    "players": "1",
-    "cooperativo": "No",
-    "multijugador": "Local y online",
-    "color": "#8f6e2f",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/52679-1.jpg",
-    "trailer": "",
-    "screenshots": [],
-    "description": {
-      "es": "Caza monstruos colosales en un mundo vivo y conectado en el Nuevo Mundo.",
-      "en": "Hunt colossal monsters in a living, connected world in the New World."
-    },
-    "download": null
-  },
-  {
     "id": "sekiro",
     "console": "ps4",
     "title": "Sekiro: Shadows Die Twice",
@@ -2888,22 +2866,28 @@
     "trailer": "AXG6dAb0cr8",
     "screenshots": [
       "https://images.launchbox-app.com/2998a785-8828-4a5e-997c-1e80fa451c0b.png",
-      "https://images.launchbox-app.com/r2_01b837ec-bf99-43e3-bcbd-ae97596bf701.png",
-      "https://images.launchbox-app.com/r2_7978ff8a-5903-4a33-a4e5-599a6d716e75.png"
+      "https://cdn.thegamesdb.net/images/original/screenshot/119644-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/119644-1.jpg"
     ],
     "description": {
       "es": "Compite en pistas llenas de baba con personajes icónicos de Nickelodeon como SpongeBob, TMNT, Hey Arnold! y Rugrats. Corre con hasta 4 jugadores en multijugador local o compite en la Arena de Batalla.",
       "en": "Hit the Slime-filled race tracks with Nickelodeon characters from SpongeBob SquarePants, TMNT, Hey Arnold!, and Rugrats. Race your friends in up to 4-player local multiplayer or check out the Battle Arena for a variety of challenges."
     },
     "download": {
-      "region": "01006E500EE04000",
+      "region": "0100BD900A3FC000",
       "size": "1GB",
-      "format": "nsp",
+      "format": "xci",
       "update": "1.0.4",
-      "fw": "6.2.0+",
+      "fw": "6.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, neerlandes",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/i4iM24",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -2999,13 +2983,19 @@
     },
     "download": {
       "region": "0100EBC00FE14000",
-      "size": "2.1GB",
-      "format": "nsp",
+      "size": "2.05GB",
+      "format": "xci",
       "update": "1.0.3",
-      "fw": "10.0.0+",
+      "fw": "10.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, japones",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/2lTXkB9",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -3033,14 +3023,20 @@
       "en": "Rebuilt and re-imagined from the ground up, Nickelodeon Kart Racers returns bigger and better than ever. Featuring a fully voice acted cast of over 40 iconic characters, drift, slide, and boost your way to the finish line."
     },
     "download": {
-      "region": "0100B5A01795C000",
+      "region": "01003BA01575E000",
       "size": "5.9GB",
-      "format": "nsp",
-      "update": "1.0.0",
-      "fw": "14.0.0+",
+      "format": "xci",
+      "update": "0.3.2.15969+DLC",
+      "fw": "15.0.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, neerlandes",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/fYDgeK2",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -3074,7 +3070,7 @@
       "update": "1.29.0+DLC",
       "fw": "",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, chino tradicional, chino simplificado, ruso, polaco",
-      "thanks": "ContraseÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±a:  zonagamerfa",
+      "thanks": "Contraseña:  zonagamerfa",
       "links": [
         {
           "label": "Mediafire",
@@ -3788,7 +3784,11 @@
     "color": "#1a8a4a",
     "cover": "https://images.launchbox-app.com/8934a4a8-4808-4177-8a5a-b29d6293f6f5.jpg",
     "trailer": "2GIVVsTKTLg",
-    "screenshots": [],
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/40835-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/40835-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/40835-3.jpg"
+    ],
     "description": {
       "es": "Marcus Holloway usa sus habilidades de hacking para luchar contra la corrupta empresa ctOS 2.0 en el San Francisco del futuro.",
       "en": "Marcus Holloway uses his hacking skills to fight the corrupt ctOS 2.0 corporation in a near-future San Francisco."
@@ -4553,12 +4553,12 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#8b1a1a",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/97004-1.jpg",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/121151-1.jpg",
     "trailer": "",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/97004-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/97004-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/97004-3.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/129952-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/135587-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/120864-1.jpg"
     ],
     "description": {
       "es": "John Marston debe dar caza a sus antiguos compañeros en el salvaje oeste mexicano.",
@@ -4573,6 +4573,1006 @@
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnigth",
       "links": []
+    }
+  },
+  {
+    "id": "metroid-dread",
+    "console": "switch",
+    "title": "Metroid Dread",
+    "genre": "Accion - Aventura",
+    "developer": "MercurySteam",
+    "publisher": "Nintendo",
+    "year": 2021,
+    "rating": 88,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1a1a2e",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/87675-1.jpg",
+    "trailer": "7KSN0QUuOHs",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/87675-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/87675-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/87675-3.jpg"
+    ],
+    "description": {
+      "es": "Samus Aran regresa en una peligrosa mision en el planeta ZDR para enfrentar amenazas mecanicas conocidas como EMMI.",
+      "en": "Samus Aran returns on a dangerous mission to planet ZDR to face deadly mechanical threats known as EMMI."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Ruso",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "xenoblade-3",
+    "console": "switch",
+    "title": "Xenoblade Chronicles 3",
+    "genre": "RPG",
+    "developer": "Monolith Soft",
+    "publisher": "Nintendo",
+    "year": 2022,
+    "rating": 89,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2d5a7b",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/98315-1.jpg",
+    "trailer": "t-iNpDKuYb8",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/98315-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/98315-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/98315-3.jpg"
+    ],
+    "description": {
+      "es": "Un vasto mundo espera en esta aventura RPG que conecta los futuros de Xenoblade Chronicles 1 y 2 en el mundo de Aionios.",
+      "en": "A vast world awaits in this RPG adventure connecting the futures of Xenoblade Chronicles 1 and 2 in the world of Aionios."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "fire-emblem-engage",
+    "console": "switch",
+    "title": "Fire Emblem Engage",
+    "genre": "Estrategia - RPG",
+    "developer": "Intelligent Systems",
+    "publisher": "Nintendo",
+    "year": 2023,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#c41e3a",
+    "cover": "https://art.gametdb.com/switch/box/US/AYFNA.png?1674267752",
+    "trailer": "7lZFtCbP0uk",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/106753-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/106753-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/106753-3.jpg"
+    ],
+    "description": {
+      "es": "Invoca a los Emblemas y lucha junto a heroes legendarios para salvar el continente de Elyos del Dragon Caido.",
+      "en": "Summon the Emblems and fight alongside legendary heroes to save the continent of Elyos from the Fell Dragon."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "pikmin-4",
+    "console": "switch",
+    "title": "Pikmin 4",
+    "genre": "Estrategia - Aventura",
+    "developer": "Nintendo EAD",
+    "publisher": "Nintendo",
+    "year": 2023,
+    "rating": 87,
+    "players": "2",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2d8a4e",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/104491-1.jpg",
+    "trailer": "tqpbMLVa9EI",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/104491-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/104491-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/104491-3.jpg"
+    ],
+    "description": {
+      "es": "Los Pikmin regresan en una nueva aventura. Comanda estas criaturas diminutas y accompanied por Oatchi, el perro espacial.",
+      "en": "Pikmin are back in a new adventure. Command these tiny creatures and be accompanied by Oatchi, the space dog."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "super-mario-rpg",
+    "console": "switch",
+    "title": "Super Mario RPG",
+    "genre": "RPG - Plataformas",
+    "developer": "ArtePiazza",
+    "publisher": "Nintendo",
+    "year": 2023,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#e63946",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/115952-1.jpg",
+    "trailer": "0r5PJx7rlds",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/115952-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/115952-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/115952-3.jpg"
+    ],
+    "description": {
+      "es": "Mario, Bowser y Peach se unen para reparar el Camino de los Deseos. RPG colorido con graficos actualizados.",
+      "en": "Mario, Bowser, and Peach team up to repair the Star Road. Colorful RPG with updated graphics."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "princess-peach-showtime",
+    "console": "switch",
+    "title": "Princess Peach: Showtime!",
+    "genre": "Accion - Aventura",
+    "developer": "Good-Feel",
+    "publisher": "Nintendo",
+    "year": 2024,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#e8a0bf",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/118816-1.jpg",
+    "trailer": "FnODvKju3II",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/118816-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/118816-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/118816-3.jpg"
+    ],
+    "description": {
+      "es": "Peach toma el centro del escenario en una aventura theatrical donde se transforma en diferentes roles para salvar el teatro.",
+      "en": "Peach takes center stage in a theatrical adventure where she transforms into different roles to save the theater."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "bayonetta-3",
+    "console": "switch",
+    "title": "Bayonetta 3",
+    "genre": "Accion - Hack and Slash",
+    "developer": "PlatinumGames",
+    "publisher": "Nintendo",
+    "year": 2022,
+    "rating": 83,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#6b2fa0",
+    "cover": "https://art.gametdb.com/switch/box/US/AXB7A.png?1684372674",
+    "trailer": "KkA0NYTgWzw",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/52578-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/52578-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/52578-3.jpg"
+    ],
+    "description": {
+      "es": "Bayonetta regresa para enfrentar una amenaza multiversal con combates explosivos y demonios invocados.",
+      "en": "Bayonetta returns to face a multiversal threat with explosive combat and summoned demons."
+    },
+    "download": {
+      "region": "01004A4010FEA000",
+      "size": "14.4GB",
+      "format": "xci",
+      "update": "1.1.0",
+      "fw": "15.0.1",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/0FjBQR",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "astral-chain",
+    "console": "switch",
+    "title": "Astral Chain",
+    "genre": "Accion - Hack and Slash",
+    "developer": "PlatinumGames",
+    "publisher": "Nintendo",
+    "year": 2019,
+    "rating": 83,
+    "players": "2",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#00b4d8",
+    "cover": "https://art.gametdb.com/switch/box/US/AB48A.png?1567880066",
+    "trailer": "6HvfOK4X5Ag",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/63378-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/63378-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/63378-3.jpg"
+    ],
+    "description": {
+      "es": "Los policias legiones luchan contra invasores interdimensionales usando cadenas astrales y combate hack and slash.",
+      "en": "Legion police officers fight interdimensional invaders using astral chains and hack and slash combat."
+    },
+    "download": {
+      "region": "01007300020FA000",
+      "size": "9.81GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "8.1.0",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Ruso",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/KPnPtDk",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fire-emblem-three-houses",
+    "console": "switch",
+    "title": "Fire Emblem: Three Houses",
+    "genre": "Estrategia - RPG",
+    "developer": "Intelligent Systems",
+    "publisher": "Nintendo",
+    "year": 2019,
+    "rating": 89,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#b5179e",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/60625-1.jpg",
+    "trailer": "KzA71ahOBdE",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/60625-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60625-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60625-3.jpg"
+    ],
+    "description": {
+      "es": "Ensena en la Academia de Oficiales y guia a una de las tres casas en una historia de guerra, estrategia y amistad.",
+      "en": "Teach at the Officer Academy and lead one of three houses in a story of war, strategy, and friendship."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado, Ruso",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "zelda-echoes-of-wisdom",
+    "console": "switch",
+    "title": "The Legend of Zelda: Echoes of Wisdom",
+    "genre": "Accion - Aventura",
+    "developer": "Grezzo",
+    "publisher": "Nintendo",
+    "year": 2024,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2d6a4f",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/129929-1.jpg",
+    "trailer": "EFkHmVIv3vw",
+    "screenshots": [
+      "https://img.youtube.com/vi/EFkHmVIv3vw/mqdefault.jpg",
+      "https://img.youtube.com/vi/EFkHmVIv3vw/1.jpg",
+      "https://img.youtube.com/vi/EFkHmVIv3vw/2.jpg"
+    ],
+    "description": {
+      "es": "Zelda toma el protagonismo por primera vez usando la Herramienta Tri para crear ecos de objetos y enemigos.",
+      "en": "Zelda takes the spotlight for the first time using the Tri Rod to create echoes of objects and enemies."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "nickelodeon-brawl",
+    "console": "switch",
+    "title": "Nickelodeon All-Star Brawl",
+    "genre": "Fighting",
+    "developer": "Ludosity, Fair Play Labs",
+    "publisher": "GameMill Entertainment",
+    "year": 2021,
+    "rating": 68,
+    "players": "4",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#FF6B35",
+    "cover": "",
+    "trailer": "AA39bbw3j78",
+    "screenshots": [
+      "https://img.youtube.com/vi/AA39bbw3j78/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "Lucha con tus personajes favoritos de Nickelodeon en batallas de plataformas de hasta 4 jugadores con mas de 20 niveles tematicos.",
+      "en": "Brawl with your favorite Nickelodeon characters in platform battles for up to 4 players with over 20 themed levels."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "monster-hunter-stories",
+    "console": "switch",
+    "title": "Monster Hunter Stories",
+    "genre": "RPG",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2024,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#8B4513",
+    "cover": "https://art.gametdb.com/switch/box/US/BCQVA.png",
+    "trailer": "M2dbbEThIRo",
+    "screenshots": [
+      "https://img.youtube.com/vi/M2dbbEThIRo/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "Convertite en Monster Rider, incuba, cria y combate con tus Monsties favoristas en esta aventura RPG remasterizada con graficos refinados.",
+      "en": "Become a Monster Rider, hatch, raise, and battle with your favorite Monsties in this remastered RPG adventure with refined graphics."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "pac-man-world-repac",
+    "console": "switch",
+    "title": "Pac-Man World Re-PAC",
+    "genre": "Plataformas - Aventura",
+    "developer": "Bandai Namco Entertainment",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2022,
+    "rating": 73,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#FFD700",
+    "cover": "https://art.gametdb.com/switch/box/US/A46TA.png",
+    "trailer": "JLhu5ggOKWI",
+    "screenshots": [
+      "https://img.youtube.com/vi/JLhu5ggOKWI/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "PAC-MAN llega a casa en su cumpleanos y encuentra que los fantasmas han secuestrado a su familia. Rescatarlos en esta aventura de plataformas remasterizada.",
+      "en": "PAC-MAN arrives home on his birthday to find the Ghosts have kidnapped his family. Rescue them in this remastered platforming adventure."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Ruso",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "pico-park",
+    "console": "switch",
+    "title": "PICO PARK",
+    "genre": "Puzzle - Accion",
+    "developer": "TECOPARK",
+    "publisher": "TECOPARK",
+    "year": 2019,
+    "rating": 70,
+    "players": "2-8",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#4CAF50",
+    "cover": "",
+    "trailer": "r_-yjKYfp9Y",
+    "screenshots": [
+      "https://img.youtube.com/vi/r_-yjKYfp9Y/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "Juego de accion cooperativa para 2-8 jugadores. Consigue todas las llaves y llega a la meta en 48 niveles con gimmicks unicos.",
+      "en": "Cooperative action puzzle game for 2-8 players. Get all the keys and reach the goal across 48 levels with unique gimmicks."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "pico-park-2",
+    "console": "switch",
+    "title": "PICO PARK 2",
+    "genre": "Puzzle - Accion",
+    "developer": "TECOPARK",
+    "publisher": "TECOPARK",
+    "year": 2024,
+    "rating": 70,
+    "players": "2-8",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#4CAF50",
+    "cover": "",
+    "trailer": "4NDye1CEIo8",
+    "screenshots": [
+      "https://img.youtube.com/vi/4NDye1CEIo8/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "PICO PARK regresa con nuevos niveles. Juega con 2-8 jugadores local o online en este juego de puzzle cooperativo con modo DARK incluido.",
+      "en": "PICO PARK is back with all new levels. Play with 2-8 players locally or online in this co-op puzzle game with DARK mode included."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Japones, Coreano, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "nickelodeon-brawl-2",
+    "console": "switch",
+    "title": "Nickelodeon All-Star Brawl 2",
+    "genre": "Fighting",
+    "developer": "Fair Play Labs, Ludosity Interactive",
+    "publisher": "GameMill Entertainment",
+    "year": 2023,
+    "rating": 65,
+    "players": "4",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#FF6B35",
+    "cover": "https://art.gametdb.com/switch/box/US/BCJ4A.png",
+    "trailer": "0vFhrQqfZMs",
+    "screenshots": [
+      "https://img.youtube.com/vi/0vFhrQqfZMs/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "La secuela con campana nueva, nuevos personajes, graficos mejorados y modo cruzado. Combate con todos tus favoritos de Nickelodeon.",
+      "en": "The sequel with a new campaign, new characters, improved graphics and crossplay. Battle with all your Nickelodeon favorites."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Neerlandes",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "moonlighter",
+    "console": "switch",
+    "title": "Moonlighter",
+    "genre": "Accion RPG - Roguelite",
+    "developer": "Digital Sun",
+    "publisher": "Merge Games",
+    "year": 2018,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#5C6BC0",
+    "cover": "https://art.gametdb.com/switch/box/US/AQE3A.png",
+    "trailer": "I1yrVPSvl1s",
+    "screenshots": [
+      "https://img.youtube.com/vi/I1yrVPSvl1s/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "Sigue la rutina de Will, un aventurero tendero que sueña con ser heroe. Explora mazmorras, vende tesoros y administra tu tienda en este roguelite.",
+      "en": "Follow the everyday routines of Will, an adventurous shopkeeper who dreams of becoming a hero. Explore dungeons, sell treasures, and manage your shop in this roguelite."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Espanol, Portugues, Japones, Coreano, Chino Simplificado, Ruso",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "katana-zero",
+    "console": "switch",
+    "title": "Katana ZERO",
+    "genre": "Accion - Plataformas",
+    "developer": "Askiisoft",
+    "publisher": "Devolver Digital",
+    "year": 2019,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#00E5FF",
+    "cover": "http://imgfz.com/i/Mzi93PA.png",
+    "trailer": "-GcJC0N07Nk",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/64370-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/64370-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/64370-3.jpg"
+    ],
+    "description": {
+      "es": "Accion neo-noir con combate ultrarapido de muerte instantanea. Un ninja con amnesia investiga su pasado mientras elimina enemigos en un mundo pixel art.",
+      "en": "Neo-noir action with ultra-fast instant-death combat. A ninja with amnesia investigates his past while eliminating enemies in a pixel art world."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Aleman, Espanol, Frances, Japones, Coreano, Portugues, Ruso, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "salt-sanctuary",
+    "console": "switch",
+    "title": "Salt and Sanctuary",
+    "genre": "Accion RPG - Plataformas",
+    "developer": "Ska Studios",
+    "publisher": "Ska Studios LLC",
+    "year": 2018,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#5D4037",
+    "cover": "https://art.gametdb.com/switch/box/US/AMHZA.png",
+    "trailer": "FGw_AYRzPAk",
+    "screenshots": [
+      "https://img.youtube.com/vi/FGw_AYRzPAk/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "Un marinero naufraga en una isla maldita. Combate brutal en 2D con mas de 600 armas, armaduras y hechizos en un mundo oscuro tipo Soulslike.",
+      "en": "A doomed sailor is shipwrecked on a cursed island. Brutal 2D combat with over 600 weapons, armor pieces, and spells in a dark Soulslike world."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "crash-bandicoot-4",
+    "console": "ps4",
+    "title": "Crash Bandicoot 4: It's About Time",
+    "genre": "Plataformas",
+    "developer": "Toys for Bob",
+    "publisher": "Activision",
+    "year": 2020,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#FF6F00",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/117993-1.jpg",
+    "trailer": "CCum266l1vY",
+    "screenshots": [
+      "https://img.youtube.com/vi/CCum266l1vY/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "Crash y Coco estan de vuelta para derrotar a Neo Cortex y N. Tropy en un aventura a traves del multiverso con niveles desafiantes.",
+      "en": "Crash and Coco are back to take down Neo Cortex and N. Tropy in an adventure across the multiverse with challenging levels."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Portugues, Japones, Coreano, Chino Simplificado",
+      "thanks": "",
+      "links": []
+    }
+  },
+  {
+    "id": "re5-switch",
+    "console": "switch",
+    "title": "Resident Evil 5",
+    "genre": "Disparos en Tercera Persona - Accion",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2019,
+    "rating": 84,
+    "players": "4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#5c3a2f",
+    "cover": "https://art.gametdb.com/switch/box/US/ASLPA.png",
+    "trailer": "gfYo6UlWI_c",
+    "screenshots": [
+      "https://img.youtube.com/vi/gfYo6UlWI_c/mqdefault.jpg",
+      "https://img.youtube.com/vi/sxFSeUGgAfQ/mqdefault.jpg"
+    ],
+    "description": {
+      "es": "Chris Redfield y Sheva Alomar investigan una amenaza bioterrorista en Kijuju, Africa. Incluye todo el DLC y modos adicionales.",
+      "en": "Chris Redfield and Sheva Alomar investigate a bioterrorist threat in Kijuju, Africa. Includes all DLC and additional modes."
+    },
+    "download": {
+      "region": "010018100CD46000 - USA",
+      "size": "18.7GB",
+      "format": "XCI",
+      "update": "v1.0.3",
+      "fw": "v15.0.1",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/002Pamd",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bayonetta-switch",
+    "console": "switch",
+    "title": "Bayonetta",
+    "genre": "Accion - Hack and Slash",
+    "developer": "PlatinumGames",
+    "publisher": "Nintendo",
+    "year": 2018,
+    "rating": 90,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1a0a2e",
+    "cover": "https://art.gametdb.com/switch/box/US/AE99A.png",
+    "trailer": "h7PZ1i992kc",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/44157-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/95958-9.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/51679-3.jpg"
+    ],
+    "description": {
+      "es": "Bayonetta es una bruja que se despierta tras 500 anos en el fondo de un lago. Dispara, whip, corta y quema angeles mientras descubre la verdad sobre su pasado.",
+      "en": "Bayonetta is a butt-kicking, havoc-wreaking witch who shoots, whips, slices, and burns angels as she uncovers the truth about her own past after 500 years of sleep."
+    },
+    "download": {
+      "region": "010076F0049A2000",
+      "size": "8.78GB",
+      "format": "xci",
+      "update": "1.1",
+      "fw": "14.1.2",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/DRHN0G",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bayonetta-2-switch",
+    "console": "switch",
+    "title": "Bayonetta 2",
+    "genre": "Accion - Hack and Slash",
+    "developer": "PlatinumGames",
+    "publisher": "Nintendo",
+    "year": 2018,
+    "rating": 91,
+    "players": "2",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#0d1b3e",
+    "cover": "https://art.gametdb.com/switch/box/US/AE98A.png",
+    "trailer": "amFu1hsOtuM",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/51678-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/51678-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/123721-2.jpg"
+    ],
+    "description": {
+      "es": "Bayonetta viaja a una dimension demoniaca para resucitar a su amiga Jeanne. Nuevos armas, demas infernales y combate estilizado la esperan.",
+      "en": "Bayonetta travels to a demon dimension to resurrect her friend Jeanne. New weapons, infernal demons, and stylish combat await."
+    },
+    "download": {
+      "region": "01007960049A0000",
+      "size": "12.5GB",
+      "format": "xci",
+      "update": "1,2",
+      "fw": "15.0.1",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Z5Wbqr",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "god-of-war-ragnarok",
+    "console": "ps4",
+    "title": "God of War Ragnarok",
+    "genre": "Accion - Aventura",
+    "developer": "Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2022,
+    "rating": 94,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1a2a4a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/111301-1.jpg",
+    "trailer": "F3jePdO9_jc",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/102445-7.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/102445-8.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/102445-11.jpg"
+    ],
+    "description": {
+      "es": "Kratos y Atreus se embarcan en un viaje mitico antes de la batalla profetizada que terminara el mundo. Nuevos reinos, enemigos y armas los esperan.",
+      "en": "Kratos and Atreus embark on a mythic journey before the prophesied battle that will end the world. New realms, enemies, and weapons await them."
+    },
+    "download": {
+      "region": "CUSA34384 - USA",
+      "size": "122.9GB",
+      "format": "pkg",
+      "update": "6.05 - 5.05",
+      "fw": "9.50+  -  5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Fugazi & CyB1K",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://akirabox.to/qw1zerEB0GXy/file",
+          "color": "blue"
+        },
+        {
+          "label": "Update 6.05 (9.50+)",
+          "url": "https://ouo.io/eSRvqW",
+          "color": "blue"
+        },
+        {
+          "label": "Update 5.05 (5.05+)",
+          "url": "https://ouo.io/7wGVpF9",
+          "color": "blue"
+        },
+        {
+          "label": "3DLC",
+          "url": "https://ouo.io/oXUC37K",
+          "color": "blue"
+        },
+        {
+          "label": "Digital ArtBook & Soundtrack",
+          "url": "https://cuty.io/gobook",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "uncharted-nathan-drake-collection",
+    "console": "ps4",
+    "title": "Uncharted: The Nathan Drake Collection",
+    "genre": "Accion - Aventura",
+    "developer": "Bluepoint Games",
+    "publisher": "Sony Computer Entertainment",
+    "year": 2015,
+    "rating": 86,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3a2a1a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/31758-1.jpg",
+    "trailer": "-mH2SVyBMAQ",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/31758-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/31758-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/31758-3.jpg"
+    ],
+    "description": {
+      "es": "Las tres primeras aventuras de Nathan Drake remasterizadas en 1080p y 60fps. Incluye Uncharted 1, 2 y 3 con graficos mejorados.",
+      "en": "The first three Nathan Drake adventures remastered in 1080p and 60fps. Includes Uncharted 1, 2 and 3 with improved graphics."
+    },
+    "download": {
+      "region": "CUSA02320 - USA",
+      "size": "41.4GB",
+      "format": "pkg",
+      "update": "1.02 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma ( Latino)",
+      "thanks": "Fugazi",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/7KcbGA",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "guilty-gear-strive-switch",
+    "console": "switch",
+    "title": "Guilty Gear Strive",
+    "genre": "Lucha - Accion",
+    "developer": "Arc System Works",
+    "publisher": "Arc System Works",
+    "year": 2025,
+    "rating": 82,
+    "players": "2",
+    "cooperativo": "No",
+    "multijugador": "Si",
+    "color": "#b71c1c",
+    "cover": "https://art.gametdb.com/switch/box/US/BJBLA.png",
+    "trailer": "ByP0f5Y08fk",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/81696-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/81696-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/97141-1.jpg"
+    ],
+    "description": {
+      "es": "Guilty Gear -Strive- llega a Nintendo Switch con sus 28 personajes jugables, impresionantes graficos cel-shaded y animaciones espectaculares. Incluye el modo historia de mas de 6 horas, batallas online con Rollback Netcode, y los tres primeros pases de DLC. Disfruta de intensas peleas 2.5D en modo TV, mesa o portatil.",
+      "en": "Guilty Gear -Strive- arrives on Nintendo Switch with 28 playable characters, stunning cel-shaded graphics and spectacular animations. Features a 6+ hour story mode, online battles with Rollback Netcode, and the first three season passes of DLC. Experience intense 2.5D fighting in TV, tabletop, or handheld mode."
+    },
+    "download": {
+      "region": "0100AB401F136000",
+      "size": "15.3GB",
+      "format": "xci",
+      "update": "1.0.8+4DLC",
+      "fw": "21.2.0",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Chino Tradicional",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/KljHDlJ",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pretty-princess-magical-garden-island-switch",
+    "console": "switch",
+    "title": "Pretty Princess Magical Garden Island",
+    "genre": "Simulacion - Granja",
+    "developer": "Nippon Columbia",
+    "publisher": "Aksys Games",
+    "year": 2023,
+    "rating": 66,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#f8bbd0",
+    "cover": "https://art.gametdb.com/switch/box/US/A9WQB.png?1687622167",
+    "trailer": "rQa78EhXHsY",
+    "screenshots": [
+      "http://imgfz.com/i/iIWvyNR.jpeg",
+      "http://imgfz.com/i/fIo2jd9.jpeg",
+      "http://imgfz.com/i/Y36Lzkr.webp"
+    ],
+    "description": {
+      "es": "Un juego de simulacion de granja en un mundo de fantasia europeo. Cultiva cosechas, cria animales y explora la isla para recolectar recursos y crear productos. Usa el dinero ganado para decorar la isla y convertirla en tu hogar de ensueno principezco.",
+      "en": "A farming simulation game set in a cute European fantasy world. Cultivate crops, raise livestock and explore the island to collect resources and create goods. Use the money you earn to decorate the island and make it your perfectly royal fantasy home."
+    },
+    "download": {
+      "region": "01001CA019DA200",
+      "size": "1.27GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "16.1.0",
+      "languages": "Ingles, Japones",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/aAO8g6",
+          "color": "blue"
+        }
+      ]
     }
   }
 ]
