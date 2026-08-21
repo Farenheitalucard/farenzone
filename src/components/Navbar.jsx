@@ -161,7 +161,7 @@ export function Navbar() {
             {consoles.map((c) => (
               <NavLink key={c.id} to={`/consola/${c.id}`}>
                 <ConsoleIcon id={c.id} />
-                {t.nav[c.id]}
+                {t.nav[c.id] || c.name}
               </NavLink>
             ))}
           </nav>

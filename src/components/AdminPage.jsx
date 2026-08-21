@@ -17,10 +17,10 @@ function blankLinks() {
   ]
 }
 
-function blankGame() {
+function blankGame(firstActiveConsole) {
   return {
     id: '',
-    console: 'switch',
+    console: firstActiveConsole || 'switch',
     title: '',
     genre: '',
     developer: '',
@@ -236,7 +236,7 @@ export function AdminPage() {
     const desc = d.description || {}
     const game = {
       id: ensureUniqueId(slugify(d.id || '') || slugify(d.title || ''), d._origId),
-      console: d.console || 'switch',
+      console: d.console || allConsoles.find((c) => c.active !== false)?.id || 'switch',
       title: (d.title || '').trim(),
       genre: (d.genre || '').trim(),
       developer: (d.developer || '').trim(),
@@ -310,7 +310,8 @@ export function AdminPage() {
 
   function startNew() {
     setMsg('')
-    setDraft(blankGame())
+    const firstActive = allConsoles.find((c) => c.active !== false)
+    setDraft(blankGame(firstActive?.id))
   }
 
   function setField(path, value) {
