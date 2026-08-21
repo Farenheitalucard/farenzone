@@ -1301,6 +1301,15 @@
 
   .nav-links {
     gap: 2px;
+    overflow: visible;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .nav-links-scroll {
+    overflow-x: auto;
+    flex: 1;
+    min-width: 0;
   }
 
   .nav-links a {
