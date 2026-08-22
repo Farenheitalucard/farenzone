@@ -1,4 +1,4 @@
-export default [
+export const games = [
   {
     "id": "zelda-botw",
     "console": "switch",

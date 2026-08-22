@@ -244,10 +244,10 @@ export function Navbar() {
 
         <nav className="nav-links">
           <div className="nav-links-scroll">
-            {elements.filter((e) => e.type !== 'social' && e.visible !== false && (e.type === 'nav' || e.type === 'consoles')).map(renderElement)}
+            {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type === 'consoles').map(renderElement)}
           </div>
           {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type === 'menu').map(renderElement)}
-          {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type !== 'nav' && e.type !== 'consoles' && e.type !== 'menu').map(renderElement)}
+          {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type !== 'consoles' && e.type !== 'menu').map(renderElement)}
         </nav>
       </div>
     </header>
