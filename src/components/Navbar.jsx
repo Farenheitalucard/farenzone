@@ -247,8 +247,9 @@ export function Navbar() {
             {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type === 'consoles').map(renderElement)}
           </div>
           {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type === 'menu').map(renderElement)}
-          {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type !== 'consoles' && e.type !== 'menu').map(renderElement)}
+          {elements.filter((e) => e.type !== 'social' && e.visible !== false && e.type !== 'consoles' && e.type !== 'menu' && e.type !== 'search').map(renderElement)}
         </nav>
+        {elements.filter((e) => e.type === 'search' && e.visible !== false).map(renderElement)}
       </div>
     </header>
   )

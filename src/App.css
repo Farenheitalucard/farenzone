@@ -1309,8 +1309,7 @@
   }
 
   .nav-links-scroll {
-    flex: 1 1 0;
-    min-width: 0;
+    flex: 0 1 auto;
     overflow-x: auto;
     gap: 2px;
   }
@@ -1323,7 +1322,7 @@
     order: 3;
   }
 
-  .nav-links > .search-box {
+  .search-box {
     order: 4;
     flex-basis: 100%;
     max-width: 100%;
