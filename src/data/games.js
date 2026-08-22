@@ -1303,7 +1303,16 @@ export const games = [
       "es": "Sam Bridges conecta una América fragmentada tras el Death Stranding.",
       "en": "Sam Bridges reconnects a shattered America in the wake of the Death Stranding."
     },
-    "download": null
+    "download": {
+      "region": "CUSA11260 - USA",
+      "size": "44.6GB",
+      "format": "pkg",
+      "update": "v1.13",
+      "fw": "8.50+",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "links": []
+    }
   },
   {
     "id": "cyberpunk-2077",
@@ -6087,6 +6096,37 @@ export const games = [
           "color": "blue"
         }
       ]
+    }
+  },
+  {
+    "id": "marvel-vs-capcom-fighting-collection",
+    "console": "ps4",
+    "title": "Marvel vs. Capcom Fighting Collection: Arcade Classics",
+    "genre": "Lucha - Acción",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2024,
+    "rating": 80,
+    "players": "1-2",
+    "cooperativo": "Si",
+    "multijugador": "Si",
+    "color": "#c41e2a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/96052-1.jpg",
+    "trailer": "",
+    "screenshots": [],
+    "description": {
+      "es": "7 clasicos de Capcom y Marvel en una coleccion: X-Men Children of the Atom, Marvel Super Heroes, X-Men vs Street Fighter, Marvel Super Heroes vs Street Fighter, Marvel vs Capcom, Marvel vs Capcom 2 y The Punisher. Con online, rollback netcode y modos de entrenamiento.",
+      "en": "7 Capcom and Marvel arcade classics in one collection: X-Men Children of the Atom, Marvel Super Heroes, X-Men vs Street Fighter, Marvel Super Heroes vs Street Fighter, Marvel vs Capcom, Marvel vs Capcom 2 and The Punisher. With online play, rollback netcode and training modes."
+    },
+    "download": {
+      "region": "CUSA46747 - USA",
+      "size": "3.50GB",
+      "format": "pkg",
+      "update": "v1.01",
+      "fw": "11.50+",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "links": []
     }
   }
 ]
