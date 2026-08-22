@@ -6126,6 +6126,7 @@ export const games = [
       "fw": "11.50+",
       "languages": "Multi idioma",
       "thanks": "",
+      "mod": "Test mod info",
       "links": []
     }
   }
