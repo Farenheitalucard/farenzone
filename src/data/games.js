@@ -1,4 +1,4 @@
-export const games = [
+export default [
   {
     "id": "zelda-botw",
     "console": "switch",
@@ -573,15 +573,30 @@ export const games = [
     "cover": "https://art.gametdb.com/switch/box/US/AZ82A.png",
     "trailer": "2jEq0F656aY",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/7a5794b6e6ba1d583e0c90e5fc503103dfb321db553de7160f39c13d8b6a26d3",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/76731e0af708c9bb61ffda82d4488e815696dc0ea78b35a200e381826b01654f",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/70e487d188c282a02eeafd629ece49d1a4fdf94e5aacf3acb9edfee6a6189daf"
+      "https://cdn.thegamesdb.net/images/original/screenshot/87710-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/87710-7.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/87710-2.jpg"
     ],
     "description": {
       "es": "Los mejores tableros y minijuegos de la saga reunidos para jugar en línea.",
       "en": "The best boards and minigames from the series, together for online play."
     },
-    "download": null
+    "download": {
+      "region": "01006FE013472000",
+      "size": "2.84GB",
+      "format": "xci",
+      "update": "1.1.1",
+      "fw": "13.2.1",
+      "languages": "Japonés, inglés, francés, alemán, italiano, español, coreano, holandés, ruso, chino, portugués",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/BbWK2W8",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "mario-u-deluxe",
@@ -656,7 +671,7 @@ export const games = [
       "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000055430/d008f8312312fff3dcb3cf726ded0195f91b5d8b3946ba32d7ef0ac16c515fb3"
     ],
     "description": {
-      "es": "Juega al tenis, al fútbol, al boliche y m��s moviéndote con los Joy-Con.",
+      "es": "Juega al tenis, al fútbol, al boliche y más moviéndote con los Joy-Con.",
       "en": "Play tennis, football, bowling and more by moving with your Joy-Con."
     },
     "download": null
@@ -3156,14 +3171,20 @@ export const games = [
       "en": "Relive the story of Goku and other Z Fighters in DRAGON BALL Z: KAKAROT. Beyond the epic battles, experience life in the DRAGON BALL Z world as you fight, fish, eat, and train with Goku, Gohan, Vegeta and others."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
+      "region": "010051C0134F8000",
+      "size": "27.1GB",
+      "format": "xci",
+      "update": "1.70+20DLC",
+      "fw": "21.0.1",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, ruso, polaco",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/xHSVEM",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4671,13 +4692,24 @@ export const games = [
     },
     "download": {
       "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
+      "size": "16.5GB",
+      "format": "xci",
+      "update": "2.0.0+2dlc",
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Parte1",
+          "url": "https://ouo.io/DKT9LFq",
+          "color": "green"
+        },
+        {
+          "label": "Parte2",
+          "url": "https://drive.google.com/file/d/15GnRvke_DWzmncGTQoVOl9il5o6GARLL/view?usp=drive_link",
+          "color": "green"
+        }
+      ]
     }
   },
   {
@@ -4880,8 +4912,8 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#b5179e",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/60625-1.jpg",
-    "trailer": "KzA71ahOBdE",
+    "cover": "https://art.gametdb.com/switch/box/US/ANVYA.png?1565805969",
+    "trailer": "ADaRsEhTB70",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/60625-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/60625-2.jpg",
@@ -4893,13 +4925,19 @@ export const games = [
     },
     "download": {
       "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
+      "size": "12.58GB",
+      "format": "xci",
+      "update": "1.2.0+6DLC",
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado, Ruso",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Drive",
+          "url": "https://ouo.io/tlxpz9",
+          "color": "green"
+        }
+      ]
     }
   },
   {
@@ -5588,8 +5626,8 @@ export const games = [
     "cooperativo": "Local",
     "multijugador": "Local",
     "color": "#1565c0",
-    "cover": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000043029/4ff8a1e4c87575f265e51de4b90de45040aa6e5350b30fab13894bf493f2ea68",
-    "trailer": "UjdAbxOaOHs",
+    "cover": "http://imgfz.com/i/aBGrswg.png",
+    "trailer": "pFbkOqhYQJI",
     "screenshots": [
       "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/8f09724a189104437ca7e19d36dc93820b82fee39402b91f8e537e2496ea5ee5",
       "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/ee542dd1d9cb044106a97fe71d5ffc31230a957be6cd21127dfcbda6fd291b25",
@@ -5600,17 +5638,17 @@ export const games = [
       "en": "Relive the epic adventure of the original Avatar: The Last Airbender series, playing as Aang and his friends. Master the elements, explore unique locations, solve puzzles and experience the most heart-touching moments of Aang's story. Play solo or with a friend in co-op mode."
     },
     "download": {
-      "region": "0100F8B018E82000 - USA",
-      "size": "4.7GB",
-      "format": "NSP",
-      "update": "v1.0.0",
-      "fw": "16.0.0+",
+      "region": "",
+      "size": "4.68GB",
+      "format": "xci",
+      "update": "0.3.0.29423",
+      "fw": "",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
       "thanks": "",
       "links": [
         {
           "label": "Mediafire",
-          "url": "#",
+          "url": "https://ouo.io/IZ1ecY",
           "color": "blue"
         }
       ]
@@ -5629,8 +5667,8 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "Local y online",
     "color": "#e65100",
-    "cover": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000124322/9ececef2d8606f8aef67554fb23afc72dd5a505dd341eb1bc4d54011769e39be",
-    "trailer": "x3PfjQ9BnNw",
+    "cover": "http://imgfz.com/i/AqHkm67.png",
+    "trailer": "y43u8b4JlR0",
     "screenshots": [
       "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/01a8f6ca5ff1128d55312b8b8eb91b69196086729458322dcda354fa6e2f1c85",
       "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/e1b297a0d41f4cc294e9bdcc1ebdac31e8ca9cde6425da7e47122df422550bec",
@@ -5641,17 +5679,17 @@ export const games = [
       "en": "A fast-paced 1v1 fighter that brings the world of Avatar to life with hand-drawn 2D animation. Choose from 12 playable characters and go head-to-head across multiple modes including Versus, Story, Arcade, Training, and Art Gallery. Features rollback netcode and full crossplay."
     },
     "download": {
-      "region": "0100CBB027BA4000 - USA",
-      "size": "8.1GB",
-      "format": "NSP",
-      "update": "v1.0.0",
-      "fw": "16.0.0+",
-      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "region": "",
+      "size": "8.6GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "22.5.0",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues5",
       "thanks": "",
       "links": [
         {
           "label": "Mediafire",
-          "url": "#",
+          "url": "https://ouo.io/CWnieB",
           "color": "blue"
         }
       ]
@@ -5670,12 +5708,12 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#ff9800",
-    "cover": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000121383/18b718ef562ec66cf861d4e77bd263818dde51820696048a1607da9aba80e21b",
+    "cover": "http://imgfz.com/i/wO9aVGq.png",
     "trailer": "WqOM1loUnq8",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000121383/8e60e6d26fdff5936f8d87e7e7b62eb9abbbc1d9b545fc4ea8c3ea10b1ebf273",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000121383/53f38ba583ea47f8dd08af96ec6a70ae0ed0e181c7bb2025ab1cd3a3d9cb5b1f",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000121383/3c81c32c43bb4f26a788a90ed31d906e228c830a4e85a4c1db75d8f0d30f081f"
+      "https://cdn.thegamesdb.net/images/original/titlescreen/135344-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/135344-1.jpg",
+      "http://imgfz.com/i/4QFiPGt.jpeg"
     ],
     "description": {
       "es": "Entrega el correo como Catto, el dedicado Gato Postal de la ciudad, mientras conoces amigos unicos en una vibrante y acogedora ciudad llena de residentes felinos. Explora la colorida ciudad, encuentra adorables residentes y alegra su dia ayudandolas con pequenas tareas.",
@@ -5711,7 +5749,7 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#9c27b0",
-    "cover": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000097679/47bf6bd525d2896fa58ffc22700c21399b6a9fae51047c2669a85aa56d924b22",
+    "cover": "http://imgfz.com/i/Qzwv9S5.png",
     "trailer": "9QY-IcoR89s",
     "screenshots": [
       "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000097679/11a3f1e310d91c6d8c3b7f6a2c47b1e84810d7c9b5549c51f2a5a43c3a359982",
@@ -5739,8 +5777,4 @@ export const games = [
       ]
     }
   }
-];
-
-export const getGame = (id) => games.find((g) => g.id === id)
-export const getGamesByConsole = (consoleId) =>
-  games.filter((game) => game.console === consoleId)
+]
