@@ -550,19 +550,6 @@ export function AdminPage() {
                     Nombre
                     <input value={profileName} onChange={(e) => setProfileName(e.target.value)} placeholder="Tu nombre" />
                   </label>
-                  <div className="admin-span2">
-                    <label className="admin-avatar-upload">
-                      Foto de perfil
-                      <div className="admin-avatar-preview">
-                        {profileAvatar ? <img src={profileAvatar} alt="Avatar" /> : <div className="admin-avatar-empty-large">Sin foto</div>}
-                      </div>
-                      <input type="file" accept="image/*" onChange={handleAvatarUpload} style={{ display: 'none' }} />
-                      <div className="admin-avatar-actions">
-                        <button type="button" className="admin-btn-secondary" onClick={() => document.querySelector('.admin-avatar-upload input[type=file]')?.click()}>Subir imagen</button>
-                        {profileAvatar && <button type="button" className="admin-btn-danger" onClick={() => setProfileAvatar('')}>Eliminar</button>}
-                      </div>
-                    </label>
-                  </div>
                 </div>
               </fieldset>
               <fieldset className="admin-fs">
