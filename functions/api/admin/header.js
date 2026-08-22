@@ -9,7 +9,7 @@ const DEFAULT_ELEMENTS = [
   { id: 'search', type: 'search', name: 'Buscar', visible: true, order: 3 },
   { id: 'home', type: 'nav', name: 'Inicio', url: '/', visible: true, order: 4 },
   { id: 'consoles', type: 'consoles', name: 'Consolas', visible: true, order: 5, mainIds: ['switch', 'ps4', 'ps3', 'xbox360'] },
-  { id: 'menu', type: 'menu', name: '☰', visible: true, order: 6 },
+  { id: 'menu', type: 'menu', name: '\u2630', visible: true, order: 6 },
   { id: 'admin', type: 'admin', name: 'Panel', visible: true, order: 7 },
   { id: 'theme', type: 'theme', name: 'Tema', visible: true, order: 8 },
   { id: 'language', type: 'language', name: 'Idioma', visible: true, order: 9 },
@@ -56,6 +56,7 @@ function sanitizeRow(row) {
 
 function sanitizeDevice(d) {
   return {
+    elements: sanitizeElements(d.elements),
     height: typeof d.height === 'number' ? d.height : 0,
     maxWidth: typeof d.maxWidth === 'number' ? d.maxWidth : 0,
     paddingX: typeof d.paddingX === 'number' ? d.paddingX : 0,
@@ -63,8 +64,8 @@ function sanitizeDevice(d) {
     gap: typeof d.gap === 'number' ? d.gap : 8,
     justify: ['flex-start', 'center', 'flex-end', 'space-between', 'space-around', 'space-evenly'].includes(d.justify) ? d.justify : 'flex-start',
     align: ['flex-start', 'center', 'flex-end', 'stretch'].includes(d.align) ? d.align : 'center',
-    iconSize: typeof d.iconSize === 'number' ? d.iconSize : 18,
-    textSize: typeof d.textSize === 'number' ? d.textSize : 14,
+    iconSize: typeof d.iconSize === 'number' && d.iconSize > 0 ? d.iconSize : 16,
+    textSize: typeof d.textSize === 'number' && d.textSize > 0 && d.textSize < 100 ? d.textSize : 13,
     rows: Array.isArray(d.rows) ? d.rows.map(sanitizeRow) : null,
   }
 }
