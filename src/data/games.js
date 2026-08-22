@@ -31,6 +31,7 @@ export const games = [
       "fw": "v8.0.0+",
       "languages": "Espanol, Ingles, Frances, Aleman, Italiano, Japones, Coreano, Chino, etc.",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -108,6 +109,7 @@ export const games = [
       "fw": "20.0.1",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Portugues, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional, Ingles EE. UU.",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "3.0.3",
@@ -154,6 +156,7 @@ export const games = [
       "fw": "22.1.0",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -429,6 +432,7 @@ export const games = [
       "fw": "9.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, chino simplificado, chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -522,6 +526,7 @@ export const games = [
       "fw": "19.0.1",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -589,6 +594,7 @@ export const games = [
       "fw": "13.2.1",
       "languages": "Japonés, inglés, francés, alemán, italiano, español, coreano, holandés, ruso, chino, portugués",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -760,6 +766,7 @@ export const games = [
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -811,6 +818,7 @@ export const games = [
       "fw": "6.72+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -862,6 +870,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -913,6 +922,7 @@ export const games = [
       "fw": "5.50+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -964,6 +974,7 @@ export const games = [
       "fw": "",
       "languages": "",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1001,6 +1012,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -1036,6 +1048,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1k",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1077,6 +1090,7 @@ export const games = [
       "fw": "6.00+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007 & Kbis",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1118,6 +1132,7 @@ export const games = [
       "fw": "N/A",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Playable & hako",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1155,6 +1170,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "DUPLEX & CyB1K",
+      "mod": "",
       "links": []
     }
   },
@@ -1234,6 +1250,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Prelude",
+      "mod": "",
       "links": []
     }
   },
@@ -1269,6 +1286,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -1311,6 +1329,7 @@ export const games = [
       "fw": "8.50+",
       "languages": "Multi idioma",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -1342,6 +1361,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "CyB1K",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1405,6 +1425,7 @@ export const games = [
       "fw": "5.0.5+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1490,6 +1511,7 @@ export const games = [
       "fw": "",
       "languages": "Japones, Ingles",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1531,6 +1553,7 @@ export const games = [
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1571,6 +1594,7 @@ export const games = [
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1777,6 +1801,7 @@ export const games = [
       "fw": "N/A",
       "languages": "Multi idioma (Castellano)",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -2647,6 +2672,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2688,6 +2714,7 @@ export const games = [
       "fw": "22.5.0",
       "languages": "Ingles, frances, italiano, aleman, espanol (Espana), polaco, portugues (Brasil), ruso, chino",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2729,6 +2756,7 @@ export const games = [
       "fw": "22.1.0",
       "languages": "Ingles, japones, ruso, coreano, chino, portugues",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2770,6 +2798,7 @@ export const games = [
       "fw": "22.1.0",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2811,6 +2840,7 @@ export const games = [
       "fw": "22.5.0",
       "languages": "Frances, aleman, italiano, espanol, ruso, chino, portugues, ingles americano, polaco",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2852,6 +2882,7 @@ export const games = [
       "fw": "9.00+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "D33j4y",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -2908,6 +2939,7 @@ export const games = [
       "fw": "",
       "languages": "Espanol Latino",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Formato iso",
@@ -2954,6 +2986,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2995,6 +3028,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3036,6 +3070,7 @@ export const games = [
       "fw": "17.0.1",
       "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, portugues, ruso, chino simplificado, chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3077,6 +3112,7 @@ export const games = [
       "fw": "6.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, neerlandes",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3144,6 +3180,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3185,6 +3222,7 @@ export const games = [
       "fw": "10.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, japones",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3226,6 +3264,7 @@ export const games = [
       "fw": "15.0.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, neerlandes",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3267,6 +3306,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, chino tradicional, chino simplificado, ruso, polaco",
       "thanks": "Contraseña:  zonagamerfa",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3313,6 +3353,7 @@ export const games = [
       "fw": "22.1.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, japones, coreano, tailandes, chino tradicional, chino simplificado, ruso, polaco",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3359,6 +3400,7 @@ export const games = [
       "fw": "21.0.1",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, ruso, polaco",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3400,6 +3442,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, frances, aleman, espanol, italiano",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -3435,6 +3478,7 @@ export const games = [
       "fw": "13.0.0",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3476,6 +3520,7 @@ export const games = [
       "fw": "13.2.1",
       "languages": "Ingles, frances, aleman, italiano, espanol, ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3517,6 +3562,7 @@ export const games = [
       "fw": "15.0.1",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3558,6 +3604,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Droby25 - Pout",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3599,6 +3646,7 @@ export const games = [
       "fw": "9.00+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3640,6 +3688,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3681,6 +3730,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3722,6 +3772,7 @@ export const games = [
       "fw": "",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3763,6 +3814,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3809,6 +3861,7 @@ export const games = [
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "PS4STORE",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3850,6 +3903,7 @@ export const games = [
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "DUPLEX",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3891,6 +3945,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3928,6 +3983,7 @@ export const games = [
       "fw": "5.00+",
       "languages": "Multi idioma (Latino)",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3965,6 +4021,7 @@ export const games = [
       "fw": "",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1K - Vickmindfreak",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -4016,6 +4073,7 @@ export const games = [
       "fw": "4.00+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -4067,6 +4125,7 @@ export const games = [
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "hako",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4108,6 +4167,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Golemnight/Opoisso893",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4149,6 +4209,7 @@ export const games = [
       "fw": "9.00+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4190,6 +4251,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino/Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -4231,6 +4293,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Espanol Castellano",
       "thanks": "Farenheit",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4272,6 +4335,7 @@ export const games = [
       "fw": "5.50+",
       "languages": "Multi idioma",
       "thanks": "Grief247allday & CyB1K & jwooh",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4313,6 +4377,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "C4our20 & Pout",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4354,6 +4419,7 @@ export const games = [
       "fw": "12.00+",
       "languages": "Multi idioma",
       "thanks": "High-Speed",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4395,6 +4461,7 @@ export const games = [
       "fw": "6.00+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Commandblock",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4436,6 +4503,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "kbis",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4477,6 +4545,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4518,6 +4587,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4559,6 +4629,7 @@ export const games = [
       "fw": "20.0.1+",
       "languages": "Espanol, Ingles, Frances, Aleman, Italiano, Japones, Chino, Coreano, Ruso, Neerlandes, Portugues",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4600,6 +4671,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4641,6 +4713,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "DUPLEX & Opoisso893",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4682,6 +4755,7 @@ export const games = [
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1K",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4723,6 +4797,7 @@ export const games = [
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007 & Kbis",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -4769,6 +4844,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -4820,6 +4896,7 @@ export const games = [
       "fw": "9.00+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -4866,6 +4943,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4901,6 +4979,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4936,6 +5015,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Parte1",
@@ -4982,6 +5062,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5017,6 +5098,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5052,6 +5134,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5087,6 +5170,7 @@ export const games = [
       "fw": "15.0.1",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5128,6 +5212,7 @@ export const games = [
       "fw": "8.1.0",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5169,6 +5254,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Drive",
@@ -5210,6 +5296,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5243,6 +5330,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5276,6 +5364,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5309,6 +5398,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5342,6 +5432,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5375,6 +5466,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5408,6 +5500,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Neerlandes",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5441,6 +5534,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Espanol, Portugues, Japones, Coreano, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5476,6 +5570,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Aleman, Espanol, Frances, Japones, Coreano, Portugues, Ruso, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5509,6 +5604,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5542,6 +5638,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Portugues, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5577,6 +5674,7 @@ export const games = [
       "fw": "v15.0.1",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5618,6 +5716,7 @@ export const games = [
       "fw": "14.1.2",
       "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5659,6 +5758,7 @@ export const games = [
       "fw": "15.0.1",
       "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5700,6 +5800,7 @@ export const games = [
       "fw": "9.50+  -  5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi & CyB1K",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -5761,6 +5862,7 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma ( Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5802,6 +5904,7 @@ export const games = [
       "fw": "21.2.0",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Chino Tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5843,6 +5946,7 @@ export const games = [
       "fw": "16.1.0",
       "languages": "Ingles, Japones",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5884,6 +5988,7 @@ export const games = [
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5925,6 +6030,7 @@ export const games = [
       "fw": "22.5.0",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues5",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5966,6 +6072,7 @@ export const games = [
       "fw": "22.1.0",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -6007,6 +6114,7 @@ export const games = [
       "fw": "19.0.0",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -6048,6 +6156,7 @@ export const games = [
       "fw": "5.0.0",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues, Ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -6089,13 +6198,8 @@ export const games = [
       "fw": "6.72+",
       "languages": "Multi idioma (Latino)",
       "thanks": "kbis",
-      "links": [
-        {
-          "label": "Juego",
-          "url": "",
-          "color": "blue"
-        }
-      ]
+      "mod": "",
+      "links": []
     }
   },
   {
@@ -6124,10 +6228,10 @@ export const games = [
       "format": "pkg",
       "update": "v1.01",
       "fw": "11.50+",
-      "languages": "Multi idioma",
-      "thanks": "",
-      "mod": "Test mod info",
+      "languages": "Multi idioma (Latino solo MVC2",
+      "thanks": "UNLiMiTED & Droby25 & Schzone",
+      "mod": "Ridertron416 kizeo0  Infinitystok EDIZEL YisusAhg  Bl4zeModder",
       "links": []
     }
   }
-]
+];
