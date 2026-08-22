@@ -5776,5 +5776,46 @@ export const games = [
         }
       ]
     }
+  },
+  {
+    "id": "shaq-fu-a-legend-reborn",
+    "console": "switch",
+    "title": "Shaq Fu: A Legend Reborn",
+    "genre": "Acción - Beat 'em up",
+    "developer": "Big Deez Productions",
+    "publisher": "Wired Productions",
+    "year": 2018,
+    "rating": 50,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#f44336",
+    "cover": "https://art.gametdb.com/switch/cover/US/AEQZA.jpg",
+    "trailer": "SnucJkzmMOU",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000000888/56fbf124f5d187fd49976fe8253009d3e47201f90f953ee0d1075e0f9657dd07",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000000888/8d314a5758d4f7ac1308caf76231b88d5586668a0856a863726b7b85d24bac2d",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000000888/be2c22796e699cb39d926fdc4b27df1d2ea0d129b8128c85ed04e72649030774"
+    ],
+    "description": {
+      "es": "Un bolso flota a la deriva por el río con un bebé huérfano en su interior. Encuentran y adoptan al niño, que acaba descubriendo su verdadera identidad y la grandeza de su destino. Shaquille O'Neal interpreta a un maestro del Wu Xing experto en mamporros en este beat 'em up lleno de acción y humor. Enfrenta a jefes que son la parodia de conocidos patanes en batallas épicas.",
+      "en": "A baby orphan floats downriver in a bag and is found and adopted. He discovers his true identity and destiny. Shaquille O'Neal stars as a Wu Xing kung fu master in this action-packed beat 'em up filled with humor and epic boss battles."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues, Ruso",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "#",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
