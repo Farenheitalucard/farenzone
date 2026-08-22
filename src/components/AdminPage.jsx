@@ -235,7 +235,7 @@ export function AdminPage() {
     const screenshots = (d.screenshots || []).map((s) => (typeof s === 'string' ? s.trim() : '')).filter(Boolean)
     const links = (d.download?.links || []).filter((l) => l.label?.trim() && l.url?.trim()).map((l) => ({ label: l.label.trim(), url: l.url.trim(), color: l.color || 'blue' }))
     const dl = d.download || {}
-    const hasDownload = links.length > 0 || dl.region || dl.size || dl.format || dl.update || dl.fw || dl.languages || dl.thanks
+    const hasDownload = links.length > 0 || dl.region || dl.size || dl.format || dl.update || dl.fw || dl.languages || dl.thanks || dl.mod
     const desc = d.description || {}
     return {
       id: ensureUniqueId(slugify(d.id || '') || slugify(d.title || ''), d._origId),
@@ -255,7 +255,7 @@ export function AdminPage() {
       screenshots,
       description: { es: (desc.es || '').trim(), en: (desc.en || '').trim() },
       download: hasDownload
-        ? { region: (dl.region || '').trim(), size: (dl.size || '').trim(), format: (dl.format || '').trim(), update: (dl.update || '').trim(), fw: (dl.fw || '').trim(), languages: (dl.languages || '').trim(), thanks: (dl.thanks || '').trim(), links }
+        ? { region: (dl.region || '').trim(), size: (dl.size || '').trim(), format: (dl.format || '').trim(), update: (dl.update || '').trim(), fw: (dl.fw || '').trim(), languages: (dl.languages || '').trim(), thanks: (dl.thanks || '').trim(), mod: (dl.mod || '').trim(), links }
         : null,
     }
   }
