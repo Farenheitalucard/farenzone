@@ -1297,17 +1297,16 @@
     row-gap: 10px;
   }
 
-  .search-box {
-    order: 4;
+  .navbar-brand {
+    order: 1;
     flex-basis: 100%;
-    max-width: 100%;
-    margin-left: 0;
   }
 
   .nav-links {
     flex-wrap: wrap;
     gap: 2px;
     order: 2;
+    flex-basis: 100%;
   }
 
   .nav-links-scroll {
@@ -1317,7 +1316,18 @@
   }
 
   .nav-menu-wrap {
-    order: 2;
+    flex-shrink: 0;
+  }
+
+  .nav-links > :not(.nav-links-scroll):not(.nav-menu-wrap) {
+    order: 3;
+  }
+
+  .search-box {
+    order: 4;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-left: 0;
   }
 
   .nav-links a {
