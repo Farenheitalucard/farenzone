@@ -742,7 +742,7 @@ export const games = [
     "multijugador": "No",
     "color": "#3f6fa5",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/52805-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=CJ_GCPaK",
+    "trailer": "K0u_kAWLJOA",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/52805-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshots/52805-2.jpg",
@@ -760,7 +760,23 @@ export const games = [
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/EGtuc7",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.35",
+          "url": "https://ouo.io/ex2VnE",
+          "color": "blue"
+        },
+        {
+          "label": "8DLC",
+          "url": "https://cuty.io/dl8go",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -795,11 +811,27 @@ export const games = [
       "fw": "6.72+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/TwDjbD",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.19+60fps",
+          "url": "https://ouo.io/KvFuik",
+          "color": "blue"
+        },
+        {
+          "label": "4DLC",
+          "url": "https://ouo.io/vh42yk",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
-    "id": "horizon-zd",
+    "id": "horizon-zero-dawn-complete-edition",
     "console": "ps4",
     "title": "Horizon Zero Dawn - Complete Edition",
     "genre": "RPG de Acción - Aventura",
@@ -830,7 +862,23 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/WKfIOst",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.54",
+          "url": "https://ouo.io/Hn1tmU",
+          "color": "blue"
+        },
+        {
+          "label": "11DLC",
+          "url": "https://ouo.io/mkt7gX",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -847,8 +895,12 @@ export const games = [
     "multijugador": "No",
     "color": "#7a3b2e",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55247-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "df_z1u2pHYA",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/55247-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55247-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55247-2.jpg"
+    ],
     "description": {
       "es": "Arthur Morgan y la banda de Van der Linde luchan por sobrevivir en el ocaso del Lejano Oeste.",
       "en": "Arthur Morgan and the Van der Linde gang fight to survive the dying days of the Wild West."
@@ -861,7 +913,23 @@ export const games = [
       "fw": "5.50+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/kXj7DTu",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.32",
+          "url": "https://ouo.io/g4qfhI",
+          "color": "blue"
+        },
+        {
+          "label": "2DLC",
+          "url": "https://ouo.io/SdUGXf",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -878,13 +946,32 @@ export const games = [
     "multijugador": "No",
     "color": "#5c3e2a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55731-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "https://youtu.be/JdE9U9WW_HM",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/55731-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55731-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55731-4.jpg"
+    ],
     "description": {
       "es": "Ellie persigue la venganza en un Seattle devastado por la guerra de facciones.",
       "en": "Ellie hunts for revenge across a Seattle torn apart by faction warfare."
     },
-    "download": null
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "",
+      "thanks": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/oYFNOMf",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "uncharted-4",
@@ -922,7 +1009,7 @@ export const games = [
     "multijugador": "No",
     "color": "#5a4a8f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55760-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=Zbq7BnsQ",
+    "trailer": "2tQM2A3yMqA",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/55760-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/55760-2.jpg",
@@ -940,7 +1027,13 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1k",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/74nTbM",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -957,7 +1050,7 @@ export const games = [
     "multijugador": "No",
     "color": "#6e5c2f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/38442-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=q1y8o7c1",
+    "trailer": "bGej8K1r8KI",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/38442-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/38442-1.jpg",
@@ -975,7 +1068,13 @@ export const games = [
       "fw": "6.00+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007 & Kbis",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/gbFbXG",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -992,7 +1091,7 @@ export const games = [
     "multijugador": "No",
     "color": "#3a5a8f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/48142-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=sAmKdZdf",
+    "trailer": "ldNsaU4eGFU",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/48142-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshots/48142-2.jpg",
@@ -1010,7 +1109,13 @@ export const games = [
       "fw": "N/A",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Playable & hako",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/AVjG5us",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -1127,9 +1232,13 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#3a3a5a",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/60138-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/112418-1.jpg",
+    "trailer": "rXMX4YJ7Lks",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/60138-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60138-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60138-3.jpg"
+    ],
     "description": {
       "es": "El Lobo busca venganza en el Japón Sengoku con su espada y su prótesis shinobi.",
       "en": "Sekiro pursues revenge across Sengoku Japan with his blade and shinobi prosthetic."
@@ -1142,7 +1251,18 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnigth",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/MwmFIJ",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.06",
+          "url": "https://ouo.io/DSGQWlE",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -1240,13 +1360,32 @@ export const games = [
     "multijugador": "Local y online",
     "color": "#4a8f3e",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/23313-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "5QYaQw0cQYI",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/19805-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/68757-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/125349-1.jpg"
+    ],
     "description": {
       "es": "Construye, explora y sobrevive en mundos infinitos hechos de bloques.",
       "en": "Build, explore and survive in infinite block-based worlds."
     },
-    "download": null
+    "download": {
+      "region": "CUSA00265 - EUR",
+      "size": "2.72GB",
+      "format": "xci",
+      "update": "3.43 - 73DLC",
+      "fw": "5.0.5+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/4bjiy6",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "ratchet-clank",
@@ -1346,7 +1485,7 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#c8a04a",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/127429-1.jpg",
+    "cover": "http://imgfz.com/i/LTyR0BM.png",
     "trailer": "vMH8Zve2qAc",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/49458-1.jpg",
@@ -1592,9 +1731,13 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#8f2f2f",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/120355-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=og41UV4k",
-    "screenshots": [],
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/30763-1.jpg",
+    "trailer": "qKogMfIAAkY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/30763-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/30763-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/30763-2.jpg"
+    ],
     "description": {
       "es": "Kratos asalta el Monte Olimpo para vengarse de los dioses que lo traicionaron.",
       "en": "Kratos storms Mount Olympus to take revenge on the gods who betrayed him."
@@ -1607,7 +1750,18 @@ export const games = [
       "fw": "N/A",
       "languages": "Multi idioma (Castellano)",
       "thanks": "",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/GQJDAg",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.02",
+          "url": "https://ouo.io/Q7hA5j",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -3358,7 +3512,7 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#1a1a2e",
-    "cover": "https://ogdb.eu/imageview.php?image_id=280927&limit=0",
+    "cover": "http://imgfz.com/i/bh8xRGn.jpeg",
     "trailer": "gghRJv_tdb0",
     "screenshots": [
       "https://static.wikia.nocookie.net/thecallistoprotocol/images/1/1e/Screenshot-01.jpg/revision/latest",
@@ -3399,8 +3553,8 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "Local y online",
     "color": "#8b0000",
-    "cover": "https://images.launchbox-app.com/86440f46-4570-46b6-b300-644892f83169.jpg",
-    "trailer": "",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/93782-1.jpg",
+    "trailer": "lfgYdt1Qy60",
     "screenshots": [
       "https://images.launchbox-app.com/565a6092-b666-4fa9-8f32-01a4228cafdc.jpg",
       "https://images.launchbox-app.com/804bb700-f5f6-4c0c-820c-e60a85b5776f.jpg",
@@ -3566,7 +3720,9 @@ export const games = [
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/32951-1.jpg",
     "trailer": "-x1q7wY0koE",
     "screenshots": [
-      "https://images.launchbox-app.com//7cf49200-f894-4cc6-b682-21837d7e6f23.jpg"
+      "https://images.launchbox-app.com//7cf49200-f894-4cc6-b682-21837d7e6f23.jpg",
+      "https://cdn.mobygames.com/screenshots/5732179-just-cause-3-windows-that-gear-marks-a-mission.jpg",
+      "https://cdn.mobygames.com/screenshots/5740640-just-cause-3-windows-destroying-chaos-objects-give-you-chaos-poi.jpg"
     ],
     "description": {
       "es": "Rico Rodriguez destruye la dictadura de Medici en un mundo abierto lleno de acción y explosiones.",
@@ -3581,6 +3737,11 @@ export const games = [
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
       "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/oMNnH7E",
+          "color": "blue"
+        },
         {
           "label": "Mediafire",
           "url": "https://ouo.io/oMNnH7E",
@@ -3646,7 +3807,9 @@ export const games = [
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/44379-1.jpg",
     "trailer": "6wKLntsLVwY",
     "screenshots": [
-      "https://images.launchbox-app.com//c1b31f51-0e22-494c-9b86-4ac4132f7779.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/44363-6.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/44363-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/44363-7.jpg"
     ],
     "description": {
       "es": "La fiesta de baile definitiva con 40 canciones nuevas incluyendo los éxitos más candentes.",
@@ -3683,8 +3846,12 @@ export const games = [
     "multijugador": "Local y online",
     "color": "#e84393",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/94043-1.jpg",
-    "trailer": "92Ec96lzkWM",
-    "screenshots": [],
+    "trailer": "Vnab1gHwJeY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/94044-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/94044-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/94044-3.jpg"
+    ],
     "description": {
       "es": "La edición más reciente de Just Dance con los éxitos mundiales más populares.",
       "en": "The latest edition of Just Dance featuring the most popular worldwide hits."
@@ -3974,15 +4141,15 @@ export const games = [
     "year": 2021,
     "rating": 76,
     "players": "1-2",
-    "cooperativo": "Si",
-    "multijugador": "No",
+    "cooperativo": "Online",
+    "multijugador": "Online",
     "color": "#d4a017",
-    "cover": "https://images.launchbox-app.com/r2_c6b88e50-98bb-4af9-865c-37f28bebd50b.jpeg",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/74770-1.jpg",
     "trailer": "-IJuKT1mHO8",
     "screenshots": [
-      "https://images.launchbox-app.com/r2_53d57201-ed1c-4aea-b939-667715d502c9.jpg",
-      "https://images.launchbox-app.com/e98b7901-2ad3-4de5-8f45-33bdd68ad48c.png",
-      "https://images.launchbox-app.com/2189875c-e56c-477c-9e21-0cea17b770b1.jpg"
+      "https://cdn.mobygames.com/promos/10548084-far-cry-6-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/10549770-far-cry-6-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/10549767-far-cry-6-screenshot.jpg"
     ],
     "description": {
       "es": "Lucha contra una dictadura en la isla caribeña de Yara. Explora un mundo abierto lleno de peligros, guerrillas y armas improvisadas.",
@@ -4018,7 +4185,7 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#8b0000",
-    "cover": "https://images.launchbox-app.com/r2_01c5dccf-a1ac-4da9-b2a2-78efd606ac93.jpg",
+    "cover": "http://imgfz.com/i/tWzNZDk.png",
     "trailer": "gun-MVEWg40",
     "screenshots": [
       "https://images.launchbox-app.com/76f968d0-e1b4-4c40-b09a-b02d919e1c81.jpg",
@@ -4059,7 +4226,7 @@ export const games = [
     "cooperativo": "Si",
     "multijugador": "No",
     "color": "#1a5276",
-    "cover": "https://image.api.playstation.com/cdn/UP2292/CUSA12801_00/7l2ZI0YsKXryk5VkfSwRLU43EJpnxyP1.png",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/63092-1.jpg",
     "trailer": "A0lMg-loz0E",
     "screenshots": [
       "https://apollo2.dl.playstation.net/cdn/UP2292/CUSA12801_00/FREE_CONTENTpq8srHj42LUJz9l00x6G/PREVIEW_SCREENSHOT1_168369.jpg?w=1440&h=810&format=jpg",
@@ -4100,7 +4267,7 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#6c3483",
-    "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2514/YHDGGSQlnwClmFIUhlfy8zrl.png",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/95632-1.jpg",
     "trailer": "O5y-Timrvls",
     "screenshots": [
       "https://images.launchbox-app.com/8b496c38-99e1-416e-b54a-33830f79ebe4.jpg",
@@ -4141,7 +4308,7 @@ export const games = [
     "cooperativo": "Si",
     "multijugador": "Online",
     "color": "#27ae60",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co235f.jpg",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/68387-1.jpg",
     "trailer": "ocP3VPsEGds",
     "screenshots": [
       "https://images.igdb.com/igdb/image/upload/t_1080p/sc6wdo.jpg",
@@ -4469,12 +4636,12 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#1a6b3c",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/65927-1.jpg",
-    "trailer": "4EEz5HMBXNI",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/97989-1.jpg",
+    "trailer": "9hvH3OdjdWA",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/65927-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65927-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65927-3.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/73526-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73526-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73526-1.jpg"
     ],
     "description": {
       "es": "Aloy viaja a la Costa Prohibida para enfrentar nuevas amenazas mecánicas en un mundo post-apocalíptico.",
@@ -4488,7 +4655,13 @@ export const games = [
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1K",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/VLFXtdQ",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4504,12 +4677,12 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#1a1a2e",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/65054-1.jpg",
-    "trailer": "gYJgLRDdlcQ",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/96787-1.jpg",
+    "trailer": "Q3kfF3XNzw8",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/65054-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65054-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65054-3.jpg"
+      "https://cdn.thegamesdb.net/images/original/titlescreen/96787-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/96787-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/96787-3.jpg"
     ],
     "description": {
       "es": "Miles Morales descubre sus poderes y debe proteger Nueva York de una nueva amenaza.",
@@ -4523,7 +4696,18 @@ export const games = [
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007 & Kbis",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/joSlGo",
+          "color": "blue"
+        },
+        {
+          "label": "Update+4DLC",
+          "url": "https://ouo.io/ScsuyrM",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4539,12 +4723,12 @@ export const games = [
     "cooperativo": "Cooperativo",
     "multijugador": "Online",
     "color": "#2d5a27",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/53203-1.jpg",
-    "trailer": "JtOHE2i_gSM",
+    "cover": "http://imgfz.com/i/IPUJScR.png",
+    "trailer": "MM_936U7cvg",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/53203-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/53203-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/53203-3.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/66237-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66237-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66237-1.jpg"
     ],
     "description": {
       "es": "Caza criaturas gigantes en un mundo abierto con la expansión Iceborne incluida.",
@@ -4558,7 +4742,23 @@ export const games = [
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnigth",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/3MxmUDY",
+          "color": "blue"
+        },
+        {
+          "label": "Update 15.23",
+          "url": "https://ouo.io/alkRdCr",
+          "color": "blue"
+        },
+        {
+          "label": "238DLC",
+          "url": "https://ouo.io/k6AFyR",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4593,7 +4793,18 @@ export const games = [
       "fw": "9.00+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnigth",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/WlvmVv",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.04",
+          "url": "https://ouo.io/PAmVHk",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -5320,21 +5531,22 @@ export const games = [
     "cooperativo": "Local y online",
     "multijugador": "Local y online",
     "color": "#5c3a2f",
-    "cover": "https://art.gametdb.com/switch/box/US/ASLPA.png",
+    "cover": "https://art.gametdb.com/switch/box/EN/ASLPA.png?1772033515",
     "trailer": "gfYo6UlWI_c",
     "screenshots": [
-      "https://img.youtube.com/vi/gfYo6UlWI_c/mqdefault.jpg",
-      "https://img.youtube.com/vi/sxFSeUGgAfQ/mqdefault.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/41132-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/41132-9.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/41132-1.jpg"
     ],
     "description": {
       "es": "Chris Redfield y Sheva Alomar investigan una amenaza bioterrorista en Kijuju, Africa. Incluye todo el DLC y modos adicionales.",
       "en": "Chris Redfield and Sheva Alomar investigate a bioterrorist threat in Kijuju, Africa. Includes all DLC and additional modes."
     },
     "download": {
-      "region": "010018100CD46000 - USA",
+      "region": "010018100CD46000",
       "size": "18.7GB",
       "format": "XCI",
-      "update": "v1.0.3",
+      "update": "1.0.3",
       "fw": "v15.0.1",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado",
       "thanks": "",
@@ -5720,17 +5932,17 @@ export const games = [
       "en": "Deliver mail as Catto, the town's dedicated Postcat, while meeting unique friends in a vibrant cozy town filled with kitty residents. As you explore the colorful town, encounter adorable residents and brighten up their day by helping them with silly little tasks."
     },
     "download": {
-      "region": "01009C201DBCA000 - USA",
-      "size": "1.2GB",
-      "format": "NSP",
-      "update": "v1.0.0",
-      "fw": "16.0.0+",
+      "region": "0100B78027844000",
+      "size": "441MB",
+      "format": "xci",
+      "update": "1.01",
+      "fw": "22.1.0",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
       "thanks": "",
       "links": [
         {
           "label": "Mediafire",
-          "url": "#",
+          "url": "https://ouo.io/1Tbi5n5",
           "color": "blue"
         }
       ]
@@ -5752,26 +5964,26 @@ export const games = [
     "cover": "http://imgfz.com/i/Qzwv9S5.png",
     "trailer": "9QY-IcoR89s",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000097679/11a3f1e310d91c6d8c3b7f6a2c47b1e84810d7c9b5549c51f2a5a43c3a359982",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000097679/6c283e6a5dd9e5f59c3d0ec085b98f7c0f4e4e0a7b1c50f0a9e3e1a5b5c8d3f4",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000097679/5e5a4b2c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3"
+      "https://cdn.mobygames.com/promos/19992089-grimoire-groves-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/19992093-grimoire-groves-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/19992137-grimoire-groves-screenshot.jpg"
     ],
     "description": {
       "es": "Unungeon roguelite acogedor donde te unes a las brujas para restaurar los Grimoire Groves. Domina la magia, haz crecer adorables criaturas vegetales y descubre el misterio de los Calcetines Arcoiris. Explora bosques generados proceduralmente, forja hechizos y equípate para enfrentar desafíos.",
       "en": "A cozy rogue-lite dungeon crawler where you join the witches to restore the Grimoire Groves. Master magic, grow cute plant creatures and discover the mystery of the Rainbow Socks. Explore procedurally generated forests, craft spells and gear up to take on challenges."
     },
     "download": {
-      "region": "010069601D4E8000 - USA",
-      "size": "850MB",
+      "region": "010042902357C000",
+      "size": "635MB",
       "format": "NSP",
-      "update": "v1.0.0",
-      "fw": "16.0.0+",
+      "update": "1.0.0",
+      "fw": "19.0.0",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
       "thanks": "",
       "links": [
         {
           "label": "Mediafire",
-          "url": "#",
+          "url": "https://ouo.io/sq6ntu",
           "color": "blue"
         }
       ]
@@ -5790,7 +6002,7 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#f44336",
-    "cover": "https://art.gametdb.com/switch/cover/US/AEQZA.jpg",
+    "cover": "https://art.gametdb.com/switch/box/EN/AEQZB.png?1589834438",
     "trailer": "SnucJkzmMOU",
     "screenshots": [
       "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000000888/56fbf124f5d187fd49976fe8253009d3e47201f90f953ee0d1075e0f9657dd07",
@@ -5802,17 +6014,58 @@ export const games = [
       "en": "A baby orphan floats downriver in a bag and is found and adopted. He discovers his true identity and destiny. Shaquille O'Neal stars as a Wu Xing kung fu master in this action-packed beat 'em up filled with humor and epic boss battles."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
+      "region": "0100769004584000",
+      "size": "2.76GB",
+      "format": "nsp",
+      "update": "1.0.0",
+      "fw": "5.0.0",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues, Ruso",
       "thanks": "",
       "links": [
         {
           "label": "Mediafire",
-          "url": "#",
+          "url": "https://ouo.io/f38DB3",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-last-of-us-remastered",
+    "console": "ps4",
+    "title": "The Last of Us Remastered",
+    "genre": "Acción - Aventura",
+    "developer": "Naughty Dog",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2014,
+    "rating": 95,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Si",
+    "color": "#1a3a2a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/21182-1.jpg",
+    "trailer": "WRUAzrJg4Ls",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/21182-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/21182-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/21182-3.jpg"
+    ],
+    "description": {
+      "es": "Ganador de mas de 200 premios al mejor juego del año. Ciudades abandonadas reclamadas por la naturaleza. Una poblacion diezmada por una plaga moderna. Joel, un superviviente brutal, y Ellie, una valiente adolescente, deben trabajar juntos si esperan sobrevivir a su viaje por Estados Unidos. Incluye Left Behind, Abandoned Territories y Reclaimed Territories.",
+      "en": "Winner of over 200 game of the year awards. Abandoned cities reclaimed by nature. A population decimated by a modern plague. Joel, a brutal survivor, and Ellie, a brave young teen, must work together to survive their journey across the US. Includes Left Behind, Abandoned Territories and Reclaimed Territories."
+    },
+    "download": {
+      "region": "CUSA00552 - USA",
+      "size": "44.46GB",
+      "format": "pkg",
+      "update": "v1.11 + 7DLC",
+      "fw": "6.72+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "kbis",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "",
           "color": "blue"
         }
       ]
