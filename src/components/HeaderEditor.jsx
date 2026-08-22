@@ -2,23 +2,20 @@ import { useState } from 'react'
 import { setHeaderConfig } from '../data/headerConfig'
 import { useHeaderConfig } from '../hooks/useHeaderConfig'
 import {
-  ELEMENT_TYPES, DEVICE_ICONS, DEVICE_LABELS,
-  deepClone, sortEls, sortRows,
-  blankElement, blankRow, defaultLayout, generateRowsFromFlat,
+  ELEMENT_TYPES, ELEMENT_PRESETS, DEVICE_ICONS, DEVICE_LABELS,
+  deepClone, sortEls, blankElement, defaultLayout, uid,
 } from './headerEditorUtils'
-import { DesignControls, EditElementPanel, RowCard } from './headerEditorParts'
+import { DesignControls, EditElementPanel, ElementCard } from './headerEditorParts'
 
 export function HeaderEditor({ token }) {
-  const headerConfig = useHeaderConfig()
-  const [draft, setDraft] = useState(null)
-  const [selectedDevice, setSelectedDevice] = useState(null)
-  const [saving, setSaving] = useState(false)
-  const [msg, setMsg] = useState('')
-  const [editingEl, setEditingEl] = useState(null)
-  const [expandedRow, setExpandedRow] = useState(null)
-  const [addElRowId, setAddElRowId] = useState(null)
+  var headerConfig = useHeaderConfig()
+  var [draft, setDraft] = useState(null)
+  var [selectedDevice, setSelectedDevice] = useState(null)
+  var [saving, setSaving] = useState(false)
+  var [msg, setMsg] = useState('')
+  var [editingEl, setEditingEl] = useState(null)
 
-  const cfg = draft || headerConfig
+  var cfg = draft || headerConfig
 
   function makeDraft() {
     if (draft) return draft
@@ -47,154 +44,86 @@ export function HeaderEditor({ token }) {
     updateCfg({ devices: devices })
   }
 
-  function getRows(dk) {
+  function getDeviceElements(dk) {
     var d = cfg.devices && cfg.devices[dk]
-    return Array.isArray(d && d.rows) ? d.rows : []
+    if (Array.isArray(d && d.elements) && d.elements.length > 0) return d.elements
+    return []
   }
 
-  function ensureRows(dk) {
-    var rows = getRows(dk)
-    if (rows.length === 0) {
-      var flatEls = (cfg.devices && cfg.devices[dk] && cfg.devices[dk].elements) || cfg.elements || []
-      rows = generateRowsFromFlat(flatEls)
-      var base = makeDraft()
-      var devices = Object.assign({}, base.devices)
-      devices[dk] = Object.assign({}, devices[dk] || defaultLayout(dk), { rows: rows })
-      updateCfg({ devices: devices })
-    }
-    return rows
-  }
-
-  function updateRows(dk, newRows) {
+  function setDeviceElements(dk, els) {
     var base = makeDraft()
     var devices = Object.assign({}, base.devices)
-    devices[dk] = Object.assign({}, devices[dk] || defaultLayout(dk), { rows: newRows })
+    devices[dk] = Object.assign({}, devices[dk] || defaultLayout(dk), { elements: els })
     updateCfg({ devices: devices })
   }
 
-  function addRow(dk) {
-    var rows = ensureRows(dk)
-    updateRows(dk, rows.concat([blankRow(rows.length)]))
+  function addPreset(dk, preset) {
+    var els = getDeviceElements(dk)
+    setDeviceElements(dk, els.concat([{
+      id: uid('el'), type: preset.type, name: preset.label,
+      url: preset.url || '', icon: preset.icon || '',
+      mainIds: preset.mainIds || [], order: els.length, visible: true,
+    }]))
   }
 
-  function removeRow(dk, rowId) {
-    updateRows(dk, getRows(dk).filter(function(r) { return r.id !== rowId }).map(function(r, i) { return Object.assign({}, r, { order: i }) }))
-    if (expandedRow === rowId) setExpandedRow(null)
+  function addCustom(dk, type) {
+    var els = getDeviceElements(dk)
+    setDeviceElements(dk, els.concat([{
+      id: uid('el'), type: type || 'custom', name: 'Nuevo',
+      url: '', icon: '', order: els.length, visible: true,
+    }]))
   }
 
-  function moveRowFn(dk, rowId, dir) {
-    var sorted = sortRows(getRows(dk))
-    var idx = sorted.findIndex(function(r) { return r.id === rowId })
+  function removeElement(dk, elId) {
+    setDeviceElements(dk, getDeviceElements(dk)
+      .filter(function(e) { return e.id !== elId })
+      .map(function(e, i) { return Object.assign({}, e, { order: i }) }))
+    if (editingEl === elId) setEditingEl(null)
+  }
+
+  function toggleElement(dk, elId, visible) {
+    setDeviceElements(dk, getDeviceElements(dk).map(function(e) {
+      return e.id === elId ? Object.assign({}, e, { visible: visible }) : e
+    }))
+  }
+
+  function updateElement(dk, elId, patch) {
+    setDeviceElements(dk, getDeviceElements(dk).map(function(e) {
+      return e.id === elId ? Object.assign({}, e, patch) : e
+    }))
+  }
+
+  function moveElement(dk, elId, dir) {
+    var els = sortEls(getDeviceElements(dk))
+    var idx = els.findIndex(function(e) { return e.id === elId })
     if (idx < 0) return
     var swap = idx + dir
-    if (swap < 0 || swap >= sorted.length) return
-    var tmp = sorted[idx].order
-    sorted[idx] = Object.assign({}, sorted[idx], { order: sorted[swap].order })
-    sorted[swap] = Object.assign({}, sorted[swap], { order: tmp })
-    updateRows(dk, sorted)
-  }
-
-  function updateRow(dk, rowId, patch) {
-    updateRows(dk, getRows(dk).map(function(r) { return r.id === rowId ? Object.assign({}, r, patch) : r }))
-  }
-
-  function addElementToRow(dk, rowId, element) {
-    var rows = getRows(dk)
-    var row = rows.find(function(r) { return r.id === rowId })
-    if (!row) return
-    var els = row.elements || []
-    updateRows(dk, rows.map(function(r) {
-      if (r.id !== rowId) return r
-      return Object.assign({}, r, { elements: els.concat([Object.assign({}, element, { order: els.length, visible: true })]) })
-    }))
-    setAddElRowId(null)
-  }
-
-  function removeElementFromRow(dk, rowId, elId) {
-    var rows = getRows(dk)
-    updateRows(dk, rows.map(function(r) {
-      if (r.id !== rowId) return r
-      return Object.assign({}, r, { elements: r.elements.filter(function(e) { return e.id !== elId }).map(function(e, i) { return Object.assign({}, e, { order: i }) }) })
-    }))
-  }
-
-  function moveElementInRow(dk, rowId, elId, dir) {
-    var rows = getRows(dk)
-    updateRows(dk, rows.map(function(r) {
-      if (r.id !== rowId) return r
-      var els = sortEls(r.elements)
-      var idx = els.findIndex(function(e) { return e.id === elId })
-      if (idx < 0) return r
-      var swap = idx + dir
-      if (swap < 0 || swap >= els.length) return r
-      var tmp = els[idx].order
-      els[idx] = Object.assign({}, els[idx], { order: els[swap].order })
-      els[swap] = Object.assign({}, els[swap], { order: tmp })
-      return Object.assign({}, r, { elements: els })
-    }))
-  }
-
-  function updateElementInRow(dk, rowId, elId, patch) {
-    var rows = getRows(dk)
-    updateRows(dk, rows.map(function(r) {
-      if (r.id !== rowId) return r
-      return Object.assign({}, r, { elements: r.elements.map(function(e) { return e.id === elId ? Object.assign({}, e, patch) : e }) })
-    }))
-  }
-
-  function moveElementToRow(dk, fromRowId, elId, toRowId) {
-    var rows = getRows(dk).slice()
-    var el = null
-    rows = rows.map(function(r) {
-      if (r.id === fromRowId) {
-        var found = r.elements.find(function(e) { return e.id === elId })
-        if (found) el = Object.assign({}, found)
-        return Object.assign({}, r, { elements: r.elements.filter(function(e) { return e.id !== elId }).map(function(e, i) { return Object.assign({}, e, { order: i }) }) })
-      }
-      return r
-    })
-    if (!el) return
-    rows = rows.map(function(r) {
-      if (r.id === toRowId) {
-        var newEls = r.elements.concat([Object.assign({}, el, { order: r.elements.length })])
-        return Object.assign({}, r, { elements: newEls })
-      }
-      return r
-    })
-    updateRows(dk, rows)
+    if (swap < 0 || swap >= els.length) return
+    var tmp = els[idx].order
+    els[idx] = Object.assign({}, els[idx], { order: els[swap].order })
+    els[swap] = Object.assign({}, els[swap], { order: tmp })
+    setDeviceElements(dk, els)
   }
 
   async function save() {
     if (!draft) return
-    setSaving(true)
-    setMsg('')
+    setSaving(true); setMsg('')
     try {
       var res = await fetch('/api/admin/header', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json', 'x-admin-token': token },
         body: JSON.stringify({ config: draft }),
       })
-      if (!res.ok) throw new Error('save failed')
+      if (!res.ok) throw new Error()
       var data = await res.json()
       setHeaderConfig(data.config)
-      setDraft(null)
-      setEditingEl(null)
-      setExpandedRow(null)
-      setAddElRowId(null)
-      setMsg('Configuracion guardada')
-    } catch(e) {
-      setMsg('Error al guardar')
-    } finally {
-      setSaving(false)
-    }
+      setDraft(null); setEditingEl(null); setMsg('Configuracion guardada')
+    } catch(e) { setMsg('Error al guardar') }
+    finally { setSaving(false) }
   }
 
   function cancel() {
-    setDraft(null)
-    setEditingEl(null)
-    setExpandedRow(null)
-    setAddElRowId(null)
-    setMsg('')
+    setDraft(null); setEditingEl(null); setMsg('')
   }
 
   var hasChanges = draft !== null
@@ -212,9 +141,9 @@ export function HeaderEditor({ token }) {
                 <span className="header-device-card-icon">{DEVICE_ICONS[d]}</span>
                 <span className="header-editor-card-label">{DEVICE_LABELS[d]}</span>
                 <span className="header-device-card-desc">
-                  {d === 'pc' && 'Filas, elementos, diseno y disposicion de escritorio'}
-                  {d === 'mobile' && 'Filas, elementos, diseno y disposicion movil'}
-                  {d === 'tablet' && 'Filas, elementos, diseno y disposicion tablet'}
+                  {d === 'pc' && 'Elementos, diseno y disposicion de escritorio'}
+                  {d === 'mobile' && 'Elementos, diseno y disposicion movil'}
+                  {d === 'tablet' && 'Elementos, diseno y disposicion tablet'}
                   {d === 'general' && 'Marca, nombre e informacion compartida entre dispositivos'}
                 </span>
               </button>
@@ -236,7 +165,7 @@ export function HeaderEditor({ token }) {
             <button type="button" className="admin-btn-primary" onClick={save} disabled={saving || !hasChanges}>{saving ? '...' : 'Guardar'}</button>
           </div>
         </div>
-        <button type="button" className="header-back-btn" onClick={function() { setSelectedDevice(null); setEditingEl(null); setExpandedRow(null) }}>&#8592; Volver</button>
+        <button type="button" className="header-back-btn" onClick={function() { setSelectedDevice(null); setEditingEl(null) }}>&#8592; Volver</button>
         <fieldset className="admin-fs">
           <legend>Marca</legend>
           <div className="admin-grid">
@@ -251,15 +180,7 @@ export function HeaderEditor({ token }) {
 
   var dk = selectedDevice
   var layout = (cfg.devices && cfg.devices[dk]) || defaultLayout(dk)
-  var rowsList = sortRows(getRows(dk))
-  var globalPool = (cfg.elements || []).slice().sort(function(a, b) { return (a.order ?? 0) - (b.order ?? 0) })
-
-  var elementsInRows = {}
-  rowsList.forEach(function(r) {
-    (r.elements || []).forEach(function(el) { elementsInRows[el.id] = r.name })
-  })
-
-  var availableForDropdown = globalPool.filter(function(el) { return !elementsInRows[el.id] })
+  var elements = sortEls(getDeviceElements(dk))
 
   return (
     <div className="header-editor">
@@ -271,7 +192,7 @@ export function HeaderEditor({ token }) {
           <button type="button" className="admin-btn-primary" onClick={save} disabled={saving || !hasChanges}>{saving ? '...' : 'Guardar'}</button>
         </div>
       </div>
-      <button type="button" className="header-back-btn" onClick={function() { setSelectedDevice(null); setEditingEl(null); setExpandedRow(null) }}>&#8592; Volver</button>
+      <button type="button" className="header-back-btn" onClick={function() { setSelectedDevice(null); setEditingEl(null) }}>&#8592; Volver</button>
 
       <fieldset className="admin-fs">
         <legend>Controles de diseno</legend>
@@ -279,68 +200,63 @@ export function HeaderEditor({ token }) {
       </fieldset>
 
       <fieldset className="admin-fs">
-        <legend>Filas del encabezado ({rowsList.length})</legend>
-        {rowsList.length === 0 && (
-          <div style={{ marginBottom: 12 }}>
-            <p className="header-editor-subtitle" style={{ margin: '0 0 8px' }}>No hay filas. Puedes crear una nueva o convertir los elementos existentes en filas.</p>
-            <button type="button" className="admin-btn-secondary" onClick={function() { ensureRows(dk) }}>Convertir elementos actuales en filas</button>
-          </div>
+        <legend>Elementos del encabezado ({elements.length})</legend>
+        {elements.length === 0 && (
+          <p className="header-editor-subtitle" style={{ margin: '0 0 12px' }}>No hay elementos. Agrega uno con los botones de abajo.</p>
         )}
-        <div className="header-rows-list">
-          {rowsList.map(function(row, ri) {
+        <ul className="header-el-list">
+          {elements.map(function(el, i) {
             return (
-              <RowCard
-                key={row.id}
-                row={row}
-                ri={ri}
-                totalRows={rowsList.length}
-                dk={dk}
+              <ElementCard
+                key={el.id}
+                el={el}
+                index={i}
+                total={elements.length}
+                onMoveUp={function() { moveElement(dk, el.id, -1) }}
+                onMoveDown={function() { moveElement(dk, el.id, 1) }}
+                onToggle={function(v) { toggleElement(dk, el.id, v) }}
+                onDelete={function() { removeElement(dk, el.id) }}
                 editingEl={editingEl}
                 setEditingEl={setEditingEl}
-                expandedRow={expandedRow}
-                setExpandedRow={setExpandedRow}
-                allRows={rowsList}
-                updateRow={updateRow}
-                moveRow={moveRowFn}
-                removeRow={removeRow}
-                addElementToRow={addElementToRow}
-                removeElementFromRow={removeElementFromRow}
-                moveElementInRow={moveElementInRow}
-                updateElementInRow={updateElementInRow}
-                moveElementToRow={moveElementToRow}
+                onUpdate={function(patch) { updateElement(dk, el.id, patch) }}
               />
             )
           })}
-        </div>
-        <div className="header-row-add-row">
-          <button type="button" className="admin-btn-secondary" onClick={function() { addRow(dk) }}>+ Agregar fila</button>
-        </div>
+        </ul>
+        {editingEl && elements.find(function(e) { return e.id === editingEl }) && (
+          <EditElementPanel
+            element={elements.find(function(e) { return e.id === editingEl })}
+            onUpdate={function(patch) { updateElement(dk, editingEl, patch) }}
+            onClose={function() { setEditingEl(null) }}
+          />
+        )}
       </fieldset>
 
-      {rowsList.length > 0 && (
-        <fieldset className="admin-fs">
-          <legend>Agregar elemento existente a una fila</legend>
-          <div className="header-add-el-form">
-            <select className="header-add-el-select" value={addElRowId || ''} onChange={function(e) { setAddElRowId(e.target.value || null) }}>
-              <option value="">Seleccionar fila destino...</option>
-              {rowsList.map(function(r) { return <option key={r.id} value={r.id}>{r.name} ({(r.elements || []).length} elem.)</option> })}
-            </select>
-            {addElRowId && (
-              <select className="header-add-el-select" value="" onChange={function(e) {
-                if (!e.target.value) return
-                var poolEl = globalPool.find(function(p) { return p.id === e.target.value })
-                if (poolEl) addElementToRow(dk, addElRowId, poolEl)
-              }}>
-                <option value="">Seleccionar elemento...</option>
-                {globalPool.map(function(el) {
-                  var inRow = elementsInRows[el.id]
-                  return <option key={el.id} value={el.id}>{el.name} ({el.type}){inRow ? ' [en: ' + inRow + ']' : ''}</option>
-                })}
-              </select>
-            )}
+      <fieldset className="admin-fs">
+        <legend>Agregar elemento</legend>
+        <div style={{ marginBottom: 8 }}>
+          <p className="header-editor-subtitle" style={{ margin: '0 0 8px' }}>Predefinidos:</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginBottom: 12 }}>
+            {ELEMENT_PRESETS.map(function(preset, pi) {
+              return (
+                <button key={pi} type="button" className="admin-btn-secondary" onClick={function() { addPreset(dk, preset) }}>
+                  + {preset.label}
+                </button>
+              )
+            })}
           </div>
-        </fieldset>
-      )}
+          <p className="header-editor-subtitle" style={{ margin: '0 0 8px' }}>Personalizado:</p>
+          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+            {ELEMENT_TYPES.map(function(t) {
+              return (
+                <button key={t.value} type="button" className="admin-btn-secondary" onClick={function() { addCustom(dk, t.value) }}>
+                  + {t.label}
+                </button>
+              )
+            })}
+          </div>
+        </div>
+      </fieldset>
 
       {hasChanges && (
         <div className="header-preview-bar">

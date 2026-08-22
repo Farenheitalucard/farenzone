@@ -79,95 +79,28 @@ export function EditElementPanel({ element, onUpdate, onClose }) {
   )
 }
 
-export function RowCard({ row, ri, totalRows, dk, editingEl, setEditingEl, expandedRow, setExpandedRow, allRows, updateRow, moveRow, removeRow, addElementToRow, removeElementFromRow, moveElementInRow, updateElementInRow, moveElementToRow }) {
-  const rowEls = (row.elements || []).slice().sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
-  const isExpanded = expandedRow === row.id
-  const otherRows = allRows.filter(r => r.id !== row.id)
-
+export function ElementCard({ el, index, total, onMoveUp, onMoveDown, onToggle, onEdit, onDelete, editingEl, setEditingEl, onUpdate }) {
+  var isEditing = editingEl === el.id
   return (
-    <div className="header-row-card">
-      <div className="header-row-header">
-        <div className="header-row-drag">
-          <button type="button" onClick={() => moveRow(dk, row.id, -1)} disabled={ri === 0}>&#8593;</button>
-          <button type="button" onClick={() => moveRow(dk, row.id, 1)} disabled={ri === totalRows - 1}>&#8595;</button>
-        </div>
-        <input className="header-row-name" value={row.name} onChange={e => updateRow(dk, row.id, { name: e.target.value })} placeholder="Nombre de fila" />
-        <span className="header-row-count">{rowEls.length} elem.</span>
-        <button type="button" className="admin-btn-secondary" onClick={() => setExpandedRow(isExpanded ? null : row.id)}>
-          {isExpanded ? '▼' : '▶'}
-        </button>
-        <button type="button" className="admin-btn-danger" onClick={() => removeRow(dk, row.id)}>&#10005;</button>
+    <li className="header-el-row">
+      <div className="header-el-drag">
+        <button type="button" onClick={onMoveUp} disabled={index === 0}>&#8593;</button>
+        <button type="button" onClick={onMoveDown} disabled={index === total - 1}>&#8595;</button>
       </div>
-      {isExpanded && (
-        <div className="header-row-body">
-          <div className="admin-grid" style={{ marginBottom: 12 }}>
-            <label>Altura (px, 0=auto)
-              <input type="number" value={row.height || 0} onChange={e => updateRow(dk, row.id, { height: +e.target.value })} />
-            </label>
-            <label>Espaciado (gap px)
-              <input type="number" value={row.gap ?? 8} onChange={e => updateRow(dk, row.id, { gap: +e.target.value })} />
-            </label>
-            <label>Padding horizontal
-              <input type="number" value={row.paddingX || 0} onChange={e => updateRow(dk, row.id, { paddingX: +e.target.value })} />
-            </label>
-            <label>Padding vertical
-              <input type="number" value={row.paddingY || 0} onChange={e => updateRow(dk, row.id, { paddingY: +e.target.value })} />
-            </label>
-            <label>Posicion horizontal
-              <select value={row.justify || 'flex-start'} onChange={e => updateRow(dk, row.id, { justify: e.target.value })}>
-                {JUSTIFY_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
-              </select>
-            </label>
-            <label>Posicion vertical
-              <select value={row.align || 'center'} onChange={e => updateRow(dk, row.id, { align: e.target.value })}>
-                {ALIGN_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
-              </select>
-            </label>
-          </div>
-
-          <ul className="header-el-list">
-            {rowEls.map(el => (
-              <li key={el.id} className="header-el-row">
-                <div className="header-el-drag">
-                  <button type="button" onClick={() => moveElementInRow(dk, row.id, el.id, -1)} disabled={rowEls[0]?.id === el.id}>&#8593;</button>
-                  <button type="button" onClick={() => moveElementInRow(dk, row.id, el.id, 1)} disabled={rowEls[rowEls.length - 1]?.id === el.id}>&#8595;</button>
-                </div>
-                <div className="header-el-icon">
-                  {el.icon ? (el.icon.startsWith('/') ? <img src={el.icon} alt="" style={{ width: 20, height: 20 }} /> : getBuiltinIcon(el.icon)) : <span style={{ opacity: 0.3 }}>--</span>}
-                </div>
-                <div className="header-el-info">
-                  <input className="header-el-name" value={el.name} onChange={e => updateElementInRow(dk, row.id, el.id, { name: e.target.value })} placeholder="Nombre" />
-                  <span className="header-el-type">{ELEMENT_TYPES.find(t => t.value === el.type)?.label || el.type}</span>
-                </div>
-                <label className="header-el-vis" title="Visible">
-                  <input type="checkbox" checked={el.visible !== false} onChange={e => updateElementInRow(dk, row.id, el.id, { visible: e.target.checked })} />
-                </label>
-                {otherRows.length > 0 && (
-                  <select className="header-el-move-select" value="" onChange={e => {
-                    if (e.target.value) { moveElementToRow(dk, row.id, el.id, e.target.value); e.target.value = '' }
-                  }}>
-                    <option value="">Mover a...</option>
-                    {otherRows.map(r => <option key={r.id} value={r.id}>{r.name}</option>)}
-                  </select>
-                )}
-                <button type="button" className="admin-btn-secondary" onClick={() => setEditingEl(editingEl === el.id ? null : el.id)}>
-                  {editingEl === el.id ? 'Cerrar' : 'Editar'}
-                </button>
-                <button type="button" className="admin-btn-danger" onClick={() => removeElementFromRow(dk, row.id, el.id)}>&#10005;</button>
-              </li>
-            ))}
-          </ul>
-          <button type="button" className="admin-btn-secondary" onClick={() => addElementToRow(dk, row.id)}>+ Agregar elemento a esta fila</button>
-
-          {editingEl && rowEls.find(e => e.id === editingEl) && (
-            <EditElementPanel
-              element={rowEls.find(e => e.id === editingEl)}
-              onUpdate={patch => updateElementInRow(dk, row.id, editingEl, patch)}
-              onClose={() => setEditingEl(null)}
-            />
-          )}
-        </div>
-      )}
-    </div>
+      <div className="header-el-icon">
+        {el.icon ? (el.icon.startsWith('/') ? <img src={el.icon} alt="" style={{ width: 20, height: 20 }} /> : getBuiltinIcon(el.icon)) : <span style={{ opacity: 0.3 }}>--</span>}
+      </div>
+      <div className="header-el-info">
+        <input className="header-el-name" value={el.name} onChange={e => onUpdate({ name: e.target.value })} placeholder="Nombre" />
+        <span className="header-el-type">{ELEMENT_TYPES.find(function(t) { return t.value === el.type })?.label || el.type}</span>
+      </div>
+      <label className="header-el-vis" title="Visible / Oculto">
+        <input type="checkbox" checked={el.visible !== false} onChange={e => onToggle(e.target.checked)} />
+      </label>
+      <button type="button" className="admin-btn-secondary" onClick={function() { setEditingEl(isEditing ? null : el.id) }}>
+        {isEditing ? 'Cerrar' : 'Editar'}
+      </button>
+      <button type="button" className="admin-btn-danger" onClick={onDelete}>&#10005;</button>
+    </li>
   )
 }

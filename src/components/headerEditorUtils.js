@@ -10,6 +10,22 @@ export const ELEMENT_TYPES = [
   { value: 'custom', label: 'Personalizado' },
 ]
 
+export const ELEMENT_PRESETS = [
+  { label: 'Switch', type: 'consoles', mainIds: ['switch', 'ps4', 'ps3', 'xbox360'] },
+  { label: 'PS4', type: 'consoles', mainIds: ['ps4'] },
+  { label: 'PS3', type: 'consoles', mainIds: ['ps3'] },
+  { label: 'Xbox 360', type: 'consoles', mainIds: ['xbox360'] },
+  { label: 'Telegram', type: 'social', url: 'https://t.me/zonagamerfa', icon: 'telegram' },
+  { label: 'YouTube', type: 'social', url: 'https://youtube.com/@farenheitfa', icon: 'youtube' },
+  { label: 'Donar', type: 'social', icon: 'heart' },
+  { label: 'Inicio', type: 'nav', url: '/' },
+  { label: 'Buscador', type: 'search' },
+  { label: 'Panel admin', type: 'admin' },
+  { label: 'Cambio tema', type: 'theme' },
+  { label: 'Cambio idioma', type: 'language' },
+  { label: 'Menu', type: 'menu' },
+]
+
 export const DEVICE_ICONS = { pc: '\uD83D\uDDA5\uFE0F', mobile: '\uD83D\uDCF1', tablet: '\uD83D\uDCF2', general: '\u2699\uFE0F' }
 export const DEVICE_LABELS = { pc: 'PC', mobile: 'Movil', tablet: 'Tablet', general: 'Configuracion general' }
 
@@ -41,20 +57,8 @@ export function sortEls(a) {
   return (a || []).slice().sort((x, y) => (x.order ?? 0) - (y.order ?? 0))
 }
 
-export function sortRows(a) {
-  return (a || []).slice().sort((x, y) => (x.order ?? 0) - (y.order ?? 0))
-}
-
 export function blankElement(order) {
   return { id: uid('el'), type: 'custom', name: 'Nuevo', url: '', icon: '', visible: true, order }
-}
-
-export function blankRow(order) {
-  return {
-    id: uid('row'), name: 'Fila ' + (order + 1), order,
-    height: 0, gap: 8, paddingX: 0, paddingY: 0,
-    justify: 'flex-start', align: 'center', elements: [],
-  }
 }
 
 export function defaultLayout(dk) {
@@ -68,44 +72,4 @@ export function defaultLayout(dk) {
     justify: 'flex-start', align: 'center', iconSize: 18, textSize: 14,
     ...(d[dk] || {}),
   }
-}
-
-export function generateRowsFromFlat(elements) {
-  const social = []
-  const nav = []
-  const tools = []
-  const search = []
-  const sorted = sortEls(elements || [])
-  sorted.forEach((el) => {
-    if (el.type === 'social') social.push(el)
-    else if (el.type === 'search') search.push({ ...el, order: 0 })
-    else if (['admin', 'theme', 'language'].includes(el.type)) tools.push(el)
-    else nav.push(el)
-  })
-  const rows = []
-  if (social.length) rows.push({
-    id: uid('row'), name: 'Redes sociales', order: 0,
-    height: 0, gap: 8, paddingX: 0, paddingY: 0,
-    justify: 'flex-start', align: 'center',
-    elements: social.map((e, i) => ({ ...e, order: i })),
-  })
-  if (nav.length) rows.push({
-    id: uid('row'), name: 'Navegacion', order: rows.length,
-    height: 0, gap: 8, paddingX: 0, paddingY: 0,
-    justify: 'flex-start', align: 'center',
-    elements: nav.map((e, i) => ({ ...e, order: i })),
-  })
-  if (tools.length) rows.push({
-    id: uid('row'), name: 'Herramientas', order: rows.length,
-    height: 0, gap: 8, paddingX: 0, paddingY: 0,
-    justify: 'flex-start', align: 'center',
-    elements: tools.map((e, i) => ({ ...e, order: i })),
-  })
-  if (search.length) rows.push({
-    id: uid('row'), name: 'Buscador', order: rows.length,
-    height: 0, gap: 8, paddingX: 0, paddingY: 0,
-    justify: 'flex-start', align: 'center',
-    elements: search.map((e, i) => ({ ...e, order: i })),
-  })
-  return rows
 }
