@@ -523,7 +523,6 @@ export function AdminPage() {
           <h1 className="admin-title">{t.admin.title}</h1>
           <div className="admin-head-actions">
             <div className="admin-user-badge" onClick={() => { setShowProfile(true); setAdminTab('profile') }}>
-              {user?.avatar ? <img src={user.avatar} alt="" className="admin-avatar-thumb" /> : <div className="admin-avatar-empty">{(user?.name || user?.email || '?')[0].toUpperCase()}</div>}
               <span className="admin-user-name">{user?.name || user?.email}</span>
             </div>
             <button type="button" onClick={handleLogout}>{t.admin.logout}</button>
