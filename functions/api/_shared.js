@@ -42,6 +42,7 @@ export function sanitizeGame(g) {
           fw: cleanText(g.download.fw, 40),
           languages: cleanText(g.download.languages, 200),
           thanks: cleanText(g.download.thanks, 200),
+          mod: cleanText(g.download.mod, 200),
           links: Array.isArray(g.download.links)
             ? g.download.links
                 .map((l) => ({
