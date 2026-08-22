@@ -1323,7 +1323,7 @@
     order: 3;
   }
 
-  .search-box.search-box {
+  .search-box {
     order: 4;
     flex-basis: 100%;
     max-width: 100%;
