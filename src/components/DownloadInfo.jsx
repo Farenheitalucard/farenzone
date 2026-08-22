@@ -9,6 +9,7 @@ export function DownloadInfo({ download, t, game }) {
     { label: t.game.fw, value: download?.fw },
     { label: t.game.languages, value: download?.languages },
     { label: t.game.thanks, value: download?.thanks },
+    { label: t.game.mod, value: download?.mod },
   ].filter((r) => r.value)
 
   const links = download?.links?.length > 0 ? download.links : []

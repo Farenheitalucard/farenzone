@@ -59,6 +59,7 @@ export const translations = {
       fw: 'Fw',
       languages: 'Idioma',
       thanks: 'Gracias',
+      mod: 'Mod',
     },
     admin: {
       title: 'Panel de administración',
@@ -107,6 +108,7 @@ export const translations = {
       fw: 'Fw',
       languages: 'Idiomas',
       thanks: 'Gracias',
+      mod: 'Mod',
       linkLabel: 'Etiqueta',
       linkUrl: 'URL',
       linkColor: 'Color',
@@ -179,6 +181,7 @@ export const translations = {
       fw: 'Fw',
       languages: 'Language',
       thanks: 'Thanks',
+      mod: 'Mod',
     },
     admin: {
       title: 'Admin panel',
@@ -227,6 +230,7 @@ export const translations = {
       fw: 'Fw',
       languages: 'Languages',
       thanks: 'Thanks',
+      mod: 'Mod',
       linkLabel: 'Label',
       linkUrl: 'URL',
       linkColor: 'Color',

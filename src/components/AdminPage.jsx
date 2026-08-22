@@ -45,6 +45,7 @@ function blankGame(firstActiveConsole) {
       fw: '',
       languages: '',
       thanks: '',
+      mod: '',
       links: blankLinks(),
     },
   }
@@ -624,6 +625,7 @@ export function AdminPage() {
                 <label>{t.admin.fw}<input value={draft.download.fw} onChange={(e) => setField('download.fw', e.target.value)} /></label>
                 <label>{t.admin.languages}<input value={draft.download.languages} onChange={(e) => setField('download.languages', e.target.value)} /></label>
                 <label>{t.admin.thanks}<input value={draft.download.thanks} onChange={(e) => setField('download.thanks', e.target.value)} /></label>
+                <label>{t.admin.mod}<input value={draft.download.mod || ''} onChange={(e) => setField('download.mod', e.target.value)} /></label>
               </div>
               <h3 className="admin-subtitle">{t.admin.links}</h3>
               <div className="admin-links">
