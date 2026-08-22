@@ -990,10 +990,19 @@ export const games = [
     "trailer": "",
     "screenshots": [],
     "description": {
-      "es": "Nathan Drake regresa a la caza del tesoro de los piratas Henry Avery.",
-      "en": "Nathan Drake returns to hunt the lost treasure of pirate Henry Avery."
+      "es": "Nathan Drake regresa a la caza del tesoro de los piratas Henry Avery en su ultima aventura.",
+      "en": "Nathan Drake returns to hunt the lost treasure of pirate Henry Avery in his final adventure."
     },
-    "download": null
+    "download": {
+      "region": "CUSA00341 - USA",
+      "size": "57.9GB",
+      "format": "pkg",
+      "update": "v1.33 + 7DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "",
+      "links": []
+    }
   },
   {
     "id": "ghost-of-tsushima",
@@ -1121,7 +1130,7 @@ export const games = [
   {
     "id": "witcher-3",
     "console": "ps4",
-    "title": "The Witcher 3: Wild Hunt",
+    "title": "The Witcher 3: Wild Hunt Complete Edition",
     "genre": "RPG de Acción - Aventura",
     "developer": "CD Projekt Red",
     "publisher": "CD Projekt",
@@ -1135,10 +1144,19 @@ export const games = [
     "trailer": "",
     "screenshots": [],
     "description": {
-      "es": "Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la Cacería Salvaje.",
-      "en": "Geralt of Rivia searches for his adopted daughter Ciri, hunted by the Wild Hunt."
+      "es": "Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la Cacería Salvaje. Edicion completa con todos los DLC.",
+      "en": "Geralt of Rivia searches for his adopted daughter Ciri, hunted by the Wild Hunt. Complete edition with all DLC."
     },
-    "download": null
+    "download": {
+      "region": "CUSA05725 - USA",
+      "size": "46GB",
+      "format": "pkg",
+      "update": "v4.06",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "DUPLEX & CyB1K",
+      "links": []
+    }
   },
   {
     "id": "persona-5-royal",
