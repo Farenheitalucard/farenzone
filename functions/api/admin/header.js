@@ -19,9 +19,9 @@ const DEFAULT_CONFIG = {
   brand: { name: 'Faren', nameAccent: 'Zone', url: '/' },
   elements: DEFAULT_ELEMENTS,
   devices: {
-    pc: { elements: null, height: 64, maxWidth: 1180, paddingX: 20, gap: 10, iconSize: 18, textSize: 14 },
-    mobile: { elements: null, height: 0, maxWidth: 0, paddingX: 16, gap: 6, iconSize: 16, textSize: 13 },
-    tablet: { elements: null, height: 0, maxWidth: 0, paddingX: 16, gap: 8, iconSize: 16, textSize: 13 },
+    pc:     { height: 64, maxWidth: 1180, paddingX: 20, paddingY: 0, gap: 10, justify: 'flex-start', align: 'center', iconSize: 18, textSize: 14, rows: null },
+    mobile: { height: 0, maxWidth: 0, paddingX: 16, paddingY: 0, gap: 6, justify: 'flex-start', align: 'center', iconSize: 16, textSize: 13, rows: null },
+    tablet: { height: 0, maxWidth: 0, paddingX: 16, paddingY: 0, gap: 8, justify: 'flex-start', align: 'center', iconSize: 16, textSize: 13, rows: null },
   },
 }
 
@@ -39,15 +39,33 @@ function sanitizeElements(arr) {
   })).filter((el) => el.id)
 }
 
+function sanitizeRow(row) {
+  return {
+    id: String(row.id || '').slice(0, 40),
+    name: String(row.name || '').slice(0, 40),
+    order: typeof row.order === 'number' ? row.order : 0,
+    height: typeof row.height === 'number' ? row.height : 0,
+    gap: typeof row.gap === 'number' ? row.gap : 8,
+    paddingX: typeof row.paddingX === 'number' ? row.paddingX : 0,
+    paddingY: typeof row.paddingY === 'number' ? row.paddingY : 0,
+    justify: ['flex-start', 'center', 'flex-end', 'space-between', 'space-around', 'space-evenly'].includes(row.justify) ? row.justify : 'flex-start',
+    align: ['flex-start', 'center', 'flex-end', 'stretch'].includes(row.align) ? row.align : 'center',
+    elements: sanitizeElements(row.elements) || [],
+  }
+}
+
 function sanitizeDevice(d) {
   return {
-    elements: sanitizeElements(d.elements),
     height: typeof d.height === 'number' ? d.height : 0,
     maxWidth: typeof d.maxWidth === 'number' ? d.maxWidth : 0,
-    paddingX: typeof d.paddingX === 'number' ? d.paddingX : 16,
+    paddingX: typeof d.paddingX === 'number' ? d.paddingX : 0,
+    paddingY: typeof d.paddingY === 'number' ? d.paddingY : 0,
     gap: typeof d.gap === 'number' ? d.gap : 8,
-    iconSize: typeof d.iconSize === 'number' ? d.iconSize : 16,
-    textSize: typeof d.textSize === 'number' ? d.textSize : 13,
+    justify: ['flex-start', 'center', 'flex-end', 'space-between', 'space-around', 'space-evenly'].includes(d.justify) ? d.justify : 'flex-start',
+    align: ['flex-start', 'center', 'flex-end', 'stretch'].includes(d.align) ? d.align : 'center',
+    iconSize: typeof d.iconSize === 'number' ? d.iconSize : 18,
+    textSize: typeof d.textSize === 'number' ? d.textSize : 14,
+    rows: Array.isArray(d.rows) ? d.rows.map(sanitizeRow) : null,
   }
 }
 
@@ -99,11 +117,7 @@ export async function onRequestPut(context) {
   if (cfg.devices && typeof cfg.devices === 'object') {
     const newDevices = {}
     for (const key of ['pc', 'mobile', 'tablet']) {
-      if (cfg.devices[key]) {
-        newDevices[key] = sanitizeDevice(cfg.devices[key])
-      } else {
-        newDevices[key] = DEFAULT_CONFIG.devices[key]
-      }
+      newDevices[key] = cfg.devices[key] ? sanitizeDevice(cfg.devices[key]) : DEFAULT_CONFIG.devices[key]
     }
     cfg.devices = newDevices
   }

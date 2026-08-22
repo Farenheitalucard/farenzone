@@ -48,38 +48,39 @@ export function Navbar() {
   const results = q ? searchGames(games, query).slice(0, 8) : []
 
   const brand = headerConfig.brand || { name: 'Faren', nameAccent: 'Zone', url: '/' }
-
   const deviceCfg = headerConfig.devices?.[device]
+  const layout = deviceCfg || {}
+  const rows = Array.isArray(deviceCfg?.rows) && deviceCfg.rows.length > 0 ? deviceCfg.rows : null
+
   const elements = (
     (deviceCfg && Array.isArray(deviceCfg.elements) && deviceCfg.elements.length > 0 ? deviceCfg.elements
       : Array.isArray(headerConfig.elements) && headerConfig.elements.length > 0 ? headerConfig.elements
         : [])
   ).slice().sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
 
-  const mainConsoles = consoles.filter((c) => {
-    const consolesEl = elements.find((e) => e.type === 'consoles')
-    const mainIds = consolesEl?.mainIds || ['switch', 'ps4', 'ps3', 'xbox360']
-    return mainIds.includes(c.id)
-  })
-
   const donateUrl = elements.find((e) => e.id === 'donate')?.url || PAYPAL_URL || ''
 
   function renderElement(el) {
     if (el.visible === false) return null
+
+    const mainConsoles = consoles.filter((c) => {
+      const mainIds = el.type === 'consoles' ? (el.mainIds || ['switch', 'ps4', 'ps3', 'xbox360']) : []
+      return mainIds.includes(c.id)
+    })
 
     switch (el.type) {
       case 'social': {
         const url = el.url || (el.id === 'donate' ? donateUrl : '')
         if (!url) return null
         return (
-          <a key={el.id} href={url} className="telegram-link" target="_blank" rel="noopener noreferrer" aria-label={el.name} title={el.name}>
+          <a key={el.id} href={url} className="telegram-link" style={{ width: layout.iconSize + 12, height: layout.iconSize + 12 }} target="_blank" rel="noopener noreferrer" aria-label={el.name} title={el.name}>
             <SocialIcon el={el} />
           </a>
         )
       }
       case 'search':
         return (
-          <div key="search" className="search-box" ref={boxRef}>
+          <div key={el.id || 'search'} className="search-box" ref={boxRef}>
             <input
               type="search"
               className="search-input"
@@ -120,7 +121,7 @@ export function Navbar() {
         )
       case 'consoles':
         return (
-          <div key="consoles-group" className="nav-links-scroll">
+          <div key={el.id || 'consoles-group'} className="nav-links-scroll">
             {mainConsoles.map((c) => (
               <NavLink key={c.id} to={`/consola/${c.id}`}>
                 <ConsoleIcon id={c.id} />
@@ -131,7 +132,7 @@ export function Navbar() {
         )
       case 'menu':
         return (
-          <div key="menu" className="nav-menu-wrap" ref={menuRef}>
+          <div key={el.id || 'menu'} className="nav-menu-wrap" ref={menuRef}>
             <button type="button" className={`nav-menu-btn${menuOpen ? ' nav-menu-open' : ''}`} onClick={() => setMenuOpen((v) => !v)} aria-label="Más consolas">
               ☰
             </button>
@@ -189,9 +190,51 @@ export function Navbar() {
     }
   }
 
+  const navStyle = {
+    maxWidth: layout.maxWidth || undefined,
+    padding: `${layout.paddingY || 0}px ${layout.paddingX || 0}px`,
+    height: layout.height || undefined,
+    gap: layout.gap || undefined,
+    justifyContent: layout.justify || undefined,
+    alignItems: layout.align || undefined,
+  }
+
+  if (rows) {
+    const sortedRows = rows.slice().sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+    return (
+      <header className="navbar">
+        <div className="navbar-inner navbar-rows" style={navStyle}>
+          <div className="navbar-brand">
+            <Link to={brand.url || '/'} className="brand">
+              {brand.name}<span>{brand.nameAccent}</span>
+            </Link>
+          </div>
+          {sortedRows.map((row) => {
+            const rowEls = (row.elements || []).slice().sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+            return (
+              <div
+                key={row.id}
+                className="navbar-row"
+                style={{
+                  minHeight: row.height || undefined,
+                  gap: row.gap ?? layout.gap ?? 8,
+                  padding: `${row.paddingY || 0}px ${row.paddingX || 0}px`,
+                  justifyContent: row.justify || 'flex-start',
+                  alignItems: row.align || 'center',
+                }}
+              >
+                {rowEls.map(renderElement)}
+              </div>
+            )
+          })}
+        </div>
+      </header>
+    )
+  }
+
   return (
     <header className="navbar">
-      <div className="navbar-inner">
+      <div className="navbar-inner" style={navStyle}>
         <div className="navbar-brand">
           <Link to={brand.url || '/'} className="brand">
             {brand.name}<span>{brand.nameAccent}</span>
