@@ -138,8 +138,12 @@ export function ConsolePage() {
     window.scrollTo({ top: 0, behavior: 'instant' })
   }, [safePage])
 
+  const filterRef = useRef(false)
   useEffect(() => {
-    setSearchParams({}, { replace: true })
+    if (filterRef.current) {
+      setSearchParams({}, { replace: true })
+    }
+    filterRef.current = true
   }, [query, genre, year, sort, setSearchParams])
 
   if (!consoleInfo) {
