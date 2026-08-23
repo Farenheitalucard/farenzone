@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, useRef } from 'react'
-import { Link, useParams, useSearchParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { getConsole } from '../data/consoles'
 import { useGames } from '../hooks/useGames'
 import { useLanguage } from '../language-context'
@@ -110,7 +110,6 @@ function Dropdown({ label, options, value, onChange, renderOption }) {
 
 export function ConsolePage() {
   const { id } = useParams()
-  const [searchParams, setSearchParams] = useSearchParams()
   const { t } = useLanguage()
   const consoleInfo = getConsole(id) || { name: id, fullName: id, color: '#888', gradient: 'linear-gradient(135deg, #888 0%, #444 100%)' }
   const allGames = useGames()
@@ -120,6 +119,7 @@ export function ConsolePage() {
   const [genre, setGenre] = useState('')
   const [year, setYear] = useState('')
   const [sort, setSort] = useState('')
+  const [page, setPage] = useState(1)
 
   const genres = useMemo(() => extractGenres(consoleGames), [consoleGames])
   const years = useMemo(() => extractYears(consoleGames), [consoleGames])
@@ -130,21 +130,16 @@ export function ConsolePage() {
   )
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
-  const page = Math.max(1, Math.min(parseInt(searchParams.get('page')) || 1, totalPages))
-  const safePage = page
+  const safePage = Math.max(1, Math.min(page, totalPages))
   const visible = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' })
   }, [safePage])
 
-  const filterRef = useRef(false)
   useEffect(() => {
-    if (filterRef.current) {
-      setSearchParams({}, { replace: true })
-    }
-    filterRef.current = true
-  }, [query, genre, year, sort, setSearchParams])
+    setPage(1)
+  }, [query, genre, year, sort])
 
   if (!consoleInfo) {
     return (
@@ -152,11 +147,6 @@ export function ConsolePage() {
         <p className="not-found">404</p>
       </main>
     )
-  }
-
-  function goTo(p) {
-    const newPage = Math.max(1, Math.min(totalPages, p))
-    setSearchParams({ page: newPage })
   }
 
   return (
@@ -243,7 +233,7 @@ export function ConsolePage() {
                   ))}
                 </div>
 
-                <Pagination page={safePage} totalPages={totalPages} onChange={goTo} />
+                <Pagination page={safePage} totalPages={totalPages} onChange={(p) => setPage(Math.max(1, Math.min(totalPages, p)))} />
               </>
             )}
           </>
