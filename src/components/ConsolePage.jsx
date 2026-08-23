@@ -25,15 +25,15 @@ function extractYears(games) {
 }
 
 function filterGames(games, { query, genre, year, sort }) {
-  let result = [...games]
+  let result = games.map((g, i) => ({ g, i }))
 
   if (query.trim()) {
     const q = query.trim().toLowerCase()
-    result = result.filter((g) => g.title.toLowerCase().includes(q) || (g.genre || '').toLowerCase().includes(q))
+    result = result.filter(({ g }) => g.title.toLowerCase().includes(q) || (g.genre || '').toLowerCase().includes(q))
   }
 
   if (genre) {
-    result = result.filter((g) => {
+    result = result.filter(({ g }) => {
       if (!g.genre) return false
       const parts = g.genre.split(/\s*[-–]\s*/).map((p) => p.trim().toLowerCase())
       return parts.includes(genre.toLowerCase())
@@ -41,24 +41,28 @@ function filterGames(games, { query, genre, year, sort }) {
   }
 
   if (year) {
-    result = result.filter((g) => String(g.year) === String(year))
+    result = result.filter(({ g }) => String(g.year) === String(year))
   }
 
   if (sort === 'recent') {
-    result.sort((a, b) => (b.year || 0) - (a.year || 0))
+    result.sort((a, b) => b.i - a.i)
   } else if (sort === 'oldest') {
-    result.sort((a, b) => (a.year || 0) - (b.year || 0))
+    result.sort((a, b) => a.i - b.i)
+  } else if (sort === 'recent_year') {
+    result.sort((a, b) => (b.g.year || 0) - (a.g.year || 0))
+  } else if (sort === 'oldest_year') {
+    result.sort((a, b) => (a.g.year || 0) - (b.g.year || 0))
   } else if (sort === 'rating') {
-    result.sort((a, b) => (b.rating || 0) - (a.rating || 0))
+    result.sort((a, b) => (b.g.rating || 0) - (a.g.rating || 0))
   } else if (sort === 'az') {
-    result.sort((a, b) => a.title.localeCompare(b.title))
+    result.sort((a, b) => a.g.title.localeCompare(b.g.title))
   } else if (sort === 'za') {
-    result.sort((a, b) => b.title.localeCompare(a.title))
+    result.sort((a, b) => b.g.title.localeCompare(a.g.title))
   } else {
-    result.sort((a, b) => a.title.localeCompare(b.title))
+    result.sort((a, b) => a.g.title.localeCompare(b.g.title))
   }
 
-  return result
+  return result.map(({ g }) => g)
 }
 
 function Dropdown({ label, options, value, onChange, renderOption }) {
@@ -207,6 +211,8 @@ export function ConsolePage() {
                   options={[
                     { value: 'recent', label: t.console.recent },
                     { value: 'oldest', label: t.console.oldest },
+                    { value: 'recent_year', label: t.console.recentYear },
+                    { value: 'oldest_year', label: t.console.oldestYear },
                     { value: 'rating', label: t.console.bestRated },
                     { value: 'az', label: t.console.nameAZ },
                     { value: 'za', label: t.console.nameZA },
