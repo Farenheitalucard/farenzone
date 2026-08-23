@@ -1,12 +1,12 @@
-import { useEffect, useMemo, useState, useRef } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useEffect, useMemo, useRef, useCallback, useState } from 'react'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { getConsole } from '../data/consoles'
 import { useGames } from '../hooks/useGames'
 import { useLanguage } from '../language-context'
 import { Cover } from './Cover'
 import { Pagination } from './Pagination'
 
-const PAGE_SIZE = 12
+const PAGE_SIZE = 10
 
 function extractGenres(games) {
   const set = new Set()
@@ -65,7 +65,7 @@ function filterGames(games, { query, genre, year, sort }) {
   return result.map(({ g }) => g)
 }
 
-function Dropdown({ label, options, value, onChange, renderOption }) {
+function Dropdown({ label, options, value, onChange }) {
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
 
@@ -78,7 +78,7 @@ function Dropdown({ label, options, value, onChange, renderOption }) {
   }, [])
 
   const selectedLabel = value
-    ? (renderOption ? renderOption(value) : value)
+    ? options.find((o) => o.value === value)?.label || value
     : label
 
   return (
@@ -110,16 +110,16 @@ function Dropdown({ label, options, value, onChange, renderOption }) {
 
 export function ConsolePage() {
   const { id } = useParams()
+  const [searchParams, setSearchParams] = useSearchParams()
   const { t } = useLanguage()
   const consoleInfo = getConsole(id) || { name: id, fullName: id, color: '#888', gradient: 'linear-gradient(135deg, #888 0%, #444 100%)' }
   const allGames = useGames()
   const consoleGames = useMemo(() => allGames.filter((g) => g.console === id), [allGames, id])
 
-  const [query, setQuery] = useState('')
-  const [genre, setGenre] = useState('')
-  const [year, setYear] = useState('')
-  const [sort, setSort] = useState('')
-  const [page, setPage] = useState(1)
+  const query = searchParams.get('q') || ''
+  const genre = searchParams.get('genre') || ''
+  const year = searchParams.get('year') || ''
+  const sort = searchParams.get('sort') || ''
 
   const genres = useMemo(() => extractGenres(consoleGames), [consoleGames])
   const years = useMemo(() => extractYears(consoleGames), [consoleGames])
@@ -130,16 +130,33 @@ export function ConsolePage() {
   )
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
-  const safePage = Math.max(1, Math.min(page, totalPages))
-  const visible = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
+  const page = Math.max(1, Math.min(parseInt(searchParams.get('page')) || 1, totalPages))
+  const visible = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
+
+  const setParam = useCallback((key, value) => {
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev)
+      if (value) {
+        next.set(key, value)
+      } else {
+        next.delete(key)
+      }
+      if (key !== 'page') next.delete('page')
+      return next
+    }, { replace: true })
+  }, [setSearchParams])
+
+  const resetPage = useCallback(() => {
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev)
+      next.delete('page')
+      return next
+    }, { replace: true })
+  }, [setSearchParams])
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' })
-  }, [safePage])
-
-  useEffect(() => {
-    setPage(1)
-  }, [query, genre, year, sort])
+  }, [page, id])
 
   if (!consoleInfo) {
     return (
@@ -182,26 +199,26 @@ export function ConsolePage() {
                   className="filter-search-input"
                   placeholder={`${t.nav.search}...`}
                   value={query}
-                  onChange={(e) => setQuery(e.target.value)}
+                  onChange={(e) => setParam('q', e.target.value)}
                 />
               </div>
               <div className="filter-row">
                 <Dropdown
                   label={t.console.genre}
                   value={genre}
-                  onChange={setGenre}
+                  onChange={(v) => setParam('genre', v)}
                   options={genres.map((g) => ({ value: g, label: g }))}
                 />
                 <Dropdown
                   label={t.game.year}
                   value={year}
-                  onChange={setYear}
+                  onChange={(v) => setParam('year', v)}
                   options={years.map((y) => ({ value: String(y), label: String(y) }))}
                 />
                 <Dropdown
                   label={t.console.sortBy}
                   value={sort}
-                  onChange={setSort}
+                  onChange={(v) => setParam('sort', v)}
                   options={[
                     { value: 'recent', label: t.console.recent },
                     { value: 'oldest', label: t.console.oldest },
@@ -233,7 +250,22 @@ export function ConsolePage() {
                   ))}
                 </div>
 
-                <Pagination page={safePage} totalPages={totalPages} onChange={(p) => setPage(Math.max(1, Math.min(totalPages, p)))} />
+                <Pagination
+                  page={page}
+                  totalPages={totalPages}
+                  onChange={(p) => {
+                    const newPage = Math.max(1, Math.min(totalPages, p))
+                    setSearchParams((prev) => {
+                      const next = new URLSearchParams(prev)
+                      if (newPage > 1) {
+                        next.set('page', newPage)
+                      } else {
+                        next.delete('page')
+                      }
+                      return next
+                    })
+                  }}
+                />
               </>
             )}
           </>
