@@ -967,13 +967,13 @@ export const games = [
       "en": "Ellie hunts for revenge across a Seattle torn apart by faction warfare."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
-      "languages": "",
-      "thanks": "",
+      "region": "CUSA07820 - USA",
+      "size": "77.2GB",
+      "format": "pkg",
+      "update": "1.09 - DLC",
+      "fw": "7.02+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Fugazi",
       "mod": "",
       "links": [
         {
@@ -998,8 +998,12 @@ export const games = [
     "multijugador": "No",
     "color": "#2c6e9e",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/21416-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "UpXBlCLSSO0",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/21416-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/21416-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/21416-7.jpg"
+    ],
     "description": {
       "es": "Nathan Drake regresa a la caza del tesoro de los piratas Henry Avery en su ultima aventura.",
       "en": "Nathan Drake returns to hunt the lost treasure of pirate Henry Avery in his final adventure."
@@ -1013,7 +1017,23 @@ export const games = [
       "languages": "Multi idioma (Latino)",
       "thanks": "",
       "mod": "",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/iBKG9Lh",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.33",
+          "url": "https://ouo.io/iMdmaa",
+          "color": "blue"
+        },
+        {
+          "label": "7DLC",
+          "url": "https://ouo.io/StsD4T",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -1155,9 +1175,13 @@ export const games = [
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#8f3a2e",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/16489-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/50981-1.jpg",
+    "trailer": "nBT2SP21f3Q",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/16489-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/16489-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/16489-3.jpg"
+    ],
     "description": {
       "es": "Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la Cacería Salvaje. Edicion completa con todos los DLC.",
       "en": "Geralt of Rivia searches for his adopted daughter Ciri, hunted by the Wild Hunt. Complete edition with all DLC."
@@ -1171,7 +1195,13 @@ export const games = [
       "languages": "Multi idioma",
       "thanks": "DUPLEX & CyB1K",
       "mod": "",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/x0rbeX",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -1232,7 +1262,7 @@ export const games = [
     "multijugador": "No",
     "color": "#c98f1f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/43904-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=r5yAjgP2",
+    "trailer": "7ozuoBTPxaI",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/43904-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshots/43904-2.jpg",
@@ -1251,7 +1281,13 @@ export const games = [
       "languages": "Multi idioma (Castellano)",
       "thanks": "Prelude",
       "mod": "",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/U4ui50X",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -1315,8 +1351,12 @@ export const games = [
     "multijugador": "No",
     "color": "#d8a01f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/22722-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "8X2kIfS6fb8",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/14517-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/22722-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/22722-6.jpg"
+    ],
     "description": {
       "es": "V forja su leyenda en Night City, la megaciudad de la obsesión y el poder.",
       "en": "V forges a legend in Night City, a megalopolis of obsession and power."
@@ -1545,10 +1585,11 @@ export const games = [
     "multijugador": "No",
     "color": "#c8a04a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/110898-1.jpg",
-    "trailer": "7LyOXR1tO0M",
+    "trailer": "V1mWyTtQEAs",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshot/134531-1.jpg",
-      "https://images.rpgsite.net/image/da49c9a1/161633/original/Octopath-Traveler-0_20251124_07.png"
+      "https://cdn.thegamesdb.net/images/original/screenshot/104493-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/104493-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/104493-7.jpg"
     ],
     "description": {
       "es": "Continuación del RPG HD-2D. Ocho nuevos viajeros en Solistia, un mundo de este a oeste con culturas diversas y una nueva era.",
@@ -3938,7 +3979,11 @@ export const games = [
     "color": "#4a4a2a",
     "cover": "https://images.launchbox-app.com/ab339379-df8f-409c-9f67-d6aa7d381e6b.jpg",
     "trailer": "oDVrOyT7ImQ",
-    "screenshots": [],
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/fanart/50800-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/50859-8.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/50859-10.jpg"
+    ],
     "description": {
       "es": "Vuelve a la Segunda Guerra Mundial en la experiencia multijugador y campaña más intensa de Call of Duty.",
       "en": "Return to World War II in the most intense multiplayer and campaign experience in Call of Duty."
@@ -3976,7 +4021,11 @@ export const games = [
     "color": "#2a2a4a",
     "cover": "https://images.launchbox-app.com//fa59dd06-9a0f-408e-b574-7da7e07fdde6.jpg",
     "trailer": "qAUYNIDEJ6o",
-    "screenshots": [],
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/29237-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/29237-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/29237-6.jpg"
+    ],
     "description": {
       "es": "La guerra futurística llega a su máxima expresión con combate en Cooperativa, Multijugador y Zombies.",
       "en": "Futuristic warfare reaches its peak with Combat in Co-op, Multiplayer, and Zombies."
@@ -4191,7 +4240,7 @@ export const games = [
     "id": "farcry-6",
     "console": "ps4",
     "title": "Far Cry 6",
-    "genre": "Accion - Mundo Abierto",
+    "genre": "Acción - Mundo Abierto",
     "developer": "Ubisoft Toronto",
     "publisher": "Ubisoft",
     "year": 2021,
@@ -4222,7 +4271,7 @@ export const games = [
       "mod": "",
       "links": [
         {
-          "label": "Game",
+          "label": "Mediafire",
           "url": "https://ouo.io/Aw853o",
           "color": "blue"
         }
@@ -4233,7 +4282,7 @@ export const games = [
     "id": "re3-nemesis-classic",
     "console": "ps4",
     "title": "Resident Evil 3 Nemesis",
-    "genre": "Accion - Survival Horror",
+    "genre": "Acción - Survival Horror",
     "developer": "Capcom",
     "publisher": "Capcom",
     "year": 1999,
@@ -4359,7 +4408,7 @@ export const games = [
     "id": "predator-hunting-grounds",
     "console": "ps4",
     "title": "Predator Hunting Grounds",
-    "genre": "Accion - Asimetrico Multiplayer",
+    "genre": "Acción - Asimetrico Multiplayer",
     "developer": "IllFonic",
     "publisher": "Sony Interactive Entertainment",
     "year": 2020,
@@ -4401,7 +4450,7 @@ export const games = [
     "id": "borderlands-handsome-collection",
     "console": "ps4",
     "title": "Borderlands The Handsome Collection",
-    "genre": "Accion - RPG",
+    "genre": "Acción - RPG",
     "developer": "Gearbox Software",
     "publisher": "2K Games",
     "year": 2015,
@@ -4443,7 +4492,7 @@ export const games = [
     "id": "dragon-ball-xenoverse",
     "console": "ps4",
     "title": "Dragon Ball Xenoverse",
-    "genre": "Accion - RPG",
+    "genre": "Acción - Lucha - RPG",
     "developer": "Dimps",
     "publisher": "Bandai Namco",
     "year": 2015,
@@ -4485,7 +4534,7 @@ export const games = [
     "id": "dissidia-ff-nt-deluxe",
     "console": "ps4",
     "title": "Dissidia Final Fantasy NT Deluxe Edition",
-    "genre": "Accion - Lucha",
+    "genre": "Acción - Lucha",
     "developer": "Square Enix",
     "publisher": "Square Enix",
     "year": 2018,
@@ -4527,7 +4576,7 @@ export const games = [
     "id": "assassins-creed-origins",
     "console": "ps4",
     "title": "Assassin's Creed Origins",
-    "genre": "Accion - Mundo Abierto",
+    "genre": "Acción - Mundo Abierto",
     "developer": "Ubisoft Montreal",
     "publisher": "Ubisoft",
     "year": 2017,
@@ -4846,7 +4895,7 @@ export const games = [
     "multijugador": "No",
     "color": "#8b1a1a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/121151-1.jpg",
-    "trailer": "",
+    "trailer": "-8MN89fIaJ8",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/129952-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/135587-1.jpg",
@@ -5592,22 +5641,35 @@ export const games = [
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/117993-1.jpg",
     "trailer": "CCum266l1vY",
     "screenshots": [
-      "https://img.youtube.com/vi/CCum266l1vY/mqdefault.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/73949-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73949-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73949-3.jpg"
     ],
     "description": {
       "es": "Crash y Coco estan de vuelta para derrotar a Neo Cortex y N. Tropy en un aventura a traves del multiverso con niveles desafiantes.",
       "en": "Crash and Coco are back to take down Neo Cortex and N. Tropy in an adventure across the multiverse with challenging levels."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Portugues, Japones, Coreano, Chino Simplificado",
-      "thanks": "",
+      "region": "CUSA19035 - USA",
+      "size": "42.1GB",
+      "format": "pkg",
+      "update": "1.05 - DLC",
+      "fw": "7.50+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Fugazi",
       "mod": "",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/M6bXm3",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.05 - DLC",
+          "url": "https://uii.io/crashb4",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -5740,7 +5802,7 @@ export const games = [
     "id": "god-of-war-ragnarok",
     "console": "ps4",
     "title": "God of War Ragnarok",
-    "genre": "Accion - Aventura",
+    "genre": "Acción - Aventura",
     "developer": "Santa Monica Studio",
     "publisher": "Sony Interactive Entertainment",
     "year": 2022,
@@ -5802,7 +5864,7 @@ export const games = [
     "id": "uncharted-nathan-drake-collection",
     "console": "ps4",
     "title": "Uncharted: The Nathan Drake Collection",
-    "genre": "Accion - Aventura",
+    "genre": "Acción - Aventura",
     "developer": "Bluepoint Games",
     "publisher": "Sony Computer Entertainment",
     "year": 2015,
@@ -6148,7 +6210,7 @@ export const games = [
     "multijugador": "Si",
     "color": "#1a3a2a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/21182-1.jpg",
-    "trailer": "WRUAzrJg4Ls",
+    "trailer": "AaOWRvmtEFQ",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/21182-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshots/21182-2.jpg",
@@ -6167,7 +6229,18 @@ export const games = [
       "languages": "Multi idioma (Latino)",
       "thanks": "kbis",
       "mod": "",
-      "links": []
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/UrRJs1q",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.11+7DLC",
+          "url": "https://ouo.io/l2yVDvy",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -6344,6 +6417,100 @@ export const games = [
           "label": "Terabox",
           "url": "https://ouo.io/01avgk",
           "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ea-sports-fc-26",
+    "console": "ps4",
+    "title": "EA SPORTS FC 26",
+    "genre": "Deportes - Fútbol",
+    "developer": "EA Vancouver",
+    "publisher": "Electronic Arts",
+    "year": 2025,
+    "rating": 78,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/yLFSh9v.webp",
+    "trailer": "TSi0iJYSQ24",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/132050-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/132051-1.jpg",
+      "http://imgfz.com/i/VD0nzHc.webp"
+    ],
+    "description": {
+      "es": "Vive una experiencia de fútbol más auténtica con una gran variedad de equipos, ligas y competiciones de todo el mundo. Compite en diferentes modos de juego, mejora a tus jugadores y lleva a tu equipo hasta la gloria.",
+      "en": "Experience an authentic football game featuring a huge variety of teams, leagues, and competitions from around the world. Compete across different game modes, improve your players, and lead your team to glory."
+    },
+    "download": {
+      "region": "CUSA52342- USA",
+      "size": "81.3GB",
+      "format": "pkg",
+      "update": "1.29 -  1.25+World Cup+Offline Unlock",
+      "fw": "5.05+",
+      "languages": "Multi idioma (latino)",
+      "thanks": "Opoisso893/Golemnigth / PlayStation Pulse",
+      "mod": "",
+      "links": [
+        {
+          "label": "Game-Update 1.29",
+          "url": "https://ouo.io/7Tf62k",
+          "color": "blue"
+        },
+        {
+          "label": "Game-Update 1.25+World Cup",
+          "url": "https://ouo.io/D7XAHI",
+          "color": "blue"
+        },
+        {
+          "label": "Plantilla 21/08/2026",
+          "url": "https://ouo.io/MLMeDh3",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "forager",
+    "console": "ps4",
+    "title": "Forager",
+    "genre": "Aventura - Supervivencia - RPG",
+    "developer": "HopFrog",
+    "publisher": "Humble Games",
+    "year": 2019,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/66747-1.jpg",
+    "trailer": "pimw7LiLm60",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/66747-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66747-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66747-5.jpg"
+    ],
+    "description": {
+      "es": "Comienza con una pequeña isla y conviértela en un mundo lleno de recursos, construcciones y secretos. Explora, recolecta materiales, fabrica objetos, desbloquea nuevas tierras y desarrolla tu propio imperio mientras descubres todo lo que ofrece el mundo.",
+      "en": "Start with a small island and turn it into a world full of resources, buildings, and secrets. Explore, gather materials, craft items, unlock new lands, and build your own empire as you discover everything the world has to offer"
+    },
+    "download": {
+      "region": "CUSA13967 – USA",
+      "size": "401MB",
+      "format": "pkg",
+      "update": "4.13",
+      "fw": "6.50+",
+      "languages": "Multi idioma",
+      "thanks": "UNLiMiTED & Schzone",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Owy4ElK",
+          "color": "blue"
         }
       ]
     }
