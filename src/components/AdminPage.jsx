@@ -8,7 +8,7 @@ import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
 import { HeaderEditor } from './HeaderEditor'
 
-const linkColors = ['blue', 'green', 'brown']
+const linkColors = ['blue', 'green', 'brown', 'purple', 'white']
 const ALL_PERMISSIONS = ['games', 'consoles', 'header', 'settings', 'users']
 
 function blankLinks() {

@@ -1025,6 +1025,16 @@
   background: #795548;
 }
 
+.download-btn-purple {
+  background: #7b1fa2;
+}
+
+.download-btn-white {
+  background: #fafafa;
+  color: #212121;
+  border: 1px solid #ccc;
+}
+
 .game-detail-info {
   display: flex;
   flex-direction: column;
