@@ -6,7 +6,8 @@ import { useLanguage } from '../language-context'
 import { Cover } from './Cover'
 import { Pagination } from './Pagination'
 
-const PAGE_SIZE = 10
+const MOBILE = typeof window !== 'undefined' && window.matchMedia('(max-width: 768px)').matches
+const PAGE_SIZE = MOBILE ? 10 : 12
 
 function extractGenres(games) {
   const set = new Set()
