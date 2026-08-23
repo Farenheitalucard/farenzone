@@ -1302,38 +1302,6 @@ export const games = [
     }
   },
   {
-    "id": "death-stranding",
-    "console": "ps4",
-    "title": "Death Stranding",
-    "genre": "Acción - Aventura",
-    "developer": "Kojima Productions",
-    "publisher": "Sony Interactive Entertainment",
-    "year": 2019,
-    "rating": 82,
-    "players": "1",
-    "cooperativo": "No",
-    "multijugador": "No",
-    "color": "#5a5a8f",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/38113-1.jpg",
-    "trailer": "",
-    "screenshots": [],
-    "description": {
-      "es": "Sam Bridges conecta una América fragmentada tras el Death Stranding.",
-      "en": "Sam Bridges reconnects a shattered America in the wake of the Death Stranding."
-    },
-    "download": {
-      "region": "CUSA11260 - USA",
-      "size": "44.6GB",
-      "format": "pkg",
-      "update": "v1.13",
-      "fw": "8.50+",
-      "languages": "Multi idioma",
-      "thanks": "",
-      "mod": "",
-      "links": []
-    }
-  },
-  {
     "id": "cyberpunk-2077",
     "console": "ps4",
     "title": "Cyberpunk 2077",
@@ -6215,23 +6183,169 @@ export const games = [
     "cooperativo": "Si",
     "multijugador": "Si",
     "color": "#c41e2a",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/96052-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/128660-1.jpg",
+    "trailer": "dHBL5f1kQRY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/130145-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/130145-7.jpg",
+      "https://cdn.thegamesdb.net/images/original/fanart/130144-1.jpg"
+    ],
     "description": {
       "es": "7 clasicos de Capcom y Marvel en una coleccion: X-Men Children of the Atom, Marvel Super Heroes, X-Men vs Street Fighter, Marvel Super Heroes vs Street Fighter, Marvel vs Capcom, Marvel vs Capcom 2 y The Punisher. Con online, rollback netcode y modos de entrenamiento.",
       "en": "7 Capcom and Marvel arcade classics in one collection: X-Men Children of the Atom, Marvel Super Heroes, X-Men vs Street Fighter, Marvel Super Heroes vs Street Fighter, Marvel vs Capcom, Marvel vs Capcom 2 and The Punisher. With online play, rollback netcode and training modes."
     },
     "download": {
-      "region": "CUSA46747 - USA",
-      "size": "3.50GB",
+      "region": "CUSA46747 - JP",
+      "size": "3.48GB",
       "format": "pkg",
-      "update": "v1.01",
-      "fw": "11.50+",
-      "languages": "Multi idioma (Latino solo MVC2",
+      "update": "1.04",
+      "fw": "5.05",
+      "languages": "Multi idioma (Latino solo MVC2)",
       "thanks": "UNLiMiTED & Droby25 & Schzone",
       "mod": "Ridertron416 kizeo0  Infinitystok EDIZEL YisusAhg  Bl4zeModder",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/SQ971z",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "death-stranding",
+    "console": "ps4",
+    "title": "Death Stranding",
+    "genre": "Acción - Aventura",
+    "developer": "Kojima Productions",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2019,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/38113-1.jpg",
+    "trailer": "tCI396HyhbQ",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/38113-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/75311-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/75311-7.jpg"
+    ],
+    "description": {
+      "es": "Una aventura de acción ambientada en un mundo devastado donde Sam Bridges debe recorrer un territorio peligroso para reconectar a la humanidad. A lo largo de su viaje transportará suministros, enfrentará amenazas sobrenaturales y descubrirá los misterios que rodean este extraño mundo.",
+      "en": "An action-adventure set in a devastated world where Sam Bridges must traverse dangerous territory to reconnect humanity. Throughout his journey, he will transport supplies, face supernatural threats, and uncover the mysteries surrounding this strange world."
+    },
+    "download": {
+      "region": "CUSA11260 - USA",
+      "size": "45.9GB",
+      "format": "pkg",
+      "update": "1.13 - 9DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "TKJ13 & CyB1k & Jwooh",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/9nkZFu",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shadow-of-the-tomb-raider-definitive-edition",
+    "console": "ps4",
+    "title": "Shadow of The Tomb Raider Definitive Edition",
+    "genre": "Acción - Aventura",
+    "developer": "Eidos-Montréal",
+    "publisher": "Square Enix",
+    "year": 2019,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/67615-1.jpg",
+    "trailer": "b1FvYc3c64w",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/67615-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/67615-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/67615-2.jpg"
+    ],
+    "description": {
+      "es": "Lara Croft se embarca en una peligrosa aventura por América Latina para detener un apocalipsis maya que ella misma ha desencadenado. Explorará antiguas ruinas, resolverá complejos acertijos y se enfrentará a enemigos mientras descubre los secretos de su pasado.",
+      "en": "Lara Croft embarks on a perilous adventure across Latin America to stop a Mayan apocalypse she herself has unleashed. She will explore ancient ruins, solve complex puzzles, and face"
+    },
+    "download": {
+      "region": "CUSA10872 - EUR",
+      "size": "30.5GB",
+      "format": "pkg",
+      "update": "2.01 - DLC",
+      "fw": "5.0.5",
+      "languages": "Multi idioma (Latino-Castellano)",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/18V2la",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/S3M0Cv",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hollow-knight-silksong",
+    "console": "ps4",
+    "title": "Hollow Knight Silksong",
+    "genre": "Metroidvania - Acción - Plataformas",
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "year": 2025,
+    "rating": 91,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/Qr4LglJ.png",
+    "trailer": "hnGj7BYKPUE",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/101643-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/69039-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/101643-1.jpg"
+    ],
+    "description": {
+      "es": "Una aventura de acción y exploración protagonizada por Hornet. Viaja por un misterioso reino lleno de criaturas peligrosas, descubre secretos y domina nuevas habilidades mientras avanzas por un mundo conectado y lleno de desafíos.",
+      "en": "An action-adventure game starring Hornet. Journey through a mysterious kingdom filled with dangerous creatures, uncover secrets, and master new abilities as you progress through a world"
+    },
+    "download": {
+      "region": "CUSA39420 - EUR",
+      "size": "4.05GB",
+      "format": "pkg",
+      "update": "1.05",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Anonymous",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/2teN5ZY",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/01avgk",
+          "color": "white"
+        }
+      ]
     }
   }
 ];
