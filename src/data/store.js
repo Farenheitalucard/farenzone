@@ -1,14 +1,20 @@
 import { games as seedGames } from './games'
 
 let current = seedGames
+let loaded = false
 const listeners = new Set()
 
 export function getGames() {
   return current
 }
 
+export function getLoaded() {
+  return loaded
+}
+
 export function setGames(next) {
   current = next
+  loaded = true
   listeners.forEach((l) => l())
 }
 
@@ -48,13 +54,21 @@ export function searchGames(list, query) {
 export async function loadGamesFromApi() {
   try {
     const res = await fetch('/api/games')
-    if (!res.ok) return
+    if (!res.ok) {
+      loaded = true
+      listeners.forEach((l) => l())
+      return
+    }
     const data = await res.json()
     if (Array.isArray(data.games) && data.games.length) {
       setGames(data.games)
+    } else {
+      loaded = true
+      listeners.forEach((l) => l())
     }
   } catch {
-    /* keep bundled data */
+    loaded = true
+    listeners.forEach((l) => l())
   }
 }
 

@@ -1077,6 +1077,14 @@
   padding: 80px 0;
 }
 
+.loading {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+  padding: 80px 0;
+}
+
 .game-detail {
   display: grid;
   grid-template-columns: 320px 1fr;

@@ -3,6 +3,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 import { getConsole } from '../data/consoles'
 import { setGames } from '../data/store'
 import { useGames } from '../hooks/useGames'
+import { useLoaded } from '../hooks/useLoaded'
 import { useLanguage } from '../language-context'
 import { useAdmin } from '../admin-context'
 import { ScreenshotGallery } from './ScreenshotGallery'
@@ -15,11 +16,20 @@ export function GameDetail() {
   const { isAdmin, token } = useAdmin()
   const navigate = useNavigate()
   const games = useGames()
+  const loaded = useLoaded()
   const game = games.find((g) => g.id === id)
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' })
   }, [id])
+
+  if (!loaded) {
+    return (
+      <main className="page">
+        <p className="loading">Cargando...</p>
+      </main>
+    )
+  }
 
   if (!game) {
     return (
