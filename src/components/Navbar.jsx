@@ -138,7 +138,7 @@ export function Navbar() {
             </button>
             {menuOpen && (
               <div className="nav-menu-dropdown">
-                {consoles.map((c) => (
+                {consoles.filter((c) => c.active !== false).map((c) => (
                   <NavLink key={c.id} to={`/consola/${c.id}`} className="nav-menu-item" onClick={() => setMenuOpen(false)}>
                     <ConsoleIcon id={c.id} size={18} />
                     {t.nav[c.id] || c.name}

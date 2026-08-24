@@ -101,7 +101,7 @@ export function Home() {
         <h2 className="section-title">{t.home.sectionTitle}</h2>
         <p className="section-subtitle">{t.home.sectionSubtitle}</p>
         <div className="home-console-rows">
-          {consoles.map((c) => {
+          {consoles.filter((c) => c.active !== false).map((c) => {
             const latest = games
               .filter((g) => g.console === c.id)
               .slice(-4)
