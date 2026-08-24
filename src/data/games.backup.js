@@ -5826,36 +5826,21 @@ export const games = [
       "region": "CUSA34384 - USA",
       "size": "122.9GB",
       "format": "pkg",
-      "update": "6.05 - 5.05",
+      "update": "6.05 - 5.05 - 3DLC",
       "fw": "9.50+  -  5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi & CyB1K",
       "mod": "",
       "links": [
         {
-          "label": "Game",
-          "url": "https://akirabox.to/qw1zerEB0GXy/file",
+          "label": "Mediafire",
+          "url": "https://ouo.io/FgXBE1",
           "color": "blue"
         },
         {
-          "label": "Update 6.05 (9.50+)",
-          "url": "https://ouo.io/eSRvqW",
-          "color": "blue"
-        },
-        {
-          "label": "Update 5.05 (5.05+)",
-          "url": "https://ouo.io/7wGVpF9",
-          "color": "blue"
-        },
-        {
-          "label": "3DLC",
-          "url": "https://ouo.io/oXUC37K",
-          "color": "blue"
-        },
-        {
-          "label": "Digital ArtBook & Soundtrack",
-          "url": "https://cuty.io/gobook",
-          "color": "blue"
+          "label": "Terabox",
+          "url": "https://ouo.io/to4LPl",
+          "color": "white"
         }
       ]
     }
@@ -6510,6 +6495,142 @@ export const games = [
         {
           "label": "Mediafire",
           "url": "https://ouo.io/Owy4ElK",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/u2A2lW",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "steins-gate-reboot",
+    "console": "switch",
+    "title": "STEINS GATE REBOOT",
+    "genre": "Aventura - Novela Visual",
+    "developer": "MAGES",
+    "publisher": "Spike Chunsoft",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/eYhfwdB.png",
+    "trailer": "QqYyyn2RNUM",
+    "screenshots": [
+      "http://imgfz.com/i/qy8UOFJ.png",
+      "http://imgfz.com/i/SmM3Agt.png",
+      "http://imgfz.com/i/xU1Bsce.jpeg"
+    ],
+    "description": {
+      "es": "Una nueva versión de la aclamada novela visual de ciencia ficción, donde Rintaro Okabe y sus amigos descubren un misterioso dispositivo capaz de alterar el pasado. Sus decisiones desencadenarán una serie de acontecimientos que pondrán a prueba el destino y la realidad",
+      "en": "A new version of the acclaimed sci-fi visual novel, where Rintaro Okabe and his friends discover a mysterious device capable of altering the past. Their decisions trigger a series of events that will challenge the fate of both reality and the future"
+    },
+    "download": {
+      "region": "01008BC024FDE000",
+      "size": "7.9GB",
+      "format": "xci",
+      "update": "1.0.2",
+      "fw": "22.5.0",
+      "languages": "Japonés, Inglés, Chino Simplificado y Chino Tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/DyqT6w",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/4HsvIN",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ship-of-harkinian-the-legend-of-zelda-ocarina-of-time",
+    "console": "switch",
+    "title": "Ship of Harkinian The Legend of Zelda Ocarina of Time",
+    "genre": "Acción - Aventura",
+    "developer": "Harbour Masters",
+    "publisher": "Harbour Masters",
+    "year": 2022,
+    "rating": 95,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/tKifv2j.png",
+    "trailer": "MYOgcGVQdko",
+    "screenshots": [
+      "http://imgfz.com/i/QZKplXn.png",
+      "http://imgfz.com/i/K4XjHRd.jpeg",
+      "http://imgfz.com/i/QZKplXn.png"
+    ],
+    "description": {
+      "es": "Vive la aventura de Link en su viaje por Hyrule para detener al malvado Ganondorf y proteger el destino del reino. Esta versión ofrece una experiencia mejorada con resolución superior, pantalla panorámica, controles modernos y diversas mejoras.",
+      "en": "Join Link on his journey across Hyrule to stop the evil Ganondorf and protect the fate of the kingdom. This version delivers an enhanced experience with higher resolution, widescreen support, modern controls, and various improvements."
+    },
+    "download": {
+      "region": "09400CFE83B32000",
+      "size": "3.65GB",
+      "format": "nsp",
+      "update": "0.8.6",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/qh28Fz",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2-ship-of-2harkinian-the-legend-of-zelda-majora-s-mask",
+    "console": "switch",
+    "title": "2 Ship of 2Harkinian The Legend of Zelda Majora's Mask",
+    "genre": "Acción - Aventura",
+    "developer": "Harbour Masters",
+    "publisher": "Harbour Masters",
+    "year": 2024,
+    "rating": 95,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/8RyZgj1.png",
+    "trailer": "W-eIqz-mW7k",
+    "screenshots": [
+      "http://imgfz.com/i/RIc2lTO.jpeg",
+      "http://imgfz.com/i/rhI7QO5.png",
+      "http://imgfz.com/i/WP8w7qy.png"
+    ],
+    "description": {
+      "es": "Acompaña a Link en una aventura oscura por Termina, donde solo tiene tres días para evitar una terrible catástrofe. Explora distintas regiones, resuelve acertijos, consigue máscaras con poderes especiales y descubre los secretos de un mundo atrapado en el tiempo.",
+      "en": "Join Link on a dark adventure through Termina, where he has only three days to prevent a terrible catastrophe. Explore different regions, solve puzzles, obtain powerful masks, and uncover the secrets of a world trapped in time."
+    },
+    "download": {
+      "region": "0999999999999996",
+      "size": "2.70GB",
+      "format": "nsp",
+      "update": "4.0.0",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/IYhQJFp",
           "color": "blue"
         }
       ]
