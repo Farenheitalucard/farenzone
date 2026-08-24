@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useConsoles } from '../hooks/useConsoles'
 import { useGames } from '../hooks/useGames'
+import { useLoaded } from '../hooks/useLoaded'
 import { useLanguage } from '../language-context'
 import { Cover } from './Cover'
 import { ConsoleIcon } from './ConsoleIcon'
@@ -80,6 +81,15 @@ export function Home() {
   const { t } = useLanguage()
   const games = useGames()
   const consoles = useConsoles()
+  const loaded = useLoaded()
+
+  if (!loaded) {
+    return (
+      <main className="page">
+        <p className="loading">Cargando...</p>
+      </main>
+    )
+  }
 
   return (
     <main className="page">

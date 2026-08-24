@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useCallback, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { getConsole } from '../data/consoles'
 import { useGames } from '../hooks/useGames'
+import { useLoaded } from '../hooks/useLoaded'
 import { useLanguage } from '../language-context'
 import { Cover } from './Cover'
 import { Pagination } from './Pagination'
@@ -113,6 +114,7 @@ export function ConsolePage() {
   const { id } = useParams()
   const [searchParams, setSearchParams] = useSearchParams()
   const { t } = useLanguage()
+  const loaded = useLoaded()
   const consoleInfo = getConsole(id) || { name: id, fullName: id, color: '#888', gradient: 'linear-gradient(135deg, #888 0%, #444 100%)' }
   const allGames = useGames()
   const consoleGames = useMemo(() => allGames.filter((g) => g.console === id), [allGames, id])
@@ -158,6 +160,14 @@ export function ConsolePage() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' })
   }, [page, id])
+
+  if (!loaded) {
+    return (
+      <main className="page">
+        <p className="loading">Cargando...</p>
+      </main>
+    )
+  }
 
   if (!consoleInfo) {
     return (

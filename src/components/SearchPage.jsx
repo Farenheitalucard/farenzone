@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useGames } from '../hooks/useGames'
+import { useLoaded } from '../hooks/useLoaded'
 import { searchGames, sortByTitle } from '../data/store'
 import { useLanguage } from '../language-context'
 import { Cover } from './Cover'
@@ -13,6 +14,7 @@ export function SearchPage() {
   const [params] = useSearchParams()
   const q = (params.get('q') || '').trim().toLowerCase()
   const games = useGames()
+  const loaded = useLoaded()
   const results = sortByTitle(searchGames(games, q))
   const [pagination, setPagination] = useState({ q, page: 1 })
   if (pagination.q !== q) {
@@ -30,6 +32,14 @@ export function SearchPage() {
 
   function goTo(p) {
     setPagination({ q, page: Math.max(1, Math.min(totalPages, p)) })
+  }
+
+  if (!loaded) {
+    return (
+      <main className="page">
+        <p className="loading">Cargando...</p>
+      </main>
+    )
   }
 
   return (

@@ -1,6 +1,6 @@
 import { games as seedGames } from './games'
 
-let current = seedGames
+let current = []
 let loaded = false
 const listeners = new Set()
 
@@ -55,6 +55,7 @@ export async function loadGamesFromApi() {
   try {
     const res = await fetch('/api/games')
     if (!res.ok) {
+      current = seedGames
       loaded = true
       listeners.forEach((l) => l())
       return
@@ -63,10 +64,12 @@ export async function loadGamesFromApi() {
     if (Array.isArray(data.games) && data.games.length) {
       setGames(data.games)
     } else {
+      current = seedGames
       loaded = true
       listeners.forEach((l) => l())
     }
   } catch {
+    current = seedGames
     loaded = true
     listeners.forEach((l) => l())
   }
