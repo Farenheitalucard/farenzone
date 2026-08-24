@@ -3195,6 +3195,11 @@
           "label": "Mediafire",
           "url": "https://ouo.io/X3wK195",
           "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/pwA8x9",
+          "color": "white"
         }
       ]
     }
@@ -6673,6 +6678,48 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/HcHLX4",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ancestors-the-humankind-odyssey",
+    "console": "ps4",
+    "title": "Ancestors The Humankind Odyssey",
+    "genre": "Supervivencia - Aventura",
+    "developer": "Panache Digital Games",
+    "publisher": "Private Division",
+    "year": 2019,
+    "rating": 76,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/81925-1.jpg",
+    "trailer": "BIuuLBhDt9s",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/81925-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/81925-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/65959-1.jpg"
+    ],
+    "description": {
+      "es": "Embárcate en un viaje de supervivencia y evolución a través de África hace millones de años. Explora un mundo peligroso, aprende nuevas habilidades, protege a tu clan y guía a tus antepasados hacia la evolución de la humanidad.",
+      "en": "Embark on a journey of survival and evolution through Africa millions of years ago. Explore a dangerous world, learn new skills, protect your clan, and guide your ancestors toward the evolution of humanity"
+    },
+    "download": {
+      "region": "CUSA13248 - EUR",
+      "size": "7.90GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "DUPLEX & Opoisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/782qncW",
           "color": "blue"
         }
       ]
