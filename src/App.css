@@ -2311,10 +2311,25 @@
 
 .admin-backup {
   padding: 20px 0;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .admin-backup h2 {
   margin: 0 0 8px;
+  word-break: break-word;
+}
+
+.admin-backup p {
+  word-break: break-word;
+}
+
+.admin-backup .admin-btn-primary {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+  text-align: center;
 }
 
 .admin-backup-status {
@@ -2326,6 +2341,8 @@
   font-family: monospace;
   font-size: 13px;
   white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
   color: var(--text);
 }
 
