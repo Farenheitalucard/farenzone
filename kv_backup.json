@@ -6813,5 +6813,47 @@
         }
       ]
     }
+  },
+  {
+    "id": "port-castlevania-symphony-of-the-night",
+    "console": "switch",
+    "title": "Port Castlevania Symphony of the Night",
+    "genre": "Acción - RPG - Metroidvania",
+    "developer": "NaGaa95",
+    "publisher": "NaGaa95",
+    "year": 2016,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/Au1YeJ4.png",
+    "trailer": "XnXF3pl7jQI",
+    "screenshots": [
+      "http://imgfz.com/i/tKhZyjl.jpeg",
+      "http://imgfz.com/i/0exfpgC.jpeg",
+      "http://imgfz.com/i/2NEwIWi.jpeg"
+    ],
+    "description": {
+      "es": "Acompaña a Alucard en su exploración del misterioso Castillo de Drácula, enfrentando criaturas sobrenaturales y descubriendo sus secretos. Explora un enorme mundo interconectado, consigue nuevas habilidades y poderosas armas mientras luchas para detener al mal.",
+      "en": "Join Alucard as he explores the mysterious Dracula's Castle, confronting supernatural creatures and uncovering its secrets. Explore a vast, interconnected world and gain new abilities."
+    },
+    "download": {
+      "region": "",
+      "size": "323MB",
+      "format": "nro",
+      "update": "1.0.2",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/3Zi5c4",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
