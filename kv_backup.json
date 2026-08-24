@@ -31,6 +31,7 @@
       "fw": "v8.0.0+",
       "languages": "Espanol, Ingles, Frances, Aleman, Italiano, Japones, Coreano, Chino, etc.",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -108,6 +109,7 @@
       "fw": "20.0.1",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Portugues, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional, Ingles EE. UU.",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "3.0.3",
@@ -154,6 +156,7 @@
       "fw": "22.1.0",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -429,6 +432,7 @@
       "fw": "9.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, chino simplificado, chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -522,6 +526,7 @@
       "fw": "19.0.1",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -573,15 +578,31 @@
     "cover": "https://art.gametdb.com/switch/box/US/AZ82A.png",
     "trailer": "2jEq0F656aY",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/7a5794b6e6ba1d583e0c90e5fc503103dfb321db553de7160f39c13d8b6a26d3",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/76731e0af708c9bb61ffda82d4488e815696dc0ea78b35a200e381826b01654f",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000045981/70e487d188c282a02eeafd629ece49d1a4fdf94e5aacf3acb9edfee6a6189daf"
+      "https://cdn.thegamesdb.net/images/original/screenshot/87710-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/87710-7.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/87710-2.jpg"
     ],
     "description": {
       "es": "Los mejores tableros y minijuegos de la saga reunidos para jugar en línea.",
       "en": "The best boards and minigames from the series, together for online play."
     },
-    "download": null
+    "download": {
+      "region": "01006FE013472000",
+      "size": "2.84GB",
+      "format": "xci",
+      "update": "1.1.1",
+      "fw": "13.2.1",
+      "languages": "Japonés, inglés, francés, alemán, italiano, español, coreano, holandés, ruso, chino, portugués",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/BbWK2W8",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "mario-u-deluxe",
@@ -727,7 +748,7 @@
     "multijugador": "No",
     "color": "#3f6fa5",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/52805-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=CJ_GCPaK",
+    "trailer": "K0u_kAWLJOA",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/52805-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshots/52805-2.jpg",
@@ -745,7 +766,24 @@
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/EGtuc7",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.35",
+          "url": "https://ouo.io/ex2VnE",
+          "color": "blue"
+        },
+        {
+          "label": "8DLC",
+          "url": "https://cuty.io/dl8go",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -780,11 +818,28 @@
       "fw": "6.72+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/TwDjbD",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.19+60fps",
+          "url": "https://ouo.io/KvFuik",
+          "color": "blue"
+        },
+        {
+          "label": "4DLC",
+          "url": "https://ouo.io/vh42yk",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
-    "id": "horizon-zd",
+    "id": "horizon-zero-dawn-complete-edition",
     "console": "ps4",
     "title": "Horizon Zero Dawn - Complete Edition",
     "genre": "RPG de Acción - Aventura",
@@ -815,7 +870,24 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/WKfIOst",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.54",
+          "url": "https://ouo.io/Hn1tmU",
+          "color": "blue"
+        },
+        {
+          "label": "11DLC",
+          "url": "https://ouo.io/mkt7gX",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -832,8 +904,12 @@
     "multijugador": "No",
     "color": "#7a3b2e",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55247-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "df_z1u2pHYA",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/55247-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55247-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55247-2.jpg"
+    ],
     "description": {
       "es": "Arthur Morgan y la banda de Van der Linde luchan por sobrevivir en el ocaso del Lejano Oeste.",
       "en": "Arthur Morgan and the Van der Linde gang fight to survive the dying days of the Wild West."
@@ -846,7 +922,24 @@
       "fw": "5.50+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/kXj7DTu",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.32",
+          "url": "https://ouo.io/g4qfhI",
+          "color": "blue"
+        },
+        {
+          "label": "2DLC",
+          "url": "https://ouo.io/SdUGXf",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -863,13 +956,33 @@
     "multijugador": "No",
     "color": "#5c3e2a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55731-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "https://youtu.be/JdE9U9WW_HM",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/55731-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55731-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/55731-4.jpg"
+    ],
     "description": {
       "es": "Ellie persigue la venganza en un Seattle devastado por la guerra de facciones.",
       "en": "Ellie hunts for revenge across a Seattle torn apart by faction warfare."
     },
-    "download": null
+    "download": {
+      "region": "CUSA07820 - USA",
+      "size": "77.2GB",
+      "format": "pkg",
+      "update": "1.09 - DLC",
+      "fw": "7.02+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/oYFNOMf",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "uncharted-4",
@@ -885,13 +998,43 @@
     "multijugador": "No",
     "color": "#2c6e9e",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/21416-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "UpXBlCLSSO0",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/21416-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/21416-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/21416-7.jpg"
+    ],
     "description": {
-      "es": "Nathan Drake regresa a la caza del tesoro de los piratas Henry Avery.",
-      "en": "Nathan Drake returns to hunt the lost treasure of pirate Henry Avery."
+      "es": "Nathan Drake regresa a la caza del tesoro de los piratas Henry Avery en su ultima aventura.",
+      "en": "Nathan Drake returns to hunt the lost treasure of pirate Henry Avery in his final adventure."
     },
-    "download": null
+    "download": {
+      "region": "CUSA00341 - USA",
+      "size": "57.9GB",
+      "format": "pkg",
+      "update": "v1.33 + 7DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/iBKG9Lh",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.33",
+          "url": "https://ouo.io/iMdmaa",
+          "color": "blue"
+        },
+        {
+          "label": "7DLC",
+          "url": "https://ouo.io/StsD4T",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "ghost-of-tsushima",
@@ -907,7 +1050,7 @@
     "multijugador": "No",
     "color": "#5a4a8f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55760-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=Zbq7BnsQ",
+    "trailer": "2tQM2A3yMqA",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/55760-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/55760-2.jpg",
@@ -925,7 +1068,14 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1k",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/74nTbM",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -942,7 +1092,7 @@
     "multijugador": "No",
     "color": "#6e5c2f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/38442-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=q1y8o7c1",
+    "trailer": "bGej8K1r8KI",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/38442-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/38442-1.jpg",
@@ -960,7 +1110,14 @@
       "fw": "6.00+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007 & Kbis",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/gbFbXG",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -977,7 +1134,7 @@
     "multijugador": "No",
     "color": "#3a5a8f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/48142-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=sAmKdZdf",
+    "trailer": "ldNsaU4eGFU",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/48142-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshots/48142-2.jpg",
@@ -995,13 +1152,20 @@
       "fw": "N/A",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Playable & hako",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/AVjG5us",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
     "id": "witcher-3",
     "console": "ps4",
-    "title": "The Witcher 3: Wild Hunt",
+    "title": "The Witcher 3: Wild Hunt Complete Edition",
     "genre": "RPG de Acción - Aventura",
     "developer": "CD Projekt Red",
     "publisher": "CD Projekt",
@@ -1011,14 +1175,34 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#8f3a2e",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/16489-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/50981-1.jpg",
+    "trailer": "nBT2SP21f3Q",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/16489-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/16489-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/16489-3.jpg"
+    ],
     "description": {
-      "es": "Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la Cacería Salvaje.",
-      "en": "Geralt of Rivia searches for his adopted daughter Ciri, hunted by the Wild Hunt."
+      "es": "Geralt de Rivia busca a su hija adoptiva Ciri perseguido por la Cacería Salvaje. Edicion completa con todos los DLC.",
+      "en": "Geralt of Rivia searches for his adopted daughter Ciri, hunted by the Wild Hunt. Complete edition with all DLC."
     },
-    "download": null
+    "download": {
+      "region": "CUSA05725 - USA",
+      "size": "46GB",
+      "format": "pkg",
+      "update": "v4.06",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "DUPLEX & CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/x0rbeX",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "persona-5-royal",
@@ -1078,7 +1262,7 @@
     "multijugador": "No",
     "color": "#c98f1f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/43904-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=r5yAjgP2",
+    "trailer": "7ozuoBTPxaI",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/43904-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshots/43904-2.jpg",
@@ -1096,7 +1280,14 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Prelude",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/U4ui50X",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -1112,9 +1303,13 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#3a3a5a",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/60138-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/112418-1.jpg",
+    "trailer": "rXMX4YJ7Lks",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/60138-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60138-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60138-3.jpg"
+    ],
     "description": {
       "es": "El Lobo busca venganza en el Japón Sengoku con su espada y su prótesis shinobi.",
       "en": "Sekiro pursues revenge across Sengoku Japan with his blade and shinobi prosthetic."
@@ -1127,30 +1322,20 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnigth",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/MwmFIJ",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.06",
+          "url": "https://ouo.io/DSGQWlE",
+          "color": "blue"
+        }
+      ]
     }
-  },
-  {
-    "id": "death-stranding",
-    "console": "ps4",
-    "title": "Death Stranding",
-    "genre": "Acción - Aventura",
-    "developer": "Kojima Productions",
-    "publisher": "Sony Interactive Entertainment",
-    "year": 2019,
-    "rating": 82,
-    "players": "1",
-    "cooperativo": "No",
-    "multijugador": "No",
-    "color": "#5a5a8f",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/38113-1.jpg",
-    "trailer": "",
-    "screenshots": [],
-    "description": {
-      "es": "Sam Bridges conecta una América fragmentada tras el Death Stranding.",
-      "en": "Sam Bridges reconnects a shattered America in the wake of the Death Stranding."
-    },
-    "download": null
   },
   {
     "id": "cyberpunk-2077",
@@ -1166,8 +1351,12 @@
     "multijugador": "No",
     "color": "#d8a01f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/22722-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "8X2kIfS6fb8",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/14517-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/22722-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/22722-6.jpg"
+    ],
     "description": {
       "es": "V forja su leyenda en Night City, la megaciudad de la obsesión y el poder.",
       "en": "V forges a legend in Night City, a megalopolis of obsession and power."
@@ -1180,6 +1369,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "CyB1K",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1225,13 +1415,33 @@
     "multijugador": "Local y online",
     "color": "#4a8f3e",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/23313-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "5QYaQw0cQYI",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/19805-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/68757-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/125349-1.jpg"
+    ],
     "description": {
       "es": "Construye, explora y sobrevive en mundos infinitos hechos de bloques.",
       "en": "Build, explore and survive in infinite block-based worlds."
     },
-    "download": null
+    "download": {
+      "region": "CUSA00265 - EUR",
+      "size": "2.72GB",
+      "format": "xci",
+      "update": "3.43 - 73DLC",
+      "fw": "5.0.5+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/4bjiy6",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "ratchet-clank",
@@ -1309,6 +1519,7 @@
       "fw": "",
       "languages": "Japones, Ingles",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1331,7 +1542,7 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#c8a04a",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/127429-1.jpg",
+    "cover": "http://imgfz.com/i/LTyR0BM.png",
     "trailer": "vMH8Zve2qAc",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshots/49458-1.jpg",
@@ -1350,6 +1561,7 @@
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1373,10 +1585,11 @@
     "multijugador": "No",
     "color": "#c8a04a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/110898-1.jpg",
-    "trailer": "7LyOXR1tO0M",
+    "trailer": "V1mWyTtQEAs",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshot/134531-1.jpg",
-      "https://images.rpgsite.net/image/da49c9a1/161633/original/Octopath-Traveler-0_20251124_07.png"
+      "https://cdn.thegamesdb.net/images/original/screenshot/104493-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/104493-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/104493-7.jpg"
     ],
     "description": {
       "es": "Continuación del RPG HD-2D. Ocho nuevos viajeros en Solistia, un mundo de este a oeste con culturas diversas y una nueva era.",
@@ -1390,6 +1603,7 @@
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -1577,9 +1791,13 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#8f2f2f",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/120355-1.jpg",
-    "trailer": "https://www.youtube.com/watch?v=og41UV4k",
-    "screenshots": [],
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/30763-1.jpg",
+    "trailer": "qKogMfIAAkY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/30763-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/30763-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/30763-2.jpg"
+    ],
     "description": {
       "es": "Kratos asalta el Monte Olimpo para vengarse de los dioses que lo traicionaron.",
       "en": "Kratos storms Mount Olympus to take revenge on the gods who betrayed him."
@@ -1592,7 +1810,19 @@
       "fw": "N/A",
       "languages": "Multi idioma (Castellano)",
       "thanks": "",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/GQJDAg",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.02",
+          "url": "https://ouo.io/Q7hA5j",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -2451,6 +2681,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2492,6 +2723,7 @@
       "fw": "22.5.0",
       "languages": "Ingles, frances, italiano, aleman, espanol (Espana), polaco, portugues (Brasil), ruso, chino",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2533,6 +2765,7 @@
       "fw": "22.1.0",
       "languages": "Ingles, japones, ruso, coreano, chino, portugues",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2574,6 +2807,7 @@
       "fw": "22.1.0",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2615,6 +2849,7 @@
       "fw": "22.5.0",
       "languages": "Frances, aleman, italiano, espanol, ruso, chino, portugues, ingles americano, polaco",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2656,6 +2891,7 @@
       "fw": "9.00+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "D33j4y",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -2712,6 +2948,7 @@
       "fw": "",
       "languages": "Espanol Latino",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Formato iso",
@@ -2758,6 +2995,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2799,6 +3037,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2840,6 +3079,7 @@
       "fw": "17.0.1",
       "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, portugues, ruso, chino simplificado, chino tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2881,6 +3121,7 @@
       "fw": "6.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, neerlandes",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2948,6 +3189,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -2989,6 +3231,7 @@
       "fw": "10.2.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, japones",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3030,6 +3273,7 @@
       "fw": "15.0.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, neerlandes",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3071,6 +3315,7 @@
       "fw": "",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, chino tradicional, chino simplificado, ruso, polaco",
       "thanks": "Contraseña:  zonagamerfa",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3117,6 +3362,7 @@
       "fw": "22.1.0",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, japones, coreano, tailandes, chino tradicional, chino simplificado, ruso, polaco",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3156,14 +3402,21 @@
       "en": "Relive the story of Goku and other Z Fighters in DRAGON BALL Z: KAKAROT. Beyond the epic battles, experience life in the DRAGON BALL Z world as you fight, fish, eat, and train with Goku, Gohan, Vegeta and others."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
+      "region": "010051C0134F8000",
+      "size": "27.1GB",
+      "format": "xci",
+      "update": "1.70+20DLC",
+      "fw": "21.0.1",
       "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, ruso, polaco",
       "thanks": "",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/xHSVEM",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -3198,6 +3451,7 @@
       "fw": "",
       "languages": "Ingles, frances, aleman, espanol, italiano",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -3233,6 +3487,7 @@
       "fw": "13.0.0",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3274,6 +3529,7 @@
       "fw": "13.2.1",
       "languages": "Ingles, frances, aleman, italiano, espanol, ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3315,6 +3571,7 @@
       "fw": "15.0.1",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3337,7 +3594,7 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#1a1a2e",
-    "cover": "https://ogdb.eu/imageview.php?image_id=280927&limit=0",
+    "cover": "http://imgfz.com/i/bh8xRGn.jpeg",
     "trailer": "gghRJv_tdb0",
     "screenshots": [
       "https://static.wikia.nocookie.net/thecallistoprotocol/images/1/1e/Screenshot-01.jpg/revision/latest",
@@ -3356,6 +3613,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Droby25 - Pout",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3378,8 +3636,8 @@
     "cooperativo": "No",
     "multijugador": "Local y online",
     "color": "#8b0000",
-    "cover": "https://images.launchbox-app.com/86440f46-4570-46b6-b300-644892f83169.jpg",
-    "trailer": "",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/93782-1.jpg",
+    "trailer": "lfgYdt1Qy60",
     "screenshots": [
       "https://images.launchbox-app.com/565a6092-b666-4fa9-8f32-01a4228cafdc.jpg",
       "https://images.launchbox-app.com/804bb700-f5f6-4c0c-820c-e60a85b5776f.jpg",
@@ -3397,6 +3655,7 @@
       "fw": "9.00+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3438,6 +3697,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3479,6 +3739,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3520,6 +3781,7 @@
       "fw": "",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3545,7 +3807,9 @@
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/32951-1.jpg",
     "trailer": "-x1q7wY0koE",
     "screenshots": [
-      "https://images.launchbox-app.com//7cf49200-f894-4cc6-b682-21837d7e6f23.jpg"
+      "https://images.launchbox-app.com//7cf49200-f894-4cc6-b682-21837d7e6f23.jpg",
+      "https://cdn.mobygames.com/screenshots/5732179-just-cause-3-windows-that-gear-marks-a-mission.jpg",
+      "https://cdn.mobygames.com/screenshots/5740640-just-cause-3-windows-destroying-chaos-objects-give-you-chaos-poi.jpg"
     ],
     "description": {
       "es": "Rico Rodriguez destruye la dictadura de Medici en un mundo abierto lleno de acción y explosiones.",
@@ -3559,7 +3823,13 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/oMNnH7E",
+          "color": "blue"
+        },
         {
           "label": "Mediafire",
           "url": "https://ouo.io/oMNnH7E",
@@ -3600,6 +3870,7 @@
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "PS4STORE",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3625,7 +3896,9 @@
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/44379-1.jpg",
     "trailer": "6wKLntsLVwY",
     "screenshots": [
-      "https://images.launchbox-app.com//c1b31f51-0e22-494c-9b86-4ac4132f7779.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/44363-6.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/44363-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/44363-7.jpg"
     ],
     "description": {
       "es": "La fiesta de baile definitiva con 40 canciones nuevas incluyendo los éxitos más candentes.",
@@ -3639,6 +3912,7 @@
       "fw": "",
       "languages": "Multi idioma",
       "thanks": "DUPLEX",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3662,8 +3936,12 @@
     "multijugador": "Local y online",
     "color": "#e84393",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/94043-1.jpg",
-    "trailer": "92Ec96lzkWM",
-    "screenshots": [],
+    "trailer": "Vnab1gHwJeY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/94044-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/94044-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/94044-3.jpg"
+    ],
     "description": {
       "es": "La edición más reciente de Just Dance con los éxitos mundiales más populares.",
       "en": "The latest edition of Just Dance featuring the most popular worldwide hits."
@@ -3676,6 +3954,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3700,7 +3979,11 @@
     "color": "#4a4a2a",
     "cover": "https://images.launchbox-app.com/ab339379-df8f-409c-9f67-d6aa7d381e6b.jpg",
     "trailer": "oDVrOyT7ImQ",
-    "screenshots": [],
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/fanart/50800-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/50859-8.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/50859-10.jpg"
+    ],
     "description": {
       "es": "Vuelve a la Segunda Guerra Mundial en la experiencia multijugador y campaña más intensa de Call of Duty.",
       "en": "Return to World War II in the most intense multiplayer and campaign experience in Call of Duty."
@@ -3713,6 +3996,7 @@
       "fw": "5.00+",
       "languages": "Multi idioma (Latino)",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3737,7 +4021,11 @@
     "color": "#2a2a4a",
     "cover": "https://images.launchbox-app.com//fa59dd06-9a0f-408e-b574-7da7e07fdde6.jpg",
     "trailer": "qAUYNIDEJ6o",
-    "screenshots": [],
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/29237-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/29237-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/29237-6.jpg"
+    ],
     "description": {
       "es": "La guerra futurística llega a su máxima expresión con combate en Cooperativa, Multijugador y Zombies.",
       "en": "Futuristic warfare reaches its peak with Combat in Co-op, Multiplayer, and Zombies."
@@ -3750,6 +4038,7 @@
       "fw": "",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1K - Vickmindfreak",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -3801,6 +4090,7 @@
       "fw": "4.00+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Game",
@@ -3852,6 +4142,7 @@
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "hako",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3893,6 +4184,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Golemnight/Opoisso893",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3934,6 +4226,7 @@
       "fw": "9.00+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -3947,21 +4240,21 @@
     "id": "farcry-6",
     "console": "ps4",
     "title": "Far Cry 6",
-    "genre": "Accion - Mundo Abierto",
+    "genre": "Acción - Mundo Abierto",
     "developer": "Ubisoft Toronto",
     "publisher": "Ubisoft",
     "year": 2021,
     "rating": 76,
     "players": "1-2",
-    "cooperativo": "Si",
-    "multijugador": "No",
+    "cooperativo": "Online",
+    "multijugador": "Online",
     "color": "#d4a017",
-    "cover": "https://images.launchbox-app.com/r2_c6b88e50-98bb-4af9-865c-37f28bebd50b.jpeg",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/74770-1.jpg",
     "trailer": "-IJuKT1mHO8",
     "screenshots": [
-      "https://images.launchbox-app.com/r2_53d57201-ed1c-4aea-b939-667715d502c9.jpg",
-      "https://images.launchbox-app.com/e98b7901-2ad3-4de5-8f45-33bdd68ad48c.png",
-      "https://images.launchbox-app.com/2189875c-e56c-477c-9e21-0cea17b770b1.jpg"
+      "https://cdn.mobygames.com/promos/10548084-far-cry-6-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/10549770-far-cry-6-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/10549767-far-cry-6-screenshot.jpg"
     ],
     "description": {
       "es": "Lucha contra una dictadura en la isla caribeña de Yara. Explora un mundo abierto lleno de peligros, guerrillas y armas improvisadas.",
@@ -3975,9 +4268,10 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Latino/Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
-          "label": "Game",
+          "label": "Mediafire",
           "url": "https://ouo.io/Aw853o",
           "color": "blue"
         }
@@ -3988,7 +4282,7 @@
     "id": "re3-nemesis-classic",
     "console": "ps4",
     "title": "Resident Evil 3 Nemesis",
-    "genre": "Accion - Survival Horror",
+    "genre": "Acción - Survival Horror",
     "developer": "Capcom",
     "publisher": "Capcom",
     "year": 1999,
@@ -3997,7 +4291,7 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#8b0000",
-    "cover": "https://images.launchbox-app.com/r2_01c5dccf-a1ac-4da9-b2a2-78efd606ac93.jpg",
+    "cover": "http://imgfz.com/i/tWzNZDk.png",
     "trailer": "gun-MVEWg40",
     "screenshots": [
       "https://images.launchbox-app.com/76f968d0-e1b4-4c40-b09a-b02d919e1c81.jpg",
@@ -4016,6 +4310,7 @@
       "fw": "5.05+",
       "languages": "Espanol Castellano",
       "thanks": "Farenheit",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4038,7 +4333,7 @@
     "cooperativo": "Si",
     "multijugador": "No",
     "color": "#1a5276",
-    "cover": "https://image.api.playstation.com/cdn/UP2292/CUSA12801_00/7l2ZI0YsKXryk5VkfSwRLU43EJpnxyP1.png",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/63092-1.jpg",
     "trailer": "A0lMg-loz0E",
     "screenshots": [
       "https://apollo2.dl.playstation.net/cdn/UP2292/CUSA12801_00/FREE_CONTENTpq8srHj42LUJz9l00x6G/PREVIEW_SCREENSHOT1_168369.jpg?w=1440&h=810&format=jpg",
@@ -4057,6 +4352,7 @@
       "fw": "5.50+",
       "languages": "Multi idioma",
       "thanks": "Grief247allday & CyB1K & jwooh",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4079,7 +4375,7 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#6c3483",
-    "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2514/YHDGGSQlnwClmFIUhlfy8zrl.png",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/95632-1.jpg",
     "trailer": "O5y-Timrvls",
     "screenshots": [
       "https://images.launchbox-app.com/8b496c38-99e1-416e-b54a-33830f79ebe4.jpg",
@@ -4098,6 +4394,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "C4our20 & Pout",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4111,7 +4408,7 @@
     "id": "predator-hunting-grounds",
     "console": "ps4",
     "title": "Predator Hunting Grounds",
-    "genre": "Accion - Asimetrico Multiplayer",
+    "genre": "Acción - Asimetrico Multiplayer",
     "developer": "IllFonic",
     "publisher": "Sony Interactive Entertainment",
     "year": 2020,
@@ -4120,7 +4417,7 @@
     "cooperativo": "Si",
     "multijugador": "Online",
     "color": "#27ae60",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co235f.jpg",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/68387-1.jpg",
     "trailer": "ocP3VPsEGds",
     "screenshots": [
       "https://images.igdb.com/igdb/image/upload/t_1080p/sc6wdo.jpg",
@@ -4139,6 +4436,7 @@
       "fw": "12.00+",
       "languages": "Multi idioma",
       "thanks": "High-Speed",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4152,7 +4450,7 @@
     "id": "borderlands-handsome-collection",
     "console": "ps4",
     "title": "Borderlands The Handsome Collection",
-    "genre": "Accion - RPG",
+    "genre": "Acción - RPG",
     "developer": "Gearbox Software",
     "publisher": "2K Games",
     "year": 2015,
@@ -4180,6 +4478,7 @@
       "fw": "6.00+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Commandblock",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4193,7 +4492,7 @@
     "id": "dragon-ball-xenoverse",
     "console": "ps4",
     "title": "Dragon Ball Xenoverse",
-    "genre": "Accion - RPG",
+    "genre": "Acción - Lucha - RPG",
     "developer": "Dimps",
     "publisher": "Bandai Namco",
     "year": 2015,
@@ -4221,6 +4520,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "kbis",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4234,7 +4534,7 @@
     "id": "dissidia-ff-nt-deluxe",
     "console": "ps4",
     "title": "Dissidia Final Fantasy NT Deluxe Edition",
-    "genre": "Accion - Lucha",
+    "genre": "Acción - Lucha",
     "developer": "Square Enix",
     "publisher": "Square Enix",
     "year": 2018,
@@ -4262,6 +4562,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4275,7 +4576,7 @@
     "id": "assassins-creed-origins",
     "console": "ps4",
     "title": "Assassin's Creed Origins",
-    "genre": "Accion - Mundo Abierto",
+    "genre": "Acción - Mundo Abierto",
     "developer": "Ubisoft Montreal",
     "publisher": "Ubisoft",
     "year": 2017,
@@ -4303,6 +4604,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4344,6 +4646,7 @@
       "fw": "20.0.1+",
       "languages": "Espanol, Ingles, Frances, Aleman, Italiano, Japones, Chino, Coreano, Ruso, Neerlandes, Portugues",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4385,6 +4688,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4426,6 +4730,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "DUPLEX & Opoisso893",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4448,12 +4753,12 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#1a6b3c",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/65927-1.jpg",
-    "trailer": "4EEz5HMBXNI",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/97989-1.jpg",
+    "trailer": "9hvH3OdjdWA",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/65927-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65927-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65927-3.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/73526-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73526-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73526-1.jpg"
     ],
     "description": {
       "es": "Aloy viaja a la Costa Prohibida para enfrentar nuevas amenazas mecánicas en un mundo post-apocalíptico.",
@@ -4467,7 +4772,14 @@
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "CyB1K",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/VLFXtdQ",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4483,12 +4795,12 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#1a1a2e",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/65054-1.jpg",
-    "trailer": "gYJgLRDdlcQ",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/96787-1.jpg",
+    "trailer": "Q3kfF3XNzw8",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/65054-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65054-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/65054-3.jpg"
+      "https://cdn.thegamesdb.net/images/original/titlescreen/96787-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/96787-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/96787-3.jpg"
     ],
     "description": {
       "es": "Miles Morales descubre sus poderes y debe proteger Nueva York de una nueva amenaza.",
@@ -4502,7 +4814,19 @@
       "fw": "7.50+",
       "languages": "Multi idioma (Latino)",
       "thanks": "High-Speed007 & Kbis",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/joSlGo",
+          "color": "blue"
+        },
+        {
+          "label": "Update+4DLC",
+          "url": "https://ouo.io/ScsuyrM",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4518,12 +4842,12 @@
     "cooperativo": "Cooperativo",
     "multijugador": "Online",
     "color": "#2d5a27",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/53203-1.jpg",
-    "trailer": "JtOHE2i_gSM",
+    "cover": "http://imgfz.com/i/IPUJScR.png",
+    "trailer": "MM_936U7cvg",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/53203-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/53203-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/53203-3.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/66237-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66237-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66237-1.jpg"
     ],
     "description": {
       "es": "Caza criaturas gigantes en un mundo abierto con la expansión Iceborne incluida.",
@@ -4537,7 +4861,24 @@
       "fw": "5.05+",
       "languages": "Multi idioma (Castellano)",
       "thanks": "Opoisso893/Golemnigth",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/3MxmUDY",
+          "color": "blue"
+        },
+        {
+          "label": "Update 15.23",
+          "url": "https://ouo.io/alkRdCr",
+          "color": "blue"
+        },
+        {
+          "label": "238DLC",
+          "url": "https://ouo.io/k6AFyR",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4554,7 +4895,7 @@
     "multijugador": "No",
     "color": "#8b1a1a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/121151-1.jpg",
-    "trailer": "",
+    "trailer": "-8MN89fIaJ8",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/129952-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/135587-1.jpg",
@@ -4572,7 +4913,19 @@
       "fw": "9.00+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnigth",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/WlvmVv",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.04",
+          "url": "https://ouo.io/PAmVHk",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -4607,6 +4960,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4642,6 +4996,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4671,13 +5026,25 @@
     },
     "download": {
       "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
+      "size": "16.5GB",
+      "format": "xci",
+      "update": "2.0.0+2dlc",
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
       "thanks": "",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Parte1",
+          "url": "https://ouo.io/DKT9LFq",
+          "color": "green"
+        },
+        {
+          "label": "Parte2",
+          "url": "https://drive.google.com/file/d/15GnRvke_DWzmncGTQoVOl9il5o6GARLL/view?usp=drive_link",
+          "color": "green"
+        }
+      ]
     }
   },
   {
@@ -4712,6 +5079,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4747,6 +5115,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4782,6 +5151,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4817,6 +5187,7 @@
       "fw": "15.0.1",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4858,6 +5229,7 @@
       "fw": "8.1.0",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Ruso",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -4880,8 +5252,8 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#b5179e",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/60625-1.jpg",
-    "trailer": "KzA71ahOBdE",
+    "cover": "https://art.gametdb.com/switch/box/US/ANVYA.png?1565805969",
+    "trailer": "ADaRsEhTB70",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/60625-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/60625-2.jpg",
@@ -4893,13 +5265,20 @@
     },
     "download": {
       "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
+      "size": "12.58GB",
+      "format": "xci",
+      "update": "1.2.0+6DLC",
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado, Ruso",
       "thanks": "",
-      "links": []
+      "mod": "",
+      "links": [
+        {
+          "label": "Drive",
+          "url": "https://ouo.io/tlxpz9",
+          "color": "green"
+        }
+      ]
     }
   },
   {
@@ -4934,6 +5313,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -4967,6 +5347,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5000,6 +5381,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5033,6 +5415,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5066,6 +5449,7 @@
       "fw": "",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5099,6 +5483,7 @@
       "fw": "",
       "languages": "Ingles, Japones, Coreano, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5132,6 +5517,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Neerlandes",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5165,6 +5551,7 @@
       "fw": "",
       "languages": "Ingles, Frances, Aleman, Espanol, Portugues, Japones, Coreano, Chino Simplificado, Ruso",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5200,6 +5587,7 @@
       "fw": "",
       "languages": "Ingles, Aleman, Espanol, Frances, Japones, Coreano, Portugues, Ruso, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5233,6 +5621,7 @@
       "fw": "",
       "languages": "Ingles",
       "thanks": "",
+      "mod": "",
       "links": []
     }
   },
@@ -5252,21 +5641,35 @@
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/117993-1.jpg",
     "trailer": "CCum266l1vY",
     "screenshots": [
-      "https://img.youtube.com/vi/CCum266l1vY/mqdefault.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/73949-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73949-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73949-3.jpg"
     ],
     "description": {
       "es": "Crash y Coco estan de vuelta para derrotar a Neo Cortex y N. Tropy en un aventura a traves del multiverso con niveles desafiantes.",
       "en": "Crash and Coco are back to take down Neo Cortex and N. Tropy in an adventure across the multiverse with challenging levels."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Portugues, Japones, Coreano, Chino Simplificado",
-      "thanks": "",
-      "links": []
+      "region": "CUSA19035 - USA",
+      "size": "42.1GB",
+      "format": "pkg",
+      "update": "1.05 - DLC",
+      "fw": "7.50+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/M6bXm3",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.05 - DLC",
+          "url": "https://uii.io/crashb4",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -5282,24 +5685,26 @@
     "cooperativo": "Local y online",
     "multijugador": "Local y online",
     "color": "#5c3a2f",
-    "cover": "https://art.gametdb.com/switch/box/US/ASLPA.png",
+    "cover": "https://art.gametdb.com/switch/box/EN/ASLPA.png?1772033515",
     "trailer": "gfYo6UlWI_c",
     "screenshots": [
-      "https://img.youtube.com/vi/gfYo6UlWI_c/mqdefault.jpg",
-      "https://img.youtube.com/vi/sxFSeUGgAfQ/mqdefault.jpg"
+      "https://cdn.thegamesdb.net/images/original/screenshot/41132-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/41132-9.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/41132-1.jpg"
     ],
     "description": {
       "es": "Chris Redfield y Sheva Alomar investigan una amenaza bioterrorista en Kijuju, Africa. Incluye todo el DLC y modos adicionales.",
       "en": "Chris Redfield and Sheva Alomar investigate a bioterrorist threat in Kijuju, Africa. Includes all DLC and additional modes."
     },
     "download": {
-      "region": "010018100CD46000 - USA",
+      "region": "010018100CD46000",
       "size": "18.7GB",
       "format": "XCI",
-      "update": "v1.0.3",
+      "update": "1.0.3",
       "fw": "v15.0.1",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5341,6 +5746,7 @@
       "fw": "14.1.2",
       "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5382,6 +5788,7 @@
       "fw": "15.0.1",
       "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5395,7 +5802,7 @@
     "id": "god-of-war-ragnarok",
     "console": "ps4",
     "title": "God of War Ragnarok",
-    "genre": "Accion - Aventura",
+    "genre": "Acción - Aventura",
     "developer": "Santa Monica Studio",
     "publisher": "Sony Interactive Entertainment",
     "year": 2022,
@@ -5419,35 +5826,21 @@
       "region": "CUSA34384 - USA",
       "size": "122.9GB",
       "format": "pkg",
-      "update": "6.05 - 5.05",
+      "update": "6.05 - 5.05 - 3DLC",
       "fw": "9.50+  -  5.05+",
       "languages": "Multi idioma (Latino)",
       "thanks": "Fugazi & CyB1K",
+      "mod": "",
       "links": [
         {
-          "label": "Game",
-          "url": "https://akirabox.to/qw1zerEB0GXy/file",
+          "label": "Mediafire",
+          "url": "https://ouo.io/FgXBE1",
           "color": "blue"
         },
         {
-          "label": "Update 6.05 (9.50+)",
-          "url": "https://ouo.io/eSRvqW",
-          "color": "blue"
-        },
-        {
-          "label": "Update 5.05 (5.05+)",
-          "url": "https://ouo.io/7wGVpF9",
-          "color": "blue"
-        },
-        {
-          "label": "3DLC",
-          "url": "https://ouo.io/oXUC37K",
-          "color": "blue"
-        },
-        {
-          "label": "Digital ArtBook & Soundtrack",
-          "url": "https://cuty.io/gobook",
-          "color": "blue"
+          "label": "Terabox",
+          "url": "https://ouo.io/to4LPl",
+          "color": "white"
         }
       ]
     }
@@ -5456,7 +5849,7 @@
     "id": "uncharted-nathan-drake-collection",
     "console": "ps4",
     "title": "Uncharted: The Nathan Drake Collection",
-    "genre": "Accion - Aventura",
+    "genre": "Acción - Aventura",
     "developer": "Bluepoint Games",
     "publisher": "Sony Computer Entertainment",
     "year": 2015,
@@ -5484,6 +5877,7 @@
       "fw": "5.05+",
       "languages": "Multi idioma ( Latino)",
       "thanks": "Fugazi",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5525,6 +5919,7 @@
       "fw": "21.2.0",
       "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Chino Tradicional",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
@@ -5566,10 +5961,718 @@
       "fw": "16.1.0",
       "languages": "Ingles, Japones",
       "thanks": "",
+      "mod": "",
       "links": [
         {
           "label": "Mediafire",
           "url": "https://ouo.io/aAO8g6",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "avatar-quest-for-balance",
+    "console": "switch",
+    "title": "Avatar: The Last Airbender - Quest for Balance",
+    "genre": "Accion - Aventura",
+    "developer": "Bamtang Games",
+    "publisher": "GameMill Entertainment",
+    "year": 2023,
+    "rating": 48,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#1565c0",
+    "cover": "http://imgfz.com/i/aBGrswg.png",
+    "trailer": "pFbkOqhYQJI",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/8f09724a189104437ca7e19d36dc93820b82fee39402b91f8e537e2496ea5ee5",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/ee542dd1d9cb044106a97fe71d5ffc31230a957be6cd21127dfcbda6fd291b25",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043029/63a114446626fbe59863ef055a55c8fc8b8665ed8293349d6d0a4d2bb967d38d"
+    ],
+    "description": {
+      "es": "Revive la epica aventura de la serie original Avatar: The Last Airbender, jugando como Aang y sus amigos. Domina los elementos, explora ubicaciones unicas, resuelve acertijos y experimenta los momentos mas emotivos de la historia de Aang. Juega en solitario o con un amigo en modo cooperativo.",
+      "en": "Relive the epic adventure of the original Avatar: The Last Airbender series, playing as Aang and his friends. Master the elements, explore unique locations, solve puzzles and experience the most heart-touching moments of Aang's story. Play solo or with a friend in co-op mode."
+    },
+    "download": {
+      "region": "",
+      "size": "4.68GB",
+      "format": "xci",
+      "update": "0.3.0.29423",
+      "fw": "",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/IZ1ecY",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "avatar-legends-fighting-game",
+    "console": "switch",
+    "title": "Avatar Legends: The Fighting Game",
+    "genre": "Accion - Pelea",
+    "developer": "Gameplay Group International",
+    "publisher": "PM Studios",
+    "year": 2026,
+    "rating": 78,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#e65100",
+    "cover": "http://imgfz.com/i/AqHkm67.png",
+    "trailer": "y43u8b4JlR0",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/01a8f6ca5ff1128d55312b8b8eb91b69196086729458322dcda354fa6e2f1c85",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/e1b297a0d41f4cc294e9bdcc1ebdac31e8ca9cde6425da7e47122df422550bec",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000124322/e8bd75644410eaaa6d6e0790c8d254ac84c38f8e477c8520bd6a86c67f28a5d3"
+    ],
+    "description": {
+      "es": "Un juego de pelea 1v1 de ritmo rapido que trae el mundo de Avatar a la vida con animacion 2D dibujada a mano. Elige entre 12 personajes jugables y enfrentate en multiples modos incluyendo Versus, Historia, Arcade, Entrenamiento y Galeria de Arte. Cuenta con netcode rollback y crossplay completo.",
+      "en": "A fast-paced 1v1 fighter that brings the world of Avatar to life with hand-drawn 2D animation. Choose from 12 playable characters and go head-to-head across multiple modes including Versus, Story, Arcade, Training, and Art Gallery. Features rollback netcode and full crossplay."
+    },
+    "download": {
+      "region": "",
+      "size": "8.6GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "22.5.0",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues5",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/CWnieB",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "catto-s-post-office",
+    "console": "switch",
+    "title": "Catto's Post Office",
+    "genre": "Aventura",
+    "developer": "In Shambles Studio",
+    "publisher": "In Shambles Studio",
+    "year": 2026,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#ff9800",
+    "cover": "http://imgfz.com/i/wO9aVGq.png",
+    "trailer": "WqOM1loUnq8",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/titlescreen/135344-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/135344-1.jpg",
+      "http://imgfz.com/i/4QFiPGt.jpeg"
+    ],
+    "description": {
+      "es": "Entrega el correo como Catto, el dedicado Gato Postal de la ciudad, mientras conoces amigos unicos en una vibrante y acogedora ciudad llena de residentes felinos. Explora la colorida ciudad, encuentra adorables residentes y alegra su dia ayudandolas con pequenas tareas.",
+      "en": "Deliver mail as Catto, the town's dedicated Postcat, while meeting unique friends in a vibrant cozy town filled with kitty residents. As you explore the colorful town, encounter adorable residents and brighten up their day by helping them with silly little tasks."
+    },
+    "download": {
+      "region": "0100B78027844000",
+      "size": "441MB",
+      "format": "xci",
+      "update": "1.01",
+      "fw": "22.1.0",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/1Tbi5n5",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "grimoire-groves",
+    "console": "switch",
+    "title": "Grimoire Groves",
+    "genre": "Acción - Aventura - RPG",
+    "developer": "Stardust LLC",
+    "publisher": "Stardust LLC",
+    "year": 2026,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#9c27b0",
+    "cover": "http://imgfz.com/i/Qzwv9S5.png",
+    "trailer": "9QY-IcoR89s",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/19992089-grimoire-groves-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/19992093-grimoire-groves-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/19992137-grimoire-groves-screenshot.jpg"
+    ],
+    "description": {
+      "es": "Unungeon roguelite acogedor donde te unes a las brujas para restaurar los Grimoire Groves. Domina la magia, haz crecer adorables criaturas vegetales y descubre el misterio de los Calcetines Arcoiris. Explora bosques generados proceduralmente, forja hechizos y equípate para enfrentar desafíos.",
+      "en": "A cozy rogue-lite dungeon crawler where you join the witches to restore the Grimoire Groves. Master magic, grow cute plant creatures and discover the mystery of the Rainbow Socks. Explore procedurally generated forests, craft spells and gear up to take on challenges."
+    },
+    "download": {
+      "region": "010042902357C000",
+      "size": "635MB",
+      "format": "NSP",
+      "update": "1.0.0",
+      "fw": "19.0.0",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/sq6ntu",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shaq-fu-a-legend-reborn",
+    "console": "switch",
+    "title": "Shaq Fu: A Legend Reborn",
+    "genre": "Acción - Beat 'em up",
+    "developer": "Big Deez Productions",
+    "publisher": "Wired Productions",
+    "year": 2018,
+    "rating": 50,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#f44336",
+    "cover": "https://art.gametdb.com/switch/box/EN/AEQZB.png?1589834438",
+    "trailer": "SnucJkzmMOU",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000000888/56fbf124f5d187fd49976fe8253009d3e47201f90f953ee0d1075e0f9657dd07",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000000888/8d314a5758d4f7ac1308caf76231b88d5586668a0856a863726b7b85d24bac2d",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000000888/be2c22796e699cb39d926fdc4b27df1d2ea0d129b8128c85ed04e72649030774"
+    ],
+    "description": {
+      "es": "Un bolso flota a la deriva por el río con un bebé huérfano en su interior. Encuentran y adoptan al niño, que acaba descubriendo su verdadera identidad y la grandeza de su destino. Shaquille O'Neal interpreta a un maestro del Wu Xing experto en mamporros en este beat 'em up lleno de acción y humor. Enfrenta a jefes que son la parodia de conocidos patanes en batallas épicas.",
+      "en": "A baby orphan floats downriver in a bag and is found and adopted. He discovers his true identity and destiny. Shaquille O'Neal stars as a Wu Xing kung fu master in this action-packed beat 'em up filled with humor and epic boss battles."
+    },
+    "download": {
+      "region": "0100769004584000",
+      "size": "2.76GB",
+      "format": "nsp",
+      "update": "1.0.0",
+      "fw": "5.0.0",
+      "languages": "Ingles, Frances, Aleman, Espanol, Italiano, Portugues, Ruso",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/f38DB3",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-last-of-us-remastered",
+    "console": "ps4",
+    "title": "The Last of Us Remastered",
+    "genre": "Acción - Aventura",
+    "developer": "Naughty Dog",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2014,
+    "rating": 95,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Si",
+    "color": "#1a3a2a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/21182-1.jpg",
+    "trailer": "AaOWRvmtEFQ",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/21182-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/21182-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/21182-3.jpg"
+    ],
+    "description": {
+      "es": "Ganador de mas de 200 premios al mejor juego del año. Ciudades abandonadas reclamadas por la naturaleza. Una poblacion diezmada por una plaga moderna. Joel, un superviviente brutal, y Ellie, una valiente adolescente, deben trabajar juntos si esperan sobrevivir a su viaje por Estados Unidos. Incluye Left Behind, Abandoned Territories y Reclaimed Territories.",
+      "en": "Winner of over 200 game of the year awards. Abandoned cities reclaimed by nature. A population decimated by a modern plague. Joel, a brutal survivor, and Ellie, a brave young teen, must work together to survive their journey across the US. Includes Left Behind, Abandoned Territories and Reclaimed Territories."
+    },
+    "download": {
+      "region": "CUSA00552 - USA",
+      "size": "44.46GB",
+      "format": "pkg",
+      "update": "v1.11 + 7DLC",
+      "fw": "6.72+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "kbis",
+      "mod": "",
+      "links": [
+        {
+          "label": "Game",
+          "url": "https://ouo.io/UrRJs1q",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.11+7DLC",
+          "url": "https://ouo.io/l2yVDvy",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "marvel-vs-capcom-fighting-collection",
+    "console": "ps4",
+    "title": "Marvel vs. Capcom Fighting Collection: Arcade Classics",
+    "genre": "Lucha - Acción",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2024,
+    "rating": 80,
+    "players": "1-2",
+    "cooperativo": "Si",
+    "multijugador": "Si",
+    "color": "#c41e2a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/128660-1.jpg",
+    "trailer": "dHBL5f1kQRY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/130145-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/130145-7.jpg",
+      "https://cdn.thegamesdb.net/images/original/fanart/130144-1.jpg"
+    ],
+    "description": {
+      "es": "7 clasicos de Capcom y Marvel en una coleccion: X-Men Children of the Atom, Marvel Super Heroes, X-Men vs Street Fighter, Marvel Super Heroes vs Street Fighter, Marvel vs Capcom, Marvel vs Capcom 2 y The Punisher. Con online, rollback netcode y modos de entrenamiento.",
+      "en": "7 Capcom and Marvel arcade classics in one collection: X-Men Children of the Atom, Marvel Super Heroes, X-Men vs Street Fighter, Marvel Super Heroes vs Street Fighter, Marvel vs Capcom, Marvel vs Capcom 2 and The Punisher. With online play, rollback netcode and training modes."
+    },
+    "download": {
+      "region": "CUSA46747 - JP",
+      "size": "3.48GB",
+      "format": "pkg",
+      "update": "1.04",
+      "fw": "5.05",
+      "languages": "Multi idioma (Latino solo MVC2)",
+      "thanks": "UNLiMiTED & Droby25 & Schzone",
+      "mod": "Ridertron416 kizeo0  Infinitystok EDIZEL YisusAhg  Bl4zeModder",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/SQ971z",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "death-stranding",
+    "console": "ps4",
+    "title": "Death Stranding",
+    "genre": "Acción - Aventura",
+    "developer": "Kojima Productions",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2019,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/38113-1.jpg",
+    "trailer": "tCI396HyhbQ",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/38113-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/75311-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/75311-7.jpg"
+    ],
+    "description": {
+      "es": "Una aventura de acción ambientada en un mundo devastado donde Sam Bridges debe recorrer un territorio peligroso para reconectar a la humanidad. A lo largo de su viaje transportará suministros, enfrentará amenazas sobrenaturales y descubrirá los misterios que rodean este extraño mundo.",
+      "en": "An action-adventure set in a devastated world where Sam Bridges must traverse dangerous territory to reconnect humanity. Throughout his journey, he will transport supplies, face supernatural threats, and uncover the mysteries surrounding this strange world."
+    },
+    "download": {
+      "region": "CUSA11260 - USA",
+      "size": "45.9GB",
+      "format": "pkg",
+      "update": "1.13 - 9DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "TKJ13 & CyB1k & Jwooh",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/9nkZFu",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shadow-of-the-tomb-raider-definitive-edition",
+    "console": "ps4",
+    "title": "Shadow of The Tomb Raider Definitive Edition",
+    "genre": "Acción - Aventura",
+    "developer": "Eidos-Montréal",
+    "publisher": "Square Enix",
+    "year": 2019,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/67615-1.jpg",
+    "trailer": "b1FvYc3c64w",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/67615-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/67615-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/67615-2.jpg"
+    ],
+    "description": {
+      "es": "Lara Croft se embarca en una peligrosa aventura por América Latina para detener un apocalipsis maya que ella misma ha desencadenado. Explorará antiguas ruinas, resolverá complejos acertijos y se enfrentará a enemigos mientras descubre los secretos de su pasado.",
+      "en": "Lara Croft embarks on a perilous adventure across Latin America to stop a Mayan apocalypse she herself has unleashed. She will explore ancient ruins, solve complex puzzles, and face"
+    },
+    "download": {
+      "region": "CUSA10872 - EUR",
+      "size": "30.5GB",
+      "format": "pkg",
+      "update": "2.01 - DLC",
+      "fw": "5.0.5",
+      "languages": "Multi idioma (Latino-Castellano)",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/18V2la",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/S3M0Cv",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hollow-knight-silksong",
+    "console": "ps4",
+    "title": "Hollow Knight Silksong",
+    "genre": "Metroidvania - Acción - Plataformas",
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "year": 2025,
+    "rating": 91,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/Qr4LglJ.png",
+    "trailer": "hnGj7BYKPUE",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/101643-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/69039-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/101643-1.jpg"
+    ],
+    "description": {
+      "es": "Una aventura de acción y exploración protagonizada por Hornet. Viaja por un misterioso reino lleno de criaturas peligrosas, descubre secretos y domina nuevas habilidades mientras avanzas por un mundo conectado y lleno de desafíos.",
+      "en": "An action-adventure game starring Hornet. Journey through a mysterious kingdom filled with dangerous creatures, uncover secrets, and master new abilities as you progress through a world"
+    },
+    "download": {
+      "region": "CUSA39420 - EUR",
+      "size": "4.05GB",
+      "format": "pkg",
+      "update": "1.05",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Anonymous",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/2teN5ZY",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/01avgk",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ea-sports-fc-26",
+    "console": "ps4",
+    "title": "EA SPORTS FC 26",
+    "genre": "Deportes - Fútbol",
+    "developer": "EA Vancouver",
+    "publisher": "Electronic Arts",
+    "year": 2025,
+    "rating": 78,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/yLFSh9v.webp",
+    "trailer": "TSi0iJYSQ24",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/132050-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/132051-1.jpg",
+      "http://imgfz.com/i/VD0nzHc.webp"
+    ],
+    "description": {
+      "es": "Vive una experiencia de fútbol más auténtica con una gran variedad de equipos, ligas y competiciones de todo el mundo. Compite en diferentes modos de juego, mejora a tus jugadores y lleva a tu equipo hasta la gloria.",
+      "en": "Experience an authentic football game featuring a huge variety of teams, leagues, and competitions from around the world. Compete across different game modes, improve your players, and lead your team to glory."
+    },
+    "download": {
+      "region": "CUSA52342- USA",
+      "size": "81.3GB",
+      "format": "pkg",
+      "update": "1.29 -  1.25+World Cup+Offline Unlock",
+      "fw": "5.05+",
+      "languages": "Multi idioma (latino)",
+      "thanks": "Opoisso893/Golemnigth / PlayStation Pulse",
+      "mod": "",
+      "links": [
+        {
+          "label": "Game-Update 1.29",
+          "url": "https://ouo.io/7Tf62k",
+          "color": "blue"
+        },
+        {
+          "label": "Game-Update 1.25+World Cup",
+          "url": "https://ouo.io/D7XAHI",
+          "color": "blue"
+        },
+        {
+          "label": "Plantilla 21/08/2026",
+          "url": "https://ouo.io/MLMeDh3",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "forager",
+    "console": "ps4",
+    "title": "Forager",
+    "genre": "Aventura - Supervivencia - RPG",
+    "developer": "HopFrog",
+    "publisher": "Humble Games",
+    "year": 2019,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/66747-1.jpg",
+    "trailer": "pimw7LiLm60",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/66747-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66747-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66747-5.jpg"
+    ],
+    "description": {
+      "es": "Comienza con una pequeña isla y conviértela en un mundo lleno de recursos, construcciones y secretos. Explora, recolecta materiales, fabrica objetos, desbloquea nuevas tierras y desarrolla tu propio imperio mientras descubres todo lo que ofrece el mundo.",
+      "en": "Start with a small island and turn it into a world full of resources, buildings, and secrets. Explore, gather materials, craft items, unlock new lands, and build your own empire as you discover everything the world has to offer"
+    },
+    "download": {
+      "region": "CUSA13967 – USA",
+      "size": "401MB",
+      "format": "pkg",
+      "update": "4.13",
+      "fw": "6.50+",
+      "languages": "Multi idioma",
+      "thanks": "UNLiMiTED & Schzone",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Owy4ElK",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/u2A2lW",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "steins-gate-reboot",
+    "console": "switch",
+    "title": "STEINS GATE REBOOT",
+    "genre": "Aventura - Novela Visual",
+    "developer": "MAGES",
+    "publisher": "Spike Chunsoft",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/eYhfwdB.png",
+    "trailer": "QqYyyn2RNUM",
+    "screenshots": [
+      "http://imgfz.com/i/qy8UOFJ.png",
+      "http://imgfz.com/i/SmM3Agt.png",
+      "http://imgfz.com/i/xU1Bsce.jpeg"
+    ],
+    "description": {
+      "es": "Una nueva versión de la aclamada novela visual de ciencia ficción, donde Rintaro Okabe y sus amigos descubren un misterioso dispositivo capaz de alterar el pasado. Sus decisiones desencadenarán una serie de acontecimientos que pondrán a prueba el destino y la realidad",
+      "en": "A new version of the acclaimed sci-fi visual novel, where Rintaro Okabe and his friends discover a mysterious device capable of altering the past. Their decisions trigger a series of events that will challenge the fate of both reality and the future"
+    },
+    "download": {
+      "region": "01008BC024FDE000",
+      "size": "7.9GB",
+      "format": "xci",
+      "update": "1.0.2",
+      "fw": "22.5.0",
+      "languages": "Japonés, Inglés, Chino Simplificado y Chino Tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/DyqT6w",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/4HsvIN",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ship-of-harkinian-the-legend-of-zelda-ocarina-of-time",
+    "console": "switch",
+    "title": "Ship of Harkinian The Legend of Zelda Ocarina of Time",
+    "genre": "Acción - Aventura",
+    "developer": "Harbour Masters",
+    "publisher": "Harbour Masters",
+    "year": 2022,
+    "rating": 95,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/tKifv2j.png",
+    "trailer": "MYOgcGVQdko",
+    "screenshots": [
+      "http://imgfz.com/i/QZKplXn.png",
+      "http://imgfz.com/i/K4XjHRd.jpeg",
+      "http://imgfz.com/i/QZKplXn.png"
+    ],
+    "description": {
+      "es": "Vive la aventura de Link en su viaje por Hyrule para detener al malvado Ganondorf y proteger el destino del reino. Esta versión ofrece una experiencia mejorada con resolución superior, pantalla panorámica, controles modernos y diversas mejoras.",
+      "en": "Join Link on his journey across Hyrule to stop the evil Ganondorf and protect the fate of the kingdom. This version delivers an enhanced experience with higher resolution, widescreen support, modern controls, and various improvements."
+    },
+    "download": {
+      "region": "09400CFE83B32000",
+      "size": "3.65GB",
+      "format": "nsp",
+      "update": "0.8.6",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/qh28Fz",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2-ship-of-2harkinian-the-legend-of-zelda-majora-s-mask",
+    "console": "switch",
+    "title": "2 Ship of 2Harkinian The Legend of Zelda Majora's Mask",
+    "genre": "Acción - Aventura",
+    "developer": "Harbour Masters",
+    "publisher": "Harbour Masters",
+    "year": 2024,
+    "rating": 95,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/8RyZgj1.png",
+    "trailer": "W-eIqz-mW7k",
+    "screenshots": [
+      "http://imgfz.com/i/RIc2lTO.jpeg",
+      "http://imgfz.com/i/rhI7QO5.png",
+      "http://imgfz.com/i/WP8w7qy.png"
+    ],
+    "description": {
+      "es": "Acompaña a Link en una aventura oscura por Termina, donde solo tiene tres días para evitar una terrible catástrofe. Explora distintas regiones, resuelve acertijos, consigue máscaras con poderes especiales y descubre los secretos de un mundo atrapado en el tiempo.",
+      "en": "Join Link on a dark adventure through Termina, where he has only three days to prevent a terrible catastrophe. Explore different regions, solve puzzles, obtain powerful masks, and uncover the secrets of a world trapped in time."
+    },
+    "download": {
+      "region": "0999999999999996",
+      "size": "2.70GB",
+      "format": "nsp",
+      "update": "4.0.0",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/IYhQJFp",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sword-art-online-hollow-realization",
+    "console": "ps4",
+    "title": "Sword Art Online Hollow Realization",
+    "genre": "Acción - RPG",
+    "developer": "Aquria",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2016,
+    "rating": 69,
+    "players": "1-4",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/40127-1.jpg",
+    "trailer": "ThyUFPuP03k",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/40127-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/40127-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/40127-4.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Kirito y sus amigos en una nueva aventura dentro de un mundo virtual lleno de peligros y misterios. Explora amplias zonas, combate junto a otros personajes y descubre los secretos que esconde este nuevo universo de Sword Art Online.",
+      "en": "Join Kirito and his friends on a new adventure in a virtual world filled with dangers and mysteries. Explore vast areas, fight alongside other characters, and uncover the secrets hidden within this new Sword Art Online universe"
+    },
+    "download": {
+      "region": "CUSA05033 - EUR",
+      "size": "40.3GB",
+      "format": "pkg",
+      "update": "3.20 - 18DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Barquillo & Arczi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/HcHLX4",
           "color": "blue"
         }
       ]
