@@ -1,7 +1,7 @@
 import { getSessionAdmin } from './_lib'
 import { readGames } from '../_shared'
 
-const FILE_PATH = 'src/data/games.kv-backup.json'
+const FILE_PATH = 'kv_backup.json'
 const COMMIT_MSG = 'backup: update kv_backup.json from KV'
 
 export async function onRequestPost(context) {
