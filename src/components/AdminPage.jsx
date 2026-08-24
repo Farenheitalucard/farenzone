@@ -110,6 +110,9 @@ export function AdminPage() {
   const [userDraft, setUserDraft] = useState(null)
   const [savingUser, setSavingUser] = useState(false)
 
+  const [backupStatus, setBackupStatus] = useState('')
+  const [backupRunning, setBackupRunning] = useState(false)
+
   const editParam = searchParams.get('edit')
 
   useEffect(() => {
@@ -160,6 +163,28 @@ export function AdminPage() {
       })
     } catch { /* ignore */ }
     logout()
+  }
+
+  async function handleBackupKV() {
+    setBackupRunning(true)
+    setBackupStatus('📦 Obteniendo juegos de KV...')
+    try {
+      const res = await fetch('/api/admin/backup-kv', {
+        method: 'POST',
+        headers: { 'x-admin-token': token },
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || `Error ${res.status}`)
+      if (data.unchanged) {
+        setBackupStatus(`✓ KV y kv_backup.json ya están sincronizados (${data.games} juegos).\nNo se creó ningún commit.`)
+      } else {
+        setBackupStatus(`✓ ${data.games} juegos obtenidos\n✓ "kv_backup.json" actualizado\n✓ Commit creado\n✅ Backup completado correctamente`)
+      }
+    } catch (e) {
+      setBackupStatus(`❌ Error: ${e.message}`)
+    } finally {
+      setBackupRunning(false)
+    }
   }
 
   async function saveAll(next) {
@@ -578,6 +603,9 @@ export function AdminPage() {
             {(isSuperadmin || hasPerm('users')) && (
               <button type="button" className={`admin-tab${adminTab === 'users' ? ' admin-tab-active' : ''}`} onClick={() => setAdminTab('users')}>Usuarios</button>
             )}
+            {isSuperadmin && (
+              <button type="button" className={`admin-tab${adminTab === 'backup' ? ' admin-tab-active' : ''}`} onClick={() => setAdminTab('backup')}>📦 Backup</button>
+            )}
           </div>
         )}
 
@@ -762,6 +790,17 @@ export function AdminPage() {
               </ul>
             )}
           </>
+        ) : adminTab === 'backup' ? (
+          <div className="admin-backup">
+            <h2>📦 Backup de KV</h2>
+            <p className="admin-empty">Respaldar el contenido actual de KV en el repositorio de GitHub.</p>
+            <button type="button" className="admin-btn-primary" onClick={handleBackupKV} disabled={backupRunning}>
+              {backupRunning ? '⏳ Procesando...' : '📦 RESPALDAR KV EN GITHUB'}
+            </button>
+            {backupStatus && (
+              <pre className="admin-backup-status">{backupStatus}</pre>
+            )}
+          </div>
         ) : (
           <>
             <div className="admin-toolbar">
