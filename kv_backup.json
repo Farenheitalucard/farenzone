@@ -956,7 +956,7 @@
     "multijugador": "No",
     "color": "#5c3e2a",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55731-1.jpg",
-    "trailer": "https://youtu.be/JdE9U9WW_HM",
+    "trailer": "JdE9U9WW_HM",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/55731-1.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/55731-2.jpg",
@@ -6721,6 +6721,95 @@
           "label": "Mediafire",
           "url": "https://ouo.io/782qncW",
           "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "double-dragon-revive-deluxe-edition",
+    "console": "ps4",
+    "title": "Double Dragon Revive Deluxe Edition",
+    "genre": "Acción - Beat 'em up - Lucha",
+    "developer": "Yuke's",
+    "publisher": "Arc System Works",
+    "year": 2025,
+    "rating": 62,
+    "players": "1-2",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/ZNwckjs.webp",
+    "trailer": "g8mo1lVUfYc",
+    "screenshots": [
+      "http://imgfz.com/i/EZTKPFo.jpeg",
+      "http://imgfz.com/i/3JlAhKP.jpeg",
+      "http://imgfz.com/i/mhBpQFk.jpeg"
+    ],
+    "description": {
+      "es": "Los hermanos Billy y Jimmy Lee regresan para enfrentarse a una nueva oleada de criminales en las calles. Combina ataques, esquivas y habilidades especiales mientras recorres escenarios llenos de enemigos y combates contra poderosos jefes.",
+      "en": "Brothers Billy and Jimmy Lee return to face a new wave of criminals on the streets. Combine attacks, dodges, and special abilities as you traverse enemy-filled environments."
+    },
+    "download": {
+      "region": "CUSA52146 - JPN",
+      "size": "18.4GB",
+      "format": "pkg",
+      "update": "1.01 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Cyberpt1000",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/EjoTQ3",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-king-of-fighters-xv",
+    "console": "ps4",
+    "title": "The King of Fighters XV",
+    "genre": "Lucha - Acción - 2D",
+    "developer": "SNK Corporation",
+    "publisher": "Prime Matter",
+    "year": 2022,
+    "rating": 80,
+    "players": "1-2",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/0iGktKn.png",
+    "trailer": "Dsp6f2YKTDk",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/93557-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/93557-9.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/93557-10.jpg"
+    ],
+    "description": {
+      "es": "El legendario torneo de lucha regresa con nuevos personajes, equipos y combates llenos de acción. Domina diferentes estilos de pelea, crea tu equipo de tres luchadores y enfréntate a rivales de todo el mundo.",
+      "en": "The legendary fighting tournament returns with new characters, teams, and action-packed matches. Master different fighting styles, create your team of three fighters, and face rivals from all over the world."
+    },
+    "download": {
+      "region": "CUSA27237 - EUR",
+      "size": "63GB",
+      "format": "pkg",
+      "update": "2.42 - 13DLC",
+      "fw": "9.00+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/lv5YCJ",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/lurFP4",
+          "color": "white"
         }
       ]
     }
