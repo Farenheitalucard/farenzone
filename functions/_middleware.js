@@ -30,6 +30,7 @@ async function serveSPA(request, env, tags) {
   const res = await fetch(new URL('/index.html', request.url))
   let html = await res.text()
   if (tags) {
+    html = html.replace(/\s*<meta\s+(?:property="og:[^"]*"|name="twitter:[^"]*")[^>]*\/?>/g, '')
     html = html.replace('<head>', `<head>\n    ${tags}`)
   }
   return new Response(html, {
