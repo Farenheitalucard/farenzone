@@ -9,14 +9,14 @@ function metaTags(og) {
   return [
     `<meta property="og:title" content="${og.title}">`,
     `<meta property="og:description" content="${og.desc}">`,
-    `<meta property="og:image" content="${og.image}">`,
+    `<meta property="og:image" content="${og.image}" width="1200" height="630">`,
     `<meta property="og:url" content="${og.url}">`,
     `<meta property="og:type" content="website">`,
     `<meta property="og:site_name" content="FarenZone">`,
     `<meta name="twitter:card" content="summary_large_image">`,
     `<meta name="twitter:title" content="${og.title}">`,
     `<meta name="twitter:description" content="${og.desc}">`,
-    `<meta name="twitter:image" content="${og.image}">`,
+    `<meta name="twitter:image" content="${og.image}" width="1200" height="630">`,
   ].join('\n    ')
 }
 
