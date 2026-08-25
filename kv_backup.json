@@ -364,15 +364,31 @@
     "cover": "https://art.gametdb.com/switch/box/US/AV5JA.png",
     "trailer": "GUYDXVDLmns",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/4022d66a8752ca2e585d34c049ae5b959e2a92551964bd7d701b123fc0c51d94",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/1506aeb7252b39ec25c8f29973c2018c441cf73aadebc0799b008cd40db0cfa4",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000050874/395397c1ae4980cdebaf8fd748d3cf0db8147c0ed6a2a832ab029ac1a5966e84"
+      "https://cdn.thegamesdb.net/images/original/screenshot/106528-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/106528-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/106528-4.jpg"
     ],
     "description": {
       "es": "Lucha por la tinta en la ciudad de Chromópolis con modos multijugador y campaña.",
       "en": "Fight for turf in Splatsville with multiplayer modes and a full campaign."
     },
-    "download": null
+    "download": {
+      "region": "0100C2500FC20000",
+      "size": "12.4GB",
+      "format": "xci",
+      "update": "11.3.0+3dlc",
+      "fw": "22.5.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso, Coreano, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ndfGb1",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "mario-3d-allstars",
@@ -484,15 +500,31 @@
     "cover": "https://art.gametdb.com/switch/box/US/AAB62.png",
     "trailer": "_brdPvSQ3gE",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/9cf33306052926c7d4b990905290784c9eab4932c767ab44f289ffca0e2f0187",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/5cf2ca13b6ff175a1bc77e2bd8e771554511b0469c4628c36c5ef79f57c9597d",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001034/49570a053c08fcafad89fc7109ebd91384bab4b0b19f63bcb85f8d04d74481f1"
+      "https://cdn.thegamesdb.net/images/original/screenshots/42299-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/42299-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/42299-4.jpg"
     ],
     "description": {
       "es": "Los Inklings regresan con nuevas armas, modos y festivales de tinta.",
       "en": "The Inklings return with new weapons, modes and Splatfests."
     },
-    "download": null
+    "download": {
+      "region": "01003BC0000A0000",
+      "size": "8.11GB",
+      "format": "xci",
+      "update": "5.5.2+5dlc",
+      "fw": "20.5.0",
+      "languages": "Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/vo4TE1",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "kirby-forgotten-land",
@@ -3973,7 +4005,7 @@
     "id": "call-of-duty-wwii",
     "console": "ps4",
     "title": "Call of Duty: WWII",
-    "genre": "Shooter - Acción",
+    "genre": "Disparos en Primera Persona  - Acción",
     "developer": "Sledgehammer Games",
     "publisher": "Activision",
     "year": 2017,
@@ -4015,7 +4047,7 @@
     "id": "call-of-duty-black-ops-3",
     "console": "ps4",
     "title": "Call of Duty: Black Ops III",
-    "genre": "Shooter - Acción",
+    "genre": "Disparos en Primera Persona - Acción",
     "developer": "Treyarch",
     "publisher": "Activision",
     "year": 2015,
@@ -6851,6 +6883,273 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/3Zi5c4",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tom-clancy-s-splinter-cell-3d",
+    "console": "3ds",
+    "title": "Tom Clancy's Splinter Cell 3D",
+    "genre": "Acción - Aventura - Sigilo",
+    "developer": "Gameloft",
+    "publisher": "Ubisoft",
+    "year": 2011,
+    "rating": 53,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://art.gametdb.com/3ds/coverHQ/US/ASCZ.jpg?1449106815",
+    "trailer": "pSVvJYDV2ys",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/fanart/16486-1.jpg",
+      "http://imgfz.com/i/vZiG0pW.jpeg",
+      "http://imgfz.com/i/JSmLnGW.jpeg"
+    ],
+    "description": {
+      "es": "Ponte en la piel de Sam Fisher en una peligrosa misión de espionaje para evitar una nueva guerra mundial. Infiltra instalaciones enemigas utilizando las sombras, gadgets y habilidades de sigilo para completar tus objetivos sin ser descubierto",
+      "en": "Step into the shoes of Sam Fisher on a dangerous espionage mission to prevent a new world war. Infiltrate enemy facilities using shadows, gadgets, and stealth skills to..."
+    },
+    "download": {
+      "region": "0004000000040100",
+      "size": "1.28GB",
+      "format": "3ds - cia",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés, francés, alemán, italiano y español",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - 3DS",
+          "url": "https://ouo.io/1vkRGE",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - CIA",
+          "url": "https://ouo.io/Q9du16",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "kingdom-hearts-hd-i-5-ii-5-remix",
+    "console": "ps4",
+    "title": "Kingdom Hearts HD I.5 + II.5 Remix",
+    "genre": "Acción - RPG - Aventura",
+    "developer": "Square Enix",
+    "publisher": "Square Enix",
+    "year": 2017,
+    "rating": 84,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/43122-1.jpg",
+    "trailer": "WoTFkF88rKs",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/43122-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/43122-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/43122-3.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Sora, Donald y Goofy en una aventura a través de numerosos mundos inspirados en Disney mientras luchan contra los Sincorazón. Esta colección reúne seis experiencias de la saga y ofrece la mejor forma de revivir los primeros capítulos de la historia.",
+      "en": "Join Sora, Donald, and Goofy on an adventure through numerous Disney-inspired worlds as they battle the Heartless. This collection brings together six experiences from the saga and offers the"
+    },
+    "download": {
+      "region": "CUSA05786 - EUR",
+      "size": "50.8GB",
+      "format": "pkg",
+      "update": "1.04",
+      "fw": "",
+      "languages": "Multi idioma [Undub]",
+      "thanks": "Flared",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game",
+          "url": "https://ouo.io/8kkbGZ",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire Update 1.04",
+          "url": "https://ouo.io/s4GRfU0",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "culdcept-revolt",
+    "console": "3ds",
+    "title": "Culdcept Revolt",
+    "genre": "Estrategia - Juego de Mesa/Cartas",
+    "developer": "Omiya Soft / JAMSWORKS",
+    "publisher": "NIS America",
+    "year": 2017,
+    "rating": 74,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#6a3de8",
+    "cover": "https://art.gametdb.com/3ds/coverHQ/US/AY3E.jpg?1535928062",
+    "trailer": "rfoCJc35RW8",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/49962-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/49962-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/49962-3.jpg"
+    ],
+    "description": {
+      "es": "Culdcept Revolt celebra el 20 aniversario de la serie con una mezcla adictiva de cartas y juego de mesa. Sigue a Allen, un nuevo recluta de las fuerzas rebeldes Free Bat, mientras luchas por la libertad contra la tirania del Conde Kraniss.",
+      "en": "Culdcept Revolt celebrates the series 20th anniversary with an addictive blend of card game and board game. Follow Allen, a new recruit for the rebel Free Bat forces as you fight for freedom from the tyranny of Count Kraniss."
+    },
+    "download": {
+      "region": "00040000001BEC00",
+      "size": "425MB",
+      "format": "3ds - cia",
+      "update": "DLC",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - 3DS",
+          "url": "https://ouo.io/b1QOke",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - CIA",
+          "url": "https://ouo.io/erQlOy",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-splintered-fate",
+    "console": "switch",
+    "title": "Teenage Mutant Ninja Turtles: Splintered Fate",
+    "genre": "Acción - Roguelike - Beat 'em up",
+    "developer": "Super Evil Megacorp",
+    "publisher": "Super Evil Megacorp",
+    "year": 2024,
+    "rating": 80,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#00a651",
+    "cover": "https://art.gametdb.com/switch/box/US/BHCYE.png?1764097147",
+    "trailer": "L7zfH43jx_I",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/128012-1.jpg",
+      "http://imgfz.com/i/gAY9MbH.jpeg",
+      "http://imgfz.com/i/XWhcOYF.jpeg"
+    ],
+    "description": {
+      "es": "Los heroicos tortugas ninja están de vuelta en esta aventura roguelike de acción. Viaja a través de portales que distorsionan la realidad para rescatar a tu maestro abductado, Splinter. Combate fluido, un sistema de construcción diverso y cooperativa para hasta 4 jugadores.",
+      "en": "The heroically mutated Turtle brothers are back in this all-new rogue-like action game. Travel through reality-bending portals to rescue your abducted master, Splinter. Features fast-flowing combat, a diverse build system, and co-op for up to 4 players."
+    },
+    "download": {
+      "region": "01005CF01E784000",
+      "size": "2.41GB",
+      "format": "xci",
+      "update": "2.0.1+4DLC",
+      "fw": "22.5.0",
+      "languages": "Inglés, Japonés, Francés, Alemán, Italiano, Español, Coreano, Neerlandés, Ruso, Chino simplificado, Portugués brasileño, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/rKHBOJv",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-tactical-takedown",
+    "console": "switch",
+    "title": "Teenage Mutant Ninja Turtles: Tactical Takedown",
+    "genre": "Estrategia - Táctica por turnos",
+    "developer": "Strange Scaffold",
+    "publisher": "Strange Scaffold",
+    "year": 2025,
+    "rating": 65,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/DXPhwBK.png",
+    "trailer": "Forub8z9fMI",
+    "screenshots": [
+      "http://imgfz.com/i/LPZI1EX.jpeg",
+      "http://imgfz.com/i/F9dB0k8.jpeg",
+      "http://imgfz.com/i/wsRP3g4.jpeg"
+    ],
+    "description": {
+      "es": "Las Tortugas Ninja se enfrentan a una nueva amenaza en un mundo donde Splinter y Shredder han muerto. Combina estrategia por turnos con combates tipo beat 'em up en 20 niveles cambiantes mientras ayudas a Leonardo, Rafael, Donatello y Miguel Ángel a enfrentar nuevos peligros.",
+      "en": "The Teenage Mutant Ninja Turtles face a new threat in a world where Splinter and Shredder are dead. Combine turn-based strategy with beat 'em up combat across 20 dynamic levels as you help them."
+    },
+    "download": {
+      "region": "01009C2023AC0000",
+      "size": "817MB",
+      "format": "xci",
+      "update": "25.35.a",
+      "fw": "20.4.0",
+      "languages": "Inglés, Español, Francés, Alemán, Italiano",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/sPPdJK",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "zombi",
+    "console": "ps4",
+    "title": "Zombi",
+    "genre": "Survival Horror - Disparos en Primera Persona",
+    "developer": "Straight Right",
+    "publisher": "Ubisoft",
+    "year": 2015,
+    "rating": 71,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/34882-1.jpg",
+    "trailer": "YqKTWKztPSM",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/34882-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/34882-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/34882-3.jpg"
+    ],
+    "description": {
+      "es": "Sobrevive al apocalipsis zombi en las calles de Londres, donde cada recurso puede marcar la diferencia entre vivir o morir. Explora, administra tus suministros y enfréntate a los infectados, pero cuidado: la muerte es permanente.",
+      "en": "Survive the zombie apocalypse in the streets of London, where every resource can mean the difference between life and death. Explore, manage your supplies, and fight the infected, but be careful."
+    },
+    "download": {
+      "region": "CUSA01886 - USA",
+      "size": "19.9GB",
+      "format": "pkg",
+      "update": "",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Fugazi & kbis",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/lrjm1xV",
           "color": "blue"
         }
       ]
