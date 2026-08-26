@@ -1,7 +1,7 @@
 const SITE_URL = 'https://farenzone-1ey.pages.dev'
 const DEFAULT_TITLE = 'FarenZone'
 const DEFAULT_DESC = 'Juegos para PS4, PS3, Nintendo Switch, Xbox 360 y más'
-const DEFAULT_IMAGE = `${SITE_URL}/favicon.jpg`
+const DEFAULT_IMAGE = `${SITE_URL}/favicon.png`
 
 const BOTS = /bot|crawl|spider|facebook|twitter|whatsapp|telegram|discord|slack|skype|linkedin|pinterest|google.*image|facebot|archive|slackbot|vkbot|viber|line\/|microblog|iframely|unfurl|embedly|applebot|baiduspider|yandex|duckduckbot/i
 
