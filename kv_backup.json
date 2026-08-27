@@ -7154,5 +7154,643 @@
         }
       ]
     }
+  },
+  {
+    "id": "dark-souls-ii-scholar-of-the-first-sin",
+    "console": "ps4",
+    "title": "Dark Souls II: Scholar of the First Sin",
+    "genre": "Acción - RPG - Souls-like",
+    "developer": "FromSoftware",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2015,
+    "rating": 87,
+    "players": "1-6",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/24142-1.jpg",
+    "trailer": "v6OvKFwIza8",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/24142-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/24142-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/24142-6.jpg"
+    ],
+    "description": {
+      "es": "Adéntrate en el reino maldito de Drangleic y enfréntate a temibles enemigos y poderosos jefes en una aventura llena de desafíos. Explora peligrosas tierras, mejora tu personaje y descubre los secretos de este oscuro mundo, solo o junto a otros jugadores online",
+      "en": "Enter the cursed realm of Drangleic and face fearsome enemies and powerful bosses in a challenging adventure. Explore perilous lands, upgrade your character, and uncover its secrets."
+    },
+    "download": {
+      "region": "CUSA01760 - USA",
+      "size": "10.6GB",
+      "format": "pkg",
+      "update": "1.02",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "hako",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/IDgJ5W",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dark-souls-remastered",
+    "console": "ps4",
+    "title": "Dark Souls Remastered",
+    "genre": "Acción - RPG - Souls-like",
+    "developer": "QLOC",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2018,
+    "rating": 84,
+    "players": "1-6",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://images.launchbox-app.com/fa54ff6c-9c98-4e64-a339-90e6263e492b.jpg",
+    "trailer": "Woe0PYZPxRw",
+    "screenshots": [
+      "https://images.launchbox-app.com/9116ed4f-64a1-41ba-b008-fd3e4a7bc86e.jpg",
+      "https://images.launchbox-app.com/20fc5895-af71-4214-9829-e88934b9a620.jpg",
+      "https://images.launchbox-app.com/722a4750-d5b3-446f-a80b-0d510d1c69c9.jpg"
+    ],
+    "description": {
+      "es": "Adéntrate en el oscuro mundo de Lordran y enfrenta enemigos, trampas y poderosos jefes mientras descubres sus secretos. Explora un mundo interconectado, desarrolla tu personaje y domina armas, armaduras y magia para sobrevivir",
+      "en": "Enter the dark world of Lordran and face enemies, traps, and powerful bosses as you uncover its secrets. Explore an interconnected world, develop your character, and master weapons and armor."
+    },
+    "download": {
+      "region": "CUSA08692 - USA",
+      "size": "6.94GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "5.00+",
+      "languages": "Multi idioma",
+      "thanks": "Fantasma/Mmajunkie77",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Fd0y8Ix",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-master-collection-version",
+    "console": "ps4",
+    "title": "Metal Gear Solid Master Collection Version",
+    "genre": "Acción - Sigilo - Aventura",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": 2023,
+    "rating": 74,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/Gelq0wn.png",
+    "trailer": "EUmK5Ay8RIQ",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/130546-1.jpg",
+      "https://images.launchbox-app.com/12e407da-7112-4e81-ac24-39dce5e76e73.jpg",
+      "https://images.launchbox-app.com/58fc956f-0427-427e-b5ab-cee1f0ad9266.jpg"
+    ],
+    "description": {
+      "es": "Metal Gear Solid es un clásico de acción y sigilo protagonizado por Solid Snake, quien debe infiltrarse en una instalación nuclear ocupada por terroristas en la isla de Shadow Moses.",
+      "en": "Metal Gear Solid is a classic action and stealth game starring Solid Snake, who must infiltrate a nuclear facility occupied by terrorists on Shadow Moses Island."
+    },
+    "download": {
+      "region": "CUSA41300 - EUR",
+      "size": "9.21GB",
+      "format": "pkg",
+      "update": "1.03 - 2DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "CyB1k & Xmrallx & Arczi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/gVOltE",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/9OFpSW",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-2-sons-of-liberty-master-collection-version",
+    "console": "ps4",
+    "title": "Metal Gear Solid 2 Sons of Liberty Master Collection Version",
+    "genre": "Acción - Sigilo - Aventura",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": 2023,
+    "rating": 74,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/6wJMlCT.png",
+    "trailer": "EUmK5Ay8RIQ",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/124942-1.jpg",
+      "http://imgfz.com/i/DnUjX0s.jpeg",
+      "http://imgfz.com/i/a8uUk6C.jpeg"
+    ],
+    "description": {
+      "es": "La historia gira en torno a una misión para detener una amenaza terrorista relacionada con una nueva generación de Metal Gear, mientras se desarrolla una compleja trama de conspiraciones, manipulación de información y secretos militares.",
+      "en": "The story revolves around a mission to stop a terrorist threat linked to a new generation of Metal Gear, while a complex plot of conspiracies and manipulation unfolds."
+    },
+    "download": {
+      "region": "CUSA41303 - EUR",
+      "size": "16.6GB",
+      "format": "pkg",
+      "update": "2.00 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K & Xmrallx & Arczi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pC8TC3a",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/7HpYDz",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-3-snake-eater-master-collection-version",
+    "console": "ps4",
+    "title": "Metal Gear Solid 3 Snake Eater Master Collection Version",
+    "genre": "Acción - Sigilo - Aventura",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": 2023,
+    "rating": 74,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/4rO9Jna.png",
+    "trailer": "EUmK5Ay8RIQ",
+    "screenshots": [
+      "http://imgfz.com/i/YXGmPgy.jpeg",
+      "http://imgfz.com/i/ZzhTWS0.jpeg",
+      "http://imgfz.com/i/piBgQ5O.jpeg"
+    ],
+    "description": {
+      "es": "Adéntrate en la Guerra Fría como Naked Snake en una misión de infiltración por las profundidades de la selva soviética. Utiliza camuflaje, caza animales, gestiona tus recursos y domina el combate CQC mientras descubres una historia llena de espionaje, traición y supervivencia.",
+      "en": "Enter the Cold War as Naked Snake on an infiltration mission deep within the Soviet jungle. Use camouflage, hunt animals, manage your resources, and master close-quarters combat."
+    },
+    "download": {
+      "region": "CUSA41305 - EUR",
+      "size": "19.8GB",
+      "format": "pkg",
+      "update": "2.00 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K & Xmrallx & Arczi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/A1xXIzX",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/sbXsRl",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dark-souls-iii-the-fire-fades-edition-game-of-the-year-edition",
+    "console": "ps4",
+    "title": "Dark Souls III: The Fire Fades Edition [Game Of The Year Edition]",
+    "genre": "Acción - RPG - Souls-like",
+    "developer": "FromSoftware",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2017,
+    "rating": 0,
+    "players": "1-6",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/103252-1.jpg",
+    "trailer": "0J4u1FD87FM",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/33364-1.jpg",
+      "http://imgfz.com/i/ADJMqrK.webp",
+      "http://imgfz.com/i/7gUf9i1.jpeg"
+    ],
+    "description": {
+      "es": "Adéntrate en un oscuro mundo de fantasía donde las brasas se extinguen y el reino se encuentra al borde de la ruina. Enfréntate a poderosos enemigos y jefes, explora tierras interconectadas y domina un exigente sistema de combate. Esta edición incluye el juego completo y las expansiones Ashes of Ariandel y The Ringed City",
+      "en": "Enter a dark fantasy world where the embers are dying out and the kingdom is on the brink of ruin. Face powerful enemies and bosses, explore interconnected lands, and master a"
+    },
+    "download": {
+      "region": "CUSA07439 - EUR",
+      "size": "22.9GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "5.00+",
+      "languages": "Multi idioma",
+      "thanks": "Prelude",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ARRM7F",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dragon-ball-xenoverse-2",
+    "console": "ps4",
+    "title": "Dragon Ball Xenoverse 2",
+    "genre": "Acción - Lucha - RPG",
+    "developer": "Dimps",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2016,
+    "rating": 72,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/j3T4Pic.png",
+    "trailer": "JnUbg-9v_bE",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/40711-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/40711-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/40641-3.jpg"
+    ],
+    "description": {
+      "es": "Crea tu propio guerrero y únete a los Time Patrollers para proteger la historia del universo de Dragon Ball. Explora Conton City, entrena con personajes legendarios y enfréntate a poderosos enemigos en intensos combates",
+      "en": "Create your own warrior and join the Time Patrollers to protect the history of the Dragon Ball universe. Explore Conton City, train with legendary characters, and face powerful enemies."
+    },
+    "download": {
+      "region": "CUSA05350 - USA",
+      "size": "35.3GB",
+      "format": "pkg",
+      "update": "1.52 - 28DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/39NIXa",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "call-of-duty-modern-warfare-2-call-of-duty-modern-warfare-3-call-of-duty-black-o",
+    "console": "ps4",
+    "title": "Call of Duty Modern Warfare 2 - Call of Duty: Modern Warfare 3 - Call of Duty: Black Ops 6",
+    "genre": "Acción - Disparos en primera persona",
+    "developer": "Treyarch - Sledgehammer Games - Infinity Ward",
+    "publisher": "Activision",
+    "year": 2024,
+    "rating": 86,
+    "players": "1-2",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/d9RM5cz.png",
+    "trailer": "K7wW6V0OiIU",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/101222-7.jpg",
+      "http://imgfz.com/i/Whk7g6d.webp",
+      "http://imgfz.com/i/wzcMHRK.jpeg"
+    ],
+    "description": {
+      "es": "Adéntrate en una historia de espionaje ambientada a principios de los años 90, donde Frank Woods y su equipo deben enfrentarse a una misteriosa conspiración dentro de la CIA. Combina intensos tiroteos, operaciones encubiertas y situaciones de alto riesgo mientras intentas descubrir en quién puedes confiar",
+      "en": "Immerse yourself in a spy thriller set in the early 1990s, where Frank Woods and his team must confront a mysterious conspiracy within the CIA. It combines intense gunfights"
+    },
+    "download": {
+      "region": "CUSA23827 - USA",
+      "size": "51.44GB",
+      "format": "pkg",
+      "update": "1.58",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Game - Update 1.58",
+          "url": "https://ouo.io/2M1hFl",
+          "color": "blue"
+        },
+        {
+          "label": "DLC Modern Warfare II: 76.8GB",
+          "url": "https://ouo.io/RmQRR9Q",
+          "color": "blue"
+        },
+        {
+          "label": "DLC Modern Warfare III: 89GB",
+          "url": "https://ouo.io/Ma2dQU",
+          "color": "blue"
+        },
+        {
+          "label": "DLC Black Ops 6: 35.9GB",
+          "url": "https://ouo.io/W9axRMm",
+          "color": "blue"
+        },
+        {
+          "label": "Parche Multiplayer MWII & MWIII",
+          "url": "https://www.mediafire.com/file/96lq02dnzjyh9tc/data.zip/file",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-peace-walker-master-collection-version",
+    "console": "switch",
+    "title": "METAL GEAR SOLID: Peace Walker Master Collection Version",
+    "genre": "Acción - Aventura - Sigilo",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": 2026,
+    "rating": 89,
+    "players": "1-6",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/aczSGlJ.png",
+    "trailer": "nINO9MAFP2M",
+    "screenshots": [
+      "http://imgfz.com/i/iTbXZGt.jpeg",
+      "http://imgfz.com/i/lY2WPbQ.jpeg",
+      "http://imgfz.com/i/I8sT2dP.jpeg"
+    ],
+    "description": {
+      "es": "Acompaña a Big Boss en una misión por América Central durante la Guerra Fría, donde deberá crear su propio ejército y enfrentarse a una nueva amenaza nuclear. Recluta soldados, desarrolla armas y dirige a los Militaires Sans Frontières mientras descubres los acontecimientos que marcarán su futuro.",
+      "en": "Join Big Boss on a mission across Central America during the Cold War, where he must build his own army and confront a new nuclear threat. Recruit soldiers, develop weapons, and command"
+    },
+    "download": {
+      "region": "0100C6F01C4F8000",
+      "size": "7.81GB",
+      "format": "xci",
+      "update": "1.3.0+2dlc",
+      "fw": "22.5.0",
+      "languages": "Inglés, Español, Francés, Italiano, Alemán y Japonés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/izZ393",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/sN6en2x",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-master-collection-vol-2-bonus-content",
+    "console": "switch",
+    "title": "METAL GEAR SOLID MASTER COLLECTION Vol.2 BONUS CONTENT",
+    "genre": "Acción - Aventura - Sigilo",
+    "developer": "KONAMI",
+    "publisher": "KONAMI",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/0K4TL1e.png",
+    "trailer": "DxBGJWSbVsE",
+    "screenshots": [
+      "http://imgfz.com/i/83q70D5.jpeg",
+      "http://imgfz.com/i/t4fiNI5.jpeg",
+      "http://imgfz.com/i/ryPkZqU.jpeg"
+    ],
+    "description": {
+      "es": "Revive la aventura portátil de Metal Gear: Ghost Babel, una misión alternativa protagonizada por Solid Snake, y disfruta de una colección digital de canciones emblemáticas de la saga. Este contenido también incluye material adicional para explorar la historia y el universo de Metal Gear",
+      "en": "Relive the portable adventure of Metal Gear: Ghost Babel, an alternate mission starring Solid Snake, and enjoy a digital collection of iconic songs from the saga. This content..."
+    },
+    "download": {
+      "region": "010083A01FC3C000",
+      "size": "275MB",
+      "format": "",
+      "update": "xci",
+      "fw": "22.5.0",
+      "languages": "Español, Inglés, Francés, Italiano, Alemán, Japonés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/le4Y2J7",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-4-guns-of-the-patriots-master-collection-version",
+    "console": "switch",
+    "title": "METAL GEAR SOLID 4 Guns of the Patriots Master Collection Version",
+    "genre": "Acción - Aventura - Sigilo",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": 2826,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/vJMpkzb.png",
+    "trailer": "nINO9MAFP2M",
+    "screenshots": [
+      "http://imgfz.com/i/CrjPiFf.jpeg",
+      "http://imgfz.com/i/ZlYVSK3.jpeg",
+      "http://imgfz.com/i/PKspBvy.jpeg"
+    ],
+    "description": {
+      "es": "En un futuro marcado por guerras y conflictos entre ejércitos privados, un envejecido Solid Snake recibe una última misión. Infiltrándose en zonas de combate alrededor del mundo, deberá detener a Liquid Ocelot y descubrir la verdad detrás de su pasado.",
+      "en": "In a future marked by wars and conflicts between private armies, an aging Solid Snake receives one last mission. Infiltrating combat zones around the world, he must stop Liqu"
+    },
+    "download": {
+      "region": "0100DOB01C4F4000",
+      "size": "26.1GB",
+      "format": "xci",
+      "update": "1.4.1+2dlc",
+      "fw": "22.5.0",
+      "languages": "Inglés, Español, Francés, Alemán, Italiano, Japonés, Portugués",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/hQyhxY",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/eGE8qV",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "captain-tsubasa-2-world-fighters",
+    "console": "switch",
+    "title": "CAPTAIN TSUBASA 2 WORLD FIGHTERS",
+    "genre": "Deportes - Fútbol",
+    "developer": "TAMSOFT CORPORATION",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2026,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "Online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/tEPToOi.png",
+    "trailer": "nRPC20bU59A",
+    "screenshots": [
+      "http://imgfz.com/i/CW7NhuO.jpeg",
+      "http://imgfz.com/i/OZA9xfR.jpeg",
+      "http://imgfz.com/i/VDm9yfB.jpeg"
+    ],
+    "description": {
+      "es": "Sigue a Tsubasa y a la selección japonesa en su camino hacia el Campeonato Mundial Juvenil, enfrentándose a poderosas selecciones y nuevos rivales. Disfruta de partidos llenos de acción, supermovimientos espectaculares y más de 110 personajes jugables",
+      "en": "Follow Tsubasa and the Japanese national team on their journey to the World Youth Championship, facing powerful teams and new rivals. Enjoy action-packed matches, super moves, and more!"
+    },
+    "download": {
+      "region": "01009720213B0000",
+      "size": "11.9GB",
+      "format": "xci",
+      "update": "1.0.2+4DLC",
+      "fw": "22.5.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Coreano y Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/RopTr0B",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sonic-racing-crossworlds",
+    "console": "switch",
+    "title": "Sonic Racing CrossWorlds",
+    "genre": "Carreras - Arcade",
+    "developer": "Sonic Team",
+    "publisher": "SEGA",
+    "year": 2025,
+    "rating": 82,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "https://art.gametdb.com/switch/box/US/A8QFA.png?1760718744",
+    "trailer": "lg591kVaGlc",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/134803-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/titlescreen/134803-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/134803-3.jpg"
+    ],
+    "description": {
+      "es": "Compite con Sonic y sus amigos en carreras llenas de velocidad, caos y acción a través de diferentes mundos. Personaliza tus vehículos, utiliza objetos y habilidades especiales, y atraviesa portales hacia CrossWorlds para superar a tus rivales.",
+      "en": "Compete with Sonic and his friends in high-speed, chaotic, and action-packed races across different worlds. Customize your vehicles, use special items and abilities, and blast through portals."
+    },
+    "download": {
+      "region": "01006E001823C000",
+      "size": "11.5GB",
+      "format": "xci",
+      "update": "1.41+8DLC",
+      "fw": "22.1.0",
+      "languages": "Español, Español Latino, Inglés, Japonés, Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Coreano y Chino Simplificado",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ZpD10H",
+          "color": "blue"
+        },
+        {
+          "label": "Save Data",
+          "url": "https://ouo.io/AZKWDR",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ea-sports-fc-26-2",
+    "console": "switch",
+    "title": "EA SPORTS FC 26",
+    "genre": "Deportes - Fútbol",
+    "developer": "EA",
+    "publisher": "Electronic Arts",
+    "year": 2025,
+    "rating": 77,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "https://art.gametdb.com/switch/box/DE/BMZ2A.png?1765557352",
+    "trailer": "TSi0iJYSQ24",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/132050-1.jpg",
+      "http://imgfz.com/i/kshuiLt.png",
+      "http://imgfz.com/i/48xaofA.jpeg"
+    ],
+    "description": {
+      "es": "Vive el fútbol con una jugabilidad renovada, nuevos desafíos de Carrera y más formas de competir en Football Ultimate Team. Disfruta de miles de jugadores y equipos auténticos mientras juegas partidos locales u online con amigos",
+      "en": "Experience football with revamped gameplay, new Career Challenges, and more ways to compete in Football Ultimate Team. Enjoy thousands of authentic players and teams as you play matches."
+    },
+    "download": {
+      "region": "01004FF021942000",
+      "size": "38.4GB",
+      "format": "xci",
+      "update": "1.8b.4f9e+Comentaristas  Castellano/Lati",
+      "fw": "22.5.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Portugués, Ruso, Coreano, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/8CMfbt",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
