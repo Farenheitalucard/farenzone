@@ -4343,7 +4343,7 @@
       "region": "SLUS00923 - NTSC-U",
       "size": "450MB",
       "format": "pkg",
-      "update": "-",
+      "update": "",
       "fw": "5.05+",
       "languages": "Espanol Castellano",
       "thanks": "Farenheit",
@@ -7789,6 +7789,488 @@
           "label": "Mediafire",
           "url": "https://ouo.io/8CMfbt",
           "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-v-definitive-experience",
+    "console": "ps4",
+    "title": "Metal Gear Solid V Definitive Experience",
+    "genre": "Acción - Sigilo - Aventura",
+    "developer": "Kojima Productions",
+    "publisher": "Konami",
+    "year": 2016,
+    "rating": 0,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/40202-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/40202-7.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/40202-9.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/40202-1.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Big Boss en una historia de espionaje, venganza y guerra que se desarrolla a través de enormes escenarios de mundo abierto. Esta edición reúne Ground Zeroes, The Phantom Pain, Metal Gear Online y todo el contenido descargable, ofreciendo la experiencia definitiva de Metal Gear Solid V",
+      "en": "Join Big Boss in a tale of espionage, revenge, and war unfolding across vast open-world environments. This edition includes Ground Zeroes, The Phantom Pain, and Metal Gear Solid 2."
+    },
+    "download": {
+      "region": "CUSA05610 - USA",
+      "size": "30.4GB",
+      "format": "pkg",
+      "update": "1.11",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Crumbmaster3000",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/yskRuF",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/xts8gv",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-2",
+    "console": "ps4",
+    "title": "Resident Evil 2",
+    "genre": "Survival Horror - Acción - Aventura",
+    "developer": "Capcom R&D Division 1",
+    "publisher": "Capcom",
+    "year": 2019,
+    "rating": 91,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/56094-1.jpg",
+    "trailer": "u3wS-Q2KBpk",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/56094-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/56094-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/56094-9.jpg"
+    ],
+    "description": {
+      "es": "Sobrevive al brote zombi que ha convertido Raccoon City en una pesadilla, siguiendo las historias de Leon Kennedy y Claire Redfield. Explora la comisaría, resuelve acertijos, administra tus recursos y enfréntate a criaturas aterradoras mientras buscas una forma de escapar",
+      "en": "Survive the zombie outbreak that has turned Raccoon City into a nightmare, following the stories of Leon Kennedy and Claire Redfield. Explore the police station, solve puzzles, manage your resources, and"
+    },
+    "download": {
+      "region": "CUSA09171 - EUR",
+      "size": "23.3GB",
+      "format": "pkg",
+      "update": "1.07 - 12DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano/Latino)",
+      "thanks": "Opoisso839",
+      "mod": "Mod Latino (Kizeo)",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/3aATl8s",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "battlefield-hardline",
+    "console": "ps4",
+    "title": "Battlefield Hardline",
+    "genre": "Disparos en primera persona",
+    "developer": "Visceral Games",
+    "publisher": "Electronic Arts",
+    "year": 2015,
+    "rating": 73,
+    "players": "1-32",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#4a90d9",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/26192-1.jpg",
+    "trailer": "8YwLt0ADzww",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/ss_8cd5ec2e4bf1986bc01265db93f184e38e3b1236.1920x1080.jpg?t=1777391884",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/ss_03f32767fd67f15723ffcd68c92e425265a0ca3d.1920x1080.jpg?t=1777391884",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/ss_006c4f68fb8389d8753bb87ba6a37903591d1ec1.1920x1080.jpg?t=1777391884"
+    ],
+    "description": {
+      "es": "Battlefield Hardline lleva la guerra a las calles de Miami con una intensa campaña policial de estilo televisivo. Los agentes y criminales luchan en partidas multijugador trepidantes llenas de helicópteros, persecuciones y asaltos a bancos.",
+      "en": "Battlefield Hardline takes the war to the streets of Miami with a TV-style police campaign. Cops and criminals battle in thrilling multiplayer matches filled with helicopters, car chases, and bank heists."
+    },
+    "download": {
+      "region": "CUSA00625 - USA",
+      "size": "40.8GB",
+      "format": "pkg",
+      "update": "1.09",
+      "fw": "",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "FantasmaXDS & kbis",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/jc7GQw",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/Fif3K66",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "is-this-game-trying-to-kill-me",
+    "console": "ps4",
+    "title": "Is this Game Trying to Kill Me?",
+    "genre": "Aventura - Puzzle - Terror",
+    "developer": "Stately Snail",
+    "publisher": "Sometimes You",
+    "year": 2025,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2d6a4f",
+    "cover": "http://imgfz.com/i/SzMKOwu.png",
+    "trailer": "wS85nYDobsA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2658470/ss_5abbe3a1c5effae561095781eb33b8e240212632.1920x1080.jpg?t=1755004049",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2658470/ss_3c7b87ec7aab105d8ef9ac0406a622b88d9652ae.1920x1080.jpg?t=1755004049",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2658470/ss_fd07512770c1a86f4a3fbc49ac4660cf010b41b7.1920x1080.jpg?t=1755004049"
+    ],
+    "description": {
+      "es": "Estás atrapado en una cabaña en lo profundo del bosque y su dueño te ofrece jugar a un videojuego a cambio de tu libertad. Mezcla de terror y puzzle en primera persona donde las trampas del juego empiezan a aparecer en la realidad.",
+      "en": "You are trapped inside a cabin deep in the forest, and its owner offers to play a computer game in exchange for your freedom. A mix of horror and first-person puzzle where the traps from the game begin to appear in reality."
+    },
+    "download": {
+      "region": "CUSA52613 - EUR",
+      "size": "443MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "5.05+",
+      "languages": "Inglés",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/THUx6fO",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ultimate-marvel-vs-capcom-3",
+    "console": "ps4",
+    "title": "Ultimate Marvel vs. Capcom 3",
+    "genre": "Lucha",
+    "developer": "Capcom / Eighting",
+    "publisher": "Capcom",
+    "year": 2016,
+    "rating": 80,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#b03030",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/43479-1.jpg",
+    "trailer": "n5y60VfKjY4",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/43479-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/43479-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/43479-3.jpg"
+    ],
+    "description": {
+      "es": "Marvel y Capcom unen fuerzas en las batallas 3 contra 3 más frenéticas de la saga. Esta versión llega completa con todo el contenido descargable y resolución en HD 1080p a 60 fps. Elige a los personajes más icónicos y personaliza tu equipo.",
+      "en": "Marvel and Capcom join forces to deliver the most frenetic 3 vs. 3 tag battles ever. This release comes fully loaded with all previous DLC and full HD 1080p resolution at 60fps. Select iconic characters and customize your team."
+    },
+    "download": {
+      "region": "CUSA04622 - USA",
+      "size": "3.77GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Duplex & schone",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/rlltfG",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/lm9C8c",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-v-the-phantom-pain",
+    "console": "ps4",
+    "title": "Metal Gear Solid V: The Phantom Pain",
+    "genre": "Acción - Sigilo - Aventura",
+    "developer": "Kojima Productions",
+    "publisher": "Konami",
+    "year": 2015,
+    "rating": 93,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/23466-1.jpg",
+    "trailer": "A9JV0EvCkMI",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/ss_258e5c725ba2da8a2fc2ee779ae75ba4b0aac0c6.1920x1080.jpg?t=1778872866",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/ss_d4c1b17dad6eeeef8e1ade44a66d8e644afcc4e6.1920x1080.jpg?t=1778872866",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/ss_969065fca2ad4538c2e7ed5d8bbd91cbd060cf47.1920x1080.jpg?t=1778872866"
+    ],
+    "description": {
+      "es": "Tras despertar de un coma de nueve años, Venom Snake se convierte en el líder de un ejército privado en un enorme mundo abierto. La entrega final de la saga de Big Boss combina sigilo, acción y táctica militar con libertad total de enfoque.",
+      "en": "After waking from a nine-year coma, Venom Snake becomes the leader of a private army in a vast open world. The final entry in the Big Boss saga combines stealth, action, and military strategy with total freedom of approach."
+    },
+    "download": {
+      "region": "CUSA01154 - EUR",
+      "size": "26GB",
+      "format": "pkg",
+      "update": "1.16",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Playable",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/1i5ps8",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "metal-gear-solid-v-ground-zeroes",
+    "console": "ps4",
+    "title": "Metal Gear Solid V: Ground Zeroes",
+    "genre": "Acción - Sigilo - Aventura",
+    "developer": "Kojima Productions",
+    "publisher": "Konami",
+    "year": 2014,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#a0522d",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/19064-1.jpg",
+    "trailer": "haMLxLbN2WI",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311340/ss_ce2eecb2271794f12b1b5a9d17cd6befd57c98a4.1920x1080.jpg?t=1718869217",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311340/ss_4a27e36b1236e243a839cddda2f411d51335439a.1920x1080.jpg?t=1718869217",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311340/ss_b3466433dc0b33ede674c9b6769501ae588a7ba1.1920x1080.jpg?t=1718869217"
+    ],
+    "description": {
+      "es": "Ground Zeroes es la misión prólogo de Metal Gear Solid V. Big Boss se infiltra en la base naval de Camp Omega para rescatar a Kazuhira Miller. Un juego de sigilo y acción en mundo semiabierto que sirve como introducción a The Phantom Pain.",
+      "en": "Ground Zeroes is the prologue mission of Metal Gear Solid V. Big Boss infiltrates the Camp Omega naval base to rescue Kazuhira Miller. A stealth action game in a semi-open world that serves as an introduction to The Phantom Pain."
+    },
+    "download": {
+      "region": "CUSA00218 - USA",
+      "size": "2.95GB",
+      "format": "pkg",
+      "update": "1.05",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Nmagod",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/kCu9J9V",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "song-of-horror",
+    "console": "ps4",
+    "title": "Song of Horror",
+    "genre": "Terror - Survival - Aventura",
+    "developer": "Protocol Games",
+    "publisher": "Raiser Games",
+    "year": 2020,
+    "rating": 76,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3d2b52",
+    "cover": "https://images.launchbox-app.com//a9c8ef1e-c1d5-404d-8244-2c41249b767d.jpg",
+    "trailer": "HhQoRJlb9-A",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/90149-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/90149-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/90149-4.jpg"
+    ],
+    "description": {
+      "es": "Song of Horror es un survival horror clásico que sigue el auge del misterioso Presencer. Los personajes investigan desapariciones en una mansión atormentada, enfrentándose a un enemigo impredecible que aprende de cada intento del jugador.",
+      "en": "Song of Horror is a classic survival horror following the rise of the mysterious Presencer. Characters investigate disappearances in a haunted mansion, facing an unpredictable enemy that learns from each player attempt."
+    },
+    "download": {
+      "region": "CUSA20539 - EUR",
+      "size": "14.3GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Duplex & Oposisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/hnSOvh2",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "madison",
+    "console": "ps4",
+    "title": "MADiSON",
+    "genre": "Terror psicológico - Primera persona",
+    "developer": "Bloodious Games",
+    "publisher": "Bloodious Games",
+    "year": 2022,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#4a1d1d",
+    "cover": "https://images.launchbox-app.com//c88fe979-cb48-490d-ae4a-d2f66cd37339.jpg",
+    "trailer": "Il_TFl_vPoo",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/105383-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/105383-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/105383-5.jpg"
+    ],
+    "description": {
+      "es": "MADiSON es un horror psicológico en primera persona. Ayuda a Luca a sobrevivir a una pesadilla demoníaca, resolviendo puzles y usando una cámara que revela lo oculto mientras pruebas escalofriantes lo arrastran a la oscuridad.",
+      "en": "MADiSON is a first-person psychological horror. Help Luca survive a demonic nightmare, solving puzzles and using a camera that reveals the hidden while terrifying trials drag him deeper into darkness."
+    },
+    "download": {
+      "region": "CUSA33277 - USA",
+      "size": "1.30GB",
+      "format": "pkg",
+      "update": "1.25",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/53tUGB",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "soma",
+    "console": "ps4",
+    "title": "SOMA",
+    "genre": "Terror - Survival - Ciencia ficción",
+    "developer": "Frictional Games",
+    "publisher": "Frictional Games",
+    "year": 2017,
+    "rating": 84,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1d4e5f",
+    "cover": "https://images.launchbox-app.com//08987c4d-7674-4630-a908-ce8f6fb66e5c.png",
+    "trailer": "SlZfznVWiBQ",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/31670-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/31670-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/31670-3.jpg"
+    ],
+    "description": {
+      "es": "En las profundidades del océano, una instalación subterránea oculta horrores. SOMA combina survival horror y ciencia ficción en una historia provocadora sobre la conciencia, lo que significa ser humano y el sacrificio.",
+      "en": "In the depths of the ocean, an underground facility hides horrors. SOMA combines survival horror and sci-fi in a provocative story about consciousness, what it means to be human, and sacrifice."
+    },
+    "download": {
+      "region": "CUSA03200 - EUR",
+      "size": "11.5GB",
+      "format": "pkg",
+      "update": "1.10",
+      "fw": "5.05+",
+      "languages": "",
+      "thanks": "Multi idioma",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/RYxmOdt",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "captain-tsubasa-rise-of-new-champions",
+    "console": "ps4",
+    "title": "Captain Tsubasa: Rise of New Champions",
+    "genre": "Deportes - Fútbol - Acción",
+    "developer": "Tamsoft",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2020,
+    "rating": 68,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Local - Online",
+    "color": "#1f5fa8",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/76545-1.jpg",
+    "trailer": "NGucBaennao",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/76545-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/76545-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/76545-3.jpg"
+    ],
+    "description": {
+      "es": "Captain Tsubasa: Rise of New Champions es un juego de fútbol arcade estilo anime basado en el famoso manga y anime. Tsu controlar a Tsubasa Ozora y otros personajes icónicos en partidos con supertiros y habilidades especiales, con un modo historia original y a modos de exhibición y multijugador.",
+      "en": "Captain Tsubasa: Rise of New Champions is an anime-style arcade football game based on the famous manga and anime. Control Tsubasa Ozora and other iconic characters in matches with super shots and special skills, featuring an original story mode plus exhibition and multiplayer modes."
+    },
+    "download": {
+      "region": "CUSA14896 - EUR",
+      "size": "22.5GB",
+      "format": "pkg",
+      "update": "1.46",
+      "fw": "5.05",
+      "languages": "Multi idioma",
+      "thanks": "Golemnight/Opoisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/h2hH5L",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/VKm9Y6w",
+          "color": "white"
         }
       ]
     }
