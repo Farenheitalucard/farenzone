@@ -1425,13 +1425,33 @@
     "multijugador": "No",
     "color": "#a67c2f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/20954-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "QkkoHAzjnUs",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/20952-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/20952-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/20952-6.jpg"
+    ],
     "description": {
-      "es": "Tres criminales y el ambicioso mundo de Los Santos en su edición para PS4.",
-      "en": "Three criminals and the ambitious world of Los Santos in the PS4 edition."
+      "es": "Un ladrón de bancos retirado, un joven estafador y un psicópata se unen para realizar una serie de peligrosos golpes en Los Santos y el condado de Blaine. Explora un enorme mundo abierto lleno de misiones, vehículos, armas y actividades",
+      "en": "A retired bank robber, a young con artist, and a psychopath team up to pull off a series of dangerous heists in Los Santos and Blaine County. Explore a huge open world filled with missions."
     },
-    "download": null
+    "download": {
+      "region": "CUSA00411 - EUR",
+      "size": "90GB",
+      "format": "pkg",
+      "update": "1.57 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/JzE5I1A",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "minecraft-ps4",
@@ -1489,13 +1509,33 @@
     "multijugador": "No",
     "color": "#c05a2f",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/29275-1.jpg",
-    "trailer": "",
-    "screenshots": [],
+    "trailer": "q5Mjz1RTfkU",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/29275-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/29275-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/29275-3.jpg"
+    ],
     "description": {
       "es": "Ratchet y Clank regresan en un remake cinematográfico de su primera aventura.",
       "en": "Ratchet and Clank return in a cinematic reimagining of their first adventure."
     },
-    "download": null
+    "download": {
+      "region": "CUSA01073 - EUR",
+      "size": "25.7GB",
+      "format": "pkg",
+      "update": "1.09 - DLC",
+      "fw": "7.50+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Playable",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/6mGwb5r",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "gt-sport",
@@ -2999,7 +3039,7 @@
     "id": "graveyard-keeper",
     "console": "ps4",
     "title": "Graveyard Keeper",
-    "genre": "Simulacion - Aventura RPG",
+    "genre": "Simulación - Aventura - RPG",
     "developer": "Lazy Bear Games",
     "publisher": "tinyBuild",
     "year": 2019,
@@ -8106,7 +8146,7 @@
     "id": "song-of-horror",
     "console": "ps4",
     "title": "Song of Horror",
-    "genre": "Terror - Survival - Aventura",
+    "genre": "Terror - Survival Horror - Aventura",
     "developer": "Protocol Games",
     "publisher": "Raiser Games",
     "year": 2020,
@@ -8190,7 +8230,7 @@
     "id": "soma",
     "console": "ps4",
     "title": "SOMA",
-    "genre": "Terror - Survival - Ciencia ficción",
+    "genre": "Terror - Survival Horror - Ciencia ficción",
     "developer": "Frictional Games",
     "publisher": "Frictional Games",
     "year": 2017,
@@ -8271,6 +8311,330 @@
           "label": "Terabox",
           "url": "https://ouo.io/VKm9Y6w",
           "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "spongebob-squarepants-battle-for-bikini-bottom-rehydrated",
+    "console": "ps4",
+    "title": "Spongebob Squarepants Battle for Bikini  Bottom Rehydrated",
+    "genre": "Plataformas - Acción - Aventura",
+    "developer": "Purple Lamp Studios",
+    "publisher": "THQ Nordic",
+    "year": 2020,
+    "rating": 68,
+    "players": "1-2",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/74037-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/74037-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/74037-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/74037-1.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Bob Esponja, Patricio y Arenita en una divertida aventura para detener el plan de Plankton y salvar Fondo de Bikini. Explora diferentes escenarios, utiliza las habilidades únicas de cada personaje y enfréntate a un ejército de robots.",
+      "en": "Join SpongeBob, Patrick, and Sandy on a fun adventure to stop Plankton's plan and save Bikini Bottom. Explore different environments and use each character's unique abilities."
+    },
+    "download": {
+      "region": "CUSA14909 - EUR",
+      "size": "14.7GB",
+      "format": "pkg",
+      "update": "1.04",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino-Castellano)",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/gER8Zc",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-4-gold-edition",
+    "console": "ps4",
+    "title": "Resident Evil 4 Gold Edition",
+    "genre": "Terror - Survival Horror - Acción",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2023,
+    "rating": 93,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a1f1f",
+    "cover": "http://imgfz.com/i/V8YdUQw.png",
+    "trailer": "OHmSjQyj644",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.1920x1080.jpg?t=1772502922",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_ab807f8ad9e968a620777caf483cb6020367b9ee.1920x1080.jpg?t=1772502922",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0442f7fb4327d79802c2db8ea8d23d228a28d896.1920x1080.jpg?t=1772502922"
+    ],
+    "description": {
+      "es": "Resident Evil 4 es un remake fiel pero renovado del clásico de 2005. León S. Kennedy rescata a la hija del presidente en una aldea rural infestada, con una jugabilidad de acción y terror más moderna, gráficos actualizados y nuevas mecánicas.",
+      "en": "Resident Evil 4 is a faithful yet modernized remake of the 2005 classic. Leon S. Kennedy rescues the president's daughter in a rural village overrun by the infected, with modernized action-horror gameplay, updated graphics and new mechanics."
+    },
+    "download": {
+      "region": "CUSA3338 - EUR",
+      "size": "37.9GB",
+      "format": "pkg",
+      "update": "1.12 - 26DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino-Castellano)",
+      "thanks": "Opoisso839/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/DGogqe",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-3-remake",
+    "console": "ps4",
+    "title": "Resident Evil 3",
+    "genre": "Terror - Survival Horror - Acción",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2020,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#1f3d2b",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/69042-1.jpg",
+    "trailer": "BBky2uCGqtM",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/69042-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/69042-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/69042-3.jpg"
+    ],
+    "description": {
+      "es": "Resident Evil 3 es un remake del clásico de 1999. Jill Valentine intenta escapar de Racoon City mientras es cazada por el inmortal Nemesis, en una persecución trepidante que combina supervivencia y acción.",
+      "en": "Resident Evil 3 is a remake of the 1999 classic. Jill Valentine tries to escape Racoon City while being hunted by the relentless Nemesis, in a frantic chase blending survival and action."
+    },
+    "download": {
+      "region": "CUSA14123 - EUR",
+      "size": "21.6GB",
+      "format": "pkg",
+      "update": "1.07 - 2DLC",
+      "fw": "6.72+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/A8YqgdO",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "call-of-duty-modern-warfare-2019",
+    "console": "ps4",
+    "title": "Call of Duty: Modern Warfare",
+    "genre": "Disparos en primera persona - Acción",
+    "developer": "Infinity Ward",
+    "publisher": "Activision",
+    "year": 2019,
+    "rating": 80,
+    "players": "1-2",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#2a2f34",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/65402-1.jpg",
+    "trailer": "bSO0CWrmWpg",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_9cd9585e9eed5acb963d3462c594cfce341e6b64.1920x1080.jpg?t=1778886798",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_aa043742143d678b18c27c6035c23ea8a1c26544.1920x1080.jpg?t=1778886798",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/ss_8cfeab83b903aeb2939481f4ed932aa01d879434.1920x1080.jpg?t=1778886798"
+    ],
+    "description": {
+      "es": "Call of Duty: Modern Warfare es un reinicio completo de la serie Modern Warfare. Ofrece una campaña intensa y realista con el Capitán Price y va el infante Farah, además de un modo multijugador renovado y el popular modo Warzone.",
+      "en": "Call of Duty: Modern Warfare is a complete reboot of the Modern Warfare series. It delivers a tense, realistic campaign with Captain Price and allied soldier Farah, plus a revamped multiplayer and the popular Warzone mode."
+    },
+    "download": {
+      "region": "CUSA15239 - USA",
+      "size": "144GB",
+      "format": "pkg",
+      "update": "1.09- 6DLC",
+      "fw": "6.50+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game",
+          "url": "https://ouo.io/PsIXdoH",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire Update 1.09",
+          "url": "https://ouo.io/1OOtai",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire 6DLC",
+          "url": "https://ouo.io/JTBQXY",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "grand-theft-auto-v-port",
+    "console": "switch",
+    "title": "Grand Theft Auto V (Port)",
+    "genre": "Acción - Aventura - Mundo Abierto",
+    "developer": "Rockstar North",
+    "publisher": "Rockstar Games",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/EP0ngGb.png",
+    "trailer": "QkkoHAzjnUs",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/20954-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/20954-6.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/20954-7.jpg"
+    ],
+    "description": {
+      "es": "Explora Los Santos y Blaine County en una enorme aventura de mundo abierto protagonizada por Michael, Franklin y Trevor. Alterna entre tres criminales con diferentes habilidades mientras participas en robos, persecuciones y peligrosas misiones en un mundo lleno de posibilidades.",
+      "en": "Explore Los Santos and Blaine County in a massive open-world adventure starring Michael, Franklin, and Trevor. Switch between three criminals with different skills as you participate in"
+    },
+    "download": {
+      "region": "0100BO0B51230000",
+      "size": "49GB",
+      "format": "nsp",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "M0jso",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/CBaPc5",
+          "color": "blue"
+        },
+        {
+          "label": "Tutorial",
+          "url": "https://youtu.be/30-xMXFZTGY",
+          "color": "purple"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-7-biohazard-gold-edition",
+    "console": "ps4",
+    "title": "Resident Evil 7 Biohazard Gold Edition",
+    "genre": "Survival Horror - Acción - Aventura",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2018,
+    "rating": 86,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/114034-1.jpg",
+    "trailer": "RgYqQsbKn6w",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/52435-1.jpg",
+      "http://imgfz.com/i/dLj5Uf1.jpeg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/101520-8.jpg"
+    ],
+    "description": {
+      "es": "Ethan Winters llega a una misteriosa plantación en Luisiana en busca de su esposa desaparecida, pero termina atrapado junto a la aterradora familia Baker. Explora una casa llena de secretos, resuelve acertijos y lucha por sobrevivir mientras descubres la verdad detrás de la pesadilla.",
+      "en": "Ethan Winters arrives at a mysterious Louisiana plantation in search of his missing wife, but ends up trapped with the terrifying Baker family. Explore a house full of secrets, solve"
+    },
+    "download": {
+      "region": "CUSA03842 - EUR",
+      "size": "35.9GB",
+      "format": "pkg",
+      "update": "1.11 - 17DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game",
+          "url": "https://ouo.io/PNZ4VT",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire Update 1.11",
+          "url": "https://ouo.io/7GJtIT",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire 17DLC",
+          "url": "https://ouo.io/07cWCD",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mortal-kombat-11-ultimate",
+    "console": "ps4",
+    "title": "Mortal Kombat 11 Ultimate",
+    "genre": "Lucha - Acción - Arcade",
+    "developer": "NetherRealm Studios",
+    "publisher": "Warner Bros. Games",
+    "year": 2020,
+    "rating": 90,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/81457-1.jpg",
+    "trailer": "xbmhiO7eLjA",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/73285-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73285-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/73285-3.jpg"
+    ],
+    "description": {
+      "es": "Enfréntate a combates brutales con un enorme elenco de luchadores, cada uno con sus propios estilos, habilidades y Fatalities. La edición Ultimate reúne todo el contenido principal y las expansiones del juego.",
+      "en": "Engage in brutal combat with a massive roster of fighters, each with their own unique styles, abilities, and Fatalities. The Ultimate Edition includes all main content and expansions."
+    },
+    "download": {
+      "region": "CUSA11518 - USA",
+      "size": "69.4GB",
+      "format": "pkg",
+      "update": "1.30+DLC+Mod Unlock",
+      "fw": "7.50+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Radiowasnton",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game",
+          "url": "https://ouo.io/uPQcSKT",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire 1.30+DLC",
+          "url": "https://ouo.io/UIqYqd",
+          "color": "blue"
         }
       ]
     }
