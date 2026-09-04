@@ -8323,7 +8323,7 @@
   {
     "id": "spongebob-squarepants-battle-for-bikini-bottom-rehydrated",
     "console": "ps4",
-    "title": "Spongebob Squarepants Battle for Bikini  Bottom Rehydrated",
+    "title": "SpongeBob SquarePants: Battle for Bikini Bottom Rehydrated",
     "genre": "Plataformas - Acción - Aventura",
     "developer": "Purple Lamp Studios",
     "publisher": "THQ Nordic",
@@ -8334,7 +8334,7 @@
     "multijugador": "Local y online",
     "color": "#7c5cff",
     "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/74037-1.jpg",
-    "trailer": "",
+    "trailer": "V1iyBfjgjxk",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/74037-2.jpg",
       "https://cdn.thegamesdb.net/images/original/screenshot/74037-4.jpg",
@@ -8355,8 +8355,13 @@
       "mod": "",
       "links": [
         {
-          "label": "Mediafire",
+          "label": "Mediafire Game",
           "url": "https://ouo.io/gER8Zc",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire Update 1.04",
+          "url": "https://ouo.io/T4vZkSX",
           "color": "blue"
         }
       ]
@@ -8639,6 +8644,357 @@
         {
           "label": "Mediafire 1.30+DLC",
           "url": "https://ouo.io/UIqYqd",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rise-of-the-tomb-raider-20-year-celebration",
+    "console": "ps4",
+    "title": "Rise of the Tomb Raider: 20 Year Celebration",
+    "genre": "Acción - Aventura",
+    "developer": "Crystal Dynamics",
+    "publisher": "Square Enix",
+    "year": 2016,
+    "rating": 88,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#5a4632",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/43352-1.jpg",
+    "trailer": "1_FIyNcQSgA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/ss_4ef0868ecfc6b19bc1af18b88cabe33fe8147cf7.1920x1080.jpg?t=1766187095",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/ss_be8bcd75e7dbf8cf7d8c861e15c12211b39f160d.1920x1080.jpg?t=1766187095",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/ss_3b46aa127290e6ad2f62c125096bf5e901458ad6.1920x1080.jpg?t=1766187095"
+    ],
+    "description": {
+      "es": "Rise of the Tomb Raider: 20 Year Celebration es la edición definitiva del aclamado juego de aventuras. Lara Croft explora Siberia en busca de un secreto inmortal, enfrentándose a la organización Trinity en una aventura llena de acción, tumbas y acertijos.",
+      "en": "Rise of the Tomb Raider: 20 Year Celebration is the definitive edition of the acclaimed adventure. Lara Croft explores Siberia in search of an immortal secret, facing the Trinity organization in an action-packed adventure full of tombs and puzzles."
+    },
+    "download": {
+      "region": "CUSA05794 - USA",
+      "size": "14.3GB",
+      "format": "pkg",
+      "update": "1.06",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/e6emVW7",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tomb-raider-definitive-edition",
+    "console": "ps4",
+    "title": "Tomb Raider: Definitive Edition",
+    "genre": "Acción - Aventura",
+    "developer": "Crystal Dynamics",
+    "publisher": "Square Enix",
+    "year": 2014,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#5a4632",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/19197-1.jpg",
+    "trailer": "3VmFhs26U2E",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/19197-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/19197-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/19197-3.jpg"
+    ],
+    "description": {
+      "es": "Tomb Raider: Definitive Edition es la versión mejorada del reinicio de 2013. Lara Croft se convierte en superviviente en la isla de Yamatai, con gráficos mejorados para la nueva generación, todo el contenido descargable incluido y un modo multijugador cooperativo.",
+      "en": "Tomb Raider: Definitive Edition is the enhanced version of the 2013 reboot. Lara Croft becomes a survivor on the island of Yamatai, with upgraded graphics for the new generation, all downloadable content included, and a cooperative multiplayer mode."
+    },
+    "download": {
+      "region": "CUSA00107 - USA",
+      "size": "14.4GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Vg8uWE",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tomb-raider-i-iii-remastered",
+    "console": "ps4",
+    "title": "Tomb Raider I-III Remastered",
+    "genre": "Acción - Aventura",
+    "developer": "Aspyr - Crystal Dynamics",
+    "publisher": "Aspyr",
+    "year": 2024,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3e5a3e",
+    "cover": "https://images.launchbox-app.com//fe4cd6e7-5b2e-4bfd-84ce-b38682bc4dbf.jpg",
+    "trailer": "Gm5TlIxTUHw",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/a7415858b1cfe52d8b5393ef222d54ae2ca710ca/ss_a7415858b1cfe52d8b5393ef222d54ae2ca710ca.1920x1080.jpg?t=1782771572",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/c5ac8cd6dc13fc199e767df2e56dd4d5cf5b7f68/ss_c5ac8cd6dc13fc199e767df2e56dd4d5cf5b7f68.1920x1080.jpg?t=1782771572",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/e940ad0eeec4958bdd20f0490529426acf1e5027/ss_e940ad0eeec4958bdd20f0490529426acf1e5027.1920x1080.jpg?t=1782771572"
+    ],
+    "description": {
+      "es": "Tomb Raider I-III Remastered reúne las tres primeras aventuras originales de Lara Croft, restauradas con gráficos mejorados, todos los niveles, expansiones y secretos, y ahora con un nuevo modo de desafíos.",
+      "en": "Tomb Raider I-III Remastered brings together the first three original Lara Croft adventures, restored with enhanced graphics, all levels, expansions and secrets, now with a new Challenge Mode."
+    },
+    "download": {
+      "region": "CUSA43774 - EUR",
+      "size": "5.81GB",
+      "format": "pkg",
+      "update": "1.13",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/BAAcZu",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tomb-raider-iv-vi-remastered",
+    "console": "ps4",
+    "title": "Tomb Raider IV-VI Remastered",
+    "genre": "Acción - Aventura",
+    "developer": "Aspyr - Crystal Dynamics",
+    "publisher": "Aspyr",
+    "year": 2025,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#5a3e2b",
+    "cover": "https://images.launchbox-app.com//2f40f52b-d87f-4e13-9248-0dce9ad39b5d.jpg",
+    "trailer": "pB_ATpJtTp4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525380/ss_ab625d27d9a66199618c9abe37178350148c9bd2.1920x1080.jpg?t=1782771604",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525380/ss_64196fd927cad1f4c53274b2e60a9f04fc1a2319.1920x1080.jpg?t=1782771604",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525380/ss_ba5e1a75b235479a1424d7a4ee98c3c2df974f22.1920x1080.jpg?t=1782771604"
+    ],
+    "description": {
+      "es": "Tomb Raider IV-VI Remastered continúa la saga con las aventuras más oscuras de Lara Croft: El Último Revelación, La Crónica y El Ángel de la Oscuridad, remasterizadas con gráficos mejorados y controles actualizados.",
+      "en": "Tomb Raider IV-VI Remastered continues the saga with Lara Croft's darkest adventures: The Last Revelation, Chronicles and The Angel of Darkness, remastered with enhanced graphics and updated controls."
+    },
+    "download": {
+      "region": "CUSA44839 - EUR",
+      "size": "15GB",
+      "format": "pkg",
+      "update": "1.05",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/dgsdF9",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-elder-scrolls-v-skyrim-special-edition",
+    "console": "ps4",
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "genre": "RPG - Aventura - Mundo abierto",
+    "developer": "Bethesda Game Studios",
+    "publisher": "Bethesda Softworks",
+    "year": 2016,
+    "rating": 90,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3a3d4a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/40201-1.jpg",
+    "trailer": "GMCdbukB6t8",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_73c1a0bb7e1720c8a1847186c3ddd837d3ca7a8d.1920x1080.jpg?t=1786648247",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_d64b646612ab1402bdda8e400672aa0dbcb352ea.1920x1080.jpg?t=1786648247",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_b6bb6f79278505b3f48567f08c21f7a0eb171c68.1920x1080.jpg?t=1786648247"
+    ],
+    "description": {
+      "es": "The Elder Scrolls V: Skyrim Special Edition es la versión mejorada del aclamado RPG de mundo abierto. Con gráficos renovados, hierba y efectos de nieve mejorados y soporte de mods, explora las tierras de Skyrim como un Dovahkiin.",
+      "en": "The Elder Scrolls V: Skyrim Special Edition is the enhanced version of the acclaimed open-world RPG. With renewed graphics, improved grass and snow effects, and a minimum of mod support, explore the lands of Skyrim as a Dovahkiin."
+    },
+    "download": {
+      "region": "CUSA05486 - EUR",
+      "size": "43.1GB",
+      "format": "pkg",
+      "update": "1.30",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game",
+          "url": "https://ouo.io/czKj1A",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire Update 1.30",
+          "url": "https://ouo.io/FRcd3H",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "spongebob-the-patrick-star-game",
+    "console": "ps4",
+    "title": "SpongeBob SquarePants: The Patrick Star Game",
+    "genre": "Aventura - Mundo abierto - Acción",
+    "developer": "PHL Collective",
+    "publisher": "Outright Games",
+    "year": 2024,
+    "rating": 74,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#e8842e",
+    "cover": "http://imgfz.com/i/ta2HYhK.png",
+    "trailer": "eOgBAUWSqUE",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322380/ss_16cca5125aefac562fd007b0e0eddd8c5c990c92.1920x1080.jpg?t=1728029958",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322380/ss_be7caae2be0e2a3469ed17f3cea8fea46b4fe2f1.1920x1080.jpg?t=1728029958",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322380/ss_5bbdac469b3721c4251502be66b372a99e1d8483.1920x1080.jpg?t=1728029958"
+    ],
+    "description": {
+      "es": "SpongeBob SquarePants: The Patrick Star Game mete al jugador en los pantalones de Patricio para causar caos de física en el mundo abierto de Fondo de Bikini. Un juego sandbox lleno de humor, coleccionables y trajes clásicos.",
+      "en": "SpongeBob SquarePants: The Patrick Star Game puts you in Patrick's shorts to cause physics-based mayhem in the open world of Bikini Bottom. A sandbox full of humor, collectibles and classic outfits."
+    },
+    "download": {
+      "region": "CUSA42350 - USA",
+      "size": "1.64GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/bDgPM6",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "spongebob-the-cosmic-shake",
+    "console": "ps4",
+    "title": "SpongeBob SquarePants: The Cosmic Shake",
+    "genre": "Plataformas - Aventura - Acción",
+    "developer": "Purple Lamp",
+    "publisher": "THQ Nordic",
+    "year": 2023,
+    "rating": 76,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3c8bd6",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/109152-1.jpg",
+    "trailer": "3vqy9NmiWAE",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282150/ss_d8382f8973eb59ed06e1ca3d7351e9825356718f.1920x1080.jpg?t=1786972018",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282150/ss_6177f22ec4031c229ad0bfeffd0136ef197f27d2.1920x1080.jpg?t=1786972018",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282150/ss_b8046362a67f77d0c39b33938f2b0eeecf1cf1fb.1920x1080.jpg?t=1786972018"
+    ],
+    "description": {
+      "es": "SpongeBob SquarePants: The Cosmic Shake es un plataformas 3D en el que la Lágrimas de Sirena rompen el universo. Bob Esponja y Patricio viajan a siete Mundos de los Deseos con la ayuda de más de 30 trajes y nuevas habilidades de plataformas.",
+      "en": "SpongeBob SquarePants: The Cosmic Shake is a 3D platformer where the Mermaid's Tears tear the universe apart. SpongeBob and Patrick travel to seven Wishworlds with the help of over 30 costumes and new platforming skills."
+    },
+    "download": {
+      "region": "CUSA30582 - EUR",
+      "size": "14.7GB",
+      "format": "pkg",
+      "update": "1.06 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game",
+          "url": "https://ouo.io/NQ3ZtV5",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire Update 1.06",
+          "url": "https://ouo.io/EoaAw4",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hogwarts-legacy",
+    "console": "ps4",
+    "title": "Hogwarts Legacy",
+    "genre": "RPG - Acción - Mundo abierto",
+    "developer": "Avalanche Software",
+    "publisher": "Warner Bros. Games",
+    "year": 2023,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/109594-1.jpg",
+    "trailer": "S6GTl_vPRvU",
+    "screenshots": [
+      "http://imgfz.com/i/fP98pmi.jpeg",
+      "http://imgfz.com/i/MeDHyQT.jpeg",
+      "http://imgfz.com/i/cenCJz4.jpeg"
+    ],
+    "description": {
+      "es": "Explora Hogwarts en el siglo XIX y vive una aventura mágica en un enorme mundo abierto. Aprende hechizos, prepara pociones, descubre criaturas fantásticas y personaliza a tu propio mago o bruja.",
+      "en": "Explore Hogwarts in the 19th century and experience a magical adventure in a vast open world. Learn spells, brew potions, discover fantastic creatures, and customize your own wizard or witch."
+    },
+    "download": {
+      "region": "CUSA12824 - USA",
+      "size": "29.6GB",
+      "format": "pkg",
+      "update": "1.06 - 7DLC",
+      "fw": "11.50+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "CyB1K & Arczy",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game+Update",
+          "url": "https://ouo.io/iprrW8",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire 7DLC",
+          "url": "https://ouo.io/0LJyU1",
           "color": "blue"
         }
       ]
