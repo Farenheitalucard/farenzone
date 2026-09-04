@@ -105,20 +105,25 @@
       "region": "0100152000022000",
       "size": "11.2GB",
       "format": "xci",
-      "update": "3.0.5+DLC  - 3.03+DLC",
+      "update": "3.0.5+DLC  - 3.03+DLC - 4.0.0+DLC",
       "fw": "20.0.1",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Portugues, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional, Ingles EE. UU.",
       "thanks": "",
       "mod": "",
       "links": [
         {
-          "label": "3.0.3",
+          "label": "3.0.3+DLC",
           "url": "https://ouo.io/i84vTl",
           "color": "blue"
         },
         {
-          "label": "3.05",
+          "label": "3.05+DLC",
           "url": "https://ouo.io/DltVJ2",
+          "color": "blue"
+        },
+        {
+          "label": "4.0.0+DLC",
+          "url": "https://ouo.io/QJP3V1",
           "color": "blue"
         }
       ]
