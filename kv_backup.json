@@ -3793,7 +3793,7 @@
     "id": "bioshock-infinite-ce",
     "console": "ps4",
     "title": "BioShock Infinite: The Complete Edition",
-    "genre": "Disparos en Primera Persona - Acción",
+    "genre": "Disparos en primera persona - Acción",
     "developer": "Irrational Games",
     "publisher": "2K Games",
     "year": 2016,
@@ -3835,7 +3835,7 @@
     "id": "bioshock-the-collection",
     "console": "ps4",
     "title": "BioShock: The Collection",
-    "genre": "Disparos en Primera Persona - Acción",
+    "genre": "Disparos en primera persona - Acción",
     "developer": "Blind Squirrel Games",
     "publisher": "2K Games",
     "year": 2016,
@@ -4050,7 +4050,7 @@
     "id": "call-of-duty-wwii",
     "console": "ps4",
     "title": "Call of Duty: WWII",
-    "genre": "Disparos en Primera Persona  - Acción",
+    "genre": "Disparos en primera persona  - Acción",
     "developer": "Sledgehammer Games",
     "publisher": "Activision",
     "year": 2017,
@@ -4092,7 +4092,7 @@
     "id": "call-of-duty-black-ops-3",
     "console": "ps4",
     "title": "Call of Duty: Black Ops III",
-    "genre": "Disparos en Primera Persona - Acción",
+    "genre": "Disparos en primera persona - Acción",
     "developer": "Treyarch",
     "publisher": "Activision",
     "year": 2015,
@@ -7162,7 +7162,7 @@
     "id": "zombi",
     "console": "ps4",
     "title": "Zombi",
-    "genre": "Survival Horror - Disparos en Primera Persona",
+    "genre": "Survival Horror - Disparos en primera persona",
     "developer": "Straight Right",
     "publisher": "Ubisoft",
     "year": 2015,
@@ -8821,7 +8821,7 @@
     "id": "the-elder-scrolls-v-skyrim-special-edition",
     "console": "ps4",
     "title": "The Elder Scrolls V: Skyrim Special Edition",
-    "genre": "RPG - Aventura - Mundo abierto",
+    "genre": "RPG - Aventura - Mundo Abierto",
     "developer": "Bethesda Game Studios",
     "publisher": "Bethesda Softworks",
     "year": 2016,
@@ -8868,7 +8868,7 @@
     "id": "spongebob-the-patrick-star-game",
     "console": "ps4",
     "title": "SpongeBob SquarePants: The Patrick Star Game",
-    "genre": "Aventura - Mundo abierto - Acción",
+    "genre": "Aventura - Mundo Abierto - Acción",
     "developer": "PHL Collective",
     "publisher": "Outright Games",
     "year": 2024,
@@ -8957,7 +8957,7 @@
     "id": "hogwarts-legacy",
     "console": "ps4",
     "title": "Hogwarts Legacy",
-    "genre": "RPG - Acción - Mundo abierto",
+    "genre": "RPG - Acción - Mundo Abierto",
     "developer": "Avalanche Software",
     "publisher": "Warner Bros. Games",
     "year": 2023,
@@ -8995,6 +8995,216 @@
         {
           "label": "Mediafire 7DLC",
           "url": "https://ouo.io/0LJyU1",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "werewolf-the-apocalypse-earthblood",
+    "console": "ps4",
+    "title": "Werewolf The Apocalypse Earthblood",
+    "genre": "Acción - Aventura",
+    "developer": "Cyanide",
+    "publisher": "Nacon",
+    "year": 2021,
+    "rating": 63,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#6d3b2e",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/81973-1.jpg",
+    "trailer": "Oewm27krrUI",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/679110/ss_a1c398439c2602764ac71bea0dd797463b3e60a8.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/679110/ss_49a22dcdbfabb0d9051250442f4637b899a7bcc4.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/679110/ss_03ca781062341beed8773928bf3109f474d59fa8.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Conviértete en Cahal, un poderoso hombre lobo exiliado de su manada, y lucha contra la corporación Endron para salvar el mundo.",
+      "en": "Become Cahal, a powerful werewolf exiled from his pack, and fight against the Endron corporation to save the world."
+    },
+    "download": {
+      "region": "CUSA16782 - EUR",
+      "size": "11.7GB",
+      "format": "pkg",
+      "update": "1.04",
+      "fw": "5.05",
+      "languages": "Multi idioma",
+      "thanks": "Xmrallx",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Iarps8p",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "riders-republic",
+    "console": "ps4",
+    "title": "Riders Republic",
+    "genre": "Deportes - Aventura",
+    "developer": "Ubisoft Annecy",
+    "publisher": "Ubisoft",
+    "year": 2021,
+    "rating": 76,
+    "players": "1",
+    "cooperativo": "Sí",
+    "multijugador": "Sí",
+    "color": "#f97316",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/100281-1.jpg",
+    "trailer": "fjtozVlPy88",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/cf8d5ad6024b6be50e09bd2f2fac85a81fa7453c/ss_cf8d5ad6024b6be50e09bd2f2fac85a81fa7453c.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/72d2aa7cdaa61a0ad947ee86a8fff210febcbf03/ss_72d2aa7cdaa61a0ad947ee86a8fff210febcbf03.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/2f80a42936e626fb6ef89e5c680e61c85b1b15cc/ss_2f80a42936e626fb6ef89e5c680e61c85b1b15cc.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Vive el mayor parque de deportes extremos del mundo: abrázate a tu moto, esquí o wingsuit y compite con hasta 50 jugadores.",
+      "en": "Live out your rider fantasy in a massive open world sports playground, competing with up to 50 players."
+    },
+    "download": {
+      "region": "CUSA24360 – USA",
+      "size": "33.5GB",
+      "format": "pkg",
+      "update": "1.23",
+      "fw": "9.00+",
+      "languages": "Multi idioma",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/HsONqcs",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "gravity-rush-remastered",
+    "console": "ps4",
+    "title": "Gravity Rush Remastered",
+    "genre": "Acción - Aventura",
+    "developer": "SCE Japan Studio / Bluepoint Games",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2016,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a5bea",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/34142-1.jpg",
+    "trailer": "ZQXAO93oDuI",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/34142-6.jpg",
+      "https://media.rawg.io/media/screenshots/ada/adaa1d07380ab294c34bf596de54bdeb.jpg",
+      "https://media.rawg.io/media/screenshots/d50/d5061e8e057875d83819d43d1a477c31.jpg"
+    ],
+    "description": {
+      "es": "Controla la gravedad y vuela por la mítica ciudad de Hekseville como Kat, la reina de la gravedad.",
+      "en": "Manipulate gravity and soar through the floating city of Hekseville as Kat, the gravity queen."
+    },
+    "download": {
+      "region": "CUSA01130 - USA",
+      "size": "9.31GB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Whitehawkx",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/A9Lsmm",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "gravity-rush-2",
+    "console": "ps4",
+    "title": "Gravity Rush 2",
+    "genre": "Acción - Aventura",
+    "developer": "SCE Japan Studio / Project Siren",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2017,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#8a2be2",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/114946-1.jpg",
+    "trailer": "OAXNQveHsG0",
+    "screenshots": [
+      "https://media.rawg.io/media/screenshots/10b/10b24e0d37e9618cfeb27359a728836a.jpg",
+      "https://media.rawg.io/media/screenshots/28e/28e123c958c78e819a5cd8dd137c8619.jpg",
+      "https://media.rawg.io/media/screenshots/4cd/4cda5171dde014fb0a5c6e6b94fcfbc6.jpg"
+    ],
+    "description": {
+      "es": "Kat y Raven vuelven con nuevos poderes de gravedad para salvar la ciudad flotante de Jirga Para Lhao.",
+      "en": "Kat and Raven return with new gravity powers to save the floating city of Jirga Para Lhao."
+    },
+    "download": {
+      "region": "CUSA03694 - USA",
+      "size": "17.4GB",
+      "format": "pkg",
+      "update": "1.11 - 4DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Whitehawkx & Schzone",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/zJBVLYR",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fifa-19",
+    "console": "ps4",
+    "title": "FIFA 19",
+    "genre": "Deportes",
+    "developer": "EA Vancouver / EA Romania",
+    "publisher": "EA Sports",
+    "year": 2018,
+    "rating": 80,
+    "players": "1-4",
+    "cooperativo": "Sí",
+    "multijugador": "Local y online",
+    "color": "#1d4ed8",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/60153-1.jpg",
+    "trailer": "OumZxTdMq_c",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/60178-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60178-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/60178-6.jpg"
+    ],
+    "description": {
+      "es": "La UEFA Champions League llega a FIFA 19 con nuevas mecánicas de juego y el épico final del modo The Journey.",
+      "en": "The UEFA Champions League comes to FIFA 19 with new gameplay mechanics and the epic finale of The Journey."
+    },
+    "download": {
+      "region": "CUSA11608 - EUR",
+      "size": "40.7GB",
+      "format": "pkg",
+      "update": "1.17 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "DUPLEX",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/LBQa6L",
           "color": "blue"
         }
       ]
