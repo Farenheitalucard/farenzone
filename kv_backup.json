@@ -195,7 +195,23 @@
       "es": "Reúne a todos los personajes de Nintendo en el crossover de lucha definitivo.",
       "en": "Bring together every Nintendo character in the ultimate crossover fighting game."
     },
-    "download": null
+    "download": {
+      "region": "01006A800016E000",
+      "size": "17.3GB",
+      "format": "xci",
+      "update": "13.0.5+99dlc",
+      "fw": "22.5.0",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/hQ983Z",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "totk",
@@ -7510,7 +7526,7 @@
     }
   },
   {
-    "id": "call-of-duty-modern-warfare-2-call-of-duty-modern-warfare-3-call-of-duty-black-o",
+    "id": "mw23b6",
     "console": "ps4",
     "title": "Call of Duty Modern Warfare 2 - Call of Duty: Modern Warfare 3 - Call of Duty: Black Ops 6",
     "genre": "Acción - Disparos en primera persona",
@@ -9205,6 +9221,174 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/LBQa6L",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shantae-advance-risky-revolution",
+    "console": "switch",
+    "title": "Shantae Advance: Risky Revolution",
+    "genre": "Acción - Aventura - Plataformas",
+    "developer": "WayForward",
+    "publisher": "WayForward",
+    "year": 2025,
+    "rating": 65,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#b23c8a",
+    "cover": "https://art.gametdb.com/switch/box/US/BFJ4A.png?1755944743",
+    "trailer": "lakqbFYT8tA",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000073600/2f816d4bfb62c2a89f404421cb9ced8b16aee545376d7140b4bc19bee47943c7",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000073600/86bceadf250840329d5b05bce5334f444f5c326399cc3a719aa6f7a33352bb79",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000073600/be8f1c0bd3154fdc1573ca6efd11e1ed16c51c2dd58ae3f4188f1c3855148da8"
+    ],
+    "description": {
+      "es": "La aventura perdida de Shantae por fin llega, 20 años después. La pirata Risky Boots ha ideado un plan para reorganizar el continente y saquear cada ciudad de la costa. Usa el látigo de pelo y las transformaciones de baile para cambiar las capas del mapa, resolver puzles y derrotar a Risky en esta plataforma 2D. Incluye un modo batalla de 4 jugadores.",
+      "en": "The lost Shantae adventure finally arrives, 20 years later. Pirate Risky Boots has devised a plan to rearrange the continent and plunder every coastal town. Whip with your hair, belly-dance into transformations, shift map layers to solve puzzles and stop Risky in this 2D platformer. Features a 4-player battle mode."
+    },
+    "download": {
+      "region": "010031101D400000",
+      "size": "559MB",
+      "format": "xci",
+      "update": "1.0.925387+dlc",
+      "fw": "20.3.0",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/cy3R4w",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dragon-ball-xenoverse-2-switch",
+    "console": "switch",
+    "title": "Dragon Ball Xenoverse 2",
+    "genre": "Acción - Lucha - RPG",
+    "developer": "Dimps",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2017,
+    "rating": 76,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "https://art.gametdb.com/switch/box/US/ABYBA.png?1696851597",
+    "trailer": "JnUbg-9v_bE",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001144/08a321c997cf64a67a36f24f4dfc4b127131c317d566d984235da75c83c46e79",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001144/2c63e778d8f7265596b07489305eb5f6c9cfed22aa2405e7701dc173d900246f",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000001144/b1a1b3f23de2aa67b2498d06d45b6c2fca75b6d3015c9a1d0804a5c69a2f7c74"
+    ],
+    "description": {
+      "es": "Crea tu propio guerrero y únete a los Time Patrollers para proteger la historia del universo de Dragon Ball. Explora Conton City, entrena con personajes legendarios y enfréntate a poderosos enemigos en intensos combates",
+      "en": "Create your own warrior and join the Time Patrollers to protect the history of the Dragon Ball universe. Explore Conton City, train with legendary characters, and face powerful enemies."
+    },
+    "download": {
+      "region": "010078D000F88000",
+      "size": "19.2GB",
+      "format": "xci",
+      "update": "1.26.01+84dlc",
+      "fw": "22.5.0",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/F10wcD",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "samurai-shodown",
+    "console": "ps4",
+    "title": "Samurai Shodown",
+    "genre": "Lucha - Acción",
+    "developer": "SNK (KOF Studio)",
+    "publisher": "SNK",
+    "year": 2019,
+    "rating": 67,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#a61e1e",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/64736-1.jpg",
+    "trailer": "ctgnK1j_YsI",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/64736-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/64736-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/64736-3.jpg"
+    ],
+    "description": {
+      "es": "Tras casi una década fuera de los reflectores, Samurai Shodown regresa con un combate de espadas 2.5D de gran tensión y daño elevado. Trece luchadores clásicos regresan junto a tres nuevos en este reinicio de la serie, con un sistema de inteligencia artificial que aprende tus patrones y crea clones 'Ghost' para desafíos uno a uno.",
+      "en": "After nearly ten years out of the spotlight, Samurai Shodown returns with tense, high-damage 2.5D weapon-based combat. Thirteen beloved fighters return alongside three newcomers in this reboot of the series, plus a revolutionary AI that learns your patterns and creates 'Ghost' clones for head-to-head challenges."
+    },
+    "download": {
+      "region": "CUSA15963 - EUR",
+      "size": "32.5GB",
+      "format": "pkg",
+      "update": "2.46+21DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/9SR43R",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shadow-of-the-colossus",
+    "console": "ps4",
+    "title": "Shadow of the Colossus",
+    "genre": "Acción - Aventura",
+    "developer": "Bluepoint Games / JAPAN Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2018,
+    "rating": 93,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#8a6d3b",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/115024-1.jpg",
+    "trailer": "OYmUgbVLs4k",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/52796-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/52796-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/52796-4.jpg"
+    ],
+    "description": {
+      "es": "El clásico atemporal de Ico fue reconstruido desde cero para PlayStation 4 por JAPAN Studio y Bluepoint Games. Recorre la Tierra Prohibida en busca de los dieciséis colosos, criaturas gigantes que deberás escalar y derribar en esta épica aventura de puzles y combate a gran escala.",
+      "en": "The timeless classic from Ico was rebuilt from the ground up for PlayStation 4 by JAPAN Studio and Bluepoint Games. Roam the Forbidden Land hunting the sixteen colossi, giant creatures you must climb and bring down in this epic adventure of puzzles and large-scale combat."
+    },
+    "download": {
+      "region": "CUSA08809 - EUR",
+      "size": "12.6GB",
+      "format": "pkg",
+      "update": "1.01 - 6DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "PRELUDE",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/1BQl0v",
           "color": "blue"
         }
       ]
