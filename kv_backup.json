@@ -4905,7 +4905,7 @@
       "en": "Miles Morales discovers his powers and must protect New York from a new threat."
     },
     "download": {
-      "region": "USA",
+      "region": "CUSA17722 - USA",
       "size": "49.4 GB",
       "format": "pkg",
       "update": "Update 1.14",
@@ -8455,9 +8455,9 @@
       "format": "pkg",
       "update": "1.07 - 2DLC",
       "fw": "6.72+",
-      "languages": "Multi idioma (Castellano)",
+      "languages": "Multi idioma (Castellano,Latino)",
       "thanks": "Opoisso893/Golemnight",
-      "mod": "",
+      "mod": "radiowasnton",
       "links": [
         {
           "label": "Mediafire",
@@ -9389,6 +9389,562 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/1BQl0v",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cod-bo-ps4",
+    "console": "ps4",
+    "title": "Call of Duty: Black Ops",
+    "genre": "Disparos en Primera Persona - Acción",
+    "developer": "Treyarch",
+    "publisher": "Activision",
+    "year": 2010,
+    "rating": 87,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#2f3a4a",
+    "cover": "http://imgfz.com/i/zHxjuQ8.png",
+    "trailer": "OPTOVQFRggI",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/11740-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/11740-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/11740-3.jpg"
+    ],
+    "description": {
+      "es": "Envuelto en la Guerra Fría, Call of Duty: Black Ops sitúa al jugador en operaciones encubiertas tras las líneas enemigas. Una campaña intensa, modo Zombies y multijugador competitivo en una de las entregas más aclamadas de la serie.",
+      "en": "Set during the Cold War, Call of Duty: Black Ops puts the player in covert operations behind enemy lines. An intense campaign, Zombies mode and competitive multiplayer in one of the series' most acclaimed entries."
+    },
+    "download": {
+      "region": "CUSA57547 - USA",
+      "size": "22.9GB",
+      "format": "pkg",
+      "update": "1.08 - DLC",
+      "fw": "7.50+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Jose Coixao",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/nvGodW",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cod-bo2-ps4",
+    "console": "ps4",
+    "title": "Call of Duty: Black Ops II",
+    "genre": "Disparos en Primera Persona - Acción",
+    "developer": "Treyarch",
+    "publisher": "Activision",
+    "year": 2012,
+    "rating": 83,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#4a3a2f",
+    "cover": "http://imgfz.com/i/FHr3qsO.png",
+    "trailer": "x3tedlWs1XY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/120226-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/120226-5.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/120226-6.jpg"
+    ],
+    "description": {
+      "es": "Black Ops II salta a una guerra futura en 2025 con armamento y tecnología de vanguardia, además de la campaña de los años 80 protagonizada por Alex Mason. Incluye modo Zombies, campañas con ramificaciones y multijugador ampliado.",
+      "en": "Black Ops II leaps to a future war in 2025 with cutting-edge weaponry and technology, along with the 1980s campaign starring Alex Mason. Includes Zombies mode, branching campaigns and expanded multiplayer."
+    },
+    "download": {
+      "region": "CUSA57548 - USA",
+      "size": "30.2GB",
+      "format": "pkg",
+      "update": "1.10 - 2DLC",
+      "fw": "7.50+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Jose Coixao",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/YAVmNyY",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "digimon-story-cyber-sleuth-complete",
+    "console": "switch",
+    "title": "Digimon Story Cyber Sleuth: Complete Edition",
+    "genre": "RPG - Aventura",
+    "developer": "Media.Vision / h.a.n.d.",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2019,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3a6ea5",
+    "cover": "https://art.gametdb.com/switch/box/JA/ATPMA.png?1585940109",
+    "trailer": "yOpjwvu05xE",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/66238-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66238-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/66238-3.jpg"
+    ],
+    "description": {
+      "es": "Dos juegos completos en uno: Cyber Sleuth y Hacker's Memory. Conviértete en un ciber detective que usa a los Digimon para resolver misterios dividido entre el Mundo Humano y el Digital. Más de 300 Digimon para evolucionar, explorar y criar en esta edición completa para Nintendo Switch.",
+      "en": "Two complete games in one: Cyber Sleuth and Hacker's Memory. Become a cyber detective who uses Digimon to solve mysteries split between the Human and Digital Worlds. Over 300 Digimon to collect, evolve and raise in this complete edition for Nintendo Switch."
+    },
+    "download": {
+      "region": "010014E00DB56000",
+      "size": "4.74GB",
+      "format": "xci",
+      "update": "1.0.3",
+      "fw": "",
+      "languages": "Inglés, Alemán",
+      "thanks": "",
+      "mod": "Hoja verde company",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pxUalf",
+          "color": "blue"
+        },
+        {
+          "label": "Mod Español Consola",
+          "url": "https://cuty.io/modg",
+          "color": "blue"
+        },
+        {
+          "label": "Mod Español Emulador",
+          "url": "https://ouo.io/BXzad8",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "digimon-story-time-stranger",
+    "console": "switch",
+    "title": "Digimon Story Time Stranger",
+    "genre": "RPG - Aventura",
+    "developer": "Bandai Namco Studios / Media.Vision",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2026,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7b2f9e",
+    "cover": "https://art.gametdb.com/switch/box/JA/BKLEA.png?1784219987",
+    "trailer": "gKklYPAgwHU",
+    "screenshots": [
+      "http://imgfz.com/i/49CzjSO.jpeg",
+      "http://imgfz.com/i/FiaDyqN.png",
+      "http://imgfz.com/i/GcSo2sC.jpeg"
+    ],
+    "description": {
+      "es": "El agente Dan Yuki despierta ocho años en el pasado tras una explosión que destruye Tokio. Viaja entre el mundo humano y el Digital World: Iliad, criando y evolucionando más de 450 Digimon para resolver el misterio del colapso del mundo en este RPG por turnos.",
+      "en": "Agent Dan Yuki awakens eight years in the past after an explosion that destroys Tokyo. Travel between the human world and the Digital World: Iliad, raising and evolving over 450 Digimon to unravel the mystery of the world's collapse in this turn-based RPG."
+    },
+    "download": {
+      "region": "",
+      "size": "12.7GB",
+      "format": "xci",
+      "update": "v1.2.1+14dlc",
+      "fw": "22.5.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Portugués, Coreano, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/vej5Jk",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "littlebigplanet-3",
+    "console": "ps4",
+    "title": "LittleBigPlanet 3",
+    "genre": "Plataformas - Aventura",
+    "developer": "Sumo Digital / XDev Studios",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2014,
+    "rating": 79,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#e6a000",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/85734-1.jpg",
+    "trailer": "ymCDdrMKPrY",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/22353-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/22353-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/22353-3.jpg"
+    ],
+    "description": {
+      "es": "Únete a Sackboy y a los nuevos héroes Toggle, Swoop y Oddsock en una aventura a través de Bunkum, el mundo de la imaginación. Crea, juega y comparte niveles ilimitados, usa nuevas mecánicas por personaje y disfruta del multijugador local y online en esta entrega de la serie LittleBigPlanet para PS4.",
+      "en": "Join Sackboy and new heroes Toggle, Swoop and Oddsock on an adventure through Bunkum, the world of imagination. Create, play and share endless levels, use new character-specific mechanics and enjoy local and online multiplayer in this LittleBigPlanet entry for PS4."
+    },
+    "download": {
+      "region": "CUSA00810 - USA",
+      "size": "13.2GB",
+      "format": "pkg",
+      "update": "1.28+721DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Radiowasnton",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/cGOsDd",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "assassins-creed-valhalla",
+    "console": "ps4",
+    "title": "Assassin's Creed Valhalla",
+    "genre": "Acción - RPG - Aventura",
+    "developer": "Ubisoft Montreal",
+    "publisher": "Ubisoft",
+    "year": 2020,
+    "rating": 84,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2f6d8a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/120728-1.jpg",
+    "trailer": "rKjUAWlbTJk",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/ss_103481084a59b34837113daf27c04679caf743f3.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/ss_5e527e1e063ef041ca6680f503081274dcc5513a.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/ss_c3bff917ead50268eb7708ef3bf30e07b58929e9.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Eres Eivor, un feroz guerrero vikingo criado entre cuentos de batalla y gloria. Explora un mundo abierto dinámico situado tras el telón de fondo de la Edad Oscura de Inglaterra: saquea enemigos, expande tu asentamiento y construye tu poder político en tu camino a Valhalla. Ultimate Edition con todo el contenido y DLC incluidos.",
+      "en": "You are Eivor, a fierce Viking warrior raised on tales of battle and glory. Explore a dynamic open world set against the brutal backdrop of England's Dark Ages: raid enemies, grow your settlement and build your political power on your path to Valhalla. Ultimate Edition with all content and DLC included."
+    },
+    "download": {
+      "region": "CUSA18534 - EUR",
+      "size": "122.5GB",
+      "format": "pkg",
+      "update": "v8.00-13DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/nGDKphh",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cobra-kai-2-dojos-rising",
+    "console": "switch",
+    "title": "Cobra Kai 2: Dojos Rising",
+    "genre": "Beat 'em up - Acción",
+    "developer": "Flux Game Studio",
+    "publisher": "GameMill Entertainment",
+    "year": 2022,
+    "rating": 70,
+    "players": "1-2",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#1565c0",
+    "cover": "https://art.gametdb.com/switch/box/US/A5MFA.png?1684365725",
+    "trailer": "N4vmPq09dN4",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043972/eb980505be2ba1d16f62fcec54f7fba947a22c947f0a53f05b85a10ad06dd26c",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043972/fc612b7a275878879e2f092e8c83f9ac536a52053e0d57cb8a0cd09e9400f059",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000043972/ff233b58896860c9bc3c4615e72df0c7bd744dbdb8998b23844d15050801212d"
+    ],
+    "description": {
+      "es": "Elige tu dojo, recluta luchadores y entrena para coronarte campeón del torneo All Valley. Mejora tus combos, especiales y técnicas de esquiva en este beat 'em up ambientado en el universo de Cobra Kai, con cooperativo local y versus online.",
+      "en": "Choose your dojo, recruit fighters and train to become the All Valley Karate Grand Champion. Upgrade your combos, specials and dodge skills in this beat 'em up set in the Cobra Kai universe, with local co-op and online versus."
+    },
+    "download": {
+      "region": "0100BD9015B54000",
+      "size": "6.34GB",
+      "format": "xci",
+      "update": "2.20.8+dlc",
+      "fw": "15.0.1",
+      "languages": "Inglés, Español, Francés, Alemán, Italiano, Neerlandés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pIKbZW",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cobra-kai-the-karate-kid-saga-continues",
+    "console": "switch",
+    "title": "Cobra Kai: The Karate Kid Saga Continues",
+    "genre": "Beat 'em up - Acción",
+    "developer": "Flux Game Studio",
+    "publisher": "GameMill Entertainment",
+    "year": 2020,
+    "rating": 70,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "No",
+    "color": "#c62828",
+    "cover": "https://art.gametdb.com/switch/box/EN/AXD4B.png?1628970126",
+    "trailer": "Pf0hbs5c6Qo",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/79213-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/79213-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/79213-3.jpg"
+    ],
+    "description": {
+      "es": "Controla a 8 personajes jugables en este beat 'em up en el que eliges bando entre Cobra Kai y Miyagi-Do. Combos, cambios de personaje en tiempo real y ataques definitivos para resolver la rivalidad entre Daniel LaRusso y Johnny Lawrence.",
+      "en": "Take control of 8 playable characters in this beat 'em up where you choose your side between Cobra Kai and Miyagi-Do. Combos, real-time character swaps and ultimate attacks to settle the rivalry between Daniel LaRusso and Johnny Lawrence."
+    },
+    "download": {
+      "region": "01005790110F0000",
+      "size": "4.93GB",
+      "format": "xci",
+      "update": "1.0.2",
+      "fw": "10.2.0",
+      "languages": "Inglés, Español, Francés, Alemán, Italiano",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/vqvacpn",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "forgotten-memories",
+    "console": "switch",
+    "title": "Forgotten Memories",
+    "genre": "Terror - Aventura",
+    "developer": "Psychose Interactive",
+    "publisher": "Psychose Interactive",
+    "year": 2024,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#37474f",
+    "cover": "http://imgfz.com/i/IJUWuLx.png",
+    "trailer": "351KrPtoDb0",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028014/3f95e95230ed183374199eb44ebdd5144b5c4f8e0356b5ccb16ce83c24a4caa5",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028014/6df34f0430337137244d07cb2cf3561602ff37e4f7a41167716683dfed338c22",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028014/7420902accadba85942207c13765a5071f3758bc42a8653aefaaeab4e37f100b"
+    ],
+    "description": {
+      "es": "Juego de terror psicológico en tercera persona. Encarna a la detective Rose Hawkins, atrapada en un manicomio abandonado tras una investigación que sale mal. Resuelve puzles, esquiva horrores y descubre truculentos secretos en esta obra inspirada en los clásicos del terror de los 90.",
+      "en": "Third-person psychological horror game. Play as detective Rose Hawkins, trapped in an abandoned asylum after an investigation goes wrong. Solve puzzles, evade horrors and uncover grim secrets in this title inspired by the horror classics of the 90s."
+    },
+    "download": {
+      "region": "01009A70110F8000",
+      "size": "4.92GB",
+      "format": "xci",
+      "update": "1.9.4",
+      "fw": "19.0.1",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Neerlandés, Ruso, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/NTDAr8",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "namco-museum",
+    "console": "switch",
+    "title": "NAMCO MUSEUM",
+    "genre": "Arcade - Recopilatorio",
+    "developer": "Bandai Namco Studios",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2017,
+    "rating": 72,
+    "players": "1-2",
+    "cooperativo": "Sí",
+    "multijugador": "No",
+    "color": "#d32f2f",
+    "cover": "http://imgfz.com/i/s4XeJbo.png",
+    "trailer": "3YYNuYg2vLw",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000722/051e8809ec0ae487a8ba76f28caddefcddeb164b155dd7d6920251f8cb09cfa3",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000722/4555f976c7f57b6b35085ce991615679a1e0948d663858507ee20f4bceb76770",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000722/4c62f8129346cdc084575a910561292b170aa8c2d4ca687740a210f1933c36c7"
+    ],
+    "description": {
+      "es": "Recopilatorio con los clásicos arcade de Namco para Nintendo Switch: PAC-MAN, GALAGA, DIG DUG, GALAGA '88, SPLATTERHOUSE, TOWER OF DRUAGA, ROLLING THUNDER, ROLLING THUNDER 2, SKY KID, TANK FORCE y el exclusivo PAC-MAN VS. para cuatro jugadores.",
+      "en": "Compilation of Namco's arcade classics for Nintendo Switch: PAC-MAN, GALAGA, DIG DUG, GALAGA '88, SPLATTERHOUSE, TOWER OF DRUAGA, ROLLING THUNDER, ROLLING THUNDER 2, SKY KID, TANK FORCE, plus the four-player exclusive PAC-MAN VS."
+    },
+    "download": {
+      "region": "010002F001220000",
+      "size": "1.33GB",
+      "format": "xci",
+      "update": "1.0.2",
+      "fw": "5.1.0",
+      "languages": "Japonés, Francés, Alemán, Italiano, Español, Inglés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/55io3y",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "namco-museum-archives-vol-1",
+    "console": "switch",
+    "title": "NAMCO MUSEUM ARCHIVES Vol 1",
+    "genre": "Arcade - Recopilatorio",
+    "developer": "Namco",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2020,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7b1fa2",
+    "cover": "http://imgfz.com/i/kT8r3CN.png",
+    "trailer": "cNoDtPBs578",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000004774/02dae668fd4cbcf6ca0cc990ef885f983942e6652954703d04e2e26cbdabfca1",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000004774/247ff2a4c9415a8f5997ee3255f7e07c2966c80a004d694c1d581551fe9ef5e5",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000004774/3941693d0ecadf811469930ddb0ae0e244d274e635a9fe247a1f2b9483e06e0c"
+    ],
+    "description": {
+      "es": "Colección de 11 juegos de la era 8-Bit de Namco, algunos nunca lanzados en occidente: Galaxian, Pac-Man, Xevious, Mappy, Dig Dug, The Tower of Druaga, Sky Kid, Dragon Buster, Dragon Spirit: The New Legend, Splatterhouse: Wanpaku Graffiti y una versión demasterizada en 8-Bit de Pac-Man Championship Edition como bonus.",
+      "en": "A collection of 11 Namco 8-Bit era games, some never released in the west: Galaxian, Pac-Man, Xevious, Mappy, Dig Dug, The Tower of Druaga, Sky Kid, Dragon Buster, Dragon Spirit: The New Legend, Splatterhouse: Wanpaku Graffiti, plus an 8-Bit demastered version of Pac-Man Championship Edition as a bonus."
+    },
+    "download": {
+      "region": "010084E010E18000",
+      "size": "58.5MB",
+      "format": "xci",
+      "update": "1.0.3",
+      "fw": "13.1.0",
+      "languages": "Japonés, Inglés, Portugués",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/6zci6aV",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "namco-museum-archives-vol-2",
+    "console": "switch",
+    "title": "NAMCO MUSEUM ARCHIVES Vol 2",
+    "genre": "Arcade - Recopilatorio",
+    "developer": "Namco",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2020,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#00695c",
+    "cover": "https://art.gametdb.com/switch/box/DE/AW7RA.png?1654100601",
+    "trailer": "cNoDtPBs578",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000003504/24cb86f12598c7d52749096fb30677243f6873d5990449bd5f9f267fb7b03868",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000003504/25edda0b57032081b8b83e51e63339341517cc096d32049e40bb6abf8c714320",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000003504/a980d12a3c1f79dbcfbf0944454232348ffc365fe40e3534735d9477ff054df5"
+    ],
+    "description": {
+      "es": "Segundo volumen de la colección 8-Bit de Namco con 11 títulos: Galaga, Battle City, Pac-Land, Dig Dug II, Super Xevious, Mappy-Land, Legacy of the Wizard, Rolling Thunder, Dragon Buster II, Mendel Palace y una versión consolizada en 8-Bit de Gaplus como bonus.",
+      "en": "Second volume of Namco's 8-Bit collection with 11 titles: Galaga, Battle City, Pac-Land, Dig Dug II, Super Xevious, Mappy-Land, Legacy of the Wizard, Rolling Thunder, Dragon Buster II, Mendel Palace, plus an 8-Bit consolized version of Gaplus as a bonus."
+    },
+    "download": {
+      "region": "0100BCE010E1A000",
+      "size": "50.2MB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "10.0.3",
+      "languages": "Japonés, Inglés, Portugués",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/YcW1Lt",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monster-hunter-rise-sunbreak",
+    "console": "ps4",
+    "title": "Monster Hunter Rise Sunbreak",
+    "genre": "Acción - RPG",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2023,
+    "rating": 88,
+    "players": "1-4",
+    "cooperativo": "Sí",
+    "multijugador": "Sí (online)",
+    "color": "#e60012",
+    "cover": "http://imgfz.com/i/ywYtPog.png",
+    "trailer": "_zAOt8auYbw",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/108309-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/108309-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/108309-3.jpg"
+    ],
+    "description": {
+      "es": "Domina técnicas acrobáticas de caza tras la Todopoderosa (Wirebug) y salva la aldea Kamura de monstruos rampantes. Explora cinco mapas gigantes con tu Palamute y Palico, completando misiones, forjando equipo y enfrentando temibles monstruos como Magnamalo en esta nueva entrega de la saga.",
+      "en": "Master acrobatic hunting techniques with the Wirebug to save Kamura Village from rampaging monsters. Explore five massive maps with your Palamute and Palico, taking on quests, crafting gear and hunting fearsome monsters like Magnamalo in this new entry of the series."
+    },
+    "download": {
+      "region": "CUSA34119 - EUR",
+      "size": "36GB",
+      "format": "pkg",
+      "update": "16.01 - 303DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1k & Arczi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/yTe3ApX",
           "color": "blue"
         }
       ]
