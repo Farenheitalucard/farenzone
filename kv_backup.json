@@ -1,57 +1,5 @@
 [
   {
-    "id": "zelda-botw",
-    "console": "switch",
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "genre": "Acción - Aventura",
-    "developer": "Nintendo EPD",
-    "publisher": "Nintendo",
-    "year": 2017,
-    "rating": 97,
-    "players": "1",
-    "cooperativo": "No",
-    "multijugador": "No",
-    "color": "#2b8a3e",
-    "cover": "https://art.gametdb.com/switch/box/US/AAAAA.png",
-    "trailer": "1rPxiXXxftE",
-    "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/42293-2.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/42293-3.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshots/42293-4.jpg"
-    ],
-    "description": {
-      "es": "Explora el vasto reino de Hyrule, derrota a Ganon y descubre los secretos de un mundo abierto revolucionario.",
-      "en": "Explore the vast kingdom of Hyrule, defeat Ganon and uncover the secrets of a revolutionary open world."
-    },
-    "download": {
-      "region": "01007EF00011E000 - USA",
-      "size": "13.4GB",
-      "format": "NSP",
-      "update": "v1.6.0",
-      "fw": "v8.0.0+",
-      "languages": "Espanol, Ingles, Frances, Aleman, Italiano, Japones, Coreano, Chino, etc.",
-      "thanks": "",
-      "mod": "",
-      "links": [
-        {
-          "label": "Mediafire",
-          "url": "#",
-          "color": "blue"
-        },
-        {
-          "label": "Gdrive",
-          "url": "#",
-          "color": "blue"
-        },
-        {
-          "label": "gofile",
-          "url": "#",
-          "color": "brown"
-        }
-      ]
-    }
-  },
-  {
     "id": "mario-odyssey",
     "console": "switch",
     "title": "Super Mario Odyssey",
@@ -212,32 +160,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "totk",
-    "console": "switch",
-    "title": "The Legend of Zelda: Tears of the Kingdom",
-    "genre": "Acción - Aventura",
-    "developer": "Nintendo EPD",
-    "publisher": "Nintendo",
-    "year": 2023,
-    "rating": 96,
-    "players": "1",
-    "cooperativo": "No",
-    "multijugador": "No",
-    "color": "#2f7d8a",
-    "cover": "https://art.gametdb.com/switch/box/US/AXN7A.png",
-    "trailer": "uHGShqcAHlQ",
-    "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/ca80e4d9f7ddc2971daea8d9b9144c42dbdf2245c3546f41b94a740067bd42a0",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/05b3d8e8c74beaa43a7714c275a7ad06018ed069bd6bd3f923442b9ac16fdc49",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000044969/490ccb15d914eabada74b34de895e9061c7917d7f75782bc934a528fb77ea4be"
-    ],
-    "description": {
-      "es": "Link explora Hyrule y sus cielos con nuevas habilidades para detener una amenaza ancestral.",
-      "en": "Link explores Hyrule and the skies above with new abilities to stop an ancient threat."
-    },
-    "download": null
   },
   {
     "id": "pokemon-sword",
@@ -9945,6 +9867,179 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/yTe3ApX",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ea-sports-fc-27",
+    "console": "ps4",
+    "title": "EA SPORTS FC 27",
+    "genre": "Deportes - Fútbol",
+    "developer": "EA Vancouver",
+    "publisher": "Electronic Arts",
+    "year": 2026,
+    "rating": 80,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/ntKTFCi.png",
+    "trailer": "0RbGwgVRDWg",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/5adfa6a72f1ba6f269580d106ef6d6a760aa5119/ss_5adfa6a72f1ba6f269580d106ef6d6a760aa5119.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/a6dc5c0e33a2c9b174120be6f7caa26fc9aa8288/ss_a6dc5c0e33a2c9b174120be6f7caa26fc9aa8288.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/1a9117db4e8d864dbcee4c377aa12d832f6660c8/ss_1a9117db4e8d864dbcee4c377aa12d832f6660c8.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "La nueva entrega del juego de fútbol de EA Sports con The Grounds, una experiencia social donde la calle se encuentra con el estadio. Discutible valoración de forma, fútbol más auténtico en todos los modos e innovaciones impulsadas por la comunidad para dar la vuelta a cada jugada.",
+      "en": "The new instalment of EA Sports' football game featuring The Grounds, a social experience where the streets meet the stadium. Dynamic form ratings, more authentic football across every mode and community-driven innovations to turn every play around."
+    },
+    "download": {
+      "region": "CUSA57220 - USA",
+      "size": "63.6GB",
+      "format": "pkg",
+      "update": "1.03 - Offline Unlock - Plantillas",
+      "fw": "9.00+",
+      "languages": "Multi idioma (Latino-Castellano)",
+      "thanks": "Haider Kiara",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/0I1wbM",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/WuZltc",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "maestro",
+    "console": "switch",
+    "title": "Maestro",
+    "genre": "Música - Ritmo",
+    "developer": "Double Jack",
+    "publisher": "Microids",
+    "year": 2026,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#b0231f",
+    "cover": "https://art.gametdb.com/switch/box/EN/BR5MA.png?1789813059",
+    "trailer": "ZXk-u7mE8uk",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000110142/27298c6af21d76d5e8095c9eb1c3cc196fcfe7abb9d5e14fceb3548cb02091ad",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000110142/30210051aff9559dc0cba4a270f33897e91bfeb7e65ee1d3f0a7f9b18c82155f",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000110142/3da11a72aa9f3c8e66283ef54559147f99cde1e0ce20c499fad372aa61be9253"
+    ],
+    "description": {
+      "es": "Convierte cada gesto en música y lidera una orquesta sinfónica en la majestuosa Ópera de París. Un juego de ritmo por control de movimiento que reconstruye la experiencia completa para Joy-Con, donde tu batuta y tu mano dirigen a los músicos para mantener el compás y crear obras de arte inolvidables.",
+      "en": "Turn every gesture into music and lead a symphony orchestra in the majestic Paris Opera House. A motion-controlled rhythm game rebuilt for Joy-Con, where your baton and your hand guide the musicians to keep the tempo and create unforgettable works of art."
+    },
+    "download": {
+      "region": "0100E1C0252F8000",
+      "size": "3.38GB",
+      "format": "xci",
+      "update": "1.0.4+dlc",
+      "fw": "22.5.0",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Ruso, Japonés, Coreano, Chino tradicional, Chino simplificado",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/G3Z7Ljk",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "zelda-botw",
+    "console": "switch",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Acción - Aventura",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "year": 2017,
+    "rating": 97,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2b8a3e",
+    "cover": "https://art.gametdb.com/switch/box/US/AAAAA.png",
+    "trailer": "1rPxiXXxftE",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/42293-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/42293-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/42293-4.jpg"
+    ],
+    "description": {
+      "es": "Explora el vasto reino de Hyrule, derrota a Ganon y descubre los secretos de un mundo abierto revolucionario.",
+      "en": "Explore the vast kingdom of Hyrule, defeat Ganon and uncover the secrets of a revolutionary open world."
+    },
+    "download": {
+      "region": "01007EF00011E000",
+      "size": "15.7GB",
+      "format": "xci",
+      "update": "1.9.0+2dlc",
+      "fw": "",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso, Coreano, Chino simplificado, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/xLp98P",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "totk",
+    "console": "switch",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "genre": "Acción - Aventura",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "year": 2023,
+    "rating": 96,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2f7d8a",
+    "cover": "https://art.gametdb.com/switch/box/US/AXN7A.png?1696857880",
+    "trailer": "uHGShqcAHlQ",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000063714/ca80e4d9f7ddc2971daea8d9b9144c42dbdf2245c3546f41b94a740067bd42a0",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000063714/05b3d8e8c74beaa43a7714c275a7ad06018ed069bd6bd3f923442b9ac16fdc49",
+      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000063714/490ccb15d914eabada74b34de895e9061c7917d7f75782bc934a528fb77ea4be"
+    ],
+    "description": {
+      "es": "Link explora Hyrule y sus cielos con nuevas habilidades para detener una amenaza ancestral.",
+      "en": "Link explores Hyrule and the skies above with new abilities to stop an ancient threat."
+    },
+    "download": {
+      "region": "0100F2C0115B6000",
+      "size": "16.4GB",
+      "format": "xci",
+      "update": "1.4.3",
+      "fw": "",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso, Coreano, Chino simplificado, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/EFPxzhL",
           "color": "blue"
         }
       ]
