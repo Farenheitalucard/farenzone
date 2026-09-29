@@ -10044,5 +10044,430 @@
         }
       ]
     }
+  },
+  {
+    "id": "killer-instinct-arcade-collection",
+    "console": "ps4",
+    "title": "Killer Instinct Arcade Collection",
+    "genre": "Lucha",
+    "developer": "Rare",
+    "publisher": "Nintendo",
+    "year": 2026,
+    "rating": 75,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#c21f2e",
+    "cover": "http://imgfz.com/i/y0IloEt.png",
+    "trailer": "t2CR1LWGba8",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/1254-6.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/1254-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshots/1254-7.jpg"
+    ],
+    "description": {
+      "es": "Colección de los clásicos arcade de Killer Instinct, el legendario juego de lucha de Rare con combos espectaculares y personajes icónicos. La entrada incluye los juegos arcade originales de la saga.",
+      "en": "A collection of the classic Killer Instinct arcade games, Rare's legendary fighting game with spectacular combos and iconic characters. Includes the original arcade games of the series."
+    },
+    "download": {
+      "region": "KILL00095",
+      "size": "348MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "Markus00095",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/0qSZ267",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "star-wars-jedi-fallen-order-deluxe-edition",
+    "console": "ps4",
+    "title": "Star Wars Jedi: Fallen Order Deluxe Edition",
+    "genre": "Acción - Aventura",
+    "developer": "Respawn Entertainment",
+    "publisher": "Electronic Arts",
+    "year": 2019,
+    "rating": 84,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b4a54",
+    "cover": "http://imgfz.com/i/rcgleud.png",
+    "trailer": "xIl2z5wwjdA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/ss_695a5724e306269d81ca0118d86308a170c9e913.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/ss_cfad9481db1a3b68fb5fcb2298cfc74bcb6a469e.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/ss_763dcc7434f072d6fdbb9037b4d37f4474e29d9b.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Tras la Orden 66, Cal Kestis, un joven Padawan superviviente, debe ocultarse del Imperio mientras completa su entrenamiento, dominando la Fuerza y la espada láser en una aventura de acción en tercera persona por la galaxia.",
+      "en": "After Order 66, Cal Kestis, a young surviving Padawan, must hide from the Empire while completing his training, mastering the Force and the lightsaber in a third-person action adventure across the galaxy."
+    },
+    "download": {
+      "region": "CUSA12529 - EUR",
+      "size": "53.5GB",
+      "format": "pkg",
+      "update": "1.12 - 2DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino/Castellano)",
+      "thanks": "DUPLEX & Opoisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Bsp2omf",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "inazuma-eleven-victory-road-deluxe-edition",
+    "console": "ps4",
+    "title": "Inazuma Eleven: Victory Road Deluxe Edition",
+    "genre": "Deportes - RPG",
+    "developer": "Level-5",
+    "publisher": "Level-5",
+    "year": 2025,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#e0432f",
+    "cover": "http://imgfz.com/i/uWLKrt2.png",
+    "trailer": "1zLoHYUBtYs",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2799860/ss_9a85e64436ad96f1ceb06a9b71f433229d2834d2.1920x1080.jpg?t=1764296831",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2799860/ss_8c0e596b3d4e097bb24072e90e27e42ac449ae2f.1920x1080.jpg?t=1764296831",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2799860/ss_1279f2e22e9c3760910577060bc78189111bdec7.1920x1080.jpg?t=1764296831"
+    ],
+    "description": {
+      "es": "Un RPG de fútbol y colección de personajes. Recluta y desarrolla a cientos de jugadores, forma tu mejor once y conquista la victoria en el campo en esta nueva entrega de Inazuma Eleven.",
+      "en": "A football simulation RPG. Recruit and develop hundreds of players, build your best eleven and conquer victory on the pitch in this new Inazuma Eleven entry."
+    },
+    "download": {
+      "region": "CUSA11174 - JPN",
+      "size": "67.2GB",
+      "format": "pkg",
+      "update": "7.12 - 2DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Arczi and CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/MOoOhM",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/cG5Yb4",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mario-kart-64",
+    "console": "ps4",
+    "title": "Mario Kart 64",
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "publisher": "Nintendo",
+    "year": 1996,
+    "rating": 81,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#e4002b",
+    "cover": "http://imgfz.com/i/HZyP5zk.png",
+    "trailer": "ASWgJvuQhTA",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc87rq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc87rl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc87rm.jpg"
+    ],
+    "description": {
+      "es": "El clásico de carreras de Nintendo 64. Elige a tus pilotos favoritos de la saga Mario y compite en 16 circuitos con objetos, saltos y duelos en pantalla dividida para hasta 4 jugadores.",
+      "en": "The classic Nintendo 64 kart racer. Pick your favorite Mario characters and race across 16 tracks with items, jumps and split-screen battles for up to 4 players."
+    },
+    "download": {
+      "region": "SLUS99999",
+      "size": "30.3MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "Farenheit",
+      "mod": "anthoo582",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/4sZyKgG",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "graveyard-keeper-2",
+    "console": "switch",
+    "title": "Graveyard Keeper 2",
+    "genre": "Simulación - RPG",
+    "developer": "Lazy Bear Games",
+    "publisher": "tinyBuild",
+    "year": 2026,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#5a6b5a",
+    "cover": "http://imgfz.com/i/qNLltPV.png",
+    "trailer": "9p5TKYn8oqI",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc12xli.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc12xlj.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc12xlk.jpg"
+    ],
+    "description": {
+      "es": "Vuelve el simulador de cementerio medieval más incorrecto. Restaura el pueblo, administra el cementerio, automatiza la producción y lidera tu poderoso ejército de zombies.",
+      "en": "The most inaccurate medieval cemetery sim is back! Restore the Town, manage the graveyard, automate production and lead your zombie army into battle."
+    },
+    "download": {
+      "region": "0100005027A18000",
+      "size": "1.03GB",
+      "format": "xci",
+      "update": "1.0.2+dlc",
+      "fw": "23.0.0",
+      "languages": "Inglés, Francés, Alemán, Español, Portugués (Brasil), Polaco, Ruso, Japonés, Chino simplificado, Coreano, Turco",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ndQLe8V",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "atelier-yumia-the-alchemist-of-memories-and-the-envisioned-land",
+    "console": "switch",
+    "title": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
+    "genre": "RPG - Aventura",
+    "developer": "Gust",
+    "publisher": "Koei Tecmo",
+    "year": 2025,
+    "rating": 78,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7ea9b8",
+    "cover": "https://art.gametdb.com/switch/box/US/BK7XB.png?1742960153",
+    "trailer": "PPWOgx4Eh4I",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sctqg8.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sctqg9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sctqga.jpg"
+    ],
+    "description": {
+      "es": "En un mundo donde la alquimia es considerada tabú, la alquimista Yumia Liessfeldt emprende una gran aventura por el continente en ruinas en busca de la verdad. RPG de exploración, crafting y combate en tiempo real.",
+      "en": "In a world where alchemy is considered taboo, the alchemist Yumia Liessfeldt sets out on a great adventure across the ruined continent in search of the truth. An RPG of exploration, crafting and real-time combat."
+    },
+    "download": {
+      "region": "0100544020572000",
+      "size": "8.72GB",
+      "format": "xci",
+      "update": "1.70+32dlc",
+      "fw": "22.5.0",
+      "languages": "Inglés, Francés, Alemán, Español, Ruso, Japonés, Coreano, Chino simplificado, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/WKWb7x",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sea-of-stars-sunset-edition",
+    "console": "ps4",
+    "title": "Sea of Stars: Sunset Edition",
+    "genre": "RPG - Aventura",
+    "developer": "Sabotage Studio",
+    "publisher": "Sabotage",
+    "year": 2023,
+    "rating": 89,
+    "players": "1-2",
+    "cooperativo": "Sí",
+    "multijugador": "Local",
+    "color": "#3f7ba6",
+    "cover": "http://imgfz.com/i/I29zDSW.png",
+    "trailer": "GZVLA08lcR0",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/scf2ri.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scf2rk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scf2rl.jpg"
+    ],
+    "description": {
+      "es": "RPG por turnos inspirado en los clásicos en 16 bits. Zale y Valrea, los Guardianes del Solsticio, deberán usar el poder del sol y la luna para derrotar a las poderosas criaturas creadas por el alquimista Fleshmancer.",
+      "en": "A turn-based RPG inspired by 16-bit classics. Zale and Valere, Children of the Solstice, must use the power of the sun and moon to defeat the monstrous creations of the alchemist Fleshmancer."
+    },
+    "download": {
+      "region": "CUSA31580 - EUR",
+      "size": "6.12GB",
+      "format": "pkg",
+      "update": "1.15 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Nrvkls1",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "capcom-fighting-collection",
+    "console": "ps4",
+    "title": "Capcom Fighting Collection",
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2022,
+    "rating": 78,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local, Online",
+    "color": "#c62828",
+    "cover": "https://i.postimg.cc/T3YqQ633/Polish-20260928-145643838.png",
+    "trailer": "ll46OAcwPJI",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/scm3i9.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scm3ic.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scm3id.jpg"
+    ],
+    "description": {
+      "es": "Recopilación de 10 juegos de lucha arcade de Capcom, incluyendo Darkstalkers, Super Puzzle Fighter II Turbo, Hyper Street Fighter II y Red Earth, con menús traducidos, filtros CRT y juego online.",
+      "en": "A compilation of 10 Capcom arcade fighting games, including Darkstalkers, Super Puzzle Fighter II Turbo, Hyper Street Fighter II and Red Earth, with translated menus, CRT filters and online play."
+    },
+    "download": {
+      "region": "CUSA31205 - USA",
+      "size": "3.38GB",
+      "format": "pkg",
+      "update": "1.06 - DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Fugazi & CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/nlk9En",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "need-for-speed-most-wanted",
+    "console": "switch",
+    "title": "Need for Speed: Most Wanted",
+    "genre": "Carreras",
+    "developer": "EA Black Box",
+    "publisher": "Electronic Arts",
+    "year": 2005,
+    "rating": 86,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#e67e22",
+    "cover": "http://imgfz.com/i/TEPKqbu.jpeg",
+    "trailer": "0D5IRprGcCI",
+    "screenshots": [
+      "https://static.wikia.nocookie.net/nfs/images/8/8a/NFSMW2005DuringPursuit.png/revision/latest/scale-to-width-down/1600?cb=20260609161214&path-prefix=en",
+      "https://static.wikia.nocookie.net/nfs/images/e/e8/NFSMW2005RockportCenturySquare.png/revision/latest/scale-to-width-down/1600?cb=20260207234026&path-prefix=en",
+      "https://static.wikia.nocookie.net/nfs/images/b/b2/NFSMW2005SpeedtrapRace.jpg/revision/latest/scale-to-width-down/1600?cb=20260603154849&path-prefix=en"
+    ],
+    "description": {
+      "es": "Port nativo para Nintendo Switch del clásico Need for Speed: Most Wanted (2005) hecho por la comunidad. Persigue, choca y esquiva a la policía en la lista de los Más Buscados con el Mustang GT negro y los coches más icónicos de la saga.",
+      "en": "Community native port to Nintendo Switch of the classic Need for Speed: Most Wanted (2005). Bust cops, drive the blacklist and outrun the law in the iconic black Mustang GT. Built via ReXGlue recompilation, runs the Xbox 360 code at up to 30 FPS with a native Vulkan renderer."
+    },
+    "download": {
+      "region": "Homebrew",
+      "size": "6.58GB",
+      "format": "nro",
+      "update": "",
+      "fw": "19.0.0",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/R8rGE0",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "well-dweller",
+    "console": "switch",
+    "title": "Well Dweller",
+    "genre": "Acción - Aventura",
+    "developer": "Kyle Thompson",
+    "publisher": "Top Hat Studios",
+    "year": 2026,
+    "rating": 88,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#4a6741",
+    "cover": "http://imgfz.com/i/8C3QJy5.png",
+    "trailer": "J1e29j2DzqU",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/2c675d65378a8e5c88cba0e9e46c8655d87c1f8d/ss_2c675d65378a8e5c88cba0e9e46c8655d87c1f8d.1920x1080.jpg?t=1790314621",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/db0c09b10c244e508640a40cfee2442471e2928e/ss_db0c09b10c244e508640a40cfee2442471e2928e.1920x1080.jpg?t=1790314621",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/aed9afbfa49cc3d171b59566bcc2861e545f9631/ss_aed9afbfa49cc3d171b59566bcc2861e545f9631.1920x1080.jpg?t=1790314621"
+    ],
+    "description": {
+      "es": "Metroidvania de cuento oscuro de Kyle Thompson (Crypt Custodian, Islets). Encarna a Glimmer, un pajarito armado con una cerilla, y quema a la malvada reina para salvar a su familia mientras exploras un reino podrido de cuento de hadas.",
+      "en": "A dark fairy-tale metroidvania by Kyle Thompson (Crypt Custodian, Islets). Play as Glimmer, a tiny bird armed with a matchstick, and burn the wicked queen to save your family while exploring a rotten storybook kingdom."
+    },
+    "download": {
+      "region": "0100217023F6C000",
+      "size": "997MB",
+      "format": "xci",
+      "update": "1.0.2",
+      "fw": "22.5.0",
+      "languages": "Inglés, Francés, Alemán, Español, Portugués (Brasil), Ruso, Chino simplificado, Japonés, Coreano, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/7mKL2jt",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
