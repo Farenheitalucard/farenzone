@@ -1531,8 +1531,8 @@
       "size": "8.09GB",
       "format": "pkg",
       "update": "1.03",
-      "fw": "",
-      "languages": "Japones, Ingles",
+      "fw": "5.05+",
+      "languages": "Japones, Ingles, Español",
       "thanks": "Opoisso893/Golemnight",
       "mod": "",
       "links": [
@@ -1573,7 +1573,7 @@
       "size": "5.61GB",
       "format": "pkg",
       "update": "1.01",
-      "fw": "",
+      "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
       "mod": "",
@@ -1615,7 +1615,7 @@
       "size": "10.4GB",
       "format": "pkg",
       "update": "1.11",
-      "fw": "",
+      "fw": "5.05+",
       "languages": "Multi idioma",
       "thanks": "Opoisso893/Golemnight",
       "mod": "",
@@ -10306,7 +10306,7 @@
     "id": "sea-of-stars-sunset-edition",
     "console": "ps4",
     "title": "Sea of Stars: Sunset Edition",
-    "genre": "RPG - Aventura",
+    "genre": "RPG - Aventura - Fantasia",
     "developer": "Sabotage Studio",
     "publisher": "Sabotage",
     "year": 2023,
@@ -10332,7 +10332,7 @@
       "format": "pkg",
       "update": "1.15 - DLC",
       "fw": "5.05+",
-      "languages": "Multi idioma",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino, Portugues, Polaco, Ruso",
       "thanks": "Opoisso893/Golemnight",
       "mod": "",
       "links": [
@@ -10348,7 +10348,7 @@
     "id": "capcom-fighting-collection",
     "console": "ps4",
     "title": "Capcom Fighting Collection",
-    "genre": "Lucha",
+    "genre": "Lucha - Arcade - Multijugador",
     "developer": "Capcom",
     "publisher": "Capcom",
     "year": 2022,
@@ -10374,7 +10374,7 @@
       "format": "pkg",
       "update": "1.06 - DLC",
       "fw": "5.05+",
-      "languages": "Multi idioma",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino, Portugues, Polaco, Ruso",
       "thanks": "Fugazi & CyB1k",
       "mod": "",
       "links": [
@@ -10390,7 +10390,7 @@
     "id": "need-for-speed-most-wanted",
     "console": "switch",
     "title": "Need for Speed: Most Wanted",
-    "genre": "Carreras",
+    "genre": "Carreras - Accion - Mundo Abierto",
     "developer": "EA Black Box",
     "publisher": "Electronic Arts",
     "year": 2005,
@@ -10416,7 +10416,7 @@
       "format": "nro",
       "update": "",
       "fw": "19.0.0",
-      "languages": "Multi idioma (Castellano)",
+      "languages": "Ingles, Espanol, Aleman, Italiano, Japones",
       "thanks": "",
       "mod": "",
       "links": [
@@ -10432,7 +10432,7 @@
     "id": "well-dweller",
     "console": "switch",
     "title": "Well Dweller",
-    "genre": "Acción - Aventura",
+    "genre": "Accion - Aventura - Plataformas",
     "developer": "Kyle Thompson",
     "publisher": "Top Hat Studios",
     "year": 2026,
@@ -10457,14 +10457,496 @@
       "size": "997MB",
       "format": "xci",
       "update": "1.0.2",
-      "fw": "22.5.0",
-      "languages": "Inglés, Francés, Alemán, Español, Portugués (Brasil), Ruso, Chino simplificado, Japonés, Coreano, Chino tradicional",
+      "fw": "23.0.0",
+      "languages": "Ingles, Frances, Aleman, Espanol, Portugues, Ruso, Chino, Japones, Coreano",
       "thanks": "",
       "mod": "",
       "links": [
         {
           "label": "Mediafire",
           "url": "https://ouo.io/7mKL2jt",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poppy-playtime-chapter-5",
+    "console": "ps4",
+    "title": "Poppy Playtime: Chapter 5",
+    "genre": "Terror - Aventura - Puzzles",
+    "developer": "Mob Entertainment",
+    "publisher": "Mob Entertainment",
+    "year": 2026,
+    "rating": 87,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a1430",
+    "cover": "http://imgfz.com/i/XepZkUg.webp",
+    "trailer": "EriEensiy0I",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc104qo.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc104qr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc104qn.jpg"
+    ],
+    "description": {
+      "es": "El cierre de la saga de terror que arrasó en internet. Desciende a las profundidades de la fábrica de Playtime Co. perseguido por Huggy Wuggy y enfréntate a El Prototipo con las nuevas herramientas del GrabPack. Aventura de terror y puzles de Mob Entertainment.",
+      "en": "The finale of the internet-breaking horror saga. Descend into the depths of the Playtime Co. factory chased by Huggy Wuggy and confront The Prototype with the new GrabPack tools. A horror puzzle adventure by Mob Entertainment."
+    },
+    "download": {
+      "region": "CUSA58713 - USA",
+      "size": "15.6GB",
+      "format": "pkg",
+      "update": "2.00",
+      "fw": "5.05+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Portugues, Ruso, Espanol, Japones, Coreano",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/oi2www",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poppy-playtime-chapter-1",
+    "console": "ps4",
+    "title": "Poppy Playtime: Chapter 1",
+    "genre": "Terror - Aventura - Puzzles",
+    "developer": "Mob Entertainment",
+    "publisher": "Mob Entertainment",
+    "year": 2021,
+    "rating": 78,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a1430",
+    "cover": "http://imgfz.com/i/lsjVQLh.png",
+    "trailer": "xMQm8ubM-Cw",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sce6wx.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sce6x1.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sce6wy.jpg"
+    ],
+    "description": {
+      "es": "El primer capítulo de la saga de terror que arrasó en internet. Despiertas en la abandonada fábrica de juguetes Playtime Co. y descubres una petición de ayuda de Poppy. Explora las instalaciones, consigue el GrabPack y huye de Huggy Wuggy en esta aventura de terror y puzles.",
+      "en": "The first chapter of the internet-breaking horror saga. You wake up in the abandoned Playtime Co. toy factory and find a plea for help from Poppy. Explore the facility, get the GrabPack and flee from Huggy Wuggy in this horror puzzle adventure."
+    },
+    "download": {
+      "region": "CUSA46876 - EUR",
+      "size": "5.64GB",
+      "format": "pkg",
+      "update": "1.0.1",
+      "fw": "5.05+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Portugues, Ruso, Espanol, Japones, Coreano",
+      "thanks": "Haider Kiara",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/AfYwIa",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.01",
+          "url": "https://ouo.io/jWbiLcd",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poppy-playtime-chapter-2",
+    "console": "ps4",
+    "title": "Poppy Playtime: Chapter 2 - Fly in a Web",
+    "genre": "Terror - Aventura - Puzzles",
+    "developer": "Mob Entertainment",
+    "publisher": "Mob Entertainment",
+    "year": 2022,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#5a2d7a",
+    "cover": "http://imgfz.com/i/pZEex50.png",
+    "trailer": "XVENjm3Bjk0",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/scgukm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scgukn.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scgukp.jpg"
+    ],
+    "description": {
+      "es": "Adéntrate en el corazón de la fábrica de Playtime Co. entre cintas, nubes de algodón y el juego de estaciones. Con tu GrabPack mejorado deberás sobrevivir a Mommy Long Legs y descubrir qué esconde la fábrica. Terror y puzles en un ascensor que nunca podrás olvidar.",
+      "en": "Delve into the heart of Playtime Co. through conveyor belts, cotton candy clouds and the game station. With your upgraded GrabPack you must survive Mommy Long Legs and uncover what the factory hides. A nightmare elevator ride of horror and puzzles."
+    },
+    "download": {
+      "region": "CUSA47639 - USA",
+      "size": "12.7GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "9.00+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Portugues, Ruso, Espanol, Japones, Coreano",
+      "thanks": "Haider Kiara",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/gc3OTT",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poppy-playtime-chapter-3",
+    "console": "ps4",
+    "title": "Poppy Playtime: Chapter 3 - Deep Sleep",
+    "genre": "Terror - Aventura - Puzzles",
+    "developer": "Mob Entertainment",
+    "publisher": "Mob Entertainment",
+    "year": 2024,
+    "rating": 73,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b6a8a",
+    "cover": "http://imgfz.com/i/e1Lw65r.png",
+    "trailer": "s3_k03RC668",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/scpc19.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scpc18.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scpc16.jpg"
+    ],
+    "description": {
+      "es": "Sumérgete en Playcare, el orfanato secreto de la fábrica, donde reina un terror absoluto. Esquiva el sueño rojo y sobrevive a CatNap y a los otros juguetes de la casa. Nuevo equipamiento para el GrabPack con modo bengala y una oscuridad que nunca se apaga por completo.",
+      "en": "Dive into Playcare, the factory's secret orphanage where absolute terror reigns. Avoid the red smoke and survive CatNap and the other toys of the house. New GrabPack gear with flare mode and a darkness that never fully turns off."
+    },
+    "download": {
+      "region": "CUSA48310 - USA",
+      "size": "13.9GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "9.00+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Portugues, Ruso, Espanol, Japones, Coreano",
+      "thanks": "Haider Kiara",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/d5gtzQ",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poppy-playtime-chapter-4",
+    "console": "ps4",
+    "title": "Poppy Playtime: Chapter 4 - Safe Haven",
+    "genre": "Terror - Aventura - Puzzles",
+    "developer": "Mob Entertainment",
+    "publisher": "Mob Entertainment",
+    "year": 2025,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#4a4a6a",
+    "cover": "http://imgfz.com/i/cZ6Mul3.png",
+    "trailer": "DEu8qH2_8IU",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/scu1fd.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scu1ff.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/scu1fe.jpg"
+    ],
+    "description": {
+      "es": "Desciende a las profundidades donde el Prototipo construye su imperio. Aliado con Doey el Muñeco de Masa, el Doctor y los últimos experimentos de Playtime Co., la supervivencia depende del GrabPack rojo. El capítulo más oscuro y definitivo hasta que llegue el final.",
+      "en": "Descend to the depths where The Prototype builds its empire. Allied with Doey the Doughman, the Doctor and the last experiments of Playtime Co., survival depends on the red GrabPack. The darkest, most definitive chapter yet."
+    },
+    "download": {
+      "region": "CUSA50360 - USA",
+      "size": "9.03GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "9.00+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Portugues, Ruso, Espanol, Japones, Coreano",
+      "thanks": "Haider Kiara",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/zfH8eL",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "little-nightmares-2",
+    "console": "ps4",
+    "title": "Little Nightmares II",
+    "genre": "Terror - Plataformas - Puzzles",
+    "developer": "Tarsier Studios",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2021,
+    "rating": 81,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#4a3b52",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/73893-1.jpg",
+    "trailer": "ZXgmmMAQ3r0",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc6wct.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc6wcs.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc6wcv.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Mono, un niño atrapado en la Ciudad Pálida, en su huida hacia la luz con su nueva amiga Six. Un juego de terror y plataformas con puzles donde la única salida es enfrentarse a la Estática y escapar del Hombre Delgado, siempre detrás de ti.",
+      "en": "Join Mono, a boy trapped in the Pale City, as he escapes towards the light with his new friend Six. A horror puzzle-platformer where the only way out is to face the Signal Tower and flee the Thin Man, always right behind you."
+    },
+    "download": {
+      "region": "CUSA13055 - USA",
+      "size": "7.12GB",
+      "format": "pkg",
+      "update": "1.05 - 2DLC",
+      "fw": "7.50+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Polaco, Portugues, Ruso, Chino",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Game Mediafire",
+          "url": "https://ouo.io/qDPAhB",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.02 Mediafire",
+          "url": "https://ouo.io/GeUVwDl",
+          "color": "blue"
+        },
+        {
+          "label": "2 DLC Mediafire",
+          "url": "https://ouo.io/sSNRSrs",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "little-nightmares-3",
+    "console": "ps4",
+    "title": "Little Nightmares III",
+    "genre": "Terror - Aventura - Puzzles",
+    "developer": "Supermassive Games",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2025,
+    "rating": 76,
+    "players": "1-2",
+    "cooperativo": "Sí",
+    "multijugador": "Online",
+    "color": "#7a2e3d",
+    "cover": "http://imgfz.com/i/bAc80k7.png",
+    "trailer": "RFO9Z_0wrKE",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1392860/d0802b426b1116c4d0f7c92cc81de359bc342345/ss_d0802b426b1116c4d0f7c92cc81de359bc342345.1920x1080.jpg?t=1790067028",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1392860/2895b195f79c30ae097dd4525301288b97ac0c95/ss_2895b195f79c30ae097dd4525301288b97ac0c95.1920x1080.jpg?t=1790067028",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1392860/bb507b20463211ae9c76e09b950f0a70f8213afa/ss_bb507b20463211ae9c76e09b950f0a70f8213afa.1920x1080.jpg?t=1790067028"
+    ],
+    "description": {
+      "es": "Low y Alone, dos amigos, deben cooperar para abrirse camino fuera del Nowhere y escapar de una amenaza que crece en cada sombra. Usa los nuevos objetos (el arco de Low, la llave inglesa de Alone), juega solo con compañero IA o en cooperativo online. Terror y puzles de Supermassive Games.",
+      "en": "Low and Alone, two best friends, must work together to find a way out of the Nowhere and escape a threat growing in every shadow. Use the new tools (Low's bow, Alone's wrench), play solo with an AI companion or in online co-op. Horror puzzles from Supermassive Games."
+    },
+    "download": {
+      "region": "CUSA42879 - EUR",
+      "size": "20.7GB",
+      "format": "pkg",
+      "update": "1.0.2",
+      "fw": "5.05+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Polaco, Portugues, Ruso, Chino, Arabe, Tailandes, Indonesio",
+      "thanks": "CyB1k",
+      "mod": "5 DLC",
+      "links": [
+        {
+          "label": "Game Mediafire",
+          "url": "https://ouo.io/ITUvu0",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.02 Mediafire",
+          "url": "https://ouo.io/o2WK2U",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "star-wars-jedi-survivor",
+    "console": "ps4",
+    "title": "Star Wars Jedi: Survivor",
+    "genre": "Accion - Aventura - RPG",
+    "developer": "Respawn Entertainment",
+    "publisher": "Electronic Arts",
+    "year": 2023,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a4a1a",
+    "cover": "http://imgfz.com/i/dxO3Th7.png",
+    "trailer": "VRaobDJjiec",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sclchi.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sclchk.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sclchl.jpg"
+    ],
+    "description": {
+      "es": "Continúa la aventura de Cal Kestis, ya un poderoso Caballero Jedi, cinco años después de los hechos de Fallen Order. Enfréntate al Imperio con nuevas posturas de combate, habilidades de Fuerza y viaja por la galaxia en esta épica aventura de acción de Respawn Entertainment junto a Lucasfilm Games.",
+      "en": "Continue Cal Kestis' journey as a powerful Jedi Knight, five years after the events of Fallen Order. Face the Empire with new combat stances and Force abilities, and travel across the galaxy in this epic action-adventure from Respawn Entertainment in collaboration with Lucasfilm Games."
+    },
+    "download": {
+      "region": "CUSA33778 - USA",
+      "size": "51GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "5.05+",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Polaco, Portugues, Ruso, Chino",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/16ergi",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mega-man-legacy-collection",
+    "console": "switch",
+    "title": "Mega Man Legacy Collection",
+    "genre": "Plataformas - Accion - Retro",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2015,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1a7abf",
+    "cover": "http://imgfz.com/i/REyw1m0.png",
+    "trailer": "iOCbbJQ91IY",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/363440/ss_d09c314ebaeb228834810ecdb3b0ad2955743e0d.1920x1080.jpg?t=1769135773",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/363440/ss_b81d6f68c16ced6fcdd9138f02015fac329e1d8e.1920x1080.jpg?t=1769135773",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/363440/ss_3f7d55643fd2f9913dc461c6e4f5a10d0d278f86.1920x1080.jpg?t=1769135773"
+    ],
+    "description": {
+      "es": "Las seis aventuras originales de Mega Man (Mega Man 1-6) reunidas en una colosal recopilación con soporte de replay, retos temporales, modo River Stage y la galería de arte más completa de la serie. Vive el clásico que inició la leyenda del Blue Bomber.",
+      "en": "All six original Mega Man adventures (Mega Man 1-6) collected in one massive compilation with support for replay, time challenges, museum mode and the series' most complete art gallery. Experience the classic that started the legend of the Blue Bomber."
+    },
+    "download": {
+      "region": "Título ID: 01002D4007AE0000",
+      "size": "363MB",
+      "format": "xci",
+      "update": "1.01",
+      "fw": "6.0.1",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Portugues, Ruso",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/s2Gwag",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mega-man-legacy-collection-2",
+    "console": "switch",
+    "title": "Mega Man Legacy Collection 2",
+    "genre": "Plataformas - Accion - Retro",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2017,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a4a1a",
+    "cover": "http://imgfz.com/i/T1Ex8nk.png",
+    "trailer": "Au36nktJESo",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/495050/ss_b8c01b528c98182287e746f97aa91d55e2d33b0b.1920x1080.jpg?t=1788394008",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/495050/ss_9b16c4b74e687dae9f1ce3ee156695d2520e7900.1920x1080.jpg?t=1788394008",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/495050/ss_075b8897233af13495f9dd53c1e823cbfb02e415.1920x1080.jpg?t=1788394008"
+    ],
+    "description": {
+      "es": "La segunda recopilación clásica de Capcom: Mega Man 7, 8, 9 y 10 en un solo pack, con los modos extra que llegaron como DLC de Mega Man 9 y 10, retos remix, récords online, reproductor musical y una gran galería de ilustraciones. La evolución del Blue Bomber de los 8 a los 32 bits.",
+      "en": "Capcom's second classic compilation: Mega Man 7, 8, 9 and 10 in one pack, including the extra modes released as DLC for Mega Man 9 and 10, remix challenges, online leaderboards, a music player and a large gallery of illustrations. The Blue Bomber's evolution from 8 to 32 bits."
+    },
+    "download": {
+      "region": "Título ID: 0100842008EC4000",
+      "size": "3.22GB",
+      "format": "nsp",
+      "update": "",
+      "fw": "5.0.1",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Chino, Japones",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/A58RaFP",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "minecraft-dungeons-ii",
+    "console": "switch",
+    "title": "Minecraft Dungeons II",
+    "genre": "Accion - RPG - Mazmorras",
+    "developer": "Mojang Studios",
+    "publisher": "Xbox Game Studios",
+    "year": 2026,
+    "rating": 80,
+    "players": "1-4",
+    "cooperativo": "Sí",
+    "multijugador": "Local, Online",
+    "color": "#2a7a4a",
+    "cover": "http://imgfz.com/i/5CuFZOk.png",
+    "trailer": "fjI_Akk5z8Y",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc12nhq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc12njp.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_720p/sc12njo.jpg"
+    ],
+    "description": {
+      "es": "El regreso del dungeon crawler de Minecraft: un action RPG totalmente nuevo con combates intensos de alto riesgo y montones de loot. Salva un mundo en crisis solo o con hasta tres amigos, en solitario o en cooperativo, y descubre localizaciones nunca antes vistas del universo Minecraft.",
+      "en": "The return of the Minecraft dungeon crawler: an entirely new action RPG packed with crunchy, high-stakes combat and epic amounts of loot. Save a world in crisis alone or with up to three friends, solo or co-op, and explore never-before-seen Minecraft locations."
+    },
+    "download": {
+      "region": "Título ID: 0100A7C01B792000",
+      "size": "4.29GB",
+      "format": "xci",
+      "update": "1.1.1.0",
+      "fw": "22.5.0",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Polaco, Portugues, Ruso, Chino, Sueco",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pR1y6J",
           "color": "blue"
         }
       ]
