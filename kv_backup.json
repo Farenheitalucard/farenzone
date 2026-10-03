@@ -1120,18 +1120,23 @@
       "en": "Three androids decide the fate of humanity in a futuristic Detroit."
     },
     "download": {
-      "region": "CUSA09417 - EUR",
+      "region": "CUSA09417 - EUR\nCUSA08344 - USA",
       "size": "40.1GB",
       "format": "pkg",
       "update": "1.08",
       "fw": "N/A",
-      "languages": "Multi idioma (Castellano)",
+      "languages": "Multi idioma (Castellano/Latino)",
       "thanks": "Playable & hako",
       "mod": "",
       "links": [
         {
-          "label": "Mediafire",
+          "label": "Mediafire Castellano",
           "url": "https://ouo.io/AVjG5us",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire Latino",
+          "url": "https://ouo.io/Im0nDQ4",
           "color": "blue"
         }
       ]
@@ -9893,12 +9898,12 @@
     },
     "download": {
       "region": "CUSA57220 - USA",
-      "size": "63.6GB",
+      "size": "63.3GB",
       "format": "pkg",
-      "update": "1.03 - Offline Unlock - Plantillas",
-      "fw": "9.00+",
+      "update": "1.04 - Offline Unlock - Plantillas",
+      "fw": "5.05+",
       "languages": "Multi idioma (Latino-Castellano)",
-      "thanks": "Haider Kiara",
+      "thanks": "Opoisso893/Golemnight",
       "mod": "",
       "links": [
         {
@@ -11126,6 +11131,11 @@
           "label": "Mediafire",
           "url": "https://ouo.io/khuy93",
           "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/Xarep33",
+          "color": "white"
         }
       ]
     }
@@ -11293,6 +11303,305 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/piXSmk",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ea-sports-fc-27-2",
+    "console": "switch",
+    "title": "EA SPORTS FC 27",
+    "genre": "Deportes - Fútbol - Simulación",
+    "developer": "EA Vancouver",
+    "publisher": "Electronic Arts",
+    "year": 2026,
+    "rating": 76,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/8UXhYjN.png",
+    "trailer": "0RbGwgVRDWg",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/5adfa6a72f1ba6f269580d106ef6d6a760aa5119/ss_5adfa6a72f1ba6f269580d106ef6d6a760aa5119.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/a6dc5c0e33a2c9b174120be6f7caa26fc9aa8288/ss_a6dc5c0e33a2c9b174120be6f7caa26fc9aa8288.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/1a9117db4e8d864dbcee4c377aa12d832f6660c8/ss_1a9117db4e8d864dbcee4c377aa12d832f6660c8.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "La nueva entrega del juego de fútbol de EA Sports con The Grounds, una experiencia social donde la calle se encuentra con el estadio. Valoraciones de forma más dinámicas, un fútbol más auténtico en todos los modos e innovaciones impulsadas por la comunidad.",
+      "en": "The new instalment of EA Sports' football game featuring The Grounds, a social experience where the streets meet the stadium. Dynamic form ratings, more authentic football across every mode and community-driven innovations."
+    },
+    "download": {
+      "region": "Título ID: 0100C49025D3E000",
+      "size": "35GB",
+      "format": "xci",
+      "update": "1.8c.cab1 - Comentaristas Es-Lat",
+      "fw": "23.0.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Portugués, Ruso, Coreano, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/cFJmPa",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shin-chan-shiros-coal-town-switch",
+    "console": "switch",
+    "title": "Shin Chan: Shiro and the Coal Town",
+    "genre": "Aventura - Casual - Simulación",
+    "developer": "h.a.n.d., Inc.",
+    "publisher": "Neos Corporation",
+    "year": 2024,
+    "rating": 78,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#f7b32b",
+    "cover": "https://art.gametdb.com/switch/box/KO/BEEHB.png?1714683657",
+    "trailer": "eukNMThp0S4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699820/ss_68fb7e959c310e5b5d32002cbd768e681bfac498.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699820/ss_33fd833e9a598a9a33d56581e8cc81cc8d74528f.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699820/ss_105b58a527c94d53d593605a5d181f52e1a4de9d.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Shin chan y a su perro Shiro en una misteriosa aventura por un pueblo minero de Japón. Explora las minas, resuelve puzles, conversa con los vecinos y supera minijuegos mientras buscas el secreto que se esconde bajo el carbón.",
+      "en": "Join Shin chan and his dog Shiro on a mysterious adventure through a Japanese coal-mining town. Explore the mines, solve puzzles, chat with the locals and clear minigames while searching for the secret hidden beneath the coal."
+    },
+    "download": {
+      "region": "Título ID: 0100A8B01EOC8000",
+      "size": "2.55GB",
+      "format": "xci",
+      "update": "1.0.3",
+      "fw": "19.0.1",
+      "languages": "Inglés, Alemán, Español, Japonés, Coreano, Chino simplificado, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/VQIIux",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "peaceful-fishing-story-switch",
+    "console": "switch",
+    "title": "Peaceful Fishing Story",
+    "genre": "Simulación - Aventura - Casual",
+    "developer": "SAT-BOX",
+    "publisher": "SAT-BOX",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2a9d8f",
+    "cover": "http://imgfz.com/i/3fGJMjq.png",
+    "trailer": "xf5TcEKpUq0",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382520/c4a37824e5d2e22a0da621fff7a04e7daf0f9ddf/ss_c4a37824e5d2e22a0da621fff7a04e7daf0f9ddf.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382520/1d0b060d46b135d6dd4c04a9354ec9bfeee86631/ss_1d0b060d46b135d6dd4c04a9354ec9bfeee86631.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4382520/6ab3270fff8551dee6658d803d276b8fdb74f286/ss_6ab3270fff8551dee6658d803d276b8fdb74f286.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Una vida tranquila y relajada comienza en una aldea rodeada de naturaleza. Echa la caña en ríos, lagos y mar abierto, conoce a los vecinos del pueblo y mejora tu equipo para luchar contra el pez Rey y la legendaria criatura que se esconde bajo el agua.",
+      "en": "A gentle, laid-back life begins in a village surrounded by nature. Cast your line into rivers, lakes and the open sea, get to know the charming villagers and upgrade your gear to take on the King Fish and the legendary creature lurking beneath the water."
+    },
+    "download": {
+      "region": "Título ID: 0100AOA0264E4000",
+      "size": "384MB",
+      "format": "xci",
+      "update": "1.0.6 + DLC - Mod Español",
+      "fw": "22.1.0",
+      "languages": "Inglés, Japonés",
+      "thanks": "",
+      "mod": "Mod Español",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/lleWG0",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "castlevania-belmonts-curse-demo-switch",
+    "console": "switch",
+    "title": "Castlevania: Belmont's Curse [Demo]",
+    "genre": "Acción - Metroidvania - Plataformas",
+    "developer": "KONAMI / Evil Empire",
+    "publisher": "KONAMI",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#c1121f",
+    "cover": "http://imgfz.com/i/2LSJEjG.png",
+    "trailer": "wioDhevSSU4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/4cf6d35e1d8c07fc552a59c970ed9af490ce75a5/ss_4cf6d35e1d8c07fc552a59c970ed9af490ce75a5.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/6bb79c2cde71c05a1c941c7c12ed0a626b89ad98/ss_6bb79c2cde71c05a1c941c7c12ed0a626b89ad98.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/2d5f82625b0d0ba1df860913d0c2cd75c1dd9d7a/ss_2d5f82625b0d0ba1df860913d0c2cd75c1dd9d7a.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Demo de Castlevania: Belmont's Curse, el nuevo metroidvania de acción y exploración 2D desarrollado por KONAMI junto a Evil Empire y Motion Twin. Asume el legado de la familia Belmont y enfréntate al Rey vampiro en un castillo de pesadilla con estética de 16 bits.",
+      "en": "Demo of Castlevania: Belmont's Curse, the new 2D action-exploration metroidvania developed by KONAMI together with Evil Empire and Motion Twin. Take up the Belmont legacy and face the vampire King in a nightmarish castle with 16-bit aesthetics."
+    },
+    "download": {
+      "region": "Título ID: 0100D1D027E96000",
+      "size": "2.38GB",
+      "format": "nsp",
+      "update": "",
+      "fw": "23.0.0",
+      "languages": "Inglés, Francés, Italiano, Alemán, Español, Portugués, Ruso, Japonés, Coreano, Chino simplificado, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/4Xno3X",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "call-of-duty-advanced-warfare-atlas-limited-edition",
+    "console": "ps4",
+    "title": "Call of Duty Advanced Warfare Atlas Limited Edition",
+    "genre": "Shooter - Acción - FPS",
+    "developer": "Sledgehammer Games",
+    "publisher": "Activision",
+    "year": 2015,
+    "rating": 83,
+    "players": "1-12",
+    "cooperativo": "Sí",
+    "multijugador": "Local y online",
+    "color": "#0a4d92",
+    "cover": "http://imgfz.com/i/DCFyOlz.png",
+    "trailer": "sFu5qXMuaJU",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209650/ss_9c2a0040aec3508c40134442597987eaa01cc7c4.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209650/ss_101172dd16fc318668589aa1638dcf5d6f3f4e8a.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/318791/ss_45bcf507d182248cd49edff0220ff0d828040907.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "La entrega de la saga que marcó el regreso de Call of Duty a la próxima generación, con motor gráfico renovador y una campaña ambientada en 2054 donde el exoesqueleto jugable define el combate. Esta edición Atlas Limited Edition incluye los 5 DLC, Double XP y desbloqueos exclusivos como el esqueleto Atlas.",
+      "en": "The installment that marked Call of Duty's return to next-gen, with a new engine and a campaign set in 2054 where the exoskeleton suit defines combat. This Atlas Limited Edition includes all 5 DLCs, Double XP and exclusive unlocks such as the Atlas skeleton."
+    },
+    "download": {
+      "region": "CUSA00803 - USA",
+      "size": "85.5GB",
+      "format": "pkg",
+      "update": "1.24 - 5DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "DR GAMER",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/glCUzvi",
+          "color": "blue"
+        },
+        {
+          "label": "Terabox",
+          "url": "https://ouo.io/bzRgKY",
+          "color": "white"
+        }
+      ]
+    }
+  },
+  {
+    "id": "attack-on-titan-wings-of-freedom",
+    "console": "ps4",
+    "title": "Attack on Titan Wings of Freedom",
+    "genre": "Acción - Hack and Slash - Aventura",
+    "developer": "Omega Force",
+    "publisher": "Koei Tecmo",
+    "year": 2016,
+    "rating": 74,
+    "players": "1-4",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/3wjM2Lv.png",
+    "trailer": "EwjIyGEavl8",
+    "screenshots": [
+      "http://imgfz.com/i/1E4sPzS.jpeg",
+      "http://imgfz.com/i/RWVQbFa.jpeg",
+      "http://imgfz.com/i/dRwCuIU.jpeg"
+    ],
+    "description": {
+      "es": "Únete al Cuerpo de Exploración y lucha contra enormes Titanes utilizando el equipo de maniobras tridimensionales. Revive momentos del anime mientras exploras, mejoras tu equipo y enfrentas intensos combates.",
+      "en": "Join the Survey Corps and battle colossal Titans using the 3D Maneuver Gear. Relive moments from the anime as you explore, upgrade your equipment, and face intense challenges."
+    },
+    "download": {
+      "region": "USA - CUSA03804",
+      "size": "13.2GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "",
+      "languages": "Inglés - Japonés",
+      "thanks": "DUPLEX & hako",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ENoVvGj",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "attack-on-titan-2-final-battle",
+    "console": "ps4",
+    "title": "Attack on Titan 2 Final Battle",
+    "genre": "Acción - Hack and Slash - Aventura",
+    "developer": "Omega Force",
+    "publisher": "Koei Tecmo Games",
+    "year": 2019,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/64077-1.jpg",
+    "trailer": "rU34JMxLJ9s",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/64077-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/64077-4.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/64077-3.jpg"
+    ],
+    "description": {
+      "es": "Lucha contra los Titanes utilizando el equipo de maniobras tridimensionales y vive la historia de las tres primeras temporadas del anime. Crea tu propio personaje, mejora tus habilidades y únete al Cuerpo de Exploración",
+      "en": "Fight against the Titans using the 3D Maneuver Gear and experience the story of the first three seasons of the anime. Create your own character, improve your skills, and join the Cu"
+    },
+    "download": {
+      "region": "USA - CUSA08956",
+      "size": "31.9GB",
+      "format": "pkg",
+      "update": "1.11 - DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/LSIis0s",
           "color": "blue"
         }
       ]
