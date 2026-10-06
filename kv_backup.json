@@ -23,7 +23,23 @@
       "es": "Acompaña a Mario en un viaje por increíbles reinos con su nueva gorra mágica, Cappy.",
       "en": "Join Mario on a journey across incredible kingdoms with his new magic hat, Cappy."
     },
-    "download": null
+    "download": {
+      "region": "0100000000010000",
+      "size": "5.59GB",
+      "format": "xci",
+      "update": "1.4.1",
+      "fw": "20.1.1",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/V6QhRM",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "mario-kart-8",
@@ -55,7 +71,7 @@
       "format": "xci",
       "update": "3.0.5+DLC  - 3.03+DLC - 4.0.0+DLC",
       "fw": "20.0.1",
-      "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Portugues, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional, Ingles EE. UU.",
+      "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Portugues, Ruso, Chino, Espanol America Latina, Frances Canada, Ingles EE. UU.",
       "thanks": "",
       "mod": "",
       "links": [
@@ -107,7 +123,7 @@
       "format": "xci",
       "update": "3.0.3+3DLC",
       "fw": "22.1.0",
-      "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Ruso, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
+      "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Ruso, Chino, Espanol America Latina, Frances Canada",
       "thanks": "",
       "mod": "",
       "links": [
@@ -226,18 +242,34 @@
     "cooperativo": "Local",
     "multijugador": "Local y online",
     "color": "#d98a1f",
-    "cover": "https://art.gametdb.com/switch/box/US/A7HLA.png",
+    "cover": "https://art.gametdb.com/switch/box/US/ADFJA.png?1562075484",
     "trailer": "by_XTria-mQ",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/d71c8c45b08ce91bf8aee85525a1dd452e04682bdd2f1e547341e05baea97ec0",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/2ff569ab045a4ff91e29902f74bbca021246569b538c4a1f61fb475c211d7c43",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000000712/cd7ff3e86a6590c56fc4d4ca5df94212aadecf20bb5b2ae82e5cd70bd7dc0e2f"
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000014158/0ca41128bf40b7e0dc32a046a659ecdc69e4d7cc7a3257d6280be665d2f795b5.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000014158/d71c8c45b08ce91bf8aee85525a1dd452e04682bdd2f1e547341e05baea97ec0.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000014158/2ff569ab045a4ff91e29902f74bbca021246569b538c4a1f61fb475c211d7c43.jpg"
     ],
     "description": {
       "es": "Disfruta de minijuegos y tableros frenéticos con hasta cuatro jugadores.",
       "en": "Enjoy frantic minigames and boards with up to four players."
     },
-    "download": null
+    "download": {
+      "region": "Título ID: 010036B0034E4000",
+      "size": "2.89GB",
+      "format": "xci",
+      "update": "1.1.0",
+      "fw": "12.0.0",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Japonés, Coreano, Neerlandés, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/JiGcDh1",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "mario-wonder",
@@ -255,15 +287,31 @@
     "cover": "https://art.gametdb.com/switch/box/US/AQMXA.png",
     "trailer": "XvQNlGKNC6o",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/7f1845a5e8d8ec895ad188a6b0f46b59036a363db1b2d9b79d23b913b0b9ab8a",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e3024df668cdead60e62865924652c811323b0e7c46f51567fe80907f2637cc4",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000067127/e1ee4f690cec788fc2a75e85ddc12f6d7ef69501bbb362ad918e1ffcbc14936f"
+      "https://cdn.thegamesdb.net/images/original/screenshot/119552-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/119552-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/119552-3.jpg"
     ],
     "description": {
       "es": "Un clásico plataformas reinventado con las sorprendentes flores Maravilla.",
       "en": "The classic platformer reinvented with the surprising Wonder Flowers."
     },
-    "download": null
+    "download": {
+      "region": "010015100B514000",
+      "size": "3.64GB",
+      "format": "xci",
+      "update": "1.2.1",
+      "fw": "22.1.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Portugués, Ruso, Coreano, Chino, Polaco, Tailandés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/L6UpbN",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "pokemon-arceus",
@@ -389,7 +437,7 @@
       "format": "xci",
       "update": "1.4.0+2DLC",
       "fw": "9.2.0",
-      "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, chino simplificado, chino tradicional",
+      "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -417,15 +465,31 @@
     "cover": "https://art.gametdb.com/switch/box/US/BAAQA.png",
     "trailer": "CYx9v7Mo94M",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/ae7e1c2764074f1b5af56454cd5c75f150474aa9a4a87b73aeff2996ffad0bee",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/1500395a0a6e241f071e902759525e7442434babd3726f25d5ae1d5d232e38b7",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000013568/b4373e8d3b216aaaf30fb58409df7dbf27d0d8b6541ff9ac266b70d0624126e5"
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000018694/aac100206f1c50349fd2c48595e55603259ae60a4ab4eefc28e71f41efb78b97.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000018694/ae7e1c2764074f1b5af56454cd5c75f150474aa9a4a87b73aeff2996ffad0bee.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000018694/b4373e8d3b216aaaf30fb58409df7dbf27d0d8b6541ff9ac266b70d0624126e5.jpg"
     ],
     "description": {
       "es": "Crea, comparte y juega niveles infinitos de Mario diseñados por la comunidad.",
       "en": "Create, share and play endless Mario levels designed by the community."
     },
-    "download": null
+    "download": {
+      "region": "Título ID: 01009B90006DC000",
+      "size": "3.05GB",
+      "format": "xci",
+      "update": "3.0.3",
+      "fw": "17.0.1",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Japonés, Coreano, Neerlandés, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://cuty.io/DVNfXcx",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "splatoon-2",
@@ -499,7 +563,7 @@
       "format": "xci",
       "update": "1.1.0",
       "fw": "19.0.1",
-      "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Chino simplificado, Espanol America Latina, Frances Canada, Chino tradicional",
+      "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Chino, Espanol America Latina, Frances Canada",
       "thanks": "",
       "mod": "",
       "links": [
@@ -595,15 +659,36 @@
     "cover": "https://art.gametdb.com/switch/box/US/ADALA.png",
     "trailer": "0LbHBMtHUw0",
     "screenshots": [
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/f7eab80bf81dace25f1372f2b0ac5a63e3653af74468f73f37c6bb27df638a93",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/5e1ca57f22a388d696dd0883ea3b5453c7c9e59ff0fea05dd912a2fcb88d1985",
-      "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000028352/5d7c325d4bac7e8af8da21d05376a007e4701421cec4a9a8791677162817eed9"
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000006411/73d58198e35bf94be752cf3d9ba0b44dea877cab1487e2cc1b7eeb02157f066f.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000006411/f7eab80bf81dace25f1372f2b0ac5a63e3653af74468f73f37c6bb27df638a93.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000006411/5e1ca57f22a388d696dd0883ea3b5453c7c9e59ff0fea05dd912a2fcb88d1985.jpg"
     ],
     "description": {
       "es": "La aventura 2D de Mario con todos los niveles y sus expansiones.",
       "en": "The classic 2D Mario adventure with all levels and expansions."
     },
-    "download": null
+    "download": {
+      "region": "Título ID: 0100EA80032EA000",
+      "size": "2.51GB",
+      "format": "xci - nsp",
+      "update": "1.0.2",
+      "fw": "20.0.1",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Japonés, Coreano, Neerlandés, Portugués, Ruso, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire xci",
+          "url": "https://ouo.io/HGUzBN4",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire nsp",
+          "url": "https://ouo.io/9JqEx0",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "mario-3dworld-bowsers-fury",
@@ -629,7 +714,23 @@
       "es": "El clásico de Wii U mejorado con el nuevo mundo abierto de Bowser's Fury.",
       "en": "The Wii U classic enhanced with the new open-world Bowser's Fury."
     },
-    "download": null
+    "download": {
+      "region": "Título ID: 010028600EBDA000",
+      "size": "2.95GB",
+      "format": "xci",
+      "update": "1.2.2",
+      "fw": "",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Japonés, Coreano, Neerlandés, Portugués, Ruso, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/xi11GpA",
+          "color": "blue"
+        }
+      ]
+    }
   },
   {
     "id": "nintendo-switch-sports",
@@ -3097,7 +3198,7 @@
       "format": "nsp",
       "update": "1.0.0",
       "fw": "17.0.1",
-      "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, portugues, ruso, chino simplificado, chino tradicional",
+      "languages": "Ingles, frances, aleman, espanol, italiano, japones, coreano, neerlandes, portugues, ruso, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -3338,7 +3439,7 @@
       "format": "xci",
       "update": "1.29.0+DLC",
       "fw": "",
-      "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, chino tradicional, chino simplificado, ruso, polaco",
+      "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, Chino, ruso, polaco",
       "thanks": "Contraseña:  zonagamerfa",
       "mod": "",
       "links": [
@@ -3385,7 +3486,7 @@
       "format": "xci",
       "update": "2.0.76+13dlc",
       "fw": "22.1.0",
-      "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, japones, coreano, tailandes, chino tradicional, chino simplificado, ruso, polaco",
+      "languages": "Ingles, frances, aleman, espanol, italiano, portugues, arabe, japones, coreano, tailandes, Chino, ruso, polaco",
       "thanks": "",
       "mod": "",
       "links": [
@@ -4978,7 +5079,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Ruso",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino, Ruso",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5014,7 +5115,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5050,7 +5151,7 @@
       "format": "xci",
       "update": "2.0.0+2dlc",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -5097,7 +5198,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5116,7 +5217,7 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#e63946",
-    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/115952-1.jpg",
+    "cover": "https://art.gametdb.com/switch/box/US/A8LUA.png?1700321690",
     "trailer": "0r5PJx7rlds",
     "screenshots": [
       "https://cdn.thegamesdb.net/images/original/screenshot/115952-1.jpg",
@@ -5128,15 +5229,21 @@
       "en": "Mario, Bowser, and Peach team up to repair the Star Road. Colorful RPG with updated graphics."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
+      "region": "Título ID: 0100BC0018138000",
+      "size": "6.52GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "17.0.1",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Neerlandés, Japonés, Coreano, Chino",
       "thanks": "",
       "mod": "",
-      "links": []
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/RVwczf9",
+          "color": "blue"
+        }
+      ]
     }
   },
   {
@@ -5169,7 +5276,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino, Ruso",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5205,7 +5312,7 @@
       "format": "xci",
       "update": "1.1.0",
       "fw": "15.0.1",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino, Ruso",
       "thanks": "",
       "mod": "",
       "links": [
@@ -5247,7 +5354,7 @@
       "format": "xci",
       "update": "1.0.1",
       "fw": "8.1.0",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Tradicional, Ruso",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino, Ruso",
       "thanks": "",
       "mod": "",
       "links": [
@@ -5289,7 +5396,7 @@
       "format": "xci",
       "update": "1.2.0+6DLC",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado, Ruso",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino, Ruso",
       "thanks": "",
       "mod": "",
       "links": [
@@ -5331,7 +5438,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino Tradicional, Chino Simplificado, Ruso",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Portugues, Japones, Coreano, Chino, Ruso",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5399,7 +5506,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino Simplificado",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Neerlandes, Japones, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5501,7 +5608,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Japones, Coreano, Chino Simplificado",
+      "languages": "Ingles, Japones, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5569,7 +5676,7 @@
       "format": "",
       "update": "",
       "fw": "",
-      "languages": "Ingles, Frances, Aleman, Espanol, Portugues, Japones, Coreano, Chino Simplificado, Ruso",
+      "languages": "Ingles, Frances, Aleman, Espanol, Portugues, Japones, Coreano, Chino, Ruso",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5600,12 +5707,12 @@
       "en": "Neo-noir action with ultra-fast instant-death combat. A ninja with amnesia investigates his past while eliminating enemies in a pixel art world."
     },
     "download": {
-      "region": "",
-      "size": "",
-      "format": "",
-      "update": "",
-      "fw": "",
-      "languages": "Ingles, Aleman, Espanol, Frances, Japones, Coreano, Portugues, Ruso, Chino Simplificado",
+      "region": "010029600D56A000",
+      "size": "345MB",
+      "format": "xci",
+      "update": "1.0.5",
+      "fw": "8.0.1",
+      "languages": "Ingles, Aleman, Espanol, Frances, Japones, Coreano, Portugues, Ruso, Chino",
       "thanks": "",
       "mod": "",
       "links": []
@@ -5722,7 +5829,7 @@
       "format": "XCI",
       "update": "1.0.3",
       "fw": "v15.0.1",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino Simplificado",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -5937,7 +6044,7 @@
       "format": "xci",
       "update": "1.0.8+4DLC",
       "fw": "21.2.0",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino Simplificado, Chino Tradicional",
+      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -6555,7 +6662,7 @@
       "format": "xci",
       "update": "1.0.2",
       "fw": "22.5.0",
-      "languages": "Japonés, Inglés, Chino Simplificado y Chino Tradicional",
+      "languages": "Japonés, Inglés, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -7042,7 +7149,7 @@
       "format": "xci",
       "update": "2.0.1+4DLC",
       "fw": "22.5.0",
-      "languages": "Inglés, Japonés, Francés, Alemán, Italiano, Español, Coreano, Neerlandés, Ruso, Chino simplificado, Portugués brasileño, Chino tradicional",
+      "languages": "Inglés, Japonés, Francés, Alemán, Italiano, Español, Coreano, Neerlandés, Ruso, Chino, Portugués brasileño",
       "thanks": "",
       "mod": "",
       "links": [
@@ -7717,7 +7824,7 @@
       "format": "xci",
       "update": "1.41+8DLC",
       "fw": "22.1.0",
-      "languages": "Español, Español Latino, Inglés, Japonés, Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Coreano y Chino Simplificado",
+      "languages": "Español, Español Latino, Inglés, Japonés, Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -9949,7 +10056,7 @@
       "format": "xci",
       "update": "1.0.4+dlc",
       "fw": "22.5.0",
-      "languages": "Inglés, Francés, Alemán, Italiano, Español, Ruso, Japonés, Coreano, Chino tradicional, Chino simplificado",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Ruso, Japonés, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -9991,7 +10098,7 @@
       "format": "xci",
       "update": "1.9.0+2dlc",
       "fw": "",
-      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso, Coreano, Chino simplificado, Chino tradicional",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -10033,7 +10140,7 @@
       "format": "xci",
       "update": "1.4.3",
       "fw": "",
-      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso, Coreano, Chino simplificado, Chino tradicional",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Ruso, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -10248,7 +10355,7 @@
       "format": "xci",
       "update": "1.0.2+dlc",
       "fw": "23.0.0",
-      "languages": "Inglés, Francés, Alemán, Español, Portugués (Brasil), Polaco, Ruso, Japonés, Chino simplificado, Coreano, Turco",
+      "languages": "Inglés, Francés, Alemán, Español, Portugués (Brasil), Polaco, Ruso, Japonés, Chino, Coreano, Turco",
       "thanks": "",
       "mod": "",
       "links": [
@@ -10290,7 +10397,7 @@
       "format": "xci",
       "update": "1.70+32dlc",
       "fw": "22.5.0",
-      "languages": "Inglés, Francés, Alemán, Español, Ruso, Japonés, Coreano, Chino simplificado, Chino tradicional",
+      "languages": "Inglés, Francés, Alemán, Español, Ruso, Japonés, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -11029,7 +11136,7 @@
       "format": "xci",
       "update": "1.7.0 - 10 DLC - Pack de Audios",
       "fw": "22.5.0",
-      "languages": "Inglés, Francés, Italiano, Alemán, Español (España), Japonés, Coreano, Portugués (Brasil), Ruso, Chino simplificado, Chino tradicional",
+      "languages": "Inglés, Francés, Italiano, Alemán, Español (España), Japonés, Coreano, Portugués (Brasil), Ruso, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -11380,7 +11487,7 @@
       "format": "xci",
       "update": "1.0.3",
       "fw": "19.0.1",
-      "languages": "Inglés, Alemán, Español, Japonés, Coreano, Chino simplificado, Chino tradicional",
+      "languages": "Inglés, Alemán, Español, Japonés, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -11464,7 +11571,7 @@
       "format": "nsp",
       "update": "",
       "fw": "23.0.0",
-      "languages": "Inglés, Francés, Italiano, Alemán, Español, Portugués, Ruso, Japonés, Coreano, Chino simplificado, Chino tradicional",
+      "languages": "Inglés, Francés, Italiano, Alemán, Español, Portugués, Ruso, Japonés, Coreano, Chino",
       "thanks": "",
       "mod": "",
       "links": [
@@ -11602,6 +11709,885 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/LSIis0s",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "super-mario-party-jamboree",
+    "console": "switch",
+    "title": "Super Mario Party Jamboree",
+    "genre": "Party - Plataformas - Aventura",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "year": 2024,
+    "rating": 82,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#c2407a",
+    "cover": "https://art.gametdb.com/switch/box/US/A7HLA.png?1740553860",
+    "trailer": "fTdGzznTlNg",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000084608/ba0572bf9d840b03bf9958809943fb3c76c3adfd6d8f2704b0f1b766f8aa4027.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000084608/8ebcb72c2bbf6bb8a89b5a68fb2ae89440b4770a3e8629145cbbd319027b92be.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000084608/2b35cad8818b4017beb634adf05ebe23cf331a97a53d68a47417122069207271.jpg"
+    ],
+    "description": {
+      "es": "La fiesta más grande de Nintendo Switch: hasta 4 jugadores compiten en más de 110 minijuegos con control de movimiento y una gran aventura en Rainbow Galleria. Incluye el recorrido cooperativo Koopathlon y Rankings Jamboree con juego online.",
+      "en": "Nintendo Switch's biggest party: up to 4 players compete across more than 110 minigames with motion controls and a big adventure through Rainbow Galleria. It also includes the co-op Koopathlon course and online Jamboree Rankings."
+    },
+    "download": {
+      "region": "Título ID: 0100965017338000",
+      "size": "5.35GB",
+      "format": "xci",
+      "update": "2.3.0",
+      "fw": "21.2.0",
+      "languages": "Japonés, Inglés, Francés, Alemán, Italiano, Español, Coreano, Neerlandés, Ruso, Portugués, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/2SJDwT",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "super-mario-galaxy-switch",
+    "console": "switch",
+    "title": "Super Mario Galaxy",
+    "genre": "Plataformas - Acción - Aventura",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "year": 2023,
+    "rating": 97,
+    "players": "1-2",
+    "cooperativo": "Sí",
+    "multijugador": "Local",
+    "color": "#c2407a",
+    "cover": "http://imgfz.com/i/gBs5kAr.png",
+    "trailer": "6qR7JU33Ao4",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000104187/7ccc1c07ba3995da1dbd7320e726e063eaba9445a5741281d19c3b8fb1c144df.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000104187/ef31a0573231c02fe745e3d111ccd09ac12ba6f5ca5318a71aa97192515e4e4c.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000104187/2af4378e445a000cc330e5aec4247997f98068f865f2f4434a5203a99e70fe9a.jpg"
+    ],
+    "description": {
+      "es": "Mario recorre galaxias enteras saltando de planeta en planeta y derrotando la gravedad. La aventura clásica de 2007 llega a Nintendo Switch con resolución mejorada, controles de Joy-Con, nuevos capítulos de Libro de cuentos y modo Assist.",
+      "en": "Mario journeys across entire galaxies, jumping from planet to planet and defying gravity. The 2007 classic arrives on Nintendo Switch with enhanced resolution, Joy-Con controls, new Storybook Chapters and Assist Mode."
+    },
+    "download": {
+      "region": "Título ID: 010099C022B96000",
+      "size": "3.62GB",
+      "format": "xci",
+      "update": "1.3.1",
+      "fw": "21.2.0",
+      "languages": "Japonés, Inglés, Francés, Alemán, Italiano, Español, Coreano, Neerlandés, Portugués, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/iUWf4X",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "super-mario-galaxy-2-switch",
+    "console": "switch",
+    "title": "Super Mario Galaxy 2",
+    "genre": "Plataformas - Acción - Aventura",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "year": 2023,
+    "rating": 98,
+    "players": "1-2",
+    "cooperativo": "Sí",
+    "multijugador": "Local",
+    "color": "#2b6cb0",
+    "cover": "http://imgfz.com/i/OlYHPJt.png",
+    "trailer": "rmwOnsJoj8M",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000104192/5731782c9e89d2f492b44f1445f5df3d65660cdf75fe4f47a17e2bed7f82f99e.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000104192/7a7881ca09ea1b5dc4f4a8d7c732682253fa030a36c1b2f29fb2b666218438b6.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000104192/093ec44aaf7da9dee33848772bf8b830cf6c9c3032f44049acfeb12d029a9d20.jpg"
+    ],
+    "description": {
+      "es": "Mario vuelve a rescatar a la princesa Peach en esta secuela, ahora junto a Yoshi y con la Starship Mario. Explora galaxias completamente nuevas y usa mejoras como el taladro para perforar roca sólida.",
+      "en": "Mario is back to rescue Princess Peach in this sequel, now alongside Yoshi and his Starship Mario. Explore brand new galaxies and use upgrades such as the drill to tunnel through solid rock."
+    },
+    "download": {
+      "region": "Título ID: 0100FD8022DAA000",
+      "size": "2.85GB",
+      "format": "xci",
+      "update": "1.4.0",
+      "fw": "21.2.0",
+      "languages": "Japonés, Inglés, Francés, Alemán, Italiano, Español, Coreano, Neerlandés, Portugués, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pi9gT38",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mario-luigi-brothership",
+    "console": "switch",
+    "title": "Mario & Luigi: Brothership",
+    "genre": "Plataformas - Aventura - RPG",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "year": 2024,
+    "rating": 77,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2f6fd0",
+    "cover": "https://art.gametdb.com/switch/box/EN/A8E6A.png",
+    "trailer": "s5I3DcapElQ",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000084613/9afc95d7bb55198b983e6942649af01932c45df112e8b8842e0578143dcdeaeb.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000084613/aff3451643191eb79e4cbc63a6387f7cb80d3f587a341e5fee7b04ef59e614ae.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000084613/e1046d2c324f3594394ff3879124d993764eb2140fce3502d6da5e41efd27950.jpg"
+    ],
+    "description": {
+      "es": "Mario y Luigi navegan en el Shipshape por un archipiélago de islas, explorando un mundo abierto por mar y tierra. El combate en tiempo real y las habilidades especiales de cada hermano dan forma a una aventura de rol náutica.",
+      "en": "Mario and Luigi's Shipshape sails through an archipelago of islands, exploring an open world by sea and land. Real-time battles and each brother's unique moves shape a seafaring role-playing adventure."
+    },
+    "download": {
+      "region": "01006D0017F7A000",
+      "size": "9.97GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "19.0.1",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Japonés, Coreano, Neerlandés, Portugués, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/uHoJF5",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "paper-mario-the-thousand-year-door",
+    "console": "switch",
+    "title": "Paper Mario: The Thousand Year Door",
+    "genre": "RPG - Aventura - Humor",
+    "developer": "Intelligent Systems",
+    "publisher": "Nintendo",
+    "year": 2024,
+    "rating": 88,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#8e44ad",
+    "cover": "https://art.gametdb.com/switch/box/EN/A9QDA.png",
+    "trailer": "1CSAQ8UxK64",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000072957/fdd5d8ca46d7ea4e45397ae560e807742de2d7d744570297ddbabf69d6d23f33.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000072957/a99700700483e5f8b14cbff4693843503c7d007c8332d574a4cc76a037aa4843.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000072957/003a7c28435db6efe0a3fa83a900f36ce7b494e811b73844c6f5923aedf6cd98.jpg"
+    ],
+    "description": {
+      "es": "El clásico de GameCube regresa reinventado: Mario viaja por un mundo de papel para encontrar las cuatro llaves de la Puerta del Milenio, con Partners de todo tipo, combates de tabla rhythmicos y una historia con mucho humor.",
+      "en": "The GameCube classic comes back reinvented: Mario journeys through a world made of paper to find the four Millennium Keys, with all kinds of partners, rhythm-based battles and a story full of humour."
+    },
+    "download": {
+      "region": "Título ID: 0100ECD018EBE000",
+      "size": "5.10GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "18.1.0",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Japonés, Coreano, Neerlandés, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/EV8vqQ",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mario-vs-donkey-kong",
+    "console": "switch",
+    "title": "Mario vs Donkey Kong",
+    "genre": "Puzles - Plataformas - Aventura",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "year": 2024,
+    "rating": 76,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#d8335a",
+    "cover": "https://art.gametdb.com/switch/box/EN/A97PA.png",
+    "trailer": "bG0Ygq-eECc",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000072191/2fda60f3007987817be456876e7755f5120522a75e477961fbb622fd32f9e588.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000072191/f1b4785bcc442c5817427defebb9d98ab73838685b54ac5a13bfaefe5aba8013.jpg",
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000072191/aba6bff3d9ed7f28faf4084fa9a5819fad427ee2e3c293ba43ad95f8ab30bdd1.jpg"
+    ],
+    "description": {
+      "es": "La rivalidad del Game Boy Advance vuelve en Nintendo Switch: Donkey Kong robó todos los Mini-Mario de la fábrica y Mario tiene que recuperarlos. Más de 130 niveles de puzles y plataformas, dos mundos nuevos, modo contrarreloj y cooperativo local para 2 jugadores.",
+      "en": "The Game Boy Advance rivalry returns on Nintendo Switch: Donkey Kong stole every Mini-Mario from the factory and Mario must rescue them. Over 130 puzzle-platform levels, two new worlds, time attack mode and local co-op for two players."
+    },
+    "download": {
+      "region": "Título ID: 0100B99019412000",
+      "size": "1.30GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "17.0.1",
+      "languages": "Inglés, Francés, Alemán, Italiano, Español, Japonés, Coreano, Neerlandés, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Nbmr98",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ship-of-harkinian-ps4",
+    "console": "ps4",
+    "title": "The Legend of Zelda: Ocarina of Time - Ship of Harkinian",
+    "genre": "Aventura - RPG - Acción",
+    "developer": "HarbourMasters",
+    "publisher": "Nightdive Studios",
+    "year": 2022,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1f7a5c",
+    "cover": "http://imgfz.com/i/VprQhNZ.png",
+    "trailer": "6ImjImNtT8c",
+    "screenshots": [
+      "https://www.shipofharkinian.com/screenshot_saria.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/130505-1.jpg",
+      "https://www.shipofharkinian.com/splash_poster.jpg"
+    ],
+    "description": {
+      "es": "Puerto sin licencia de Ocarina of Time con mejoras modernas: gráficos HD, ultra-widescreen, frames desbloqueados, estados de guardado, menú de trucos y compatible con mods. Para PS4 requiere una cuenta con el ID SOHP00001 y tu propia copia legal del juego.",
+      "en": "Unofficial port of Ocarina of Time with modern enhancements: HD graphics, ultra-widescreen, uncapped framerate, save states, a cheat menu and mod support. On PS4 it requires an account with the ID SOHP00001 plus your own legal copy of the game."
+    },
+    "download": {
+      "region": "SOHP00001",
+      "size": "175MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "5.05+",
+      "languages": "Español",
+      "thanks": "Nicolás Mesa - Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/6mWo5Q",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2ship2harkinian-majora-s-mask-ps4",
+    "console": "ps4",
+    "title": "The Legend of Zelda: Majora's Mask - 2 Ship 2 Harkinian",
+    "genre": "Aventura - RPG - Acción",
+    "developer": "HarbourMasters",
+    "publisher": "Nightdive Studios",
+    "year": 2024,
+    "rating": 95,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#c9a227",
+    "cover": "http://imgfz.com/i/hYol5Kq.png",
+    "trailer": "W-eIqz-mW7k",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/128690-1.jpg",
+      "http://imgfz.com/i/RIc2lTO.jpeg",
+      "http://imgfz.com/i/rhI7QO5.png"
+    ],
+    "description": {
+      "es": "2Ship2Harkinian es el puerto sin licencia de Majora's Mask con mejoras modernas: gráficos HD, ultra-widescreen, frames desbloqueados, estados de guardado, menú de trucos y soporte de mods. Para PS4 requiere una cuenta con el ID TSHP00001 y tu propia copia legal del juego.",
+      "en": "2Ship2Harkinian is the unofficial port of Majora's Mask with modern enhancements: HD graphics, ultra-widescreen, uncapped framerate, save states, a cheat menu and mod support. On PS4 it requires an account with the ID TSHP00001 plus your own legal copy of the game."
+    },
+    "download": {
+      "region": "TSHP00001",
+      "size": "83.3MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "5.05+",
+      "languages": "Español",
+      "thanks": "Nicolás Mesa - Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/mQYH4i8",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "donkey-kong-jungle-beat",
+    "console": "gamecube",
+    "title": "Donkey Kong Jungle Beat",
+    "genre": "Plataformas - Acción - Aventura",
+    "developer": "Nintendo EAD Tokyo",
+    "publisher": "Nintendo",
+    "year": 2004,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#8bc34a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/108403-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/fanart/108403-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/134965-1.jpg",
+      "http://imgfz.com/i/AxMZhQX.jpeg"
+    ],
+    "description": {
+      "es": "Donkey Kong parte a conquistar la jungla en un plataformas de desplazamiento horizontal que se juega con los Bongos de Donkey Konga: golpes al ritmo de la música, yucos, combos y bananos que recoger.",
+      "en": "Donkey Kong sets out to conquer the jungle in a side-scrolling platformer played with the Donkey Konga bongos: drum hits in time with the music, vines, combos and bananas to collect."
+    },
+    "download": {
+      "region": "GYBP01 - EUR",
+      "size": "551MB",
+      "format": "rvz",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/sXYs0Or",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "naruto-gekito-ninja-taisen-4",
+    "console": "gamecube",
+    "title": "Naruto: Gekitō Ninja Taisen! 4",
+    "genre": "Lucha - Acción - Arena",
+    "developer": "8ing/Raizing",
+    "publisher": "Tomy",
+    "year": 2005,
+    "rating": 0,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#f97316",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/48835-1.jpg",
+    "trailer": "",
+    "screenshots": [],
+    "description": {
+      "es": "Cuarta entrega de Gekitō Ninja Taisen! para GameCube, exclusiva de Japón. Peleas 3 contra 3 y combates de 4 jugadores, con el nuevo modo Mission y los personajes de los arcos del regreso de Itachi y la recuperación de Sasuke.",
+      "en": "Fourth entry of Gekitō Ninja Taisen! for GameCube, Japan exclusive. 3-on-3 fights and 4-player battles, with the new Mission mode and characters from the Itachi Returns and Sasuke Retrieval arcs."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Japonés",
+      "thanks": "",
+      "mod": "",
+      "links": []
+    }
+  },
+  {
+    "id": "looney-tunes-back-in-action",
+    "console": "gamecube",
+    "title": "Looney Tunes: Back in Action",
+    "genre": "Plataformas - Aventura - Acción",
+    "developer": "Warthog",
+    "publisher": "Electronic Arts",
+    "year": 2003,
+    "rating": 64,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#ffd23f",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/de/LTBA_front.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://wsrv.nl/?url=upload.wikimedia.org%2Fwikipedia%2Fen%2F4%2F46%2FLooney_Tunes_Back_in_Action_Game_Screenshot.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg",
+      "https://images.launchbox-app.com//ea6d26b7-76de-4a91-9edc-27d3383d39e1.png"
+    ],
+    "description": {
+      "es": "Bugs Bunny y Pato Lucas se unen en la búsqueda del diamante del Mono Azul por Hollywood, Las Vegas, París y África. Puedes cambiar entre ambos personajes en cualquier momento con Toon Swapping.",
+      "en": "Bugs Bunny and Daffy Duck team up in a globetrotting hunt for the Blue Monkey Diamond across Hollywood, Las Vegas, Paris and Africa. You can swap between both characters at any time with Toon Swapping."
+    },
+    "download": {
+      "region": "GLNP69 - EUR",
+      "size": "1.08GB",
+      "format": "rvz",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/1psw9Zt",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "luigis-mansion-gamecube",
+    "console": "gamecube",
+    "title": "Luigi's Mansion",
+    "genre": "Aventura - Plataformas - Supervivencia",
+    "developer": "Nintendo EAD",
+    "publisher": "Nintendo",
+    "year": 2001,
+    "rating": 78,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#5b8c5a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/2237-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F2237-1.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F2237-2.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F2237-3.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90"
+    ],
+    "description": {
+      "es": "Luigi entra a explorar la mansión de los hermanos Mario con la linterna y el aspirador de Nintendo. Captura fantasmas con la red, resuelve puzles y rescata a Mario.",
+      "en": "Luigi explores the Mario brothers' mansion with a flashlight and Nintendo's vacuum. Trap ghosts with the net, solve puzzles and rescue Mario."
+    },
+    "download": {
+      "region": "GLMP01 - EUR",
+      "size": "299MB",
+      "format": "rvz",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ngFupk",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mario-party-7",
+    "console": "gamecube",
+    "title": "Mario Party 7",
+    "genre": "Party - Tablero - Minijuegos",
+    "developer": "Hudson Soft",
+    "publisher": "Nintendo",
+    "year": 2005,
+    "rating": 64,
+    "players": "1-8",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#e0407f",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/2318-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F2318-1.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F2318-2.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F2318-3.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90"
+    ],
+    "description": {
+      "es": "Mario y sus amigos se van de crucero y dejan a Bowser atrás. Más de 80 minijuegos, seis tableros por el mundo y juego para hasta 8 jugadores usando el micrófono de GameCube.",
+      "en": "Mario and friends go on a cruise and leave Bowser behind. Over 80 minigames, six boards around the world and play for up to 8 players using the GameCube microphone."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": []
+    }
+  },
+  {
+    "id": "the-legend-of-zelda-twilight-princess",
+    "console": "gamecube",
+    "title": "The Legend of Zelda: Twilight Princess",
+    "genre": "Aventura - RPG - Acción",
+    "developer": "Nintendo EAD",
+    "publisher": "Nintendo",
+    "year": 2006,
+    "rating": 96,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b3b6d",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/5434-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F5434-1.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F5434-2.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F5434-3.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90"
+    ],
+    "description": {
+      "es": "Link se transforma en lobo para recorrer Hyrule en el mundo crepuscular, con la ayuda de Midna. Combates a caballo, armas corps-à-corps y puzles, todo con la cámara invertida al estilo del espejo de la Wii.",
+      "en": "Link takes the form of a wolf to travel Hyrule's Twilight Realm with Midna's help. Horseback combat, swordplay and puzzles, all with the Wii-style inverted camera."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": []
+    }
+  },
+  {
+    "id": "the-simpsons-hit-and-run",
+    "console": "gamecube",
+    "title": "The Simpsons: Hit & Run (Versión Latino)",
+    "genre": "Acción - Conducción - Aventura",
+    "developer": "Radical Entertainment",
+    "publisher": "Vivendi Games",
+    "year": 2003,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#ffd90f",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/8552-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F95175-1.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F95175-2.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F95175-3.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90"
+    ],
+    "description": {
+      "es": "Springfield al estilo GTA: maneja autos, patea buzones y esquiva a la policía como Homer, Bart, Lisa, Marge o Apu. Si subes mucho el medidor de Infracción, la policía te persigue. Versión en español latino.",
+      "en": "Springfield in GTA style: drive cars, kick mailboxes and dodge the police as Homer, Bart, Lisa, Marge or Apu. Raise the Mayhem Meter too high and the cops chase you. Latin American Spanish edition."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "",
+      "mod": "",
+      "links": []
+    }
+  },
+  {
+    "id": "mario-kart-double-dash",
+    "console": "gamecube",
+    "title": "Mario Kart: Double Dash!!",
+    "genre": "Carreras - Arcade - Conducta",
+    "developer": "Nintendo EAD",
+    "publisher": "Nintendo",
+    "year": 2003,
+    "rating": 87,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#e2231a",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/166-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F166-1.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F166-2.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F166-3.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90"
+    ],
+    "description": {
+      "es": "Por primera vez van dos pilotos por kart: el de adelante maneja y el de atrás usa los objetos. Intercambia posiciones con Z en cualquier momento y disfruta de las carreras más caóticas de la saga.",
+      "en": "For the first time two racers share a kart: the one in front drives and the one in back uses items. Swap seats any time with Z and enjoy the most chaotic racing in the series."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": []
+    }
+  },
+  {
+    "id": "melee",
+    "console": "gamecube",
+    "title": "Super Smash Bros. Melee",
+    "genre": "Lucha - Arena - Acción",
+    "developer": "HAL Laboratory",
+    "publisher": "Nintendo",
+    "year": 2001,
+    "rating": 92,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#d32f2f",
+    "cover": "https://art.gametdb.com/wii/cover/EN/GALP01.png?1480417260",
+    "trailer": "O0O173xIuO0",
+    "screenshots": [
+      "http://imgfz.com/i/5st3FKm.jpeg",
+      "http://imgfz.com/i/GrsnbLA.jpeg",
+      "http://imgfz.com/i/X80ceWj.jpeg"
+    ],
+    "description": {
+      "es": "El cruce de personajes de Nintendo en 3D con 21 luchadores y 20 escenarios. Incluye el modo Single-Strike de una pantalla, Collection Mode con cientos de retos, y es considerado por la comunidad el mejor juego de la serie.",
+      "en": "Nintendo's crossover fighter in 3D with 21 fighters and 20 stages. Includes the single-screen Smash mode, Collection Mode with hundreds of challenges, and is widely considered the best game in the series."
+    },
+    "download": {
+      "region": "GALP01 - EUR",
+      "size": "812MB",
+      "format": "rvz",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/FyvLrM",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "new-super-mario-bros-wii",
+    "console": "wii",
+    "title": "New Super Mario Bros. Wii",
+    "genre": "Plataformas - Acción - Aventura",
+    "developer": "Nintendo EAD Tokyo",
+    "publisher": "Nintendo",
+    "year": 2009,
+    "rating": 87,
+    "players": "1-4",
+    "cooperativo": "Si",
+    "multijugador": "Local",
+    "color": "#e52521",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/170-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/fanart/170-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/fanart/170-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/120043-4.jpg"
+    ],
+    "description": {
+      "es": "Mario, Luigi y los Toad regresan con mundos newcomers y nuevos movimientos. Hasta 4 jugadores en la misma pantalla al mismo tiempo, cooperando o compitiendo, y el Propeller Suit para volar con el Wii Remote.",
+      "en": "Mario, Luigi and the Toads return with new worlds and new moves. Up to 4 players on the same screen at the same time, co-op or competitive, plus the Propeller Suit to fly with the Wii Remote."
+    },
+    "download": {
+      "region": "",
+      "size": "",
+      "format": "",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": []
+    }
+  },
+  {
+    "id": "digimon-rumble-arena",
+    "console": "ps4",
+    "title": "Digimon Rumble Arena",
+    "genre": "Lucha - Acción - Arena",
+    "developer": "BEC",
+    "publisher": "Bandai",
+    "year": 2001,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#1565c0",
+    "cover": "http://imgfz.com/i/DRjoFiU.png",
+    "trailer": "-qdydgeTPFI",
+    "screenshots": [
+      "https://img.youtube.com/vi/-qdydgeTPFI/maxresdefault.jpg"
+    ],
+    "description": {
+      "es": "Primer juego de lucha de la serie Digimon, combate 2D para dos jugadores. Elige entre 24 Digimon, gana Digil Points para evolucionar y desbloquea secretos con cada partida.",
+      "en": "First fighting game of the Digimon series, 2D combat for two players. Pick between 24 Digimon, earn Digi Points to evolve and unlock secrets along the way."
+    },
+    "download": {
+      "region": "SLES03841 - EUR",
+      "size": "207MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/0fNg8nv",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "digimon-rumble-arena-2",
+    "console": "ps4",
+    "title": "Digimon Rumble Arena 2",
+    "genre": "Lucha - Acción - Arena",
+    "developer": "Black Ship Games",
+    "publisher": "Bandai",
+    "year": 2004,
+    "rating": 0,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#0d47a1",
+    "cover": "http://imgfz.com/i/P3Othrp.png",
+    "trailer": "qYLDbKpS5oM",
+    "screenshots": [
+      "https://img.youtube.com/vi/qYLDbKpS5oM/maxresdefault.jpg",
+      "https://img.youtube.com/vi/9gV6z1770Ug/maxresdefault.jpg",
+      "https://img.youtube.com/vi/hkJs0Sik-zI/maxresdefault.jpg"
+    ],
+    "description": {
+      "es": "La secuela de Digimon Rumble Arena: hasta 4 jugadores en la misma pantalla, más de 40 formas jugables de las 4 primeras temporadas de la serie y escenarios 3D con peligros propio. En Japón se llamó Digimon Battle Chronicle.",
+      "en": "Sequel to Digimon Rumble Arena: up to 4 players on the same screen, over 40 playable forms from the first 4 TV seasons and 3D stages with their own hazards. Known in Japan as Digimon Battle Chronicle."
+    },
+    "download": {
+      "region": "SLES52631 - EUR",
+      "size": "619MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/20BHit7",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "super-smash-bros-melee-akaneia",
+    "console": "gamecube",
+    "title": "Super Smash Bros. Melee Akaneia",
+    "genre": "Lucha - Arena - Acción",
+    "developer": "HAL Laboratory",
+    "publisher": "Nintendo",
+    "year": 2001,
+    "rating": 92,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#d32f2f",
+    "cover": "http://imgfz.com/i/nH9iYrl.png",
+    "trailer": "O0O173xIuO0",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/fanart/5654-1.jpg"
+    ],
+    "description": {
+      "es": "El cruce de personajes de Nintendo en 3D con 21 luchadores y 20 escenarios. Incluye el modo Single-Strike de una pantalla, Collection Mode con cientos de retos, y es considerado por la comunidad el mejor juego de la serie.",
+      "en": "Nintendo's crossover fighter in 3D with 21 fighters and 20 stages. Includes the single-screen Smash mode, Collection Mode with hundreds of challenges, and is widely considered the best game in the series."
+    },
+    "download": {
+      "region": "GALE01 - USA",
+      "size": "1.23GB",
+      "format": "rvz",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/75RMyU",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mario-kart-double-dash-retro-track-grand-prix",
+    "console": "gamecube",
+    "title": "Mario Kart: Double Dash!! (Retro Track Grand Prix v2.1)",
+    "genre": "Carreras - Arcade - Conducta",
+    "developer": "Nintendo EAD",
+    "publisher": "Nintendo",
+    "year": 2003,
+    "rating": 87,
+    "players": "1-4",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#e2231a",
+    "cover": "http://imgfz.com/i/JFEwBTx.png",
+    "trailer": "",
+    "screenshots": [
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F166-1.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F166-2.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90",
+      "https://wsrv.nl/?url=cdn.thegamesdb.net%2Fimages%2Foriginal%2Fscreenshot%2F166-3.jpg&w=1280&h=720&fit=contain&cbg=000000&output=jpg&q=90"
+    ],
+    "description": {
+      "es": "Por primera vez van dos pilotos por kart: el de adelante maneja y el de atrás usa los objetos. Intercambia posiciones con Z en cualquier momento y disfruta de las carreras más caóticas de la saga.",
+      "en": "For the first time two racers share a kart: the one in front drives and the one in back uses items. Swap seats any time with Z and enjoy the most chaotic racing in the series."
+    },
+    "download": {
+      "region": "USA",
+      "size": "1.95GB",
+      "format": "rvz",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/HquRVxr",
           "color": "blue"
         }
       ]
