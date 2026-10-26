@@ -10007,7 +10007,7 @@
       "region": "CUSA57220 - USA",
       "size": "63.3GB",
       "format": "pkg",
-      "update": "1.04 - Offline Unlock - Plantillas",
+      "update": "1.05 - Offline Unlock - Plantillas",
       "fw": "5.05+",
       "languages": "Multi idioma (Latino-Castellano)",
       "thanks": "Opoisso893/Golemnight",
@@ -12939,7 +12939,7 @@
     "id": "toy-story-retro-roundup",
     "console": "switch",
     "title": "Toy Story: Retro Roundup",
-    "genre": "Aventura",
+    "genre": "Aventura - Plataformas - Recopilatorio",
     "developer": "Digital Eclipse",
     "publisher": "Atari",
     "year": 2026,
@@ -12981,7 +12981,7 @@
     "id": "toy-story-3-complete-edition",
     "console": "switch",
     "title": "Toy Story 3: Complete Edition",
-    "genre": "Aventura",
+    "genre": "Aventura - Plataformas - Acción",
     "developer": "Digital Eclipse",
     "publisher": "Atari",
     "year": 2026,
@@ -13023,7 +13023,7 @@
     "id": "bluey-the-videogame",
     "console": "ps4",
     "title": "Bluey: The Videogame",
-    "genre": "Aventura - Familiar",
+    "genre": "Aventura - Familiar - Plataformas",
     "developer": "Artax Games",
     "publisher": "Outright Games",
     "year": 2023,
@@ -13065,7 +13065,7 @@
     "id": "baki-hanma-blood-arena",
     "console": "ps4",
     "title": "Baki Hanma: Blood Arena",
-    "genre": "Lucha - Deportes",
+    "genre": "Lucha - Deportes - Acción",
     "developer": "Purple Tree",
     "publisher": "Purple Play",
     "year": 2025,
@@ -13098,6 +13098,426 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/36FUxK",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mortal-kombat-legacy-kollection",
+    "console": "ps4",
+    "title": "Mortal Kombat: Legacy Kollection",
+    "genre": "Lucha - Acción - Recopilatorio",
+    "developer": "Digital Eclipse",
+    "publisher": "Atari",
+    "year": 2025,
+    "rating": 84,
+    "players": "1 - 2",
+    "cooperativo": "No",
+    "multijugador": "Sí",
+    "color": "#8b1a1a",
+    "cover": "http://imgfz.com/i/Zoqat3S.png",
+    "trailer": "kgT-CoEqKb4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454980/0f1fb82bec980ce75fda2b48bf985d177e7e56ba/ss_0f1fb82bec980ce75fda2b48bf985d177e7e56ba.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454980/2dff00cc270e112072553a76cb79bcbc8848c45b/ss_2dff00cc270e112072553a76cb79bcbc8848c45b.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454980/ba511b59c9a81c9868e63db41dcd1cfbad974364/ss_ba511b59c9a81c9868e63db41dcd1cfbad974364.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Recopilación de los clásicos de Mortal Kombat de los 90 y principios de los 2000, con las versiones originales de arcade y de consola de Mortal Kombat, Mortal Kombat II, Mortal Kombat 3 y Ultimate Mortal Kombat 3, entre otros. Incluye juego online con rollback netcode, modo Fatality Trainer y un documental interactivo sobre la historia de la saga.",
+      "en": "A compilation of classic '90s and early 2000s Mortal Kombat games, featuring the original arcade and home versions of Mortal Kombat, Mortal Kombat II, Mortal Kombat 3 and Ultimate Mortal Kombat 3, among others. Includes online play with rollback netcode, a Fatality Trainer and an interactive documentary about the franchise's history."
+    },
+    "download": {
+      "region": "CUSA53178 - USA",
+      "size": "13.5GB",
+      "format": "pkg",
+      "update": "1.12",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/3Bjn0k",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "toy-story-3-complete-edition-ps4",
+    "console": "ps4",
+    "title": "Toy Story 3: Complete Edition",
+    "genre": "Aventura - Plataformas - Acción",
+    "developer": "Digital Eclipse",
+    "publisher": "Atari",
+    "year": 2026,
+    "rating": 0,
+    "players": "1 - 2",
+    "cooperativo": "Sí",
+    "multijugador": "No",
+    "color": "#1e6fd9",
+    "cover": "http://imgfz.com/i/fTX5CBF.png",
+    "trailer": "Kgp9iOHxrFw",
+    "screenshots": [
+      "https://assets.nintendo.com/image/upload/f_auto/q_auto/store/software/switch/70010000109113/d347dc103229dd7c3ad3ecd84fda1c8a4df41ea0a5df74d64f309f14b165d843",
+      "https://assets.nintendo.com/image/upload/f_auto/q_auto/store/software/switch/70010000109113/8028ed0e90387b1d2b622639b4567e3fd4962dfdbf663aa0bae6d5aac9d831b5",
+      "https://assets.nintendo.com/image/upload/f_auto/q_auto/store/software/switch/70010000109113/5b7b02c922a6c685a670f8ee2d2bf082dce066aae0edb1fdb0c4f827de9328ec"
+    ],
+    "description": {
+      "es": "La pandilla de Andy regresa en esta edición completa de Toy Story 3. Cuando su dueño se prepara para ir a la universidad, los juguetes son donados a la guardería Sunnyside, donde descubrirán que nada es lo que parece. Vive la historia como Woody, Buzz, Jessie y el resto de la pandilla en una aventura de plataformas y acción para toda la familia.",
+      "en": "Andy's toys return in this complete edition of Toy Story 3. When their owner prepares to leave for college, the toys are donated to Sunnyside Daycare, where they discover nothing is as it seems. Play as Woody, Buzz, Jessie and the rest of the gang in a family-friendly action platforming adventure."
+    },
+    "download": {
+      "region": "CUSA56930 - USA",
+      "size": "7.64GB",
+      "format": "pkg",
+      "update": "1.02",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/qtmkhkR",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wo-long-fallen-dynasty",
+    "console": "ps4",
+    "title": "Wo Long: Fallen Dynasty",
+    "genre": "Acción - RPG - Souls-like",
+    "developer": "Team Ninja",
+    "publisher": "Koei Tecmo",
+    "year": 2023,
+    "rating": 81,
+    "players": "1 - 3",
+    "cooperativo": "Sí",
+    "multijugador": "Sí",
+    "color": "#2b3a67",
+    "cover": "http://imgfz.com/i/RQziho3.png",
+    "trailer": "SRVpKHNjW4Q",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/ss_46d32690392bad490af693cbf3394f8f346890ce.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/ss_db17363dfa15e14909f975ff768c666e2fe98f63.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/ss_616f77c0cf7aa9ad801608d72bbaf188696b7438.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Wo Long: Fallen Dynasty es un RPG de acción y corte souls en el que encarnas a un miliciano anónimo que debe sobrevivir a una oscura versión de los Tres Reinos infestada de demonios. Domina las artes marciales chinas y la 'moral' de los campos de batalla para convertirte en leyenda.",
+      "en": "Wo Long: Fallen Dynasty is a soulslike action RPG in which you play as a nameless militia soldier fighting to survive a dark, demon-infested version of the Three Kingdoms. Master Chinese martial arts and battlefield morale to become a legend."
+    },
+    "download": {
+      "region": "CUSA36986 - EUR",
+      "size": "44.5GB",
+      "format": "pkg",
+      "update": "1.27 - 11DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/uh55uoY",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "gordian-quest",
+    "console": "switch",
+    "title": "Gordian Quest",
+    "genre": "RPG - Estrategia - Roguelike",
+    "developer": "Mixed Realms",
+    "publisher": "Mixed Realms",
+    "year": 2022,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#4a7d2a",
+    "cover": "http://imgfz.com/i/SI9Yow8.png",
+    "trailer": "pfJojNvxfMM",
+    "screenshots": [
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/nintendo_switch_download_software_2/nswitchds_gordianquest/NSwitchDS_GordianQuest_01.jpg",
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/nintendo_switch_download_software_2/nswitchds_gordianquest/NSwitchDS_GordianQuest_02.jpg",
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/nintendo_switch_download_software_2/nswitchds_gordianquest/NSwitchDS_GordianQuest_03.jpg"
+    ],
+    "description": {
+      "es": "Gordian Quest es un RPG de construcción de mazos con elementos roguelite y combate estratégico por turnos. Lidera y entrena a un grupo de hasta 3 héroes en una aventura para salvar un mundo maldito, afrontando misiones peligrosas y gestionando tu party en cada decisión.",
+      "en": "Gordian Quest is a deckbuilding RPG with roguelite elements and turn-based tactical combat. Lead and nurture parties of up to 3 heroes on an adventure to save a cursed world, taking on dangerous missions and managing your party with every choice."
+    },
+    "download": {
+      "region": "01006A101A3A6000",
+      "size": "3.29GB",
+      "format": "xci",
+      "update": "1.7",
+      "fw": "19.0.1",
+      "languages": "Inglés, Francés, Alemán, Italiano, Japonés, Coreano, Ruso, Portugués, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/lFksiF",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "prinny-presents-nis-classics-volume-2",
+    "console": "switch",
+    "title": "Prinny Presents NIS Classics Volume 2: Makai Kingdom: Reclaimed and Rebound / ZHP: Unlosing Ranger vs. Darkdeath Evilman",
+    "genre": "RPG - Estrategia - Táctico",
+    "developer": "Nippon Ichi Software",
+    "publisher": "NIS America",
+    "year": 2022,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a2a2a",
+    "cover": "https://art.gametdb.com/switch/box/EN/A5D4A.png?1652512146",
+    "trailer": "3MdP-nlaOPY",
+    "screenshots": [
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/nintendo_switch_6/nswitch_prinnypresentsnisclassicsvol2makaikingdomzhpranger/NSwitch_PrinnyPresentsNISClassicsVol2MakaiKingdomZHPRanger_01.jpg",
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/nintendo_switch_6/nswitch_prinnypresentsnisclassicsvol2makaikingdomzhpranger/NSwitch_PrinnyPresentsNISClassicsVol2MakaiKingdomZHPRanger_02.jpg",
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/nintendo_switch_6/nswitch_prinnypresentsnisclassicsvol2makaikingdomzhpranger/NSwitch_PrinnyPresentsNISClassicsVol2MakaiKingdomZHPRanger_03.jpg"
+    ],
+    "description": {
+      "es": "Recopilación que reúne dos RPG de acción clásicos de NIS: Makai Kingdom Reclaimed and Rebound, centrado en el señor Zetta y su conquista del Inframundo, y ZHP: Unlosing Ranger vs. Darkdeath Evilman, con su peculiar héroe y mazmorras aleatorias. Incluye audio en inglés y japonés.",
+      "en": "A collection bundling two classic NIS RPGs: Makai Kingdom Reclaimed and Rebound, centered on Lord Zetta's conquest of the Netherworld, and ZHP: Unlosing Ranger vs. Darkdeath Evilman with its quirky hero and randomized dungeons. Includes English and Japanese audio."
+    },
+    "download": {
+      "region": "01003820158DA000",
+      "size": "2.79GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "14.1.1",
+      "languages": "Inglés, Japonés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/67JkRtb",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "snow-bros-wonderland",
+    "console": "ps4",
+    "title": "Snow Bros. Wonderland",
+    "genre": "Acción - Plataformas - Arcade",
+    "developer": "Tatsujin",
+    "publisher": "Clear River Games",
+    "year": 2024,
+    "rating": 0,
+    "players": "1 - 4",
+    "cooperativo": "Sí",
+    "multijugador": "No",
+    "color": "#4aa3df",
+    "cover": "http://imgfz.com/i/GnWyrtk.png",
+    "trailer": "MfOEWzJbNQ4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3214870/ss_4e4a595e65b566bf541888456aaaf6b7532d3e42.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3214870/ss_6e1107ab6aef605d8e8a9bbdd5b88716a9c1151b.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3214870/ss_5b1feffc686aed4980aa2cab20ce4682bc30aec7.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "El legendario Nick y Tom regresan en Snow Bros. Wonderland, una nueva entrega de la clásica saga de plataformas y acción. Dispara bolas de nieve, encadena ataques y usa tus habilidades para derrotar a hordas de enemigos y gigantescos jefes, defendiendo Snow Land del Gran Rey del Mal. Hasta 4 jugadores en cooperativo local.",
+      "en": "The legendary Nick and Tom return in Snow Bros. Wonderland, a new entry in the classic action-platforming series. Fire snowballs, chain attacks and use your skills to defeat hordes of enemies and massive bosses, defending Snow Land from The Great King of Evil. Up to 4 players in local co-op."
+    },
+    "download": {
+      "region": "CUSA45401 - JP",
+      "size": "4.66GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "9.00+",
+      "languages": "Multi idioma (Castellano/Latino)",
+      "thanks": "Yue Ling Feng",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/SAvq7NS",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "harvest-moon-echoes-of-teradea",
+    "console": "switch",
+    "title": "Harvest Moon: Echoes of Teradea",
+    "genre": "Simulación - Granja - Vida",
+    "developer": "Natsume",
+    "publisher": "Natsume",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3f8f4a",
+    "cover": "https://i.imgur.com/VRoyl7D.jpeg",
+    "trailer": "gxVbu2AgOwo",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3591180/e09637c43e87f331e2b6d3a8f31d2a0872f24d12/ss_e09637c43e87f331e2b6d3a8f31d2a0872f24d12.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3591180/4e4729c19f1fa6c3a4c70b83642a73cca60b9c07/ss_4e4729c19f1fa6c3a4c70b83642a73cca60b9c07.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3591180/b0349bc617fad9080b2479121289ca04f3df1953/ss_b0349bc617fad9080b2479121289ca04f3df1953.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Embárcate en un viaje inolvidable por el mundo de Teradea, donde la apacible vida de granja se combina con la aventura. Una misteriosa niebla surge del Bosque de los Ecos, bestias salvajes acechan de noche y extraños desastres amenazan a las aldeas. Cultiva, explora un mundo abierto, forma lazos y descubre la verdad tras la amenaza que se cierne sobre la tierra.",
+      "en": "Embark on an unforgettable journey through the world of Teradea, where peaceful farm life meets thrilling adventure. A mysterious mist creeps from the Forest of Echoes, wild beasts roam at night and strange disasters threaten the villages. Farm, explore an open world, build bonds and uncover the truth behind the threat looming over the land."
+    },
+    "download": {
+      "region": "0100839022642000",
+      "size": "4.30GB",
+      "format": "xci",
+      "update": "1.2.0",
+      "fw": "22.5.0",
+      "languages": "Inglés, Francés, Alemán, Español, Japonés, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/qoQz4QY",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "final-fantasy-resonance",
+    "console": "switch",
+    "title": "Final Fantasy Resonance",
+    "genre": "RPG - Aventura - Fantasía",
+    "developer": "Square Enix / Lancarse",
+    "publisher": "Square Enix",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2a4d8f",
+    "cover": "https://i.imgur.com/gNzuSXz.jpeg",
+    "trailer": "wbsfQYI_IIY",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/c9e0d9f5cd2a7102098d5967046a90c4181de601/ss_c9e0d9f5cd2a7102098d5967046a90c4181de601.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/a5850396e3aaf971ce506069bb412e9deb805391/ss_a5850396e3aaf971ce506069bb412e9deb805391.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/d78d354f9e0be199c34794c2bffaf75df8a04526/ss_d78d354f9e0be199c34794c2bffaf75df8a04526.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Primer juego de FINAL FANTASY en HD-2D. Regresa al mundo pixelado de la saga, evolucionado desde sus raíces clásicas. Viaja con compañeros unidos por el destino y llama a las Visiones —ecos de personajes emblemáticos— para luchar a tu lado y descubrir la verdad tras una fuerza que amenaza con arrasarlo todo. Combate por turnos con sistema de Stagger y ataques de Resonancia.",
+      "en": "The first FINAL FANTASY in HD-2D. Return to the pixel-art world of the series, evolved from its classic roots. Travel with companions bound by fate and call on Visions—echoes of beloved characters—to fight alongside you and uncover the truth behind a force that threatens to bring everything to ruin. Turn-based battles with a stagger system and Resonance attacks."
+    },
+    "download": {
+      "region": "0100606026F12000",
+      "size": "8.57GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "22.5.0",
+      "languages": "Inglés, Francés, Alemán, Español, Japonés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/30u9bM",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-5-ps4",
+    "console": "ps4",
+    "title": "Resident Evil 5",
+    "genre": "Survival Horror - Acción - Aventura",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2016,
+    "rating": 69,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/41132-1.jpg",
+    "trailer": "",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/41132-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/41132-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/41132-1.jpg"
+    ],
+    "description": {
+      "es": "Chris Redfield y Sheva Alomar viajan a África para investigar un peligroso brote que transforma a sus víctimas en enemigos violentos. Explora escenarios hostiles, consigue armas y enfréntate a aterradoras criaturas mientras descubres una conspiración relacionada con Umbrella.",
+      "en": "Chris Redfield and Sheva Alomar travel to Africa to investigate a dangerous outbreak that transforms its victims into violent enemies. Explore hostile environments, acquire weapons, and face terrifying threats."
+    },
+    "download": {
+      "region": "CUSA04437 - USA",
+      "size": "14.99GB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Español Latino",
+      "thanks": "Infinity",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/WIMqq3e",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "port-the-legend-of-zelda-the-wind-waker",
+    "console": "switch",
+    "title": "Port The Legend of Zelda The Wind Waker",
+    "genre": "Acción - Aventura - Mundo abierto",
+    "developer": "Proyecto comunitario SwitchWaker",
+    "publisher": "",
+    "year": 2026,
+    "rating": 96,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/tVM6UWl.png",
+    "trailer": "",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshots/174-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/174-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/174-2.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Link en una aventura por un inmenso océano para rescatar a su hermana y enfrentarse al mal que amenaza al reino. Navega en el barco Mascarón Rojo, explora islas misteriosas, resuelve puzles y descubre tesoros.",
+      "en": "Join Link on an adventure across a vast ocean to rescue his sister and confront the evil that threatens the kingdom. Sail the King of Red Lions, explore mysterious islands, and solve puzzles."
+    },
+    "download": {
+      "region": "",
+      "size": "1.39GB",
+      "format": "nro",
+      "update": "1.0.0",
+      "fw": "",
+      "languages": "Español",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/dhuAD5Y",
           "color": "blue"
         }
       ]
