@@ -2820,7 +2820,7 @@
     "developer": "Black Tower Basement",
     "publisher": "Nordcurrent Labs",
     "year": 2026,
-    "rating": 0,
+    "rating": 71,
     "players": "1",
     "cooperativo": "No",
     "multijugador": "No",
@@ -2983,7 +2983,7 @@
   {
     "id": "assassin-s-creed-odyssey",
     "console": "ps4",
-    "title": "Assassin's Creed Odyssey",
+    "title": "Assassin's Creed Odyssey Ultimate Edition",
     "genre": "RPG de Acción - Aventura - Mundo Abierto",
     "developer": "Ubisoft Quebec",
     "publisher": "Ubisoft",
@@ -9947,8 +9947,8 @@
     "year": 2023,
     "rating": 88,
     "players": "1-4",
-    "cooperativo": "Sí",
-    "multijugador": "Sí (online)",
+    "cooperativo": "Online",
+    "multijugador": "Online",
     "color": "#e60012",
     "cover": "http://imgfz.com/i/ywYtPog.png",
     "trailer": "_zAOt8auYbw",
@@ -13495,11 +13495,11 @@
     "multijugador": "No",
     "color": "#7c5cff",
     "cover": "http://imgfz.com/i/tVM6UWl.png",
-    "trailer": "",
+    "trailer": "kmWn-ZOvtkU",
     "screenshots": [
-      "https://cdn.thegamesdb.net/images/original/screenshots/174-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshot/174-1.jpg",
-      "https://cdn.thegamesdb.net/images/original/screenshot/174-2.jpg"
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/wiiu_7/wiiu_thelegendofzeldathewindwakerhd/WiiU_TheLegendofZelda_TheWindWakerHD_01.jpg",
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/wiiu_7/wiiu_thelegendofzeldathewindwakerhd/WiiU_TheLegendofZelda_TheWindWakerHD_02.jpg",
+      "https://www.nintendo.com/eu/media/images/06_screenshots/games_5/wiiu_7/wiiu_thelegendofzeldathewindwakerhd/WiiU_TheLegendofZelda_TheWindWakerHD_03.jpg"
     ],
     "description": {
       "es": "Acompaña a Link en una aventura por un inmenso océano para rescatar a su hermana y enfrentarse al mal que amenaza al reino. Navega en el barco Mascarón Rojo, explora islas misteriosas, resuelve puzles y descubre tesoros.",
@@ -13518,6 +13518,436 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/dhuAD5Y",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fatal-fury-city-of-the-wolves",
+    "console": "ps4",
+    "title": "Fatal Fury: City of the Wolves",
+    "genre": "Lucha - Acción - Arcade",
+    "developer": "SNK",
+    "publisher": "SNK",
+    "year": 2025,
+    "rating": 80,
+    "players": "1 - 2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#a83232",
+    "cover": "https://images.launchbox-app.com//090f87b2-fd2f-4107-a0d5-85c830aa0639.jpg",
+    "trailer": "txMKJnRbYSw",
+    "screenshots": [
+      "http://imgfz.com/i/2oUvXgV.png",
+      "https://clan.cloudflare.steamstatic.com/images//45050745/462cccbf02984cf98b1314178c0d1b12c361d2a8.jpg",
+      "https://www.snk-corp.co.jp/wp/wp-content/uploads/2026/10/costume_EN.jpg"
+    ],
+    "description": {
+      "es": "Tras más de 25 años, la saga FATAL FURY regresa con City of the Wolves. Rock Howard, Terry Bogard y un extenso plantel se enfrentan en un nuevo sistema de combate REV que premia la agresividad, con REV Arts, REV Accel, REV Blow y combos de frenesí, además del modo Episodes of South Town, tutoriales detallados y juego online con rollback netcode. Incluye la colaboración con Tokyo Revengers, con Mikey y Draken como luchadores jugables y sus propios trajes crossover.",
+      "en": "After more than 25 years, the FATAL FURY series returns with City of the Wolves. Rock Howard, Terry Bogard and a large roster clash in a new REV combat system that rewards aggression, with REV Arts, REV Accel, REV Blow and frenzy combos, plus the Episodes of South Town mode, detailed tutorials and online play with rollback netcode. Includes the Tokyo Revengers collaboration, with Mikey and Draken as playable fighters and their own crossover outfits."
+    },
+    "download": {
+      "region": "CUSA45819 - JPN",
+      "size": "31.6GB",
+      "format": "pkg",
+      "update": "3.09 - 21DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/qD0SpfP",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fighting-force-collection",
+    "console": "switch",
+    "title": "Fighting Force Collection",
+    "genre": "Acción - Lucha - Recopilatorio",
+    "developer": "Implicit Conversions",
+    "publisher": "Limited Run Games",
+    "year": 2026,
+    "rating": 0,
+    "players": "1 - 2",
+    "cooperativo": "Sí",
+    "multijugador": "No",
+    "color": "#c05a1e",
+    "cover": "http://imgfz.com/i/8ONafPk.png",
+    "trailer": "sjlOMToY3cA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3504580/ss_f9fc6f4399d1bcb5562ed407fff49cb11a0c8274.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3504580/ss_1fca22ffb8fa441d2f595667416da9abd65529dc.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3504580/ss_80875d6d42bd8e09d5b391305d64d35997495a53.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Recopilatorio que reúne Fighting Force (1997) y Fighting Force 2 (1999), los clásicos beat 'em up en 3D de Core Design. Reparte puñetazos, patadas y armas por escenarios destructibles en solitario o en cooperativo local a dos jugadores, con mejoras de calidad de vida, guardado y trofeos.",
+      "en": "A collection bundling Fighting Force (1997) and Fighting Force 2 (1999), Core Design's classic 3D beat 'em ups. Throw punches, kicks and weapons through destructible environments solo or in two-player local co-op, with quality-of-life improvements, save support and achievements."
+    },
+    "download": {
+      "region": "01000AE02448C000",
+      "size": "950MB",
+      "format": "xci",
+      "update": "2.0.0",
+      "fw": "22.0.0",
+      "languages": "Inglés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/bjBww1",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-6-ps4",
+    "console": "ps4",
+    "title": "Resident Evil 6",
+    "genre": "Survival Horror - Acción - Disparos",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2016,
+    "rating": 60,
+    "players": "1 - 4",
+    "cooperativo": "Local y online",
+    "multijugador": "Online",
+    "color": "#a01f1f",
+    "cover": "http://imgfz.com/i/5BDCrUu.webp",
+    "trailer": "ciGFTlidKKA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221040/ss_42cfd0ed6ef0bf03a28e48f1faf25c21777d6fa6.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221040/ss_23c74c345e615e8296d03dc78f328e7a75f8d5d5.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221040/ss_5908a7f8e9dec8385ad657025b1ac0873ed56443.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Leon S. Kennedy, Chris Redfield, Jake Muller y Ada Wong protagonizan cuatro campañas entrelazadas que recorren Norteamérica, Europa del Este y China para frenar un ataque bioterrorista a escala global causado por el virus C. Dispara mientras te mueves, esquiva, rueda y cúbrete en un sistema de combate más ágil, con cooperativo para dos jugadores, el regreso del modo Mercenarios y un plantel de enemigos J'avo capaces de regenerarse y mutar sus extremidades.",
+      "en": "Leon S. Kennedy, Chris Redfield, Jake Muller and Ada Wong star in four interwoven campaigns spanning North America, Eastern Europe and China to stop a worldwide bioterrorist attack caused by the C-virus. Shoot while moving, dodge, roll and take cover in a more agile combat system, with two-player co-op, the return of Mercenaries mode and J'avo enemies able to regenerate and mutate their limbs."
+    },
+    "download": {
+      "region": "CUSA03840 - EUR",
+      "size": "15.1GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "FantasmaXDS",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/UxlpFOP",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fighting-force-collection-ps4",
+    "console": "ps4",
+    "title": "Fighting Force Collection",
+    "genre": "Acción - Lucha - Recopilatorio",
+    "developer": "Implicit Conversions",
+    "publisher": "Limited Run Games",
+    "year": 2026,
+    "rating": 0,
+    "players": "1 - 2",
+    "cooperativo": "Local",
+    "multijugador": "No",
+    "color": "#c05a1e",
+    "cover": "http://imgfz.com/i/FV2NW7G.png",
+    "trailer": "sjlOMToY3cA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3504580/ss_f9fc6f4399d1bcb5562ed407fff49cb11a0c8274.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3504580/ss_1fca22ffb8fa441d2f595667416da9abd65529dc.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3504580/ss_80875d6d42bd8e09d5b391305d64d35997495a53.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Recopilatorio que reúne Fighting Force (1997) y Fighting Force 2 (1999), los clásicos beat 'em up en 3D de Core Design. Reparte puñetazos, patadas y armas por escenarios destructibles en solitario o en cooperativo local a dos jugadores, con mejoras de calidad de vida, guardado y trofeos.",
+      "en": "A collection bundling Fighting Force (1997) and Fighting Force 2 (1999), Core Design's classic 3D beat 'em ups. Throw punches, kicks and weapons through destructible environments solo or in two-player local co-op, with quality-of-life improvements, save support and achievements."
+    },
+    "download": {
+      "region": "CUSA55372 - EUR",
+      "size": "907MB",
+      "format": "pkg",
+      "update": "2.00",
+      "fw": "5.05+",
+      "languages": "Inglés",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/t9h0NR",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yakuza-0",
+    "console": "ps4",
+    "title": "Yakuza 0",
+    "genre": "Acción - Aventura - Beat 'em up",
+    "developer": "Ryu Ga Gotoku Studio",
+    "publisher": "SEGA",
+    "year": 2017,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#b3122e",
+    "cover": "http://imgfz.com/i/NoqQ6T1.png",
+    "trailer": "JCzACWVB9gQ",
+    "screenshots": [
+      "https://image.api.playstation.com/vulcan/img/rnd/202009/2822/V8ioVd9r9xvHVfbqXNgSrRQR.jpg",
+      "https://image.api.playstation.com/vulcan/img/rnd/202009/2822/GPvxlqYwAlLcen1lea8SPVMz.jpg",
+      "https://image.api.playstation.com/vulcan/img/rnd/202009/2822/cc1fLVsIV0PlWtoJ5w22DHyc.jpg"
+    ],
+    "description": {
+      "es": "Kamurocho, diciembre de 1988. Kazuma Kiryu, un joven yakuza, queda envuelto en una disputa por un terreno vacío que puede cambiar el futuro del clan Tojo, mientras en Sotenbori Goro Majima sobrevive al margen de su antigua familia. Alterna tres estilos de combate por personaje, recorre dos ciudades recreadas con minijuegos, karaoke, bolos, casino y negocios secundarios, y descubre cómo comenzó la leyenda del Dragón de Dojima.",
+      "en": "Kamurocho, December 1988. Young yakuza Kazuma Kiryu is dragged into a dispute over a single empty lot that could change the Tojo Clan's future, while Goro Majima survives on the fringes of his old family in Sotenbori. Switch between three fighting styles per character, roam two meticulously recreated cities packed with minigames, karaoke, bowling, gambling and side businesses, and discover how the legend of the Dragon of Dojima began."
+    },
+    "download": {
+      "region": "CUSA05133 - EUR",
+      "size": "26GB",
+      "format": "pkg",
+      "update": "1.06",
+      "fw": "",
+      "languages": "Parche Español Sub",
+      "thanks": "Playable - Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/PhIRycu",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yakuza-kiwami",
+    "console": "ps4",
+    "title": "Yakuza Kiwami",
+    "genre": "Acción - Aventura - Beat 'em up",
+    "developer": "Ryu Ga Gotoku Studio",
+    "publisher": "SEGA",
+    "year": 2017,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2b6cb0",
+    "cover": "http://imgfz.com/i/Pw5Kbgl.png",
+    "trailer": "UAz9NB5wZvg",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/834530/ss_1d5134f2ffb5d19573380160f959f521fb1d3bdc.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/834530/ss_071dd419bb2ecf637a8680e8684b93ffb2a29907.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/834530/ss_b4d58157e78c6f84b4da9654ca134682845fe7af.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Remake completo del primer Yakuza. Kazuma Kiryu sale de prisión tras diez años por un crimen que no cometió y descubre que su mejor amigo ha desaparecido y que diez mil millones de yenes han volado de la caja del clan Tojo. Con Haruka, una niña de nueve años, como única pista, Kiryu deberá limpiar su nombre mientras Goro Majima lo persigue por todo Kamurocho. Cuatro estilos de combate, misiones secundarias y minijuegos clásicos.",
+      "en": "A full remake of the first Yakuza. Kazuma Kiryu leaves prison after ten years for a crime he did not commit and finds his best friend missing and ten billion yen gone from the Tojo Clan vault. With nine-year-old Haruka as his only lead, Kiryu must clear his name while Goro Majima hunts him all over Kamurocho. Four fighting styles, substories and classic minigames."
+    },
+    "download": {
+      "region": "CUSA06997 - USA",
+      "size": "21.4GB",
+      "format": "pkg",
+      "update": "1.09",
+      "fw": "",
+      "languages": "Parche Español Sub",
+      "thanks": "Hako & Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/i8RHuFn",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yakuza-kiwami-2",
+    "console": "ps4",
+    "title": "Yakuza Kiwami 2",
+    "genre": "Acción - Aventura - Beat 'em up",
+    "developer": "Ryu Ga Gotoku Studio",
+    "publisher": "SEGA",
+    "year": 2018,
+    "rating": 85,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#d97706",
+    "cover": "http://imgfz.com/i/MbriOad.png",
+    "trailer": "WuIDxjeIuVo",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/927380/ss_c90b9d21ee15ffaec35395e9f2bf72ffb135fbb0.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/927380/ss_b93a204285a873090fb9dd12eb4ac34f6f001984.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/927380/ss_6103c41131961716d9d376b4c59525d18cfd5356.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Reconstruido en el motor Dragon Engine, Yakuza Kiwami 2 continúa la historia de Kazuma Kiryu un año después del incidente de los diez mil millones de yenes. Una amenaza de asesinato está a punto de desatar la guerra entre el clan Tojo y la Alianza Omi, con el Dragón de Kansai, Ryuji Goda, como principal rival. Incluye el modo Historia de Majima Goro, el club de cabaret y minijuegos como el golf, los bolos y el karaoke.",
+      "en": "Rebuilt in the Dragon Engine, Yakuza Kiwami 2 continues Kazuma Kiryu's story one year after the ten billion yen incident. An assassination threat is about to spark all-out war between the Tojo Clan and the Omi Alliance, with the Dragon of Kansai, Ryuji Goda, as the main rival. Includes the Majima Goro Saga, the cabaret club and minigames such as golf, bowling and karaoke."
+    },
+    "download": {
+      "region": "CUSA10634 - USA",
+      "size": "36.3GB",
+      "format": "pkg",
+      "update": "1.04-DLC",
+      "fw": "",
+      "languages": "Parche Español",
+      "thanks": "Crumbmaster3000 & Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/c1yeTzO",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yakuza-kiwami-3-dark-ties",
+    "console": "ps4",
+    "title": "Yakuza Kiwami 3 & Dark Ties Deluxe Edition",
+    "genre": "Acción - Aventura - Beat 'em up",
+    "developer": "Ryu Ga Gotoku Studio",
+    "publisher": "SEGA",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#6b21a8",
+    "cover": "http://imgfz.com/i/1NwDt6K.png",
+    "trailer": "WEg1taCJeBU",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/a0751c8f4adedccafc6ce8de3d09f3147e1c1ff7/ss_a0751c8f4adedccafc6ce8de3d09f3147e1c1ff7.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/68abbdfdf1699bea6dbd2c2dab03a47e76bf4e0e/ss_68abbdfdf1699bea6dbd2c2dab03a47e76bf4e0e.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/f6d5496302d2de4c46d55e782221f7e6f0f03ffb/ss_f6d5496302d2de4c46d55e782221f7e6f0f03ffb.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Remake completo de Yakuza 3 que devuelve a Kazuma Kiryu a Okinawa para proteger el orfanato Morning Glory y a los nueve niños que viven en él. Incluye dos estilos de combate, el Dragon of Dojima y el Ryukyu con armas tradicionales, el minijuego de la banda de moteras y el nuevo contenido añadido. Se acompaña de Dark Ties, una aventura independiente protagonizada por Yoshitaka Mine con combate de boxeo.",
+      "en": "A full remake of Yakuza 3 that brings Kazuma Kiryu back to Okinawa to protect the Morning Glory orphanage and the nine children who live there. It features two fighting styles, the Dragon of Dojima and the weapon-based Ryukyu style, the biker gang minigame and newly added content. It is paired with Dark Ties, a standalone adventure starring Yoshitaka Mine with boxing-based combat."
+    },
+    "download": {
+      "region": "CUSA54714",
+      "size": "53.6GB",
+      "format": "pkg",
+      "update": "1.13",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K",
+      "mod": "7DLC",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/n1lU8G",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.13",
+          "url": "https://ouo.io/WFiqQu",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - 7DLC",
+          "url": "https://ouo.io/UPP21C",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yakuza-3-remastered",
+    "console": "ps4",
+    "title": "Yakuza 3 Remastered",
+    "genre": "Acción - Aventura - Beat 'em up",
+    "developer": "Ryu Ga Gotoku Studio",
+    "publisher": "SEGA",
+    "year": 2021,
+    "rating": 77,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2563eb",
+    "cover": "http://imgfz.com/i/ELYxaw2.png",
+    "trailer": "HierwSEPhcA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088710/ss_b3fbe7af5777f8514ddcf3c28dd0da68d288f60d.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088710/ss_86446b48cd0915bc071f65ed314800e23779ea80.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088710/ss_690876bd4c1ab0b26773d1db521518ebab2db6b7.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Kazuma Kiryu deja atrás las calles de Kamurocho para dirigir el orfanato Morning Glory en Okinawa, donde intenta vivir en paz junto a los niños a su cargo. Cuando una antigua disputa del clan Tojo llega hasta la isla, el Dragón de Dojima se ve obligado a volver al mundo del yakuza para proteger lo que más le importa. Remaster en 1080p a 60 fps con contenido adicional nunca visto en Occidente, incluyendo mahjong, shogi, cabaret y más.",
+      "en": "Kazuma Kiryu leaves Kamurocho behind to run the Morning Glory orphanage in Okinawa, trying to live a peaceful life with the children in his care. When an old Tojo Clan feud reaches the island, the Dragon of Dojima is forced back into the yakuza world to protect what matters most. Remastered in 1080p at 60 fps with additional content never before seen in the West, including mahjong, shogi, cabaret and more."
+    },
+    "download": {
+      "region": "CUSA15360 – EUR",
+      "size": "15GB",
+      "format": "pkg",
+      "update": "1.04",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "DUPLEX - Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Zl1TM7",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yakuza-4-remastered",
+    "console": "ps4",
+    "title": "Yakuza 4 Remastered",
+    "genre": "Acción - Aventura - Beat 'em up",
+    "developer": "Ryu Ga Gotoku Studio",
+    "publisher": "SEGA",
+    "year": 2021,
+    "rating": 78,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#dc2626",
+    "cover": "http://imgfz.com/i/qDNEUmf.png",
+    "trailer": "XEXau52ey6Q",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105500/ss_c42a9361e867fdab12d2eec8592ebb09a70a813d.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105500/ss_7a8d6d26b33e07354ba7d386fcd5906e19696b36.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105500/ss_e550d9df4d17bda46542d07ddfe63d29dc47b4c2.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Por primera vez en la serie, cuatro protagonistas toman el relevo: Kazuma Kiryu, Shun Akiyama, Taiga Saejima y Masayoshi Tanimura. Sus historias se entrecruzan en Kamurocho tras una oleada de asesinatos que sacude al clan Tojo. Cada personaje tiene su propio estilo de combate, misiones y punto de vista, conformando una de las tramas más complejas de la saga. Remaster en 1080p a 60 fps.",
+      "en": "For the first time in the series, four protagonists take the lead: Kazuma Kiryu, Shun Akiyama, Taiga Saejima and Masayoshi Tanimura. Their stories intersect in Kamurocho following a wave of assassinations that shake the Tojo Clan. Each character has their own fighting style, side stories and perspective, forming one of the saga's most intricate plots. Remastered in 1080p at 60 fps."
+    },
+    "download": {
+      "region": "CUSA15326 – USA",
+      "size": "21GB",
+      "format": "pkg",
+      "update": "1.06",
+      "fw": "5.05+",
+      "languages": "Parche Español",
+      "thanks": "Crumbmaster3000 - Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/hlN3iD",
           "color": "blue"
         }
       ]
