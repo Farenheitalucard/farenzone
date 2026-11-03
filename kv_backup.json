@@ -69,7 +69,7 @@
       "region": "0100152000022000",
       "size": "11.2GB",
       "format": "xci",
-      "update": "3.0.5+DLC  - 3.03+DLC - 4.0.0+DLC",
+      "update": "3.0.5+DLC  - 3.03+DLC - 4.0.1+DLC",
       "fw": "20.0.1",
       "languages": "Japones, Ingles britanico, Frances, Aleman, Italiano, Espanol, Coreano, Holandes, Portugues, Ruso, Chino, Espanol America Latina, Frances Canada, Ingles EE. UU.",
       "thanks": "",
@@ -86,7 +86,7 @@
           "color": "blue"
         },
         {
-          "label": "4.0.0+DLC",
+          "label": "4.0.1+DLC",
           "url": "https://ouo.io/QJP3V1",
           "color": "blue"
         }
@@ -10007,7 +10007,7 @@
       "region": "CUSA57220 - USA",
       "size": "63.3GB",
       "format": "pkg",
-      "update": "1.05 - Offline Unlock - Plantillas",
+      "update": "1.07 - Offline Unlock - Plantillas",
       "fw": "5.05+",
       "languages": "Multi idioma (Latino-Castellano)",
       "thanks": "Opoisso893/Golemnight",
@@ -13898,8 +13898,8 @@
       "size": "15GB",
       "format": "pkg",
       "update": "1.04",
-      "fw": "5.05+",
-      "languages": "Multi idioma",
+      "fw": "5.50+",
+      "languages": "Parche Español",
       "thanks": "DUPLEX - Farenheit",
       "mod": "",
       "links": [
@@ -13940,7 +13940,7 @@
       "size": "21GB",
       "format": "pkg",
       "update": "1.06",
-      "fw": "5.05+",
+      "fw": "5.50+",
       "languages": "Parche Español",
       "thanks": "Crumbmaster3000 - Farenheit",
       "mod": "",
@@ -13948,6 +13948,216 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/hlN3iD",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dying-light-2-stay-human",
+    "console": "ps4",
+    "title": "Dying Light 2 Stay Human",
+    "genre": "Acción - Survival Horror - Mundo abierto",
+    "developer": "Techland",
+    "publisher": "Techland Publishing",
+    "year": 2022,
+    "rating": 74,
+    "players": "1-4",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#7c5cff",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/60151-1.jpg",
+    "trailer": "uL6OeuicjyU",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/77526-1.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/77526-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/77526-4.jpg"
+    ],
+    "description": {
+      "es": "Explora una ciudad devastada por una epidemia zombi donde la humanidad lucha por sobrevivir. Utiliza habilidades de parkour para recorrer los edificios, consigue armas y enfréntate a peligrosos infectados mientras tomas decisiones que afectan el destino de la ciudad.",
+      "en": "Explore a city ravaged by a zombie epidemic where humanity struggles for survival. Use parkour skills to traverse buildings, acquire weapons, and confront dangerous infected."
+    },
+    "download": {
+      "region": "CUSA12584 - USA",
+      "size": "57.8GB",
+      "format": "",
+      "update": "pkg",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Fugazi & Xmrallx & kbis",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/9EV2X8",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sakuna-of-rice-and-ruin",
+    "console": "ps4",
+    "title": "Sakuna Of Rice and Ruin",
+    "genre": "Acción - Plataformas - Simulación",
+    "developer": "Edelweiss",
+    "publisher": "Marvelous / XSEED Games",
+    "year": 2020,
+    "rating": 77,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/pbQZYnd.png",
+    "trailer": "rWduYZ978k0",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/screenshot/79456-2.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/79456-3.jpg",
+      "https://cdn.thegamesdb.net/images/original/screenshot/79456-4.jpg"
+    ],
+    "description": {
+      "es": "Acompaña a Sakuna, una diosa de la cosecha desterrada a una isla peligrosa habitada por demonios. Combate utilizando armas y habilidades aéreas mientras exploras escenarios llenos de enemigos y secretos. Cultiva arroz, mejora tus cosechas y fortalece tus poderes para recuperar tu lugar entre los dioses.",
+      "en": "Join Sakuna, a harvest goddess banished to a dangerous island inhabited by demons. Fight using weapons and aerial abilities as you explore environments filled with enemies and secrets."
+    },
+    "download": {
+      "region": "CUSA09130 - USA",
+      "size": "9.74GB",
+      "format": "pkg",
+      "update": "1.15GB",
+      "fw": "7.50+",
+      "languages": "Multi idioma",
+      "thanks": "QuiqueS221",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/8HTeId",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tenebris-somnia",
+    "console": "switch",
+    "title": "Tenebris Somnia",
+    "genre": "Terror - Aventura - Puzles",
+    "developer": "Saibot Studios / Andrés Borghi",
+    "publisher": "New Blood Interactive",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1a1a1a",
+    "cover": "https://cdn1.telesco.pe/file/LEsyvxmXaGHLr9fUlp407xuksBOw_Hae0acUjY1KUaozHjL-OPZsMBzQKhiTzmr2YBZgjRuUYbqe6lyzUVrorKHQJ9cTFDP73hRQefPrux_QY3WP8OZkUDmdIh0rDwa_nh-8tOgFqIlaeoViBtz9kUotwXVDjyAKLG26SqLhWi7l5IwbSzXUIqL-_02nms4ouY_Kyuk0k_GzOiWh1YSeVQVXMpoCkKyOEZXLmJID4R6BW34xiwdWhk5DUM_L2gWyYFjHP0Ybfv2HRhkeUt68muQJkUJjSA_CDXqO7Em85xY37dVDR1POrUREpr0MRy7SRMJSYwUxgtkQpWAXmZtcTA.jpg",
+    "trailer": "vvZJ2mffnU4",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/20250047-tenebris-somnia-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/35877198-tenebris-somnia-screenshot.png",
+      "https://cdn.mobygames.com/promos/35877238-tenebris-somnia-screenshot.png"
+    ],
+    "description": {
+      "es": "Tenebris Sominia es un survival horror en pixel art con escenas FMV que mezcla exploración, acertijos y terror atmosférico.",
+      "en": "Tenebris Sominia is a pixel art survival horror game with FMV cutscenes, blending exploration, puzzles and atmospheric terror."
+    },
+    "download": {
+      "region": "0100CD7028862000",
+      "size": "24.3GB",
+      "format": "xci",
+      "update": "1.0.3",
+      "fw": "23.0.1",
+      "languages": "Japonés, Inglés, Español, Portugués",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/XshjV7",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "xenoblade-chronicles-definitive-edition",
+    "console": "switch",
+    "title": "Xenoblade Chronicles: Definitive Edition",
+    "genre": "RPG - Aventura - Acción",
+    "developer": "Monolith Soft",
+    "publisher": "Nintendo",
+    "year": 2020,
+    "rating": 89,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2563eb",
+    "cover": "https://cdn1.telesco.pe/file/llb0gVjqKgZnWqquu2bIJf1E3PsE600YqWLoncyRYwyy7U0I8bnzDKg6ltQhz1N-UCJhWxnlVNO_t9kBTIng4q9f3_bdnDGO7Gd5PVEc6SPlsjiEYwguuRGRghMDkx6pnB8iQG0tWORE71MXSAEiCoWgNzoZkATMkMxjcdTk0njQ8SUN5d88TkyJCtisWjMgcw_WgtOyM3oCQhyGStOStJu5E0sjYNyO1v5aiKK9Jn8n-EZfGqg4cXTnYR1IpxlIpOv3Tmtp45TnSTNpwJjw7SMx-9JUZfv971Xr-oF9e5nTZz_-fyJjHBmBw9pBkxw8N5I8E5OPzKU_IuhEwtXLbw.jpg",
+    "trailer": "KfjVIQug6_E",
+    "screenshots": [
+      "https://cdn.thegamesdb.net/images/original/fanart/66208-1.jpg",
+      "http://imgfz.com/i/FeTpskv.jpeg",
+      "http://imgfz.com/i/JGjQflH.jpeg"
+    ],
+    "description": {
+      "es": "Xenoblade Chronicles: Definitive Edition incluye el juego original remasterizado con gráficos mejorados, banda sonora actualizada y el epílogo Future Connected.",
+      "en": "Xenoblade Chronicles: Definitive Edition includes the remastered original game with enhanced visuals, updated soundtrack and the Future Connected epilogue."
+    },
+    "download": {
+      "region": "0100FF500E34A800",
+      "size": "13.7GB",
+      "format": "xci",
+      "update": "2.0.0",
+      "fw": "22.1.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Coreano, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Google Drive",
+          "url": "https://ouo.io/hph5f9",
+          "color": "green"
+        }
+      ]
+    }
+  },
+  {
+    "id": "silver-pines",
+    "console": "switch",
+    "title": "Silver Pines",
+    "genre": "Terror - Metroidvania - Acción",
+    "developer": "Wych Elm",
+    "publisher": "Team17",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#9ca3af",
+    "cover": "https://cdn1.telesco.pe/file/ow13QRIEKqkFtsEvLUhVVmv5X4BsAnH8QcwnFGtSDA0sJG7SX90MdZ5d8XQJm6xyhIpbk8Z9s49ZkdXACOwio13EI3s6PqnCBVUqybHCg3B8WS99c-VGLTLPl3f2mn1gYfzZErg8xSqGCzzqm13N8LL_kKKFh_aWI3LP2YU-ZMbT1jjkGcAgYlKJ2qkxKkpmXJRGqxOFEAQFoH72NbfsWgbaivStD4VlBugomld68xEt3elBOdhLfP9Hs_FuOvl3POjS4hRqtsrF0NVngn379G-WTt2siRN8XrHkOjkOribJnAsWdvP_JF71as7PvL64FvtQzmCvF51zhPJMW8j58w.jpg",
+    "trailer": "RBGc99ip43A",
+    "screenshots": [
+      "https://cdn.mobygames.com/screenshots/43703573-silver-pines-windows-outside-the-motel.jpg",
+      "https://cdn.mobygames.com/screenshots/43703550-silver-pines-windows-interacting-with-a-phone.jpg",
+      "https://cdn.mobygames.com/screenshots/43703531-silver-pines-windows-phones-serve-as-save-locations.jpg"
+    ],
+    "description": {
+      "es": "Silver Pines es un survival horror Metroidvania ambientado en un pueblo perdido de Estados Unidos. Explora, resuelve misterios y sobrevive en una atmósfera inquietante.",
+      "en": "Silver Pines is a survival horror Metroidvania set in a small American town. Explore, uncover secrets, and survive in a haunting atmosphere."
+    },
+    "download": {
+      "region": "0100F4701CF46000",
+      "size": "4.01GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "23.0.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Portugués, Ruso, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/WNJdzZ",
           "color": "blue"
         }
       ]
