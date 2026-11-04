@@ -14162,5 +14162,47 @@
         }
       ]
     }
+  },
+  {
+    "id": "resonance-of-fate-4k-hd-edition",
+    "console": "ps4",
+    "title": "Resonance of Fate 4K/HD Edition",
+    "genre": "RPG - Acción - Aventura",
+    "developer": "tri-Ace",
+    "publisher": "tri-Ace",
+    "year": 2018,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#a855f7",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/100905-1.jpg",
+    "trailer": "o37A5GR71uM",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/6568259-resonance-of-fate-4khd-edition-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/6568262-resonance-of-fate-4khd-edition-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/6569485-resonance-of-fate-4khd-edition-screenshot.jpg"
+    ],
+    "description": {
+      "es": "Resonance of Fate 4K/HD Edition es la versión remasterizada del clásico JRPG de tri-Ace. Disfruta de intensos combates con armas en un mundo steampunk devastado por la ruina.",
+      "en": "Resonance of Fate 4K/HD Edition is the remastered version of tri-Ace's classic JRPG. Experience fast-paced gunplay in a ruined steampunk world."
+    },
+    "download": {
+      "region": "CUSA13826 - EUR",
+      "size": "35.3GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Xmrallx & Jvmg92",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/W0tuxG",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
