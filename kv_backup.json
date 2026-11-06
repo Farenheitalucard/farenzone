@@ -10968,7 +10968,7 @@
       "format": "xci",
       "update": "1.01",
       "fw": "6.0.1",
-      "languages": "Ingles, Frances, Aleman, Italiano, Espanol, Japones, Portugues, Ruso",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Portugués, Ruso",
       "thanks": "",
       "mod": "",
       "links": [
@@ -14134,7 +14134,7 @@
     "cooperativo": "No",
     "multijugador": "No",
     "color": "#9ca3af",
-    "cover": "https://cdn1.telesco.pe/file/ow13QRIEKqkFtsEvLUhVVmv5X4BsAnH8QcwnFGtSDA0sJG7SX90MdZ5d8XQJm6xyhIpbk8Z9s49ZkdXACOwio13EI3s6PqnCBVUqybHCg3B8WS99c-VGLTLPl3f2mn1gYfzZErg8xSqGCzzqm13N8LL_kKKFh_aWI3LP2YU-ZMbT1jjkGcAgYlKJ2qkxKkpmXJRGqxOFEAQFoH72NbfsWgbaivStD4VlBugomld68xEt3elBOdhLfP9Hs_FuOvl3POjS4hRqtsrF0NVngn379G-WTt2siRN8XrHkOjkOribJnAsWdvP_JF71as7PvL64FvtQzmCvF51zhPJMW8j58w.jpg",
+    "cover": "http://imgfz.com/i/JrHibS2.png",
     "trailer": "RBGc99ip43A",
     "screenshots": [
       "https://cdn.mobygames.com/screenshots/43703573-silver-pines-windows-outside-the-motel.jpg",
@@ -14200,6 +14200,90 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/W0tuxG",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mega-man-legacy-collection-ps4",
+    "console": "ps4",
+    "title": "Mega Man Legacy Collection",
+    "genre": "Acción - Plataforma - Retro",
+    "developer": "Digital Eclipse",
+    "publisher": "Capcom",
+    "year": 2015,
+    "rating": 77,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b82f6",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/35662-1.jpg",
+    "trailer": "yVfeUq5TmQs",
+    "screenshots": [
+      "https://cdn.mobygames.com/screenshots/8341304-mega-man-legacy-collection-playstation-4-blegacy-collectionb-gam.jpg",
+      "https://cdn.mobygames.com/screenshots/8368934-mega-man-legacy-collection-playstation-4-bmega-manb-stretching-t.jpg",
+      "https://cdn.mobygames.com/screenshots/4894343-mega-man-legacy-collection-windows-mega-man-ii-title-screen.jpg"
+    ],
+    "description": {
+      "es": "Mega Man Legacy Collection reúne los seis primeros juegos de la saga\nIncluye desafíos especiales, ilustraciones y contenido histórico para los amantes de la era clásica de Mega Man.",
+      "en": "Mega Man Legacy Collection brings together the first six games in the series.\nIt includes special challenges, artwork, and historical content for fans of the classic Mega Man era."
+    },
+    "download": {
+      "region": "CUSA02516",
+      "size": "275MB",
+      "format": "pkg",
+      "update": "1.02",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "MarvTM",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pHc4zO",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mega-man-legacy-collection-2-ps4",
+    "console": "ps4",
+    "title": "Mega Man Legacy Collection 2",
+    "genre": "Acción - Plataforma - Clásico",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2017,
+    "rating": 71,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b82f6",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/48313-1.jpg",
+    "trailer": "iamiA3ki4-o",
+    "screenshots": [
+      "https://cdn.mobygames.com/screenshots/1076594-mega-man-legacy-collection-2-windows-main-menu.jpg",
+      "https://cdn.mobygames.com/screenshots/1044547-mega-man-legacy-collection-2-windows-game-menu.jpg",
+      "https://cdn.mobygames.com/screenshots/1388009-mega-man-legacy-collection-2-windows-nops.jpg"
+    ],
+    "description": {
+      "es": "Mega Man Legacy Collection 2 incluye Mega Man 7, 8, 9 y 10, \nEnfréntate a poderosos Robot Masters, supera desafiantes niveles y consigue nuevas armas para detener los planes del Dr. Wily incluye desafíos, galería y contenido adicional.",
+      "en": "Mega Man Legacy Collection 2 includes Mega Man 7, 8, 9, and 10. Face powerful Robot Masters, overcome challenging levels, and acquire new weapons to stop Dr. Wily's plans."
+    },
+    "download": {
+      "region": "CUSA08268",
+      "size": "3.98GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Schzone",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/2zi4Bo",
           "color": "blue"
         }
       ]
