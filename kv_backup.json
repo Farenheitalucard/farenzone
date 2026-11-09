@@ -14288,5 +14288,131 @@
         }
       ]
     }
+  },
+  {
+    "id": "mega-man-x-legacy-collection-ps4",
+    "console": "ps4",
+    "title": "Mega Man X Legacy Collection ps4",
+    "genre": "Acción - Plataformas - Retro",
+    "developer": "Capcom / M2",
+    "publisher": "Capcom",
+    "year": 2018,
+    "rating": 89,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/vSJ5YsZ.png",
+    "trailer": "bFjbpxjMWeE",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/20494462-mega-man-x-legacy-collection-screenshot.png",
+      "https://cdn.mobygames.com/promos/20494466-mega-man-x-legacy-collection-screenshot.png",
+      "https://cdn.mobygames.com/promos/20494474-mega-man-x-legacy-collection-screenshot.png"
+    ],
+    "description": {
+      "es": "Acompaña a X en sus primeras cuatro aventuras y enfréntate a los peligrosos Mavericks que amenazan el futuro de la humanidad. Explora niveles llenos de desafíos, consigue mejoras para tu armadura y descubre nuevas habilidades para derrotar a tus enemigos.",
+      "en": "Join X on his first four adventures and face the dangerous Mavericks that threaten the future of humanity. Explore challenging levels, get upgrades for your armor, and more!"
+    },
+    "download": {
+      "region": "CUSA10785 - USA",
+      "size": "8.22GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05",
+      "languages": "Multi idioma",
+      "thanks": "Sedahe93",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/GO75q3",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "toy-story-retro-roundup-ps4",
+    "console": "ps4",
+    "title": "Toy Story Retro Roundup",
+    "genre": "Plataformas - Aventura - Retro",
+    "developer": "Digital Eclipse",
+    "publisher": "Atari",
+    "year": 2026,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/dRTwW2D.png",
+    "trailer": "k8AJjFQ1n7w",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/43245289-disneypixar-toy-story-retro-roundup-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/43245285-disneypixar-toy-story-retro-roundup-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/36015388-disneypixar-toy-story-retro-roundup-screenshot.jpg"
+    ],
+    "description": {
+      "es": "Revive las aventuras clásicas de Woody, Buzz Lightyear y sus amigos en una colección de videojuegos inspirados en las películas de Pixar. Explora niveles, supera desafíos y disfruta de diferentes estilos de juego que marcaron una época.",
+      "en": "Relive the classic adventures of Woody, Buzz Lightyear, and their friends in a collection of video games inspired by Pixar movies. Explore levels, overcome challenges, and enjoy different styles."
+    },
+    "download": {
+      "region": "CUSA56931 - USA",
+      "size": "10.2GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/tL32M1",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "godzilla-destroy-all-monsters-melee-remastered",
+    "console": "switch",
+    "title": "Godzilla Destroy All Monsters Melee  Remastered",
+    "genre": "Lucha - Acción - Arcade",
+    "developer": "Pipeworks Studios",
+    "publisher": "Atari",
+    "year": 2026,
+    "rating": 0,
+    "players": "1-4",
+    "cooperativo": "Local",
+    "multijugador": "Local y online",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/HZxCv2J.png",
+    "trailer": "tggQWzD1js",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/44007503-godzilla-destroy-all-monsters-melee-remastered-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/44007511-godzilla-destroy-all-monsters-melee-remastered-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/44007515-godzilla-destroy-all-monsters-melee-remastered-screenshot.jpg"
+    ],
+    "description": {
+      "es": "Desata el caos en intensos combates entre los monstruos más poderosos del universo Godzilla. Enfréntate a criaturas gigantes, destruye escenarios y utiliza devastadores ataques especiales para dominar cada batalla. Elige entre 12 monstruos diferentes y lucha en solitario o junto a tus amigos en emocionantes enfrentamientos.",
+      "en": "Unleash chaos in intense battles between the most powerful monsters in the Godzilla universe. Face giant creatures, destroy environments, and use devastating special attacks to dominate."
+    },
+    "download": {
+      "region": "0100A00026D70000",
+      "size": "4.16GB",
+      "format": "xci",
+      "update": "1.0.2+dlc",
+      "fw": "23.0.1",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Coreano, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/IBRDWZ8",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
