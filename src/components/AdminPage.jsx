@@ -647,9 +647,9 @@ export function AdminPage() {
               <legend>{t.admin.download}</legend>
               <div className="admin-grid">
                 <label>{t.admin.region}<textarea rows={3} value={draft.download.region} onChange={(e) => setField('download.region', e.target.value)} /></label>
-                <label>{t.admin.size}<input value={draft.download.size} onChange={(e) => setField('download.size', e.target.value)} /></label>
+                <label>{t.admin.size}<textarea rows={2} value={draft.download.size} onChange={(e) => setField('download.size', e.target.value)} /></label>
                 <label>{t.admin.format}<input value={draft.download.format} onChange={(e) => setField('download.format', e.target.value)} /></label>
-                <label>{t.admin.update}<input value={draft.download.update} onChange={(e) => setField('download.update', e.target.value)} /></label>
+                <label>{t.admin.update}<textarea rows={2} value={draft.download.update} onChange={(e) => setField('download.update', e.target.value)} /></label>
                 <label>{t.admin.fw}<input value={draft.download.fw} onChange={(e) => setField('download.fw', e.target.value)} /></label>
                 <label>{t.admin.languages}<input value={draft.download.languages} onChange={(e) => setField('download.languages', e.target.value)} /></label>
                 <label>{t.admin.thanks}<input value={draft.download.thanks} onChange={(e) => setField('download.thanks', e.target.value)} /></label>
