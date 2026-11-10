@@ -14414,5 +14414,257 @@
         }
       ]
     }
+  },
+  {
+    "id": "tales-of-eternia-remastered",
+    "console": "switch",
+    "title": "Tales of Eternia Remastered",
+    "genre": "RPG de Acción - Aventura",
+    "developer": "TOSE Co., Ltd.",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2026,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b5b92",
+    "cover": "http://imgfz.com/i/ntoHTSq.png",
+    "trailer": "0jKqaoOQuvk",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/43125456-tales-of-eternia-remastered-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/43125464-tales-of-eternia-remastered-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/43246839-tales-of-eternia-remastered-screenshot.png"
+    ],
+    "description": {
+      "es": "Reid Hershel y Farah Oersted se unen a la misteriosa Meredy para salvar Eternia, un mundo dividido entre Inferia y Celestia, en este remake del clásico RPG de acción.",
+      "en": "Reid Hershel and Farah Oersted join the mysterious Meredy to save Eternia, a world split between Inferia and Celestia, in this remaster of the classic action RPG."
+    },
+    "download": {
+      "region": "010006E0230AC000",
+      "size": "5.43GB",
+      "format": "xci",
+      "update": "2.0.0",
+      "fw": "23.0.0",
+      "languages": "Español, Inglés, Francés, Alemán, Italiano, Ruso, Coreano, Japonés, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Tz5TtO",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "look-outside",
+    "console": "switch",
+    "title": "Look Outside",
+    "genre": "RPG de Terror - Supervivencia",
+    "developer": "Francis Coulombe",
+    "publisher": "Devolver Digital",
+    "year": 2026,
+    "rating": 83,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7a2e2e",
+    "cover": "http://imgfz.com/i/k4bFJqN.png",
+    "trailer": "2fvClsw3UZ0",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/19928453-look-outside-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/19928457-look-outside-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/19928465-look-outside-screenshot.jpg"
+    ],
+    "description": {
+      "es": "RPG de terror y supervivencia ambientado en un solo edificio de apartamentos. Tras un evento misterioso, cualquiera que mire por la ventana se transforma en un monstruo. Explora el edificio, consigue comida y suministros, conoce a personajes extraños y enfréntate a criaturas grotescas para sobrevivir.",
+      "en": "A survival horror RPG set in a single apartment building. After a mysterious event, anyone who looks out the window turns into a monster. Explore the building, scavenge for food and supplies, meet strange characters and fight grotesque creatures to survive."
+    },
+    "download": {
+      "region": "01004C80299B6000",
+      "size": "765MB",
+      "format": "nsp",
+      "update": "",
+      "fw": "22.5.0",
+      "languages": "Inglés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/mwHj7b",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "planet-of-lana",
+    "console": "switch",
+    "title": "Planet of Lana",
+    "genre": "Aventura - Plataformas - Puzles",
+    "developer": "Wishfully Studios",
+    "publisher": "Thunderful",
+    "year": 2024,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2f6f5e",
+    "cover": "http://imgfz.com/i/aIHBNsk.png",
+    "trailer": "P3rgiAY6Xp0",
+    "screenshots": [
+      "https://cdn.mobygames.com/screenshots/17455282-planet-of-lana-windows-moving-through-a-forest.jpg",
+      "https://cdn.mobygames.com/screenshots/17455302-planet-of-lana-windows-there-is-a-creature-below-you-must-avoid.jpg",
+      "https://cdn.mobygames.com/screenshots/17455390-planet-of-lana-windows-a-clue-to-solve-one-of-the-puzzles.jpg"
+    ],
+    "description": {
+      "es": "Aventura cinematográfica de puzles y plataformas pintada a mano. Lana y su fiel compañera Mui recorren un hermoso mundo alienígena para salvar su planeta de un ejército invasor, resolviendo puzles basados en la física y la cooperación.",
+      "en": "A hand-painted cinematic puzzle-platformer. Lana and her loyal companion Mui journey across a beautiful alien world to save their planet from an invading army, solving physics-based and cooperative puzzles."
+    },
+    "download": {
+      "region": "01003AD01D316000",
+      "size": "7.17GB",
+      "format": "xci",
+      "update": "1.2.3.0",
+      "fw": "18.0.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Portugués, Ruso, Coreano, Chino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Tlgxi40",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "planet-of-lana-2",
+    "console": "switch",
+    "title": "Planet of Lana 2",
+    "genre": "Aventura - Plataformas - Puzles",
+    "developer": "Wishfully Studios",
+    "publisher": "Thunderful",
+    "year": 2026,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2f6f8f",
+    "cover": "http://imgfz.com/i/ev75TLm.png",
+    "trailer": "CVygKJjRaTs",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/22725447-planet-of-lana-ii-children-of-the-leaf-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/22725451-planet-of-lana-ii-children-of-the-leaf-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/22725482-planet-of-lana-ii-children-of-the-leaf-screenshot.jpg"
+    ],
+    "description": {
+      "es": "Lana y Mui regresan en esta secuela cinematográfica de puzles y plataformas. Años después, recorren el mundo de Novo para enfrentarse a nuevas fuerzas que amenazan su hogar, con escenarios más grandes y una historia sobre la amistad.",
+      "en": "Lana and Mui return in this cinematic puzzle-platformer sequel. Years later, they journey across the world of Novo to confront new forces threatening their home, with bigger environments and a story about friendship."
+    },
+    "download": {
+      "region": "010015401F89E000",
+      "size": "11.4GB",
+      "format": "xci",
+      "update": "1.0.3",
+      "fw": "22.1.0",
+      "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Portugués, Ruso, Coreano, Chino, Polaco, Tailandés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/yTjHJk",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mega-man-x-legacy-collection-2-ps4",
+    "console": "ps4",
+    "title": "Mega Man X Legacy Collection 2",
+    "genre": "Acción - Plataforma - Compilación",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2018,
+    "rating": 60,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b82f6",
+    "cover": "http://imgfz.com/i/7VKMGZW.png",
+    "trailer": "qVcsI4xoiho",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743900/ss_c7a5cc100527e989d30ea1a29383774157e9182b.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743900/ss_c5b91e2788fff004e208fe03af6d35cb74349c89.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743900/ss_e66b53b7a74990ef7c8d1c223fe5566bb54ddbcc.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Mega Man X Legacy Collection 2 reúne Mega Man X5, X6, X7 y X8 en un solo paquete, junto al modo X Challenge, galería de arte, banda sonora y opciones para facilitar la dificultad.",
+      "en": "Mega Man X Legacy Collection 2 brings together Mega Man X5, X6, X7 and X8 in one package, along with X Challenge mode, an art gallery, soundtrack and beginner-friendly options."
+    },
+    "download": {
+      "region": "CUSA10778 - USA",
+      "size": "10.7GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Sedahe93",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/KYSP67",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mega-man-11-ps4",
+    "console": "ps4",
+    "title": "Mega Man 11",
+    "genre": "Acción - Plataforma - Ciencia ficción",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2018,
+    "rating": 82,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b82f6",
+    "cover": "http://imgfz.com/i/8fm9a75.png",
+    "trailer": "sEjxVfWzgVI",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/ss_36af3473db96e5654f46487a6306525eabf0a658.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/ss_9fc86f652972ac18079ca160798c96879ebe3e18.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/ss_b1449d9556d073825ea685245a59204f7249c587.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Mega Man 11 recupera la acción clásica de la saga con un nuevo estilo visual 2.5D y el sistema Doble Engranaje, que permite ralentizar el tiempo o potenciar los disparos. Ocho nuevos Robot Masters y niveles llenos de desafíos.",
+      "en": "Mega Man 11 brings back the classic action with a new 2.5D look and the Double Gear system, letting you slow down time or power up your shots. Eight new Robot Masters and challenging stages."
+    },
+    "download": {
+      "region": "CUSA10738 - EUR",
+      "size": "1.83GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Playable",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/lel5dS",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
