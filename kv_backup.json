@@ -11443,7 +11443,7 @@
       "region": "0100C49025D3E000",
       "size": "35GB",
       "format": "xci",
-      "update": "1.8c.cab1 - Comentaristas Es-Lat",
+      "update": "v1.8d.6523+Comentaristas Es-Lat",
       "fw": "23.0.0",
       "languages": "Japonés, Inglés, Español, Francés, Alemán, Italiano, Neerlandés, Portugués, Ruso, Coreano, Chino",
       "thanks": "",
@@ -14662,6 +14662,1302 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/lel5dS",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mega-man-zero-zx-legacy-collection-ps4",
+    "console": "ps4",
+    "title": "Mega Man Zero/ZX Legacy Collection",
+    "genre": "Acción - Plataforma - Compilación",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2020,
+    "rating": 83,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#3b82f6",
+    "cover": "http://imgfz.com/i/K8cWraS.png",
+    "trailer": "oZbt-IaJA9U",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/999020/ss_c07e5cb153923197bc96a602e5bd4d8cdcedb3bb.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/999020/ss_e3ee4da062732d7bd032a7d8d2b97ff8c96eaf9b.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/999020/ss_42473e91d4e410200978fa40cea147f944a26710.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Mega Man Zero/ZX Legacy Collection reúne Mega Man Zero 1, 2, 3 y 4 junto a Mega Man ZX y ZX Advent, con guardado automático, modo Casual y filtros visuales para disfrutar de las seis aventuras.",
+      "en": "Mega Man Zero/ZX Legacy Collection gathers Mega Man Zero 1-4 along with Mega Man ZX and ZX Advent, adding autosave, Casual Mode and visual filters across all six adventures."
+    },
+    "download": {
+      "region": "CUSA15023 - USA",
+      "size": "2.91GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "DUPLEX & Opoisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ytn1mq",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "middle-earth-shadow-of-mordor-goty-ps4",
+    "console": "ps4",
+    "title": "Middle-earth: Shadow of Mordor - Game of the Year Edition",
+    "genre": "Acción - Mundo abierto - Fantasía",
+    "developer": "Monolith Productions",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "year": 2015,
+    "rating": 84,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#b45309",
+    "cover": "http://imgfz.com/i/3C6mdUv.png",
+    "trailer": "BWkKx0GLa5Q",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/ss_a7a02628b413b410a91402cc24fe54a54b50a9d3.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/ss_601701af77a18ef504c38f0a920053f3f62ff059.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/ss_360e6a398db94335af8213c495ea7e943046edee.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Middle-earth: Shadow of Mordor - Game of the Year Edition incluye el juego base y todos los contenidos descargables, como los packs El Señor de la Caza y El Señor Luminoso. Explora la Tierra Media y forja tu venganza con el sistema Némesis.",
+      "en": "Middle-earth: Shadow of Mordor - Game of the Year Edition includes the base game and all downloadable content, such as the Lord of the Hunt and The Bright Lord packs. Explore Middle-earth and forge your revenge with the Nemesis system."
+    },
+    "download": {
+      "region": "CUSA02152 - EUR",
+      "size": "35.2GB",
+      "format": "pkg",
+      "update": "1.05",
+      "fw": "4.50+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "PRELUDE",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/4n84HF",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "street-fighter-6-ps4",
+    "console": "ps4",
+    "title": "Street Fighter 6",
+    "genre": "Lucha - Acción - Multijugador",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2023,
+    "rating": 92,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#ef4444",
+    "cover": "http://imgfz.com/i/JKa1Oil.png",
+    "trailer": "CnGnNCRW5jY",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_387137f8cccb048c35a8685634372e97785d40aa.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_a381f1b3b450c18900d47b991ce8e7456e9cdba5.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_f62ce93269a6d8e0027853358af4d6368e2c4b93.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Street Fighter 6 es la nueva entrega de la saga de lucha de Capcom, con el sistema Drive Gauge, tres modos de juego (World Tour, Fighting Ground y Battle Hub) y un plantel de luchadores clásicos y nuevos.",
+      "en": "Street Fighter 6 is Capcom's new fighting game entry, featuring the Drive Gauge system, three game modes (World Tour, Fighting Ground and Battle Hub) and a roster of classic and new fighters."
+    },
+    "download": {
+      "region": "CUSA31498 - EUR",
+      "size": "70.2GB",
+      "format": "pkg",
+      "update": "1.34 - 3DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/g9nwok",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fifa-17-ps4",
+    "console": "ps4",
+    "title": "FIFA 17",
+    "genre": "Deportes - Fútbol - Multijugador",
+    "developer": "EA Vancouver",
+    "publisher": "EA Sports",
+    "year": 2016,
+    "rating": 84,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#22c55e",
+    "cover": "http://imgfz.com/i/TUsPpi4.png",
+    "trailer": "-3fjoe5Njpc",
+    "screenshots": [
+      "https://www.video-games-museum.com/en/screenshots/Playstation%204/3/62094-ingame-FIFA-17.jpg",
+      "https://www.onpsx.de/media/images/filer_public/9b/03/9b037f8a-dbd5-4bab-83db-3be1a3bbfd3f/galerie_20160729_fifa17_b_Oquszuo.jpg",
+      "https://www.playstationcountry.com/wp-content/uploads/2016/10/FIFA-17-The-Journey-2-0-CRY-V-LEI-1st-Half.jpg"
+    ],
+    "description": {
+      "es": "FIFA 17 llega con el motor Frostbite, el modo historia The Journey protagonizado por Alex Hunter y mejoras en la física del balón, los movimientos y la inteligencia artificial.",
+      "en": "FIFA 17 arrives with the Frostbite engine, The Journey story mode starring Alex Hunter, and improvements to ball physics, movement and AI."
+    },
+    "download": {
+      "region": "CUSA03214 - EUR",
+      "size": "39.1GB",
+      "format": "pkg",
+      "update": "1.11",
+      "fw": "",
+      "languages": "Multi idioma (Castellano/Latino)",
+      "thanks": "BlaZe",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/NndXX2J",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "south-park-the-fractured-but-whole-ps4",
+    "console": "ps4",
+    "title": "South Park: The Fractured But Whole",
+    "genre": "RPG - Comedia - Aventura",
+    "developer": "Ubisoft San Francisco",
+    "publisher": "Ubisoft",
+    "year": 2017,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#f59e0b",
+    "cover": "http://imgfz.com/i/jqRxftr.png",
+    "trailer": "p5iH-uKHmfo",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_2f851a0caefb87f6e8a27dae8730194edcdc23d4.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_c3be86ef593551a05364c6b0d9c1b0446c18415b.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/ss_f3e0bcbe3358a11a19076c9435a5a2ca9248359a.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "South Park: The Fractured But Whole es la secuela del RPG de South Park, donde te unes al Coon y sus amigos en una guerra de superhéroes. Combates por turnos y humor sin filtros.",
+      "en": "South Park: The Fractured But Whole is the sequel to the South Park RPG, where you join The Coon and friends in a superhero war. Turn-based combat and unfiltered humor."
+    },
+    "download": {
+      "region": "CUSA04311 - USA",
+      "size": "28.7GB",
+      "format": "pkg",
+      "update": "1.10 - 7DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "High-Speed007 x PSVIETHOA.COM",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/SQVjsW",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "assassins-creed-the-ezio-collection-ps4",
+    "console": "ps4",
+    "title": "Assassin's Creed: The Ezio Collection",
+    "genre": "Acción - Mundo Abierto - Aventura",
+    "developer": "Virtuos",
+    "publisher": "Ubisoft",
+    "year": 2016,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#b91c1c",
+    "cover": "http://imgfz.com/i/e0wEfcN.png",
+    "trailer": "HPQl6hEa1jY",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/2854234-assassins-creed-the-ezio-collection-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/2853726-assassins-creed-the-ezio-collection-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/2856981-assassins-creed-the-ezio-collection-screenshot.jpg"
+    ],
+    "description": {
+      "es": "Assassin's Creed: The Ezio Collection reúne las versiones remasterizadas de Assassin's Creed II, Brotherhood y Revelations, junto a los cortos Embers y Lineage, con mejoras gráficas y todos los DLC de un jugador.",
+      "en": "Assassin's Creed: The Ezio Collection bundles the remastered versions of Assassin's Creed II, Brotherhood and Revelations, plus the short films Embers and Lineage, with visual upgrades and all single-player DLC."
+    },
+    "download": {
+      "region": "CUSA04893 - EUR",
+      "size": "37.3GB",
+      "format": "pkg",
+      "update": "1.02",
+      "fw": "",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Playable & hako",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/mQOEFzK",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "assassins-creed-iii-remastered-ps4",
+    "console": "ps4",
+    "title": "Assassin's Creed III Remastered",
+    "genre": "Acción - Mundo Abierto - Aventura",
+    "developer": "Ubisoft Montreal",
+    "publisher": "Ubisoft",
+    "year": 2019,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1a5276",
+    "cover": "http://imgfz.com/i/JbpVRym.png",
+    "trailer": "4rWU9PB-3Ns",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/911400/ss_3c0ef60ea9a2f72df176af41811dde6c5867c6c6.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/911400/ss_ab1d62e4bcf7123f5797b16cd7c7e2984a470cb2.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/911400/ss_63cd3caea8cbe8881aadd73a98a334a77d320f3a.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Assassin's Creed III Remastered mejora el clásico de 2012 con gráficos en 4K, nuevas texturas e iluminación, e incluye Liberation Remastered y todos los DLC de un jugador.",
+      "en": "Assassin's Creed III Remastered upgrades the 2012 classic with 4K visuals, new textures and lighting, and includes Liberation Remastered plus all single-player DLC."
+    },
+    "download": {
+      "region": "CUSA11560 - EUR",
+      "size": "55.3GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "6.72+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Playable & hako",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire Game",
+          "url": "https://ouo.io/h2BfRf",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update v1.03",
+          "url": "https://ouo.io/cfIU6sR",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "assassins-creed-iv-black-flag-ps4",
+    "console": "ps4",
+    "title": "Assassin's Creed IV: Black Flag",
+    "genre": "Acción - Mundo Abierto - Piratas",
+    "developer": "Ubisoft Montreal",
+    "publisher": "Ubisoft",
+    "year": 2013,
+    "rating": 88,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#0f766e",
+    "cover": "http://imgfz.com/i/PqAZrlC.png",
+    "trailer": "MtZBuWgnkzk",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242050/ss_82453694854272967e6f7c2147ff86f62a2b1408.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242050/ss_afb6f91bc96b51d0684bb4cbec4389b49dcb96db.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242050/ss_c2ad7f22e27b8ffab2a896e543a82fc8f6e9a1a7.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Assassin's Creed IV: Black Flag te pone en la piel de Edward Kenway, un pirata que navega el Caribe al mando del Jackdaw. Combate naval, abordajes y exploración de islas en mundo abierto.",
+      "en": "Assassin's Creed IV: Black Flag puts you in the boots of Edward Kenway, a pirate sailing the Caribbean aboard the Jackdaw. Naval combat, boarding actions and open-world island exploration."
+    },
+    "download": {
+      "region": "CUSA00010 - USA",
+      "size": "23.1GB",
+      "format": "pkg",
+      "update": "1.04 - 6DLC",
+      "fw": "",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "kbis",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/Y1VXA3",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "assassins-creed-rogue-remastered-ps4",
+    "console": "ps4",
+    "title": "Assassin's Creed Rogue Remastered",
+    "genre": "Acción - Mundo Abierto - Aventura",
+    "developer": "Ubisoft Sofia",
+    "publisher": "Ubisoft",
+    "year": 2018,
+    "rating": 71,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1e3a8a",
+    "cover": "http://imgfz.com/i/WS4QfIe.png",
+    "trailer": "Kk9qNzGqofE",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311560/ss_907bf97f0b1f52e0f16afa2a86eab2d6d8a5c773.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311560/ss_221f6e993cdfc946eb1d61129b535d9d18b1c603.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311560/ss_142c19862c8bb307252dedf7f17cda4eb5f3f2b8.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Assassin's Creed Rogue Remastered sigue a Shay Cormac, un templario que caza a sus antiguos hermanos asesinos por el Atlántico Norte. Incluye mejoras gráficas, 4K en PS4 Pro y todos los DLC.",
+      "en": "Assassin's Creed Rogue Remastered follows Shay Cormac, a Templar hunting his former Assassin brothers across the North Atlantic. It adds visual upgrades, 4K on PS4 Pro and all DLC."
+    },
+    "download": {
+      "region": "CUSA10123 - EUR",
+      "size": "9.57GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/2FRbqQ",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.03",
+          "url": "https://ouo.io/BFhLBc",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "borderlands-3-ultimate-edition-ps4",
+    "console": "ps4",
+    "title": "Borderlands 3 Ultimate Edition",
+    "genre": "FPS - RPG - Loot",
+    "developer": "Gearbox Software",
+    "publisher": "2K",
+    "year": 2019,
+    "rating": 81,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#f59e0b",
+    "cover": "http://imgfz.com/i/SbCO8IN.png",
+    "trailer": "gjLQ2Uj4OPw",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/ss_9868ee40f39749a4c8222502cf86525ee32c1bef.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/ss_f2053d688ec55f2269c47b24313539938bef9064.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/ss_624638e46ed590d4bb1835558a5ab0981f7baadd.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Borderlands 3 Ultimate Edition incluye el juego base, los cuatro packs de historia, el pase de temporada 2 y todos los cosméticos. Loot infinito, cooperativo hasta 4 jugadores y millones de armas en Pandora y más planetas.",
+      "en": "Borderlands 3 Ultimate Edition includes the base game, all four campaign add-ons, Season Pass 2 and every cosmetic pack. Endless loot, 4-player co-op and millions of guns across Pandora and beyond."
+    },
+    "download": {
+      "region": "CUSA07823 - USA",
+      "size": "91.3GB",
+      "format": "pkg",
+      "update": "1.32 - 21DLC",
+      "fw": "7.50+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "Fugazi & CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/lDwOdm",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update v1.32",
+          "url": "https://ouo.io/1YbZYWg",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - 21DLC",
+          "url": "https://ouo.io/47GHPK",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lords-of-the-fallen-ps4",
+    "console": "ps4",
+    "title": "Lords of the Fallen",
+    "genre": "RPG - Acción - Soulslike",
+    "developer": "Deck13 Interactive",
+    "publisher": "CI Games",
+    "year": 2014,
+    "rating": 75,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#4c1d95",
+    "cover": "http://imgfz.com/i/Epya7C9.png",
+    "trailer": "aBHBXOBKyAM",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/265300/ss_a13bdedd399d0a8d55839dc5255ac321eae51530.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/265300/ss_c362d07db7a038b6a1c4d14865d4bce9f7c5595c.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/265300/ss_1872d8f80025edb347c8934e8ccf9e4a6269ea49.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Lords of the Fallen es un RPG de acción con combates exigentes al estilo soulslike. Encarna a Harkyn y enfréntate a los señores caídos en un mundo de fantasía oscura, con clases, magia y equipo personalizable.",
+      "en": "Lords of the Fallen is an action RPG with demanding soulslike combat. Play as Harkyn and face the fallen lords in a dark fantasy world, with classes, magic and customizable gear."
+    },
+    "download": {
+      "region": "CUSA00369 - USA",
+      "size": "5.19GB",
+      "format": "pkg",
+      "update": "1.03 - 6DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Cisso",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/BUKwqPV",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lego-marvel-super-heroes-ps4",
+    "console": "ps4",
+    "title": "LEGO Marvel Super Heroes",
+    "genre": "Acción - Aventura - Puzzles",
+    "developer": "TT Games",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "year": 2013,
+    "rating": 80,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "No",
+    "color": "#dc2626",
+    "cover": "http://imgfz.com/i/p9VZFet.png",
+    "trailer": "ydXUZbrg1nc",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/ss_ae02f99f0c999910d7615adc299ebeb311882b8e.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/ss_ab3a235ddbddfd740e34271a508a6afd6ff099d2.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/ss_1a16e90d51f02fd022b071d00b286e71234cea4f.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "LEGO Marvel Super Heroes reúne a más de 100 personajes de Marvel en una aventura cooperativa para toda la familia. Resuelve puzles, destruye todo a tu paso y detén a Loki y a Galactus.",
+      "en": "LEGO Marvel Super Heroes gathers over 100 Marvel characters in a family-friendly co-op adventure. Solve puzzles, smash everything in sight and stop Loki and Galactus."
+    },
+    "download": {
+      "region": "CUSA00083 - USA",
+      "size": "5.84GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "TKJ13 & Mmajunkie77",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ayZu3Qa",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-origins-collection-ps4",
+    "console": "ps4",
+    "title": "Resident Evil Origins Collection",
+    "genre": "Survival Horror - Acción - Aventura",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "year": 2016,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#14532d",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/34967-1.jpg",
+    "trailer": "Sq_H2-DcbCQ",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304240/ss_d75906451d3a57bb8fc65fdea7ce09fbf1d3b726.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304240/ss_d27983bb8176325d81cf0ca83dfb30ec247e6f23.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/339340/ss_d5a3942f55ef3740038f47b3cba060d8f7c30796.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Resident Evil Origins Collection reúne las remasterizaciones en HD de Resident Evil (1996) y Resident Evil 0, con gráficos mejorados, controles modernos y todos los trajes y DLC. Supervivencia clásica en la mansión Spencer y el tren Ecliptic Express.",
+      "en": "Resident Evil Origins Collection bundles the HD remasters of Resident Evil (1996) and Resident Evil 0, with upgraded visuals, modern controls and all costumes and DLC. Classic survival horror in the Spencer Mansion and aboard the Ecliptic Express."
+    },
+    "download": {
+      "region": "CUSA03178 - USA",
+      "size": "26.7GB",
+      "format": "pkg",
+      "update": "1.01 - 6DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Whitehawkx & Schzone",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/qShtfP",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wwe-2k25-ps4",
+    "console": "ps4",
+    "title": "WWE 2K25",
+    "genre": "Deportes - Lucha Libre - Simulación",
+    "developer": "Visual Concepts",
+    "publisher": "2K",
+    "year": 2025,
+    "rating": 80,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#7f1d1d",
+    "cover": "https://i.postimg.cc/ht0qYbM6/Polish-20261110-232441147.png",
+    "trailer": "iWuefHrXrzI",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878960/5ef1ba4047e35f6c45e841fa41ac5db1088d515a/ss_5ef1ba4047e35f6c45e841fa41ac5db1088d515a.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878960/7e6459ddf860a66d527860c600679edfed9b8c8e/ss_7e6459ddf860a66d527860c600679edfed9b8c8e.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878960/9ccfcac05c783e593807fad182b88f789611d22a/ss_9ccfcac05c783e593807fad182b88f789611d22a.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "WWE 2K25 trae el roster más grande hasta la fecha, el modo Showcase de The Bloodline, MyRISE, Universe y MyGM, además de mejoras en el combate y creación de superestrellas. Incluye 16 DLC.",
+      "en": "WWE 2K25 delivers the biggest roster to date, The Bloodline Showcase, MyRISE, Universe and MyGM modes, plus improved combat and superstar creation. Includes 16 DLC packs."
+    },
+    "download": {
+      "region": "CUSA48576 - EUR",
+      "size": "88.1GB",
+      "format": "pkg",
+      "update": "1.28 - 16DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/2jil1M",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.28",
+          "url": "https://ouo.io/EANNUPQ",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - 16DLC",
+          "url": "https://cuty.io/wwps4",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "final-fantasy-i-vi-pixel-remaster-ps4",
+    "console": "ps4",
+    "title": "FINAL FANTASY I-VI Pixel Remaster",
+    "genre": "RPG – JRPG – Retro",
+    "developer": "Square Enix / TOSE",
+    "publisher": "Square Enix",
+    "year": 2023,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c5cff",
+    "cover": "http://imgfz.com/i/DikwLhK.png",
+    "trailer": "HesDgpmoD-c",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/10653554-final-fantasy-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/10666206-final-fantasy-iii-screenshot.jpg",
+      "https://cdn.mobygames.com/promos/11374572-final-fantasy-vi-screenshot.jpg"
+    ],
+    "description": {
+      "es": "Disfruta de seis aventuras legendarias que marcaron la historia de los juegos de rol japoneses. Explora mundos fantásticos, enfréntate a poderosos enemigos y descubre historias llenas de magia, amistad y grandes desafíos. Esta colección reúne los seis primeros títulos de la saga con gráficos pixel art renovados, música remasterizada y mejoras para una experiencia clásica.",
+      "en": "Enjoy six legendary adventures that shaped the history of Japanese role-playing games. Explore fantastical worlds, face powerful enemies, and discover stories filled with magic and friendship."
+    },
+    "download": {
+      "region": "FF1: CUSA33817 - USA\nFF2: CUSA33821 - USA\nFF3: CUSA33825 - USA\nFF4: CUSA33829 - USA\nFF5: CUSA33833 - USA\nFF6: CUSA33837 - USA",
+      "size": "FF1: 919MB\nFF2: 901MB\nFF3: 1.01GB\nFF4: 1.11GB\nFF5: 1.08GB\nFF6: 1.82GB",
+      "format": "pkg",
+      "update": "FF1: 1.20\nFF2: 1.20\nFF3: 1.20\nFF4: 1.20\nFF5: 1.21\nFF6: 1.21",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Droby25",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire FF1",
+          "url": "https://ouo.io/3rLAHzZ",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire FF2",
+          "url": "https://ouo.io/syV4NxU",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire FF3",
+          "url": "https://ouo.io/TRlRxLO",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire FF4",
+          "url": "https://ouo.io/iCaylOS",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire FF5",
+          "url": "https://ouo.io/THYt7F",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire FF6",
+          "url": "https://ouo.io/Z9cJTe",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rabbids-party-of-legends-ps4",
+    "console": "ps4",
+    "title": "Rabbids: Party of Legends",
+    "genre": "Fiesta - Minijuegos - Familiar",
+    "developer": "Ubisoft Chengdu",
+    "publisher": "Ubisoft",
+    "year": 2022,
+    "rating": 69,
+    "players": "1-4",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#0ea5e9",
+    "cover": "https://cdn1.telesco.pe/file/N942tzvFB3t_54Mv10MyNPF-99sjn06wnsZnDIdU4OeFfQLlVd6tQ2nXC0jAM3j74BZj0QZVOrzbBzvK4CEh6ThhoXW30gzp3av0OtzEnyxClSdt0JJNjjNwMegVg-9yCGFbi2azCkcY4__hrcuWxQyyry0uzoazjE_I9krTKDQTZA7k9JajP9fT3OzjG7UkOFKvAYD2J5UO1u4FpamoNLO6KOLL_hSlk_XdQvp4bEM4u8IZJwGCTxc6WbtNFgK3fBBN9UzSOscEclxXJm4xSzTmDr_OnF4c6iyPujZAI4BKbF7G8f7YBVQidpbu3kYqBOoDIdxH8Oo_0__nb-51NQ.jpg",
+    "trailer": "Vr5kvU_NoF0",
+    "screenshots": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202205/2518/hUoePJTadYK4Wn3Rqx7Ycco6.jpg",
+      "https://i.playground.ru/i/screenshot/169322/rabbids_party_of_legends.jpg",
+      "https://i.playground.ru/i/screenshot/169324/rabbids_party_of_legends.jpg"
+    ],
+    "description": {
+      "es": "Los Rabbids viajan en su lavadora hasta un mundo mitológico inspirado en la novela clásica china 'Viaje al Oeste'. Party de 50 minijuegos para hasta 4 jugadores en local, con historia en cuatro capítulos, listas personalizadas de minijuegos y dificultad ajustable.",
+      "en": "The Rabbids ride their washing machine into a mythological world inspired by the classic Chinese novel 'Journey to the West'. A party game with 50 minigames for up to 4 local players, a four-chapter story, custom minigame playlists and adjustable difficulty."
+    },
+    "download": {
+      "region": "CUSA27237 - USA",
+      "size": "4.50GB",
+      "format": "pkg",
+      "update": "1.0.1",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/W1ltXA",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.0.1",
+          "url": "https://ouo.io/CWBSlM",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "borderlands-game-of-the-year-edition-ps4",
+    "console": "ps4",
+    "title": "Borderlands: Game of the Year Edition",
+    "genre": "FPS - Rol - Acción",
+    "developer": "Gearbox Software",
+    "publisher": "2K",
+    "year": 2019,
+    "rating": 76,
+    "players": "1-4",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#f97316",
+    "cover": "https://cdn1.telesco.pe/file/oQ03b7wSGTsu32krQG8-2ZLrqSgOa_1L65jkeTh5G6xOjEBdS-wK4oOJ2mAad06aG4LMDhYMCTQ-Rg-6PvjDmwV4Fmm9Z3FxHC65Epb9OAsulNGMQkWs6ps1tkuFXX0ovn4BPstdPogxbFv1BWFL89AQwtJ1RCFW5WnT1acwsag22fr3uYmaS_uwdqz0R_o10ZFOQmia4kbUKSrX_jsWhddm3NTIAwUjSAYfeJqG2AmYZSMwxu7mz0dc-_cmcMSrPWfBi2B4rwgK9wfnLX9Vtfyr-pH8rBGt3WOXMHTa2OeBEV6CVdKii_izYs4QGtYgKTY0vGru0Dr94mTAndaJpg.jpg",
+    "trailer": "PhKdNRqoras",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729040/ss_ef109a2667cf7d690426e657ad3cc1990205aeea.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729040/ss_8de560caa17336bf6c2f5044b0e8aab2c0af6eff.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729040/ss_3d820500047c66c133026a0150a1963a2d14c6bc.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Remasterización del clásico de 2009 con gráficos mejorados y todo su contenido: los 4 DLC (The Zombie Island of Dr. Ned, Mad Moxxi's Underdome Riot, The Secret Armory of General Knoxx y Claptrap's New Robot Revolution), además de mejoras de jugabilidad y cooperativo para 4 jugadores.",
+      "en": "Remaster of the 2009 classic with upgraded visuals and all of its content: the 4 DLCs (The Zombie Island of Dr. Ned, Mad Moxxi's Underdome Riot, The Secret Armory of General Knoxx and Claptrap's New Robot Revolution), plus gameplay improvements and 4-player co-op."
+    },
+    "download": {
+      "region": "CUSA13055 - USA",
+      "size": "11.5GB",
+      "format": "pkg",
+      "update": "1.07",
+      "fw": "5.50+",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/2BvyYZ",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.07",
+          "url": "https://ouo.io/Z5MDEo",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "efootball-2026-ps4",
+    "console": "ps4",
+    "title": "eFootball 2026",
+    "genre": "Deportes - Fútbol - Simulación",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": 2025,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#22c55e",
+    "cover": "https://cdn1.telesco.pe/file/JpWTyAbjY6Gvknd9yGMPtW0GuK6OkPChuhm_-uRkUGBJpDebyV0DBM2y4JnIQw1QX5GFG78vG1dTf7ukvKlIJzMZFRD-sU5ntq7x9gHaCFI00s3RqPvufoJaG4z6mawXKEfivAWDp0pFSeDrZJNOzKUl1TKcURDaBEyNuHx3o7K4VHCLnZZ7Ku9kA_W9F-LwVR_QfQYql7SVuBGHwWCohybjBv2NSKgkD3KlBaHnnJMny1OEzH2ZprLH7NJC_uqiOM3N3zxjwD44yqy-h2oqsg0s6V5dO40ANL1IfaiLgWiOpwEgwhW688xER24Jglg0lCalaa7zQD7hBU4QfNUXmg.jpg",
+    "trailer": "IdnAkO5mujY",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/3b0db0c05317dec6063cfcdbc1ed7d079a33c87d/ss_3b0db0c05317dec6063cfcdbc1ed7d079a33c87d.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/6c864a19497fbad11d70fd3078819e341b53e710/ss_6c864a19497fbad11d70fd3078819e341b53e710.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/19198cc1acc851a60c4f29f5b906b1e1890eaa8a/ss_19198cc1acc851a60c4f29f5b906b1e1890eaa8a.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Temporada 2026 del simulador de fútbol gratuito de Konami, con plantillas y equipaciones actualizadas, modo Dream Team, eventos en vivo y juego online multiplataforma. Incluye los modos de siempre y mejoras en el control y la IA.",
+      "en": "The 2026 season of Konami's free-to-play football simulation, with updated squads and kits, Dream Team mode, live events and cross-platform online play, plus refinements to controls and AI."
+    },
+    "download": {
+      "region": "CUSA26997 - USA",
+      "size": "50.8GB",
+      "format": "pkg",
+      "update": "1.39",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Opoisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Parte 1-2",
+          "url": "https://ouo.io/2z241z",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Parte 3-4",
+          "url": "https://www.mediafire.com/folder/dl6q23qh2coif/EFOOT",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "terminator-2d-no-fate-ps4",
+    "console": "ps4",
+    "title": "Terminator 2D: NO FATE",
+    "genre": "Acción - Run and Gun - Arcade",
+    "developer": "Bitmap Bureau",
+    "publisher": "Reef Entertainment",
+    "year": 2025,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#dc2626",
+    "cover": "https://cdn1.telesco.pe/file/NG75mtHEFgsJWlkAB84qExrxRxrotCrJFnp6UQ6HG1tO5sRUupGYpBbEmQJkgZN919SmpLHplEiY6-5oiBouwC7CIka9GZ9t2eho1k9cUv1tNTpzmsyrexXTwaPRYgC5EHCJRse67fOFLd2irQozW4WkUF9inU3D8jRa7etvYtLiQp6_lcjcZO1_6fxPWG9vmZovz2v4i05ckrybhFgy0yeiiqKQiyMVtMeI9ltMOcwXPYm9NSm8tX2aKIpLCL5FYQWF5YPsTHCOPe7tli4_PbIlNlwurXQFzhU0knQbSkn4jPCi5U1ajdn-gcNtkuXRATKwdlX3klrdvkXei3cY6w.jpg",
+    "trailer": "8miDYnbQJbE",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1718460/ss_f52dae9aa8fd6f5334cd1888ab350eb9711abcbb.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1718460/ss_b270fc9397f154b1c14a22de352ead4466ee7825.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1718460/ss_8c8d277afa97c892d4550aa3dcff008cfd5c717a.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Juego de acción 2D estilo arcade ambientado en el universo de Terminator 2: el juicio final. Controla a Sarah Connor y al T-800 en misiones con disparos, sigilo y combates contra jefes, con múltiples finales según tus decisiones y una presentación pixel art de 16 bits.",
+      "en": "An arcade-style 2D action game set in the Terminator 2: Judgment Day universe. Play as Sarah Connor and the T-800 across shooting, stealth and boss-fight missions, with multiple endings based on your choices and 16-bit pixel-art presentation."
+    },
+    "download": {
+      "region": "CUSA51101 - EUR",
+      "size": "1.15GB",
+      "format": "pkg",
+      "update": "1.02",
+      "fw": "6.72 / 12.00",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/cJBvSst",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.02",
+          "url": "https://ouo.io/gg0ZJJ",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fist-forged-in-shadow-torch-ps4",
+    "console": "ps4",
+    "title": "F.I.S.T.: Forged In Shadow Torch",
+    "genre": "Metroidvania - Acción - Plataforma",
+    "developer": "TiGames",
+    "publisher": "Astrolabe Games",
+    "year": 2021,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#0891b2",
+    "cover": "http://imgfz.com/i/26XonZ0.png",
+    "trailer": "gv40ey28Z2k",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1330470/ss_7df6a4834d21faef268c54e82b228c4442c33ea8.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1330470/ss_d859bc7d1eeb92ba0b863820a3f5b8d2aeaa626b.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1330470/ss_e1d32451f4ad62c603c2778ad4075fd11d0dbc16.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Metroidvania de acción con estética dieselpunk. Encarna a Rayton, un conejo con un puño mecánico gigante, y recorre la ciudad de Torch City para liberarla de la ocupación de la Legión Mecánica, combinando combos con tres armas y exploración con habilidades desbloqueables.",
+      "en": "A dieselpunk action metroidvania. Play as Rayton, a rabbit wielding a giant mechanical fist, and fight through Torch City to free it from the Mechanical Legion's occupation, mixing combos with three weapons and ability-gated exploration."
+    },
+    "download": {
+      "region": "CUSA28371 - EUR",
+      "size": "24.2GB",
+      "format": "pkg",
+      "update": "1.22",
+      "fw": "9.00+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/fAGzv4k",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.22",
+          "url": "https://ouo.io/cD0gy9",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aeterna-noctis-ps4",
+    "console": "ps4",
+    "title": "Aeterna Noctis",
+    "genre": "Metroidvania - Plataforma - Acción",
+    "developer": "Aeternum Game Studios",
+    "publisher": "Aeternum Game Studios",
+    "year": 2021,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7c3aed",
+    "cover": "http://imgfz.com/i/hRABqdp.png",
+    "trailer": "F-BCIHI-SKM",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517970/ss_3a1043618acf056a9fbc07aee30c43f1811f80fa.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517970/ss_be55155527da677382bbd298652e7cb41c48f3c3.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517970/ss_6d6790d4aadf2316649943176ec404571c331af8.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Metroidvania 2D de dificultad alta con dibujos hechos a mano. Controla al Rey de la Oscuridad en Aeterna, un mundo dividido en 16 zonas conectadas, con plataformas de precisión, combates contra jefes y habilidades que irás desbloqueando para seguir avanzando.",
+      "en": "A high-difficulty 2D metroidvania with hand-drawn art. Play as the King of Darkness across Aeterna, a world split into 16 interconnected areas, with precision platforming, boss fights and abilities you unlock to progress."
+    },
+    "download": {
+      "region": "CUSA27237 - USA",
+      "size": "5.37GB",
+      "format": "pkg",
+      "update": "1.08",
+      "fw": "9.00+",
+      "languages": "Multi idioma",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/Va49GY",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.08",
+          "url": "https://ouo.io/gbNsAg",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - DLC",
+          "url": "https://cuty.io/yC7Ltm2VvmR8",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "summum-aeterna-ps4",
+    "console": "ps4",
+    "title": "Summum Aeterna",
+    "genre": "Roguelite - Acción - Plataforma",
+    "developer": "Aeternum Game Studios",
+    "publisher": "Aeternum Game Studios",
+    "year": 2023,
+    "rating": 71,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#9333ea",
+    "cover": "http://imgfz.com/i/94cBsIn.png",
+    "trailer": "qjP1O4oC2j4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1815230/ss_af59a7da3003f2f19785233a7f1482b72f54fed3.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1815230/ss_f9f86617d38022b8ccde6eee97e4b8f88fc404da.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1815230/ss_c620361b8276e72422ff5de151b2273ad7dd923d.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Roguelite de acción en 2D, precuela de Aeterna Noctis. Explora mazmorras generadas con semilla, combina armas y habilidades, y mejora al Rey de la Oscuridad partida tras partida para sobrevivir al mundo de Aeterna.",
+      "en": "A 2D action roguelite and prequel to Aeterna Noctis. Explore seed-generated dungeons, combine weapons and abilities, and upgrade the King of Darkness run after run to survive the world of Aeterna."
+    },
+    "download": {
+      "region": "CUSA41257 - USA",
+      "size": "6.38GB",
+      "format": "pkg",
+      "update": "1.06",
+      "fw": "10.50+",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/lbXnYp",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.06",
+          "url": "https://ouo.io/VgYyxHK",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bleach-rebirth-of-souls-ps4",
+    "console": "ps4",
+    "title": "BLEACH Rebirth of Souls",
+    "genre": "Lucha - Acción - Anime",
+    "developer": "Tamsoft",
+    "publisher": "Bandai Namco Entertainment",
+    "year": 2025,
+    "rating": 71,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#1e40af",
+    "cover": "http://imgfz.com/i/f5LZkWV.png",
+    "trailer": "hiyFl_UPGpk",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1689620/ss_8108c4ed643d4b044ae593c53ab90972f1f8f91c.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1689620/ss_1c2da8e66d54596c8a890d9c838c4f87d23e779e.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1689620/ss_7d219a884e0e9406681deb397b91c223fa453b63.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Juego de lucha en 3D basado en el anime BLEACH. Revive la historia de Ichigo Kurosaki desde el arco del Shinigami sustituto hasta la saga de la Guerra Sangrienta de los Mil Años, con combates donde el estado de tu personaje cambia según tu estilo de pelea.",
+      "en": "A 3D fighting game based on the BLEACH anime. Relive Ichigo Kurosaki's story from the Substitute Shinigami arc to the Thousand-Year Blood War saga, with battles where your character's state shifts based on how you fight."
+    },
+    "download": {
+      "region": "CUSA25090 - JPN",
+      "size": "38.2GB",
+      "format": "pkg",
+      "update": "1.41 - 13DLC",
+      "fw": "5.05 - 11.00",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/U9tpvl",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.41",
+          "url": "https://ouo.io/yIlbm4",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - 13DLC",
+          "url": "https://cuty.io/dlcble",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "def-jam-fight-for-ny-ps4",
+    "console": "ps4",
+    "title": "Def Jam: Fight for NY",
+    "genre": "Lucha - Acción - Beat 'em up",
+    "developer": "EA Canada",
+    "publisher": "EA",
+    "year": 2004,
+    "rating": 83,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#111827",
+    "cover": "http://imgfz.com/i/RbIQxZp.png",
+    "trailer": "XsXqntszTuM",
+    "screenshots": [
+      "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/09/fighting-in-a-subway-station-in-def-jam-fight-for-ny.jpg?q=49&fit=contain&w=1920&h=1080&dpr=2",
+      "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/09/fighting-in-an-underground-match-in-def-jam-fight-for-ny.jpg?q=49&fit=contain&w=1920&h=1080&dpr=2",
+      "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/08/def-jam-fight-for-ny-underground-fight.jpg?q=49&fit=contain&w=2560&h=1440&dpr=2"
+    ],
+    "description": {
+      "es": "Clásico de PS2 jugable en PS4 (pkg), con parche al español. Crea tu luchador y gana territorio en Nueva York para el clan D-Mob, usando estilos de pelea como boxeo, kickboxing, artes marciales, lucha libre y streetfighting, con un plantel de raperos y celebridades.",
+      "en": "The PS2 classic playable on PS4 (pkg), with a Spanish patch. Create your fighter and take over New York for D-Mob's crew, mixing fighting styles such as boxing, kickboxing, martial arts, wrestling and streetfighting, with a roster of rappers and celebrities."
+    },
+    "download": {
+      "region": "SLUS21004 - USA",
+      "size": "2.18GB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Parche Español",
+      "thanks": "modzarf",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/vHDAvh",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mortal-kombat-xl-ps4",
+    "console": "ps4",
+    "title": "Mortal Kombat XL",
+    "genre": "Lucha - Acción - Multijugador",
+    "developer": "NetherRealm Studios",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "year": 2016,
+    "rating": 85,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#b91c1c",
+    "cover": "http://imgfz.com/i/InTM7cb.png",
+    "trailer": "i1ERdDkdQj4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307780/ss_03f7f4582a1036cbcbca1a4c87e14c7831b5f424.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307780/ss_1f002ef5eb037c81e92bcbc29306fc91d4b6d26f.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307780/ss_0f4f568f3a4ee49061484b5ea916d634f443b8a9.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Edición completa de Mortal Kombat X que incluye los dos Kombat Packs y el Kombat Pack 2: nuevos personajes como Predator, Jason Voorhees, Leatherface, Alien, Triborg y Bo'Rai Cho, además de todos los trajes alternativos. Combates brutales con X-Rays, Brutalities y Fatalities.",
+      "en": "The complete edition of Mortal Kombat X including both Kombat Packs and Kombat Pack 2: new fighters such as Predator, Jason Voorhees, Leatherface, Alien, Triborg and Bo'Rai Cho, plus every alternate costume. Brutal combat with X-Rays, Brutalities and Fatalities."
+    },
+    "download": {
+      "region": "CUSA03589 - USA",
+      "size": "39.8GB",
+      "format": "pkg",
+      "update": "1.06 + DLC",
+      "fw": "",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Radiowasnton",
+      "mod": "Mod Unlock",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/zfCvfD",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.06 + DLC",
+          "url": "https://ouo.io/Vi6Ni8",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pro-evolution-soccer-2019-ps4",
+    "console": "ps4",
+    "title": "Pro Evolution Soccer 2019",
+    "genre": "Deportes - Fútbol - Multijugador",
+    "developer": "Konami Digital Entertainment",
+    "publisher": "Konami Digital Entertainment",
+    "year": 2018,
+    "rating": 79,
+    "players": "1-4",
+    "cooperativo": "Sí",
+    "multijugador": "Local y online",
+    "color": "#16a34a",
+    "cover": "http://imgfz.com/i/KjpXUY0.png",
+    "trailer": "1cwSdaLQJ7c",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/770240/ss_4dc30252d414e68443abdd7991b28bb34bb0ef7d.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/770240/ss_db666768df57f6435e60bef85f8592569f022164.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/770240/ss_18fa806abddfce71459a07add7da46e5e1ccc44d.1920x1080.jpg"
+    ],
+    "description": {
+      "es": "Simulador de fútbol con la licencia oficial de la UEFA Champions League, la Europa League y la Supercopa de Europa, además de las ligas sudamericanas. Incluye el modo myClub, la Leyenda de Master League y un sistema de control renovado con más precisión en los disparos y el primer toque.",
+      "en": "Football simulator with the official UEFA Champions League, Europa League and UEFA Super Cup licenses, plus South American leagues. Features myClub, Master League legend mode and a reworked control system with more precise shooting and first touch."
+    },
+    "download": {
+      "region": "CUSA11154 - EUR",
+      "size": "27.1GB",
+      "format": "pkg",
+      "update": "1.14",
+      "fw": "5.50+",
+      "languages": "Multi idioma",
+      "thanks": "Duplex",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire - Game",
+          "url": "https://ouo.io/z0yvu8h",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Update 1.14",
+          "url": "https://ouo.io/vB4YHz",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "midnight-club-3-dub-edition-remix-ps4",
+    "console": "ps4",
+    "title": "Midnight Club 3: DUB Edition Remix",
+    "genre": "Carreras - Acción - Mundo abierto",
+    "developer": "Rockstar San Diego",
+    "publisher": "Rockstar Games",
+    "year": 2006,
+    "rating": 85,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#f59e0b",
+    "cover": "http://imgfz.com/i/CIwXuWB.png",
+    "trailer": "dWYXv1eRj1g",
+    "screenshots": [
+      "https://cdn.mobygames.com/promos/5289135-midnight-club-3-dub-edition-remix-screenshot.jpg",
+      "https://cdn.mobygames.com/screenshots/11756904-midnight-club-3-dub-edition-remix-playstation-2-burning-rubber.jpg",
+      "https://cdn.mobygames.com/screenshots/11756901-midnight-club-3-dub-edition-remix-playstation-2-tuner-cars-eclip.jpg"
+    ],
+    "description": {
+      "es": "Clásico de PS2 jugable en PS4 (pkg). Versión Remix de Midnight Club 3 que añade nuevas ciudades (Tokio y Atlanta), más de 20 vehículos extra, nuevas pistas de música y opciones de personalización, dentro de carreras ilegales por Detroit, San Diego y Atlanta.",
+      "en": "The PS2 classic playable on PS4 (pkg). The Remix version of Midnight Club 3 adds new cities (Tokyo and Atlanta), over 20 extra vehicles, new music tracks and customization options, inside illegal street races across Detroit, San Diego and Atlanta."
+    },
+    "download": {
+      "region": "SLES53717 - EUR",
+      "size": "4.08GB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/HWe8HU",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bloodborne-game-of-the-year-edition-ps4",
+    "console": "ps4",
+    "title": "Bloodborne Game of the Year Edition",
+    "genre": "Acción - RPG - Soulslike",
+    "developer": "FromSoftware",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2015,
+    "rating": 92,
+    "players": "1",
+    "cooperativo": "Sí",
+    "multijugador": "Online",
+    "color": "#1f2937",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/64537-1.jpg",
+    "trailer": "2Crk_GpxGQE",
+    "screenshots": [
+      "https://images6.alphacoders.com/584/thumb-1920-584231.jpg",
+      "https://get.wallhere.com/photo/Bloodborne-screenshot-146657.jpg",
+      "https://images4.alphacoders.com/561/thumb-1920-561262.jpg"
+    ],
+    "description": {
+      "es": "Edición Game of the Year que incluye el juego base y la expansión The Old Hunters. En la ciudad de Yharnam, un cazador debe abrirse paso entre multitudes enfermas y bestias ancestrales, con combates rápidos y agresivos, armas transformables y un mundo interconectado de inspiración lovecraftiana.",
+      "en": "Game of the Year edition including the base game and The Old Hunters expansion. In the city of Yharnam, a hunter must carve a path through plague-ridden mobs and ancient beasts, with fast and aggressive combat, trick weapons and an interconnected world of Lovecraftian inspiration."
+    },
+    "download": {
+      "region": "CUSA03173 - EUR",
+      "size": "29.3GB",
+      "format": "pkg",
+      "update": "Juego + Update 1.09 (1080p 60fps) + DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Prelude",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/SOemS4",
+          "color": "blue"
+        },
+        {
+          "label": "Mediafire - Parche Español Latino",
+          "url": "https://ouo.io/zHqRG6B",
           "color": "blue"
         }
       ]
