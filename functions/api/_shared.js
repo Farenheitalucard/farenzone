@@ -35,10 +35,10 @@ export function sanitizeGame(g) {
     },
     download: g.download
       ? {
-          region: cleanText(g.download.region, 120),
-          size: cleanText(g.download.size, 40),
+          region: cleanText(g.download.region, 300),
+          size: cleanText(g.download.size, 300),
           format: cleanText(g.download.format, 40),
-          update: cleanText(g.download.update, 40),
+          update: cleanText(g.download.update, 300),
           fw: cleanText(g.download.fw, 40),
           languages: cleanText(g.download.languages, 200),
           thanks: cleanText(g.download.thanks, 200),
