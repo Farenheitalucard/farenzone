@@ -15962,5 +15962,173 @@
         }
       ]
     }
+  },
+  {
+    "id": "gran-turismo-7-ps4",
+    "console": "ps4",
+    "title": "Gran Turismo 7",
+    "genre": "Carreras - Simulación - Multijugador",
+    "developer": "Polyphony Digital",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2022,
+    "rating": 82,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#0ea5e9",
+    "cover": "http://imgfz.com/i/kEwr8xJ.png",
+    "trailer": "PJfKtoLdri4",
+    "screenshots": [
+      "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-02-disclaimer-en-01oct20?$native$",
+      "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-03-disclaimer-en-01oct20?$native$",
+      "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-08-disclaimer-en-01oct20?$native$"
+    ],
+    "description": {
+      "es": "El regreso de la saga de conducción de Polyphony Digital. Reúne más de 400 coches en el Café, compite en circuitos de todo el mundo y personaliza cada detalle en GT Auto, con un modo carrera que recorre la historia del automóvil. Incluye conducción con física realista, clima dinámico y modo multijugador local a pantalla dividida y online.",
+      "en": "Polyphony Digital's racing saga returns. Collect over 400 cars at the Café, race on tracks around the world and customize every detail in GT Auto, with a career mode that travels through automotive history. Features realistic driving physics, dynamic weather and both split-screen local and online multiplayer."
+    },
+    "download": {
+      "region": "CUSA24769 - USA",
+      "size": "108GB",
+      "format": "pkg",
+      "update": "1.71",
+      "fw": "9.00+",
+      "languages": "Multi idioma",
+      "thanks": "High-Speed007 x PSVIETHOA",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/L88Prb",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "call-of-duty-infinite-warfare-ps4",
+    "console": "ps4",
+    "title": "Call of Duty: Infinite Warfare",
+    "genre": "Disparos en Primera Persona - Acción - Guerra",
+    "developer": "Infinity Ward",
+    "publisher": "Activision",
+    "year": 2016,
+    "rating": 77,
+    "players": "1-4",
+    "cooperativo": "Online",
+    "multijugador": "Online",
+    "color": "#5b6b7a",
+    "cover": "http://imgfz.com/i/1rsGndT.png",
+    "trailer": "EeF3UTkCoxY",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/ss_06a937d7ec971add2992fe89db4aa8ee1ac1ae30.1920x1080.jpg?t=1755558170",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/ss_070ecaa1693fe37fcdfc378460f88415d6c8d3e3.1920x1080.jpg?t=1755558170",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/ss_efc49b2a3948f058b9d9d527edbebec537b311fc.1920x1080.jpg?t=1755558170"
+    ],
+    "description": {
+      "es": "La humanidad libra una guerra por el sistema solar contra el Settlement Defense Front. Como el capitán Nick Reyes, pilota el caza Jackal, lidera la nave Retribution y combate tanto en el espacio como en tierra en una campaña de ciencia ficción, acompañada de su multijugador y del modo cooperativo Zombies.",
+      "en": "Humanity wages war across the solar system against the Settlement Defense Front. As Captain Nick Reyes, pilot the Jackal fighter, lead the Retribution and fight both in space and on the ground in a sci-fi campaign, alongside its multiplayer and cooperative Zombies mode."
+    },
+    "download": {
+      "region": "CUSA05368 - USA",
+      "size": "106GB",
+      "format": "pkg",
+      "update": "1.25 - 4DLC",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Highspeed33",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/QVNvuae",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "morbid-the-lords-of-ire-ps4",
+    "console": "ps4",
+    "title": "Morbid: The Lords of Ire",
+    "genre": "Acción - RPG - Soulslike",
+    "developer": "Still Running",
+    "publisher": "Max Ent Games",
+    "year": 2024,
+    "rating": 57,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7f1d1d",
+    "cover": "http://imgfz.com/i/hRpfXHw.png",
+    "trailer": "OStrrQ6_Htg",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2171560/ss_0a1e2a74cbcd6811712518dccd568c36dfdce354.1920x1080.jpg?t=1787164744",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2171560/ss_f2815d7e9c5bddeec8968d57a2e5b508b0f3107c.1920x1080.jpg?t=1787164744",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2171560/ss_73ef643da379c7ffda483437feff7a42bca30944.1920x1080.jpg?t=1787164744"
+    ],
+    "description": {
+      "es": "Continuación y reinvención del ARPG soulslike isométrico Morbid: The Seven Acolytes. El Striver regresa en una nueva perspectiva 3D para enfrentarse a horripilantes criaturas y a los cinco Señores de la Ira en un mundo oscuro y retorcido.",
+      "en": "A continuation and reinvention of the isometric soulslike ARPG Morbid: The Seven Acolytes. The Striver returns in a new 3D perspective to face horrifying creatures and the five Lords of Ire in a dark and twisted world."
+    },
+    "download": {
+      "region": "CUSA48088 - EUR",
+      "size": "15GB",
+      "format": "pkg",
+      "update": "1.06",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/vJybtb",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "god-of-war-sons-of-sparta-ps4",
+    "console": "ps4",
+    "title": "God of War Sons of Sparta",
+    "genre": "Metroidvania - Acción - Plataformas",
+    "developer": "Mega Cat Studios - Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "year": 2026,
+    "rating": 64,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#a33a2b",
+    "cover": "http://imgfz.com/i/UhnK7lG.png",
+    "trailer": "eFhOo6NTt70",
+    "screenshots": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202602/1919/4d2efa56cd47b76cedf2bc34cd90992c358f316ae2842965.jpg",
+      "https://image.api.playstation.com/vulcan/ap/rnd/202602/1919/d411e7c7f8c701a762b3b09470199f2d928542bdcabac3ac.jpg",
+      "https://image.api.playstation.com/vulcan/ap/rnd/202602/2319/4b132d553f83d45c653928c91cf1cb6988721bc0b40838f8.jpg"
+    ],
+    "description": {
+      "es": "Precuela de la saga God of War ambientada en la antigua Grecia. Controla a un joven Kratos junto a su hermano Deimos en una aventura Metroidvania 2D por Laconia, con combate de lanza y escudo, puzles y plataformas, además de un modo cooperativo local roguelite.",
+      "en": "A prequel to the God of War saga set in ancient Greece. Play as a young Kratos alongside his brother Deimos in a 2D Metroidvania adventure across Laconia, featuring spear-and-shield combat, puzzles and platforming, plus a local co-op roguelite mode."
+    },
+    "download": {
+      "region": "CUSA57767 - USA",
+      "size": "6.15GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "7.00+",
+      "languages": "Multi idioma (Castellano/Latino)",
+      "thanks": "CyB1k",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/5TZcao",
+          "color": "blue"
+        }
+      ]
+    }
   }
 ]
