@@ -15459,7 +15459,7 @@
     "cooperativo": "No",
     "multijugador": "Online",
     "color": "#22c55e",
-    "cover": "https://cdn1.telesco.pe/file/JpWTyAbjY6Gvknd9yGMPtW0GuK6OkPChuhm_-uRkUGBJpDebyV0DBM2y4JnIQw1QX5GFG78vG1dTf7ukvKlIJzMZFRD-sU5ntq7x9gHaCFI00s3RqPvufoJaG4z6mawXKEfivAWDp0pFSeDrZJNOzKUl1TKcURDaBEyNuHx3o7K4VHCLnZZ7Ku9kA_W9F-LwVR_QfQYql7SVuBGHwWCohybjBv2NSKgkD3KlBaHnnJMny1OEzH2ZprLH7NJC_uqiOM3N3zxjwD44yqy-h2oqsg0s6V5dO40ANL1IfaiLgWiOpwEgwhW688xER24Jglg0lCalaa7zQD7hBU4QfNUXmg.jpg",
+    "cover": "http://imgfz.com/i/1ByJZ2W.png",
     "trailer": "IdnAkO5mujY",
     "screenshots": [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/3b0db0c05317dec6063cfcdbc1ed7d079a33c87d/ss_3b0db0c05317dec6063cfcdbc1ed7d079a33c87d.1920x1080.jpg",
@@ -16126,6 +16126,1369 @@
         {
           "label": "Mediafire",
           "url": "https://ouo.io/5TZcao",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "prinny-presents-nis-classics-volume-3",
+    "console": "switch",
+    "title": "Prinny Presents NIS Classics Volume 3: La Pucelle: Ragnarok / Rhapsody: A Musical Adventure",
+    "genre": "RPG - Estrategia - Táctico",
+    "developer": "Nippon Ichi Software - Engine Software",
+    "publisher": "NIS America",
+    "year": 2022,
+    "rating": 71,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#8a3b2e",
+    "cover": "http://imgfz.com/i/D1SWyCO.png",
+    "trailer": "cSDyvlfzqBY",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866420/ss_59b3dbe02ea5a08a8c703b71a444ae6c9011476a.1920x1080.jpg?t=1732584828",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866420/ss_49f0aa9f8c19c867e04d7da0670353b38054f777.1920x1080.jpg?t=1732584828",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866420/ss_855ff485d6930b6086c2572915d98d0496d4c258.1920x1080.jpg?t=1732584828"
+    ],
+    "description": {
+      "es": "Recopilación que reúne dos clásicos de Nippon Ichi: La Pucelle: Ragnarok, el RPG táctico protagonizado por la exorcista Prier y su hermano Culotte, y Rhapsody: A Musical Adventure, un RPG musical con la cantante Cornet. Incluye nuevos escenarios, reclutas, personajes descargables y mejoras de calidad de vida.",
+      "en": "A collection bundling two Nippon Ichi classics: La Pucelle: Ragnarok, the tactical RPG starring exorcist Prier and her brother Culotte, and Rhapsody: A Musical Adventure, a musical RPG following the singer Cornet. Includes new scenarios, recruits, downloadable characters and quality-of-life improvements."
+    },
+    "download": {
+      "region": "01007E2016FB4000",
+      "size": "1.26GB",
+      "format": "xci",
+      "update": "1.0.3",
+      "fw": "14.1.2",
+      "languages": "Inglés",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pZuyPB",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "shrek-2-remastered",
+    "console": "switch",
+    "title": "Shrek 2 Remastered",
+    "genre": "Acción - Aventura - Beat 'em up",
+    "developer": "Aspyr Media",
+    "publisher": "Aspyr",
+    "year": 2026,
+    "rating": 0,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#2f6b32",
+    "cover": "http://imgfz.com/i/OlYznKp.jpeg",
+    "trailer": "f5_eYmaqeL8",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/4726600b8a59d90c3444d50e89f0ae9f4bba7c08/ss_4726600b8a59d90c3444d50e89f0ae9f4bba7c08.1920x1080.jpg?t=1794330089",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/611847cd2878d3ffb2efcffb9f896bfa84fcf595/ss_611847cd2878d3ffb2efcffb9f896bfa84fcf595.1920x1080.jpg?t=1794330089",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/d0a00580781a1538d2ebabd4182e8e2d8aaae17f/ss_d0a00580781a1538d2ebabd4182e8e2d8aaae17f.1920x1080.jpg?t=1794330089"
+    ],
+    "description": {
+      "es": "Remasterización del clásico de 2004 basado en la película Shrek 2. Reúne a hasta cuatro jugadores para repartir mamporros en cooperativo por escenarios inspirados en el film, con gráficos mejorados, todos los personajes favoritos y juego local y online.",
+      "en": "A remaster of the 2004 classic based on the Shrek 2 movie. Team up with up to four players for button-mashing co-op brawling across levels inspired by the film, with improved graphics, all your favorite characters and both local and online play."
+    },
+    "download": {
+      "region": "01000750246F0000",
+      "size": "5.68GB",
+      "format": "xci",
+      "update": "1.0.4",
+      "fw": "23.0.1",
+      "languages": "Inglés, Español, Francés, Alemán, Italiano, Chino simplificado, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/IgpBnYR",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-cat-in-the-hat-rainy-day-mayhem",
+    "console": "switch",
+    "title": "The Cat in the Hat: Rainy Day Mayhem",
+    "genre": "Fiesta - Minijuegos - Familiar",
+    "developer": "Casual Brothers",
+    "publisher": "Outright Games",
+    "year": 2026,
+    "rating": 0,
+    "players": "1-4",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#c2410c",
+    "cover": "http://imgfz.com/i/d7qg1HP.png",
+    "trailer": "XfSGlrDYD7I",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3465710/b8a7f8e76c7f33bc21812529194336650e0e43b0/ss_b8a7f8e76c7f33bc21812529194336650e0e43b0.1920x1080.jpg?t=1793351877",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3465710/5c83a33ee489e0e15c0f2c584984fdc88e29d7ee/ss_5c83a33ee489e0e15c0f2c584984fdc88e29d7ee.1920x1080.jpg?t=1793351877",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3465710/798c9909c2bbe2c1c24f814e95de530eaab63e87/ss_798c9909c2bbe2c1c24f814e95de530eaab63e87.1920x1080.jpg?t=1793351877"
+    ],
+    "description": {
+      "es": "Fiesta de minijuegos inspirada en El gato ensombrerado de Dr. Seuss. Disfruta de 18 minijuegos y de una alocada persecución por la casa, solo o con hasta cuatro jugadores en modo local, con todo el encanto y el caos del personaje.",
+      "en": "A minigame party inspired by Dr. Seuss' The Cat in the Hat. Enjoy 18 minigames and a wild chase around the house, solo or with up to four players locally, packed with the character's charm and chaos."
+    },
+    "download": {
+      "region": "0100778022442000",
+      "size": "995MB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "21.1.0",
+      "languages": "Japonés, Inglés, Español, Portugués, Francés, Alemán, Italiano, Neerlandés, Coreano, Chino simplificado, Chino tradicional, Polaco",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/JnTuvUd",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tormented-souls-ps4",
+    "console": "ps4",
+    "title": "Tormented Souls",
+    "genre": "Terror - Survival Horror - Puzzles",
+    "developer": "Dual Effect - Abstract Digital",
+    "publisher": "PQube",
+    "year": 2021,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#2f3a4a",
+    "cover": "http://imgfz.com/i/YQ2zZ6M.jpeg",
+    "trailer": "JN4DmhYZbz0",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367590/ss_87d9cb58df5d9e8a474cc5e3256ea71dfa22b085.1920x1080.jpg?t=1792075149",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367590/ss_9578054b333c1d63cb6a6618d1fb31ff41a34e01.1920x1080.jpg?t=1792075149",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367590/ss_84556350a2f14681ffd07de1d2530725ac465ca8.1920x1080.jpg?t=1792075149"
+    ],
+    "description": {
+      "es": "Caroline Walker investiga la desaparición de dos hermanas gemelas en una mansión convertida en hospital. Survival horror clásico con cámara fija, puzles, gestión de recursos y combate contra criaturas retorcidas, inspirado en los primeros Resident Evil y Alone in the Dark.",
+      "en": "Caroline Walker investigates the disappearance of twin girls in a mansion-turned-hospital. Classic survival horror with fixed cameras, puzzles, resource management and combat against twisted creatures, inspired by the early Resident Evil and Alone in the Dark games."
+    },
+    "download": {
+      "region": "CUSA29199 - EUR",
+      "size": "11.3GB",
+      "format": "pkg",
+      "update": "1.0.2",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Golemnight/Opoisso893",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/nAXTo6",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tormented-souls",
+    "console": "switch",
+    "title": "Tormented Souls",
+    "genre": "Terror - Survival Horror - Puzzles",
+    "developer": "Dual Effect - Abstract Digital",
+    "publisher": "PQube",
+    "year": 2022,
+    "rating": 72,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#43305a",
+    "cover": "http://imgfz.com/i/I0UgFvR.png",
+    "trailer": "93vdq2CJao0",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367590/ss_87d9cb58df5d9e8a474cc5e3256ea71dfa22b085.1920x1080.jpg?t=1792075149",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367590/ss_9578054b333c1d63cb6a6618d1fb31ff41a34e01.1920x1080.jpg?t=1792075149",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367590/ss_84556350a2f14681ffd07de1d2530725ac465ca8.1920x1080.jpg?t=1792075149"
+    ],
+    "description": {
+      "es": "Caroline Walker investiga la desaparición de dos hermanas gemelas en una mansión convertida en hospital. Survival horror clásico con cámara fija, puzles, gestión de recursos y combate contra criaturas retorcidas, inspirado en los primeros Resident Evil y Alone in the Dark.",
+      "en": "Caroline Walker investigates the disappearance of twin girls in a mansion-turned-hospital. Classic survival horror with fixed cameras, puzzles, resource management and combat against twisted creatures, inspired by the early Resident Evil and Alone in the Dark games."
+    },
+    "download": {
+      "region": "010046401399C000",
+      "size": "9.86GB",
+      "format": "xci",
+      "update": "1.0.1",
+      "fw": "14.1.2",
+      "languages": "Inglés, Portugués, Español, Francés, Alemán, Italiano, Ruso, Chino simplificado, Chino tradicional",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/HMBsV8I",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pes-efootball-dreampatch-26-ps4",
+    "console": "ps4",
+    "title": "PES eFootball DreamPatch 26",
+    "genre": "Deportes - Fútbol - Mod",
+    "developer": "Konami - DreamPatch",
+    "publisher": "Konami",
+    "year": 2026,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Online",
+    "color": "#16a34a",
+    "cover": "http://imgfz.com/i/5BvQcRb.png",
+    "trailer": "GSXViWOyEO4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259970/ss_6a6d8831352e1fbb387966b0128b7728a095d5af.1920x1080.jpg?t=1639008061",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259970/ss_05b5733f8fc79533ffe773dfb628c1995d10af00.1920x1080.jpg?t=1639008061",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259970/ss_0e814100dc3fca73e76a1c592316ed9285a374a6.1920x1080.jpg?t=1639008061"
+    ],
+    "description": {
+      "es": "eFootball PES 2021 Season Update modificado con DreamPatch 26: plantillas, escudos y rosters actualizados a la temporada 2025/26, además de update 1.09 y plugins. Incluye los archivos CPK en enlaces separados y marcadores opcionales.",
+      "en": "eFootball PES 2021 Season Update modified with DreamPatch 26: updated rosters, badges and kits for the 2025/26 season, plus update 1.09 and plugins. CPK files are provided in separate links, along with optional scoreboards."
+    },
+    "download": {
+      "region": "CUSA18740 - EUR",
+      "size": "174.8GB",
+      "format": "pkg",
+      "update": "1.09",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "",
+      "mod": "DreamPatch 26",
+      "links": [
+        {
+          "label": "Juego/Update 1.09/Plugins",
+          "url": "https://ouo.io/AimDbGP",
+          "color": "blue"
+        },
+        {
+          "label": "Archivos cpk",
+          "url": "https://ouo.io/Ki9sJ7",
+          "color": "blue"
+        },
+        {
+          "label": "Marcadores (Opcional)",
+          "url": "https://ouo.io/3a5NbW0",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "guilty-gear-strive-ps4",
+    "console": "ps4",
+    "title": "Guilty Gear -Strive-",
+    "genre": "Lucha - Acción - Multijugador",
+    "developer": "Arc System Works",
+    "publisher": "Arc System Works",
+    "year": 2021,
+    "rating": 85,
+    "players": "2",
+    "cooperativo": "No",
+    "multijugador": "Si",
+    "color": "#b71c1c",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/87535-1.jpg",
+    "trailer": "SH6YONVcl7k",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1384160/ss_0f29aebacb81b972782382dbf4c0079f0d37b330.1920x1080.jpg?t=1788400087",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1384160/ss_2561a4ae822856797b5fb231502b820a962336e0.1920x1080.jpg?t=1788400087",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1384160/ss_104e16788c2ea35e1dac31d96be8d4f1df00f330.1920x1080.jpg?t=1788400087"
+    ],
+    "description": {
+      "es": "La entrega más reciente de la aclamada saga Guilty Gear: gráficos 3D de alta calidad, combate competitivo a ritmo rápido y un elenco de personajes único. Incluye modo historia y juego online con netcode de rollback.",
+      "en": "The latest entry in the acclaimed Guilty Gear series: high-quality 3D visuals, fast-paced competitive fighting and a unique character roster. Includes a story mode and online play with rollback netcode."
+    },
+    "download": {
+      "region": "CUSA25325 - EUR",
+      "size": "26.7GB",
+      "format": "pkg",
+      "update": "1.51+33DLC",
+      "fw": "7.50+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/K9RNdr",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.51 (7.50+)",
+          "url": "https://ouo.io/8sFy0G",
+          "color": "blue"
+        },
+        {
+          "label": "33DLC",
+          "url": "https://uii.io/dlcgy",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dragon-ball-z-kakarot-ps4",
+    "console": "ps4",
+    "title": "DRAGON BALL Z: KAKAROT",
+    "genre": "Acción - Aventura - RPG",
+    "developer": "CyberConnect2",
+    "publisher": "BANDAI NAMCO Entertainment",
+    "year": 2020,
+    "rating": 73,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#d97706",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/67593-1.jpg",
+    "trailer": "mw40u02Ks60",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/851850/ss_bfda57d08727dd5281892e13b594121b897ea407.1920x1080.jpg?t=1769139697",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/851850/ss_04e44a1a23446c5ab3fa2a32320ae7abde77ff6a.1920x1080.jpg?t=1769139697",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/851850/ss_98935e58c3a3fcbe51b09c64cf2945427132ff2d.1920x1080.jpg?t=1769139697"
+    ],
+    "description": {
+      "es": "Aventura de acción y RPG que recrea la historia de Dragon Ball Z desde la saga Saiyan hasta Cell. Explora un mundo abierto, pelea con Goku y sus compañeros, entrena y colecciona objetos. Incluye 20 DLC.",
+      "en": "Action RPG that retells the Dragon Ball Z story from the Saiyan Saga through the Cell Games. Explore an open world, fight as Goku and his allies, train and collect items. Includes 20 DLC."
+    },
+    "download": {
+      "region": "CUSA14835 - EUR",
+      "size": "74.2GB",
+      "format": "pkg",
+      "update": "2.30+20DLC",
+      "fw": "6.50+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/x7rJAH",
+          "color": "blue"
+        },
+        {
+          "label": "Update 2.30 (6.50+)",
+          "url": "https://ouo.io/TebMlt",
+          "color": "blue"
+        },
+        {
+          "label": "20DLC",
+          "url": "https://cuty.io/dlcka",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dragon-ball-z-sagas-ps4",
+    "console": "ps4",
+    "title": "Dragon Ball Z: Sagas",
+    "genre": "Acción - Beat 'em up - Anime",
+    "developer": "Avalanche Software",
+    "publisher": "Atari",
+    "year": 2005,
+    "rating": 49,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#2563eb",
+    "cover": "http://imgfz.com/i/amKj4y1.png",
+    "trailer": "IJD5VM6zZlo",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scftnl.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scftnm.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scftnn.jpg"
+    ],
+    "description": {
+      "es": "Beat ’em up de 2005 basado en Dragon Ball Z. Elige entre seis héroes, entre ellos Goku, Gohan, Vegeta, Piccolo y Trunks, y revive los combates desde la saga Saiyan hasta la de Cell, solo o con otro jugador/local.",
+      "en": "A 2005 beat ’em up based on Dragon Ball Z. Choose from six heroes, including Goku, Gohan, Vegeta, Piccolo and Trunks, and relive the battles from the Saiyan Saga through the Cell Saga, solo or with a second local player."
+    },
+    "download": {
+      "region": "SLUS20874 - USA",
+      "size": "1.15GB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Español",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/pLSXUs",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "nickelodeon-all-star-brawl-ps4",
+    "console": "ps4",
+    "title": "Nickelodeon All-Star Brawl",
+    "genre": "Lucha - Plataformas - Multijugador",
+    "developer": "Ludosity - Fair Play Labs",
+    "publisher": "GameMill Entertainment",
+    "year": 2021,
+    "rating": 65,
+    "players": "4",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#FF6B35",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/89512-1.jpg",
+    "trailer": "xmXEt9lgpz0",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1414850/ss_1c19dafdc836f0fe3b99d41d86700755854fa9e7.1920x1080.jpg?t=1746026335",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1414850/ss_a9993c7054c75b9b4bdac4b7a930ae212cb724fc.1920x1080.jpg?t=1746026335",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1414850/ss_0adbdc6dbb8d26a05443f5f84757ea5e359e82e7.1920x1080.jpg?t=1746026335"
+    ],
+    "description": {
+      "es": "Lucha con tus personajes favoritos de Nickelodeon en batallas de plataformas de hasta 4 jugadores con más de 20 niveles temáticos.",
+      "en": "Brawl with your favorite Nickelodeon characters in platform battles for up to 4 players with over 20 themed levels."
+    },
+    "download": {
+      "region": "CUSA25399 - USA",
+      "size": "8.58GB",
+      "format": "pkg",
+      "update": "1.18+3DLC",
+      "fw": "8.50",
+      "languages": "Multi idioma",
+      "thanks": "Fugazi",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/Yt73d0f",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.18 (8.50)",
+          "url": "https://ouo.io/2TN9yn",
+          "color": "blue"
+        },
+        {
+          "label": "3DLC",
+          "url": "https://www.mediafire.com/file/eh0reh5ig2pp4v0/CUSA25399DLC%255BZona_Gamer%255D.rar/file",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "nickelodeon-all-star-brawl-2-ps4",
+    "console": "ps4",
+    "title": "Nickelodeon All-Star Brawl 2",
+    "genre": "Lucha - Plataformas - Multijugador",
+    "developer": "Fair Play Labs - Ludosity Interactive",
+    "publisher": "GameMill Entertainment",
+    "year": 2023,
+    "rating": 77,
+    "players": "4",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#FF6B35",
+    "cover": "http://imgfz.com/i/5abmN2k.png",
+    "trailer": "Wet7NQm4Z3Q",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2017080/ss_dc7c02622438711812a5ad3e561efe6bd269fe10.1920x1080.jpg?t=1746026398",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2017080/ss_250e39a770fc4c02bc54b7c03f3220c9fb5e9db4.1920x1080.jpg?t=1746026398",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2017080/ss_35a561fdaa3ca09d2b8e6082ee06a7df7c1170bc.1920x1080.jpg?t=1746026398"
+    ],
+    "description": {
+      "es": "La secuela con campaña nueva, nuevos personajes, gráficos mejorados y modo cruzado. Combate con todos tus favoritos de Nickelodeon.",
+      "en": "The sequel with a new campaign, new characters, improved graphics and crossplay. Battle with all your Nickelodeon favorites."
+    },
+    "download": {
+      "region": "CUSA43649 - EUR",
+      "size": "11.8GB",
+      "format": "pkg",
+      "update": "1.15+6DLC",
+      "fw": "9.00+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/ZY2tZfN",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.15 (9.00+)",
+          "url": "https://ouo.io/1kG1zq",
+          "color": "blue"
+        },
+        {
+          "label": "6DLC",
+          "url": "https://cuty.io/stardlc",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "one-piece-odyssey-ps4",
+    "console": "ps4",
+    "title": "One Piece Odyssey",
+    "genre": "RPG - Aventura - Acción",
+    "developer": "CyberConnect2",
+    "publisher": "BANDAI NAMCO Entertainment",
+    "year": 2023,
+    "rating": 73,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#c2410c",
+    "cover": "http://imgfz.com/i/fm8w9Iv.png",
+    "trailer": "BI2Ryx2q3HY",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814000/ss_e7f5994a006fed18b1f8600cdb06a85bb757a81d.1920x1080.jpg?t=1703657096",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814000/ss_be8a1ff7b27e5821d955e9da698fd12c1b312e1d.1920x1080.jpg?t=1703657096",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814000/ss_c14ab2c9776a7ccc49e055be54295cc7ac5d8c05.1920x1080.jpg?t=1703657096"
+    ],
+    "description": {
+      "es": "RPG basado en el anime One Piece. Viaja por el mundo de la tripulación de Sombrero de Paja en una aventura con combate por turnos, exploración de islas y puzles. Incluye 8 DLC.",
+      "en": "An RPG based on the One Piece anime. Travel the world with the Straw Hat crew in an adventure featuring turn-based battles, island exploration and puzzles. Includes 8 DLC."
+    },
+    "download": {
+      "region": "CUSA20374 - EUR",
+      "size": "43.7GB",
+      "format": "pkg",
+      "update": "2.01+8DLC",
+      "fw": "9.00+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/6nedp2",
+          "color": "blue"
+        },
+        {
+          "label": "Update 2.01 (9.00+)",
+          "url": "https://ouo.io/fwhMMV",
+          "color": "blue"
+        },
+        {
+          "label": "8DLC",
+          "url": "https://www.mediafire.com/file/dbmki22mkthrnkz/CUSA20374DLC%255BZona_Gamer%255D.rar/file",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cuphead-ps4",
+    "console": "ps4",
+    "title": "Cuphead",
+    "genre": "Plataformas - Acción - Run and Gun",
+    "developer": "Studio MDHR",
+    "publisher": "Studio MDHR",
+    "year": 2017,
+    "rating": 86,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "No",
+    "color": "#d11a2a",
+    "cover": "http://imgfz.com/i/8LQZRFw.png",
+    "trailer": "bE6ZeClM6uI",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/ss_e3096a5555cb77d88db165c83d5ef3a24af1354a.1920x1080.jpg?t=1709068852",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/ss_615455299355eaf552c638c7ea5b24a8b46e02dd.1920x1080.jpg?t=1709068852",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/ss_483fb089be0093beeef03525276803a9ca4f66a1.1920x1080.jpg?t=1709068852"
+    ],
+    "description": {
+      "es": "Run and gun inspirado en los dibujos animados de los años 30, con animación dibujada a mano, jazz y exigentes combates contra jefes. Incluye el DLC The Delicious Last Course.",
+      "en": "A run and gun inspired by 1930s cartoons, with hand-drawn animation, jazz and demanding boss battles. Includes The Delicious Last Course DLC."
+    },
+    "download": {
+      "region": "CUSA20499 - USA",
+      "size": "5.23GB",
+      "format": "pkg",
+      "update": "1.05",
+      "fw": "7.00+",
+      "languages": "Multi idioma",
+      "thanks": "Highspeed33",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/gfojV0",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.05 (7.00+)",
+          "url": "https://www.mediafire.com/file/vspkk3iu3gu7geq/CUSA20499UPD%25287.00%252B%2529%255BZona_Gamer%255D.rar/file",
+          "color": "blue"
+        },
+        {
+          "label": "DLC",
+          "url": "https://ouo.io/Vh27tk",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bust-a-groove-ps4",
+    "console": "ps4",
+    "title": "Bust a Groove",
+    "genre": "Música - Ritmo - Baile",
+    "developer": "Endpoint",
+    "publisher": "Namco",
+    "year": 1998,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#e11d48",
+    "cover": "http://imgfz.com/i/U13queE.png",
+    "trailer": "wlKJyBdv1ps",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sciirz.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sciis0.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sciis1.jpg"
+    ],
+    "description": {
+      "es": "Juego de ritmo y baile de PlayStation en el que los personajes se enfrentan bailando. Combina minijuegos musicales, movimientos especiales y una banda sonora dance, con partidas para hasta dos jugadores en local.",
+      "en": "A PlayStation rhythm and dance game in which characters battle by dancing. It combines music minigames, special moves and a dance soundtrack, with local play for up to two players."
+    },
+    "download": {
+      "region": "SCES01313 - EUR",
+      "size": "352MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/BIIZXp",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bust-a-groove-2-ps4",
+    "console": "ps4",
+    "title": "Bust a Groove 2",
+    "genre": "Música - Ritmo - Baile",
+    "developer": "Endpoint",
+    "publisher": "Namco",
+    "year": 2000,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#7c3aed",
+    "cover": "http://imgfz.com/i/eh2pHaX.png",
+    "trailer": "NJpezpCP9iw",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scn8gq.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scn8gr.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scn8gs.jpg"
+    ],
+    "description": {
+      "es": "Secuela del juego de baile y ritmo con nuevos personajes, escenarios y movimientos. Enfrenta a tus bailarines favoritos en combates musicales para uno o dos jugadores.",
+      "en": "The sequel to the dance and rhythm game with new characters, stages and moves. Face off with your favorite dancers in musical battles for one or two players."
+    },
+    "download": {
+      "region": "SLUS01159 - USA",
+      "size": "322MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/75nQ0G",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "a-way-out-ps4",
+    "console": "ps4",
+    "title": "A Way Out",
+    "genre": "Aventura - Acción - Cooperativo",
+    "developer": "Hazelight Studios",
+    "publisher": "Electronic Arts",
+    "year": 2018,
+    "rating": 78,
+    "players": "2",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#f97316",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/53802-1.jpg",
+    "trailer": "-r5fY05t_7g",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/ss_a7f52388d8d64bf56170baf5bd223fbbb1d9a94a.1920x1080.jpg?t=1777323433",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/ss_55237e6d80cf3f9e2f3f0fa41d710a7ea35b022b.1920x1080.jpg?t=1777323433",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/ss_666b409c3d07150ef0ddccb179a25d44fb62c937.1920x1080.jpg?t=1777323433"
+    ],
+    "description": {
+      "es": "Aventura cooperativa diseñada para dos jugadores: Lee y Vincent son dos presos que planean escapar de la cárcel y huir juntos. Cada jugador ve la historia desde su propia perspectiva y debe colaborar para sobrevivir.",
+      "en": "A co-op adventure designed for two players: Lee and Vincent are two inmates who break out of prison and flee together. Each player experiences the story from their own perspective and must work together to survive."
+    },
+    "download": {
+      "region": "CUSA03004 - EUR",
+      "size": "15.9GB",
+      "format": "pkg",
+      "update": "1.01",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/OR3JO1b",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.01 (5.05+)",
+          "url": "https://www.mediafire.com/file/ozmifgrtlax0xag/CUSA08004UPD1.01%25285.05%252B%2529%255BZona_Gamer%255D.rar/file",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fight-night-round-3-ps4",
+    "console": "ps4",
+    "title": "Fight Night Round 3",
+    "genre": "Deportes - Boxeo - Lucha",
+    "developer": "EA Sports",
+    "publisher": "Electronic Arts",
+    "year": 2006,
+    "rating": 86,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#1d4ed8",
+    "cover": "http://imgfz.com/i/Q4ClFr8.png",
+    "trailer": "MCm-9KNcW_U",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scegex.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scegey.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/scegez.jpg"
+    ],
+    "description": {
+      "es": "Simulador de boxeo con gráficos mejorados y combates contra leyendas como Muhammad Ali, Mike Tyson y Manny Pacquiao. Incluye modo carrera, creador de boxeadores y peleas locales para dos jugadores.",
+      "en": "A boxing simulator with enhanced graphics and bouts against legends such as Muhammad Ali, Mike Tyson and Manny Pacquiao. Includes career mode, a boxer creator and local two-player fights."
+    },
+    "download": {
+      "region": "SLUS21383 - USA",
+      "size": "1.89GB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/NRSOpv",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "devil-may-cry-5-deluxe-ps4",
+    "console": "ps4",
+    "title": "Devil May Cry 5 Deluxe Edition",
+    "genre": "Acción - Hack and Slash",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "Capcom",
+    "year": 2019,
+    "rating": 87,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#b91c1c",
+    "cover": "http://imgfz.com/i/wCue9Wh.png",
+    "trailer": "k8d8OMM-XpA",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/ss_4410bada2565843dae693b03ac3a50256ff5dd66.1920x1080.jpg?t=1790215341",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/ss_4ce180ed8979a51c72de51f985e9e9ba13500508.1920x1080.jpg?t=1790215341",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/ss_e2be70565f94a7f6c392cccddce08c67f2f87612.1920x1080.jpg?t=1790215341"
+    ],
+    "description": {
+      "es": "Capcom regresa con la quinta entrega de Devil May Cry: combate frenético con estilo, tres personajes jugables (Dante, Nero y V), armas demoníacas y gráficos de última generación. Esta edición incluye contenido adicional y 22 DLC.",
+      "en": "Capcom returns with the fifth Devil May Cry: fast, stylish combat, three playable characters (Dante, Nero and V), demonic weapons and next-generation visuals. This edition includes extra content and 22 DLC."
+    },
+    "download": {
+      "region": "CUSA08161 - EUR",
+      "size": "40.8GB",
+      "format": "pkg",
+      "update": "1.10",
+      "fw": "5.50+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/ycqyws",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.10 (5.50+)",
+          "url": "https://ouo.io/XRmfGou",
+          "color": "blue"
+        },
+        {
+          "label": "22DLC",
+          "url": "https://ouo.io/jZaWQW",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dance-dance-revolution-3rd-mix-ps4",
+    "console": "ps4",
+    "title": "Dance Dance Revolution 3rd Mix",
+    "genre": "Música - Ritmo - Baile",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": 1999,
+    "rating": 0,
+    "players": "1-2",
+    "cooperativo": "No",
+    "multijugador": "Local",
+    "color": "#db2777",
+    "cover": "http://imgfz.com/i/ryNvRYl.png",
+    "trailer": "A_DSaEV7FHU",
+    "screenshots": [
+      "https://images.launchbox-app.com/r2_a31eb68a-bd2d-4ea2-8d24-51cc8b4fc6a2.png",
+      "https://images.launchbox-app.com/r2_fbdb13d9-150a-4bb6-9d3c-d1cfceac0dc7.png",
+      "https://images.launchbox-app.com/r2_568c95c4-acbb-4259-9e19-f6e45418348e.png"
+    ],
+    "description": {
+      "es": "Tercera entrega de la saga de baile de Konami. Sigue las flechas que aparecen en pantalla pisando el panel de baile al ritmo de la música, con decenas de canciones y varios niveles de dificultad para uno o dos jugadores.",
+      "en": "The third entry in Konami’s dance series. Follow the arrows on screen by stepping on the dance pad to the beat, with dozens of songs and several difficulty levels for one or two players."
+    },
+    "download": {
+      "region": "SLPM86503 JPN",
+      "size": "426MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Inglés",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Descargar",
+          "url": "https://ouo.io/LCXocJm",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tekken-7-ultimate-ps4",
+    "console": "ps4",
+    "title": "Tekken 7 Ultimate Edition",
+    "genre": "Lucha - Arcade - Multijugador",
+    "developer": "BANDAI NAMCO Studios Inc.",
+    "publisher": "BANDAI NAMCO Entertainment",
+    "year": 2017,
+    "rating": 82,
+    "players": "2",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#1e40af",
+    "cover": "http://imgfz.com/i/91aLiUf.png",
+    "trailer": "1V-_q3SKh5w",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/389730/ss_d92a558644ad60ae5814fc4d2bbaebc5abf62fa3.1920x1080.jpg?t=1790215341",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/389730/ss_40faa5ba39563cb899f1ab2ddd2afbf8b451d52f.1920x1080.jpg?t=1790215341",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/389730/ss_ed3246605518907954918eb06e90705249be77d6.1920x1080.jpg?t=1790215341"
+    ],
+    "description": {
+      "es": "El gran torneo de lucha 3D de Bandai Namco: elenco de más de 50 personajes, combate con Switch, Rage Art y modos offline y online. Ultimate Edition con 25 DLC incluidos.",
+      "en": "Bandai Namco’s 3D fighting tournament: a roster of over 50 characters, Switch, Rage Art, and offline and online modes. Ultimate Edition with 25 DLC included."
+    },
+    "download": {
+      "region": "CUSA06014 - EUR",
+      "size": "50.4GB",
+      "format": "pkg",
+      "update": "5.10",
+      "fw": "5.05+",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/LBCJd8",
+          "color": "blue"
+        },
+        {
+          "label": "Update 5.10 (5.05+)",
+          "url": "https://ouo.io/qMrK5O",
+          "color": "blue"
+        },
+        {
+          "label": "25DLC",
+          "url": "https://cuty.io/dltkkn",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scooby-doo-and-the-spooky-swamp-ps4",
+    "console": "ps4",
+    "title": "Scooby Doo and the Spooky Swamp",
+    "genre": "Aventura - Plataformas - Familiar",
+    "developer": "Torus Games",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "year": 2010,
+    "rating": 76,
+    "players": "1-2",
+    "cooperativo": "Local",
+    "multijugador": "Local",
+    "color": "#16a34a",
+    "cover": "http://imgfz.com/i/xBf3u8D.png",
+    "trailer": "GmspSF72r-I",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/p6ajrk4ni0cxgeg84t3y.jpg",
+      "https://cdn.mobygames.com/promos/10581477-scooby-doo-and-the-spooky-swamp-screenshot-alpine.jpg",
+      "https://cdn.mobygames.com/promos/10581474-scooby-doo-and-the-spooky-swamp-screenshot-alpine.jpg"
+    ],
+    "description": {
+      "es": "Aventura de plataformas protagonizada por Scooby-Doo y la pandilla. Explora un pantano lleno de misterio, resuelve acertijos, recoge pistas y desenmascara a los monstruos, solo o con un amigo en local.",
+      "en": "A platform adventure starring Scooby-Doo and the gang. Explore a mystery-filled swamp, solve puzzles, collect clues and unmask the monsters, solo or with a friend in local co-op."
+    },
+    "download": {
+      "region": "SLES55609 - EUR",
+      "size": "863MB",
+      "format": "pkg",
+      "update": "",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Farenheit",
+      "mod": "",
+      "links": [
+        {
+          "label": "Descargar",
+          "url": "https://ouo.io/NLWIhY",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lego-party-ps4",
+    "console": "ps4",
+    "title": "LEGO Party!",
+    "genre": "Fiesta - Multijugador - Familiar",
+    "developer": "SMG Studio",
+    "publisher": "Fictions",
+    "year": 2025,
+    "rating": 82,
+    "players": "4",
+    "cooperativo": "No",
+    "multijugador": "Local y online",
+    "color": "#f59e0b",
+    "cover": "http://imgfz.com/i/0yWRnVE.png",
+    "trailer": "JP4bjR55J7k",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969370/3e78cc803f7d3b2dc98a73e1be227bdbc9a26942/ss_3e78cc803f7d3b2dc98a73e1be227bdbc9a26942.1920x1080.jpg?t=1783611891",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969370/10909749f7c20b5fa55d7c83fc4750f9c0584510/ss_10909749f7c20b5fa55d7c83fc4750f9c0584510.1920x1080.jpg?t=1783611891",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969370/7ac291567feadc81c96c06fecb70d6991f8f1603/ss_7ac291567feadc81c96c06fecb70d6991f8f1603.1920x1080.jpg?t=1783611891"
+    ],
+    "description": {
+      "es": "Fiesta de LEGO para hasta cuatro jugadores con minijuegos rápidos y coloridos: compite en desafíos de todo tipo, desbloquea personajes y personaliza tu experiencia. Incluye juego local y online.",
+      "en": "A LEGO party for up to four players with quick, colorful minigames: compete in all kinds of challenges, unlock characters and customize your experience. Includes local and online play."
+    },
+    "download": {
+      "region": "CUSA53974 - ASIA",
+      "size": "8.86GB",
+      "format": "pkg",
+      "update": "1.06",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/dmPdnd",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.06",
+          "url": "https://ouo.io/Dg24y5",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "doom-eternal-ps4",
+    "console": "ps4",
+    "title": "DOOM Eternal",
+    "genre": "Acción - Shooter - FPS",
+    "developer": "id Software",
+    "publisher": "Bethesda Softworks",
+    "year": 2020,
+    "rating": 88,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#b91c1c",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/55964-1.jpg",
+    "trailer": "qzp8wZ-HMKk",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_4f93a7c5003d49cb32f6c0c6e547452b284580a0.1920x1080.jpg?t=1783432602",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_7e6a2148321c8024285e3924903d8897cac95358.1920x1080.jpg?t=1783432602",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/ss_af3b43c4be0029b52ceefaf55ebe1918e2cb3471.1920x1080.jpg?t=1783432602"
+    ],
+    "description": {
+      "es": "El regreso del Doom Slayer: combate frenético cuerpo a cuerpo, nuevas habilidades, personalización de armas y una campaña épica por el infierno y la Tierra. Incluye 3 DLC.",
+      "en": "The Doom Slayer returns: fast-paced close-quarters combat, new abilities, weapon customization and an epic campaign across Hell and Earth. Includes 3 DLC."
+    },
+    "download": {
+      "region": "CUSA13338 - USA",
+      "size": "90.9GB",
+      "format": "pkg",
+      "update": "1.26",
+      "fw": "8.50+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "High-Speed",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/IYtgfv",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.26 (8.50+)",
+          "url": "https://ouo.io/YmowB4",
+          "color": "blue"
+        },
+        {
+          "label": "3DLC",
+          "url": "https://ouo.io/HvNycl",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "croc-legend-of-the-gobbos-platinum-ps4",
+    "console": "ps4",
+    "title": "Croc Legend of the Gobbos Platinum Edition",
+    "genre": "Plataformas - Aventura - Remaster",
+    "developer": "Titanium Studios - Big Boat Interactive",
+    "publisher": "Argonaut Games",
+    "year": 2025,
+    "rating": 0,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#16a34a",
+    "cover": "http://imgfz.com/i/sXMy6CS.png",
+    "trailer": "o4No89pk-fM",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043940/78795944b784dc6a190d3e9b71263ac55f0e4fbe/ss_78795944b784dc6a190d3e9b71263ac55f0e4fbe.1920x1080.jpg?t=1793378251",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043940/655be3caeb90a461a8ae6992794cce5a038e9d30/ss_655be3caeb90a461a8ae6992794cce5a038e9d30.1920x1080.jpg?t=1793378251",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043940/7a3f455cdc5709a392be392ba8e075e0c62bd7a8/ss_7a3f455cdc5709a392be392ba8e075e0c62bd7a8.1920x1080.jpg?t=1793378251"
+    ],
+    "description": {
+      "es": "El clásico de plataformas de 1997 regresa remasterizado: salta, pisa y recolecta gemas mientras rescatas a los Gobbos de la garra del Barón Dante. Gráficos renovados y contenido adicional.",
+      "en": "The 1997 platforming classic returns remastered: jump, stomp and collect gems while rescuing the Gobbos from Baron Dante. Revamped visuals and extra content."
+    },
+    "download": {
+      "region": "CUSA54933 - USA",
+      "size": "9.53GB",
+      "format": "pkg",
+      "update": "1.0.1",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "CyB1K",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/KnGLC8c",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.0.1",
+          "url": "https://www.mediafire.com/folder/91ejwaweufhdc/CROUP",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sonic-x-shadow-generations-ps4",
+    "console": "ps4",
+    "title": "SONIC X SHADOW GENERATIONS",
+    "genre": "Acción - Plataformas - Velocidad",
+    "developer": "Sonic Team",
+    "publisher": "SEGA",
+    "year": 2024,
+    "rating": 80,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#1d4ed8",
+    "cover": "http://imgfz.com/i/asrCARS.png",
+    "trailer": "yzK7gQWDnRk",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2513280/ss_999691f6eaf3e893e98e5ca7220956ed5545a61f.1920x1080.jpg?t=1783614811",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2513280/ss_b9efdacae3f0cb1df10206b61e1e9b94d61bdf8e.1920x1080.jpg?t=1783614811",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2513280/ss_44984a7484025e3fd66ece25467fed03b6d59ce4.1920x1080.jpg?t=1783614811"
+    ],
+    "description": {
+      "es": "Dos aventuras en un solo juego: Sonic Generations revisitado con Sonic y Shadow Generations, la nueva campaña protagonizada por Shadow, con sus poderes del caos y niveles icónicos. Incluye 5 DLC.",
+      "en": "Two adventures in one game: Sonic Generations revisited with Sonic, and Shadow Generations, a new campaign starring the Dark Spawn with Chaos powers and iconic stages. Includes 5 DLC."
+    },
+    "download": {
+      "region": "CUSA44422 - USA",
+      "size": "28.7GB",
+      "format": "pkg",
+      "update": "1.10",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Castellano)",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/Ju1EW7",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.10 (5.05+)",
+          "url": "https://ouo.io/woH2FVp",
+          "color": "blue"
+        },
+        {
+          "label": "5DLC",
+          "url": "https://ouo.io/G6HfQ9",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "until-dawn-ps4",
+    "console": "ps4",
+    "title": "Until Dawn",
+    "genre": "Aventura - Terror - Drama",
+    "developer": "Supermassive Games",
+    "publisher": "Sony Computer Entertainment",
+    "year": 2015,
+    "rating": 79,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#7f1d1d",
+    "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/24327-1.jpg",
+    "trailer": "3NcF7EOnjow",
+    "screenshots": [
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sc5j99.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sc5j9a.jpg",
+      "https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sc5j9b.jpg"
+    ],
+    "description": {
+      "es": "Aventura de terror interactiva protagonizada por ocho amigos en una cabaña aislada. Cada decisión cambia la historia y puede salvar o condenar a los personajes: explora, investiga y sobrevive hasta el amanecer.",
+      "en": "An interactive horror adventure starring eight friends at a remote lodge. Every choice changes the story and can save or doom the characters: explore, investigate and survive until dawn."
+    },
+    "download": {
+      "region": "CUSA03589 - USA",
+      "size": "42.6GB",
+      "format": "pkg",
+      "update": "1.03",
+      "fw": "",
+      "languages": "Inglés - Latino",
+      "thanks": "",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/7ts5HH",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.03",
+          "url": "https://ouo.io/0gUp2W",
+          "color": "blue"
+        },
+        {
+          "label": "DLC",
+          "url": "https://www.mediafire.com/file/78j7ql4duwsh422/CUSA00359DLC%255BZona_Gamer%255D.rar/file",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "resident-evil-village-gold-edition-ps4",
+    "console": "ps4",
+    "title": "Resident Evil Village Gold Edition",
+    "genre": "Terror - Supervivencia - Acción",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "Capcom",
+    "year": 2021,
+    "rating": 84,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#9f1239",
+    "cover": "http://imgfz.com/i/t2SGMI0.png",
+    "trailer": "sit1y2cF-pU",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_d25704b01be292d1337df4fea0fba2aab322b58a.1920x1080.jpg?t=1776927117",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_8113ec993ec474055c4cdce5ee86f91f7cf6663f.1920x1080.jpg?t=1776927117",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_50283e6df9d2f3f24ff4a1a36a94ae307e21cee8.1920x1080.jpg?t=1776927117"
+    ],
+    "description": {
+      "es": "Ethan Winters busca a su hija secuestrada en una misteriosa aldea europea habitada por criaturas mutantes. Gold Edition con la campaña adicional Winters’ Finale, el modo Mercenarios y 6 DLC.",
+      "en": "Ethan Winters searches for his kidnapped daughter in a mysterious European village inhabited by mutant creatures. Gold Edition with the extra Winters’ Finale campaign, Mercenaries mode and 6 DLC."
+    },
+    "download": {
+      "region": "CUSA18008 - EUR",
+      "size": "34.8GB",
+      "format": "pkg",
+      "update": "1.14",
+      "fw": "5.05+",
+      "languages": "Multi idioma (Latino)",
+      "thanks": "Opoisso893/Golemnigth",
+      "mod": "",
+      "links": [
+        {
+          "label": "Juego",
+          "url": "https://ouo.io/n8CZQC",
+          "color": "blue"
+        },
+        {
+          "label": "Update 1.14 (5.05+)",
+          "url": "https://ouo.io/leHwnx",
+          "color": "blue"
+        },
+        {
+          "label": "6DLC",
+          "url": "https://ouo.io/Pz8TGB",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-escapists-ps4",
+    "console": "ps4",
+    "title": "The Escapists",
+    "genre": "Estrategia - Simulación - Carcelario",
+    "developer": "Mouldy Toof Studios",
+    "publisher": "Team17",
+    "year": 2015,
+    "rating": 74,
+    "players": "1",
+    "cooperativo": "No",
+    "multijugador": "No",
+    "color": "#0f766e",
+    "cover": "http://imgfz.com/i/pri3EwR.jpeg",
+    "trailer": "wbp4JFZXfB4",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298630/ss_dc11dfa50054ecb10da0ef8d3fd2b43a45df34c7.1920x1080.jpg?t=1791478016",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298630/ss_ec12843a248ba9b0ad59a6e97b678c8f69fcddda.1920x1080.jpg?t=1791478016",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298630/ss_b9a6090b7b3e723be08134c00ba19dcb05e75df5.1920x1080.jpg?t=1791478016"
+    ],
+    "description": {
+      "es": "Simulador carcelario en el que debes estudiar la rutina de guardias y reclusos, fabricar herramientas, cavar túneles y planear tu fuga sin levantar sospechas. Incluye update 1.06 y 4 DLC.",
+      "en": "A prison simulation in which you study the routine of guards and inmates, craft tools, dig tunnels and plan your escape without raising suspicion. Includes update 1.06 and 4 DLC."
+    },
+    "download": {
+      "region": "CUSA01857 - USA",
+      "size": "318MB",
+      "format": "pkg",
+      "update": "1.06 - 4DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "Opoisso893/Golemnight",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/ivzF1RQ",
+          "color": "blue"
+        }
+      ]
+    }
+  },
+  {
+    "id": "the-escapists-2-ps4",
+    "console": "ps4",
+    "title": "The Escapists 2",
+    "genre": "Estrategia - Simulación - Carcelario",
+    "developer": "Team17 - Mouldy Toof Studios",
+    "publisher": "Team17",
+    "year": 2017,
+    "rating": 75,
+    "players": "1-4",
+    "cooperativo": "Local y online",
+    "multijugador": "Local y online",
+    "color": "#0e7490",
+    "cover": "http://imgfz.com/i/MmbNAfk.jpeg",
+    "trailer": "-EeZZO8haZE",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/ss_4c06641e551c04e72abb54d3c190233ff02c05ca.1920x1080.jpg?t=1791478007",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/ss_75c9e0c479c4fb6cc2a40686685ed26d0488f332.1920x1080.jpg?t=1791478007",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/ss_2bb6149a553bbc28c85a624f7628f18fb1573860.1920x1080.jpg?t=1791478007"
+    ],
+    "description": {
+      "es": "La secuela de The Escapists con más prisiones, más formas de escapar y fuga cooperativa para hasta cuatro jugadores en local u online. Incluye update 1.11 y 4 DLC.",
+      "en": "The sequel to The Escapists with more prisons, more ways to escape and co-op breakouts for up to four players locally or online. Includes update 1.11 and 4 DLC."
+    },
+    "download": {
+      "region": "CUSA06267 - USA",
+      "size": "2.81GB",
+      "format": "pkg",
+      "update": "1.11 - 4DLC",
+      "fw": "",
+      "languages": "Multi idioma",
+      "thanks": "KilikaDenn13 & TKJ13",
+      "mod": "",
+      "links": [
+        {
+          "label": "Mediafire",
+          "url": "https://ouo.io/qgc5Q6m",
           "color": "blue"
         }
       ]
